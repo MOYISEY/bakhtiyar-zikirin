@@ -58,7 +58,7 @@ export function initScene() {
   controls.rotateSpeed = .65;
   // One finger keeps the page scrollable on touch screens. Mouse drag and keyboard rotate the scene.
   controls.touches.ONE = null as unknown as THREE.TOUCH;
-  controls.touches.TWO = THREE.TOUCH.ROTATE;
+  controls.touches.TWO = THREE.TOUCH.DOLLY_ROTATE;
   // OrbitControls sets inline touch-action:none; restore native vertical scrolling.
   canvas.style.touchAction = 'pan-y';
   let paused = preference.matches;
