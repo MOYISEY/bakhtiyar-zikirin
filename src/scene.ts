@@ -2,6 +2,7 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { showSceneFallback } from './fallback';
+import { darkTheme, t } from './preferences';
 
 type Layer = 'interface' | 'logic' | 'data';
 type View = 'solid' | 'explode' | 'wire';
@@ -60,35 +61,41 @@ export function initScene() {
   boardGeometry.rotateX(-Math.PI/2);
   const screwGeometry = own(new THREE.CylinderGeometry(.055,.055,.065,12));
   const layers = {} as Record<Layer, { group: THREE.Group; edge: THREE.LineSegments; material: THREE.MeshStandardMaterial }>;
+  const repaintSurfaces: (() => void)[] = [];
 
   function addSurface(group: THREE.Group, layer: Layer) {
     const drawing = document.createElement('canvas'); drawing.width = 1024; drawing.height = 640;
     const ctx = drawing.getContext('2d')!;
-    ctx.fillStyle = layer === 'interface' ? '#fffef8' : layer === 'logic' ? '#23615b' : '#bdc8b4';
+    function paint() {
+    const dark = darkTheme();
+    ctx.fillStyle = layer === 'interface' ? (dark ? '#20382e' : '#fffef8') : layer === 'logic' ? (dark ? '#264d41' : '#23615b') : (dark ? '#38553e' : '#bdc8b4');
     ctx.fillRect(0,0,1024,640);
-    ctx.strokeStyle = layer === 'logic' ? '#518779' : '#a3b09f'; ctx.lineWidth=1;
+    ctx.strokeStyle = layer === 'logic' ? '#518779' : (dark ? '#58745f' : '#a3b09f'); ctx.lineWidth=1;
     for(let x=32;x<1024;x+=40){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,640);ctx.stroke();}
     for(let y=32;y<640;y+=40){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(1024,y);ctx.stroke();}
-    ctx.font='24px monospace'; ctx.fillStyle=layer==='logic'?'#f3f0e8':'#172223';
-    ctx.fillText(layer==='interface'?'01 / INTERFACE':layer==='logic'?'02 / APPLICATION LOGIC':'03 / DATA',40,52);
+    ctx.font='24px monospace'; ctx.fillStyle=layer==='logic'||dark?'#f3f0e8':'#172223';
+    ctx.fillText(t(layer==='interface'?'s019':layer==='logic'?'s018':'s017'),40,52);
     if(layer==='interface'){
-      ctx.fillStyle='#fffef8';ctx.fillRect(90,96,844,476);ctx.strokeStyle='#9dab99';ctx.strokeRect(90,96,844,476);
-      ctx.fillStyle='#e7ebdf';ctx.fillRect(90,96,844,42);
+      ctx.fillStyle=dark?'#172c23':'#fffef8';ctx.fillRect(90,96,844,476);ctx.strokeStyle='#9dab99';ctx.strokeRect(90,96,844,476);
+      ctx.fillStyle=dark?'#35523e':'#e7ebdf';ctx.fillRect(90,96,844,42);
       [0,1,2].forEach(i=>{ctx.fillStyle=i===0?'#da4d30':'#afbba9';ctx.beginPath();ctx.arc(112+i*22,117,5,0,Math.PI*2);ctx.fill();});
-      ctx.fillStyle='#172223';ctx.fillRect(130,194,430,24);ctx.fillRect(130,236,340,24);
+      ctx.fillStyle=dark?'#d5e4cb':'#172223';ctx.fillRect(130,194,430,24);ctx.fillRect(130,236,340,24);
       ctx.fillStyle='#9dab99';ctx.fillRect(130,287,370,7);ctx.fillRect(130,305,285,7);
       ctx.fillStyle='#da4d30';ctx.beginPath();ctx.arc(763,252,65,0,Math.PI*2);ctx.fill();
-      ctx.fillStyle='#23615b';ctx.fillRect(130,355,172,54);ctx.fillStyle='#fffef8';ctx.font='23px monospace';ctx.fillText('CLICK →',151,391);
-      for(let i=0;i<3;i++){ctx.fillStyle='#e7ebdf';ctx.fillRect(130+i*260,454,230,76);ctx.fillStyle='#a8b7a0';ctx.fillRect(150+i*260,474,100,6);}
+      ctx.fillStyle='#23615b';ctx.fillRect(130,355,200,54);ctx.fillStyle='#fffef8';ctx.font='23px monospace';ctx.fillText(t('surface.click'),145,391);
+      for(let i=0;i<3;i++){ctx.fillStyle=dark?'#35523e':'#e7ebdf';ctx.fillRect(130+i*260,454,230,76);ctx.fillStyle='#a8b7a0';ctx.fillRect(150+i*260,474,100,6);}
     } else if(layer==='logic') {
       ctx.strokeStyle='#b8ceb5';ctx.lineWidth=4;
       [[100,166,390,166],[635,166,900,166],[100,460,390,460],[635,460,900,460]].forEach(v=>{ctx.beginPath();ctx.moveTo(v[0],v[1]);ctx.lineTo(v[2],v[3]);ctx.stroke();});
-      ctx.font='30px monospace';ctx.fillStyle='#f3f0e8';ctx.fillText('API',90,138);ctx.fillText('STATE',758,138);ctx.fillText('RULES',90,504);ctx.fillText('RESPONSE',706,504);
+      ctx.font='28px monospace';ctx.fillStyle='#f3f0e8';ctx.fillText('API',90,138);ctx.fillText(t('surface.state'),700,138);ctx.fillText(t('surface.rules'),90,504);ctx.fillText(t('surface.response'),670,504);
     } else {
       ctx.strokeStyle='#637e65';ctx.lineWidth=4;ctx.beginPath();ctx.moveTo(170,330);ctx.lineTo(854,330);ctx.stroke();
-      ctx.font='24px monospace';ctx.fillStyle='#23615b';['ENTITIES','RELATIONS','STORAGE'].forEach((v,i)=>ctx.fillText(v,80+i*325,534));
+      ctx.font='24px monospace';ctx.fillStyle=dark?'#d9e7ce':'#23615b';['surface.entities','surface.relations','surface.storage'].forEach((v,i)=>ctx.fillText(t(v),80+i*325,534));
     }
+    }
+    paint();
     const texture = own(new THREE.CanvasTexture(drawing)); texture.colorSpace=THREE.SRGBColorSpace; texture.anisotropy=Math.min(4,renderer.capabilities.getMaxAnisotropy());
+    repaintSurfaces.push(() => { paint(); texture.needsUpdate = true; });
     const surface = new THREE.Mesh(own(new THREE.PlaneGeometry(4.35,2.6)),own(new THREE.MeshBasicMaterial({map:texture,side:THREE.DoubleSide})));
     surface.rotation.x=-Math.PI/2; surface.position.y=.101;group.add(surface);
   }
@@ -127,11 +134,11 @@ export function initScene() {
   let frame=0,previous=0,elapsed=0;
   const handlers=new AbortController();
   stopPendingWork=()=>{disposed=true;if(frame)cancelAnimationFrame(frame);frame=0;handlers.abort();};
-  function motionUI(){toggle.setAttribute('aria-pressed',String(paused));toggle.setAttribute('aria-label',paused?'Включить движение':'Остановить движение');toggle.textContent=paused?'▷':'Ⅱ';}
+  function motionUI(){toggle.setAttribute('aria-pressed',String(paused));toggle.setAttribute('aria-label',t(paused?'scene.resume':'s200'));toggle.textContent=paused?'▷':'Ⅱ';}
   function requestFrame(){dirty=true;if(!frame&&visible&&!document.hidden&&!disposed&&!suspended)frame=requestAnimationFrame(draw);}
   function appearance(){
     object.traverse(node=>{if(node instanceof THREE.Mesh&&node!==pulse)(Array.isArray(node.material)?node.material:[node.material]).forEach(material=>{if('wireframe' in material)(material as THREE.MeshBasicMaterial).wireframe=view==='wire';});});
-    (Object.keys(layers) as Layer[]).forEach(layer=>{const selected=layer===activeLayer;const line=layers[layer].edge.material as THREE.LineBasicMaterial;line.color.set(selected?0xda4d30:0x172223);line.opacity=selected?.8:.28;layers[layer].material.emissive.set(selected?0x5f2718:0x000000);layers[layer].material.emissiveIntensity=selected?.045:0;});
+    (Object.keys(layers) as Layer[]).forEach(layer=>{const selected=layer===activeLayer;const line=layers[layer].edge.material as THREE.LineBasicMaterial;line.color.set(selected?(darkTheme()?0xff9d81:0xda4d30):(darkTheme()?0xafc4b4:0x172223));line.opacity=selected?.8:.28;layers[layer].material.emissive.set(selected?0x5f2718:0x000000);layers[layer].material.emissiveIntensity=selected?.045:0;});
     requestFrame();
   }
   function draw(time:number){
@@ -155,6 +162,7 @@ export function initScene() {
   window.addEventListener('portfolio:mode',event=>{view=(event as CustomEvent<View>).detail;appearance();},{signal:handlers.signal});
   window.addEventListener('portfolio:layer',event=>{activeLayer=(event as CustomEvent<Layer>).detail;appearance();},{signal:handlers.signal});
   window.addEventListener('portfolio:signal',event=>{signalLayer=(event as CustomEvent<Layer|null>).detail;requestFrame();},{signal:handlers.signal});
+  window.addEventListener('portfolio:preferences',()=>{repaintSurfaces.forEach(repaint=>repaint());motionUI();appearance();},{signal:handlers.signal});
   canvas.addEventListener('keydown',event=>{const changes:Record<string,[number,number]>={ArrowLeft:[0,-.14],ArrowRight:[0,.14],ArrowUp:[-.14,0],ArrowDown:[.14,0]};if(event.key==='Home'){event.preventDefault();reset();}else if(changes[event.key]){event.preventDefault();object.rotation.x+=changes[event.key][0];object.rotation.y+=changes[event.key][1];requestFrame();}},{signal:handlers.signal});
   function size(){const {width,height}=viewport.getBoundingClientRect();if(!width||!height)return;renderer.setSize(width,height,false);camera.aspect=width/height;camera.updateProjectionMatrix();requestFrame();}
   const resize=new ResizeObserver(size);resources.add({dispose:()=>resize.disconnect()});resize.observe(viewport);size();
@@ -171,6 +179,6 @@ export function initScene() {
   window.addEventListener('pageshow',event=>{if(event.persisted){suspended=false;previous=0;requestFrame();}},{signal:handlers.signal});
   motionUI();appearance();canvas.hidden=false;canvas.tabIndex=0;
   document.querySelectorAll<HTMLElement>('[data-webgl-only]').forEach(element=>{element.hidden=false;});
-  document.querySelector('#scene-status')!.textContent='3D · мышь / два пальца / стрелки';viewport.classList.add('is-ready');requestFrame();
+  document.querySelector('#scene-status')!.setAttribute('data-scene-state','ready');document.querySelector('#scene-status')!.textContent=t('scene.ready');viewport.classList.add('is-ready');requestFrame();
   } catch { stopPendingWork(); release(); showSceneFallback(); }
 }

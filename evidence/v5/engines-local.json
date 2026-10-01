@@ -1,0 +1,48 @@
+{
+  "url": "http://127.0.0.1:5191/",
+  "checkedAt": "2026-10-01T22:59:17.425Z",
+  "scope": "Targeted Firefox and WebKit regression; no axe runs in these engines, no Safari/physical-device claim.",
+  "scenarios": [
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "language": "ru",
+      "theme": "light",
+      "name": "desktop",
+      "passed": true,
+      "errors": [],
+      "sceneState": "ready"
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "language": "kk",
+      "theme": "dark",
+      "name": "mobile",
+      "passed": true,
+      "errors": [],
+      "sceneState": "ready"
+    },
+    {
+      "engine": "webkit",
+      "browserVersion": "26.6",
+      "language": "ru",
+      "theme": "light",
+      "name": "desktop",
+      "passed": true,
+      "errors": [],
+      "sceneState": "ready"
+    },
+    {
+      "engine": "webkit",
+      "browserVersion": "26.6",
+      "language": "kk",
+      "theme": "dark",
+      "name": "mobile",
+      "passed": true,
+      "errors": [],
+      "sceneState": "ready"
+    }
+  ],
+  "passed": true
+}

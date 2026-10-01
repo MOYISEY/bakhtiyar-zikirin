@@ -1,0 +1,142 @@
+{
+  "url": "http://127.0.0.1:5191/",
+  "engine": "chromium",
+  "checkedAt": "2026-10-01T22:25:48.981Z",
+  "scope": "Six language/theme combinations in desktop and mobile viewport emulation. Directed browser interaction, DOM assertions, axe WCAG 2 AA; no physical phone, Safari or screen-reader claim.",
+  "scenarios": [
+    {
+      "language": "ru",
+      "theme": "light",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "actions": [],
+      "errors": [],
+      "passed": false,
+      "failure": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   {\n+     actual: 'Включить движение',\n+     attr: 'aria-label',\n+     key: 's200'\n+   }\n+ ]\n- []\n"
+    },
+    {
+      "language": "ru",
+      "theme": "light",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "actions": [],
+      "errors": [],
+      "passed": false,
+      "failure": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   {\n+     actual: 'Включить движение',\n+     attr: 'aria-label',\n+     key: 's200'\n+   }\n+ ]\n- []\n"
+    },
+    {
+      "language": "ru",
+      "theme": "dark",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "actions": [],
+      "errors": [],
+      "passed": false,
+      "failure": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   {\n+     actual: 'Включить движение',\n+     attr: 'aria-label',\n+     key: 's200'\n+   }\n+ ]\n- []\n"
+    },
+    {
+      "language": "ru",
+      "theme": "dark",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "actions": [],
+      "errors": [],
+      "passed": false,
+      "failure": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   {\n+     actual: 'Включить движение',\n+     attr: 'aria-label',\n+     key: 's200'\n+   }\n+ ]\n- []\n"
+    },
+    {
+      "language": "kk",
+      "theme": "light",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "actions": [],
+      "errors": [],
+      "passed": false,
+      "failure": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   {\n+     actual: 'Қозғалысты жалғастыру',\n+     attr: 'aria-label',\n+     key: 's200'\n+   }\n+ ]\n- []\n"
+    },
+    {
+      "language": "kk",
+      "theme": "light",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "actions": [],
+      "errors": [],
+      "passed": false,
+      "failure": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   {\n+     actual: 'Қозғалысты жалғастыру',\n+     attr: 'aria-label',\n+     key: 's200'\n+   }\n+ ]\n- []\n"
+    },
+    {
+      "language": "kk",
+      "theme": "dark",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "actions": [],
+      "errors": [],
+      "passed": false,
+      "failure": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   {\n+     actual: 'Қозғалысты жалғастыру',\n+     attr: 'aria-label',\n+     key: 's200'\n+   }\n+ ]\n- []\n"
+    },
+    {
+      "language": "kk",
+      "theme": "dark",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "actions": [],
+      "errors": [],
+      "passed": false,
+      "failure": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   {\n+     actual: 'Қозғалысты жалғастыру',\n+     attr: 'aria-label',\n+     key: 's200'\n+   }\n+ ]\n- []\n"
+    },
+    {
+      "language": "en",
+      "theme": "light",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "actions": [],
+      "errors": [],
+      "passed": false,
+      "failure": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   {\n+     actual: 'Resume movement',\n+     attr: 'aria-label',\n+     key: 's200'\n+   }\n+ ]\n- []\n"
+    },
+    {
+      "language": "en",
+      "theme": "light",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "actions": [],
+      "errors": [],
+      "passed": false,
+      "failure": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   {\n+     actual: 'Resume movement',\n+     attr: 'aria-label',\n+     key: 's200'\n+   }\n+ ]\n- []\n"
+    },
+    {
+      "language": "en",
+      "theme": "dark",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "actions": [],
+      "errors": [],
+      "passed": false,
+      "failure": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   {\n+     actual: 'Resume movement',\n+     attr: 'aria-label',\n+     key: 's200'\n+   }\n+ ]\n- []\n"
+    },
+    {
+      "language": "en",
+      "theme": "dark",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "actions": [],
+      "errors": [],
+      "passed": false,
+      "failure": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   {\n+     actual: 'Resume movement',\n+     attr: 'aria-label',\n+     key: 's200'\n+   }\n+ ]\n- []\n"
+    }
+  ],
+  "browserVersion": "153.0.8010.12",
+  "passed": false
+}

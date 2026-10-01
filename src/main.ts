@@ -1,13 +1,12 @@
 import './style.css';
 import { showSceneFallback } from './fallback';
+import { initPreferences, t } from './preferences';
+
+initPreferences();
 
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
 const system = document.querySelector<HTMLElement>('#system')!;
-const layerDescriptions: Record<string, string> = {
-  interface: 'Компоненты, состояние и действия человека. Здесь начинается запрос.',
-  logic: 'Запросы, условия и проверка ответа. Здесь определяется поведение приложения.',
-  data: 'Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.',
-};
+const layerDescription = (layer: string) => t(({ interface: 's028', logic: 'layer.logic', data: 'layer.data' } as Record<string, string>)[layer]);
 const modeButtons = document.querySelectorAll<HTMLButtonElement>('[data-mode]');
 modeButtons.forEach(button => button.addEventListener('click', () => {
   system.dataset.view = button.dataset.mode;
@@ -19,38 +18,36 @@ layerButtons.forEach(button => button.addEventListener('click', () => {
   const layer = button.dataset.layer!;
   system.dataset.layer = layer;
   layerButtons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
-  document.querySelector('#layer-description')!.textContent = layerDescriptions[layer];
+  document.querySelector('#layer-description')!.textContent = layerDescription(layer);
   window.dispatchEvent(new CustomEvent('portfolio:layer', { detail: layer }));
 }));
 
-const briefSteps = [
-  { label: 'Интервью с клиентом', title: ['Сначала —', 'нужные вопросы.'], text: 'Цель сайта, аудитория, функции и ограничения. Ответы становятся исходными данными для ТЗ.', output: 'Идея клиента → ответы на вопросы' },
-  { label: 'Структурированные требования', title: ['Ответы становятся', 'документом.'], text: 'Результат интервью собирается в ТЗ. У команды появляется общее описание задачи вместо разрозненных сообщений.', output: 'Ответы → структурированное ТЗ' },
-  { label: 'Работа команды', title: ['Разные роли.', 'Один проект.'], text: 'Клиент, менеджер, разработчик и директор работают с проектом в своих разделах. Trello и Resend связывают задачи и уведомления.', output: 'ТЗ → работа команды по ролям' },
+const briefSteps = () => [
+  { label: t('s084'), title: [t('s085'), t('s086')], text: t('s087'), output: t('s089') },
+  { label: t('brief.label1'), title: [t('brief.title1a'), t('brief.title1b')], text: t('brief.text1'), output: t('brief.output1') },
+  { label: t('brief.label2'), title: [t('brief.title2a'), t('brief.title2b')], text: t('brief.text2'), output: t('brief.output2') },
 ];
+let briefIndex = 0;
 const briefButtons = document.querySelectorAll<HTMLButtonElement>('[data-step]');
-briefButtons.forEach(button => button.addEventListener('click', () => {
-  const index = Number(button.dataset.step);
-  const step = briefSteps[index];
+function renderBrief(index: number) {
+  const step = briefSteps()[index];
   if (!step) return;
-  briefButtons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+  briefIndex = index;
+  briefButtons.forEach(item => item.setAttribute('aria-pressed', String(Number(item.dataset.step) === index)));
   const content = document.querySelector('#brief-content')!;
   content.querySelector('.brief-label')!.textContent = step.label;
   content.querySelector('h4')!.replaceChildren(document.createTextNode(step.title[0]), document.createElement('br'), document.createTextNode(step.title[1]));
   content.querySelector('p')!.textContent = step.text;
   document.querySelector('#brief-output-text')!.textContent = step.output;
   document.querySelectorAll('.route-node').forEach((node, position) => node.classList.toggle('is-current', position === index));
-}));
+}
+briefButtons.forEach(button => button.addEventListener('click', () => renderBrief(Number(button.dataset.step))));
 
 const signalButton = document.querySelector<HTMLButtonElement>('#signal-start')!;
 const signalStatus = document.querySelector('#signal-status')!;
 let signalTimer: ReturnType<typeof setTimeout> | undefined;
-const signalStages = [
-  { layer: 'interface', text: '01 / Человек нажимает кнопку в интерфейсе.' },
-  { layer: 'logic', text: '02 / Логика формирует запрос и проверяет условия.' },
-  { layer: 'data', text: '03 / Данные читаются или изменяются.' },
-  { layer: 'interface', text: '04 / Ответ обновляет состояние интерфейса. Путь завершён.' },
-];
+const signalStages = ['interface', 'logic', 'data', 'interface'];
+let lastSignalStage: number | undefined;
 function endSignal() {
   if (signalTimer) clearTimeout(signalTimer);
   signalTimer = undefined;
@@ -65,9 +62,10 @@ signalButton.addEventListener('click', () => {
   function stage() {
     const current = signalStages[index];
     if (!current) { endSignal(); return; }
-    system.dataset.signal = current.layer;
-    signalStatus.textContent = current.text;
-    window.dispatchEvent(new CustomEvent('portfolio:signal', { detail: current.layer }));
+    system.dataset.signal = current;
+    lastSignalStage = index;
+    signalStatus.textContent = t('signal.' + index);
+    window.dispatchEvent(new CustomEvent('portfolio:signal', { detail: current }));
     index++;
     if (reducedMotion.matches) {
       if (index < signalStages.length) stage();
@@ -100,6 +98,13 @@ function updateMotionPreference() {
 }
 updateMotionPreference();
 reducedMotion.addEventListener('change', updateMotionPreference);
+window.addEventListener('portfolio:preferences', () => {
+  document.querySelector('#layer-description')!.textContent = layerDescription(system.dataset.layer ?? 'interface');
+  renderBrief(briefIndex);
+  if (lastSignalStage !== undefined) signalStatus.textContent = t('signal.' + lastSignalStage);
+  const status = document.querySelector<HTMLElement>('#scene-status')!;
+  status.textContent = t(status.dataset.sceneState === 'ready' ? 'scene.ready' : status.dataset.sceneState === 'fallback' ? 'scene.fallback' : 's024');
+});
 document.querySelectorAll<HTMLButtonElement>('[data-js-only]').forEach(button => { button.disabled = false; });
 
 const loadScene = () => import('./scene').then(({ initScene }) => initScene()).catch(showSceneFallback);

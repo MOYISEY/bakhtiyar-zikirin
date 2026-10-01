@@ -1,0 +1,199 @@
+{
+  "checkedAt": "2026-10-01T22:35:02.171Z",
+  "method": "WCAG relative luminance from actual design tokens; complements axe rendered text checks and directed hover/focus/disabled-state inspection.",
+  "themes": [
+    {
+      "theme": "light",
+      "checks": [
+        {
+          "foreground": "ink",
+          "background": "paper",
+          "min": 4.5,
+          "ratio": 14.3,
+          "passed": true
+        },
+        {
+          "foreground": "muted",
+          "background": "paper",
+          "min": 4.5,
+          "ratio": 5.22,
+          "passed": true
+        },
+        {
+          "foreground": "teal",
+          "background": "paper",
+          "min": 4.5,
+          "ratio": 6.29,
+          "passed": true
+        },
+        {
+          "foreground": "red",
+          "background": "paper",
+          "min": 4.5,
+          "ratio": 4.84,
+          "passed": true
+        },
+        {
+          "foreground": "panel-muted",
+          "background": "panel",
+          "min": 4.5,
+          "ratio": 5.56,
+          "passed": true
+        },
+        {
+          "foreground": "contact-muted",
+          "background": "contact",
+          "min": 4.5,
+          "ratio": 5.64,
+          "passed": true
+        },
+        {
+          "foreground": "entity-muted",
+          "background": "entity-bg",
+          "min": 4.5,
+          "ratio": 5.18,
+          "passed": true
+        },
+        {
+          "foreground": "entity-card-ink",
+          "background": "entity-card",
+          "min": 4.5,
+          "ratio": 12.13,
+          "passed": true
+        },
+        {
+          "foreground": "muted",
+          "background": "surface",
+          "min": 4.5,
+          "ratio": 4.99,
+          "passed": true
+        },
+        {
+          "foreground": "ink",
+          "background": "hover",
+          "min": 4.5,
+          "ratio": 12.07,
+          "passed": true
+        },
+        {
+          "foreground": "paper",
+          "background": "teal",
+          "min": 4.5,
+          "ratio": 6.29,
+          "passed": true
+        },
+        {
+          "foreground": "red",
+          "background": "surface",
+          "min": 3,
+          "ratio": 4.63,
+          "passed": true
+        },
+        {
+          "foreground": "red",
+          "background": "paper",
+          "min": 3,
+          "ratio": 4.84,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "checks": [
+        {
+          "foreground": "ink",
+          "background": "paper",
+          "min": 4.5,
+          "ratio": 15.32,
+          "passed": true
+        },
+        {
+          "foreground": "muted",
+          "background": "paper",
+          "min": 4.5,
+          "ratio": 9.11,
+          "passed": true
+        },
+        {
+          "foreground": "teal",
+          "background": "paper",
+          "min": 4.5,
+          "ratio": 10.34,
+          "passed": true
+        },
+        {
+          "foreground": "red",
+          "background": "paper",
+          "min": 4.5,
+          "ratio": 8.68,
+          "passed": true
+        },
+        {
+          "foreground": "panel-muted",
+          "background": "panel",
+          "min": 4.5,
+          "ratio": 7.25,
+          "passed": true
+        },
+        {
+          "foreground": "contact-muted",
+          "background": "contact",
+          "min": 4.5,
+          "ratio": 8.33,
+          "passed": true
+        },
+        {
+          "foreground": "entity-muted",
+          "background": "entity-bg",
+          "min": 4.5,
+          "ratio": 7.41,
+          "passed": true
+        },
+        {
+          "foreground": "entity-card-ink",
+          "background": "entity-card",
+          "min": 4.5,
+          "ratio": 6.63,
+          "passed": true
+        },
+        {
+          "foreground": "muted",
+          "background": "surface",
+          "min": 4.5,
+          "ratio": 7.93,
+          "passed": true
+        },
+        {
+          "foreground": "ink",
+          "background": "hover",
+          "min": 4.5,
+          "ratio": 9.69,
+          "passed": true
+        },
+        {
+          "foreground": "paper",
+          "background": "teal",
+          "min": 4.5,
+          "ratio": 10.34,
+          "passed": true
+        },
+        {
+          "foreground": "red",
+          "background": "surface",
+          "min": 3,
+          "ratio": 7.55,
+          "passed": true
+        },
+        {
+          "foreground": "red",
+          "background": "paper",
+          "min": 3,
+          "ratio": 8.68,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "passed": true
+}

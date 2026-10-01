@@ -1,0 +1,238 @@
+{
+  "url": "http://127.0.0.1:5191/",
+  "engine": "chromium",
+  "checkedAt": "2026-10-01T22:26:59.613Z",
+  "scope": "Six language/theme combinations in desktop and mobile viewport emulation. Directed browser interaction, DOM assertions, axe WCAG 2 AA; no physical phone, Safari or screen-reader claim.",
+  "scenarios": [
+    {
+      "language": "ru",
+      "theme": "light",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes"
+      ],
+      "errors": [],
+      "passed": false,
+      "sceneState": "ready",
+      "failure": "Please use browser.newContext()\n Please check out https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/error-handling.md"
+    },
+    {
+      "language": "ru",
+      "theme": "light",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes"
+      ],
+      "errors": [],
+      "passed": false,
+      "sceneState": "ready",
+      "failure": "Please use browser.newContext()\n Please check out https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/error-handling.md"
+    },
+    {
+      "language": "ru",
+      "theme": "dark",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes"
+      ],
+      "errors": [],
+      "passed": false,
+      "sceneState": "ready",
+      "failure": "Please use browser.newContext()\n Please check out https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/error-handling.md"
+    },
+    {
+      "language": "ru",
+      "theme": "dark",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes"
+      ],
+      "errors": [],
+      "passed": false,
+      "sceneState": "ready",
+      "failure": "Please use browser.newContext()\n Please check out https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/error-handling.md"
+    },
+    {
+      "language": "kk",
+      "theme": "light",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes"
+      ],
+      "errors": [],
+      "passed": false,
+      "sceneState": "ready",
+      "failure": "Please use browser.newContext()\n Please check out https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/error-handling.md"
+    },
+    {
+      "language": "kk",
+      "theme": "light",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes"
+      ],
+      "errors": [],
+      "passed": false,
+      "sceneState": "ready",
+      "failure": "Please use browser.newContext()\n Please check out https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/error-handling.md"
+    },
+    {
+      "language": "kk",
+      "theme": "dark",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes"
+      ],
+      "errors": [],
+      "passed": false,
+      "sceneState": "ready",
+      "failure": "Please use browser.newContext()\n Please check out https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/error-handling.md"
+    },
+    {
+      "language": "kk",
+      "theme": "dark",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes"
+      ],
+      "errors": [],
+      "passed": false,
+      "sceneState": "ready",
+      "failure": "Please use browser.newContext()\n Please check out https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/error-handling.md"
+    },
+    {
+      "language": "en",
+      "theme": "light",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes"
+      ],
+      "errors": [],
+      "passed": false,
+      "sceneState": "ready",
+      "failure": "Please use browser.newContext()\n Please check out https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/error-handling.md"
+    },
+    {
+      "language": "en",
+      "theme": "light",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes"
+      ],
+      "errors": [],
+      "passed": false,
+      "sceneState": "ready",
+      "failure": "Please use browser.newContext()\n Please check out https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/error-handling.md"
+    },
+    {
+      "language": "en",
+      "theme": "dark",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes"
+      ],
+      "errors": [],
+      "passed": false,
+      "sceneState": "ready",
+      "failure": "Please use browser.newContext()\n Please check out https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/error-handling.md"
+    },
+    {
+      "language": "en",
+      "theme": "dark",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes"
+      ],
+      "errors": [],
+      "passed": false,
+      "sceneState": "ready",
+      "failure": "Please use browser.newContext()\n Please check out https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/error-handling.md"
+    }
+  ],
+  "browserVersion": "153.0.8010.12",
+  "passed": false
+}

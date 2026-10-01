@@ -1,0 +1,220 @@
+{
+  "url": "http://127.0.0.1:5191/",
+  "checkedAt": "2026-10-01T22:54:15.838Z",
+  "scenarios": [
+    {
+      "name": "2d-ru-light",
+      "passed": true,
+      "violations": []
+    },
+    {
+      "name": "2d-ru-dark",
+      "passed": true,
+      "violations": []
+    },
+    {
+      "name": "2d-kk-light",
+      "passed": true,
+      "violations": []
+    },
+    {
+      "name": "2d-kk-dark",
+      "passed": true,
+      "violations": []
+    },
+    {
+      "name": "2d-en-light",
+      "passed": true,
+      "violations": []
+    },
+    {
+      "name": "2d-en-dark",
+      "passed": true,
+      "violations": []
+    },
+    {
+      "name": "no-js-light",
+      "passed": true,
+      "paper": "#f3f0e8"
+    },
+    {
+      "name": "no-js-dark",
+      "passed": true,
+      "paper": "#121b1a"
+    },
+    {
+      "name": "system-follow-explicit-override",
+      "passed": true
+    },
+    {
+      "name": "storage-blocked",
+      "passed": true
+    },
+    {
+      "name": "normal-motion-disabled-state",
+      "passed": true,
+      "disabledStyle": {
+        "color": "rgb(89, 103, 95)",
+        "background": "rgb(235, 236, 226)",
+        "opacity": "1",
+        "border": "rgb(200, 206, 195)"
+      },
+      "darkDisabledStyle": {
+        "color": "rgb(174, 191, 179)",
+        "background": "rgb(27, 40, 36)",
+        "opacity": "1",
+        "border": "rgb(67, 86, 76)"
+      },
+      "states": [
+        {
+          "selector": "#language-select",
+          "hover": {
+            "color": "rgb(237, 241, 232)",
+            "background": "rgb(18, 27, 26)",
+            "border": "rgb(157, 210, 188)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": null,
+            "focused": true
+          }
+        },
+        {
+          "selector": "#theme-select",
+          "hover": {
+            "color": "rgb(237, 241, 232)",
+            "background": "rgb(18, 27, 26)",
+            "border": "rgb(157, 210, 188)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": null,
+            "focused": true
+          }
+        },
+        {
+          "selector": "[data-mode=explode]",
+          "hover": {
+            "color": "rgb(18, 27, 26)",
+            "background": "rgb(237, 241, 232)",
+            "border": "rgb(18, 27, 26)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": "true",
+            "focused": true
+          }
+        },
+        {
+          "selector": "[data-mode=wire]",
+          "hover": {
+            "color": "rgb(237, 241, 232)",
+            "background": "rgb(44, 64, 54)",
+            "border": "rgb(237, 241, 232)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": "false",
+            "focused": true
+          }
+        },
+        {
+          "selector": "button[data-layer=interface]",
+          "hover": {
+            "color": "rgb(157, 210, 188)",
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "rgb(157, 210, 188)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": "true",
+            "focused": true
+          }
+        },
+        {
+          "selector": "button[data-layer=logic]",
+          "hover": {
+            "color": "rgb(174, 191, 179)",
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "rgb(174, 191, 179) rgb(174, 191, 179) rgba(0, 0, 0, 0)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": "false",
+            "focused": true
+          }
+        },
+        {
+          "selector": "#rowline .primary-link",
+          "hover": {
+            "color": "rgb(18, 27, 26)",
+            "background": "rgb(157, 210, 188)",
+            "border": "rgb(157, 210, 188)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": null,
+            "focused": true
+          }
+        },
+        {
+          "selector": "#atyrau .primary-link",
+          "hover": {
+            "color": "rgb(18, 27, 26)",
+            "background": "rgb(237, 241, 232)",
+            "border": "rgb(157, 210, 188)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": null,
+            "focused": true
+          }
+        },
+        {
+          "selector": "#hobby .primary-link",
+          "hover": {
+            "color": "rgb(18, 27, 26)",
+            "background": "rgb(237, 241, 232)",
+            "border": "rgb(237, 241, 232)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": null,
+            "focused": true
+          }
+        },
+        {
+          "selector": ".resume-link",
+          "hover": {
+            "color": "rgb(18, 27, 26)",
+            "background": "rgb(237, 241, 232)",
+            "border": "rgb(237, 241, 232)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": null,
+            "focused": true
+          }
+        },
+        {
+          "selector": ".email-link",
+          "hover": {
+            "color": "rgb(157, 210, 188)",
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "rgb(157, 210, 188)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": null,
+            "focused": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "module-failure-resets-language-pending",
+      "passed": true
+    }
+  ],
+  "passed": true
+}
