@@ -1,0 +1,158 @@
+{
+  "url": "http://127.0.0.1:5191/",
+  "checkedAt": "2026-10-01T21:41:11.879Z",
+  "scope": "Portfolio integration only. Rowline product unit/E2E/audit matrix is not repeated here.",
+  "scenarios": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "textSizePercent": 100,
+      "errors": [],
+      "links": [
+        {
+          "expected": "https://moyisey.github.io/rowline/",
+          "actual": "https://moyisey.github.io/rowline/",
+          "title": "Rowline — CSV, готовый к импорту",
+          "openerIsNull": true
+        },
+        {
+          "expected": "https://github.com/MOYISEY/rowline",
+          "actual": "https://github.com/MOYISEY/rowline",
+          "title": "GitHub - MOYISEY/rowline: Local CSV import preparation. Reversible cleanup, validation, rejection reports and reusable recipes. Built by Bakhtiyar Zikirin. · GitHub",
+          "openerIsNull": true
+        },
+        {
+          "expected": "https://github.com/MOYISEY/rowline/blob/main/QA.md",
+          "actual": "https://github.com/MOYISEY/rowline/blob/main/QA.md",
+          "title": "rowline/QA.md at main · MOYISEY/rowline · GitHub",
+          "openerIsNull": true
+        }
+      ],
+      "image": {
+        "src": "http://127.0.0.1:5191/projects/rowline-desktop.png",
+        "width": 1440,
+        "height": 1303
+      },
+      "demoButtons": [
+        "Как это работает",
+        "Добавить правило",
+        "Скачать рецепт",
+        "Импортировать рецепт",
+        "Сохранить здесь",
+        "Загрузить",
+        "Экспорт0",
+        "Загрузить CSV",
+        "Выбрать файл",
+        "Вставить CSV",
+        "Открыть пример",
+        "Восстановить из резервной копии",
+        "Проблемы 0",
+        "Колонка",
+        "Запись"
+      ],
+      "passed": true
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "textSizePercent": 100,
+      "errors": [],
+      "links": [
+        {
+          "expected": "https://moyisey.github.io/rowline/",
+          "actual": "https://moyisey.github.io/rowline/",
+          "title": "Rowline — CSV, готовый к импорту",
+          "openerIsNull": true
+        },
+        {
+          "expected": "https://github.com/MOYISEY/rowline",
+          "actual": "https://github.com/MOYISEY/rowline",
+          "title": "GitHub - MOYISEY/rowline: Local CSV import preparation. Reversible cleanup, validation, rejection reports and reusable recipes. Built by Bakhtiyar Zikirin. · GitHub",
+          "openerIsNull": true
+        },
+        {
+          "expected": "https://github.com/MOYISEY/rowline/blob/main/QA.md",
+          "actual": "https://github.com/MOYISEY/rowline/blob/main/QA.md",
+          "title": "rowline/QA.md at main · MOYISEY/rowline · GitHub",
+          "openerIsNull": true
+        }
+      ],
+      "image": {
+        "src": "http://127.0.0.1:5191/projects/rowline-mobile.png",
+        "width": 390,
+        "height": 2648
+      },
+      "demoButtons": [
+        "Как это работает",
+        "Добавить правило",
+        "Скачать рецепт",
+        "Импортировать рецепт",
+        "Сохранить здесь",
+        "Загрузить",
+        "Экспорт0",
+        "Загрузить CSV",
+        "Выбрать файл",
+        "Вставить CSV",
+        "Открыть пример",
+        "Восстановить из резервной копии",
+        "Проблемы 0",
+        "Колонка",
+        "Запись"
+      ],
+      "passed": true
+    },
+    {
+      "name": "reflow",
+      "width": 320,
+      "height": 720,
+      "textSizePercent": 200,
+      "errors": [],
+      "links": [
+        {
+          "expected": "https://moyisey.github.io/rowline/",
+          "actual": "https://moyisey.github.io/rowline/",
+          "title": "Rowline — CSV, готовый к импорту",
+          "openerIsNull": true
+        },
+        {
+          "expected": "https://github.com/MOYISEY/rowline",
+          "actual": "https://github.com/MOYISEY/rowline",
+          "title": "GitHub - MOYISEY/rowline: Local CSV import preparation. Reversible cleanup, validation, rejection reports and reusable recipes. Built by Bakhtiyar Zikirin. · GitHub",
+          "openerIsNull": true
+        },
+        {
+          "expected": "https://github.com/MOYISEY/rowline/blob/main/QA.md",
+          "actual": "https://github.com/MOYISEY/rowline/blob/main/QA.md",
+          "title": "rowline/QA.md at main · MOYISEY/rowline · GitHub",
+          "openerIsNull": true
+        }
+      ],
+      "image": {
+        "src": "http://127.0.0.1:5191/projects/rowline-mobile.png",
+        "width": 390,
+        "height": 2648
+      },
+      "demoButtons": [
+        "Как это работает",
+        "Добавить правило",
+        "Скачать рецепт",
+        "Импортировать рецепт",
+        "Сохранить здесь",
+        "Загрузить",
+        "Экспорт0",
+        "Загрузить CSV",
+        "Выбрать файл",
+        "Вставить CSV",
+        "Открыть пример",
+        "Восстановить из резервной копии",
+        "Проблемы 0",
+        "Колонка",
+        "Запись"
+      ],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

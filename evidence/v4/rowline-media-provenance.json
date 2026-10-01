@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-01T21:36:53.041Z",
+  "repository": "https://github.com/MOYISEY/rowline",
+  "sourceCommit": "773ba67fdafe46c1cc4ada869636439e1f3d8991",
+  "sourceQA": "https://github.com/MOYISEY/rowline/blob/773ba67fdafe46c1cc4ada869636439e1f3d8991/QA.md",
+  "scope": "Unmodified PNG captures supplied by the project release; not newly captured by the portfolio agent.",
+  "captures": [
+    {
+      "device": "desktop",
+      "url": "https://raw.githubusercontent.com/MOYISEY/rowline/773ba67fdafe46c1cc4ada869636439e1f3d8991/media/rowline-desktop.png",
+      "status": 200,
+      "width": 1440,
+      "height": 1303,
+      "bytes": 211006,
+      "sha256": "075569832b8d6d9eac953b3163128d3c8ad0442eb6e26b1ff4a2f902e9d6ab9f"
+    },
+    {
+      "device": "mobile",
+      "url": "https://raw.githubusercontent.com/MOYISEY/rowline/773ba67fdafe46c1cc4ada869636439e1f3d8991/media/rowline-mobile.png",
+      "status": 200,
+      "width": 390,
+      "height": 2648,
+      "bytes": 160219,
+      "sha256": "2fd3560f40fdb9c157b07ebf20fea12fef3961948cf4ff916f6e45cfa545805b"
+    }
+  ]
+}

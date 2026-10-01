@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-10-01T21:44:27.331Z",
+  "focus": {
+    "activeElement": "",
+    "skipFocused": false,
+    "skipTop": -90,
+    "skipBottom": -37
+  },
+  "scope": "Native viewport after actual popup returns; full element capture may composite fixed elements differently."
+}
