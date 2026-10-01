@@ -1,0 +1,201 @@
+{
+  "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "checkedAt": "2026-10-01T19:20:45.854Z",
+  "actions": [
+    {
+      "label": "Repeated visible screenshot 0",
+      "before": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "scroll": {
+          "x": 0,
+          "y": 280
+        },
+        "cssBounds": {
+          "x": 64.796875,
+          "y": 297.828125,
+          "width": 1310.40625,
+          "height": 500
+        },
+        "drawingBuffer": {
+          "width": 1310,
+          "height": 500
+        },
+        "frames": 4,
+        "paused": "true"
+      },
+      "after": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "scroll": {
+          "x": 0,
+          "y": 280
+        },
+        "cssBounds": {
+          "x": 64.796875,
+          "y": 297.828125,
+          "width": 1310.40625,
+          "height": 500
+        },
+        "drawingBuffer": {
+          "width": 1310,
+          "height": 500
+        },
+        "frames": 4,
+        "paused": "true"
+      },
+      "hash": "a8d156d377f6df1990edb7380d2caff4d5dd1ba408c3fc8271ad17d9ac24f3c9"
+    },
+    {
+      "label": "Repeated visible screenshot 1",
+      "before": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "scroll": {
+          "x": 0,
+          "y": 280
+        },
+        "cssBounds": {
+          "x": 64.796875,
+          "y": 297.828125,
+          "width": 1310.40625,
+          "height": 500
+        },
+        "drawingBuffer": {
+          "width": 1310,
+          "height": 500
+        },
+        "frames": 4,
+        "paused": "true"
+      },
+      "after": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "scroll": {
+          "x": 0,
+          "y": 280
+        },
+        "cssBounds": {
+          "x": 64.796875,
+          "y": 297.828125,
+          "width": 1310.40625,
+          "height": 500
+        },
+        "drawingBuffer": {
+          "width": 1310,
+          "height": 500
+        },
+        "frames": 4,
+        "paused": "true"
+      },
+      "hash": "40d14da49aede6479456fa4f82864d9d3e510c3d3c43ac21775b56ad5e0de823"
+    },
+    {
+      "label": "Repeated visible screenshot 2",
+      "before": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "scroll": {
+          "x": 0,
+          "y": 280
+        },
+        "cssBounds": {
+          "x": 64.796875,
+          "y": 297.828125,
+          "width": 1310.40625,
+          "height": 500
+        },
+        "drawingBuffer": {
+          "width": 1310,
+          "height": 500
+        },
+        "frames": 4,
+        "paused": "true"
+      },
+      "after": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "scroll": {
+          "x": 0,
+          "y": 280
+        },
+        "cssBounds": {
+          "x": 64.796875,
+          "y": 297.828125,
+          "width": 1310.40625,
+          "height": 500
+        },
+        "drawingBuffer": {
+          "width": 1310,
+          "height": 500
+        },
+        "frames": 4,
+        "paused": "true"
+      },
+      "hash": "a8d156d377f6df1990edb7380d2caff4d5dd1ba408c3fc8271ad17d9ac24f3c9"
+    },
+    {
+      "label": "Repeated visible screenshot 3",
+      "before": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "scroll": {
+          "x": 0,
+          "y": 280
+        },
+        "cssBounds": {
+          "x": 64.796875,
+          "y": 297.828125,
+          "width": 1310.40625,
+          "height": 500
+        },
+        "drawingBuffer": {
+          "width": 1310,
+          "height": 500
+        },
+        "frames": 4,
+        "paused": "true"
+      },
+      "after": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "scroll": {
+          "x": 0,
+          "y": 280
+        },
+        "cssBounds": {
+          "x": 64.796875,
+          "y": 297.828125,
+          "width": 1310.40625,
+          "height": 500
+        },
+        "drawingBuffer": {
+          "width": 1310,
+          "height": 500
+        },
+        "frames": 4,
+        "paused": "true"
+      },
+      "hash": "40d14da49aede6479456fa4f82864d9d3e510c3d3c43ac21775b56ad5e0de823"
+    }
+  ],
+  "errors": [],
+  "passed": false,
+  "failure": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n2 !== 1\n\n    at file:///[project]/scripts/qa-live-canvas-return-v2.mjs:22:10"
+}

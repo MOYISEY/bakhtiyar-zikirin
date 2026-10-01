@@ -1,0 +1,10 @@
+{
+  "engine": "webkit",
+  "scenario": "no-webgl",
+  "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "checkedAt": "2026-10-01T19:12:46.503Z",
+  "actions": [
+    "2D modes, layers and signal remain functional"
+  ],
+  "passed": true
+}

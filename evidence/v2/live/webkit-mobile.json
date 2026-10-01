@@ -1,0 +1,105 @@
+{
+  "engine": "webkit",
+  "browserVersion": "26.6",
+  "device": "mobile",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "checkedAt": "2026-10-01T19:12:22.340Z",
+  "actions": [
+    {
+      "name": "Initial content and no horizontal overflow",
+      "value": true,
+      "time": "2026-10-01T19:12:26.326Z"
+    },
+    {
+      "name": "View solid",
+      "value": true,
+      "time": "2026-10-01T19:12:27.323Z"
+    },
+    {
+      "name": "View explode",
+      "value": true,
+      "time": "2026-10-01T19:12:28.133Z"
+    },
+    {
+      "name": "View wire",
+      "value": true,
+      "time": "2026-10-01T19:12:29.331Z"
+    },
+    {
+      "name": "Three views have distinct visual output",
+      "value": [
+        "8cf7f63772bacd19f479614a74297e28602ff015e39776230be0854e6dc8d50f",
+        "4221a3acbf7fbff316a6abf7fb2fa16998dcb0cc014de06c66c68dfd44c36831",
+        "d57379218281f7140382abcfbba48c0c6d1618096c7d47f2fd2e9269b2139deb"
+      ],
+      "time": "2026-10-01T19:12:29.331Z"
+    },
+    {
+      "name": "Select layer interface",
+      "value": "Компоненты, состояние и действия человека. Здесь начинается запрос.",
+      "time": "2026-10-01T19:12:29.815Z"
+    },
+    {
+      "name": "Select layer logic",
+      "value": "Запросы, условия и проверка ответа. Здесь определяется поведение приложения.",
+      "time": "2026-10-01T19:12:30.196Z"
+    },
+    {
+      "name": "Select layer data",
+      "value": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+      "time": "2026-10-01T19:12:30.581Z"
+    },
+    {
+      "name": "Reduced motion signal completes immediately",
+      "value": true,
+      "time": "2026-10-01T19:12:30.936Z"
+    },
+    {
+      "name": "Reset 3D view",
+      "value": true,
+      "time": "2026-10-01T19:12:31.364Z"
+    },
+    {
+      "name": "3D keyboard ArrowLeft",
+      "value": true,
+      "time": "2026-10-01T19:12:31.523Z"
+    },
+    {
+      "name": "3D keyboard ArrowRight",
+      "value": true,
+      "time": "2026-10-01T19:12:31.599Z"
+    },
+    {
+      "name": "3D keyboard ArrowUp",
+      "value": true,
+      "time": "2026-10-01T19:12:31.621Z"
+    },
+    {
+      "name": "3D keyboard ArrowDown",
+      "value": true,
+      "time": "2026-10-01T19:12:31.659Z"
+    },
+    {
+      "name": "3D keyboard Home",
+      "value": true,
+      "time": "2026-10-01T19:12:31.707Z"
+    },
+    {
+      "name": "Mouse drag rotates 3D",
+      "value": true,
+      "time": "2026-10-01T19:12:33.410Z"
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "consoleErrors": [],
+  "scene": "3D · мышь / два пальца / стрелки",
+  "webgl": true,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Safari/605.1.15",
+  "passed": false,
+  "failure": "locator.click: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#motion-toggle')\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" id=\"motion-toggle\" aria-pressed=\"true\" aria-label=\"Включить движение\">▷</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\n    at [project]\\scripts\\qa-v2.mjs:51:91"
+}

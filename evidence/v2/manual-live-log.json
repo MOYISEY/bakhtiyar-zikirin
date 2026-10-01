@@ -1,0 +1,3671 @@
+{
+  "target": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "generatedAt": "2026-10-01T19:17:07.686Z",
+  "browser": "Playwright Chromium 153.0.8010.12",
+  "method": "Agent-directed individual clicks and visual inspection through Playwright; touch via Chromium CDP. Emulation, not a physical device or human browser session.",
+  "events": [
+    {
+      "name": "desktop-initial",
+      "action": "inspect",
+      "detail": {
+        "controls": [
+          {
+            "tag": "A",
+            "text": "К содержанию",
+            "href": "#main",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "Бахтияр Зикирин — в начало",
+            "href": "#top",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "Проекты",
+            "href": "#work",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "Опыт",
+            "href": "#experience",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "Подход",
+            "href": "#approach",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "GitHub ↗ — новая вкладка",
+            "href": "https://github.com/MOYISEY",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "Разобрать проекты ↘",
+            "href": "#work",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "Опыт 2025–2026 ↓",
+            "href": "#experience",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Собрать",
+            "href": null,
+            "id": "",
+            "mode": "solid",
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Разделить",
+            "href": null,
+            "id": "",
+            "mode": "explode",
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Каркас",
+            "href": null,
+            "id": "",
+            "mode": "wire",
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Вернуть исходный вид 3D",
+            "href": null,
+            "id": "scene-reset",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Включить движение",
+            "href": null,
+            "id": "motion-toggle",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "BUTTON",
+            "text": "01 Интерфейс",
+            "href": null,
+            "id": "",
+            "mode": null,
+            "layer": "interface",
+            "step": null
+          },
+          {
+            "tag": "BUTTON",
+            "text": "02 Логика",
+            "href": null,
+            "id": "",
+            "mode": null,
+            "layer": "logic",
+            "step": null
+          },
+          {
+            "tag": "BUTTON",
+            "text": "03 Данные",
+            "href": null,
+            "id": "",
+            "mode": null,
+            "layer": "data",
+            "step": null
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Проследить клик →",
+            "href": null,
+            "id": "signal-start",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "01 NeuralBrief ↘",
+            "href": "#neuralbrief",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "02 Атырау / тур ↘",
+            "href": "#atyrau",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "03 Art Portal ↘",
+            "href": "#artportal",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "BUTTON",
+            "text": "01 Интервью",
+            "href": null,
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": "0"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "02 ТЗ",
+            "href": null,
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": "1"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "03 Роли",
+            "href": null,
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": "2"
+          },
+          {
+            "tag": "SUMMARY",
+            "text": "Что важно в таком процессе +",
+            "href": null,
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "Открыть исходники ↗ — новая вкладка",
+            "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "SUMMARY",
+            "text": "Решения и ограничения +",
+            "href": null,
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "Посмотреть код ↗ — новая вкладка",
+            "href": "https://github.com/MOYISEY/art_portal",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "SUMMARY",
+            "text": "Читать кейс по исходникам +",
+            "href": null,
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "MOYISEY / GitHub↗ — новая вкладка",
+            "href": "https://github.com/MOYISEY",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "Вернуться в начало",
+            "href": "#top",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "Наверх ↑",
+            "href": "#top",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          }
+        ]
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-initial.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 0,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "interface",
+          "description": "Компоненты, состояние и действия человека. Здесь начинается запрос.",
+          "signal": "Пример пути запроса, без подключения к серверу.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:10:50.210Z"
+    },
+    {
+      "name": "desktop-solid",
+      "action": "click",
+      "detail": {
+        "selector": "[data-mode=\"solid\"]",
+        "text": "Собрать"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-solid.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 576,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "solid",
+          "layer": "interface",
+          "description": "Компоненты, состояние и действия человека. Здесь начинается запрос.",
+          "signal": "Пример пути запроса, без подключения к серверу.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:10:50.888Z"
+    },
+    {
+      "name": "desktop-explode",
+      "action": "click",
+      "detail": {
+        "selector": "[data-mode=\"explode\"]",
+        "text": "Разделить"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-explode.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 576,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "interface",
+          "description": "Компоненты, состояние и действия человека. Здесь начинается запрос.",
+          "signal": "Пример пути запроса, без подключения к серверу.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:10:51.537Z"
+    },
+    {
+      "name": "desktop-wire",
+      "action": "click",
+      "detail": {
+        "selector": "[data-mode=\"wire\"]",
+        "text": "Каркас"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-wire.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 576,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "wire",
+          "layer": "interface",
+          "description": "Компоненты, состояние и действия человека. Здесь начинается запрос.",
+          "signal": "Пример пути запроса, без подключения к серверу.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:10:52.179Z"
+    },
+    {
+      "name": "desktop-interface",
+      "action": "click",
+      "detail": {
+        "selector": "button[data-layer=\"interface\"]",
+        "text": "01 Интерфейс"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-interface.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 576,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "wire",
+          "layer": "interface",
+          "description": "Компоненты, состояние и действия человека. Здесь начинается запрос.",
+          "signal": "Пример пути запроса, без подключения к серверу.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:10:52.788Z"
+    },
+    {
+      "name": "desktop-logic",
+      "action": "click",
+      "detail": {
+        "selector": "button[data-layer=\"logic\"]",
+        "text": "02 Логика"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-logic.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 576,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "wire",
+          "layer": "logic",
+          "description": "Запросы, условия и проверка ответа. Здесь определяется поведение приложения.",
+          "signal": "Пример пути запроса, без подключения к серверу.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:10:53.428Z"
+    },
+    {
+      "name": "desktop-data",
+      "action": "click",
+      "detail": {
+        "selector": "button[data-layer=\"data\"]",
+        "text": "03 Данные"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-data.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 576,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "wire",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "Пример пути запроса, без подключения к серверу.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:10:54.089Z"
+    },
+    {
+      "name": "desktop-signal",
+      "action": "click",
+      "detail": {
+        "selector": "#signal-start",
+        "text": "Проследить клик →"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-signal.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 576,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "wire",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:10:54.694Z"
+    },
+    {
+      "name": "desktop-back-explode",
+      "action": "click",
+      "detail": {
+        "selector": "[data-mode=\"explode\"]",
+        "text": "Разделить"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-back-explode.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 576,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:10:55.327Z"
+    },
+    {
+      "name": "desktop-mouse",
+      "action": "drag",
+      "detail": {
+        "before": "e1e64a02c487998f2231066bff2be87cd5f10b4c40f630712592250d8410f90a",
+        "after": "f2bd2c401b3464ddfdde0bc39c5a49db1dd86cb387f8c89f02476222fb5e1637"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-mouse.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 482,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:10:56.741Z"
+    },
+    {
+      "name": "desktop-arrow",
+      "action": "key",
+      "detail": {
+        "key": "ArrowRight"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-arrow.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 482,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:10:57.314Z"
+    },
+    {
+      "name": "desktop-home",
+      "action": "key",
+      "detail": {
+        "key": "Home"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-home.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 482,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:10:57.899Z"
+    },
+    {
+      "name": "desktop-reset",
+      "action": "click",
+      "detail": {
+        "selector": "#scene-reset",
+        "text": "↺ Сбросить вид"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-reset.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 482,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:10:58.494Z"
+    },
+    {
+      "name": "desktop-motion-on",
+      "action": "click",
+      "detail": {
+        "selector": "#motion-toggle",
+        "text": "▷"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-motion-on.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 482,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "false",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:10:59.121Z"
+    },
+    {
+      "name": "desktop-motion-off",
+      "action": "click",
+      "detail": {
+        "selector": "#motion-toggle",
+        "text": "Ⅱ"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-motion-off.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 482,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:10:59.738Z"
+    },
+    {
+      "name": "desktop-nav-projects",
+      "action": "click",
+      "detail": {
+        "selector": ".header nav a[href=\"#work\"]",
+        "text": "Проекты"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-nav-projects.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#work",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 1253,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:31.734Z"
+    },
+    {
+      "name": "desktop-nav-experience",
+      "action": "click",
+      "detail": {
+        "selector": ".header nav a[href=\"#experience\"]",
+        "text": "Опыт"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-nav-experience.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#experience",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 4948,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:32.238Z"
+    },
+    {
+      "name": "desktop-nav-approach",
+      "action": "click",
+      "detail": {
+        "selector": ".header nav a[href=\"#approach\"]",
+        "text": "Подход"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-nav-approach.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#approach",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 5937,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:32.743Z"
+    },
+    {
+      "name": "desktop-identity-top",
+      "action": "click",
+      "detail": {
+        "selector": ".header .identity",
+        "text": "bz↗\nБахтияр Зикирин\nFrontend-разработчик · Астана"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-identity-top.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#top",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 0,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:33.362Z"
+    },
+    {
+      "name": "desktop-cta-work",
+      "action": "click",
+      "detail": {
+        "selector": ".hero-links a[href=\"#work\"]",
+        "text": "Разобрать проекты\n↘"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-cta-work.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#work",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 1253,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:33.877Z"
+    },
+    {
+      "name": "desktop-cta-experience",
+      "action": "click",
+      "detail": {
+        "selector": ".hero-links a[href=\"#experience\"]",
+        "text": "Опыт 2025–2026\n↓"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-cta-experience.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#experience",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 4948,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:34.372Z"
+    },
+    {
+      "name": "desktop-index-neural",
+      "action": "click",
+      "detail": {
+        "selector": ".hero-index a[href=\"#neuralbrief\"]",
+        "text": "01 NeuralBrief\n↘"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-index-neural.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#neuralbrief",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 1475,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:34.872Z"
+    },
+    {
+      "name": "desktop-brief-interview",
+      "action": "click",
+      "detail": {
+        "selector": "[data-step=\"0\"]",
+        "text": "01 Интервью"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-brief-interview.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#neuralbrief",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 1475,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:35.335Z"
+    },
+    {
+      "name": "desktop-brief-requirements",
+      "action": "click",
+      "detail": {
+        "selector": "[data-step=\"1\"]",
+        "text": "02 ТЗ"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-brief-requirements.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#neuralbrief",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 1475,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "1",
+          "stageTitle": "Ответы становятсядокументом.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:35.806Z"
+    },
+    {
+      "name": "desktop-brief-roles",
+      "action": "click",
+      "detail": {
+        "selector": "[data-step=\"2\"]",
+        "text": "03 Роли"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-brief-roles.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#neuralbrief",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 1475,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:36.256Z"
+    },
+    {
+      "name": "desktop-neural-open",
+      "action": "click",
+      "detail": {
+        "selector": "#neuralbrief summary",
+        "text": "Что важно в таком процессе\n+"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-neural-open.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#neuralbrief",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 1475,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": true
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:36.767Z"
+    },
+    {
+      "name": "desktop-neural-close",
+      "action": "click",
+      "detail": {
+        "selector": "#neuralbrief summary",
+        "text": "Что важно в таком процессе\n+"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-neural-close.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#neuralbrief",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 1475,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:37.210Z"
+    },
+    {
+      "name": "desktop-index-tour",
+      "action": "click",
+      "detail": {
+        "selector": ".hero-index a[href=\"#atyrau\"]",
+        "text": "02 Атырау / тур\n↘"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-index-tour.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#atyrau",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 2430,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:38.140Z"
+    },
+    {
+      "name": "desktop-tour-open",
+      "action": "click",
+      "detail": {
+        "selector": "#atyrau summary",
+        "text": "Решения и ограничения\n+"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-tour-open.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#atyrau",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 3375,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": true
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:38.730Z"
+    },
+    {
+      "name": "desktop-tour-close",
+      "action": "click",
+      "detail": {
+        "selector": "#atyrau summary",
+        "text": "Решения и ограничения\n+"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-tour-close.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#atyrau",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 3375,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:39.295Z"
+    },
+    {
+      "name": "desktop-tour-source",
+      "action": "external",
+      "detail": {
+        "expected": "https://github.com/MOYISEY/atyrau-tour-3d",
+        "actual": "https://github.com/MOYISEY/atyrau-tour-3d",
+        "title": "GitHub - MOYISEY/atyrau-tour-3d · GitHub",
+        "openerNull": true
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-tour-source.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#atyrau",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 3375,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:43.364Z"
+    },
+    {
+      "name": "desktop-index-art",
+      "action": "click",
+      "detail": {
+        "selector": ".hero-index a[href=\"#artportal\"]",
+        "text": "03 Art Portal\n↘"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-index-art.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#artportal",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 3934,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:43.862Z"
+    },
+    {
+      "name": "desktop-art-open",
+      "action": "click",
+      "detail": {
+        "selector": "#artportal summary",
+        "text": "Читать кейс по исходникам\n+"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-art-open.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#artportal",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 3934,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": true
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:44.304Z"
+    },
+    {
+      "name": "desktop-art-close",
+      "action": "click",
+      "detail": {
+        "selector": "#artportal summary",
+        "text": "Читать кейс по исходникам\n+"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-art-close.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#artportal",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 3934,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:44.766Z"
+    },
+    {
+      "name": "desktop-art-source",
+      "action": "external",
+      "detail": {
+        "expected": "https://github.com/MOYISEY/art_portal",
+        "actual": "https://github.com/MOYISEY/art_portal",
+        "title": "GitHub - MOYISEY/art_portal · GitHub",
+        "openerNull": true
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-art-source.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#artportal",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 3934,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:47.891Z"
+    },
+    {
+      "name": "desktop-header-github",
+      "action": "external",
+      "detail": {
+        "expected": "https://github.com/MOYISEY",
+        "actual": "https://github.com/MOYISEY",
+        "title": "MOYISEY (Бахтияр) · GitHub",
+        "openerNull": true
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-header-github.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#artportal",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 0,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:50.391Z"
+    },
+    {
+      "name": "desktop-contact-github",
+      "action": "external",
+      "detail": {
+        "expected": "https://github.com/MOYISEY",
+        "actual": "https://github.com/MOYISEY",
+        "title": "MOYISEY (Бахтияр) · GitHub",
+        "openerNull": true
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-contact-github.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#artportal",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 6210,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:52.363Z"
+    },
+    {
+      "name": "desktop-footer-top",
+      "action": "click",
+      "detail": {
+        "selector": ".footer .identity",
+        "text": "bz↗\nБахтияр Зикирин"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-footer-top.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#top",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 0,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:53.018Z"
+    },
+    {
+      "name": "desktop-back-top",
+      "action": "click",
+      "detail": {
+        "selector": ".back-top",
+        "text": "Наверх ↑"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/desktop-back-top.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#top",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 0,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:53.624Z"
+    },
+    {
+      "name": "mobile-initial",
+      "action": "viewport",
+      "detail": {
+        "status": 200,
+        "title": "Бахтияр Зикирин — frontend-разработчик",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "mobileEmulation": true
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-initial.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 0,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "interface",
+          "description": "Компоненты, состояние и действия человека. Здесь начинается запрос.",
+          "signal": "Пример пути запроса, без подключения к серверу.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:12:59.051Z"
+    },
+    {
+      "name": "mobile-two-fingers",
+      "action": "two-fingers",
+      "detail": {
+        "scrollBefore": 21,
+        "scrollAfter": 21,
+        "before": "a99c0258ac9241d71e2a3740a4c5423b99db98367739168398d9ad6e37cab8d7",
+        "after": "d7934ed53f02c41b37f3d885d38d939e88e5e62a86e36439c79a80612288364d"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-two-fingers.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 21,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "interface",
+          "description": "Компоненты, состояние и действия человека. Здесь начинается запрос.",
+          "signal": "Пример пути запроса, без подключения к серверу.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:13:00.561Z"
+    },
+    {
+      "name": "mobile-one-finger-scroll",
+      "action": "swipe",
+      "detail": {
+        "scrollBefore": 21,
+        "scrollAfter": 198,
+        "before": "d7934ed53f02c41b37f3d885d38d939e88e5e62a86e36439c79a80612288364d",
+        "after": "6dc6fd03374c00b4652f973cb413a6f8eff7b295d400849f2ba7e62b7d95df5d"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-one-finger-scroll.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 198,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "interface",
+          "description": "Компоненты, состояние и действия человека. Здесь начинается запрос.",
+          "signal": "Пример пути запроса, без подключения к серверу.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:13:01.936Z"
+    },
+    {
+      "name": "mobile-solid",
+      "action": "click",
+      "detail": {
+        "selector": "[data-mode=\"solid\"]",
+        "text": "Собрать"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-solid.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 198,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "solid",
+          "layer": "interface",
+          "description": "Компоненты, состояние и действия человека. Здесь начинается запрос.",
+          "signal": "Пример пути запроса, без подключения к серверу.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:43.684Z"
+    },
+    {
+      "name": "mobile-wire",
+      "action": "click",
+      "detail": {
+        "selector": "[data-mode=\"wire\"]",
+        "text": "Каркас"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-wire.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 198,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "wire",
+          "layer": "interface",
+          "description": "Компоненты, состояние и действия человека. Здесь начинается запрос.",
+          "signal": "Пример пути запроса, без подключения к серверу.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:44.063Z"
+    },
+    {
+      "name": "mobile-explode",
+      "action": "click",
+      "detail": {
+        "selector": "[data-mode=\"explode\"]",
+        "text": "Разделить"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-explode.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 198,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "interface",
+          "description": "Компоненты, состояние и действия человека. Здесь начинается запрос.",
+          "signal": "Пример пути запроса, без подключения к серверу.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:44.447Z"
+    },
+    {
+      "name": "mobile-interface",
+      "action": "click",
+      "detail": {
+        "selector": "button[data-layer=\"interface\"]",
+        "text": "01 Интерфейс"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-interface.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 198,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "interface",
+          "description": "Компоненты, состояние и действия человека. Здесь начинается запрос.",
+          "signal": "Пример пути запроса, без подключения к серверу.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:44.840Z"
+    },
+    {
+      "name": "mobile-logic",
+      "action": "click",
+      "detail": {
+        "selector": "button[data-layer=\"logic\"]",
+        "text": "02 Логика"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-logic.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 198,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "logic",
+          "description": "Запросы, условия и проверка ответа. Здесь определяется поведение приложения.",
+          "signal": "Пример пути запроса, без подключения к серверу.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:45.248Z"
+    },
+    {
+      "name": "mobile-data",
+      "action": "click",
+      "detail": {
+        "selector": "button[data-layer=\"data\"]",
+        "text": "03 Данные"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-data.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 198,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "Пример пути запроса, без подключения к серверу.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:45.651Z"
+    },
+    {
+      "name": "mobile-signal",
+      "action": "click",
+      "detail": {
+        "selector": "#signal-start",
+        "text": "Проследить клик →"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-signal.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 662,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:46.040Z"
+    },
+    {
+      "name": "mobile-reset",
+      "action": "click",
+      "detail": {
+        "selector": "#scene-reset",
+        "text": "↺"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-reset.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 662,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:46.437Z"
+    },
+    {
+      "name": "mobile-motion-on",
+      "action": "click",
+      "detail": {
+        "selector": "#motion-toggle",
+        "text": "▷"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-motion-on.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 662,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "false",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:46.836Z"
+    },
+    {
+      "name": "mobile-motion-off",
+      "action": "click",
+      "detail": {
+        "selector": "#motion-toggle",
+        "text": "Ⅱ"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-motion-off.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 662,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:47.234Z"
+    },
+    {
+      "name": "mobile-nav-projects",
+      "action": "click",
+      "detail": {
+        "selector": ".header nav a[href=\"#work\"]",
+        "text": "Проекты"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-nav-projects.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#work",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 1200,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:47.650Z"
+    },
+    {
+      "name": "mobile-nav-experience",
+      "action": "click",
+      "detail": {
+        "selector": ".header nav a[href=\"#experience\"]",
+        "text": "Опыт"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-nav-experience.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#experience",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 5356,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:48.059Z"
+    },
+    {
+      "name": "mobile-nav-approach",
+      "action": "click",
+      "detail": {
+        "selector": ".header nav a[href=\"#approach\"]",
+        "text": "Подход"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-nav-approach.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#approach",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 6440,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:48.465Z"
+    },
+    {
+      "name": "mobile-identity-top",
+      "action": "click",
+      "detail": {
+        "selector": ".header .identity",
+        "text": "bz↗\nБахтияр Зикирин\nFrontend-разработчик · Астана"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-identity-top.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#top",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 0,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:48.898Z"
+    },
+    {
+      "name": "mobile-cta-work",
+      "action": "click",
+      "detail": {
+        "selector": ".hero-links a[href=\"#work\"]",
+        "text": "Разобрать проекты\n↘"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-cta-work.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#work",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 1200,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:49.297Z"
+    },
+    {
+      "name": "mobile-cta-experience",
+      "action": "click",
+      "detail": {
+        "selector": ".hero-links a[href=\"#experience\"]",
+        "text": "Опыт 2025–2026\n↓"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-cta-experience.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#experience",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 5356,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:49.699Z"
+    },
+    {
+      "name": "mobile-index-neural",
+      "action": "click",
+      "detail": {
+        "selector": ".hero-index a[href=\"#neuralbrief\"]",
+        "text": "01 NeuralBrief\n↘"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-index-neural.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#neuralbrief",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 1444,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:50.111Z"
+    },
+    {
+      "name": "mobile-brief-interview",
+      "action": "click",
+      "detail": {
+        "selector": "[data-step=\"0\"]",
+        "text": "01 Интервью"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-brief-interview.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#neuralbrief",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 1447,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Сначала —нужные вопросы.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:50.487Z"
+    },
+    {
+      "name": "mobile-brief-requirements",
+      "action": "click",
+      "detail": {
+        "selector": "[data-step=\"1\"]",
+        "text": "02 ТЗ"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-brief-requirements.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#neuralbrief",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 1447,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "1",
+          "stageTitle": "Ответы становятсядокументом.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:50.862Z"
+    },
+    {
+      "name": "mobile-brief-roles",
+      "action": "click",
+      "detail": {
+        "selector": "[data-step=\"2\"]",
+        "text": "03 Роли"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-brief-roles.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#neuralbrief",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 1447,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:51.236Z"
+    },
+    {
+      "name": "mobile-neural-open",
+      "action": "click",
+      "detail": {
+        "selector": "#neuralbrief summary",
+        "text": "Что важно в таком процессе\n+"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-neural-open.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#neuralbrief",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 2304,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": true
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:51.639Z"
+    },
+    {
+      "name": "mobile-neural-close",
+      "action": "click",
+      "detail": {
+        "selector": "#neuralbrief summary",
+        "text": "Что важно в таком процессе\n+"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-neural-close.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#neuralbrief",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 2304,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:52.021Z"
+    },
+    {
+      "name": "mobile-index-tour",
+      "action": "click",
+      "detail": {
+        "selector": ".hero-index a[href=\"#atyrau\"]",
+        "text": "02 Атырау / тур\n↘"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-index-tour.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#atyrau",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 2776,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:52.463Z"
+    },
+    {
+      "name": "mobile-tour-open",
+      "action": "click",
+      "detail": {
+        "selector": "#atyrau summary",
+        "text": "Решения и ограничения\n+"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-tour-open.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#atyrau",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 3474,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": true
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:52.850Z"
+    },
+    {
+      "name": "mobile-tour-close",
+      "action": "click",
+      "detail": {
+        "selector": "#atyrau summary",
+        "text": "Решения и ограничения\n+"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-tour-close.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#atyrau",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 3474,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:53.212Z"
+    },
+    {
+      "name": "mobile-tour-source",
+      "action": "external",
+      "detail": {
+        "expected": "https://github.com/MOYISEY/atyrau-tour-3d",
+        "actual": "https://github.com/MOYISEY/atyrau-tour-3d",
+        "title": "GitHub - MOYISEY/atyrau-tour-3d · GitHub",
+        "openerNull": true
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-tour-source.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#atyrau",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 3474,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:57.040Z"
+    },
+    {
+      "name": "mobile-index-art",
+      "action": "click",
+      "detail": {
+        "selector": ".hero-index a[href=\"#artportal\"]",
+        "text": "03 Art Portal\n↘"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-index-art.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#artportal",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 3946,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:57.430Z"
+    },
+    {
+      "name": "mobile-art-open",
+      "action": "click",
+      "detail": {
+        "selector": "#artportal summary",
+        "text": "Читать кейс по исходникам\n+"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-art-open.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#artportal",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 4852,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": true
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:57.800Z"
+    },
+    {
+      "name": "mobile-art-close",
+      "action": "click",
+      "detail": {
+        "selector": "#artportal summary",
+        "text": "Читать кейс по исходникам\n+"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-art-close.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#artportal",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 4852,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:16:58.155Z"
+    },
+    {
+      "name": "mobile-art-source",
+      "action": "external",
+      "detail": {
+        "expected": "https://github.com/MOYISEY/art_portal",
+        "actual": "https://github.com/MOYISEY/art_portal",
+        "title": "GitHub - MOYISEY/art_portal · GitHub",
+        "openerNull": true
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-art-source.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#artportal",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 4852,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:17:01.517Z"
+    },
+    {
+      "name": "mobile-header-github",
+      "action": "external",
+      "detail": {
+        "expected": "https://github.com/MOYISEY",
+        "actual": "https://github.com/MOYISEY",
+        "title": "MOYISEY (Бахтияр) · GitHub",
+        "openerNull": true
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-header-github.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#artportal",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 0,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:17:03.706Z"
+    },
+    {
+      "name": "mobile-contact-github",
+      "action": "external",
+      "detail": {
+        "expected": "https://github.com/MOYISEY",
+        "actual": "https://github.com/MOYISEY",
+        "title": "MOYISEY (Бахтияр) · GitHub",
+        "openerNull": true
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-contact-github.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#artportal",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 6922,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:17:05.696Z"
+    },
+    {
+      "name": "mobile-footer-top",
+      "action": "click",
+      "detail": {
+        "selector": ".footer .identity",
+        "text": "bz↗\nБахтияр Зикирин"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-footer-top.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#top",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 0,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:17:06.111Z"
+    },
+    {
+      "name": "mobile-back-top",
+      "action": "click",
+      "detail": {
+        "selector": ".back-top",
+        "text": "Наверх ↑"
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-back-top.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#top",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 0,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:17:06.545Z"
+    },
+    {
+      "name": "mobile-final",
+      "action": "inspect",
+      "detail": {
+        "controls": [
+          {
+            "tag": "A",
+            "text": "К содержанию",
+            "href": "#main",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "Бахтияр Зикирин — в начало",
+            "href": "#top",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "Проекты",
+            "href": "#work",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "Опыт",
+            "href": "#experience",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "Подход",
+            "href": "#approach",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "GitHub ↗ — новая вкладка",
+            "href": "https://github.com/MOYISEY",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "Разобрать проекты ↘",
+            "href": "#work",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "Опыт 2025–2026 ↓",
+            "href": "#experience",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Собрать",
+            "href": null,
+            "id": "",
+            "mode": "solid",
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Разделить",
+            "href": null,
+            "id": "",
+            "mode": "explode",
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Каркас",
+            "href": null,
+            "id": "",
+            "mode": "wire",
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Вернуть исходный вид 3D",
+            "href": null,
+            "id": "scene-reset",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Включить движение",
+            "href": null,
+            "id": "motion-toggle",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "BUTTON",
+            "text": "01 Интерфейс",
+            "href": null,
+            "id": "",
+            "mode": null,
+            "layer": "interface",
+            "step": null
+          },
+          {
+            "tag": "BUTTON",
+            "text": "02 Логика",
+            "href": null,
+            "id": "",
+            "mode": null,
+            "layer": "logic",
+            "step": null
+          },
+          {
+            "tag": "BUTTON",
+            "text": "03 Данные",
+            "href": null,
+            "id": "",
+            "mode": null,
+            "layer": "data",
+            "step": null
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Проследить клик →",
+            "href": null,
+            "id": "signal-start",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "01 NeuralBrief ↘",
+            "href": "#neuralbrief",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "02 Атырау / тур ↘",
+            "href": "#atyrau",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "03 Art Portal ↘",
+            "href": "#artportal",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "BUTTON",
+            "text": "01 Интервью",
+            "href": null,
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": "0"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "02 ТЗ",
+            "href": null,
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": "1"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "03 Роли",
+            "href": null,
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": "2"
+          },
+          {
+            "tag": "SUMMARY",
+            "text": "Что важно в таком процессе +",
+            "href": null,
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "Открыть исходники ↗ — новая вкладка",
+            "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "SUMMARY",
+            "text": "Решения и ограничения +",
+            "href": null,
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "Посмотреть код ↗ — новая вкладка",
+            "href": "https://github.com/MOYISEY/art_portal",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "SUMMARY",
+            "text": "Читать кейс по исходникам +",
+            "href": null,
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "MOYISEY / GitHub↗ — новая вкладка",
+            "href": "https://github.com/MOYISEY",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "Вернуться в начало",
+            "href": "#top",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          },
+          {
+            "tag": "A",
+            "text": "Наверх ↑",
+            "href": "#top",
+            "id": "",
+            "mode": null,
+            "layer": null,
+            "step": null
+          }
+        ]
+      },
+      "observed": {
+        "screenshot": "evidence/v2/manual-screenshots/mobile-final.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#top",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 0,
+          "scene": "3D · мышь / два пальца / стрелки",
+          "view": "explode",
+          "layer": "data",
+          "description": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "Разные роли.Один проект.",
+          "details": [
+            {
+              "case": "neuralbrief",
+              "open": false
+            },
+            {
+              "case": "atyrau",
+              "open": false
+            },
+            {
+              "case": "artportal",
+              "open": false
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T19:17:07.685Z"
+    }
+  ],
+  "errors": [],
+  "consoleErrors": []
+}

@@ -1,0 +1,10 @@
+{
+  "engine": "webkit",
+  "scenario": "scene-chunk-failure",
+  "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "checkedAt": "2026-10-01T19:12:53.282Z",
+  "actions": [
+    "2D modes, layers and signal remain functional"
+  ],
+  "passed": true
+}

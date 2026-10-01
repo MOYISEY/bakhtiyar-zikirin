@@ -1,0 +1,80 @@
+{
+  "engine": "firefox",
+  "browserVersion": "155.0",
+  "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "productCommit": "19dd89c3922f76a2697cf94b1bc552d21de53183",
+  "checkedAt": "2026-10-01T19:14:05.942Z",
+  "checks": [
+    "Public redesign marker, light palette and paused reduced-motion state",
+    "Four repeated paused canvas screenshots have identical pixels",
+    "No email, PDF/CV, form or unsafe external link in public DOM",
+    "No horizontal overflow at 320px and 390px with 200% CSS root font size"
+  ],
+  "errors": [],
+  "identity": {
+    "theme": "#f3f0e8",
+    "background": "rgba(0, 0, 0, 0)",
+    "h1": "Пишу интерфейсы.Проверяю поведение.",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0"
+  },
+  "pausedCanvasHashes": [
+    "2f92094b5be6bfe235936125bc700e6cc9de4ca9fd8e7fbb699d66673d75e75d",
+    "2f92094b5be6bfe235936125bc700e6cc9de4ca9fd8e7fbb699d66673d75e75d",
+    "2f92094b5be6bfe235936125bc700e6cc9de4ca9fd8e7fbb699d66673d75e75d",
+    "2f92094b5be6bfe235936125bc700e6cc9de4ca9fd8e7fbb699d66673d75e75d"
+  ],
+  "security": {
+    "forms": 0,
+    "mailLinks": [],
+    "pdfLinks": [],
+    "emailMatches": [],
+    "externalLinks": [
+      {
+        "href": "https://github.com/MOYISEY",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://github.com/MOYISEY/art_portal",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://github.com/MOYISEY",
+        "rel": "noopener noreferrer"
+      }
+    ],
+    "image": [
+      {
+        "complete": true,
+        "width": 1200,
+        "height": 720
+      }
+    ]
+  },
+  "reflow": [
+    {
+      "width": 320,
+      "height": 720,
+      "fontSize": "100%",
+      "dimensions": {
+        "viewport": 320,
+        "document": 320,
+        "body": 320
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "fontSize": "200%",
+      "dimensions": {
+        "viewport": 390,
+        "document": 390,
+        "body": 390
+      }
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,52 @@
+{
+  "engine": "chromium",
+  "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "checkedAt": "2026-10-01T19:17:49.106Z",
+  "actions": [],
+  "errors": [],
+  "fonts": {
+    "headingWeight": "550",
+    "headingFamily": "\"Onest Variable\", Arial, sans-serif",
+    "headingSize": "87.84px",
+    "faces": [
+      {
+        "family": "Onest Variable",
+        "weight": "100 900",
+        "status": "unloaded"
+      },
+      {
+        "family": "Onest Variable",
+        "weight": "100 900",
+        "status": "loaded"
+      },
+      {
+        "family": "Onest Variable",
+        "weight": "100 900",
+        "status": "loaded"
+      },
+      {
+        "family": "Onest Variable",
+        "weight": "100 900",
+        "status": "loaded"
+      },
+      {
+        "family": "Onest Variable",
+        "weight": "100 900",
+        "status": "unloaded"
+      },
+      {
+        "family": "Onest Variable",
+        "weight": "100 900",
+        "status": "unloaded"
+      },
+      {
+        "family": "Onest Variable",
+        "weight": "100 900",
+        "status": "loaded"
+      }
+    ],
+    "supportsVariations": true
+  },
+  "passed": false,
+  "failure": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ '40d14da49aede6479456fa4f82864d9d3e510c3d3c43ac21775b56ad5e0de823'\n- 'a8d156d377f6df1990edb7380d2caff4d5dd1ba408c3fc8271ad17d9ac24f3c9'\n\n    at file:///[project]/scripts/qa-live-diagnostic-v2.mjs:45:14"
+}

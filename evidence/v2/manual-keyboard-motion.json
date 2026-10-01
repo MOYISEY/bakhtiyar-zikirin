@@ -1,0 +1,37 @@
+{
+  "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "checkedAt": "2026-10-01T19:18:44.623Z",
+  "actions": [
+    {
+      "name": "First Tab reveals skip; Enter moves focus to main"
+    },
+    {
+      "name": "Animated signal stage 01",
+      "status": "01 / Человек нажимает кнопку в интерфейсе.",
+      "time": "2026-10-01T19:18:49.140Z"
+    },
+    {
+      "name": "Animated signal stage 02",
+      "status": "02 / Логика формирует запрос и проверяет условия.",
+      "time": "2026-10-01T19:18:49.849Z"
+    },
+    {
+      "name": "Animated signal stage 03",
+      "status": "03 / Данные читаются или изменяются.",
+      "time": "2026-10-01T19:18:50.705Z"
+    },
+    {
+      "name": "Animated signal stage 04",
+      "status": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+      "time": "2026-10-01T19:18:51.562Z"
+    },
+    {
+      "name": "Animated signal ends and button is enabled"
+    },
+    {
+      "name": "Complete desktop visual capture after lazy screenshot has loaded"
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

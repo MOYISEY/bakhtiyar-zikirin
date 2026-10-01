@@ -1,0 +1,256 @@
+{
+  "engine": "chromium",
+  "browserVersion": "153.0.8010.12",
+  "device": "desktop",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "checkedAt": "2026-10-01T19:09:38.268Z",
+  "actions": [
+    {
+      "name": "Initial content and no horizontal overflow",
+      "value": true,
+      "time": "2026-10-01T19:09:42.998Z"
+    },
+    {
+      "name": "View solid",
+      "value": true,
+      "time": "2026-10-01T19:09:43.750Z"
+    },
+    {
+      "name": "View explode",
+      "value": true,
+      "time": "2026-10-01T19:09:44.170Z"
+    },
+    {
+      "name": "View wire",
+      "value": true,
+      "time": "2026-10-01T19:09:44.582Z"
+    },
+    {
+      "name": "Three views have distinct visual output",
+      "value": [
+        "0f34cece9328fd2b47f9085fd4ba3dc644c3b37ff7bd0ea5f0a75cc955ef82a7",
+        "a8d156d377f6df1990edb7380d2caff4d5dd1ba408c3fc8271ad17d9ac24f3c9",
+        "868304c97f8fb6000db43e50e9236d64afeab25fd047ae855080d606790e0b8f"
+      ],
+      "time": "2026-10-01T19:09:44.582Z"
+    },
+    {
+      "name": "Select layer interface",
+      "value": "Компоненты, состояние и действия человека. Здесь начинается запрос.",
+      "time": "2026-10-01T19:09:44.647Z"
+    },
+    {
+      "name": "Select layer logic",
+      "value": "Запросы, условия и проверка ответа. Здесь определяется поведение приложения.",
+      "time": "2026-10-01T19:09:44.705Z"
+    },
+    {
+      "name": "Select layer data",
+      "value": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+      "time": "2026-10-01T19:09:44.767Z"
+    },
+    {
+      "name": "Reduced motion signal completes immediately",
+      "value": true,
+      "time": "2026-10-01T19:09:44.814Z"
+    },
+    {
+      "name": "Reset 3D view",
+      "value": true,
+      "time": "2026-10-01T19:09:44.852Z"
+    },
+    {
+      "name": "3D keyboard ArrowLeft",
+      "value": true,
+      "time": "2026-10-01T19:09:44.878Z"
+    },
+    {
+      "name": "3D keyboard ArrowRight",
+      "value": true,
+      "time": "2026-10-01T19:09:44.884Z"
+    },
+    {
+      "name": "3D keyboard ArrowUp",
+      "value": true,
+      "time": "2026-10-01T19:09:44.891Z"
+    },
+    {
+      "name": "3D keyboard ArrowDown",
+      "value": true,
+      "time": "2026-10-01T19:09:44.897Z"
+    },
+    {
+      "name": "3D keyboard Home",
+      "value": true,
+      "time": "2026-10-01T19:09:44.904Z"
+    },
+    {
+      "name": "Mouse drag rotates 3D",
+      "value": true,
+      "time": "2026-10-01T19:09:45.708Z"
+    },
+    {
+      "name": "User enabled motion produces frames",
+      "value": 39,
+      "time": "2026-10-01T19:09:46.072Z"
+    },
+    {
+      "name": "Pause stops requestAnimationFrame",
+      "value": 0,
+      "time": "2026-10-01T19:09:46.499Z"
+    },
+    {
+      "name": "NeuralBrief step 1",
+      "value": "Идея клиента → ответы на вопросы",
+      "time": "2026-10-01T19:09:46.543Z"
+    },
+    {
+      "name": "NeuralBrief step 2",
+      "value": "Ответы → структурированное ТЗ",
+      "time": "2026-10-01T19:09:46.599Z"
+    },
+    {
+      "name": "NeuralBrief step 3",
+      "value": "ТЗ → работа команды по ролям",
+      "time": "2026-10-01T19:09:46.646Z"
+    },
+    {
+      "name": "Expand neuralbrief case",
+      "value": true,
+      "time": "2026-10-01T19:09:46.716Z"
+    },
+    {
+      "name": "Collapse neuralbrief case",
+      "value": true,
+      "time": "2026-10-01T19:09:46.765Z"
+    },
+    {
+      "name": "Expand atyrau case",
+      "value": true,
+      "time": "2026-10-01T19:09:46.827Z"
+    },
+    {
+      "name": "Collapse atyrau case",
+      "value": true,
+      "time": "2026-10-01T19:09:46.892Z"
+    },
+    {
+      "name": "Expand artportal case",
+      "value": true,
+      "time": "2026-10-01T19:09:46.957Z"
+    },
+    {
+      "name": "Collapse artportal case",
+      "value": true,
+      "time": "2026-10-01T19:09:47.015Z"
+    },
+    {
+      "name": "Real tour screenshot loaded",
+      "value": true,
+      "time": "2026-10-01T19:09:47.099Z"
+    },
+    {
+      "name": "Anchor К содержанию",
+      "value": "#main",
+      "time": "2026-10-01T19:09:47.299Z"
+    },
+    {
+      "name": "Anchor Бахтияр Зикирин — в начало",
+      "value": "#top",
+      "time": "2026-10-01T19:09:47.370Z"
+    },
+    {
+      "name": "Anchor Проекты",
+      "value": "#work",
+      "time": "2026-10-01T19:09:47.444Z"
+    },
+    {
+      "name": "Anchor Опыт",
+      "value": "#experience",
+      "time": "2026-10-01T19:09:47.535Z"
+    },
+    {
+      "name": "Anchor Подход",
+      "value": "#approach",
+      "time": "2026-10-01T19:09:47.609Z"
+    },
+    {
+      "name": "Anchor Разобрать проекты ↘",
+      "value": "#work",
+      "time": "2026-10-01T19:09:47.696Z"
+    },
+    {
+      "name": "Anchor Опыт 2025–2026 ↓",
+      "value": "#experience",
+      "time": "2026-10-01T19:09:47.781Z"
+    },
+    {
+      "name": "Anchor 01 NeuralBrief ↘",
+      "value": "#neuralbrief",
+      "time": "2026-10-01T19:09:47.839Z"
+    },
+    {
+      "name": "Anchor 02 Атырау / тур ↘",
+      "value": "#atyrau",
+      "time": "2026-10-01T19:09:47.898Z"
+    },
+    {
+      "name": "Anchor 03 Art Portal ↘",
+      "value": "#artportal",
+      "time": "2026-10-01T19:09:47.957Z"
+    },
+    {
+      "name": "Anchor Вернуться в начало",
+      "value": "#top",
+      "time": "2026-10-01T19:09:48.026Z"
+    },
+    {
+      "name": "Anchor Наверх ↑",
+      "value": "#top",
+      "time": "2026-10-01T19:09:48.087Z"
+    },
+    {
+      "name": "External link opens safely",
+      "value": "https://github.com/MOYISEY",
+      "time": "2026-10-01T19:09:50.159Z"
+    },
+    {
+      "name": "External link opens safely",
+      "value": "https://github.com/MOYISEY/atyrau-tour-3d",
+      "time": "2026-10-01T19:09:52.344Z"
+    },
+    {
+      "name": "External link opens safely",
+      "value": "https://github.com/MOYISEY/art_portal",
+      "time": "2026-10-01T19:09:54.887Z"
+    },
+    {
+      "name": "External link opens safely",
+      "value": "https://github.com/MOYISEY",
+      "time": "2026-10-01T19:09:56.111Z"
+    },
+    {
+      "name": "Skip link moves keyboard focus to main",
+      "value": true,
+      "time": "2026-10-01T19:09:56.462Z"
+    },
+    {
+      "name": "History back restores functional page",
+      "value": {
+        "pageshowPersisted": "true"
+      },
+      "time": "2026-10-01T19:09:56.804Z"
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "consoleErrors": [],
+  "scene": "3D · мышь / два пальца / стрелки",
+  "webgl": true,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+  "passed": true
+}

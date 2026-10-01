@@ -25,7 +25,7 @@ for await(const line of input){
   try{
     const command=JSON.parse(line);let detail;
     if(command.action==='close'){
-      writeFileSync('evidence/v2/manual-live-log.json',JSON.stringify({target,generatedAt:new Date().toISOString(),browser:'Playwright Chromium '+browser.version(),method:'Agent-directed individual clicks and visual inspection through Playwright; touch via Chromium CDP. Emulation, not a physical device or human browser session.',events,errors,consoleErrors},null,2));await browser.close();console.log(JSON.stringify({closed:true,events:events.length,errors,consoleErrors}));break;
+      writeFileSync('evidence/v2/manual-live-log.json',JSON.stringify({target,generatedAt:new Date().toISOString(),browser:'Playwright Chromium '+browser.version(),method:'Agent-directed individual clicks and visual inspection through Playwright; touch via Chromium CDP. Emulation, not a physical device or human browser session.',events,errors,consoleErrors},null,2));input.close();process.stdin.pause();await browser.close();console.log(JSON.stringify({closed:true,events:events.length,errors,consoleErrors}));break;
     }
     if(command.action==='viewport')detail=await open(command.width,command.height,command.mobile);
     else if(command.action==='click'){const element=page.locator(command.selector);detail={selector:command.selector,text:await element.innerText().catch(()=>'')};if(mobile)await element.tap();else await element.click();}
