@@ -6,8 +6,8 @@
   <meta name="description" content="Бахтияр Зикирин, frontend-разработчик из Астаны. React, TypeScript, API. Проекты, опыт разработки и проверка поведения приложений." />
   <meta property="og:title" content="Бахтияр Зикирин — frontend-разработчик" /><meta property="og:description" content="Интерфейсы, логика и данные. Проекты и опыт разработки." /><meta property="og:type" content="website" />
   <title>Бахтияр Зикирин — frontend-разработчик</title><link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-  <script type="module" crossorigin src="./assets/index-CEwnZI8y.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-CWb6GOGh.css">
+  <script type="module" crossorigin src="./assets/index-CdeyjVzG.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-C5fGFBZG.css">
 </head>
 <body>
   <a class="skip-link" href="#main">К содержанию</a>
@@ -56,7 +56,6 @@
       </article>
       <article class="case case-tour" id="atyrau" aria-labelledby="tour-title">
         <header class="case-heading"><span class="case-number">02</span><div><span class="eyebrow">Web / пространственная навигация</span><h3 id="tour-title">Атырау.<br /><em>Внутри кампуса.</em></h3></div><p>Панорамный тур<br />по университету.</p></header>
-        <figure class="tour-visual"><div class="screenshot-frame"><div class="frame-top"><span class="frame-dots" aria-hidden="true">● ● ●</span><span>tour_v2 / локальный запуск</span><span>↗</span></div><img src="./projects/atyrau-tour.jpg" width="1200" height="720" loading="lazy" decoding="async" alt="Локально запущенный панорамный тур по Атыраускому университету: фасад, переходы и миниатюры локаций." /></div><figcaption>Интерфейс кампус-тура из публичного репозитория. Снимок локального запуска.</figcaption></figure>
         <div class="tour-notes"><p class="case-lead">Переходить между помещениями, не теряя контекст этажа и текущей локации.</p><div><h4>Как устроено</h4><p>Сцены описаны в одном объекте: этаж, название, панорама и переходы. Pannellum показывает изображения; интерфейс синхронизирует миниатюры, этаж и кнопки навигации.</p></div><div><h4>Что видно в коде</h4><p>Четыре этажа, переходы-hotspots, клавиатурная навигация и ограниченный zoom. Первые миниатюры загружаются сразу, остальные — лениво.</p></div></div>
         <div class="case-bottom"><div class="stack-line"><span>HTML</span><span>JavaScript</span><span>Pannellum</span></div><a class="source-link" href="https://github.com/MOYISEY/atyrau-tour-3d" target="_blank" rel="noopener noreferrer">Открыть исходники <span aria-hidden="true">↗</span><span class="sr-only"> — новая вкладка</span></a></div>
         <details class="case-details"><summary>Решения и ограничения <span aria-hidden="true">+</span></summary><div class="details-grid"><div><h4>Навигация как граф</h4><p>Сцены связаны переходами, а переключение этажа ведёт к его стартовой точке. Активная миниатюра следует за текущей сценой.</p></div><div><h4>Общий источник состояния</h4><p>Функции обновления интерфейса получают идентификатор сцены. Переход через hotspot также обновляет этаж и миниатюры.</p></div><div><h4>Зависимости</h4><p>Библиотека Pannellum и шрифты в исходной версии загружаются с CDN. Кейс показывает браузерную навигацию по панорамам.</p></div></div></details>

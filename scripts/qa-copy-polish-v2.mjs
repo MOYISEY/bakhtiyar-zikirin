@@ -17,12 +17,12 @@ try{
     assert.equal(await page.locator('#artportal .details-grid h4').last().textContent(),'Статус проекта');
     assert.match(await page.locator('#artportal .details-grid p').last().textContent(),/ссылка на публичное демо не представлена/);
     assert.match(await page.locator('#neuralbrief .visual-footnote').textContent(),/Авторская схема процесса/);
-    assert.match(await page.locator('#atyrau figcaption').textContent(),/Снимок локального запуска/);
+    assert.equal(await page.locator('#atyrau img, #atyrau figure').count(),0);
     assert.match(await page.locator('#artportal .visual-footnote').textContent(),/Схема данных/);
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
     await page.locator('#artportal').screenshot({path:`${shots}/${device}-artportal.png`});
     await page.locator('#neuralbrief').screenshot({path:`${shots}/${device}-neuralbrief.png`});
-    entry.texts={neuralStatus:await page.locator('#neuralbrief .case-status').textContent(),artStatus:await page.locator('#artportal .case-facts div').last().textContent(),artProjectStatus:await page.locator('#artportal .details-grid p').last().textContent(),tourCaption:await page.locator('#atyrau figcaption').textContent()};assert.deepEqual(entry.errors,[]);entry.passed=true;await page.close();
+    entry.texts={neuralStatus:await page.locator('#neuralbrief .case-status').textContent(),artStatus:await page.locator('#artportal .case-facts div').last().textContent(),artProjectStatus:await page.locator('#artportal .details-grid p').last().textContent(),tourLead:await page.locator('#atyrau .case-lead').textContent()};assert.deepEqual(entry.errors,[]);entry.passed=true;await page.close();
   }
   report.passed=true;
 }catch(error){report.passed=false;report.failure=error.message;process.exitCode=1;}

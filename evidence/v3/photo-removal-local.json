@@ -1,0 +1,35 @@
+{
+  "url": "http://127.0.0.1:5191/",
+  "checkedAt": "2026-10-01T20:00:01.580Z",
+  "scope": "Targeted campus-case removal and layout checks; no whole audit matrix rerun.",
+  "scenarios": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "textSizePercent": 100,
+      "errors": [],
+      "sourceUrl": "https://github.com/MOYISEY/atyrau-tour-3d",
+      "passed": true
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "textSizePercent": 100,
+      "errors": [],
+      "sourceUrl": "https://github.com/MOYISEY/atyrau-tour-3d",
+      "passed": true
+    },
+    {
+      "name": "reflow",
+      "width": 320,
+      "height": 720,
+      "textSizePercent": 200,
+      "errors": [],
+      "sourceUrl": "https://github.com/MOYISEY/atyrau-tour-3d",
+      "passed": true
+    }
+  ],
+  "passed": true
+}
