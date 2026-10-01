@@ -1,0 +1,394 @@
+{
+  "checkedAt": "2026-10-01T18:50:13.349Z",
+  "url": "http://127.0.0.1:5191/",
+  "engines": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "pausedBuffer": {
+        "first": {
+          "painted": 35065,
+          "width": 351,
+          "height": 320,
+          "hash": "1d86503934c0d2637cbbf9174307a3dcbc35b90ecb1ad2dda3e606c3b1ec45cc"
+        },
+        "second": {
+          "painted": 35065,
+          "width": 351,
+          "height": 320,
+          "hash": "1d86503934c0d2637cbbf9174307a3dcbc35b90ecb1ad2dda3e606c3b1ec45cc"
+        },
+        "stable": true,
+        "painted": true
+      },
+      "isolatedLocalPerformance": {
+        "navigation": [
+          {
+            "response": 14.300000000279397,
+            "domContentLoaded": 56.10000000009313,
+            "load": 104.5
+          }
+        ],
+        "observer": {
+          "lcp": [
+            {
+              "start": 868,
+              "size": 25585,
+              "tag": "P"
+            }
+          ],
+          "cls": 0,
+          "longtasks": [
+            {
+              "start": 103.89999999990687,
+              "duration": 208
+            },
+            {
+              "start": 430.10000000009313,
+              "duration": 1790
+            },
+            {
+              "start": 2220.8000000002794,
+              "duration": 530
+            }
+          ]
+        },
+        "observerTypes": [
+          "element",
+          "event",
+          "first-input",
+          "interaction-contentful-paint",
+          "largest-contentful-paint",
+          "layout-shift",
+          "long-animation-frame",
+          "longtask",
+          "mark",
+          "measure",
+          "navigation",
+          "paint",
+          "resource",
+          "soft-navigation",
+          "visibility-state"
+        ],
+        "resources": [
+          {
+            "name": "/assets/index-CEwnZI8y.js",
+            "encodedBytes": 3086,
+            "duration": 18.799999999813735
+          },
+          {
+            "name": "/assets/index-CWb6GOGh.css",
+            "encodedBytes": 7306,
+            "duration": 21.799999999813735
+          },
+          {
+            "name": "/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+            "encodedBytes": 15860,
+            "duration": 11
+          },
+          {
+            "name": "/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+            "encodedBytes": 33760,
+            "duration": 12.399999999906868
+          },
+          {
+            "name": "/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+            "encodedBytes": 18168,
+            "duration": 204.39999999990687
+          },
+          {
+            "name": "/favicon.svg",
+            "encodedBytes": 387,
+            "duration": 6.600000000093132
+          },
+          {
+            "name": "/assets/scene-DvgGRF_P.js",
+            "encodedBytes": 151431,
+            "duration": 45.700000000186265
+          },
+          {
+            "name": "/assets/onest-math-wght-normal-Bl4ZGkZl.woff2",
+            "encodedBytes": 25480,
+            "duration": 26.5
+          }
+        ]
+      },
+      "keyboardRotatedBuffer": {
+        "painted": 35666,
+        "width": 351,
+        "height": 320,
+        "hash": "12b0a85016d3a241ab43134fd53d302199e2231b26e04c72c05f867b9b7f18e2"
+      },
+      "rotated": true,
+      "homeBuffer": {
+        "painted": 35065,
+        "width": 351,
+        "height": 320,
+        "hash": "1d86503934c0d2637cbbf9174307a3dcbc35b90ecb1ad2dda3e606c3b1ec45cc"
+      },
+      "homeRestores": true,
+      "defaultTab": {
+        "tag": "A",
+        "class": "skip-link",
+        "id": ""
+      },
+      "skipBeforeEnter": {
+        "top": 16,
+        "outline": "rgb(187, 61, 37) solid 3px"
+      },
+      "skipAfterEnter": {
+        "active": "main",
+        "hash": "#main"
+      }
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "pausedBuffer": {
+        "first": {
+          "painted": 35089,
+          "width": 351,
+          "height": 320,
+          "hash": "1fc760b1eb14ba684809c618030310508584bda921a5d87ac3729f6f60458c3b"
+        },
+        "second": {
+          "painted": 35089,
+          "width": 351,
+          "height": 320,
+          "hash": "1fc760b1eb14ba684809c618030310508584bda921a5d87ac3729f6f60458c3b"
+        },
+        "stable": true,
+        "painted": true
+      },
+      "isolatedLocalPerformance": {
+        "navigation": [
+          {
+            "response": 110,
+            "domContentLoaded": 661,
+            "load": 4085
+          }
+        ],
+        "observer": {
+          "lcp": [
+            {
+              "start": 704,
+              "size": 1619,
+              "tag": "DIV"
+            },
+            {
+              "start": 704,
+              "size": 12889,
+              "tag": "SPAN"
+            },
+            {
+              "start": 704,
+              "size": 13335,
+              "tag": "H1"
+            }
+          ],
+          "cls": 0,
+          "longtasks": []
+        },
+        "observerTypes": [
+          "event",
+          "first-input",
+          "largest-contentful-paint",
+          "mark",
+          "measure",
+          "navigation",
+          "paint",
+          "resource"
+        ],
+        "resources": [
+          {
+            "name": "/assets/index-CEwnZI8y.js",
+            "encodedBytes": 3086,
+            "duration": 183
+          },
+          {
+            "name": "/assets/index-CWb6GOGh.css",
+            "encodedBytes": 7306,
+            "duration": 187
+          },
+          {
+            "name": "/favicon.svg",
+            "encodedBytes": 387,
+            "duration": 638
+          },
+          {
+            "name": "/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+            "encodedBytes": 33760,
+            "duration": 39
+          },
+          {
+            "name": "/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+            "encodedBytes": 18168,
+            "duration": 289
+          },
+          {
+            "name": "/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+            "encodedBytes": 15860,
+            "duration": 288
+          },
+          {
+            "name": "/assets/scene-DvgGRF_P.js",
+            "encodedBytes": 151431,
+            "duration": 277
+          },
+          {
+            "name": "/assets/onest-math-wght-normal-Bl4ZGkZl.woff2",
+            "encodedBytes": 25480,
+            "duration": 14
+          }
+        ]
+      },
+      "keyboardRotatedBuffer": {
+        "painted": 35690,
+        "width": 351,
+        "height": 320,
+        "hash": "2a6466c31f80d26cd83f064658a62a05dc6ddeadc75e615a501b12db1b633b0b"
+      },
+      "rotated": true,
+      "homeBuffer": {
+        "painted": 35089,
+        "width": 351,
+        "height": 320,
+        "hash": "1fc760b1eb14ba684809c618030310508584bda921a5d87ac3729f6f60458c3b"
+      },
+      "homeRestores": true,
+      "defaultTab": {
+        "tag": "A",
+        "class": "skip-link",
+        "id": ""
+      },
+      "skipBeforeEnter": {
+        "top": 16,
+        "outline": "rgb(187, 61, 37) solid 3px"
+      },
+      "skipAfterEnter": {
+        "active": "main",
+        "hash": "#main"
+      }
+    },
+    {
+      "engine": "webkit",
+      "version": "26.6",
+      "pausedBuffer": {
+        "first": {
+          "painted": 35089,
+          "width": 351,
+          "height": 320,
+          "hash": "cf197408c155c441b6a89156817ff8856a20076692585d47f61daae3f969f746"
+        },
+        "second": {
+          "painted": 35089,
+          "width": 351,
+          "height": 320,
+          "hash": "cf197408c155c441b6a89156817ff8856a20076692585d47f61daae3f969f746"
+        },
+        "stable": true,
+        "painted": true
+      },
+      "isolatedLocalPerformance": {
+        "navigation": [
+          {
+            "response": 23,
+            "domContentLoaded": 187,
+            "load": 273
+          }
+        ],
+        "observer": {
+          "lcp": [
+            {
+              "start": 132,
+              "size": 24050,
+              "tag": "P"
+            }
+          ],
+          "cls": 0,
+          "longtasks": []
+        },
+        "observerTypes": [
+          "event",
+          "first-input",
+          "largest-contentful-paint",
+          "mark",
+          "measure",
+          "navigation",
+          "paint",
+          "resource"
+        ],
+        "resources": [
+          {
+            "name": "/assets/index-CEwnZI8y.js",
+            "encodedBytes": 3086,
+            "duration": 10
+          },
+          {
+            "name": "/assets/index-CWb6GOGh.css",
+            "encodedBytes": 7306,
+            "duration": 10
+          },
+          {
+            "name": "/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+            "encodedBytes": 33760,
+            "duration": 6
+          },
+          {
+            "name": "/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+            "encodedBytes": 18168,
+            "duration": 6
+          },
+          {
+            "name": "/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+            "encodedBytes": 15860,
+            "duration": 9
+          },
+          {
+            "name": "/assets/scene-DvgGRF_P.js",
+            "encodedBytes": 151431,
+            "duration": 38
+          },
+          {
+            "name": "/assets/onest-math-wght-normal-Bl4ZGkZl.woff2",
+            "encodedBytes": 25480,
+            "duration": 5
+          }
+        ]
+      },
+      "keyboardRotatedBuffer": {
+        "painted": 35690,
+        "width": 351,
+        "height": 320,
+        "hash": "efac877eac4d9607be77635c9955b124a1a090db89eb479df8eea76dad011cc1"
+      },
+      "rotated": true,
+      "homeBuffer": {
+        "painted": 35089,
+        "width": 351,
+        "height": 320,
+        "hash": "cf197408c155c441b6a89156817ff8856a20076692585d47f61daae3f969f746"
+      },
+      "homeRestores": true,
+      "defaultTab": {
+        "tag": "BUTTON",
+        "class": "",
+        "id": ""
+      },
+      "altTab": {
+        "tag": "BUTTON",
+        "class": "",
+        "id": ""
+      },
+      "directFocusUsed": true,
+      "skipBeforeEnter": {
+        "top": 16,
+        "outline": "3px solid rgb(187, 61, 37)"
+      },
+      "skipAfterEnter": {
+        "active": "main",
+        "hash": "#main"
+      }
+    }
+  ]
+}

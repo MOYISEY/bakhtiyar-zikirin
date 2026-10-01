@@ -1,0 +1,10 @@
+{
+  "engine": "firefox",
+  "scenario": "no-webgl",
+  "url": "http://127.0.0.1:5190/",
+  "checkedAt": "2026-10-01T18:27:02.945Z",
+  "actions": [
+    "2D modes, layers and signal remain functional"
+  ],
+  "passed": true
+}

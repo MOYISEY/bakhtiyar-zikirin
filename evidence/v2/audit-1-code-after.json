@@ -1,0 +1,107 @@
+{
+  "generatedAt": "2026-10-01T18:30:43.080Z",
+  "target": "http://127.0.0.1:5190/",
+  "checks": [
+    {
+      "name": "baseline, paused rendering, modes, layers, keyboard",
+      "pausedStable": true,
+      "modes": [
+        {
+          "mode": "solid",
+          "pressed": "true",
+          "hash": "bdd56efe054adebb96dadcf1338f925399bc509791e38d8f8bfd990f34120c33"
+        },
+        {
+          "mode": "explode",
+          "pressed": "true",
+          "hash": "0ec3b1c786627fdc55670165703662e249f1b4862cd7bab69ea35cada987af80"
+        },
+        {
+          "mode": "wire",
+          "pressed": "true",
+          "hash": "5008d01346dc34d782624d77ce9347aeb93f8302f9f28c90e7d931a963544c50"
+        }
+      ],
+      "layers": [
+        {
+          "layer": "interface",
+          "text": "Компоненты, состояние и действия человека. Здесь начинается запрос.",
+          "pressed": "true"
+        },
+        {
+          "layer": "logic",
+          "text": "Запросы, условия и проверка ответа. Здесь определяется поведение приложения.",
+          "pressed": "true"
+        },
+        {
+          "layer": "data",
+          "text": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+          "pressed": "true"
+        }
+      ],
+      "keyboard": {
+        "rotated": true,
+        "reset": true
+      },
+      "errors": []
+    },
+    {
+      "name": "fresh mobile camera",
+      "scroll": 320,
+      "width": 320,
+      "canvas": {
+        "x": 16,
+        "y": 399.5,
+        "width": 288,
+        "height": 320,
+        "top": 399.5,
+        "right": 304,
+        "bottom": 719.5,
+        "left": 16
+      }
+    },
+    {
+      "name": "fault after renderer construction",
+      "gpu": {
+        "created": {
+          "Texture": 7,
+          "Framebuffer": 5,
+          "Renderbuffer": 1,
+          "Buffer": 30,
+          "Program": 6,
+          "Shader": 12
+        },
+        "deleted": {
+          "Shader": 12,
+          "Buffer": 29,
+          "Program": 6,
+          "Framebuffer": 2,
+          "Texture": 2,
+          "Renderbuffer": 1
+        }
+      },
+      "status": "3D недоступно в этом браузере · работает 2D-схема",
+      "hidden": true,
+      "tabindex": null,
+      "fallbackInteractive": {
+        "view": "solid",
+        "layer": "data",
+        "text": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние."
+      }
+    },
+    {
+      "name": "context loss hides keyboard target and leaves 2D controls",
+      "hidden": true,
+      "tabindex": null,
+      "webglButtonsHidden": true,
+      "mode": "wire",
+      "layer": "logic"
+    },
+    {
+      "name": "reduced-motion signal completes without retained disabled button",
+      "disabled": false,
+      "signal": null,
+      "text": "04 / Ответ обновляет состояние интерфейса. Путь завершён."
+    }
+  ]
+}

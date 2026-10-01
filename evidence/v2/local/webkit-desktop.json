@@ -1,0 +1,100 @@
+{
+  "engine": "webkit",
+  "browserVersion": "26.6",
+  "device": "desktop",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "url": "http://127.0.0.1:5190/",
+  "checkedAt": "2026-10-01T18:27:10.364Z",
+  "actions": [
+    {
+      "name": "Initial content and no horizontal overflow",
+      "value": true,
+      "time": "2026-10-01T18:27:15.017Z"
+    },
+    {
+      "name": "View solid",
+      "value": true,
+      "time": "2026-10-01T18:27:16.003Z"
+    },
+    {
+      "name": "View explode",
+      "value": true,
+      "time": "2026-10-01T18:27:16.726Z"
+    },
+    {
+      "name": "View wire",
+      "value": true,
+      "time": "2026-10-01T18:27:17.362Z"
+    },
+    {
+      "name": "Three views have distinct visual output",
+      "value": [
+        "cc9dacdd20bdc4d07a5c20a22f76a01580a47d9ca58b3eb20e1fb6af983a81c9",
+        "01869d35479c4b99b4d039feeef2326458da6e27dddf06dae08f31e7357074d5",
+        "18c0d144710776acac4e8d2982f5ef7674e32c37da1efcee51d3beb1f881e778"
+      ],
+      "time": "2026-10-01T18:27:17.362Z"
+    },
+    {
+      "name": "Select layer interface",
+      "value": "Компоненты, состояние и действия человека. Здесь начинается запрос.",
+      "time": "2026-10-01T18:27:17.541Z"
+    },
+    {
+      "name": "Select layer logic",
+      "value": "Запросы, условия и проверка ответа. Здесь определяется поведение приложения.",
+      "time": "2026-10-01T18:27:17.777Z"
+    },
+    {
+      "name": "Select layer data",
+      "value": "Сущности, связи и хранение. Ответ возвращается в интерфейс как новое состояние.",
+      "time": "2026-10-01T18:27:18.010Z"
+    },
+    {
+      "name": "Reduced motion signal completes immediately",
+      "value": true,
+      "time": "2026-10-01T18:27:18.332Z"
+    },
+    {
+      "name": "Reset 3D view",
+      "value": true,
+      "time": "2026-10-01T18:27:18.511Z"
+    },
+    {
+      "name": "3D keyboard ArrowLeft",
+      "value": true,
+      "time": "2026-10-01T18:27:18.547Z"
+    },
+    {
+      "name": "3D keyboard ArrowRight",
+      "value": true,
+      "time": "2026-10-01T18:27:18.556Z"
+    },
+    {
+      "name": "3D keyboard ArrowUp",
+      "value": true,
+      "time": "2026-10-01T18:27:18.574Z"
+    },
+    {
+      "name": "3D keyboard ArrowDown",
+      "value": true,
+      "time": "2026-10-01T18:27:18.582Z"
+    },
+    {
+      "name": "3D keyboard Home",
+      "value": true,
+      "time": "2026-10-01T18:27:18.637Z"
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "consoleErrors": [],
+  "scene": "3D · мышь / два пальца / стрелки",
+  "webgl": true,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Safari/605.1.15",
+  "passed": false,
+  "failure": "locator.screenshot: Element is not attached to the DOM\nCall log:\n\u001b[2m  - taking element screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m    - waiting for \"http://127.0.0.1:5190/\" navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"http://127.0.0.1:5190/\"\u001b[22m\n\u001b[2m    - waiting for element to be stable\u001b[22m\n\n    at [project]\\scripts\\qa-v2.mjs:47:112"
+}

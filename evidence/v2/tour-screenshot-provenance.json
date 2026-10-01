@@ -1,0 +1,74 @@
+{
+  "checkedAt": "2026-10-01T18:36:09.197Z",
+  "repository": "https://github.com/MOYISEY/atyrau-tour-3d",
+  "sourceCommit": "a9e5082851339df47c064fc153032d3e91a113fb",
+  "sourcePath": "tour_v2/index.html",
+  "capture": "public/projects/atyrau-tour.jpg",
+  "viewport": {
+    "width": 1200,
+    "height": 720
+  },
+  "localExecution": true,
+  "scene": "university_front",
+  "yaw": 160,
+  "loaded": true,
+  "pageErrors": [],
+  "images": [
+    {
+      "path": "images/IMG_6848.JPG.jpeg",
+      "url": "https://raw.githubusercontent.com/MOYISEY/atyrau-tour-3d/a9e5082851339df47c064fc153032d3e91a113fb/tour_v2/images/IMG_6848.JPG.jpeg",
+      "bytes": 6115486
+    },
+    {
+      "path": "images/IMG_6852.JPG.jpeg",
+      "url": "https://raw.githubusercontent.com/MOYISEY/atyrau-tour-3d/a9e5082851339df47c064fc153032d3e91a113fb/tour_v2/images/IMG_6852.JPG.jpeg",
+      "bytes": 7555821
+    },
+    {
+      "path": "images/IMG_6850.JPG.jpeg",
+      "url": "https://raw.githubusercontent.com/MOYISEY/atyrau-tour-3d/a9e5082851339df47c064fc153032d3e91a113fb/tour_v2/images/IMG_6850.JPG.jpeg",
+      "bytes": 3749627
+    },
+    {
+      "path": "images/IMG_6855.JPG.jpeg",
+      "url": "https://raw.githubusercontent.com/MOYISEY/atyrau-tour-3d/a9e5082851339df47c064fc153032d3e91a113fb/tour_v2/images/IMG_6855.JPG.jpeg",
+      "bytes": 4008840
+    },
+    {
+      "path": "images/IMG_6868.JPG.jpeg",
+      "url": "https://raw.githubusercontent.com/MOYISEY/atyrau-tour-3d/a9e5082851339df47c064fc153032d3e91a113fb/tour_v2/images/IMG_6868.JPG.jpeg",
+      "bytes": 4264223
+    },
+    {
+      "path": "images/IMG_6853.JPG.jpeg",
+      "url": "https://raw.githubusercontent.com/MOYISEY/atyrau-tour-3d/a9e5082851339df47c064fc153032d3e91a113fb/tour_v2/images/IMG_6853.JPG.jpeg",
+      "bytes": 4314406
+    },
+    {
+      "path": "images/IMG_6854.JPG.jpeg",
+      "url": "https://raw.githubusercontent.com/MOYISEY/atyrau-tour-3d/a9e5082851339df47c064fc153032d3e91a113fb/tour_v2/images/IMG_6854.JPG.jpeg",
+      "bytes": 4621762
+    },
+    {
+      "path": "images/IMG_6856.JPG.jpeg",
+      "url": "https://raw.githubusercontent.com/MOYISEY/atyrau-tour-3d/a9e5082851339df47c064fc153032d3e91a113fb/tour_v2/images/IMG_6856.JPG.jpeg",
+      "bytes": 4383764
+    },
+    {
+      "path": "images/IMG_6861.JPG.jpeg",
+      "url": "https://raw.githubusercontent.com/MOYISEY/atyrau-tour-3d/a9e5082851339df47c064fc153032d3e91a113fb/tour_v2/images/IMG_6861.JPG.jpeg",
+      "bytes": 3668406
+    },
+    {
+      "path": "images/IMG_6859.JPG.jpeg",
+      "url": "https://raw.githubusercontent.com/MOYISEY/atyrau-tour-3d/a9e5082851339df47c064fc153032d3e91a113fb/tour_v2/images/IMG_6859.JPG.jpeg",
+      "bytes": 4550094
+    },
+    {
+      "path": "images/IMG_6871.JPG.jpeg",
+      "url": "https://raw.githubusercontent.com/MOYISEY/atyrau-tour-3d/a9e5082851339df47c064fc153032d3e91a113fb/tour_v2/images/IMG_6871.JPG.jpeg",
+      "bytes": 4922055
+    }
+  ],
+  "screenshotSha256": "fc4be83f5e519a1c3fb0c46ebd410df6f7c082e8fc7f75a600e20d1b5c433981"
+}

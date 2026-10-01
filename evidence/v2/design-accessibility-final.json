@@ -1,0 +1,2977 @@
+{
+  "checkedAt": "2026-10-01T18:32:26.672Z",
+  "target": "Local production build served from docs",
+  "buildIndexSha256": "30323d28ab49e4157d1a9e2f29a0905bf4bbea8ac93346febe4da0f8b95705d1",
+  "serverMisses": [],
+  "engines": [
+    {
+      "engine": "chromium",
+      "scenarios": [
+        {
+          "name": "desktop1440-reduced-motion",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "document": {
+            "scrollWidth": 1440,
+            "clientWidth": 1440
+          },
+          "canvasVisible": true,
+          "status": "3D · мышь / два пальца / стрелки",
+          "h1": "Пишу интерфейсы.\nПроверяю поведение.",
+          "role": "Frontend-разработчик · Астана",
+          "contact": "https://github.com/MOYISEY",
+          "headings": [
+            "Не только первый экран.",
+            "NeuralBrief",
+            "Атырау.Внутри кампуса.",
+            "Art Portal",
+            "Разработка.И проверка результата.",
+            "IQadam Systems",
+            "Astana Digital Outsource",
+            "Думать о связях.Замечать детали.",
+            "Есть задачадля интерфейса?"
+          ],
+          "images": [
+            {
+              "src": "./projects/atyrau-tour.png",
+              "complete": false,
+              "width": 0
+            }
+          ],
+          "overflowingText": [],
+          "smallText": [
+            {
+              "selector": "signal-status",
+              "text": "Пример пути запроса, без подключения к серверу.",
+              "fontSize": "10.88px"
+            },
+            {
+              "selector": "visual-footnote",
+              "text": "Авторская визуализация. Это не скриншот и не действующий AI-сервис.",
+              "fontSize": "10.4px"
+            },
+            {
+              "selector": "FIGCAPTION",
+              "text": "Снимок реального интерфейса из публичного репозитория. Локальный запуск, не публ",
+              "fontSize": "10.72px"
+            },
+            {
+              "selector": "SMALL",
+              "text": "автор",
+              "fontSize": "10.88px"
+            },
+            {
+              "selector": "SMALL",
+              "text": "категория",
+              "fontSize": "10.88px"
+            },
+            {
+              "selector": "SMALL",
+              "text": "галерея / порядок",
+              "fontSize": "10.88px"
+            },
+            {
+              "selector": "SMALL",
+              "text": "user + project",
+              "fontSize": "10.88px"
+            },
+            {
+              "selector": "visual-footnote",
+              "text": "Схема по исходным Django-моделям, не снимок работающего сайта.",
+              "fontSize": "10.4px"
+            }
+          ],
+          "controls": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "x": 16,
+              "y": -90,
+              "width": 144.6875,
+              "height": 53,
+              "right": 160.6875
+            },
+            {
+              "tag": "A",
+              "text": "bz↗Бахтияр ЗикиринFrontend-разработчик · Астана",
+              "x": 64.796875,
+              "y": 24.578125,
+              "width": 228.640625,
+              "height": 38,
+              "right": 293.4375
+            },
+            {
+              "tag": "A",
+              "text": "Проекты",
+              "x": 674.3125,
+              "y": 28.1875,
+              "width": 58.265625,
+              "height": 30.78125,
+              "right": 732.578125
+            },
+            {
+              "tag": "A",
+              "text": "Опыт",
+              "x": 764.578125,
+              "y": 28.1875,
+              "width": 34.671875,
+              "height": 30.78125,
+              "right": 799.25
+            },
+            {
+              "tag": "A",
+              "text": "Подход",
+              "x": 831.25,
+              "y": 28.1875,
+              "width": 50.21875,
+              "height": 30.78125,
+              "right": 881.46875
+            },
+            {
+              "tag": "A",
+              "text": "GitHub ↗ — новая вкладка",
+              "x": 1262.34375,
+              "y": 22.390625,
+              "width": 112.859375,
+              "height": 42.375,
+              "right": 1375.203125
+            },
+            {
+              "tag": "A",
+              "text": "Разобрать проекты ↘",
+              "x": 1010.109375,
+              "y": 424.65625,
+              "width": 212.078125,
+              "height": 52,
+              "right": 1222.1875
+            },
+            {
+              "tag": "A",
+              "text": "Опыт 2025–2026 ↓",
+              "x": 1246.1875,
+              "y": 432.5625,
+              "width": 129.015625,
+              "height": 36.1875,
+              "right": 1375.203125
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Собрать",
+              "x": 95.984375,
+              "y": 1103.625,
+              "width": 80.375,
+              "height": 40,
+              "right": 176.359375
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разделить",
+              "x": 178.359375,
+              "y": 1103.625,
+              "width": 92.4375,
+              "height": 40,
+              "right": 270.796875
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "x": 272.796875,
+              "y": 1103.625,
+              "width": 72.140625,
+              "height": 40,
+              "right": 344.9375
+            },
+            {
+              "tag": "BUTTON",
+              "text": "↺ Сбросить вид",
+              "x": 364.9375,
+              "y": 1101.625,
+              "width": 129.515625,
+              "height": 44,
+              "right": 494.453125
+            },
+            {
+              "tag": "BUTTON",
+              "text": "▷",
+              "x": 502.453125,
+              "y": 1101.625,
+              "width": 44,
+              "height": 44,
+              "right": 546.453125
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01 Интерфейс",
+              "x": 91.984375,
+              "y": 1175.53125,
+              "width": 83.90625,
+              "height": 36.1875,
+              "right": 175.890625
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02 Логика",
+              "x": 195.890625,
+              "y": 1175.53125,
+              "width": 58.640625,
+              "height": 36.1875,
+              "right": 254.53125
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03 Данные",
+              "x": 274.53125,
+              "y": 1175.53125,
+              "width": 61.640625,
+              "height": 36.1875,
+              "right": 336.171875
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Проследить клик →",
+              "x": 1196.203125,
+              "y": 1171.625,
+              "width": 151.8125,
+              "height": 44,
+              "right": 1348.015625
+            },
+            {
+              "tag": "A",
+              "text": "01 NeuralBrief ↘",
+              "x": 1002.203125,
+              "y": 1293.71875,
+              "width": 100.515625,
+              "height": 33,
+              "right": 1102.71875
+            },
+            {
+              "tag": "A",
+              "text": "02 Атырау / тур ↘",
+              "x": 1134.71875,
+              "y": 1293.71875,
+              "width": 114.171875,
+              "height": 33,
+              "right": 1248.890625
+            },
+            {
+              "tag": "A",
+              "text": "03 Art Portal ↘",
+              "x": 1280.890625,
+              "y": 1293.71875,
+              "width": 94.3125,
+              "height": 33,
+              "right": 1375.203125
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01 Интервью",
+              "x": 879.125,
+              "y": 1877.640625,
+              "width": 77.765625,
+              "height": 44,
+              "right": 956.890625
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02 ТЗ",
+              "x": 1108.53125,
+              "y": 1877.640625,
+              "width": 33.8125,
+              "height": 44,
+              "right": 1142.34375
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03 Роли",
+              "x": 1293.96875,
+              "y": 1877.640625,
+              "width": 48.234375,
+              "height": 44,
+              "right": 1342.203125
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что важно в таком процессе +",
+              "x": 64.796875,
+              "y": 2383.84375,
+              "width": 1310.40625,
+              "height": 69,
+              "right": 1375.203125
+            },
+            {
+              "tag": "A",
+              "text": "Открыть исходники ↗ — новая вкладка",
+              "x": 1197.1875,
+              "y": 3796.390625,
+              "width": 178.015625,
+              "height": 51,
+              "right": 1375.203125
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Решения и ограничения +",
+              "x": 64.796875,
+              "y": 3888.390625,
+              "width": 1310.40625,
+              "height": 69,
+              "right": 1375.203125
+            },
+            {
+              "tag": "A",
+              "text": "Посмотреть код ↗ — новая вкладка",
+              "x": 847.28125,
+              "y": 4736.828125,
+              "width": 155.09375,
+              "height": 51,
+              "right": 1002.375
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Читать кейс по исходникам +",
+              "x": 64.796875,
+              "y": 4853.71875,
+              "width": 1310.40625,
+              "height": 69,
+              "right": 1375.203125
+            },
+            {
+              "tag": "A",
+              "text": "MOYISEY / GitHub↗ — новая вкладка",
+              "x": 883.03125,
+              "y": 6983.5,
+              "width": 492.171875,
+              "height": 74,
+              "right": 1375.203125
+            },
+            {
+              "tag": "A",
+              "text": "bz↗Бахтияр Зикирин",
+              "x": 64.796875,
+              "y": 7152.671875,
+              "width": 158.421875,
+              "height": 27.203125,
+              "right": 223.21875
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "x": 1302.65625,
+              "y": 7148.09375,
+              "width": 72.546875,
+              "height": 36.375,
+              "right": 1375.203125
+            }
+          ],
+          "axe": {
+            "name": "desktop initial",
+            "violations": [],
+            "passes": 42,
+            "incomplete": [
+              {
+                "id": "aria-prohibited-attr",
+                "nodes": [
+                  {
+                    "target": [
+                      ".entity-map"
+                    ],
+                    "failureSummary": "Fix all of the following:\n  aria-label attribute is not well supported on a div with no valid role attribute."
+                  }
+                ]
+              },
+              {
+                "id": "color-contrast",
+                "nodes": [
+                  {
+                    "target": [
+                      ".text-link > span[aria-hidden=\"true\"]"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+                  },
+                  {
+                    "target": [
+                      ".scene-axis > span:nth-child(1)"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+                  },
+                  {
+                    "target": [
+                      ".scene-axis > span:nth-child(3)"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+                  },
+                  {
+                    "target": [
+                      "#scene-reset"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+                  },
+                  {
+                    "target": [
+                      "#motion-toggle"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+                  },
+                  {
+                    "target": [
+                      "#signal-start > span[aria-hidden=\"true\"]"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+                  },
+                  {
+                    "target": [
+                      ".frame-dots"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+                  },
+                  {
+                    "target": [
+                      ".back-top > span[aria-hidden=\"true\"]"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+                  }
+                ]
+              }
+            ]
+          },
+          "motionPressed": "true"
+        },
+        {
+          "name": "desktop-expanded",
+          "axe": {
+            "name": "All details expanded; role step selected",
+            "violations": [],
+            "passes": 42,
+            "incomplete": [
+              {
+                "id": "aria-prohibited-attr",
+                "nodes": [
+                  {
+                    "target": [
+                      ".entity-map"
+                    ],
+                    "failureSummary": "Fix all of the following:\n  aria-label attribute is not well supported on a div with no valid role attribute."
+                  }
+                ]
+              },
+              {
+                "id": "color-contrast",
+                "nodes": [
+                  {
+                    "target": [
+                      ".text-link > span[aria-hidden=\"true\"]"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+                  },
+                  {
+                    "target": [
+                      ".scene-axis > span:nth-child(1)"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+                  },
+                  {
+                    "target": [
+                      ".scene-axis > span:nth-child(3)"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+                  },
+                  {
+                    "target": [
+                      "#scene-reset"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+                  },
+                  {
+                    "target": [
+                      "#motion-toggle"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+                  },
+                  {
+                    "target": [
+                      "#signal-start > span[aria-hidden=\"true\"]"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+                  },
+                  {
+                    "target": [
+                      ".frame-dots"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+                  },
+                  {
+                    "target": [
+                      ".back-top > span[aria-hidden=\"true\"]"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "desktop-text200",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "document": {
+            "scrollWidth": 1440,
+            "clientWidth": 1440
+          },
+          "canvasVisible": true,
+          "status": "3D · мышь / два пальца / стрелки",
+          "h1": "Пишу интерфейсы.\nПроверяю поведение.",
+          "role": "Frontend-разработчик · Астана",
+          "contact": "https://github.com/MOYISEY",
+          "headings": [
+            "Не только первый экран.",
+            "NeuralBrief",
+            "Атырау.Внутри кампуса.",
+            "Art Portal",
+            "Разработка.И проверка результата.",
+            "IQadam Systems",
+            "Astana Digital Outsource",
+            "Думать о связях.Замечать детали.",
+            "Есть задачадля интерфейса?"
+          ],
+          "images": [
+            {
+              "src": "./projects/atyrau-tour.png",
+              "complete": true,
+              "width": 1200
+            }
+          ],
+          "overflowingText": [],
+          "smallText": [],
+          "controls": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "x": 32,
+              "y": -178,
+              "width": 289.359375,
+              "height": 105,
+              "right": 321.359375
+            },
+            {
+              "tag": "A",
+              "text": "bz↗Бахтияр ЗикиринFrontend-разработчик · Астана",
+              "x": 64.796875,
+              "y": 50.6875,
+              "width": 457.265625,
+              "height": 71,
+              "right": 522.0625
+            },
+            {
+              "tag": "A",
+              "text": "Проекты",
+              "x": 629.640625,
+              "y": 55.390625,
+              "width": 116.515625,
+              "height": 61.59375,
+              "right": 746.15625
+            },
+            {
+              "tag": "A",
+              "text": "Опыт",
+              "x": 810.15625,
+              "y": 55.390625,
+              "width": 69.328125,
+              "height": 61.59375,
+              "right": 879.484375
+            },
+            {
+              "tag": "A",
+              "text": "Подход",
+              "x": 943.484375,
+              "y": 55.390625,
+              "width": 100.4375,
+              "height": 61.59375,
+              "right": 1043.921875
+            },
+            {
+              "tag": "A",
+              "text": "GitHub ↗ — новая вкладка",
+              "x": 1151.5,
+              "y": 44.796875,
+              "width": 223.703125,
+              "height": 82.78125,
+              "right": 1375.203125
+            },
+            {
+              "tag": "A",
+              "text": "Разобрать проекты ↘",
+              "x": 647.03125,
+              "y": 826.9375,
+              "width": 422.15625,
+              "height": 102,
+              "right": 1069.1875
+            },
+            {
+              "tag": "A",
+              "text": "Опыт 2025–2026 ↓",
+              "x": 1117.1875,
+              "y": 841.75,
+              "width": 258.015625,
+              "height": 72.375,
+              "right": 1375.203125
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Собрать",
+              "x": 123.1875,
+              "y": 1674.296875,
+              "width": 160.765625,
+              "height": 74.59375,
+              "right": 283.953125
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разделить",
+              "x": 285.953125,
+              "y": 1674.296875,
+              "width": 184.90625,
+              "height": 74.59375,
+              "right": 470.859375
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "x": 472.859375,
+              "y": 1674.296875,
+              "width": 144.3125,
+              "height": 74.59375,
+              "right": 617.171875
+            },
+            {
+              "tag": "BUTTON",
+              "text": "↺ Сбросить вид",
+              "x": 653.171875,
+              "y": 1669.90625,
+              "width": 257.015625,
+              "height": 83.375,
+              "right": 910.1875
+            },
+            {
+              "tag": "BUTTON",
+              "text": "▷",
+              "x": 926.1875,
+              "y": 1669.90625,
+              "width": 84.453125,
+              "height": 83.375,
+              "right": 1010.640625
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01 Интерфейс",
+              "x": 119.1875,
+              "y": 1858.28125,
+              "width": 163.8125,
+              "height": 69.375,
+              "right": 283
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02 Логика",
+              "x": 323,
+              "y": 1858.28125,
+              "width": 113.265625,
+              "height": 69.375,
+              "right": 436.265625
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03 Данные",
+              "x": 119.1875,
+              "y": 1967.65625,
+              "width": 119.265625,
+              "height": 69.375,
+              "right": 238.453125
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Проследить клик →",
+              "x": 1019.21875,
+              "y": 1906.15625,
+              "width": 301.59375,
+              "height": 83,
+              "right": 1320.8125
+            },
+            {
+              "tag": "A",
+              "text": "01 NeuralBrief ↘",
+              "x": 629.234375,
+              "y": 2192.25,
+              "width": 201.015625,
+              "height": 64,
+              "right": 830.25
+            },
+            {
+              "tag": "A",
+              "text": "02 Атырау / тур ↘",
+              "x": 894.25,
+              "y": 2192.25,
+              "width": 228.34375,
+              "height": 64,
+              "right": 1122.59375
+            },
+            {
+              "tag": "A",
+              "text": "03 Art Portal ↘",
+              "x": 1186.59375,
+              "y": 2192.25,
+              "width": 188.609375,
+              "height": 64,
+              "right": 1375.203125
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01 Интервью",
+              "x": 911.125,
+              "y": 3417.5625,
+              "width": 155.515625,
+              "height": 70.375,
+              "right": 1066.640625
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02 ТЗ",
+              "x": 1106.375,
+              "y": 3417.5625,
+              "width": 67.625,
+              "height": 70.375,
+              "right": 1174
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03 Роли",
+              "x": 1213.734375,
+              "y": 3417.5625,
+              "width": 96.46875,
+              "height": 70.375,
+              "right": 1310.203125
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что важно в таком процессе +",
+              "x": 64.796875,
+              "y": 5046.40625,
+              "width": 1310.40625,
+              "height": 137,
+              "right": 1375.203125
+            },
+            {
+              "tag": "A",
+              "text": "Открыть исходники ↗ — новая вкладка",
+              "x": 1019.1875,
+              "y": 7820.09375,
+              "width": 356.015625,
+              "height": 102,
+              "right": 1375.203125
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Решения и ограничения +",
+              "x": 64.796875,
+              "y": 8003.09375,
+              "width": 1310.40625,
+              "height": 137,
+              "right": 1375.203125
+            },
+            {
+              "tag": "A",
+              "text": "Посмотреть код ↗ — новая вкладка",
+              "x": 847.28125,
+              "y": 10846.4375,
+              "width": 310.15625,
+              "height": 102,
+              "right": 1157.4375
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Читать кейс по исходникам +",
+              "x": 64.796875,
+              "y": 11029.4375,
+              "width": 1310.40625,
+              "height": 137,
+              "right": 1375.203125
+            },
+            {
+              "tag": "A",
+              "text": "MOYISEY / GitHub↗ — новая вкладка",
+              "x": 915.03125,
+              "y": 16559.921875,
+              "width": 460.171875,
+              "height": 147,
+              "right": 1375.203125
+            },
+            {
+              "tag": "A",
+              "text": "bz↗Бахтияр Зикирин",
+              "x": 64.796875,
+              "y": 16896.796875,
+              "width": 316.828125,
+              "height": 54.40625,
+              "right": 381.625
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "x": 1230.109375,
+              "y": 16887.109375,
+              "width": 145.09375,
+              "height": 73.78125,
+              "right": 1375.203125
+            }
+          ]
+        },
+        {
+          "name": "mobile390",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "document": {
+            "scrollWidth": 390,
+            "clientWidth": 390
+          },
+          "canvasVisible": true,
+          "status": "3D · мышь / два пальца / стрелки",
+          "h1": "Пишу интерфейсы.\nПроверяю поведение.",
+          "role": "Frontend-разработчик · Астана",
+          "contact": "https://github.com/MOYISEY",
+          "headings": [
+            "Не только первый экран.",
+            "NeuralBrief",
+            "Атырау.Внутри кампуса.",
+            "Art Portal",
+            "Разработка.И проверка результата.",
+            "IQadam Systems",
+            "Astana Digital Outsource",
+            "Думать о связях.Замечать детали.",
+            "Есть задачадля интерфейса?"
+          ],
+          "images": [
+            {
+              "src": "./projects/atyrau-tour.png",
+              "complete": true,
+              "width": 1200
+            }
+          ],
+          "overflowingText": [],
+          "smallText": [
+            {
+              "selector": "SMALL",
+              "text": "Frontend-разработчик · Астана",
+              "fontSize": "9.92px"
+            },
+            {
+              "selector": "signal-status",
+              "text": "Пример пути запроса, без подключения к серверу.",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "visual-footnote",
+              "text": "Авторская визуализация. Это не скриншот и не действующий AI-сервис.",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "FIGCAPTION",
+              "text": "Снимок реального интерфейса из публичного репозитория. Локальный запуск, не публ",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "SMALL",
+              "text": "автор",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "SMALL",
+              "text": "категория",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "SMALL",
+              "text": "галерея / порядок",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "SMALL",
+              "text": "user + project",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "visual-footnote",
+              "text": "Схема по исходным Django-моделям, не снимок работающего сайта.",
+              "fontSize": "9.6px"
+            }
+          ],
+          "controls": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "x": 16,
+              "y": -90,
+              "width": 144.6875,
+              "height": 53,
+              "right": 160.6875
+            },
+            {
+              "tag": "A",
+              "text": "bz↗Бахтияр ЗикиринFrontend-разработчик · Астана",
+              "x": 19.5,
+              "y": 19.1875,
+              "width": 198.6875,
+              "height": 34,
+              "right": 218.1875
+            },
+            {
+              "tag": "A",
+              "text": "Проекты",
+              "x": 19.5,
+              "y": 80.578125,
+              "width": 53.265625,
+              "height": 28.78125,
+              "right": 72.765625
+            },
+            {
+              "tag": "A",
+              "text": "Опыт",
+              "x": 182.828125,
+              "y": 80.578125,
+              "width": 31.703125,
+              "height": 28.78125,
+              "right": 214.53125
+            },
+            {
+              "tag": "A",
+              "text": "Подход",
+              "x": 324.578125,
+              "y": 80.578125,
+              "width": 45.921875,
+              "height": 28.78125,
+              "right": 370.5
+            },
+            {
+              "tag": "A",
+              "text": "GitHub ↗ — новая вкладка",
+              "x": 291.03125,
+              "y": 19.390625,
+              "width": 79.46875,
+              "height": 33.59375,
+              "right": 370.5
+            },
+            {
+              "tag": "A",
+              "text": "Разобрать проекты ↘",
+              "x": 19.5,
+              "y": 400.40625,
+              "width": 169.703125,
+              "height": 45.1875,
+              "right": 189.203125
+            },
+            {
+              "tag": "A",
+              "text": "Опыт 2025–2026 ↓",
+              "x": 208.390625,
+              "y": 405.90625,
+              "width": 106.890625,
+              "height": 34.1875,
+              "right": 315.28125
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Собрать",
+              "x": 37.890625,
+              "y": 877.21875,
+              "width": 64.328125,
+              "height": 40,
+              "right": 102.21875
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разделить",
+              "x": 102.21875,
+              "y": 877.21875,
+              "width": 74.890625,
+              "height": 40,
+              "right": 177.109375
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "x": 177.109375,
+              "y": 877.21875,
+              "width": 57.125,
+              "height": 40,
+              "right": 234.234375
+            },
+            {
+              "tag": "BUTTON",
+              "text": "↺ Сбросить вид",
+              "x": 251.03125,
+              "y": 873.21875,
+              "width": 31.6875,
+              "height": 44,
+              "right": 282.71875
+            },
+            {
+              "tag": "BUTTON",
+              "text": "▷",
+              "x": 289.109375,
+              "y": 873.21875,
+              "width": 44,
+              "height": 44,
+              "right": 333.109375
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01 Интерфейс",
+              "x": 33.890625,
+              "y": 964.40625,
+              "width": 79.28125,
+              "height": 34.1875,
+              "right": 113.171875
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02 Логика",
+              "x": 129.171875,
+              "y": 964.40625,
+              "width": 55.703125,
+              "height": 34.1875,
+              "right": 184.875
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03 Данные",
+              "x": 200.875,
+              "y": 964.40625,
+              "width": 58.5,
+              "height": 34.1875,
+              "right": 259.375
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Проследить клик →",
+              "x": 33.890625,
+              "y": 1059.25,
+              "width": 130.671875,
+              "height": 44,
+              "right": 164.5625
+            },
+            {
+              "tag": "A",
+              "text": "01 NeuralBrief ↘",
+              "x": 19.5,
+              "y": 1162.03125,
+              "width": 81.40625,
+              "height": 30,
+              "right": 100.90625
+            },
+            {
+              "tag": "A",
+              "text": "02 Атырау / тур ↘",
+              "x": 120.09375,
+              "y": 1162.03125,
+              "width": 93.09375,
+              "height": 30,
+              "right": 213.1875
+            },
+            {
+              "tag": "A",
+              "text": "03 Art Portal ↘",
+              "x": 232.375,
+              "y": 1162.03125,
+              "width": 76.109375,
+              "height": 30,
+              "right": 308.484375
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01 Интервью",
+              "x": 40.5,
+              "y": 2234.625,
+              "width": 72.90625,
+              "height": 44,
+              "right": 113.40625
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02 ТЗ",
+              "x": 189.890625,
+              "y": 2234.625,
+              "width": 32.421875,
+              "height": 44,
+              "right": 222.3125
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03 Роли",
+              "x": 298.796875,
+              "y": 2234.625,
+              "width": 45.703125,
+              "height": 44,
+              "right": 344.5
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что важно в таком процессе +",
+              "x": 19.5,
+              "y": 2686.234375,
+              "width": 351,
+              "height": 61,
+              "right": 370.5
+            },
+            {
+              "tag": "A",
+              "text": "Открыть исходники ↗ — новая вкладка",
+              "x": 19.5,
+              "y": 3764.546875,
+              "width": 151.25,
+              "height": 51,
+              "right": 170.75
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Решения и ограничения +",
+              "x": 19.5,
+              "y": 3843.734375,
+              "width": 351,
+              "height": 61,
+              "right": 370.5
+            },
+            {
+              "tag": "A",
+              "text": "Посмотреть код ↗ — новая вкладка",
+              "x": 19.5,
+              "y": 5131.375,
+              "width": 131.59375,
+              "height": 51,
+              "right": 151.09375
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Читать кейс по исходникам +",
+              "x": 19.5,
+              "y": 5210.5625,
+              "width": 351,
+              "height": 61,
+              "right": 370.5
+            },
+            {
+              "tag": "A",
+              "text": "MOYISEY / GitHub↗ — новая вкладка",
+              "x": 19.5,
+              "y": 7543.859375,
+              "width": 351,
+              "height": 56.375,
+              "right": 370.5
+            },
+            {
+              "tag": "A",
+              "text": "bz↗Бахтияр Зикирин",
+              "x": 19.5,
+              "y": 7668.8125,
+              "width": 135.5,
+              "height": 24,
+              "right": 155
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "x": 305.125,
+              "y": 7663.625,
+              "width": 65.375,
+              "height": 34.375,
+              "right": 370.5
+            }
+          ],
+          "axe": {
+            "name": "390 wide",
+            "violations": [],
+            "passes": 42,
+            "incomplete": [
+              {
+                "id": "aria-prohibited-attr",
+                "nodes": [
+                  {
+                    "target": [
+                      ".entity-map"
+                    ],
+                    "failureSummary": "Fix all of the following:\n  aria-label attribute is not well supported on a div with no valid role attribute."
+                  }
+                ]
+              },
+              {
+                "id": "color-contrast",
+                "nodes": [
+                  {
+                    "target": [
+                      ".text-link > span[aria-hidden=\"true\"]"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+                  },
+                  {
+                    "target": [
+                      ".scene-axis > span:nth-child(1)"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+                  },
+                  {
+                    "target": [
+                      ".scene-axis > span:nth-child(3)"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+                  },
+                  {
+                    "target": [
+                      "#scene-reset"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+                  },
+                  {
+                    "target": [
+                      "#motion-toggle"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+                  },
+                  {
+                    "target": [
+                      "#signal-start > span[aria-hidden=\"true\"]"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+                  },
+                  {
+                    "target": [
+                      ".frame-dots"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+                  },
+                  {
+                    "target": [
+                      ".back-top > span[aria-hidden=\"true\"]"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "mobile320",
+          "viewport": {
+            "width": 320,
+            "height": 640
+          },
+          "document": {
+            "scrollWidth": 320,
+            "clientWidth": 320
+          },
+          "canvasVisible": true,
+          "status": "3D · мышь / два пальца / стрелки",
+          "h1": "Пишу интерфейсы.\nПроверяю поведение.",
+          "role": "Frontend-разработчик · Астана",
+          "contact": "https://github.com/MOYISEY",
+          "headings": [
+            "Не только первый экран.",
+            "NeuralBrief",
+            "Атырау.Внутри кампуса.",
+            "Art Portal",
+            "Разработка.И проверка результата.",
+            "IQadam Systems",
+            "Astana Digital Outsource",
+            "Думать о связях.Замечать детали.",
+            "Есть задачадля интерфейса?"
+          ],
+          "images": [
+            {
+              "src": "./projects/atyrau-tour.png",
+              "complete": true,
+              "width": 1200
+            }
+          ],
+          "overflowingText": [],
+          "smallText": [
+            {
+              "selector": "SMALL",
+              "text": "Frontend-разработчик · Астана",
+              "fontSize": "9.92px"
+            },
+            {
+              "selector": "signal-status",
+              "text": "Пример пути запроса, без подключения к серверу.",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "visual-footnote",
+              "text": "Авторская визуализация. Это не скриншот и не действующий AI-сервис.",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "FIGCAPTION",
+              "text": "Снимок реального интерфейса из публичного репозитория. Локальный запуск, не публ",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "SMALL",
+              "text": "автор",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "SMALL",
+              "text": "категория",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "SMALL",
+              "text": "галерея / порядок",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "SMALL",
+              "text": "user + project",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "visual-footnote",
+              "text": "Схема по исходным Django-моделям, не снимок работающего сайта.",
+              "fontSize": "9.6px"
+            }
+          ],
+          "controls": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "x": 16,
+              "y": -90,
+              "width": 144.6875,
+              "height": 53,
+              "right": 160.6875
+            },
+            {
+              "tag": "A",
+              "text": "bz↗Бахтияр ЗикиринFrontend-разработчик · Астана",
+              "x": 16,
+              "y": 19.1875,
+              "width": 198.6875,
+              "height": 34,
+              "right": 214.6875
+            },
+            {
+              "tag": "A",
+              "text": "Проекты",
+              "x": 16,
+              "y": 80.578125,
+              "width": 53.265625,
+              "height": 28.78125,
+              "right": 69.265625
+            },
+            {
+              "tag": "A",
+              "text": "Опыт",
+              "x": 147.828125,
+              "y": 80.578125,
+              "width": 31.703125,
+              "height": 28.78125,
+              "right": 179.53125
+            },
+            {
+              "tag": "A",
+              "text": "Подход",
+              "x": 258.078125,
+              "y": 80.578125,
+              "width": 45.921875,
+              "height": 28.78125,
+              "right": 304
+            },
+            {
+              "tag": "A",
+              "text": "GitHub ↗ — новая вкладка",
+              "x": 230.9375,
+              "y": 19.390625,
+              "width": 73.0625,
+              "height": 33.59375,
+              "right": 304
+            },
+            {
+              "tag": "A",
+              "text": "Разобрать проекты ↘",
+              "x": 16,
+              "y": 432.3125,
+              "width": 169.703125,
+              "height": 45.1875,
+              "right": 185.703125
+            },
+            {
+              "tag": "A",
+              "text": "Опыт 2025–2026 ↓",
+              "x": 16,
+              "y": 496.6875,
+              "width": 106.890625,
+              "height": 34.1875,
+              "right": 122.890625
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Собрать",
+              "x": 34.390625,
+              "y": 962.5,
+              "width": 64.328125,
+              "height": 40,
+              "right": 98.71875
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разделить",
+              "x": 98.71875,
+              "y": 962.5,
+              "width": 74.890625,
+              "height": 40,
+              "right": 173.609375
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "x": 173.609375,
+              "y": 962.5,
+              "width": 57.125,
+              "height": 40,
+              "right": 230.734375
+            },
+            {
+              "tag": "BUTTON",
+              "text": "↺ Сбросить вид",
+              "x": 30.390625,
+              "y": 1019.296875,
+              "width": 31.6875,
+              "height": 44,
+              "right": 62.078125
+            },
+            {
+              "tag": "BUTTON",
+              "text": "▷",
+              "x": 68.46875,
+              "y": 1019.296875,
+              "width": 44,
+              "height": 44,
+              "right": 112.46875
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01 Интерфейс",
+              "x": 30.390625,
+              "y": 1106.484375,
+              "width": 79.28125,
+              "height": 34.1875,
+              "right": 109.671875
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02 Логика",
+              "x": 122.46875,
+              "y": 1106.484375,
+              "width": 55.703125,
+              "height": 34.1875,
+              "right": 178.171875
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03 Данные",
+              "x": 190.96875,
+              "y": 1106.484375,
+              "width": 58.5,
+              "height": 34.1875,
+              "right": 249.46875
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Проследить клик →",
+              "x": 30.390625,
+              "y": 1201.328125,
+              "width": 130.671875,
+              "height": 44,
+              "right": 161.0625
+            },
+            {
+              "tag": "A",
+              "text": "01 NeuralBrief ↘",
+              "x": 16,
+              "y": 1328.09375,
+              "width": 81.40625,
+              "height": 30,
+              "right": 97.40625
+            },
+            {
+              "tag": "A",
+              "text": "02 Атырау / тур ↘",
+              "x": 110.203125,
+              "y": 1328.09375,
+              "width": 93.09375,
+              "height": 30,
+              "right": 203.296875
+            },
+            {
+              "tag": "A",
+              "text": "03 Art Portal ↘",
+              "x": 216.09375,
+              "y": 1328.09375,
+              "width": 76.109375,
+              "height": 30,
+              "right": 292.203125
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01 Интервью",
+              "x": 37,
+              "y": 2431.640625,
+              "width": 72.90625,
+              "height": 44,
+              "right": 109.90625
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02 ТЗ",
+              "x": 154.890625,
+              "y": 2431.640625,
+              "width": 32.421875,
+              "height": 44,
+              "right": 187.3125
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03 Роли",
+              "x": 232.296875,
+              "y": 2431.640625,
+              "width": 45.703125,
+              "height": 44,
+              "right": 278
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что важно в таком процессе +",
+              "x": 16,
+              "y": 2883.25,
+              "width": 288,
+              "height": 61,
+              "right": 304
+            },
+            {
+              "tag": "A",
+              "text": "Открыть исходники ↗ — новая вкладка",
+              "x": 16,
+              "y": 3948.6875,
+              "width": 151.25,
+              "height": 51,
+              "right": 167.25
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Решения и ограничения +",
+              "x": 16,
+              "y": 4027.875,
+              "width": 288,
+              "height": 61,
+              "right": 304
+            },
+            {
+              "tag": "A",
+              "text": "Посмотреть код ↗ — новая вкладка",
+              "x": 16,
+              "y": 5394.984375,
+              "width": 131.59375,
+              "height": 51,
+              "right": 147.59375
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Читать кейс по исходникам +",
+              "x": 16,
+              "y": 5474.171875,
+              "width": 288,
+              "height": 61,
+              "right": 304
+            },
+            {
+              "tag": "A",
+              "text": "MOYISEY / GitHub↗ — новая вкладка",
+              "x": 16,
+              "y": 7946.96875,
+              "width": 288,
+              "height": 56.375,
+              "right": 304
+            },
+            {
+              "tag": "A",
+              "text": "bz↗Бахтияр Зикирин",
+              "x": 16,
+              "y": 8071.921875,
+              "width": 135.5,
+              "height": 24,
+              "right": 151.5
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "x": 238.625,
+              "y": 8066.734375,
+              "width": 65.375,
+              "height": 34.375,
+              "right": 304
+            }
+          ]
+        },
+        {
+          "name": "mobile320-text200",
+          "viewport": {
+            "width": 320,
+            "height": 640
+          },
+          "document": {
+            "scrollWidth": 320,
+            "clientWidth": 320
+          },
+          "canvasVisible": true,
+          "status": "3D · мышь / два пальца / стрелки",
+          "h1": "Пишу интерфейсы.\nПроверяю поведение.",
+          "role": "Frontend-разработчик · Астана",
+          "contact": "https://github.com/MOYISEY",
+          "headings": [
+            "Не только первый экран.",
+            "NeuralBrief",
+            "Атырау.Внутри кампуса.",
+            "Art Portal",
+            "Разработка.И проверка результата.",
+            "IQadam Systems",
+            "Astana Digital Outsource",
+            "Думать о связях.Замечать детали.",
+            "Есть задачадля интерфейса?"
+          ],
+          "images": [
+            {
+              "src": "./projects/atyrau-tour.png",
+              "complete": true,
+              "width": 1200
+            }
+          ],
+          "overflowingText": [],
+          "smallText": [],
+          "controls": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "x": 32,
+              "y": -260,
+              "width": 288,
+              "height": 146,
+              "right": 320
+            },
+            {
+              "tag": "A",
+              "text": "bz↗Бахтияр ЗикиринFrontend-разработчик · Астана",
+              "x": 16,
+              "y": 38.390625,
+              "width": 288,
+              "height": 147,
+              "right": 304
+            },
+            {
+              "tag": "A",
+              "text": "Проекты",
+              "x": 16,
+              "y": 340.546875,
+              "width": 106.53125,
+              "height": 58.59375,
+              "right": 122.53125
+            },
+            {
+              "tag": "A",
+              "text": "Опыт",
+              "x": 240.609375,
+              "y": 340.546875,
+              "width": 63.390625,
+              "height": 58.59375,
+              "right": 304
+            },
+            {
+              "tag": "A",
+              "text": "Подход",
+              "x": 16,
+              "y": 419.9375,
+              "width": 91.828125,
+              "height": 58.59375,
+              "right": 107.828125
+            },
+            {
+              "tag": "A",
+              "text": "GitHub ↗ — новая вкладка",
+              "x": 16,
+              "y": 220.578125,
+              "width": 144.140625,
+              "height": 66.1875,
+              "right": 160.140625
+            },
+            {
+              "tag": "A",
+              "text": "Разобрать проекты ↘",
+              "x": 16,
+              "y": 1654.859375,
+              "width": 288,
+              "height": 116.375,
+              "right": 304
+            },
+            {
+              "tag": "A",
+              "text": "Опыт 2025–2026 ↓",
+              "x": 16,
+              "y": 1809.625,
+              "width": 213.75,
+              "height": 68.375,
+              "right": 229.75
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Собрать",
+              "x": 48.796875,
+              "y": 2469.96875,
+              "width": 128.65625,
+              "height": 64.1875,
+              "right": 177.453125
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разделить",
+              "x": 48.796875,
+              "y": 2534.15625,
+              "width": 149.78125,
+              "height": 64.1875,
+              "right": 198.578125
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "x": 48.796875,
+              "y": 2598.34375,
+              "width": 114.25,
+              "height": 64.1875,
+              "right": 163.046875
+            },
+            {
+              "tag": "BUTTON",
+              "text": "↺ Сбросить вид",
+              "x": 44.796875,
+              "y": 2692.125,
+              "width": 61.375,
+              "height": 80.1875,
+              "right": 106.171875
+            },
+            {
+              "tag": "BUTTON",
+              "text": "▷",
+              "x": 118.96875,
+              "y": 2692.125,
+              "width": 68.453125,
+              "height": 80.1875,
+              "right": 187.421875
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01 Интерфейс",
+              "x": 44.796875,
+              "y": 2887.5,
+              "width": 154.5625,
+              "height": 68.375,
+              "right": 199.359375
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02 Логика",
+              "x": 44.796875,
+              "y": 2981.46875,
+              "width": 107.390625,
+              "height": 68.375,
+              "right": 152.1875
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03 Данные",
+              "x": 44.796875,
+              "y": 3075.4375,
+              "width": 112.984375,
+              "height": 68.375,
+              "right": 157.78125
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Проследить клик →",
+              "x": 44.796875,
+              "y": 3370.15625,
+              "width": 230.40625,
+              "height": 101.59375,
+              "right": 275.203125
+            },
+            {
+              "tag": "A",
+              "text": "01 NeuralBrief ↘",
+              "x": 16,
+              "y": 3691.125,
+              "width": 162.828125,
+              "height": 59,
+              "right": 178.828125
+            },
+            {
+              "tag": "A",
+              "text": "02 Атырау / тур ↘",
+              "x": 16,
+              "y": 3762.921875,
+              "width": 186.203125,
+              "height": 59,
+              "right": 202.203125
+            },
+            {
+              "tag": "A",
+              "text": "03 Art Portal ↘",
+              "x": 16,
+              "y": 3834.71875,
+              "width": 152.21875,
+              "height": 59,
+              "right": 168.21875
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01 Интервью",
+              "x": 57,
+              "y": 7590.1875,
+              "width": 145.796875,
+              "height": 68.375,
+              "right": 202.796875
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02 ТЗ",
+              "x": 57,
+              "y": 7680.953125,
+              "width": 64.84375,
+              "height": 68.375,
+              "right": 121.84375
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03 Роли",
+              "x": 166.59375,
+              "y": 7680.953125,
+              "width": 91.40625,
+              "height": 68.375,
+              "right": 258
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что важно в таком процессе +",
+              "x": 16,
+              "y": 9185.609375,
+              "width": 288,
+              "height": 124,
+              "right": 304
+            },
+            {
+              "tag": "A",
+              "text": "Открыть исходники ↗ — новая вкладка",
+              "x": 16,
+              "y": 12302.671875,
+              "width": 288,
+              "height": 109,
+              "right": 304
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Решения и ограничения +",
+              "x": 16,
+              "y": 12467.0625,
+              "width": 288,
+              "height": 124,
+              "right": 304
+            },
+            {
+              "tag": "A",
+              "text": "Посмотреть код ↗ — новая вкладка",
+              "x": 16,
+              "y": 17285.046875,
+              "width": 263.15625,
+              "height": 102,
+              "right": 279.15625
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Читать кейс по исходникам +",
+              "x": 16,
+              "y": 17442.4375,
+              "width": 288,
+              "height": 124,
+              "right": 304
+            },
+            {
+              "tag": "A",
+              "text": "MOYISEY / GitHub↗ — новая вкладка",
+              "x": 16,
+              "y": 26601.90625,
+              "width": 288,
+              "height": 127.78125,
+              "right": 304
+            },
+            {
+              "tag": "A",
+              "text": "bz↗Бахтияр Зикирин",
+              "x": 16,
+              "y": 26855.46875,
+              "width": 270.96875,
+              "height": 48,
+              "right": 286.96875
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "x": 16,
+              "y": 26935.46875,
+              "width": 130.78125,
+              "height": 69.78125,
+              "right": 146.78125
+            }
+          ]
+        },
+        {
+          "name": "webgl-disabled-390",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "document": {
+            "scrollWidth": 390,
+            "clientWidth": 390
+          },
+          "canvasVisible": false,
+          "status": "3D недоступно в этом браузере · работает 2D-схема",
+          "h1": "Пишу интерфейсы.\nПроверяю поведение.",
+          "role": "Frontend-разработчик · Астана",
+          "contact": "https://github.com/MOYISEY",
+          "headings": [
+            "Не только первый экран.",
+            "NeuralBrief",
+            "Атырау.Внутри кампуса.",
+            "Art Portal",
+            "Разработка.И проверка результата.",
+            "IQadam Systems",
+            "Astana Digital Outsource",
+            "Думать о связях.Замечать детали.",
+            "Есть задачадля интерфейса?"
+          ],
+          "images": [
+            {
+              "src": "./projects/atyrau-tour.png",
+              "complete": false,
+              "width": 0
+            }
+          ],
+          "overflowingText": [],
+          "smallText": [
+            {
+              "selector": "SMALL",
+              "text": "Frontend-разработчик · Астана",
+              "fontSize": "9.92px"
+            },
+            {
+              "selector": "signal-status",
+              "text": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "visual-footnote",
+              "text": "Авторская визуализация. Это не скриншот и не действующий AI-сервис.",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "FIGCAPTION",
+              "text": "Снимок реального интерфейса из публичного репозитория. Локальный запуск, не публ",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "SMALL",
+              "text": "автор",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "SMALL",
+              "text": "категория",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "SMALL",
+              "text": "галерея / порядок",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "SMALL",
+              "text": "user + project",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "visual-footnote",
+              "text": "Схема по исходным Django-моделям, не снимок работающего сайта.",
+              "fontSize": "9.6px"
+            }
+          ],
+          "controls": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "x": 16,
+              "y": -90,
+              "width": 144.6875,
+              "height": 53,
+              "right": 160.6875
+            },
+            {
+              "tag": "A",
+              "text": "bz↗Бахтияр ЗикиринFrontend-разработчик · Астана",
+              "x": 19.5,
+              "y": -445.8125,
+              "width": 198.6875,
+              "height": 34,
+              "right": 218.1875
+            },
+            {
+              "tag": "A",
+              "text": "Проекты",
+              "x": 19.5,
+              "y": -384.421875,
+              "width": 53.265625,
+              "height": 28.78125,
+              "right": 72.765625
+            },
+            {
+              "tag": "A",
+              "text": "Опыт",
+              "x": 182.828125,
+              "y": -384.421875,
+              "width": 31.703125,
+              "height": 28.78125,
+              "right": 214.53125
+            },
+            {
+              "tag": "A",
+              "text": "Подход",
+              "x": 324.578125,
+              "y": -384.421875,
+              "width": 45.921875,
+              "height": 28.78125,
+              "right": 370.5
+            },
+            {
+              "tag": "A",
+              "text": "GitHub ↗ — новая вкладка",
+              "x": 291.03125,
+              "y": -445.609375,
+              "width": 79.46875,
+              "height": 33.59375,
+              "right": 370.5
+            },
+            {
+              "tag": "A",
+              "text": "Разобрать проекты ↘",
+              "x": 19.5,
+              "y": -64.59375,
+              "width": 169.703125,
+              "height": 45.1875,
+              "right": 189.203125
+            },
+            {
+              "tag": "A",
+              "text": "Опыт 2025–2026 ↓",
+              "x": 208.390625,
+              "y": -59.09375,
+              "width": 106.890625,
+              "height": 34.1875,
+              "right": 315.28125
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Собрать",
+              "x": 37.890625,
+              "y": 412.21875,
+              "width": 64.328125,
+              "height": 40,
+              "right": 102.21875
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разделить",
+              "x": 102.21875,
+              "y": 412.21875,
+              "width": 74.890625,
+              "height": 40,
+              "right": 177.109375
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "x": 177.109375,
+              "y": 412.21875,
+              "width": 57.125,
+              "height": 40,
+              "right": 234.234375
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01 Интерфейс",
+              "x": 33.890625,
+              "y": 499.40625,
+              "width": 77.875,
+              "height": 34.1875,
+              "right": 111.765625
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02 Логика",
+              "x": 127.765625,
+              "y": 499.40625,
+              "width": 55.703125,
+              "height": 34.1875,
+              "right": 183.46875
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03 Данные",
+              "x": 199.46875,
+              "y": 499.40625,
+              "width": 59.6875,
+              "height": 34.1875,
+              "right": 259.15625
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Проследить клик →",
+              "x": 33.890625,
+              "y": 594.25,
+              "width": 130.671875,
+              "height": 44,
+              "right": 164.5625
+            },
+            {
+              "tag": "A",
+              "text": "01 NeuralBrief ↘",
+              "x": 19.5,
+              "y": 697.03125,
+              "width": 81.40625,
+              "height": 30,
+              "right": 100.90625
+            },
+            {
+              "tag": "A",
+              "text": "02 Атырау / тур ↘",
+              "x": 120.09375,
+              "y": 697.03125,
+              "width": 93.09375,
+              "height": 30,
+              "right": 213.1875
+            },
+            {
+              "tag": "A",
+              "text": "03 Art Portal ↘",
+              "x": 232.375,
+              "y": 697.03125,
+              "width": 76.109375,
+              "height": 30,
+              "right": 308.484375
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01 Интервью",
+              "x": 40.5,
+              "y": 1769.625,
+              "width": 72.90625,
+              "height": 44,
+              "right": 113.40625
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02 ТЗ",
+              "x": 189.890625,
+              "y": 1769.625,
+              "width": 32.421875,
+              "height": 44,
+              "right": 222.3125
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03 Роли",
+              "x": 298.796875,
+              "y": 1769.625,
+              "width": 45.703125,
+              "height": 44,
+              "right": 344.5
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что важно в таком процессе +",
+              "x": 19.5,
+              "y": 2221.234375,
+              "width": 351,
+              "height": 61,
+              "right": 370.5
+            },
+            {
+              "tag": "A",
+              "text": "Открыть исходники ↗ — новая вкладка",
+              "x": 19.5,
+              "y": 3299.546875,
+              "width": 151.25,
+              "height": 51,
+              "right": 170.75
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Решения и ограничения +",
+              "x": 19.5,
+              "y": 3378.734375,
+              "width": 351,
+              "height": 61,
+              "right": 370.5
+            },
+            {
+              "tag": "A",
+              "text": "Посмотреть код ↗ — новая вкладка",
+              "x": 19.5,
+              "y": 4666.375,
+              "width": 131.59375,
+              "height": 51,
+              "right": 151.09375
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Читать кейс по исходникам +",
+              "x": 19.5,
+              "y": 4745.5625,
+              "width": 351,
+              "height": 61,
+              "right": 370.5
+            },
+            {
+              "tag": "A",
+              "text": "MOYISEY / GitHub↗ — новая вкладка",
+              "x": 19.5,
+              "y": 7078.859375,
+              "width": 351,
+              "height": 56.375,
+              "right": 370.5
+            },
+            {
+              "tag": "A",
+              "text": "bz↗Бахтияр Зикирин",
+              "x": 19.5,
+              "y": 7203.8125,
+              "width": 135.5,
+              "height": 24,
+              "right": 155
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "x": 305.125,
+              "y": 7198.625,
+              "width": 65.375,
+              "height": 34.375,
+              "right": 370.5
+            }
+          ],
+          "axe": {
+            "name": "No WebGL",
+            "violations": [],
+            "passes": 41,
+            "incomplete": [
+              {
+                "id": "aria-prohibited-attr",
+                "nodes": [
+                  {
+                    "target": [
+                      ".entity-map"
+                    ],
+                    "failureSummary": "Fix all of the following:\n  aria-label attribute is not well supported on a div with no valid role attribute."
+                  }
+                ]
+              },
+              {
+                "id": "color-contrast",
+                "nodes": [
+                  {
+                    "target": [
+                      ".text-link > span[aria-hidden=\"true\"]"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+                  },
+                  {
+                    "target": [
+                      "text[y=\"407\"]"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+                  },
+                  {
+                    "target": [
+                      "text[x=\"443\"]"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+                  },
+                  {
+                    "target": [
+                      "text[y=\"285\"]"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+                  },
+                  {
+                    "target": [
+                      "text[y=\"161\"]"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+                  },
+                  {
+                    "target": [
+                      ".scene-axis > span:nth-child(1)"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+                  },
+                  {
+                    "target": [
+                      ".scene-axis > span:nth-child(3)"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+                  },
+                  {
+                    "target": [
+                      "#signal-start > span[aria-hidden=\"true\"]"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+                  },
+                  {
+                    "target": [
+                      ".frame-dots"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+                  },
+                  {
+                    "target": [
+                      ".back-top > span[aria-hidden=\"true\"]"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+                  }
+                ]
+              }
+            ]
+          },
+          "pressed": "true",
+          "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+          "resetHidden": true
+        },
+        {
+          "name": "no-js-production390",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "document": {
+            "scrollWidth": 390,
+            "clientWidth": 390
+          },
+          "canvasVisible": false,
+          "status": "2D-схема · текст доступен ниже",
+          "h1": "Пишу интерфейсы.\nПроверяю поведение.",
+          "role": "Frontend-разработчик · Астана",
+          "contact": "https://github.com/MOYISEY",
+          "headings": [
+            "Не только первый экран.",
+            "NeuralBrief",
+            "Атырау.Внутри кампуса.",
+            "Art Portal",
+            "Разработка.И проверка результата.",
+            "IQadam Systems",
+            "Astana Digital Outsource",
+            "Думать о связях.Замечать детали.",
+            "Есть задачадля интерфейса?"
+          ],
+          "images": [
+            {
+              "src": "./projects/atyrau-tour.png",
+              "complete": true,
+              "width": 1200
+            }
+          ],
+          "overflowingText": [],
+          "smallText": [
+            {
+              "selector": "SMALL",
+              "text": "Frontend-разработчик · Астана",
+              "fontSize": "9.92px"
+            },
+            {
+              "selector": "signal-status",
+              "text": "Пример пути запроса, без подключения к серверу.",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "visual-footnote",
+              "text": "Авторская визуализация. Это не скриншот и не действующий AI-сервис.",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "FIGCAPTION",
+              "text": "Снимок реального интерфейса из публичного репозитория. Локальный запуск, не публ",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "SMALL",
+              "text": "автор",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "SMALL",
+              "text": "категория",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "SMALL",
+              "text": "галерея / порядок",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "SMALL",
+              "text": "user + project",
+              "fontSize": "9.6px"
+            },
+            {
+              "selector": "visual-footnote",
+              "text": "Схема по исходным Django-моделям, не снимок работающего сайта.",
+              "fontSize": "9.6px"
+            }
+          ],
+          "controls": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "x": 16,
+              "y": -90,
+              "width": 144.6875,
+              "height": 53,
+              "right": 160.6875
+            },
+            {
+              "tag": "A",
+              "text": "bz↗Бахтияр ЗикиринFrontend-разработчик · Астана",
+              "x": 19.5,
+              "y": 19.1875,
+              "width": 198.6875,
+              "height": 34,
+              "right": 218.1875
+            },
+            {
+              "tag": "A",
+              "text": "Проекты",
+              "x": 19.5,
+              "y": 80.578125,
+              "width": 53.265625,
+              "height": 28.78125,
+              "right": 72.765625
+            },
+            {
+              "tag": "A",
+              "text": "Опыт",
+              "x": 182.828125,
+              "y": 80.578125,
+              "width": 31.703125,
+              "height": 28.78125,
+              "right": 214.53125
+            },
+            {
+              "tag": "A",
+              "text": "Подход",
+              "x": 324.578125,
+              "y": 80.578125,
+              "width": 45.921875,
+              "height": 28.78125,
+              "right": 370.5
+            },
+            {
+              "tag": "A",
+              "text": "GitHub ↗ — новая вкладка",
+              "x": 291.03125,
+              "y": 19.390625,
+              "width": 79.46875,
+              "height": 33.59375,
+              "right": 370.5
+            },
+            {
+              "tag": "A",
+              "text": "Разобрать проекты ↘",
+              "x": 19.5,
+              "y": 400.40625,
+              "width": 169.703125,
+              "height": 45.1875,
+              "right": 189.203125
+            },
+            {
+              "tag": "A",
+              "text": "Опыт 2025–2026 ↓",
+              "x": 208.390625,
+              "y": 405.90625,
+              "width": 106.890625,
+              "height": 34.1875,
+              "right": 315.28125
+            },
+            {
+              "tag": "A",
+              "text": "01 NeuralBrief ↘",
+              "x": 19.5,
+              "y": 1010.25,
+              "width": 81.40625,
+              "height": 30,
+              "right": 100.90625
+            },
+            {
+              "tag": "A",
+              "text": "02 Атырау / тур ↘",
+              "x": 120.09375,
+              "y": 1010.25,
+              "width": 93.09375,
+              "height": 30,
+              "right": 213.1875
+            },
+            {
+              "tag": "A",
+              "text": "03 Art Portal ↘",
+              "x": 232.375,
+              "y": 1010.25,
+              "width": 76.109375,
+              "height": 30,
+              "right": 308.484375
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что важно в таком процессе +",
+              "x": 19.5,
+              "y": 2471.265625,
+              "width": 351,
+              "height": 61,
+              "right": 370.5
+            },
+            {
+              "tag": "A",
+              "text": "Открыть исходники ↗ — новая вкладка",
+              "x": 19.5,
+              "y": 3549.578125,
+              "width": 151.25,
+              "height": 51,
+              "right": 170.75
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Решения и ограничения +",
+              "x": 19.5,
+              "y": 3628.765625,
+              "width": 351,
+              "height": 61,
+              "right": 370.5
+            },
+            {
+              "tag": "A",
+              "text": "Посмотреть код ↗ — новая вкладка",
+              "x": 19.5,
+              "y": 4916.40625,
+              "width": 131.59375,
+              "height": 51,
+              "right": 151.09375
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Читать кейс по исходникам +",
+              "x": 19.5,
+              "y": 4995.59375,
+              "width": 351,
+              "height": 61,
+              "right": 370.5
+            },
+            {
+              "tag": "A",
+              "text": "MOYISEY / GitHub↗ — новая вкладка",
+              "x": 19.5,
+              "y": 7328.890625,
+              "width": 351,
+              "height": 56.375,
+              "right": 370.5
+            },
+            {
+              "tag": "A",
+              "text": "bz↗Бахтияр Зикирин",
+              "x": 19.5,
+              "y": 7453.84375,
+              "width": 135.5,
+              "height": 24,
+              "right": 155
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "x": 305.125,
+              "y": 7448.65625,
+              "width": 65.375,
+              "height": 34.375,
+              "right": 370.5
+            }
+          ],
+          "styleApplied": "rgba(0, 0, 0, 0)",
+          "hiddenDeadButtons": true,
+          "briefControlsHidden": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "version": "153.0.8010.12",
+      "reducedMotionIdleFrames": 0,
+      "performance": {
+        "navigation": [
+          {
+            "response": 20.5,
+            "domContentLoaded": 61.200000000186265,
+            "load": 112.5
+          }
+        ],
+        "observer": {
+          "rafCount": 6,
+          "lcp": [
+            {
+              "start": 880,
+              "size": 172176,
+              "tag": "H1"
+            }
+          ],
+          "cls": 0,
+          "longtasks": [
+            {
+              "start": 111.8000000002794,
+              "duration": 256
+            },
+            {
+              "start": 694.6000000000931,
+              "duration": 1631
+            },
+            {
+              "start": 2326.5,
+              "duration": 429
+            },
+            {
+              "start": 3791.600000000093,
+              "duration": 203
+            }
+          ]
+        },
+        "resources": [
+          {
+            "name": "/assets/index-Ba8GScfE.js",
+            "encodedBytes": 7247,
+            "transferBytes": 7547,
+            "duration": 16.5
+          },
+          {
+            "name": "/assets/index-CzmlURrW.css",
+            "encodedBytes": 28431,
+            "transferBytes": 28731,
+            "duration": 19.200000000186265
+          },
+          {
+            "name": "/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+            "encodedBytes": 15860,
+            "transferBytes": 16160,
+            "duration": 7
+          },
+          {
+            "name": "/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+            "encodedBytes": 33760,
+            "transferBytes": 34060,
+            "duration": 7.600000000093132
+          },
+          {
+            "name": "/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+            "encodedBytes": 18168,
+            "transferBytes": 18468,
+            "duration": 248.10000000009313
+          },
+          {
+            "name": "/favicon.svg",
+            "encodedBytes": 282,
+            "transferBytes": 582,
+            "duration": 6
+          },
+          {
+            "name": "/assets/scene-DTNamS_s.js",
+            "encodedBytes": 602679,
+            "transferBytes": 602979,
+            "duration": 10.399999999906868
+          },
+          {
+            "name": "/assets/onest-math-wght-normal-Bl4ZGkZl.woff2",
+            "encodedBytes": 25480,
+            "transferBytes": 25780,
+            "duration": 31
+          }
+        ]
+      },
+      "visibleAnimationFrames": 160,
+      "offscreenAnimationFrames": 0,
+      "skip": {
+        "focused": "skip-link",
+        "rect": {
+          "x": 16,
+          "y": 16,
+          "width": 144.6875,
+          "height": 53
+        },
+        "after": {
+          "focused": "main",
+          "hash": "#main"
+        }
+      },
+      "keyboardSequence": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Разобрать проекты ↘",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Опыт 2025–2026 ↓",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "CANVAS",
+          "id": "scene",
+          "text": "",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "text": "Собрать",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "text": "Разделить",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "text": "Каркас",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "scene-reset",
+          "text": "↺ Сбросить вид",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "motion-toggle",
+          "text": "▷",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "text": "01 Интерфейс",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "text": "02 Логика",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "text": "03 Данные",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "signal-start",
+          "text": "Проследить клик →",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "01 NeuralBrief ↘",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "02 Атырау / тур ↘",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "03 Art Portal ↘",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "text": "01 Интервью",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "text": "02 ТЗ",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "text": "03 Роли",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "Что важно в таком процессе +",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Открыть исходники ↗ — новая вкладка",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "Решения и ограничения +",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Посмотреть код ↗ — новая вкладка",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "Читать кейс по исходникам +",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "MOYISEY / GitHub↗ — новая вкладка",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "bz↗Бахтияр Зикирин",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Наверх ↑",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "К содержанию\n  \n    bz↗Бахтияр ЗикиринFrontend-разработ",
+          "outline": "rgb(23, 34, 35) none 3px",
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "К содержанию",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "bz↗Бахтияр ЗикиринFrontend-разработчик · Астана",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Проекты",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Опыт",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Подход",
+          "outline": "rgb(187, 61, 37) solid 3px",
+          "visible": true
+        }
+      ],
+      "nojsDetailsOpen": ""
+    }
+  ],
+  "limitations": [
+    "Viewport and touch settings are emulation, not physical phones.",
+    "Playwright WebKit is not native Safari.",
+    "Axe does not replace a screen-reader session; no screen reader used."
+  ]
+}

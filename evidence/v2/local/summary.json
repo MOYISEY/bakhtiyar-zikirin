@@ -1,0 +1,41 @@
+{
+  "url": "http://127.0.0.1:5190/",
+  "checkedAt": "2026-10-01T18:27:56.781Z",
+  "checks": 15,
+  "passed": 9,
+  "failed": [
+    {
+      "engine": "chromium",
+      "device": "desktop",
+      "failure": "page.goBack: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for navigation until \"domcontentloaded\"\u001b[22m\n\u001b[2m    - navigated to \"http://127.0.0.1:5190/#main\"\u001b[22m\n\n    at [project]\\scripts\\qa-v2.mjs:65:111"
+    },
+    {
+      "engine": "chromium",
+      "device": "mobile",
+      "failure": "page.goBack: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for navigation until \"domcontentloaded\"\u001b[22m\n\u001b[2m    - navigated to \"http://127.0.0.1:5190/#main\"\u001b[22m\n\n    at [project]\\scripts\\qa-v2.mjs:65:111"
+    },
+    {
+      "engine": "chromium",
+      "scenario": "no-js",
+      "failure": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\nfalse !== true\n\n    at file:///[project]/scripts/qa-v2.mjs:81:75"
+    },
+    {
+      "engine": "firefox",
+      "scenario": "no-js",
+      "failure": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\nfalse !== true\n\n    at file:///[project]/scripts/qa-v2.mjs:81:75"
+    },
+    {
+      "engine": "webkit",
+      "device": "desktop",
+      "failure": "locator.screenshot: Element is not attached to the DOM\nCall log:\n\u001b[2m  - taking element screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m    - waiting for \"http://127.0.0.1:5190/\" navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"http://127.0.0.1:5190/\"\u001b[22m\n\u001b[2m    - waiting for element to be stable\u001b[22m\n\n    at [project]\\scripts\\qa-v2.mjs:47:112"
+    },
+    {
+      "engine": "webkit",
+      "scenario": "no-js",
+      "failure": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\nfalse !== true\n\n    at file:///[project]/scripts/qa-v2.mjs:81:75"
+    }
+  ],
+  "physicalDevices": false,
+  "realSafari": false,
+  "webkitIsSafari": false
+}

@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-01T18:53:47.626Z",
+  "engine": "chromium",
+  "version": "153.0.8010.12",
+  "indexSha256": "3f2def218e689efe8149879dcdfe68cf541bc90ad787858fce6dba3e33653bcf",
+  "entityRole": "group",
+  "entityAriaSnapshot": "- group \"Проект связан с автором, категорией, изображениями и лайками\":\n  - text: Author автор Category категория Project\n  - strong: Работа студента\n  - text: title · slug · description ProjectImage галерея / порядок ProjectLike user + project",
+  "currentInApproach": [
+    "#approach"
+  ],
+  "currentAtTop": [],
+  "errors": [],
+  "httpFailures": [],
+  "pass": true
+}

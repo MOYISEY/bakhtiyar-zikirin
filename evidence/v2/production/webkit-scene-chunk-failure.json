@@ -1,0 +1,10 @@
+{
+  "engine": "webkit",
+  "scenario": "scene-chunk-failure",
+  "url": "http://127.0.0.1:5191/",
+  "checkedAt": "2026-10-01T18:33:42.975Z",
+  "actions": [
+    "2D modes, layers and signal remain functional"
+  ],
+  "passed": true
+}

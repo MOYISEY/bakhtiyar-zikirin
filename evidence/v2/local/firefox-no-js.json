@@ -1,0 +1,9 @@
+{
+  "engine": "firefox",
+  "scenario": "no-js",
+  "url": "http://127.0.0.1:5190/",
+  "checkedAt": "2026-10-01T18:27:05.567Z",
+  "actions": [],
+  "passed": false,
+  "failure": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\nfalse !== true\n\n    at file:///[project]/scripts/qa-v2.mjs:81:75"
+}

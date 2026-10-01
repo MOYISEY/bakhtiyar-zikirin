@@ -1,0 +1,79 @@
+{
+  "checkedAt": "2026-10-01T18:47:55.068Z",
+  "target": "http://127.0.0.1:5191/",
+  "indexSha256": "79f888fcb147103f39c7778f96a2b9496796e6b3fd204eb52388268e594317b6",
+  "engines": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "errors": [],
+      "httpFailures": [],
+      "inApproach": [
+        "#approach"
+      ],
+      "atTop": [],
+      "topPosition": 0,
+      "navPass": true,
+      "text200": {
+        "width": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320
+      },
+      "reflowPass": true,
+      "image": {
+        "path": "./projects/atyrau-tour.jpg",
+        "loading": "lazy",
+        "width": 283,
+        "height": 170
+      }
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "errors": [],
+      "httpFailures": [],
+      "inApproach": [
+        "#approach"
+      ],
+      "atTop": [],
+      "topPosition": 0,
+      "navPass": true,
+      "text200": {
+        "width": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320
+      },
+      "reflowPass": true,
+      "image": {
+        "path": "./projects/atyrau-tour.jpg",
+        "loading": "lazy",
+        "width": 283,
+        "height": 170
+      }
+    },
+    {
+      "engine": "webkit",
+      "version": "26.6",
+      "errors": [],
+      "httpFailures": [],
+      "inApproach": [
+        "#approach"
+      ],
+      "atTop": [],
+      "topPosition": 0,
+      "navPass": true,
+      "text200": {
+        "width": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320
+      },
+      "reflowPass": true,
+      "image": {
+        "path": "./projects/atyrau-tour.jpg",
+        "loading": "lazy",
+        "width": 283,
+        "height": 170
+      }
+    }
+  ]
+}

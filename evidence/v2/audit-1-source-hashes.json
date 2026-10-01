@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-10-01T18:35:24.979Z",
+  "files": [
+    {
+      "file": "index.html",
+      "sha256": "d1b799dfa8e1a91beab5a773a636524fb3ecfdc19aa325329beec710f7f987d4"
+    },
+    {
+      "file": "src/main.ts",
+      "sha256": "f7647e2809bdd082328f67aedb2615d542a19fb0d0cdfc1f2a7afdd7a3513be0"
+    },
+    {
+      "file": "src/scene.ts",
+      "sha256": "deb097a0bb9800337fc64dad9498bbef19fe9faab193fc6554f6c8694e3a6016"
+    },
+    {
+      "file": "src/fallback.ts",
+      "sha256": "355cb6b4f4f4e83d1c9079a2ed9fae652261a2bfa81ea47702636042a2115c42"
+    }
+  ]
+}

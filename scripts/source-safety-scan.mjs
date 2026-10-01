@@ -24,6 +24,6 @@ function walk(directory) {
 }
 walk(root);
 const report = { checkedAt: new Date().toISOString(), filesChecked, findings, limitation: 'A limited pattern scan of deliverable text files; not a comprehensive secret detector or a scan of Git history.' };
-writeFileSync('evidence/final-source-safety-scan.json', JSON.stringify(report, null, 2));
+writeFileSync(process.argv[2]??'evidence/v2/source-safety-scan.json', JSON.stringify(report, null, 2));
 console.log(JSON.stringify(report, null, 2));
 if (findings.length) process.exitCode = 1;

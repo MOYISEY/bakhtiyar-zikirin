@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-10-01T18:30:45.882Z",
+  "frames": [
+    {
+      "hash": "0ec3b1c786627fdc55670165703662e249f1b4862cd7bab69ea35cada987af80",
+      "draws": 155,
+      "preference": true,
+      "pressed": "true"
+    },
+    {
+      "hash": "0ec3b1c786627fdc55670165703662e249f1b4862cd7bab69ea35cada987af80",
+      "draws": 155,
+      "preference": true,
+      "pressed": "true"
+    },
+    {
+      "hash": "0ec3b1c786627fdc55670165703662e249f1b4862cd7bab69ea35cada987af80",
+      "draws": 155,
+      "preference": true,
+      "pressed": "true"
+    },
+    {
+      "hash": "0ec3b1c786627fdc55670165703662e249f1b4862cd7bab69ea35cada987af80",
+      "draws": 155,
+      "preference": true,
+      "pressed": "true"
+    }
+  ],
+  "pageshows": [
+    {
+      "persisted": false
+    },
+    {
+      "persisted": true
+    }
+  ],
+  "backUsable": "true",
+  "syntheticLifecycle": {
+    "before": 1112,
+    "during": 1112,
+    "after": 2984
+  },
+  "nojs": {
+    "h1": "Пишу интерфейсы.\nПроверяю поведение.",
+    "h1Visible": true,
+    "cases": 3,
+    "stylesheetCount": 1,
+    "canvasVisible": false,
+    "mainFont": "\"Onest Variable\", Arial, sans-serif",
+    "details": 3,
+    "detailsNativeOpen": true
+  }
+}

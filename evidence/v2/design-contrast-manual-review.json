@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-01T18:51:34.823Z",
+  "method": "Manual review of axe incomplete color-contrast nodes; numeric contrast from current stylesheet foreground/background palette. Decorative aria-hidden arrows have equivalent visible link/button text or accessible names.",
+  "pairs": [
+    {
+      "context": "Scene glyph controls",
+      "foreground": "#172223",
+      "background": "#ebece2",
+      "ratio": 13.67
+    },
+    {
+      "context": "Decorative axes",
+      "foreground": "#59675f",
+      "background": "#ebece2",
+      "ratio": 4.99
+    },
+    {
+      "context": "Decorative frame dots",
+      "foreground": "#3c5143",
+      "background": "#e4e9db",
+      "ratio": 6.93
+    },
+    {
+      "context": "Footer arrow",
+      "foreground": "#172223",
+      "background": "#d9e2d4",
+      "ratio": 12.24
+    },
+    {
+      "context": "Focus outline",
+      "foreground": "#bb3d25",
+      "background": "#f3f0e8",
+      "ratio": 4.84
+    }
+  ]
+}
