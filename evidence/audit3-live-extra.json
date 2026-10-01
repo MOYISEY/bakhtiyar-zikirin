@@ -1,0 +1,121 @@
+{
+  "target": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "createdAt": "2026-10-01T15:28:37.623Z",
+  "results": [
+    {
+      "name": "live responsive and axe 1440px",
+      "pass": true,
+      "detail": {
+        "status": 200,
+        "title": "Бахтияр Зикирин — веб-разработчик",
+        "layout": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "clipped": [],
+          "fonts": "loading"
+        },
+        "violations": []
+      }
+    },
+    {
+      "name": "live responsive and axe 390px",
+      "pass": true,
+      "detail": {
+        "status": 200,
+        "title": "Бахтияр Зикирин — веб-разработчик",
+        "layout": {
+          "width": 390,
+          "scrollWidth": 390,
+          "clipped": [],
+          "fonts": "loaded"
+        },
+        "violations": []
+      }
+    },
+    {
+      "name": "live responsive and axe 320px",
+      "pass": true,
+      "detail": {
+        "status": 200,
+        "title": "Бахтияр Зикирин — веб-разработчик",
+        "layout": {
+          "width": 320,
+          "scrollWidth": 320,
+          "clipped": [],
+          "fonts": "loaded"
+        },
+        "violations": []
+      }
+    },
+    {
+      "name": "live HTML and direct assets match the local deployed build",
+      "pass": true,
+      "detail": [
+        {
+          "path": "index.html",
+          "bytes": 9950,
+          "sha256": "7f89d9037c8d937a72c9813a48cdc78e916e39c064dbbbc66725803291c72502",
+          "match": true
+        },
+        {
+          "path": "favicon.svg",
+          "bytes": 282,
+          "sha256": "a2418e217228c8c199a85a9f19c766d68f6c7d6d5270670d0d2e1396dfcfef79",
+          "match": true
+        },
+        {
+          "path": "scene-still.png",
+          "bytes": 98439,
+          "sha256": "19ab214634ba9c161b1426a6cbf10544ce1484d79c74b71de06b2f40fee2ef09",
+          "match": true
+        },
+        {
+          "path": "assets/index-iFla7-kA.js",
+          "bytes": 4467,
+          "sha256": "112adc8f2b6288f2b00dab57408bba22e958854fe9beba342215bbcc9367d577",
+          "match": true
+        },
+        {
+          "path": "assets/index-DuyJuP01.css",
+          "bytes": 19228,
+          "sha256": "f75d56bf6580187d7357091f52c07e8a8318bca96e789d74831dd9b351b09f4c",
+          "match": true
+        }
+      ]
+    },
+    {
+      "name": "live no-JavaScript page retains content, links and still scene",
+      "pass": true,
+      "detail": {
+        "fallbackImage": true,
+        "contactAnchor": true,
+        "nativeDetails": true,
+        "width": {
+          "innerWidth": 390,
+          "scrollWidth": 390
+        }
+      }
+    },
+    {
+      "name": "live render loop pauses offscreen and with visibility state hidden",
+      "pass": true,
+      "detail": {
+        "running": 676,
+        "offscreen": 0,
+        "back": 676,
+        "hidden": 0,
+        "resumed": 689,
+        "reduced": 0,
+        "note": "Intersection check is actual scroll; visibility state branch is synthetic, not an actual background tab."
+      }
+    },
+    {
+      "name": "live two-finger mobile gesture rotates scene",
+      "pass": false,
+      "error": "Expected \"actual\" to be strictly unequal to:\n\n'08f6b475c1bdcae9eac3a607ad68754eb892b6a57478e26a701f5d06c53d8430'"
+    }
+  ],
+  "errors": [],
+  "badResponses": [],
+  "requestFailures": []
+}

@@ -1,0 +1,31 @@
+{
+  "target": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "createdAt": "2026-10-01T15:33:34.254Z",
+  "results": [
+    {
+      "name": "isolated all external links open their expected destinations",
+      "pass": false,
+      "error": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n"
+    },
+    {
+      "name": "isolated actual browser back restores scene with commit wait",
+      "pass": true,
+      "detail": {
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "pageshowEvents": [
+          {
+            "persisted": false,
+            "time": 12594.30000000028
+          },
+          {
+            "persisted": true,
+            "time": 13401
+          }
+        ],
+        "bfcacheObserved": true,
+        "errors": [],
+        "note": "Actual back navigation; browser cache admission is claimed only if persisted=true."
+      }
+    }
+  ]
+}

@@ -2,6 +2,8 @@
 
 Авторская статическая страница: крупная кириллическая типографика, металлический 3D-этюд на Three.js, интерактивная схема NeuralBrief и выбранные проекты. Стек самого портфолио: Vite, TypeScript, Three.js, локальный Onest.
 
+Сайт: [moyisey.github.io/bakhtiyar-zikirin](https://moyisey.github.io/bakhtiyar-zikirin/). Репозиторий создан отдельно для этого портфолио; публикация бесплатная, через GitHub Pages.
+
 ## Локальный запуск
 
 ```sh
@@ -25,5 +27,10 @@ npm run dev
 - NeuralBrief и стажировка Astana Digital Outsource описаны по профессиональному контексту, переданному владельцем. Публичный репозиторий NeuralBrief не найден среди доступных репозиториев. Метрики, клиенты, отзывы и должностной уровень не добавлялись.
 
 Результаты трёх раундов аудита и браузерных проверок хранятся в `evidence/`.
+
+- [Раунд 1: код и безопасность](evidence/audit-1-code.md)
+- [Раунд 2: дизайн, доступность и производительность](evidence/audit-2-design.md)
+- [Раунд 3: регрессия и публичный сайт](evidence/audit-3-live.md)
+- [Направленная проверка интерфейса](evidence/manual-live-qa.md)
 
 Для сценарной браузерной проверки: `npm run qa -- <URL> <prefix>`. Нужен Chromium из Playwright (`npx playwright install chromium`) или `PLAYWRIGHT_BROWSER_EXECUTABLE_PATH`. Автоматические клики и мобильная эмуляция не заменяют проверку на физическом телефоне. Исходные уведомления лицензий Three.js и Onest сохранены в `public/licenses/` и включены в сборку.

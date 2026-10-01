@@ -1,0 +1,90 @@
+{
+  "target": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "createdAt": "2026-10-01T15:38:51.101Z",
+  "results": [
+    {
+      "name": "published fixed build matches local HTML and JavaScript files",
+      "pass": true,
+      "detail": {
+        "htmlSha256": "56ad8100d6fd547f80f1b50a58d75c5303ddc1957891217f18ba5c6a44f6db27",
+        "scripts": [
+          "assets/index-pQRW49da.js",
+          "assets/scene-Cl0X3otF.js"
+        ]
+      }
+    },
+    {
+      "name": "fixed mobile two-finger rotation and one-finger scroll coexist",
+      "pass": true,
+      "detail": {
+        "twoFingerRotation": {
+          "before": "08f6b475c1bdcae9eac3a607ad68754eb892b6a57478e26a701f5d06c53d8430",
+          "after": "813248c513a58d0f2464665209d454d4dd03ff7a54cf4ed571b7389c087fda92",
+          "changed": true
+        },
+        "oneFingerScroll": {
+          "before": 0,
+          "after": 358,
+          "delta": 358
+        }
+      }
+    },
+    {
+      "name": "normal-motion header navigation reaches each target after scroll settles",
+      "pass": true,
+      "detail": [
+        {
+          "flow": "actual visible header from page top",
+          "id": "work",
+          "hash": "#work",
+          "scrollY": 828,
+          "headingTop": 207
+        },
+        {
+          "flow": "actual visible header from page top",
+          "id": "about",
+          "hash": "#about",
+          "scrollY": 2105,
+          "headingTop": 269.578125
+        },
+        {
+          "flow": "actual visible header from page top",
+          "id": "contact",
+          "hash": "#contact",
+          "scrollY": 2802,
+          "headingTop": 441.734375
+        },
+        {
+          "flow": "locator autoscroll from lower work section",
+          "id": "about",
+          "hash": "#about",
+          "scrollY": 2100,
+          "headingTop": 274.578125
+        },
+        {
+          "flow": "locator autoscroll from lower work section",
+          "id": "contact",
+          "hash": "#contact",
+          "scrollY": 2802,
+          "headingTop": 441.734375
+        }
+      ]
+    },
+    {
+      "name": "fixed fallback explains unavailable 3D and stays accessible at 320px",
+      "pass": true,
+      "detail": {
+        "layout": {
+          "width": 320,
+          "scrollWidth": 320,
+          "status": "3D не запустилось / статичный вид"
+        },
+        "axeViolations": [],
+        "hiddenCanvas": true,
+        "disabledControls": true
+      }
+    }
+  ],
+  "errors": [],
+  "badResponses": []
+}

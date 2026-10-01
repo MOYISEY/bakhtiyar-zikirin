@@ -58,7 +58,7 @@ await check('footer top and both logo links',async()=>{
 await check('skip link keyboard focus reaches main',async()=>{await page.goto(target);await page.keyboard.press('Tab');assert.equal(await page.evaluate(()=>document.activeElement?.className),'skip-link');await page.keyboard.press('Enter');assert.equal(new URL(page.url()).hash,'#main');return {focused:await page.evaluate(()=>document.activeElement?.id)};});
 await settle(page);await page.waitForTimeout(100);
 await check('actual browser back navigation restores a usable scene',async()=>{
- await page.goto(new URL('favicon.svg',target).href,{waitUntil:'load'});await page.goBack({waitUntil:'load'});await settle(page);
+ await page.goto(new URL('favicon.svg',target).href,{waitUntil:'load'});await page.goBack({waitUntil:'commit'});await settle(page);
  const events=await page.evaluate(()=>window.__pageshows);await page.locator('[data-mode="wire"]').click();assert.equal(await page.locator('[data-mode="wire"]').getAttribute('aria-pressed'),'true');
  return {pageshowEvents:events,bfcacheObserved:events.some(e=>e.persisted),note:'Actual navigation; bfcache only covered if persisted is true.'};
 });

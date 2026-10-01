@@ -1,0 +1,38 @@
+{
+  "target": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "checkedAt": "2026-10-01T15:52:28.322Z",
+  "contexts": [
+    {
+      "mobile": false,
+      "console": [
+        {
+          "type": "warning",
+          "text": "THREE.WebGLProgram: Program Info Log: (210,81-129): warning X4122: sum of 0.996094 and -2.98545e-017 cannot be represented accurately in double precision\n(209,37-61): warning X4122: sum of 1 and -1.49272e-017 cannot be represented accurately in double precision\n(210,82-106): warning X4122: sum of 1 and -1.49272e-017 cannot be represented accurately in double precision\n(209,37-61): warning X4122: sum of 1 and -1.66644e-018 cannot be represented accurately in double precision\n(210,82-106): warning X4122: sum of 1 and -1.66644e-018 cannot be represented accurately in double precision\n\n\n\u0000",
+          "location": {
+            "url": "https://moyisey.github.io/bakhtiyar-zikirin/assets/scene-Cl0X3otF.js",
+            "line": 0,
+            "column": 1534,
+            "lineNumber": 0,
+            "columnNumber": 1534
+          }
+        }
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badOwnResponses": [],
+      "status": 200,
+      "title": "Бахтияр Зикирин — веб-разработчик",
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    },
+    {
+      "mobile": true,
+      "console": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badOwnResponses": [],
+      "status": 200,
+      "title": "Бахтияр Зикирин — веб-разработчик",
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    }
+  ]
+}

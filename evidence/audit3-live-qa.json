@@ -1,0 +1,129 @@
+{
+  "target": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "prefix": "audit3-live",
+  "generatedAt": "2026-10-01T15:27:20.507Z",
+  "errors": [],
+  "badResponses": [],
+  "results": [
+    {
+      "name": "reduced motion starts paused and remains still",
+      "pass": true,
+      "detail": {
+        "canvasHash": "533ed9e264644416ea799a1d6fdc5b021373b84c22b72499fc7c25520d3be1eb"
+      }
+    },
+    {
+      "name": "all 3 scene modes produce different renders and selected states",
+      "pass": true,
+      "detail": [
+        "533ed9e264644416ea799a1d6fdc5b021373b84c22b72499fc7c25520d3be1eb",
+        "2244f459cd71b42d74bf7592824deb076913d0e628fc69e47be277ae1e7e1ce4",
+        "6d9958434fe2a3d4ce83d6b7b43537ad85151386d13b34389cfdacca4c47cc71"
+      ]
+    },
+    {
+      "name": "motion toggle starts animation and stops it",
+      "pass": true,
+      "detail": {
+        "changed": true
+      }
+    },
+    {
+      "name": "keyboard scene controls and Home reset",
+      "pass": true,
+      "detail": {
+        "rotated": true,
+        "reset": true
+      }
+    },
+    {
+      "name": "mouse drag rotates scene",
+      "pass": true,
+      "detail": {
+        "dragged": true
+      }
+    },
+    {
+      "name": "hero project link and all 3 header anchors",
+      "pass": true,
+      "detail": {
+        "anchors": [
+          "work",
+          "about",
+          "contact"
+        ]
+      }
+    },
+    {
+      "name": "all 3 NeuralBrief stages update content",
+      "pass": true,
+      "detail": [
+        "Что должен\nделать сайт?",
+        "Ответы становятся\nтребованиями.",
+        "У каждого —\nсвоя роль."
+      ]
+    },
+    {
+      "name": "project details open and close",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "all external links open the specified GitHub destinations",
+      "pass": false,
+      "error": "page.waitForURL: Timeout 25000ms exceeded."
+    },
+    {
+      "name": "footer top and both logo links",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "skip link keyboard focus reaches main",
+      "pass": true,
+      "detail": {
+        "focused": "main"
+      }
+    },
+    {
+      "name": "actual browser back navigation restores a usable scene",
+      "pass": false,
+      "error": "page.goBack: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for navigation until \"load\"\u001b[22m\n\u001b[2m    - navigated to \"https://moyisey.github.io/bakhtiyar-zikirin/#main\"\u001b[22m\n"
+    },
+    {
+      "name": "synthetic persisted lifecycle suspends and resumes without disposing",
+      "pass": true,
+      "detail": {
+        "suspended": true,
+        "resumed": true,
+        "note": "Synthetic events verify the handler branch, not actual browser cache admission."
+      }
+    },
+    {
+      "name": "WebGL context loss produces accessible fallback",
+      "pass": true,
+      "detail": {
+        "status": "Этюд № 01 / статичный вид"
+      }
+    },
+    {
+      "name": "WebGL unavailable initialization fallback",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "blocked optional scene module fallback",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "one-finger mobile swipe over canvas scrolls page",
+      "pass": true,
+      "detail": {
+        "before": 0,
+        "after": 209,
+        "delta": 209
+      }
+    }
+  ]
+}

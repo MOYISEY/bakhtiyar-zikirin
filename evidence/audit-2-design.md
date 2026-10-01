@@ -29,7 +29,7 @@
 
 ## Измерения производительности
 
-`design-verify.json` содержит отдельный local production прогон без network/CPU throttling в Chromium с SwiftShader. LCP **232 ms**, CLS **0.00973**, fonts=loaded. Long tasks при загрузке/инициализации: 115, 162, 74 ms. Это локальные измерения; они не являются Core Web Vitals полевых пользователей или Lighthouse score.
+`design-verify.json` содержит отдельный local production прогон без network/CPU throttling в Chromium с разрешённым SwiftShader fallback. Фактический renderer в этом прогоне не записывался; флаг `--enable-unsafe-swiftshader` не заставляет браузер использовать software renderer. LCP **232 ms**, CLS **0.00973**, fonts=loaded. Long tasks при загрузке/инициализации: 115, 162, 74 ms. Это локальные измерения; они не являются Core Web Vitals полевых пользователей или Lighthouse score.
 
 Основной JavaScript — 4467 decoded bytes / 2490 transferred bytes. Отдельный динамический 3D chunk — 571486 decoded bytes / 141975 transferred bytes. 3D не блокирует доступность основного HTML и загружается после текстового первого экрана. Отрисовка при паузе прекращается; код также прекращает её вне viewport и в фоновой вкладке, что проверяется владельцем в регрессионном раунде.
 

@@ -1,0 +1,6656 @@
+{
+  "target": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "generatedAt": "2026-10-01T15:39:49.585Z",
+  "method": "Agent-directed browser inspection; Playwright input and mobile emulation, not physical-device testing.",
+  "events": [
+    {
+      "name": "desktop-start",
+      "action": "inspect",
+      "observed": {
+        "screenshot": "evidence/manual-desktop-start.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 0,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "false",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Остановить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:33:49.291Z"
+    },
+    {
+      "name": "desktop-pause",
+      "action": "click",
+      "detail": {
+        "clicked": "Ⅱ",
+        "selector": "#motion-toggle"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-desktop-pause.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 0,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:34:28.824Z"
+    },
+    {
+      "name": "desktop-wire",
+      "action": "click",
+      "detail": {
+        "clicked": "Каркас",
+        "selector": "[data-mode=wire]"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-desktop-wire.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 0,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "wire",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:34:29.686Z"
+    },
+    {
+      "name": "desktop-explode",
+      "action": "click",
+      "detail": {
+        "clicked": "Разобрать",
+        "selector": "[data-mode=explode]"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-desktop-explode.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 0,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "explode",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:34:30.597Z"
+    },
+    {
+      "name": "desktop-solid",
+      "action": "click",
+      "detail": {
+        "clicked": "Форма",
+        "selector": "[data-mode=solid]"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-desktop-solid.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 0,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:34:31.543Z"
+    },
+    {
+      "name": "desktop-drag",
+      "action": "drag",
+      "detail": {
+        "dragStart": {
+          "x": 1131.853125,
+          "y": 401.390625
+        },
+        "dragEnd": {
+          "x": 1216.853125,
+          "y": 371.390625
+        }
+      },
+      "observed": {
+        "screenshot": "evidence/manual-desktop-drag.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 0,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:34:32.603Z"
+    },
+    {
+      "name": "desktop-key-right",
+      "action": "key",
+      "detail": {
+        "key": "ArrowRight"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-desktop-key-right.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 0,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:34:33.494Z"
+    },
+    {
+      "name": "desktop-key-home",
+      "action": "key",
+      "detail": {
+        "key": "Home"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-desktop-key-home.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 0,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:34:34.368Z"
+    },
+    {
+      "name": "desktop-project-cta",
+      "action": "click",
+      "detail": {
+        "clicked": "Смотреть проекты\n↘",
+        "selector": ".primary-link"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-desktop-project-cta.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#work",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 843,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:35:33.894Z"
+    },
+    {
+      "name": "desktop-step-02",
+      "action": "click",
+      "detail": {
+        "clicked": "02Требования",
+        "selector": "[data-step=\"1\"]"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-desktop-step-02.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#work",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 843,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "1",
+          "stageTitle": "Ответы становятсятребованиями.",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:35:34.784Z"
+    },
+    {
+      "name": "desktop-step-03",
+      "action": "click",
+      "detail": {
+        "clicked": "03Команда",
+        "selector": "[data-step=\"2\"]"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-desktop-step-03.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#work",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 843,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "У каждого —своя роль.",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:35:35.653Z"
+    },
+    {
+      "name": "desktop-step-01",
+      "action": "click",
+      "detail": {
+        "clicked": "01Вопросы",
+        "selector": "[data-step=\"0\"]"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-desktop-step-01.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#work",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 843,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:35:36.519Z"
+    },
+    {
+      "name": "desktop-details-open",
+      "action": "click",
+      "detail": {
+        "clicked": "Что внутри проекта\n+",
+        "selector": "summary"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-desktop-details-open.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#work",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 843,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": true,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:35:37.427Z"
+    },
+    {
+      "name": "desktop-details-close",
+      "action": "click",
+      "detail": {
+        "clicked": "Что внутри проекта\n+",
+        "selector": "summary"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-desktop-details-close.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#work",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 843,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:35:38.302Z"
+    },
+    {
+      "name": "desktop-atyrau-link",
+      "action": "external",
+      "detail": {
+        "expected": "https://github.com/MOYISEY/atyrau-tour-3d",
+        "actual": "https://github.com/MOYISEY/atyrau-tour-3d",
+        "title": "GitHub - MOYISEY/atyrau-tour-3d · GitHub"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-desktop-atyrau-link.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#work",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 1380,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:35:42.136Z"
+    },
+    {
+      "pass": false,
+      "error": "page.waitForURL: Timeout 25000ms exceeded.",
+      "time": "2026-10-01T15:36:09.006Z"
+    },
+    {
+      "name": "desktop-nav-about",
+      "action": "click",
+      "detail": {
+        "clicked": "Обо мне02",
+        "selector": ".header nav a[href=\"#about\"]"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-desktop-nav-about.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#about",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 6,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:36:25.371Z"
+    },
+    {
+      "name": "desktop-nav-contact",
+      "action": "click",
+      "detail": {
+        "clicked": "Связь03",
+        "selector": ".header nav a[href=\"#contact\"]"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-desktop-nav-contact.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#contact",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 2868,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:36:29.607Z"
+    },
+    {
+      "name": "desktop-contact-link",
+      "action": "external",
+      "detail": {
+        "expected": "https://github.com/MOYISEY",
+        "actual": "https://github.com/MOYISEY",
+        "title": "MOYISEY (Бахтияр) · GitHub"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-desktop-contact-link.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#contact",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 2868,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:36:32.069Z"
+    },
+    {
+      "name": "desktop-back-top",
+      "action": "click",
+      "detail": {
+        "clicked": "Наверх ↑",
+        "selector": ".footer a[href=\"#top\"]:last-child"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-desktop-back-top.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#top",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 0,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:36:33.422Z"
+    },
+    {
+      "name": "desktop-nav-work",
+      "action": "click",
+      "detail": {
+        "clicked": "Проекты01",
+        "selector": ".header nav a[href=\"#work\"]"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-desktop-nav-work.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#work",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 843,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:36:36.760Z"
+    },
+    {
+      "name": "desktop-logo-top",
+      "action": "click",
+      "detail": {
+        "clicked": "BZ.",
+        "selector": ".header .wordmark"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-desktop-logo-top.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#top",
+        "state": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "scrollY": 0,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:36:37.673Z"
+    },
+    {
+      "name": "mobile-start",
+      "action": "viewport",
+      "detail": {
+        "status": 200,
+        "title": "Бахтияр Зикирин — веб-разработчик"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-mobile-start.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 0,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "false",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Остановить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:38:22.543Z"
+    },
+    {
+      "name": "mobile-pause",
+      "action": "click",
+      "detail": {
+        "clicked": "Ⅱ",
+        "selector": "#motion-toggle"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-mobile-pause.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 492,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:38:24.605Z"
+    },
+    {
+      "name": "mobile-wire",
+      "action": "click",
+      "detail": {
+        "clicked": "Каркас",
+        "selector": "[data-mode=wire]"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-mobile-wire.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 492,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "wire",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:38:25.417Z"
+    },
+    {
+      "name": "mobile-explode",
+      "action": "click",
+      "detail": {
+        "clicked": "Разобрать",
+        "selector": "[data-mode=explode]"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-mobile-explode.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 492,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "explode",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:38:26.249Z"
+    },
+    {
+      "name": "mobile-solid",
+      "action": "click",
+      "detail": {
+        "clicked": "Форма",
+        "selector": "[data-mode=solid]"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-mobile-solid.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 492,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:38:27.091Z"
+    },
+    {
+      "name": "mobile-native-scroll",
+      "action": "swipe",
+      "detail": {
+        "before": 492,
+        "after": 701
+      },
+      "observed": {
+        "screenshot": "evidence/manual-mobile-native-scroll.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 701,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:38:28.622Z"
+    },
+    {
+      "name": "mobile-project-cta",
+      "action": "click",
+      "detail": {
+        "clicked": "Смотреть проекты\n↘",
+        "selector": ".primary-link"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-mobile-project-cta.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#work",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 1003,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:38:29.454Z"
+    },
+    {
+      "name": "mobile-step-02",
+      "action": "click",
+      "detail": {
+        "clicked": "02\nТребования",
+        "selector": "[data-step=\"1\"]"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-mobile-step-02.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#work",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 1003,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "1",
+          "stageTitle": "Ответы становятсятребованиями.",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:38:30.283Z"
+    },
+    {
+      "name": "mobile-step-03",
+      "action": "click",
+      "detail": {
+        "clicked": "03\nКоманда",
+        "selector": "[data-step=\"2\"]"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-mobile-step-03.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#work",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 1003,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "2",
+          "stageTitle": "У каждого —своя роль.",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:38:31.090Z"
+    },
+    {
+      "name": "mobile-step-01",
+      "action": "click",
+      "detail": {
+        "clicked": "01\nВопросы",
+        "selector": "[data-step=\"0\"]"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-mobile-step-01.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#work",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 1003,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:38:31.897Z"
+    },
+    {
+      "name": "mobile-details-open",
+      "action": "click",
+      "detail": {
+        "clicked": "Что внутри проекта\n+",
+        "selector": "summary"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-mobile-details-open.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#work",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 1721,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": true,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:38:32.730Z"
+    },
+    {
+      "name": "mobile-details-close",
+      "action": "click",
+      "detail": {
+        "clicked": "Что внутри проекта\n+",
+        "selector": "summary"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-mobile-details-close.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#work",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 1721,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:38:33.543Z"
+    },
+    {
+      "name": "mobile-nav-about",
+      "action": "click",
+      "detail": {
+        "clicked": "Обо мне",
+        "selector": ".header nav a[href=\"#about\"]"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-mobile-nav-about.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#about",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 2943,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:38:59.192Z"
+    },
+    {
+      "name": "mobile-nav-contact",
+      "action": "click",
+      "detail": {
+        "clicked": "Связь",
+        "selector": ".header nav a[href=\"#contact\"]"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-mobile-nav-contact.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#contact",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 3565,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:39:01.378Z"
+    },
+    {
+      "pass": false,
+      "error": "page.waitForURL: Timeout 25000ms exceeded.",
+      "time": "2026-10-01T15:39:27.311Z"
+    },
+    {
+      "name": "mobile-back-top",
+      "action": "click",
+      "detail": {
+        "clicked": "Наверх ↑",
+        "selector": ".back-top"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-mobile-back-top.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#top",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 3619,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:39:30.408Z"
+    },
+    {
+      "name": "mobile-nav-work",
+      "action": "click",
+      "detail": {
+        "clicked": "Проекты",
+        "selector": ".header nav a[href=\"#work\"]"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-mobile-nav-work.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#work",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 89,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:39:39.575Z"
+    },
+    {
+      "name": "mobile-footer-logo",
+      "action": "click",
+      "detail": {
+        "clicked": "BZ.",
+        "selector": ".footer .wordmark"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-mobile-footer-logo.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#top",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 142,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:39:43.932Z"
+    },
+    {
+      "name": "mobile-header-logo",
+      "action": "click",
+      "detail": {
+        "clicked": "BZ.",
+        "selector": ".header .wordmark"
+      },
+      "observed": {
+        "screenshot": "evidence/manual-mobile-header-logo.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#top",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 23,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:39:47.298Z"
+    },
+    {
+      "name": "mobile-final",
+      "action": "inspect",
+      "observed": {
+        "screenshot": "evidence/manual-mobile-final.png",
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/#top",
+        "state": {
+          "width": 390,
+          "scrollWidth": 390,
+          "scrollY": 34,
+          "scene": "Этюд № 01 / интерактивный 3D",
+          "mode": "solid",
+          "paused": "true",
+          "stage": "0",
+          "stageTitle": "Что долженделать сайт?",
+          "details": false,
+          "interactive": [
+            {
+              "tag": "A",
+              "text": "К содержанию",
+              "href": "#main",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Бахтияр Зикирин — в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Проекты01",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Обо мне02",
+              "href": "#about",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Связь03",
+              "href": "#contact",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Смотреть проекты ↘",
+              "href": "#work",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "CANVAS",
+              "text": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Форма",
+              "href": null,
+              "mode": "solid",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Каркас",
+              "href": null,
+              "mode": "wire",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Разобрать",
+              "href": null,
+              "mode": "explode",
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Включить движение",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "01Вопросы",
+              "href": null,
+              "mode": null,
+              "step": "0"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "02Требования",
+              "href": null,
+              "mode": null,
+              "step": "1"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "03Команда",
+              "href": null,
+              "mode": null,
+              "step": "2"
+            },
+            {
+              "tag": "SUMMARY",
+              "text": "Что внутри проекта +",
+              "href": null,
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Атырау в 3D — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/atyrau-tour-3d",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Art Portal — код на GitHub, новая вкладка",
+              "href": "https://github.com/MOYISEY/art_portal",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "github.com/MOYISEY↗ — новая вкладка",
+              "href": "https://github.com/MOYISEY",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Вернуться в начало",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            },
+            {
+              "tag": "A",
+              "text": "Наверх ↑",
+              "href": "#top",
+              "mode": null,
+              "step": null
+            }
+          ]
+        }
+      },
+      "time": "2026-10-01T15:39:49.585Z"
+    }
+  ],
+  "errors": []
+}

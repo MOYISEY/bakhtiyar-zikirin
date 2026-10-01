@@ -1,0 +1,25 @@
+{
+  "repository": "https://github.com/MOYISEY/bakhtiyar-zikirin",
+  "publicUrl": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "githubOwnerVerified": "MOYISEY",
+  "repositoryId": 1399930932,
+  "hosting": "GitHub Pages",
+  "source": { "branch": "main", "path": "/docs" },
+  "initialDeploy": {
+    "commit": "a4e4a5f7edd649a1de3efcab5a5ac3e98132b193",
+    "status": "built",
+    "updatedAt": "2026-10-01T15:20:14Z"
+  },
+  "auditedProductDeploy": {
+    "commit": "b62d5f84c8b611819beab63a1210edc4fd43911e",
+    "status": "built",
+    "createdAt": "2026-10-01T15:36:04Z",
+    "updatedAt": "2026-10-01T15:36:32Z",
+    "error": null,
+    "remoteMainMatches": true
+  },
+  "publicHttpStatus": 200,
+  "browserTitle": "Бахтияр Зикирин — веб-разработчик",
+  "liveAssetIntegrityEvidence": "audit3-live-fixed.json",
+  "note": "The final evidence-only commit follows this verified product deploy. Its Pages build and exact final commit are reported separately after publication; product assets stay identical. No tokens or persistent grants were created."
+}
