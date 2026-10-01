@@ -1,0 +1,15 @@
+{
+  "url": "http://127.0.0.1:5191/",
+  "checkedAt": "2026-10-01T19:37:51.408Z",
+  "scope": "Targeted editorial checks only; behavior, CSS and scene are unchanged.",
+  "scenarios": [
+    {
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "errors": []
+    }
+  ],
+  "passed": false,
+  "failure": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:5191/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:5191/\", waiting until \"networkidle\"\u001b[22m\n"
+}
