@@ -1,0 +1,13 @@
+# Публичная проверка локализации и тем
+
+Проверен runtime release `c9f0d23b593105405afa7c6b8be1cc2b4012581b` на https://moyisey.github.io/bakhtiyar-zikirin/ . [Pages workflow](https://github.com/MOYISEY/bakhtiyar-zikirin/actions/runs/36938702623) завершился успешно; build обновлён 2026-10-01T23:05:42Z. [Все 17 публичных файлов](publication-c9f0d23.json), включая PDF, вернули 200 и совпали по SHA-256 с Git blobs этого commit.
+
+- [Публичная матрица](matrix-public-c9f0d23.json): 12/12 сочетаний RU/KK/EN × light/dark × desktop/mobile; 3D готов во всех сценариях. Все режимы/слои, клавиатура/reset/pause/repaint, brief-steps, disclosures, смена настроек/reload, без overflow и ошибок JavaScript. Axe: ноль нарушений, неполные проверки сохранены отдельно.
+- [Публичные пограничные сценарии](edge-public-c9f0d23.json): 12/12, включая все шесть WebGL fallback сочетаний, no-JS light/dark, system preference, storage blocked, disabled/hover/keyboard-focus и отказ основного JS-модуля.
+- [Направленный обход живого сайта](links-public-c9f0d23.json): desktop 1440×1000 и mobile viewport 390×844. По 12 внутренних anchor-кликов и 9 уникальных внешних направлений (profile, три demo, четыре репозитория, Rowline QA). Все popup сохраняют `opener === null`. Скачивание PDF прошло в обоих viewport, 96 616 байт и SHA-256 `566051b1e65dbfdf17982f0466948e2556157887f512b5db4d7bb248272060cb`. Mailto-клик перехвачен для проверки назначения; письма не отправлялись.
+
+В public no-JS тест сначала измерял документ на `DOMContentLoaded` до прибытия stylesheet: Times New Roman и scrollWidth 438. [Диагностика](public-nojs-diagnostic.json) после CSS показывает Onest и scrollWidth 390 при viewport 390. `waitForFunction` с RAF не подходит для этой no-JS ситуации; helper исправлен на browser `load` event. [Первоначальные два негативных результата](initial-public-nojs-timing.json) сохранены. Повторный public edge test — 12/12.
+
+После этой проверки отдельным финальным commit сохранены доказательства, исправлен helper и UTF-8/viewport перемещены в начало head до theme bootstrap. CSS/JS/3D/PDF и интерфейс не менялись. Последний deploy и точное соответствие финальному commit дополнительно проверяются в рабочем каталоге; новый отчёт не подменяет commit, на котором выполнялись эти зафиксированные матрицы.
+
+Примеры реально загруженной публичной версии: [desktop](live-desktop.png), [mobile](live-mobile.png). Приёмка проводилась через направленные действия браузера и просмотр скриншотов агентом, не человеком на физическом телефоне. WebKit не является Safari; screen reader и визуальное системное окно native select не проверялись. Kazakh review выполнен отдельной языковой моделью. Art Portal и NeuralBrief не имеют заявленного live-демо.

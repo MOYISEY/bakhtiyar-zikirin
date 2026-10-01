@@ -1,0 +1,268 @@
+{
+  "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "checkedAt": "2026-10-01T23:10:17.937Z",
+  "scope": "Portfolio integration: real PDF download bytes, mailto href and click interception, actual demo/code popups, no email sent and no repeat claim of external product unit/E2E tests.",
+  "scenarios": [
+    {
+      "name": "desktop",
+      "language": "en",
+      "theme": "light",
+      "links": [
+        {
+          "selector": "a[href=\"https://github.com/MOYISEY\"]",
+          "expected": "https://github.com/MOYISEY",
+          "actual": "https://github.com/MOYISEY",
+          "title": "MOYISEY (Бахтияр) · GitHub",
+          "openerIsNull": true
+        },
+        {
+          "selector": "a[href=\"https://moyisey.github.io/rowline/\"]",
+          "expected": "https://moyisey.github.io/rowline/",
+          "actual": "https://moyisey.github.io/rowline/",
+          "title": "Rowline — CSV, готовый к импорту",
+          "openerIsNull": true
+        },
+        {
+          "selector": "a[href=\"https://github.com/MOYISEY/rowline\"]",
+          "expected": "https://github.com/MOYISEY/rowline",
+          "actual": "https://github.com/MOYISEY/rowline",
+          "title": "GitHub - MOYISEY/rowline: Local CSV import preparation. Reversible cleanup, validation, rejection reports and reusable recipes. Built by Bakhtiyar Zikirin. · GitHub",
+          "openerIsNull": true
+        },
+        {
+          "selector": "a[href=\"https://github.com/MOYISEY/rowline/blob/main/QA.md\"]",
+          "expected": "https://github.com/MOYISEY/rowline/blob/main/QA.md",
+          "actual": "https://github.com/MOYISEY/rowline/blob/main/QA.md",
+          "title": "rowline/QA.md at main · MOYISEY/rowline · GitHub",
+          "openerIsNull": true
+        },
+        {
+          "selector": "a[href=\"https://moyisey.github.io/atyrau-tour-3d/tour_v2/\"]",
+          "expected": "https://moyisey.github.io/atyrau-tour-3d/tour_v2/",
+          "actual": "https://moyisey.github.io/atyrau-tour-3d/tour_v2/",
+          "title": "3D Тур — Атырау университеті",
+          "openerIsNull": true
+        },
+        {
+          "selector": "a[href=\"https://github.com/MOYISEY/atyrau-tour-3d\"]",
+          "expected": "https://github.com/MOYISEY/atyrau-tour-3d",
+          "actual": "https://github.com/MOYISEY/atyrau-tour-3d",
+          "title": "GitHub - MOYISEY/atyrau-tour-3d · GitHub",
+          "openerIsNull": true
+        },
+        {
+          "selector": "a[href=\"https://github.com/MOYISEY/art_portal\"]",
+          "expected": "https://github.com/MOYISEY/art_portal",
+          "actual": "https://github.com/MOYISEY/art_portal",
+          "title": "GitHub - MOYISEY/art_portal · GitHub",
+          "openerIsNull": true
+        },
+        {
+          "selector": "a[href=\"https://moyisey.github.io/krasnaya-nit/\"]",
+          "expected": "https://moyisey.github.io/krasnaya-nit/",
+          "actual": "https://moyisey.github.io/krasnaya-nit/",
+          "title": "Красная нить · доска ведущего",
+          "openerIsNull": true
+        },
+        {
+          "selector": "a[href=\"https://github.com/MOYISEY/krasnaya-nit\"]",
+          "expected": "https://github.com/MOYISEY/krasnaya-nit",
+          "actual": "https://github.com/MOYISEY/krasnaya-nit",
+          "title": "GitHub - MOYISEY/krasnaya-nit: Красная нить — local-only tabletop mystery board: clue failure analysis and safe player snapshots. System-neutral. · GitHub",
+          "openerIsNull": true
+        }
+      ],
+      "errors": [],
+      "passed": true,
+      "download": {
+        "filename": "Zikirin_Bakhtiyar_Developer_Resume_Public.pdf",
+        "sizeBytes": 96616,
+        "sha256": "566051b1e65dbfdf17982f0466948e2556157887f512b5db4d7bb248272060cb",
+        "passed": true
+      },
+      "mailtoClickIntercepted": true,
+      "internalLinks": [
+        {
+          "href": "#top",
+          "clicked": true
+        },
+        {
+          "href": "#work",
+          "clicked": true
+        },
+        {
+          "href": "#experience",
+          "clicked": true
+        },
+        {
+          "href": "#approach",
+          "clicked": true
+        },
+        {
+          "href": "#work",
+          "clicked": true
+        },
+        {
+          "href": "#experience",
+          "clicked": true
+        },
+        {
+          "href": "#rowline",
+          "clicked": true
+        },
+        {
+          "href": "#neuralbrief",
+          "clicked": true
+        },
+        {
+          "href": "#atyrau",
+          "clicked": true
+        },
+        {
+          "href": "#artportal",
+          "clicked": true
+        },
+        {
+          "href": "#top",
+          "clicked": true
+        },
+        {
+          "href": "#top",
+          "clicked": true
+        }
+      ],
+      "hobbyLoaded": true
+    },
+    {
+      "name": "mobile",
+      "language": "kk",
+      "theme": "dark",
+      "links": [
+        {
+          "selector": "a[href=\"https://github.com/MOYISEY\"]",
+          "expected": "https://github.com/MOYISEY",
+          "actual": "https://github.com/MOYISEY",
+          "title": "MOYISEY (Бахтияр) · GitHub",
+          "openerIsNull": true
+        },
+        {
+          "selector": "a[href=\"https://moyisey.github.io/rowline/\"]",
+          "expected": "https://moyisey.github.io/rowline/",
+          "actual": "https://moyisey.github.io/rowline/",
+          "title": "Rowline — CSV, готовый к импорту",
+          "openerIsNull": true
+        },
+        {
+          "selector": "a[href=\"https://github.com/MOYISEY/rowline\"]",
+          "expected": "https://github.com/MOYISEY/rowline",
+          "actual": "https://github.com/MOYISEY/rowline",
+          "title": "GitHub - MOYISEY/rowline: Local CSV import preparation. Reversible cleanup, validation, rejection reports and reusable recipes. Built by Bakhtiyar Zikirin. · GitHub",
+          "openerIsNull": true
+        },
+        {
+          "selector": "a[href=\"https://github.com/MOYISEY/rowline/blob/main/QA.md\"]",
+          "expected": "https://github.com/MOYISEY/rowline/blob/main/QA.md",
+          "actual": "https://github.com/MOYISEY/rowline/blob/main/QA.md",
+          "title": "rowline/QA.md at main · MOYISEY/rowline · GitHub",
+          "openerIsNull": true
+        },
+        {
+          "selector": "a[href=\"https://moyisey.github.io/atyrau-tour-3d/tour_v2/\"]",
+          "expected": "https://moyisey.github.io/atyrau-tour-3d/tour_v2/",
+          "actual": "https://moyisey.github.io/atyrau-tour-3d/tour_v2/",
+          "title": "3D Тур — Атырау университеті",
+          "openerIsNull": true
+        },
+        {
+          "selector": "a[href=\"https://github.com/MOYISEY/atyrau-tour-3d\"]",
+          "expected": "https://github.com/MOYISEY/atyrau-tour-3d",
+          "actual": "https://github.com/MOYISEY/atyrau-tour-3d",
+          "title": "GitHub - MOYISEY/atyrau-tour-3d · GitHub",
+          "openerIsNull": true
+        },
+        {
+          "selector": "a[href=\"https://github.com/MOYISEY/art_portal\"]",
+          "expected": "https://github.com/MOYISEY/art_portal",
+          "actual": "https://github.com/MOYISEY/art_portal",
+          "title": "GitHub - MOYISEY/art_portal · GitHub",
+          "openerIsNull": true
+        },
+        {
+          "selector": "a[href=\"https://moyisey.github.io/krasnaya-nit/\"]",
+          "expected": "https://moyisey.github.io/krasnaya-nit/",
+          "actual": "https://moyisey.github.io/krasnaya-nit/",
+          "title": "Красная нить · доска ведущего",
+          "openerIsNull": true
+        },
+        {
+          "selector": "a[href=\"https://github.com/MOYISEY/krasnaya-nit\"]",
+          "expected": "https://github.com/MOYISEY/krasnaya-nit",
+          "actual": "https://github.com/MOYISEY/krasnaya-nit",
+          "title": "GitHub - MOYISEY/krasnaya-nit: Красная нить — local-only tabletop mystery board: clue failure analysis and safe player snapshots. System-neutral. · GitHub",
+          "openerIsNull": true
+        }
+      ],
+      "errors": [],
+      "passed": true,
+      "download": {
+        "filename": "Zikirin_Bakhtiyar_Developer_Resume_Public.pdf",
+        "sizeBytes": 96616,
+        "sha256": "566051b1e65dbfdf17982f0466948e2556157887f512b5db4d7bb248272060cb",
+        "passed": true
+      },
+      "mailtoClickIntercepted": true,
+      "internalLinks": [
+        {
+          "href": "#top",
+          "clicked": true
+        },
+        {
+          "href": "#work",
+          "clicked": true
+        },
+        {
+          "href": "#experience",
+          "clicked": true
+        },
+        {
+          "href": "#approach",
+          "clicked": true
+        },
+        {
+          "href": "#work",
+          "clicked": true
+        },
+        {
+          "href": "#experience",
+          "clicked": true
+        },
+        {
+          "href": "#rowline",
+          "clicked": true
+        },
+        {
+          "href": "#neuralbrief",
+          "clicked": true
+        },
+        {
+          "href": "#atyrau",
+          "clicked": true
+        },
+        {
+          "href": "#artportal",
+          "clicked": true
+        },
+        {
+          "href": "#top",
+          "clicked": true
+        },
+        {
+          "href": "#top",
+          "clicked": true
+        }
+      ],
+      "hobbyLoaded": true
+    }
+  ],
+  "passed": true
+}

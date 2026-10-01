@@ -1,0 +1,158 @@
+{
+  "checkedAt": "2026-10-01T23:09:59.028Z",
+  "expectedCommit": "c9f0d23b593105405afa7c6b8be1cc2b4012581b",
+  "github": {
+    "repo": "https://github.com/MOYISEY/bakhtiyar-zikirin",
+    "pages": "https://moyisey.github.io/bakhtiyar-zikirin/",
+    "status": "built",
+    "build": {
+      "status": "built",
+      "commit": "c9f0d23b593105405afa7c6b8be1cc2b4012581b",
+      "created_at": "2026-10-01T23:03:44Z",
+      "updated_at": "2026-10-01T23:05:42Z",
+      "error": {
+        "message": null
+      }
+    },
+    "head": "c9f0d23b593105405afa7c6b8be1cc2b4012581b"
+  },
+  "assets": [
+    {
+      "path": "assets/index-BSMNP4_4.js",
+      "status": 200,
+      "bytes": 58347,
+      "remoteSha256": "9ca22cd457608694773034675f0bff52b3d579ef00b50bcbdeba293b6a33dce0",
+      "committedSha256": "9ca22cd457608694773034675f0bff52b3d579ef00b50bcbdeba293b6a33dce0",
+      "identical": true
+    },
+    {
+      "path": "assets/index-Cgoci1TS.css",
+      "status": 200,
+      "bytes": 36093,
+      "remoteSha256": "da311f4cd6009715f6d6bc6fc5b204913ec79b330ca0abdbc423836d276800cb",
+      "committedSha256": "da311f4cd6009715f6d6bc6fc5b204913ec79b330ca0abdbc423836d276800cb",
+      "identical": true
+    },
+    {
+      "path": "assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2",
+      "status": 200,
+      "bytes": 10540,
+      "remoteSha256": "268f03691b3d06e57abcf20f9277e314ea8784298983aab5b40c1b91965027e1",
+      "committedSha256": "268f03691b3d06e57abcf20f9277e314ea8784298983aab5b40c1b91965027e1",
+      "identical": true
+    },
+    {
+      "path": "assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+      "status": 200,
+      "bytes": 15860,
+      "remoteSha256": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27",
+      "committedSha256": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27",
+      "identical": true
+    },
+    {
+      "path": "assets/onest-latin-ext-wght-normal-QAhDxQuo.woff2",
+      "status": 200,
+      "bytes": 28452,
+      "remoteSha256": "14e7d3079b75860e2ab50efc6c318c398fdb46ede9b56e625f12ae70a3c5d9a4",
+      "committedSha256": "14e7d3079b75860e2ab50efc6c318c398fdb46ede9b56e625f12ae70a3c5d9a4",
+      "identical": true
+    },
+    {
+      "path": "assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+      "status": 200,
+      "bytes": 33760,
+      "remoteSha256": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828",
+      "committedSha256": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828",
+      "identical": true
+    },
+    {
+      "path": "assets/onest-math-wght-normal-Bl4ZGkZl.woff2",
+      "status": 200,
+      "bytes": 25480,
+      "remoteSha256": "c74952a8c0c8c558c4f879f83773cf529d11350609f7073f5b2c5999dec46041",
+      "committedSha256": "c74952a8c0c8c558c4f879f83773cf529d11350609f7073f5b2c5999dec46041",
+      "identical": true
+    },
+    {
+      "path": "assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+      "status": 200,
+      "bytes": 18168,
+      "remoteSha256": "2ec2d45d2ec0770e2c18cba2dba5126cf2dcff181d23ad192e9fffeb4af4b0b6",
+      "committedSha256": "2ec2d45d2ec0770e2c18cba2dba5126cf2dcff181d23ad192e9fffeb4af4b0b6",
+      "identical": true
+    },
+    {
+      "path": "assets/onest-vietnamese-wght-normal-BBxOatbv.woff2",
+      "status": 200,
+      "bytes": 12400,
+      "remoteSha256": "d852d4d094a3a46d701d16245deb7ca83b16b5bd69e20aa0aba089392ad69474",
+      "committedSha256": "d852d4d094a3a46d701d16245deb7ca83b16b5bd69e20aa0aba089392ad69474",
+      "identical": true
+    },
+    {
+      "path": "assets/scene-BJfIN--z.js",
+      "status": 200,
+      "bytes": 603074,
+      "remoteSha256": "744066214424ce1872a7a0753d3f490a7387ec63bea3b7c0659a7c87920d761b",
+      "committedSha256": "744066214424ce1872a7a0753d3f490a7387ec63bea3b7c0659a7c87920d761b",
+      "identical": true
+    },
+    {
+      "path": "favicon.svg",
+      "status": 200,
+      "bytes": 387,
+      "remoteSha256": "597b0d82b4c680bacdfc829de873a5041d712a60041fe7e707fc691b3c139843",
+      "committedSha256": "597b0d82b4c680bacdfc829de873a5041d712a60041fe7e707fc691b3c139843",
+      "identical": true
+    },
+    {
+      "path": "files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf",
+      "status": 200,
+      "bytes": 96616,
+      "remoteSha256": "566051b1e65dbfdf17982f0466948e2556157887f512b5db4d7bb248272060cb",
+      "committedSha256": "566051b1e65dbfdf17982f0466948e2556157887f512b5db4d7bb248272060cb",
+      "identical": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 50465,
+      "remoteSha256": "e0f9fbde2d17b70160110b9319484a90dfcb259e6f6b4a8aa5c6ba2565681696",
+      "committedSha256": "e0f9fbde2d17b70160110b9319484a90dfcb259e6f6b4a8aa5c6ba2565681696",
+      "identical": true
+    },
+    {
+      "path": "licenses/Onest-OFL.txt",
+      "status": 200,
+      "bytes": 4384,
+      "remoteSha256": "071195d8806e226faeee60259c28ca67b458227af5195a73f5cfcab06e3003bc",
+      "committedSha256": "071195d8806e226faeee60259c28ca67b458227af5195a73f5cfcab06e3003bc",
+      "identical": true
+    },
+    {
+      "path": "licenses/Three-MIT.txt",
+      "status": 200,
+      "bytes": 1081,
+      "remoteSha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "committedSha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "identical": true
+    },
+    {
+      "path": "projects/rowline-desktop.png",
+      "status": 200,
+      "bytes": 211006,
+      "remoteSha256": "075569832b8d6d9eac953b3163128d3c8ad0442eb6e26b1ff4a2f902e9d6ab9f",
+      "committedSha256": "075569832b8d6d9eac953b3163128d3c8ad0442eb6e26b1ff4a2f902e9d6ab9f",
+      "identical": true
+    },
+    {
+      "path": "projects/rowline-mobile.png",
+      "status": 200,
+      "bytes": 160219,
+      "remoteSha256": "2fd3560f40fdb9c157b07ebf20fea12fef3961948cf4ff916f6e45cfa545805b",
+      "committedSha256": "2fd3560f40fdb9c157b07ebf20fea12fef3961948cf4ff916f6e45cfa545805b",
+      "identical": true
+    }
+  ],
+  "finalVerified": true
+}

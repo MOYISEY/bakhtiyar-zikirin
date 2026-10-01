@@ -1,0 +1,81 @@
+{
+  "status": 200,
+  "title": "Бахтияр Зикирин — frontend-разработчик",
+  "before": {
+    "width": 390,
+    "scrollWidth": 438,
+    "font": "\"Times New Roman\"",
+    "paper": "#121b1a",
+    "styles": [
+      {
+        "href": null,
+        "disabled": false
+      },
+      {
+        "href": null,
+        "disabled": false
+      }
+    ],
+    "svgBounds": {
+      "x": 8,
+      "y": 365.875,
+      "width": 374,
+      "height": 187,
+      "top": 365.875,
+      "right": 382,
+      "bottom": 552.875,
+      "left": 8
+    },
+    "overflowing": [
+      {
+        "tag": "PICTURE",
+        "class": null,
+        "right": 438
+      },
+      {
+        "tag": "IMG",
+        "class": null,
+        "right": 438
+      }
+    ]
+  },
+  "after": {
+    "width": 390,
+    "scrollWidth": 390,
+    "font": "\"Onest Variable\", Arial, sans-serif",
+    "paper": "#121b1a",
+    "styles": [
+      {
+        "href": null,
+        "disabled": false
+      },
+      {
+        "href": "https://moyisey.github.io/bakhtiyar-zikirin/assets/index-Cgoci1TS.css",
+        "disabled": false
+      },
+      {
+        "href": null,
+        "disabled": false
+      }
+    ],
+    "svgBounds": {
+      "x": -41.921875,
+      "y": 550.171875,
+      "width": 473.84375,
+      "height": 320,
+      "top": 550.171875,
+      "right": 431.921875,
+      "bottom": 870.171875,
+      "left": -41.921875
+    },
+    "overflowing": [
+      {
+        "tag": "svg",
+        "class": "system-drawing",
+        "right": 431.921875
+      }
+    ]
+  },
+  "failure": "page.waitForFunction: Timeout 10000ms exceeded.",
+  "failures": []
+}
