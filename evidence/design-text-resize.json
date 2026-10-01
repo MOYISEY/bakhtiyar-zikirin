@@ -1,0 +1,268 @@
+[
+  {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "boxesOutside": [],
+    "textOutside": []
+  },
+  {
+    "width": 390,
+    "scrollWidth": 581,
+    "boxesOutside": [
+      {
+        "selector": "A.primary-link",
+        "text": "Смотреть проекты ↘",
+        "right": 428.1875,
+        "left": 223.609375
+      },
+      {
+        "selector": "BUTTON.",
+        "text": "Разобрать",
+        "right": 456.1875,
+        "left": 288.875
+      },
+      {
+        "selector": "BUTTON.motion-toggle",
+        "text": "▷",
+        "right": 513.1875,
+        "left": 469.1875
+      },
+      {
+        "selector": "H3.",
+        "text": "NeuralBrief.",
+        "right": 480.46875,
+        "left": 19.5
+      },
+      {
+        "selector": "P.",
+        "text": "Клиент отвечает на вопросы о будущем сайте. NeuralBrief собирает ответ",
+        "right": 480.46875,
+        "left": 19.5
+      },
+      {
+        "selector": "BUTTON.",
+        "text": "03Команда",
+        "right": 452.671875,
+        "left": 336.046875
+      },
+      {
+        "selector": "H4.",
+        "text": "Что долженделать сайт?",
+        "right": 452.671875,
+        "left": 40.296875
+      },
+      {
+        "selector": "P.",
+        "text": "Цель, аудитория, функции, сроки — вопросы помогают собрать исходные да",
+        "right": 452.671875,
+        "left": 40.296875
+      },
+      {
+        "selector": "P.",
+        "text": "React, Tailwind CSS, Groq и Vercel AI SDK. Интеграции с Trello и Resen",
+        "right": 480.46875,
+        "left": 19.5
+      }
+    ],
+    "textOutside": [
+      {
+        "parent": "SPAN.",
+        "text": "↘",
+        "rects": [
+          {
+            "left": 381.8125,
+            "right": 412.1875
+          }
+        ]
+      },
+      {
+        "parent": "BUTTON.",
+        "text": "Разобрать",
+        "rects": [
+          {
+            "left": 302.46875,
+            "right": 442.59375
+          }
+        ]
+      },
+      {
+        "parent": "SPAN.",
+        "text": "▷",
+        "rects": [
+          {
+            "left": 476.1875,
+            "right": 509.609375
+          }
+        ]
+      },
+      {
+        "parent": "H3.",
+        "text": "Neural",
+        "rects": [
+          {
+            "left": 19.5,
+            "right": 456.78125
+          }
+        ]
+      },
+      {
+        "parent": "P.",
+        "text": "Клиент отвечает на вопросы о будущем сайте. NeuralBrief собирает ответ",
+        "rects": [
+          {
+            "left": 19.5,
+            "right": 451.515625
+          },
+          {
+            "left": 19.5,
+            "right": 476.328125
+          },
+          {
+            "left": 19.5,
+            "right": 424.734375
+          }
+        ]
+      },
+      {
+        "parent": "SPAN.",
+        "text": "NB / 01",
+        "rects": [
+          {
+            "left": 364.578125,
+            "right": 452.671875
+          }
+        ]
+      },
+      {
+        "parent": "BUTTON.",
+        "text": "Команда",
+        "rects": [
+          {
+            "left": 337.640625,
+            "right": 451.078125
+          }
+        ]
+      },
+      {
+        "parent": "H4.",
+        "text": "Что должен",
+        "rects": [
+          {
+            "left": 40.296875,
+            "right": 449.9375
+          }
+        ]
+      },
+      {
+        "parent": "P.",
+        "text": "Цель, аудитория, функции, сроки — вопросы помогают собрать исходные да",
+        "rects": [
+          {
+            "left": 40.296875,
+            "right": 430.0625
+          },
+          {
+            "left": 40.296875,
+            "right": 443.890625
+          },
+          {
+            "left": 40.296875,
+            "right": 430.734375
+          }
+        ]
+      },
+      {
+        "parent": "SPAN.",
+        "text": "+",
+        "rects": [
+          {
+            "left": 454.0625,
+            "right": 480.46875
+          }
+        ]
+      },
+      {
+        "parent": "P.",
+        "text": "AI-интервью, структурированное ТЗ и роли клиента, менеджера, разработч",
+        "rects": [
+          {
+            "left": 19.5,
+            "right": 398
+          },
+          {
+            "left": 19.5,
+            "right": 424.53125
+          },
+          {
+            "left": 19.5,
+            "right": 439.828125
+          }
+        ]
+      },
+      {
+        "parent": "P.",
+        "text": "React, Tailwind CSS, Groq и Vercel AI SDK. Интеграции с Trello и Resen",
+        "rects": [
+          {
+            "left": 19.5,
+            "right": 431.21875
+          },
+          {
+            "left": 19.5,
+            "right": 449.015625
+          }
+        ]
+      },
+      {
+        "parent": "H2.",
+        "text": "По обе стороны",
+        "rects": [
+          {
+            "left": 19.5,
+            "right": 398.90625
+          }
+        ]
+      },
+      {
+        "parent": "H2.",
+        "text": "интерфейса",
+        "rects": [
+          {
+            "left": 19.5,
+            "right": 559.359375
+          }
+        ]
+      },
+      {
+        "parent": "SPAN.",
+        "text": ".",
+        "rects": [
+          {
+            "left": 559.359375,
+            "right": 580.5625
+          }
+        ]
+      },
+      {
+        "parent": "A.contact-link",
+        "text": "github.com/MOYISEY",
+        "rects": [
+          {
+            "left": 19.5,
+            "right": 474.0625
+          }
+        ]
+      },
+      {
+        "parent": "SPAN.",
+        "text": "↗",
+        "rects": [
+          {
+            "left": 474.0625,
+            "right": 529.828125
+          }
+        ]
+      }
+    ]
+  }
+]

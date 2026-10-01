@@ -1,0 +1,345 @@
+{
+  "target": "http://127.0.0.1:5173/",
+  "createdAt": "2026-10-01T12:22:31.618Z",
+  "keyboard": {
+    "first": {
+      "text": "К содержанию",
+      "tag": "A"
+    },
+    "skipTarget": {
+      "tag": "MAIN",
+      "id": "main",
+      "hash": "#main"
+    },
+    "sequence": [
+      {
+        "tag": "A",
+        "id": "",
+        "text": "К содержанию",
+        "aria": null,
+        "outline": "solid",
+        "viewport": {
+          "top": 16,
+          "bottom": 69
+        }
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "BZ.",
+        "aria": "Бахтияр Зикирин — в начало",
+        "outline": "solid",
+        "viewport": {
+          "top": 28,
+          "bottom": 60
+        }
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Проекты01",
+        "aria": null,
+        "outline": "solid",
+        "viewport": {
+          "top": 32.46875,
+          "bottom": 55.53125
+        }
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Обо мне02",
+        "aria": null,
+        "outline": "solid",
+        "viewport": {
+          "top": 32.46875,
+          "bottom": 55.53125
+        }
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Связь03",
+        "aria": null,
+        "outline": "solid",
+        "viewport": {
+          "top": 32.46875,
+          "bottom": 55.53125
+        }
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Смотреть проекты ↘",
+        "aria": null,
+        "outline": "solid",
+        "viewport": {
+          "top": 593.921875,
+          "bottom": 653.125
+        }
+      },
+      {
+        "tag": "CANVAS",
+        "id": "scene",
+        "text": "",
+        "aria": "3D-объект. Перетаскивайте для вращения. Стрелки вращают, клавиша Home возвращает исходный вид.",
+        "outline": "solid",
+        "viewport": {
+          "top": 167.390625,
+          "bottom": 687.390625
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Форма",
+        "aria": null,
+        "outline": "solid",
+        "viewport": {
+          "top": 732.390625,
+          "bottom": 772.390625
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Каркас",
+        "aria": null,
+        "outline": "solid",
+        "viewport": {
+          "top": 732.390625,
+          "bottom": 772.390625
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Разобрать",
+        "aria": null,
+        "outline": "solid",
+        "viewport": {
+          "top": 732.390625,
+          "bottom": 772.390625
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "id": "motion-toggle",
+        "text": "▷",
+        "aria": "Включить движение",
+        "outline": "solid",
+        "viewport": {
+          "top": 730.390625,
+          "bottom": 774.390625
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "01Вопросы",
+        "aria": null,
+        "outline": "solid",
+        "viewport": {
+          "top": 526.28125,
+          "bottom": 570.28125
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "02Требования",
+        "aria": null,
+        "outline": "solid",
+        "viewport": {
+          "top": 526.28125,
+          "bottom": 570.28125
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "03Команда",
+        "aria": null,
+        "outline": "solid",
+        "viewport": {
+          "top": 526.28125,
+          "bottom": 570.28125
+        }
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "text": "Что внутри проекта +",
+        "aria": null,
+        "outline": "solid",
+        "viewport": {
+          "top": 931.015625,
+          "bottom": 999.796875
+        }
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Код на GitHub ↗",
+        "aria": "Атырау в 3D — код на GitHub, новая вкладка",
+        "outline": "solid",
+        "viewport": {
+          "top": 518.390625,
+          "bottom": 578.59375
+        }
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Код на GitHub ↗",
+        "aria": "Art Portal — код на GitHub, новая вкладка",
+        "outline": "solid",
+        "viewport": {
+          "top": 692.78125,
+          "bottom": 752.984375
+        }
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "github.com/MOYISEY ↗ — новая вкладка",
+        "aria": null,
+        "outline": "solid",
+        "viewport": {
+          "top": 681.703125,
+          "bottom": 814.703125
+        }
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "BZ.",
+        "aria": "Вернуться в начало",
+        "outline": "solid",
+        "viewport": {
+          "top": 931.890625,
+          "bottom": 963.890625
+        }
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Наверх ↑",
+        "aria": null,
+        "outline": "solid",
+        "viewport": {
+          "top": 927.703125,
+          "bottom": 968.078125
+        }
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "text": "К содержанию\n    \n      BZ.\n      \n        Проекты01\n        Обо мне02\n        С",
+        "aria": null,
+        "outline": "none",
+        "viewport": {
+          "top": -2868,
+          "bottom": 1000.078125
+        }
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "К содержанию",
+        "aria": null,
+        "outline": "solid",
+        "viewport": {
+          "top": 16,
+          "bottom": 69
+        }
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "BZ.",
+        "aria": "Бахтияр Зикирин — в начало",
+        "outline": "solid",
+        "viewport": {
+          "top": 28,
+          "bottom": 60
+        }
+      }
+    ],
+    "sceneChangedWithArrow": true,
+    "sceneRestoredWithHome": true
+  },
+  "textResize": {
+    "viewportWidth": 1440,
+    "scrollWidth": 1510,
+    "overflows": [],
+    "hero": {
+      ".hero": {
+        "top": 121,
+        "bottom": 1958.421875,
+        "height": 1837.421875
+      },
+      ".hero h1": {
+        "top": 243.390625,
+        "bottom": 1546.234375,
+        "height": 1302.84375
+      },
+      ".hero-bottom": {
+        "top": 1594.234375,
+        "bottom": 1756.234375,
+        "height": 162
+      },
+      ".hero-footnote": {
+        "top": 1884.234375,
+        "bottom": 1958.421875,
+        "height": 74.1875
+      }
+    }
+  },
+  "mobile": {
+    "touchAction": "pan-y",
+    "swipe": {
+      "beforeScroll": 160,
+      "afterScroll": 491,
+      "beganOnCanvas": {
+        "x": 190,
+        "y": 558.640625,
+        "canvasBox": {
+          "x": 0.03125,
+          "y": 228.640625,
+          "width": 386.09375,
+          "height": 350
+        }
+      }
+    },
+    "stepInteractions": [
+      {
+        "pressed": "1",
+        "content": "Структурированное ТЗОтветы становятсятребованиями.Информация из разговора собирается в документ, с которым может работать команда."
+      },
+      {
+        "pressed": "2",
+        "content": "Работа студииУ каждого —своя роль.Клиент, менеджер, разработчик и директор работают с проектом в своих разделах."
+      },
+      {
+        "pressed": "0",
+        "content": "Интервью с клиентомЧто долженделать сайт?Цель, аудитория, функции, сроки — вопросы помогают собрать исходные данные."
+      }
+    ],
+    "detailsOpen": true,
+    "backTop": {
+      "hash": "#top",
+      "scrollY": 59
+    }
+  },
+  "motion": {
+    "reducedMotionExtraDrawCalls": 0,
+    "initial": {
+      "pressed": "true",
+      "label": "Включить движение"
+    },
+    "resumedDrawCalls": 1885,
+    "pausedExtraDrawCalls": 0
+  },
+  "errors": []
+}

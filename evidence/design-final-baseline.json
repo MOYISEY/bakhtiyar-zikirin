@@ -1,0 +1,55 @@
+{
+  "target": "http://127.0.0.1:5173/",
+  "results": [
+    {
+      "width": 1440,
+      "layout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "clipped": []
+      },
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 1024,
+      "layout": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "clipped": []
+      },
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 768,
+      "layout": {
+        "width": 768,
+        "scrollWidth": 768,
+        "clipped": []
+      },
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "clipped": []
+      },
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 320,
+      "layout": {
+        "width": 320,
+        "scrollWidth": 320,
+        "clipped": []
+      },
+      "errors": [],
+      "violations": []
+    }
+  ]
+}

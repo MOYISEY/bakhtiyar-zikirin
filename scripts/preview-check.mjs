@@ -1,0 +1,14 @@
+import { openBrowser } from './browser-config.mjs';
+import { mkdirSync,writeFileSync } from 'node:fs';
+const browser=await openBrowser();
+const page=await browser.newPage({viewport:{width:1440,height:1000},deviceScaleFactor:1});
+const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.goto('http://127.0.0.1:5173',{waitUntil:'networkidle'});
+await page.waitForFunction(()=>document.querySelector('#scene-status')?.textContent?.includes('интерактивный'),{timeout:20000});
+await page.locator('#motion-toggle').click();
+mkdirSync('evidence',{recursive:true});
+await page.screenshot({path:'evidence/desktop-initial.png',fullPage:true});
+console.log(JSON.stringify({errors,title:await page.title(),scene:await page.locator('#scene-status').textContent(),overflow:await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)},null,2));
+const fonts=await page.evaluate(()=>document.fonts.status);console.log({fonts});
+writeFileSync('evidence/initial-browser.json',JSON.stringify({errors,fonts},null,2));
+await browser.close();

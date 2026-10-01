@@ -1,0 +1,136 @@
+{
+  "target": "http://127.0.0.1:5173/",
+  "prefix": "regression",
+  "generatedAt": "2026-10-01T12:19:06.100Z",
+  "errors": [],
+  "badResponses": [],
+  "results": [
+    {
+      "name": "reduced motion starts paused and remains still",
+      "pass": true,
+      "detail": {
+        "canvasHash": "533ed9e264644416ea799a1d6fdc5b021373b84c22b72499fc7c25520d3be1eb"
+      }
+    },
+    {
+      "name": "all 3 scene modes produce different renders and selected states",
+      "pass": true,
+      "detail": [
+        "533ed9e264644416ea799a1d6fdc5b021373b84c22b72499fc7c25520d3be1eb",
+        "2244f459cd71b42d74bf7592824deb076913d0e628fc69e47be277ae1e7e1ce4",
+        "6d9958434fe2a3d4ce83d6b7b43537ad85151386d13b34389cfdacca4c47cc71"
+      ]
+    },
+    {
+      "name": "motion toggle starts animation and stops it",
+      "pass": true,
+      "detail": {
+        "changed": true
+      }
+    },
+    {
+      "name": "keyboard scene controls and Home reset",
+      "pass": true,
+      "detail": {
+        "rotated": true,
+        "reset": true
+      }
+    },
+    {
+      "name": "mouse drag rotates scene",
+      "pass": true,
+      "detail": {
+        "dragged": true
+      }
+    },
+    {
+      "name": "hero project link and all 3 header anchors",
+      "pass": false,
+      "error": "The expression evaluated to a falsy value:\n\n  assert(top>=-1&&top<150)\n"
+    },
+    {
+      "name": "all 3 NeuralBrief stages update content",
+      "pass": true,
+      "detail": [
+        "Что должен\nделать сайт?",
+        "Ответы становятся\nтребованиями.",
+        "У каждого —\nсвоя роль."
+      ]
+    },
+    {
+      "name": "project details open and close",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "all external links open the specified GitHub destinations",
+      "pass": true,
+      "detail": [
+        {
+          "expected": "https://github.com/MOYISEY/atyrau-tour-3d",
+          "actual": "https://github.com/MOYISEY/atyrau-tour-3d"
+        },
+        {
+          "expected": "https://github.com/MOYISEY/art_portal",
+          "actual": "https://github.com/MOYISEY/art_portal"
+        },
+        {
+          "expected": "https://github.com/MOYISEY",
+          "actual": "https://github.com/MOYISEY"
+        }
+      ]
+    },
+    {
+      "name": "footer top and both logo links",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "skip link keyboard focus reaches main",
+      "pass": true,
+      "detail": {
+        "focused": "main"
+      }
+    },
+    {
+      "name": "actual browser back navigation restores a usable scene",
+      "pass": true,
+      "detail": {
+        "pageshowEvents": [
+          {
+            "persisted": false,
+            "time": 81.19999999995343
+          }
+        ],
+        "bfcacheObserved": false,
+        "note": "Actual navigation; bfcache only covered if persisted is true."
+      }
+    },
+    {
+      "name": "WebGL context loss produces accessible fallback",
+      "pass": true,
+      "detail": {
+        "status": "Этюд № 01 / статичный вид"
+      }
+    },
+    {
+      "name": "WebGL unavailable initialization fallback",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "blocked optional scene module fallback",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "one-finger mobile swipe over canvas scrolls page",
+      "pass": true,
+      "detail": {
+        "before": 0,
+        "after": 209,
+        "delta": 209
+      }
+    }
+  ]
+}

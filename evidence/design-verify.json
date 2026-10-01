@@ -1,0 +1,108 @@
+{
+  "createdAt": "2026-10-01T12:21:15.440Z",
+  "mobileSteps": [
+    {
+      "requestedActive": "1",
+      "content": "Структурированное ТЗОтветы становятсятребованиями.Информация из разговора собирается в документ, с которым может работать команда."
+    },
+    {
+      "requestedActive": "2",
+      "content": "Работа студииУ каждого —своя роль.Клиент, менеджер, разработчик и директор работают с проектом в своих разделах."
+    },
+    {
+      "requestedActive": "0",
+      "content": "Интервью с клиентомЧто долженделать сайт?Цель, аудитория, функции, сроки — вопросы помогают собрать исходные данные."
+    }
+  ],
+  "home": {
+    "changed": true,
+    "restoredByteExact": true,
+    "initialSize": 101404,
+    "resetSize": 101404,
+    "pixelComparison": {
+      "changedPixelFraction": 0,
+      "maxDifference": 0,
+      "meanDifference": 0
+    }
+  },
+  "zoomEquivalent": {
+    "innerWidth": 720,
+    "scrollWidth": 720,
+    "clipped": []
+  },
+  "production": {
+    "cls": 0.009727641812548224,
+    "largestContentfulPaint": 232,
+    "longTasks": [
+      {
+        "start": 63.199999999953434,
+        "duration": 115
+      },
+      {
+        "start": 322.5,
+        "duration": 162
+      },
+      {
+        "start": 485.10000000009313,
+        "duration": 74
+      }
+    ],
+    "navigation": [
+      {
+        "domContentLoaded": 59.10000000009313,
+        "load": 221.10000000009313
+      }
+    ],
+    "resources": [
+      {
+        "name": "/assets/index-DdxZKY-h.js",
+        "bytes": 4467,
+        "transferred": 2490,
+        "duration": 18.100000000093132
+      },
+      {
+        "name": "/assets/index-D2SdxxHH.css",
+        "bytes": 18323,
+        "transferred": 5467,
+        "duration": 20.300000000046566
+      },
+      {
+        "name": "/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+        "bytes": 15860,
+        "transferred": 16160,
+        "duration": 7.5
+      },
+      {
+        "name": "/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+        "bytes": 33760,
+        "transferred": 34060,
+        "duration": 124.60000000009313
+      },
+      {
+        "name": "/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+        "bytes": 18168,
+        "transferred": 18468,
+        "duration": 94.0999999998603
+      },
+      {
+        "name": "/favicon.svg",
+        "bytes": 282,
+        "transferred": 582,
+        "duration": 6.600000000093132
+      },
+      {
+        "name": "/assets/scene-Dy7Dc_46.js",
+        "bytes": 571486,
+        "transferred": 141975,
+        "duration": 45.5999999998603
+      },
+      {
+        "name": "/assets/onest-math-wght-normal-Bl4ZGkZl.woff2",
+        "bytes": 25480,
+        "transferred": 25780,
+        "duration": 18.600000000093132
+      }
+    ],
+    "fonts": "loaded"
+  }
+}
