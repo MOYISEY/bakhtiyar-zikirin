@@ -1,0 +1,73 @@
+{
+  "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "checkedAt": "2026-10-02T08:24:00.767Z",
+  "scope": "Directed actual browser clicks/taps, two unchanged resume downloads and both mailto destinations (preventDefault, no email sent), native full-image popup, mobile trusted CDP gesture in screenshot region. Captures require separate visual inspection.",
+  "cases": [
+    {
+      "width": 1165,
+      "language": "ru",
+      "theme": "light",
+      "actions": [
+        "Actual hero and contact PDF downloads match unchanged public PDF",
+        "Both mailto clicks intercepted at approved address; no email sent",
+        "Full real Rowline screenshot opened in a separate protected tab"
+      ],
+      "errors": [],
+      "passed": true,
+      "pdf": [
+        {
+          "position": "hero",
+          "bytes": 96616,
+          "sha256": "566051b1e65dbfdf17982f0466948e2556157887f512b5db4d7bb248272060cb"
+        },
+        {
+          "position": "contact",
+          "bytes": 96616,
+          "sha256": "566051b1e65dbfdf17982f0466948e2556157887f512b5db4d7bb248272060cb"
+        }
+      ],
+      "image": {
+        "width": 1440,
+        "height": 1303,
+        "openerIsNull": true,
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/projects/rowline-desktop.png"
+      }
+    },
+    {
+      "width": 390,
+      "language": "kk",
+      "theme": "dark",
+      "actions": [
+        "Actual hero and contact PDF downloads match unchanged public PDF",
+        "Both mailto clicks intercepted at approved address; no email sent",
+        "Full real Rowline screenshot opened in a separate protected tab",
+        "Trusted CDP touch gesture scrolls real image region while page remains stationary"
+      ],
+      "errors": [],
+      "passed": true,
+      "pdf": [
+        {
+          "position": "hero",
+          "bytes": 96616,
+          "sha256": "566051b1e65dbfdf17982f0466948e2556157887f512b5db4d7bb248272060cb"
+        },
+        {
+          "position": "contact",
+          "bytes": 96616,
+          "sha256": "566051b1e65dbfdf17982f0466948e2556157887f512b5db4d7bb248272060cb"
+        }
+      ],
+      "image": {
+        "width": 1440,
+        "height": 1303,
+        "openerIsNull": true,
+        "url": "https://moyisey.github.io/bakhtiyar-zikirin/projects/rowline-desktop.png"
+      },
+      "touch": {
+        "regionTop": 177,
+        "pageY": 2525
+      }
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,298 @@
+{
+  "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "engine": "chromium",
+  "checkedAt": "2026-10-02T08:24:00.763Z",
+  "scope": "360/390/768 CSS px, RU/KK/EN, light/dark. Touch emulation for compact widths, fixed-sample actual download bytes, repeated edits/exports/preferences. Not a physical-device test.",
+  "cases": [
+    {
+      "width": 360,
+      "language": "ru",
+      "theme": "light",
+      "errors": [],
+      "checks": [
+        "No horizontal overflow; 3D in Approach; working projects lead",
+        "3 tap edit/undo cycles; state survives locale/theme; 2 identical corrected downloads and 1 original download; invalid row excluded"
+      ],
+      "passed": true,
+      "imageScroll": {
+        "top": 600,
+        "height": 520,
+        "scrollHeight": 2188
+      }
+    },
+    {
+      "width": 360,
+      "language": "ru",
+      "theme": "dark",
+      "errors": [],
+      "checks": [
+        "No horizontal overflow; 3D in Approach; working projects lead",
+        "3 tap edit/undo cycles; state survives locale/theme; 2 identical corrected downloads and 1 original download; invalid row excluded"
+      ],
+      "passed": true,
+      "imageScroll": {
+        "top": 600,
+        "height": 520,
+        "scrollHeight": 2188
+      }
+    },
+    {
+      "width": 360,
+      "language": "kk",
+      "theme": "light",
+      "errors": [],
+      "checks": [
+        "No horizontal overflow; 3D in Approach; working projects lead",
+        "3 tap edit/undo cycles; state survives locale/theme; 2 identical corrected downloads and 1 original download; invalid row excluded"
+      ],
+      "passed": true,
+      "imageScroll": {
+        "top": 600,
+        "height": 520,
+        "scrollHeight": 2188
+      }
+    },
+    {
+      "width": 360,
+      "language": "kk",
+      "theme": "dark",
+      "errors": [],
+      "checks": [
+        "No horizontal overflow; 3D in Approach; working projects lead",
+        "3 tap edit/undo cycles; state survives locale/theme; 2 identical corrected downloads and 1 original download; invalid row excluded"
+      ],
+      "passed": true,
+      "imageScroll": {
+        "top": 600,
+        "height": 520,
+        "scrollHeight": 2188
+      }
+    },
+    {
+      "width": 360,
+      "language": "en",
+      "theme": "light",
+      "errors": [],
+      "checks": [
+        "No horizontal overflow; 3D in Approach; working projects lead",
+        "3 tap edit/undo cycles; state survives locale/theme; 2 identical corrected downloads and 1 original download; invalid row excluded"
+      ],
+      "passed": true,
+      "imageScroll": {
+        "top": 600,
+        "height": 520,
+        "scrollHeight": 2188
+      }
+    },
+    {
+      "width": 360,
+      "language": "en",
+      "theme": "dark",
+      "errors": [],
+      "checks": [
+        "No horizontal overflow; 3D in Approach; working projects lead",
+        "3 tap edit/undo cycles; state survives locale/theme; 2 identical corrected downloads and 1 original download; invalid row excluded"
+      ],
+      "passed": true,
+      "imageScroll": {
+        "top": 600,
+        "height": 520,
+        "scrollHeight": 2188
+      }
+    },
+    {
+      "width": 390,
+      "language": "ru",
+      "theme": "light",
+      "errors": [],
+      "checks": [
+        "No horizontal overflow; 3D in Approach; working projects lead",
+        "3 tap edit/undo cycles; state survives locale/theme; 2 identical corrected downloads and 1 original download; invalid row excluded"
+      ],
+      "passed": true,
+      "imageScroll": {
+        "top": 600,
+        "height": 520,
+        "scrollHeight": 2372
+      }
+    },
+    {
+      "width": 390,
+      "language": "ru",
+      "theme": "dark",
+      "errors": [],
+      "checks": [
+        "No horizontal overflow; 3D in Approach; working projects lead",
+        "3 tap edit/undo cycles; state survives locale/theme; 2 identical corrected downloads and 1 original download; invalid row excluded"
+      ],
+      "passed": true,
+      "imageScroll": {
+        "top": 600,
+        "height": 520,
+        "scrollHeight": 2372
+      }
+    },
+    {
+      "width": 390,
+      "language": "kk",
+      "theme": "light",
+      "errors": [],
+      "checks": [
+        "No horizontal overflow; 3D in Approach; working projects lead",
+        "3 tap edit/undo cycles; state survives locale/theme; 2 identical corrected downloads and 1 original download; invalid row excluded"
+      ],
+      "passed": true,
+      "imageScroll": {
+        "top": 600,
+        "height": 520,
+        "scrollHeight": 2372
+      }
+    },
+    {
+      "width": 390,
+      "language": "kk",
+      "theme": "dark",
+      "errors": [],
+      "checks": [
+        "No horizontal overflow; 3D in Approach; working projects lead",
+        "3 tap edit/undo cycles; state survives locale/theme; 2 identical corrected downloads and 1 original download; invalid row excluded"
+      ],
+      "passed": true,
+      "imageScroll": {
+        "top": 600,
+        "height": 520,
+        "scrollHeight": 2372
+      }
+    },
+    {
+      "width": 390,
+      "language": "en",
+      "theme": "light",
+      "errors": [],
+      "checks": [
+        "No horizontal overflow; 3D in Approach; working projects lead",
+        "3 tap edit/undo cycles; state survives locale/theme; 2 identical corrected downloads and 1 original download; invalid row excluded"
+      ],
+      "passed": true,
+      "imageScroll": {
+        "top": 600,
+        "height": 520,
+        "scrollHeight": 2372
+      }
+    },
+    {
+      "width": 390,
+      "language": "en",
+      "theme": "dark",
+      "errors": [],
+      "checks": [
+        "No horizontal overflow; 3D in Approach; working projects lead",
+        "3 tap edit/undo cycles; state survives locale/theme; 2 identical corrected downloads and 1 original download; invalid row excluded"
+      ],
+      "passed": true,
+      "imageScroll": {
+        "top": 600,
+        "height": 520,
+        "scrollHeight": 2372
+      }
+    },
+    {
+      "width": 768,
+      "language": "ru",
+      "theme": "light",
+      "errors": [],
+      "checks": [
+        "No horizontal overflow; 3D in Approach; working projects lead",
+        "3 tap edit/undo cycles; state survives locale/theme; 2 identical corrected downloads and 1 original download; invalid row excluded"
+      ],
+      "passed": true,
+      "imageScroll": {
+        "top": 0,
+        "height": 582,
+        "scrollHeight": 582
+      }
+    },
+    {
+      "width": 768,
+      "language": "ru",
+      "theme": "dark",
+      "errors": [],
+      "checks": [
+        "No horizontal overflow; 3D in Approach; working projects lead",
+        "3 tap edit/undo cycles; state survives locale/theme; 2 identical corrected downloads and 1 original download; invalid row excluded"
+      ],
+      "passed": true,
+      "imageScroll": {
+        "top": 0,
+        "height": 582,
+        "scrollHeight": 582
+      }
+    },
+    {
+      "width": 768,
+      "language": "kk",
+      "theme": "light",
+      "errors": [],
+      "checks": [
+        "No horizontal overflow; 3D in Approach; working projects lead",
+        "3 tap edit/undo cycles; state survives locale/theme; 2 identical corrected downloads and 1 original download; invalid row excluded"
+      ],
+      "passed": true,
+      "imageScroll": {
+        "top": 0,
+        "height": 582,
+        "scrollHeight": 582
+      }
+    },
+    {
+      "width": 768,
+      "language": "kk",
+      "theme": "dark",
+      "errors": [],
+      "checks": [
+        "No horizontal overflow; 3D in Approach; working projects lead",
+        "3 tap edit/undo cycles; state survives locale/theme; 2 identical corrected downloads and 1 original download; invalid row excluded"
+      ],
+      "passed": true,
+      "imageScroll": {
+        "top": 0,
+        "height": 582,
+        "scrollHeight": 582
+      }
+    },
+    {
+      "width": 768,
+      "language": "en",
+      "theme": "light",
+      "errors": [],
+      "checks": [
+        "No horizontal overflow; 3D in Approach; working projects lead",
+        "3 tap edit/undo cycles; state survives locale/theme; 2 identical corrected downloads and 1 original download; invalid row excluded"
+      ],
+      "passed": true,
+      "imageScroll": {
+        "top": 0,
+        "height": 582,
+        "scrollHeight": 582
+      }
+    },
+    {
+      "width": 768,
+      "language": "en",
+      "theme": "dark",
+      "errors": [],
+      "checks": [
+        "No horizontal overflow; 3D in Approach; working projects lead",
+        "3 tap edit/undo cycles; state survives locale/theme; 2 identical corrected downloads and 1 original download; invalid row excluded"
+      ],
+      "passed": true,
+      "imageScroll": {
+        "top": 0,
+        "height": 582,
+        "scrollHeight": 582
+      }
+    }
+  ],
+  "browserVersion": "153.0.8010.12",
+  "passed": true
+}

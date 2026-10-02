@@ -1,0 +1,53 @@
+{
+  "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "checkedAt": "2026-10-02T08:24:56.136Z",
+  "cases": [
+    {
+      "width": 1440,
+      "states": [
+        {
+          "name": "initial",
+          "scrollY": 0,
+          "current": []
+        },
+        {
+          "name": "approach",
+          "scrollY": 7467,
+          "current": [
+            "#approach"
+          ]
+        },
+        {
+          "name": "top-after-700ms",
+          "scrollY": 0,
+          "current": []
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "states": [
+        {
+          "name": "initial",
+          "scrollY": 0,
+          "current": []
+        },
+        {
+          "name": "approach",
+          "scrollY": 9658,
+          "current": [
+            "#approach"
+          ]
+        },
+        {
+          "name": "top-after-700ms",
+          "scrollY": 0,
+          "current": []
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

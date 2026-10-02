@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-02T08:28:34.980Z",
+  "reason": "The first live popup retained the correct URL but showed a transient GitHub Unicorn error title. One bounded check; this does not audit the external application.",
+  "destination": "https://github.com/MOYISEY/rowline/blob/main/QA.md",
+  "browser": {
+    "status": 503,
+    "title": "Unicorn! · GitHub",
+    "finalUrl": "https://github.com/MOYISEY/rowline/blob/main/QA.md"
+  },
+  "raw": {
+    "url": "https://raw.githubusercontent.com/MOYISEY/rowline/main/QA.md",
+    "status": 200,
+    "bytes": 9083,
+    "contentPresent": true
+  }
+}
