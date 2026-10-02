@@ -1,0 +1,129 @@
+{
+  "at": "2026-10-02T16:12:27.801Z",
+  "commit": "405868194adb07bec708455a8240e74f1cb45277",
+  "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "scope": "All committed production runtime files except hosting marker .nojekyll; publicly fetched bytes compared with local build. No map provider tile/data collection.",
+  "passed": true,
+  "results": [
+    {
+      "path": "assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+      "status": 200,
+      "bytes": 15860,
+      "sha256": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27",
+      "localSha256": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27",
+      "identical": true
+    },
+    {
+      "path": "assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2",
+      "status": 200,
+      "bytes": 10540,
+      "sha256": "268f03691b3d06e57abcf20f9277e314ea8784298983aab5b40c1b91965027e1",
+      "localSha256": "268f03691b3d06e57abcf20f9277e314ea8784298983aab5b40c1b91965027e1",
+      "identical": true
+    },
+    {
+      "path": "assets/index-Dhvk4Jdu.js",
+      "status": 200,
+      "bytes": 77201,
+      "sha256": "d7cb1b81a0a123d1ed4ff000f604fed1be44885e80caeb4cbe8832a8b2f107ab",
+      "localSha256": "d7cb1b81a0a123d1ed4ff000f604fed1be44885e80caeb4cbe8832a8b2f107ab",
+      "identical": true
+    },
+    {
+      "path": "assets/index-DMbBAZA9.css",
+      "status": 200,
+      "bytes": 45962,
+      "sha256": "90e19f02af0ab2cba377d85fbaa29ffd6b3db490260b557e4c853b3274784663",
+      "localSha256": "90e19f02af0ab2cba377d85fbaa29ffd6b3db490260b557e4c853b3274784663",
+      "identical": true
+    },
+    {
+      "path": "assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+      "status": 200,
+      "bytes": 18168,
+      "sha256": "2ec2d45d2ec0770e2c18cba2dba5126cf2dcff181d23ad192e9fffeb4af4b0b6",
+      "localSha256": "2ec2d45d2ec0770e2c18cba2dba5126cf2dcff181d23ad192e9fffeb4af4b0b6",
+      "identical": true
+    },
+    {
+      "path": "assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+      "status": 200,
+      "bytes": 33760,
+      "sha256": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828",
+      "localSha256": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828",
+      "identical": true
+    },
+    {
+      "path": "assets/onest-latin-ext-wght-normal-QAhDxQuo.woff2",
+      "status": 200,
+      "bytes": 28452,
+      "sha256": "14e7d3079b75860e2ab50efc6c318c398fdb46ede9b56e625f12ae70a3c5d9a4",
+      "localSha256": "14e7d3079b75860e2ab50efc6c318c398fdb46ede9b56e625f12ae70a3c5d9a4",
+      "identical": true
+    },
+    {
+      "path": "assets/onest-math-wght-normal-Bl4ZGkZl.woff2",
+      "status": 200,
+      "bytes": 25480,
+      "sha256": "c74952a8c0c8c558c4f879f83773cf529d11350609f7073f5b2c5999dec46041",
+      "localSha256": "c74952a8c0c8c558c4f879f83773cf529d11350609f7073f5b2c5999dec46041",
+      "identical": true
+    },
+    {
+      "path": "favicon.svg",
+      "status": 200,
+      "bytes": 387,
+      "sha256": "597b0d82b4c680bacdfc829de873a5041d712a60041fe7e707fc691b3c139843",
+      "localSha256": "597b0d82b4c680bacdfc829de873a5041d712a60041fe7e707fc691b3c139843",
+      "identical": true
+    },
+    {
+      "path": "assets/onest-vietnamese-wght-normal-BBxOatbv.woff2",
+      "status": 200,
+      "bytes": 12400,
+      "sha256": "d852d4d094a3a46d701d16245deb7ca83b16b5bd69e20aa0aba089392ad69474",
+      "localSha256": "d852d4d094a3a46d701d16245deb7ca83b16b5bd69e20aa0aba089392ad69474",
+      "identical": true
+    },
+    {
+      "path": "files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf",
+      "status": 200,
+      "bytes": 96616,
+      "sha256": "566051b1e65dbfdf17982f0466948e2556157887f512b5db4d7bb248272060cb",
+      "localSha256": "566051b1e65dbfdf17982f0466948e2556157887f512b5db4d7bb248272060cb",
+      "identical": true
+    },
+    {
+      "path": "assets/scene-DRanAPPT.js",
+      "status": 200,
+      "bytes": 603151,
+      "sha256": "7097d5c46dcaa0af1842d02de1ba8fb058c0511adedf3e2efbaf93755ae1d8b7",
+      "localSha256": "7097d5c46dcaa0af1842d02de1ba8fb058c0511adedf3e2efbaf93755ae1d8b7",
+      "identical": true
+    },
+    {
+      "path": "licenses/Three-MIT.txt",
+      "status": 200,
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "localSha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "identical": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 61803,
+      "sha256": "6648ded845482c465f8476e627d7edb05625eb185687547cc9e6d861e22771d9",
+      "localSha256": "6648ded845482c465f8476e627d7edb05625eb185687547cc9e6d861e22771d9",
+      "identical": true
+    },
+    {
+      "path": "licenses/Onest-OFL.txt",
+      "status": 200,
+      "bytes": 4384,
+      "sha256": "071195d8806e226faeee60259c28ca67b458227af5195a73f5cfcab06e3003bc",
+      "localSha256": "071195d8806e226faeee60259c28ca67b458227af5195a73f5cfcab06e3003bc",
+      "identical": true
+    }
+  ]
+}

@@ -14,7 +14,13 @@ The earlier `integration-local.json` and `integration-local-final.json` are pres
 
 ## Public verification
 
-Public deployment verification and the same integration matrix run after publication are recorded separately when complete. Local results are not promoted to a public-live claim.
+The public runtime is commit [`405868194adb07bec708455a8240e74f1cb45277`](https://github.com/MOYISEY/bakhtiyar-zikirin/commit/405868194adb07bec708455a8240e74f1cb45277), served at [the portfolio](https://moyisey.github.io/bakhtiyar-zikirin/). Pages reported built at **2026-10-02T16:10:23Z**. [Exact deployment evidence](deployment-runtime.json) records the commit and workflow. All **15 production files** were fetched from the public host and matched the local build by SHA-256: [byte evidence](runtime-public.json). Later evidence-only commits keep this runtime unchanged.
+
+The same17 configurations passed on the actual public site: **17/17,0 page errors**, with0 selected axe violations in normal configurations. [`integration-map-public.json`](integration-map-public.json) also records real popup navigation through the portfolio: **Framepack, Shapecheck and Helio3/3 passed**, with the correct public URLs/titles, usable visible controls and `opener===null`. Existing sample CSV download and trim/undo after theme/language changes passed. This verifies integration/navigation; it is not a repeated full audit of the other applications.
+
+The GitHub profile README is published at commit [`1c5ef7ac2cd53f37e371baaf2cb3cad4df07d2ef`](https://github.com/MOYISEY/MOYISEY/commit/1c5ef7ac2cd53f37e371baaf2cb3cad4df07d2ef). Authorized account MOYISEY and repository identity were verified through GitHub. The API's public README bytes match the committed local file exactly: **6,144 bytes**, SHA-256 `99a4b84ccca8d9984c125d8c3d7be09f876ec3d54b641a2cf41a57f19edc39d8`. [Profile evidence](profile-public.json). The Helio demo/code/QA links and explicit estimated-height wording are present. No profile-field mutation was part of this additive integration.
+
+Helio's final map runtime is `e2194f8f03fa7d48bf74d7697b30d933685d378b`; its three closed audits and directed public QA are published at [`d2c594d417c5ca428619e48d313293b274701cfd`](https://github.com/MOYISEY/helio/commit/d2c594d417c5ca428619e48d313293b274701cfd). All five linked evidence targets were verified through the public GitHub contents API before portfolio/profile publication. New paired actual WebGL map and UI captures are at immutable [`ecd774d93f51cc00eaf5c05533cf7c01e77d0977`](https://github.com/MOYISEY/helio/tree/ecd774d93f51cc00eaf5c05533cf7c01e77d0977/evidence/screenshots-map-final).
 
 ## Limits
 

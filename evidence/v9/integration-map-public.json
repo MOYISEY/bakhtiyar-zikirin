@@ -1,0 +1,286 @@
+{
+  "checkedAt": "2026-10-02T16:12:15.347Z",
+  "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "scope": "Targeted compact Helio integration alongside existing tools: language/theme pairs at1440/390, long KK at360/768 and one320 text200 probe. Directed browser commands; no full external app audit, physical phone or Safari claim.",
+  "cases": [
+    {
+      "width": 1440,
+      "language": "ru",
+      "theme": "light",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 1440,
+      "language": "ru",
+      "theme": "dark",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 1440,
+      "language": "kk",
+      "theme": "light",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 1440,
+      "language": "kk",
+      "theme": "dark",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 1440,
+      "language": "en",
+      "theme": "light",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 1440,
+      "language": "en",
+      "theme": "dark",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 390,
+      "language": "ru",
+      "theme": "light",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "csvDownloaded": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 390,
+      "language": "ru",
+      "theme": "dark",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 390,
+      "language": "kk",
+      "theme": "light",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 390,
+      "language": "kk",
+      "theme": "dark",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 390,
+      "language": "en",
+      "theme": "light",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 390,
+      "language": "en",
+      "theme": "dark",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 360,
+      "language": "kk",
+      "theme": "light",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 360,
+      "language": "kk",
+      "theme": "dark",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 768,
+      "language": "kk",
+      "theme": "light",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 768,
+      "language": "kk",
+      "theme": "dark",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 320,
+      "language": "kk",
+      "theme": "dark",
+      "text": 200,
+      "errors": [],
+      "passed": true
+    }
+  ],
+  "demos": [
+    {
+      "id": "framepack",
+      "errors": [],
+      "passed": true,
+      "url": "https://moyisey.github.io/framepack/",
+      "title": "Framepack — responsive image workspace",
+      "openerIsNull": true,
+      "visibleButtons": [
+        "",
+        "320px",
+        "640px",
+        "960px",
+        "1280px",
+        "1920px",
+        " Подготовить ассеты",
+        "Попробовать демо",
+        "Добавить",
+        "Выбрать изображения",
+        " Скачать ZIP"
+      ]
+    },
+    {
+      "id": "shapecheck",
+      "errors": [],
+      "passed": true,
+      "url": "https://moyisey.github.io/shapecheck/",
+      "title": "Shapecheck · JSON contract workbench",
+      "openerIsNull": true,
+      "visibleButtons": [
+        "",
+        "Check all",
+        "Save JSON",
+        "Import JSON",
+        "Export tests",
+        "Load demo",
+        "Limits & help",
+        "01Paid orderNot checked·",
+        "02Type driftNot checked·",
+        "Add fixture",
+        "",
+        "",
+        "",
+        "",
+        "Clear workspace",
+        ""
+      ]
+    },
+    {
+      "id": "helio",
+      "errors": [],
+      "passed": true,
+      "url": "https://moyisey.github.io/helio/",
+      "title": "Helio — атлас дневного света",
+      "openerIsNull": true,
+      "visibleButtons": [
+        "EN",
+        "Город и тени",
+        "Открытый горизонт",
+        "Применить",
+        "←",
+        "Сейчас",
+        "→",
+        "Утренние сумерки05:43+05:00",
+        "Рассвет06:16+05:00",
+        "Мягкий свет до07:00+05:00",
+        "Солнечный полдень12:04+05:00",
+        "Мягкий свет с17:06+05:00",
+        "Закат17:50+05:00",
+        "Вечерние сумерки до18:23+05:00",
+        "Скачать план ↗ JSON",
+        "В календарь ICS",
+        "Сохранить на устройстве",
+        "Использовать точку"
+      ]
+    }
+  ],
+  "passed": true
+}
