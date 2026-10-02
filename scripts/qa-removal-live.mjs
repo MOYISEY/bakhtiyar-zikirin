@@ -58,9 +58,10 @@ try {
       assert.equal(await page.locator('#layer-description').innerText(), dictionary['layer.logic']);
       await page.locator('#signal-start').click();
       assert.equal(await page.locator('#signal-status').innerText(), dictionary['signal.3']);
-      await page.locator('.footer a[href="#top"]').click();
+      await page.locator('.footer a[href="#top"]:not(.identity)').click();
       assert.equal(new URL(page.url()).hash, '#top');
       assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
+      if (width <= 760) assert.equal(await page.locator('#rowline .case-heading > p').evaluate(node => getComputedStyle(node.querySelector('br')).display), 'inline');
       assert.equal(await page.locator('.resume-link').count(), 2);
       assert.deepEqual(entry.retiredImageRequests, []);
       assert.deepEqual(entry.errors, []);

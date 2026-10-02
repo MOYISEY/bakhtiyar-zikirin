@@ -1,0 +1,86 @@
+{
+  "checkedAt": "2026-10-02T09:01:34.285Z",
+  "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "commit": "c7664ad54308e5700b83b84ba0fd4c1ce67e3fe1",
+  "scope": "Six directed public Chromium cases with language/theme pairs and 360/390/768/1165/1440 viewport emulation. Confirm absence, actual CSV bytes, retained sample/navigation/3D. Not a physical-device, Safari or screen-reader check.",
+  "cases": [
+    {
+      "width": 1165,
+      "height": 747,
+      "language": "ru",
+      "theme": "dark",
+      "errors": [],
+      "retiredImageRequests": [],
+      "passed": true,
+      "sceneState": "ready"
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "language": "en",
+      "theme": "light",
+      "errors": [],
+      "retiredImageRequests": [],
+      "passed": true,
+      "sceneState": "ready"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "kk",
+      "theme": "light",
+      "errors": [],
+      "retiredImageRequests": [],
+      "passed": true,
+      "sceneState": "ready"
+    },
+    {
+      "width": 360,
+      "height": 844,
+      "language": "kk",
+      "theme": "dark",
+      "errors": [],
+      "retiredImageRequests": [],
+      "passed": true,
+      "sceneState": "ready"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "language": "ru",
+      "theme": "light",
+      "errors": [],
+      "retiredImageRequests": [],
+      "passed": true,
+      "sceneState": "ready"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "language": "en",
+      "theme": "dark",
+      "errors": [],
+      "retiredImageRequests": [],
+      "passed": true,
+      "sceneState": "ready"
+    }
+  ],
+  "removedAssets": [
+    {
+      "file": "krasnaya-nit-board.png",
+      "status": 404,
+      "absent": true
+    },
+    {
+      "file": "rowline-desktop.png",
+      "status": 404,
+      "absent": true
+    },
+    {
+      "file": "rowline-mobile.png",
+      "status": 404,
+      "absent": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-10-02T09:06:58.550Z",
+  "url": "http://127.0.0.1:5191/",
+  "scope": "Six translated mobile captions after restoring native BR line break; no large matrix rerun",
+  "cases": [
+    {
+      "language": "ru",
+      "theme": "light",
+      "caption": "Подготовка CSV\nк импорту.",
+      "display": "inline",
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "language": "ru",
+      "theme": "dark",
+      "caption": "Подготовка CSV\nк импорту.",
+      "display": "inline",
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "language": "kk",
+      "theme": "light",
+      "caption": "CSV файлын\nимпортқа дайындау.",
+      "display": "inline",
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "language": "kk",
+      "theme": "dark",
+      "caption": "CSV файлын\nимпортқа дайындау.",
+      "display": "inline",
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "language": "en",
+      "theme": "light",
+      "caption": "Preparing CSV\nfor import.",
+      "display": "inline",
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "language": "en",
+      "theme": "dark",
+      "caption": "Preparing CSV\nfor import.",
+      "display": "inline",
+      "overflow": false,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

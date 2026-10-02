@@ -1,0 +1,92 @@
+{
+  "checkedAt": "2026-10-02T08:59:14.660Z",
+  "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "commit": "c7664ad54308e5700b83b84ba0fd4c1ce67e3fe1",
+  "scope": "Six directed public Chromium cases with language/theme pairs and 360/390/768/1165/1440 viewport emulation. Confirm absence, actual CSV bytes, retained sample/navigation/3D. Not a physical-device, Safari or screen-reader check.",
+  "cases": [
+    {
+      "width": 1165,
+      "height": 747,
+      "language": "ru",
+      "theme": "dark",
+      "errors": [],
+      "retiredImageRequests": [],
+      "passed": false,
+      "sceneState": "ready",
+      "failure": "locator.click: Error: strict mode violation: locator('.footer a[href=\"#top\"]') resolved to 2 elements:\n    1) <a href=\"#top\" class=\"identity\" aria-label=\"Вернуться в начало\" data-i18n-attrs=\"[{\"attr\":\"aria-label\",\"key\":\"s205\"}]\">…</a> aka getByRole('link', { name: 'Вернуться в начало' })\n    2) <a href=\"#top\" class=\"back-top\" data-i18n-nodes=\"[{\"index\":0,\"key\":\"s194\"}]\">…</a> aka getByRole('link', { name: 'Наверх' })\n\nCall log:\n\u001b[2m  - waiting for locator('.footer a[href=\"#top\"]')\u001b[22m\n"
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "language": "en",
+      "theme": "light",
+      "errors": [],
+      "retiredImageRequests": [],
+      "passed": false,
+      "sceneState": "ready",
+      "failure": "locator.click: Error: strict mode violation: locator('.footer a[href=\"#top\"]') resolved to 2 elements:\n    1) <a href=\"#top\" class=\"identity\" aria-label=\"Back to the beginning\" data-i18n-attrs=\"[{\"attr\":\"aria-label\",\"key\":\"s205\"}]\">…</a> aka getByRole('link', { name: 'Back to the beginning' })\n    2) <a href=\"#top\" class=\"back-top\" data-i18n-nodes=\"[{\"index\":0,\"key\":\"s194\"}]\">…</a> aka getByRole('link', { name: 'Back to top', exact: true })\n\nCall log:\n\u001b[2m  - waiting for locator('.footer a[href=\"#top\"]')\u001b[22m\n"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "kk",
+      "theme": "light",
+      "errors": [],
+      "retiredImageRequests": [],
+      "passed": false,
+      "sceneState": "ready",
+      "failure": "locator.click: Error: strict mode violation: locator('.footer a[href=\"#top\"]') resolved to 2 elements:\n    1) <a href=\"#top\" class=\"identity\" aria-label=\"Беттің басына оралу\" data-i18n-attrs=\"[{\"attr\":\"aria-label\",\"key\":\"s205\"}]\">…</a> aka getByRole('link', { name: 'Беттің басына оралу', exact: true })\n    2) <a href=\"#top\" class=\"back-top\" data-i18n-nodes=\"[{\"index\":0,\"key\":\"s194\"}]\">…</a> aka getByRole('link', { name: 'Жоғарыға' })\n\nCall log:\n\u001b[2m  - waiting for locator('.footer a[href=\"#top\"]')\u001b[22m\n"
+    },
+    {
+      "width": 360,
+      "height": 844,
+      "language": "kk",
+      "theme": "dark",
+      "errors": [],
+      "retiredImageRequests": [],
+      "passed": false,
+      "sceneState": "ready",
+      "failure": "locator.click: Error: strict mode violation: locator('.footer a[href=\"#top\"]') resolved to 2 elements:\n    1) <a href=\"#top\" class=\"identity\" aria-label=\"Беттің басына оралу\" data-i18n-attrs=\"[{\"attr\":\"aria-label\",\"key\":\"s205\"}]\">…</a> aka getByRole('link', { name: 'Беттің басына оралу', exact: true })\n    2) <a href=\"#top\" class=\"back-top\" data-i18n-nodes=\"[{\"index\":0,\"key\":\"s194\"}]\">…</a> aka getByRole('link', { name: 'Жоғарыға' })\n\nCall log:\n\u001b[2m  - waiting for locator('.footer a[href=\"#top\"]')\u001b[22m\n"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "language": "ru",
+      "theme": "light",
+      "errors": [],
+      "retiredImageRequests": [],
+      "passed": false,
+      "sceneState": "ready",
+      "failure": "locator.click: Error: strict mode violation: locator('.footer a[href=\"#top\"]') resolved to 2 elements:\n    1) <a href=\"#top\" class=\"identity\" aria-label=\"Вернуться в начало\" data-i18n-attrs=\"[{\"attr\":\"aria-label\",\"key\":\"s205\"}]\">…</a> aka getByRole('link', { name: 'Вернуться в начало' })\n    2) <a href=\"#top\" class=\"back-top\" data-i18n-nodes=\"[{\"index\":0,\"key\":\"s194\"}]\">…</a> aka getByRole('link', { name: 'Наверх' })\n\nCall log:\n\u001b[2m  - waiting for locator('.footer a[href=\"#top\"]')\u001b[22m\n"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "language": "en",
+      "theme": "dark",
+      "errors": [],
+      "retiredImageRequests": [],
+      "passed": false,
+      "sceneState": "ready",
+      "failure": "locator.click: Error: strict mode violation: locator('.footer a[href=\"#top\"]') resolved to 2 elements:\n    1) <a href=\"#top\" class=\"identity\" aria-label=\"Back to the beginning\" data-i18n-attrs=\"[{\"attr\":\"aria-label\",\"key\":\"s205\"}]\">…</a> aka getByRole('link', { name: 'Back to the beginning' })\n    2) <a href=\"#top\" class=\"back-top\" data-i18n-nodes=\"[{\"index\":0,\"key\":\"s194\"}]\">…</a> aka getByRole('link', { name: 'Back to top', exact: true })\n\nCall log:\n\u001b[2m  - waiting for locator('.footer a[href=\"#top\"]')\u001b[22m\n"
+    }
+  ],
+  "removedAssets": [
+    {
+      "file": "krasnaya-nit-board.png",
+      "status": 404,
+      "absent": true
+    },
+    {
+      "file": "rowline-desktop.png",
+      "status": 404,
+      "absent": true
+    },
+    {
+      "file": "rowline-mobile.png",
+      "status": 404,
+      "absent": true
+    }
+  ],
+  "passed": false
+}

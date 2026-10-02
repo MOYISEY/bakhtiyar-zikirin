@@ -146,6 +146,7 @@ html[data-theme=dark] .sample { --sample-error: #ff9d81; }
   .case-heading { grid-template-columns: 1.4rem minmax(0, 1fr); gap: .8rem; margin-bottom: 1.7rem; }
   .case-heading h3 { font-size: 2.6rem; }
   .case-heading > p { grid-column: 2; font-size: .95rem; margin-top: .2rem; }
+  .case-heading > p br { display: initial; }
   .case-heading > div > .eyebrow { font-size: .7rem; }
   .case-label { font-size: .7rem; padding: .4rem .5rem; }
   .case { margin-bottom: 3.8rem; }
