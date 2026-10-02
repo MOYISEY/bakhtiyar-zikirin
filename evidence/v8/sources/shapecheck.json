@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-02T10:10:16.239Z",
+  "repo": "https://github.com/MOYISEY/shapecheck",
+  "providedRelease": {
+    "source": "98f1b2272333d0ead79fd11a93e63026fb71fa8a",
+    "pages": "0fff91bb3196e307f41e544ddb012ccd07301b7e"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/MOYISEY/shapecheck/main/README.md",
+      "sha256": "481999c5ab88f6061d44e2086a8a390267ad914c816f7f854f420a9e61adf273",
+      "bytes": 6599
+    },
+    {
+      "path": "docs/LIVE-QA.md",
+      "url": "https://raw.githubusercontent.com/MOYISEY/shapecheck/main/docs/LIVE-QA.md",
+      "sha256": "a4c181d9a0d29326a1e787e0228588253fe5f2ea14a849e4c1501903554072d1",
+      "bytes": 3102
+    }
+  ],
+  "attribution": "The project-authors QA results are linked as source evidence; they were not independently rerun by the portfolio integrator."
+}

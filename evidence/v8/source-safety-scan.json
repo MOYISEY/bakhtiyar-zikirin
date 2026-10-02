@@ -1,0 +1,6 @@
+{
+  "checkedAt": "2026-10-02T10:25:18.728Z",
+  "filesChecked": 287,
+  "findings": [],
+  "limitation": "A limited pattern scan of deliverable text files; not a comprehensive secret detector or a scan of Git history."
+}

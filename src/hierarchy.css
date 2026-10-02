@@ -73,6 +73,17 @@ html[data-theme=dark] .sample { --sample-error: #ff9d81; }
 .case-decisions .mono { font-size: .72rem; color: var(--teal); }
 .case-decisions p { font-size: .85rem; line-height: 1.65; margin-top: .7rem; color: var(--muted); }
 .case-details { margin-left: 6rem; }
+.case-tool { margin-bottom: 3.6rem; }
+.case-tool .case-heading h3 { overflow-wrap: anywhere; }
+.case-tool-body { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 0 5%; margin-left: 6rem; }
+.case-tool-body .case-copy > .case-lead { font-size: 1.35rem; margin-bottom: .9rem; }
+.case-tool-body .case-copy > p { font-size: .95rem; }
+.case-tool-body .case-facts { margin: 0; }
+.case-tool-body .case-facts dd { min-width: 0; overflow-wrap: anywhere; }
+.tool-links { display: flex; flex-wrap: wrap; align-items: center; gap: .85rem 1.2rem; margin-top: 1.2rem; }
+.tool-links .primary-link { font-size: .8rem; padding: .8rem 1rem; }
+.case-tool-body .case-copy > .tool-note { font-size: .75rem; line-height: 1.6; margin: 1rem 0 0; }
+.case-tool-body .stack-line { grid-column: 1 / -1; margin-top: 1.2rem; }
 .other-work-heading { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 2rem; margin: 1rem 0 2.5rem 6rem; padding-top: 1rem; }
 .other-work-heading h3 { font-size: 1.7rem; font-weight: 500; letter-spacing: -.03em; }
 .other-work-heading p { font-size: .875rem; color: var(--muted); line-height: 1.6; }
@@ -97,7 +108,7 @@ html[data-theme=dark] .sample { --sample-error: #ff9d81; }
   .sample { padding: 1.2rem; }
   .sample-table th, .sample-table td { padding-left: .4rem; padding-right: .4rem; }
   .section-heading, .case-heading { grid-template-columns: 2.2rem minmax(0, 1.6fr) minmax(0, 1fr); gap: 1.3rem; }
-  .case-body, .art-body, .rowline-body, .case-decisions, .case-details, .other-work-heading, .timeline, .education-note, .approach-body { margin-left: 3.5rem; }
+  .case-body, .art-body, .rowline-body, .case-tool-body, .case-decisions, .case-details, .other-work-heading, .timeline, .education-note, .approach-body { margin-left: 3.5rem; }
   .case-facts > div { grid-template-columns: 5rem minmax(0, 1fr); gap: .8rem; }
 }
 @media (max-width: 900px) {
@@ -150,7 +161,12 @@ html[data-theme=dark] .sample { --sample-error: #ff9d81; }
   .case-heading > div > .eyebrow { font-size: .7rem; }
   .case-label { font-size: .7rem; padding: .4rem .5rem; }
   .case { margin-bottom: 3.8rem; }
-  .case-body, .art-body, .rowline-body, .case-decisions, .case-details, .other-work-heading, .timeline, .education-note, .approach-body { margin-left: 0; }
+  .case-body, .art-body, .rowline-body, .case-tool-body, .case-decisions, .case-details, .other-work-heading, .timeline, .education-note, .approach-body { margin-left: 0; }
+  .case-tool-body { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
+  .case-tool-body .case-copy > .case-lead { font-size: 1.2rem; }
+  .case-tool-body .case-copy > p { font-size: .9rem; }
+  .case-tool-body .case-facts > div { grid-template-columns: minmax(0, 1fr); gap: .35rem; }
+  .case-tool-body .stack-line { margin-top: 0; }
   .rowline-body > .case-copy { display: block; }
   .rowline-body .case-copy > .case-lead { font-size: 1.2rem; }
   .rowline-body .case-copy > p:not(.case-lead) { font-size: .9rem; }

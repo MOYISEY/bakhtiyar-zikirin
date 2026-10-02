@@ -26,7 +26,7 @@ try {
       const dictionary = JSON.parse(readFileSync(`src/locales/${language}.json`, 'utf8'));
       assert.equal(await page.locator('html').getAttribute('lang'), language);
       assert.equal(await page.locator('#system').evaluate(el => el.closest('section').id), 'approach');
-      assert.deepEqual(await page.locator('#work > article').evaluateAll(elements => elements.map(el => el.id)), ['rowline', 'atyrau', 'neuralbrief', 'artportal']);
+      assert.deepEqual(await page.locator('#work > article').evaluateAll(elements => elements.map(el => el.id)), ['rowline', 'framepack', 'shapecheck', 'atyrau', 'neuralbrief', 'artportal']);
       assert.equal(await page.locator('#hobby, .case-hobby, #rowline img, #rowline picture, .image-help, a[href*="krasnaya-nit"], a[href*="rowline-desktop.png"]').count(), 0);
       const overflow = await page.evaluate(() => [...document.querySelectorAll('main *, .header *')].filter(el => {
         if (el.closest('.scene-viewport') || el.closest('.sr-only') || getComputedStyle(el).display === 'none') return false;

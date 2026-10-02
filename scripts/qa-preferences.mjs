@@ -25,7 +25,7 @@ try {
    const d=JSON.parse(readFileSync(`src/locales/${language}.json`,'utf8'));
    assert.equal(await page.locator('#hobby, .case-hobby, .rowline-visual, .rowline-scroll, .image-help').count(),0);
    assert.equal(await page.locator('#rowline img, #rowline picture, a[href*="krasnaya-nit"], a[href*="rowline-desktop.png"]').count(),0);
-   assert.equal(await page.locator('#work > article').count(),4);entry.actions.push('Personal case and large Rowline image/full-image link absent; four retained projects');
+   assert.equal(await page.locator('#work > article').count(),6);entry.actions.push('Personal case and large Rowline image/full-image link absent; six selected projects');
    assert.equal(await page.title(),d.s207); // title key from the annotated document
    const mismatch=await page.evaluate(dictionary=>{
     const bad=[];document.querySelectorAll('[data-i18n-attrs]').forEach(e=>JSON.parse(e.dataset.i18nAttrs).forEach(({attr,key})=>{if(e.id!=='motion-toggle'&&e.getAttribute(attr)!==dictionary[key])bad.push({key,attr,actual:e.getAttribute(attr)});}));

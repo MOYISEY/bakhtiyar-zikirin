@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-02T10:09:28.147Z",
+  "repo": "https://github.com/MOYISEY/framepack",
+  "providedRelease": {
+    "source": "cab113950c7375838da750a2e186b9a751f7f75d",
+    "pages": "4a44beb09dcff963f1dba2fe3351083d0befaefa"
+  },
+  "files": [
+    {
+      "path": "CASE.md",
+      "url": "https://raw.githubusercontent.com/MOYISEY/framepack/main/CASE.md",
+      "sha256": "2ea802db08696254292ea3fe9ca0e5e86777143a5abb1b4ba5d3c6918daf334c",
+      "bytes": 3911
+    },
+    {
+      "path": "qa/QA.md",
+      "url": "https://raw.githubusercontent.com/MOYISEY/framepack/main/qa/QA.md",
+      "sha256": "be105b70c83b37ddd6eafafea6034daae0dae8ac0b7ec6ed81b4fdd83dad0109",
+      "bytes": 5040
+    }
+  ],
+  "attribution": "The project-authors QA results are linked as source evidence; they were not independently rerun by the portfolio integrator."
+}
