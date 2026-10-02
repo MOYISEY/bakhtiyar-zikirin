@@ -1,0 +1,274 @@
+{
+  "checkedAt": "2026-10-02T07:41:18.781Z",
+  "indexSha256": "07d58ecb75ab306936ca9d048f7f5cee3d9dda2c200c5c2b0c01da3d2e23a07f",
+  "scenarios": [
+    {
+      "name": "1165-ru-light-fixed",
+      "width": 1165,
+      "scrollWidth": 1165,
+      "height": 747,
+      "overflow": [],
+      "sceneLoaded": false,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-prohibited-attr",
+            "nodes": [
+              [
+                ".sample"
+              ]
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "nodes": [
+              [
+                ".text-link > span[aria-hidden=\"true\"]"
+              ],
+              [
+                "#sample-fix > span[aria-hidden=\"true\"]"
+              ],
+              [
+                "#sample-export > span[aria-hidden=\"true\"]"
+              ],
+              [
+                "text[y=\"407\"]"
+              ],
+              [
+                "text[x=\"443\"]"
+              ],
+              [
+                "text[y=\"285\"]"
+              ],
+              [
+                "text[y=\"161\"]"
+              ],
+              [
+                ".scene-axis > span:nth-child(1)"
+              ],
+              [
+                ".scene-axis > span:nth-child(3)"
+              ],
+              [
+                "#signal-start > span[aria-hidden=\"true\"]"
+              ],
+              [
+                ".resume-link.primary-link > span[aria-hidden=\"true\"]"
+              ],
+              [
+                ".back-top > span[aria-hidden=\"true\"]"
+              ]
+            ]
+          }
+        ],
+        "passes": 50
+      }
+    },
+    {
+      "name": "1165-ru-dark-fixed",
+      "width": 1165,
+      "scrollWidth": 1165,
+      "height": 747,
+      "overflow": [],
+      "sceneLoaded": false,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-prohibited-attr",
+            "nodes": [
+              [
+                ".sample"
+              ]
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "nodes": [
+              [
+                ".text-link > span[aria-hidden=\"true\"]"
+              ],
+              [
+                "#sample-fix > span[aria-hidden=\"true\"]"
+              ],
+              [
+                "#sample-export > span[aria-hidden=\"true\"]"
+              ],
+              [
+                "text[y=\"407\"]"
+              ],
+              [
+                "text[x=\"443\"]"
+              ],
+              [
+                "text[y=\"285\"]"
+              ],
+              [
+                "text[y=\"161\"]"
+              ],
+              [
+                ".scene-axis > span:nth-child(1)"
+              ],
+              [
+                ".scene-axis > span:nth-child(3)"
+              ],
+              [
+                "#signal-start > span[aria-hidden=\"true\"]"
+              ],
+              [
+                ".resume-link.primary-link > span[aria-hidden=\"true\"]"
+              ],
+              [
+                ".back-top > span[aria-hidden=\"true\"]"
+              ]
+            ]
+          }
+        ],
+        "passes": 50
+      }
+    },
+    {
+      "name": "360-kk-light-fixed",
+      "width": 360,
+      "scrollWidth": 360,
+      "height": 800,
+      "overflow": [],
+      "sceneLoaded": false
+    },
+    {
+      "name": "360-kk-dark-fixed",
+      "width": 360,
+      "scrollWidth": 360,
+      "height": 800,
+      "overflow": [],
+      "sceneLoaded": false,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-prohibited-attr",
+            "nodes": [
+              [
+                ".sample"
+              ]
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "nodes": [
+              [
+                ".text-link > span[aria-hidden=\"true\"]"
+              ],
+              [
+                "#sample-fix > span[aria-hidden=\"true\"]"
+              ],
+              [
+                "#sample-export > span[aria-hidden=\"true\"]"
+              ],
+              [
+                "text[y=\"407\"]"
+              ],
+              [
+                "text[x=\"443\"]"
+              ],
+              [
+                "text[y=\"285\"]"
+              ],
+              [
+                "text[y=\"161\"]"
+              ],
+              [
+                ".scene-axis > span:nth-child(1)"
+              ],
+              [
+                ".scene-axis > span:nth-child(3)"
+              ],
+              [
+                "#signal-start > span[aria-hidden=\"true\"]"
+              ],
+              [
+                ".resume-link.primary-link > span[aria-hidden=\"true\"]"
+              ],
+              [
+                ".back-top > span[aria-hidden=\"true\"]"
+              ]
+            ]
+          }
+        ],
+        "passes": 51
+      }
+    },
+    {
+      "name": "390-kk-light-fixed",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "overflow": [],
+      "sceneLoaded": false
+    },
+    {
+      "name": "390-kk-dark-fixed",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "overflow": [],
+      "sceneLoaded": false
+    },
+    {
+      "name": "768-kk-light-fixed",
+      "width": 768,
+      "scrollWidth": 768,
+      "height": 1024,
+      "overflow": [],
+      "sceneLoaded": false
+    },
+    {
+      "name": "768-kk-dark-fixed",
+      "width": 768,
+      "scrollWidth": 768,
+      "height": 1024,
+      "overflow": [],
+      "sceneLoaded": false
+    }
+  ],
+  "errors": [],
+  "http": [],
+  "version": "153.0.8010.12",
+  "region": {
+    "tag": "DIV",
+    "role": "region",
+    "name": "Снимок Rowline. На узком экране прокручивается по вертикали.",
+    "before": 0,
+    "afterKeyboard": 398,
+    "pageBefore": 2316,
+    "afterTouch": 232,
+    "pageAfter": 2316,
+    "atBottomPage": 2316,
+    "bottomSwipePage": 2316,
+    "focusAfterTab": {
+      "tag": "A",
+      "text": "Открыть полный снимок↗— новая вкладка"
+    }
+  },
+  "text200": {
+    "width": 360,
+    "scrollWidth": 361,
+    "height": 800,
+    "overflow": [],
+    "sceneLoaded": false,
+    "sample": {
+      "code": {
+        "left": 66.984375,
+        "right": 171.671875,
+        "width": 104.6875
+      },
+      "cell": {
+        "left": 54.1875,
+        "right": 134.703125,
+        "width": 80.515625
+      },
+      "overlapsStock": true
+    }
+  }
+}

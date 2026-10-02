@@ -1,0 +1,353 @@
+{
+  "baselineCommit": "26fdb668389d7ba8deeaf538ca64c2a96a2fb4fb",
+  "checkedAt": "2026-10-02T08:00:37.964Z",
+  "scope": "Cold synthetic Chromium laboratory startup comparison, same local gzip server, 390x844 RU/light, 150ms latency, 1.6Mbps down, CPU4x. Three alternating runs per build; not Lighthouse or field Core Web Vitals. No scrolling or interaction before measurement.",
+  "runs": [
+    {
+      "version": "baseline",
+      "round": 0,
+      "lcpMs": 1020,
+      "cls": 0.08830565777731511,
+      "longTaskCount": 3,
+      "longTaskMs": 1085,
+      "resourceBytes": 274761,
+      "sceneRequested": true,
+      "sceneState": "ready",
+      "resources": [
+        {
+          "name": "/baseline/assets/index-BSMNP4_4.js",
+          "bytes": 19335,
+          "decodedBytes": 58347,
+          "duration": 306.59999999962747
+        },
+        {
+          "name": "/baseline/assets/index-Cgoci1TS.css",
+          "bytes": 8723,
+          "decodedBytes": 36093,
+          "duration": 250.6000000005588
+        },
+        {
+          "name": "/baseline/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+          "bytes": 16160,
+          "decodedBytes": 15860,
+          "duration": 377.79999999981374
+        },
+        {
+          "name": "/baseline/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+          "bytes": 34060,
+          "decodedBytes": 33760,
+          "duration": 518.0999999996275
+        },
+        {
+          "name": "/baseline/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+          "bytes": 18468,
+          "decodedBytes": 18168,
+          "duration": 413.29999999981374
+        },
+        {
+          "name": "/baseline/favicon.svg",
+          "bytes": 574,
+          "decodedBytes": 387,
+          "duration": 167.29999999981374
+        },
+        {
+          "name": "/baseline/assets/scene-BJfIN--z.js",
+          "bytes": 151661,
+          "decodedBytes": 603074,
+          "duration": 928.9000000003725
+        },
+        {
+          "name": "/baseline/assets/onest-math-wght-normal-Bl4ZGkZl.woff2",
+          "bytes": 25780,
+          "decodedBytes": 25480,
+          "duration": 292.3999999994412
+        }
+      ]
+    },
+    {
+      "version": "candidate",
+      "round": 0,
+      "lcpMs": 1020,
+      "cls": 0.095447091820937,
+      "longTaskCount": 1,
+      "longTaskMs": 176,
+      "resourceBytes": 102907,
+      "sceneRequested": false,
+      "sceneState": "not-requested",
+      "resources": [
+        {
+          "name": "/candidate/assets/index-DNTgf5wF.js",
+          "bytes": 23068,
+          "decodedBytes": 73259,
+          "duration": 324.70000000018626
+        },
+        {
+          "name": "/candidate/assets/index-BZvi39jK.css",
+          "bytes": 10577,
+          "decodedBytes": 47495,
+          "duration": 261
+        },
+        {
+          "name": "/candidate/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+          "bytes": 16160,
+          "decodedBytes": 15860,
+          "duration": 374.29999999981374
+        },
+        {
+          "name": "/candidate/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+          "bytes": 34060,
+          "decodedBytes": 33760,
+          "duration": 514.7000000001863
+        },
+        {
+          "name": "/candidate/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+          "bytes": 18468,
+          "decodedBytes": 18168,
+          "duration": 426.69999999925494
+        },
+        {
+          "name": "/candidate/favicon.svg",
+          "bytes": 574,
+          "decodedBytes": 387,
+          "duration": 181.80000000074506
+        }
+      ]
+    },
+    {
+      "version": "baseline",
+      "round": 1,
+      "lcpMs": 940,
+      "cls": 0.08830565777731511,
+      "longTaskCount": 3,
+      "longTaskMs": 567,
+      "resourceBytes": 274761,
+      "sceneRequested": true,
+      "sceneState": "ready",
+      "resources": [
+        {
+          "name": "/baseline/assets/index-BSMNP4_4.js",
+          "bytes": 19335,
+          "decodedBytes": 58347,
+          "duration": 305.3999999994412
+        },
+        {
+          "name": "/baseline/assets/index-Cgoci1TS.css",
+          "bytes": 8723,
+          "decodedBytes": 36093,
+          "duration": 251.79999999981374
+        },
+        {
+          "name": "/baseline/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+          "bytes": 16160,
+          "decodedBytes": 15860,
+          "duration": 374.09999999962747
+        },
+        {
+          "name": "/baseline/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+          "bytes": 34060,
+          "decodedBytes": 33760,
+          "duration": 514.6999999992549
+        },
+        {
+          "name": "/baseline/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+          "bytes": 18468,
+          "decodedBytes": 18168,
+          "duration": 429.5
+        },
+        {
+          "name": "/baseline/favicon.svg",
+          "bytes": 574,
+          "decodedBytes": 387,
+          "duration": 167.69999999925494
+        },
+        {
+          "name": "/baseline/assets/scene-BJfIN--z.js",
+          "bytes": 151661,
+          "decodedBytes": 603074,
+          "duration": 939.5
+        },
+        {
+          "name": "/baseline/assets/onest-math-wght-normal-Bl4ZGkZl.woff2",
+          "bytes": 25780,
+          "decodedBytes": 25480,
+          "duration": 302.80000000074506
+        }
+      ]
+    },
+    {
+      "version": "candidate",
+      "round": 1,
+      "lcpMs": 988,
+      "cls": 0.095447091820937,
+      "longTaskCount": 1,
+      "longTaskMs": 197,
+      "resourceBytes": 102907,
+      "sceneRequested": false,
+      "sceneState": "not-requested",
+      "resources": [
+        {
+          "name": "/candidate/assets/index-DNTgf5wF.js",
+          "bytes": 23068,
+          "decodedBytes": 73259,
+          "duration": 324
+        },
+        {
+          "name": "/candidate/assets/index-BZvi39jK.css",
+          "bytes": 10577,
+          "decodedBytes": 47495,
+          "duration": 262
+        },
+        {
+          "name": "/candidate/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+          "bytes": 16160,
+          "decodedBytes": 15860,
+          "duration": 388.1000000005588
+        },
+        {
+          "name": "/candidate/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+          "bytes": 34060,
+          "decodedBytes": 33760,
+          "duration": 510.69999999925494
+        },
+        {
+          "name": "/candidate/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+          "bytes": 18468,
+          "decodedBytes": 18168,
+          "duration": 409.20000000018626
+        },
+        {
+          "name": "/candidate/favicon.svg",
+          "bytes": 574,
+          "decodedBytes": 387,
+          "duration": 168.3999999994412
+        }
+      ]
+    },
+    {
+      "version": "baseline",
+      "round": 2,
+      "lcpMs": 920,
+      "cls": 0.08830565777731511,
+      "longTaskCount": 3,
+      "longTaskMs": 564,
+      "resourceBytes": 274761,
+      "sceneRequested": true,
+      "sceneState": "ready",
+      "resources": [
+        {
+          "name": "/baseline/assets/index-BSMNP4_4.js",
+          "bytes": 19335,
+          "decodedBytes": 58347,
+          "duration": 300.40000000037253
+        },
+        {
+          "name": "/baseline/assets/index-Cgoci1TS.css",
+          "bytes": 8723,
+          "decodedBytes": 36093,
+          "duration": 251.70000000018626
+        },
+        {
+          "name": "/baseline/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+          "bytes": 16160,
+          "decodedBytes": 15860,
+          "duration": 394.59999999962747
+        },
+        {
+          "name": "/baseline/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+          "bytes": 34060,
+          "decodedBytes": 33760,
+          "duration": 504.5
+        },
+        {
+          "name": "/baseline/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+          "bytes": 18468,
+          "decodedBytes": 18168,
+          "duration": 417.90000000037253
+        },
+        {
+          "name": "/baseline/favicon.svg",
+          "bytes": 574,
+          "decodedBytes": 387,
+          "duration": 179.20000000018626
+        },
+        {
+          "name": "/baseline/assets/scene-BJfIN--z.js",
+          "bytes": 151661,
+          "decodedBytes": 603074,
+          "duration": 950.4000000003725
+        },
+        {
+          "name": "/baseline/assets/onest-math-wght-normal-Bl4ZGkZl.woff2",
+          "bytes": 25780,
+          "decodedBytes": 25480,
+          "duration": 291.90000000037253
+        }
+      ]
+    },
+    {
+      "version": "candidate",
+      "round": 2,
+      "lcpMs": 1156,
+      "cls": 0.095447091820937,
+      "longTaskCount": 2,
+      "longTaskMs": 326,
+      "resourceBytes": 102907,
+      "sceneRequested": false,
+      "sceneState": "not-requested",
+      "resources": [
+        {
+          "name": "/candidate/assets/index-DNTgf5wF.js",
+          "bytes": 23068,
+          "decodedBytes": 73259,
+          "duration": 328.70000000018626
+        },
+        {
+          "name": "/candidate/assets/index-BZvi39jK.css",
+          "bytes": 10577,
+          "decodedBytes": 47495,
+          "duration": 265
+        },
+        {
+          "name": "/candidate/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+          "bytes": 16160,
+          "decodedBytes": 15860,
+          "duration": 395.29999999981374
+        },
+        {
+          "name": "/candidate/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+          "bytes": 34060,
+          "decodedBytes": 33760,
+          "duration": 520
+        },
+        {
+          "name": "/candidate/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+          "bytes": 18468,
+          "decodedBytes": 18168,
+          "duration": 414
+        },
+        {
+          "name": "/candidate/favicon.svg",
+          "bytes": 574,
+          "decodedBytes": 387,
+          "duration": 173.09999999962747
+        }
+      ]
+    }
+  ],
+  "browserVersion": "153.0.8010.12",
+  "medians": {
+    "baseline": {
+      "lcpMs": 940,
+      "cls": 0.08830565777731511,
+      "longTaskMs": 567,
+      "resourceBytes": 274761
+    },
+    "candidate": {
+      "lcpMs": 1020,
+      "cls": 0.095447091820937,
+      "longTaskMs": 197,
+      "resourceBytes": 102907
+    }
+  },
+  "passed": true
+}

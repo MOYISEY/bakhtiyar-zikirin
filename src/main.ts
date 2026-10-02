@@ -1,8 +1,11 @@
 import './style.css';
+import './hierarchy.css';
 import { showSceneFallback } from './fallback';
 import { initPreferences, t } from './preferences';
+import { initRowlineSample } from './rowline-sample';
 
 initPreferences();
+initRowlineSample();
 
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
 const system = document.querySelector<HTMLElement>('#system')!;
@@ -107,6 +110,17 @@ window.addEventListener('portfolio:preferences', () => {
 });
 document.querySelectorAll<HTMLButtonElement>('[data-js-only]').forEach(button => { button.disabled = false; });
 
-const loadScene = () => import('./scene').then(({ initScene }) => initScene()).catch(showSceneFallback);
-if (typeof requestIdleCallback === 'function') requestIdleCallback(loadScene, { timeout: 800 });
-else setTimeout(loadScene, 80);
+// The diagram belongs to Approach. Fetch its renderer only as the section approaches.
+let sceneRequested = false;
+const sceneLoader = new IntersectionObserver(entries => {
+  if (entries.some(entry => entry.isIntersecting)) loadScene();
+}, { rootMargin: '600px' });
+function loadScene() {
+  if (sceneRequested) return;
+  sceneRequested = true;
+  sceneLoader.disconnect();
+  import('./scene').then(({ initScene }) => initScene()).catch(showSceneFallback);
+}
+sceneLoader.observe(system);
+system.addEventListener('pointerdown', loadScene, { once: true });
+system.addEventListener('focusin', loadScene, { once: true });

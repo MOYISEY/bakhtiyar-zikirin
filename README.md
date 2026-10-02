@@ -2,7 +2,7 @@
 
 [Публичный сайт](https://moyisey.github.io/bakhtiyar-zikirin/) · [GitHub](https://github.com/MOYISEY/bakhtiyar-zikirin)
 
-System Atelier: авторская композиция, крупная типографика и интерактивная модель приложения. RU / KK / EN и светлая / тёмная / системная тема переключаются нативными контролами. Три слоя — интерфейс, логика и данные — собираются, разделяются и показывают путь запроса. Четыре кейса имеют собственную композицию: рабочий инструмент Rowline, процесс NeuralBrief, текстовый разбор кампус-тура и схема Django-моделей Art Portal.
+System Atelier: имя и frontend-роль, работающие проекты и интерактивный пример с CSV. RU / KK / EN и светлая / тёмная / системная тема переключаются нативными контролами. Архитектурная 3D-схема находится в «Подходе» и загружается при приближении к нему: интерфейс, логика и данные собираются, разделяются и показывают путь запроса. В выбранных проектах — Rowline, личная «Красная нить» и кампус-тур; ниже отдельно помечены процесс NeuralBrief и Django-модели Art Portal без публичных демо.
 
 Статический сайт на Vite, TypeScript и Three.js. Шрифт Onest хранится локально. Бесплатный GitHub Pages публикует `main` → `/docs`; сервер, аналитика и форма отправки не используются.
 
@@ -70,3 +70,15 @@ Helper поддерживает уже установленный cache `qa-priv
 Viewport/touch-эмуляция не заменяет физический телефон. Playwright WebKit — отдельный движок, не настоящий Safari. Реальные Safari и мобильные устройства на этом Windows-компьютере недоступны. Axe не заменяет проверку screen reader.
 
 Прежние отчёты в корне `evidence/` и `npm run qa:v1` относятся к версии 1. Лицензии Three.js и Onest находятся в `public/licenses/`.
+
+## Критический пересмотр версии 6
+
+[Исходный аудит и сравнение](evidence/v6/baseline-and-comparison.md), [независимый code-проход](evidence/v6/audit-1-code.md), [независимый design-проход](evidence/v6/audit-2-design.md) и [точный объём регрессии](evidence/v6/QA.md) описывают новые проверки. На первом экране — имя, профессия, проекты, прежний PDF и разрешённая почта. Мини-пример использует три фиксированные искусственные строки: trim/undo сохраняют ведущие нули, настоящий CSV-экспорт исключает строку без SKU. Это не полный движок Rowline и не загрузка пользовательского файла. Работающая «Красная нить» поднята в выбранные проекты с настоящим снимком доски. Фотография Atyrau не возвращена; PDF, даты опыта и соцсети сохранены.
+
+```sh
+node scripts/qa-preferences.mjs http://127.0.0.1:5191/ evidence/v6/matrix-local.json qa-private/v6-matrix
+node scripts/qa-sample-reflow.mjs http://127.0.0.1:5191/ evidence/v6/sample-reflow-local.json qa-private/v6-reflow
+node scripts/qa-text-resize.mjs http://127.0.0.1:5191/ evidence/v6/text-resize-local.json qa-private/v6-text
+node scripts/qa-sample-engines.mjs
+node scripts/qa-startup-performance.mjs
+```

@@ -1,0 +1,44 @@
+{
+  "url": "http://127.0.0.1:5191/",
+  "checkedAt": "2026-10-02T07:58:35.762Z",
+  "scope": "Targeted actual CSV download, undo and language state in Firefox and Playwright WebKit. Not Safari or physical-device testing.",
+  "cases": [
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "language": "ru",
+      "theme": "light",
+      "errors": [],
+      "passed": true
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 390,
+      "language": "kk",
+      "theme": "dark",
+      "errors": [],
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "version": "26.6",
+      "width": 1440,
+      "language": "ru",
+      "theme": "light",
+      "errors": [],
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "version": "26.6",
+      "width": 390,
+      "language": "kk",
+      "theme": "dark",
+      "errors": [],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

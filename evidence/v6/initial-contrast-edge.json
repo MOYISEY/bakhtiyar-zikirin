@@ -1,0 +1,303 @@
+{
+  "url": "http://127.0.0.1:5191/",
+  "checkedAt": "2026-10-02T07:27:28.649Z",
+  "scenarios": [
+    {
+      "name": "2d-ru-light",
+      "passed": false,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".sample-empty"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.29 (foreground color: #bb3d25, background color: #e0e5d6, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "td[data-i18n=\"sample.invalid\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.29 (foreground color: #bb3d25, background color: #e0e5d6, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "failure": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   {\n+     id: 'color-contrast',\n+     nodes: [\n+       {\n+         failureSummary: 'Fix any of the following:\\n' +\n+           '  Element has insufficient color contrast of 4.29 (foreground color: #bb3d25, background color: #e0e5d6, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1',\n+         target: [\n+           '.sample-empty'\n+         ]\n+       },\n+       {\n+         failureSummary: 'Fix any of the following:\\n' +\n+           '  Element has insufficient color contrast of 4.29 (foreground color: #bb3d25, background color: #e0e5d6, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1',\n+         target: [\n+           'td[data-i18n=\"sample.invalid\"]'\n+         ]\n+       }\n+     ]\n+   }\n+ ]\n- []\n"
+    },
+    {
+      "name": "2d-ru-dark",
+      "passed": true,
+      "violations": []
+    },
+    {
+      "name": "2d-kk-light",
+      "passed": false,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".sample-empty"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.29 (foreground color: #bb3d25, background color: #e0e5d6, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "td[data-i18n=\"sample.invalid\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.29 (foreground color: #bb3d25, background color: #e0e5d6, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "failure": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   {\n+     id: 'color-contrast',\n+     nodes: [\n+       {\n+         failureSummary: 'Fix any of the following:\\n' +\n+           '  Element has insufficient color contrast of 4.29 (foreground color: #bb3d25, background color: #e0e5d6, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1',\n+         target: [\n+           '.sample-empty'\n+         ]\n+       },\n+       {\n+         failureSummary: 'Fix any of the following:\\n' +\n+           '  Element has insufficient color contrast of 4.29 (foreground color: #bb3d25, background color: #e0e5d6, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1',\n+         target: [\n+           'td[data-i18n=\"sample.invalid\"]'\n+         ]\n+       }\n+     ]\n+   }\n+ ]\n- []\n"
+    },
+    {
+      "name": "2d-kk-dark",
+      "passed": true,
+      "violations": []
+    },
+    {
+      "name": "2d-en-light",
+      "passed": false,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".sample-empty"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.29 (foreground color: #bb3d25, background color: #e0e5d6, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "td[data-i18n=\"sample.invalid\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.29 (foreground color: #bb3d25, background color: #e0e5d6, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "failure": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   {\n+     id: 'color-contrast',\n+     nodes: [\n+       {\n+         failureSummary: 'Fix any of the following:\\n' +\n+           '  Element has insufficient color contrast of 4.29 (foreground color: #bb3d25, background color: #e0e5d6, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1',\n+         target: [\n+           '.sample-empty'\n+         ]\n+       },\n+       {\n+         failureSummary: 'Fix any of the following:\\n' +\n+           '  Element has insufficient color contrast of 4.29 (foreground color: #bb3d25, background color: #e0e5d6, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1',\n+         target: [\n+           'td[data-i18n=\"sample.invalid\"]'\n+         ]\n+       }\n+     ]\n+   }\n+ ]\n- []\n"
+    },
+    {
+      "name": "2d-en-dark",
+      "passed": true,
+      "violations": []
+    },
+    {
+      "name": "no-js-light",
+      "passed": true,
+      "paper": "#f3f0e8"
+    },
+    {
+      "name": "no-js-dark",
+      "passed": true,
+      "paper": "#121b1a"
+    },
+    {
+      "name": "system-follow-explicit-override",
+      "passed": true
+    },
+    {
+      "name": "storage-blocked",
+      "passed": true
+    },
+    {
+      "name": "normal-motion-disabled-state",
+      "passed": true,
+      "disabledStyle": {
+        "color": "rgb(89, 103, 95)",
+        "background": "rgb(235, 236, 226)",
+        "opacity": "1",
+        "border": "rgb(200, 206, 195)"
+      },
+      "darkDisabledStyle": {
+        "color": "rgb(174, 191, 179)",
+        "background": "rgb(27, 40, 36)",
+        "opacity": "1",
+        "border": "rgb(67, 86, 76)"
+      },
+      "states": [
+        {
+          "selector": "#language-select",
+          "hover": {
+            "color": "rgb(237, 241, 232)",
+            "background": "rgb(18, 27, 26)",
+            "border": "rgb(157, 210, 188)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": null,
+            "focused": true
+          }
+        },
+        {
+          "selector": "#theme-select",
+          "hover": {
+            "color": "rgb(237, 241, 232)",
+            "background": "rgb(18, 27, 26)",
+            "border": "rgb(157, 210, 188)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": null,
+            "focused": true
+          }
+        },
+        {
+          "selector": "[data-mode=explode]",
+          "hover": {
+            "color": "rgb(18, 27, 26)",
+            "background": "rgb(237, 241, 232)",
+            "border": "rgb(18, 27, 26)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": "true",
+            "focused": true
+          }
+        },
+        {
+          "selector": "[data-mode=wire]",
+          "hover": {
+            "color": "rgb(237, 241, 232)",
+            "background": "rgb(44, 64, 54)",
+            "border": "rgb(237, 241, 232)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": "false",
+            "focused": true
+          }
+        },
+        {
+          "selector": "button[data-layer=interface]",
+          "hover": {
+            "color": "rgb(157, 210, 188)",
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "rgb(157, 210, 188)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": "true",
+            "focused": true
+          }
+        },
+        {
+          "selector": "button[data-layer=logic]",
+          "hover": {
+            "color": "rgb(174, 191, 179)",
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "rgb(174, 191, 179) rgb(174, 191, 179) rgba(0, 0, 0, 0)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": "false",
+            "focused": true
+          }
+        },
+        {
+          "selector": "#rowline .primary-link",
+          "hover": {
+            "color": "rgb(18, 27, 26)",
+            "background": "rgb(157, 210, 188)",
+            "border": "rgb(157, 210, 188)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": null,
+            "focused": true
+          }
+        },
+        {
+          "selector": "#atyrau .primary-link",
+          "hover": {
+            "color": "rgb(18, 27, 26)",
+            "background": "rgb(235, 240, 231)",
+            "border": "rgb(157, 210, 188)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": null,
+            "focused": true
+          }
+        },
+        {
+          "selector": "#hobby .primary-link",
+          "hover": {
+            "color": "rgb(18, 27, 26)",
+            "background": "rgb(237, 241, 232)",
+            "border": "rgb(237, 241, 232)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": null,
+            "focused": true
+          }
+        },
+        {
+          "selector": ".resume-link",
+          "hover": {
+            "color": "rgb(237, 241, 232)",
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "rgb(237, 241, 232) rgb(237, 241, 232) rgb(67, 86, 76)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": null,
+            "focused": true
+          }
+        },
+        {
+          "selector": ".email-link",
+          "hover": {
+            "color": "rgb(157, 210, 188)",
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "rgb(157, 210, 188)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": null,
+            "focused": true
+          }
+        },
+        {
+          "selector": "#sample-fix",
+          "hover": {
+            "color": "rgb(18, 27, 26)",
+            "background": "rgb(159, 211, 189)",
+            "border": "rgb(237, 241, 232)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": "false",
+            "focused": true
+          }
+        },
+        {
+          "selector": "#sample-export",
+          "hover": {
+            "color": "rgb(18, 27, 26)",
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "rgb(237, 241, 232)"
+          },
+          "focus": {
+            "outline": "rgb(255, 157, 129) solid 3px",
+            "pressed": null,
+            "focused": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "module-failure-resets-language-pending",
+      "passed": true
+    }
+  ],
+  "passed": false
+}

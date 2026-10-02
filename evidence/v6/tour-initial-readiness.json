@@ -1,0 +1,21 @@
+{
+  "url": "https://moyisey.github.io/atyrau-tour-3d/tour_v2/",
+  "sourceCommit": "a9e5082851339df47c064fc153032d3e91a113fb",
+  "checkedAt": "2026-10-02T07:44:14.716Z",
+  "scope": "Existing static project deployed without code changes; functional smoke check, not a new accessibility/security audit of the historical tour.",
+  "scenarios": [
+    {
+      "name": "desktop",
+      "errors": [],
+      "actions": [
+        "Panorama/WebGL loaded",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 1"
+      ]
+    }
+  ],
+  "passed": false,
+  "failure": "page.waitForFunction: Timeout 40000ms exceeded."
+}

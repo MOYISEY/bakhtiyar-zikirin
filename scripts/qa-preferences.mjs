@@ -21,7 +21,6 @@ try {
   try{
    await page.addInitScript(p=>localStorage.setItem('portfolio.preferences.v1',JSON.stringify(p)),{language,theme});
    await page.goto(url,{waitUntil:'domcontentloaded'});await page.locator('.preferences').waitFor();
-   await page.waitForFunction(()=>document.querySelector('#scene-status').dataset.sceneState==='ready'||document.querySelector('#scene-status').dataset.sceneState==='fallback',null,{timeout:20000});
    assert.equal(await page.locator('html').getAttribute('lang'),language);assert.equal(await page.locator('html').getAttribute('data-theme'),theme);
    const d=JSON.parse(readFileSync(`src/locales/${language}.json`,'utf8'));
    assert.equal(await page.title(),d.s207); // title key from the annotated document
@@ -35,6 +34,7 @@ try {
    assert.deepEqual(await page.evaluate(()=>Object.keys(JSON.parse(localStorage.getItem('portfolio.preferences.v1'))).sort()),['language','theme']);
    assert.deepEqual(await page.evaluate(()=>Object.keys(localStorage)),['portfolio.preferences.v1']);entry.actions.push('Native language/theme changes; only preferences persisted');
    await page.locator('#system').scrollIntoViewIfNeeded();
+   await page.waitForFunction(()=>document.querySelector('#scene-status').dataset.sceneState==='ready'||document.querySelector('#scene-status').dataset.sceneState==='fallback',null,{timeout:20000});
    for(const mode of ['solid','wire','explode']){await page.locator(`[data-mode=${mode}]`).click();assert.equal(await page.locator('#system').getAttribute('data-view'),mode);assert.equal(await page.locator(`[data-mode=${mode}]`).getAttribute('aria-pressed'),'true');}
    for(const layer of ['logic','data','interface']){await page.locator(`button[data-layer=${layer}]`).click();assert.equal(await page.locator('#layer-description').innerText(),d[layer==='interface'?'s028':'layer.'+layer]);}
    await page.locator('#signal-start').click();assert.equal(await page.locator('#signal-status').innerText(),d['signal.3']);assert.equal(await page.locator('#signal-start').isEnabled(),true);
@@ -54,7 +54,7 @@ try {
    for(const selector of ['#rowline summary','#neuralbrief summary','#atyrau summary','#artportal summary']){await page.locator(selector).click();assert.equal(await page.locator(selector).evaluate(e=>e.parentElement.open),true);}
    assert.equal(await page.locator('#atyrau img').count(),0);
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
-   entry.axe=await timeout(new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze(),45000,'axe');
+   entry.axe=await timeout(new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa','best-practice']).analyze(),45000,'axe');
    entry.axe={violations:entry.axe.violations.map(v=>({id:v.id,impact:v.impact,description:v.description,nodes:v.nodes.map(n=>({target:n.target,failureSummary:n.failureSummary}))})),passes:entry.axe.passes.length,incomplete:entry.axe.incomplete.map(v=>({id:v.id,nodes:v.nodes.length}))};
    assert.deepEqual(entry.axe.violations,[]);entry.actions.push('All four disclosures opened; axe and horizontal overflow');
    for(const selector of ['#rowline summary','#neuralbrief summary','#atyrau summary','#artportal summary'])await page.locator(selector).click();

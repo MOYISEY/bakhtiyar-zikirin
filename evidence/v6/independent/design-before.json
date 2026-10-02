@@ -1,0 +1,1453 @@
+{
+  "checkedAt": "2026-10-02T07:32:43.354Z",
+  "target": "http://127.0.0.1:5191/",
+  "indexSha256": "320247e520ef3ea938c539e1e986d970c7181857ebfd451d5cb332fda33bec62",
+  "scenarios": [
+    {
+      "name": "1165-ru-light",
+      "locale": "ru",
+      "theme": "light",
+      "viewport": {
+        "width": 1165,
+        "height": 747,
+        "scrollWidth": 1165
+      },
+      "h1": {
+        "top": 192.171875,
+        "width": 491.28125,
+        "height": 146.875,
+        "font": "75.725px",
+        "text": "БахтиярЗикирин"
+      },
+      "role": {
+        "top": 361.4375,
+        "width": 491.28125,
+        "height": 30.28125,
+        "font": "23.3px",
+        "text": "Frontend-разработчик"
+      },
+      "email": {
+        "top": 558.265625,
+        "width": 153.65625,
+        "height": 64.1875,
+        "font": "15.2px",
+        "text": "Написать на почтуb.zikirin@gmail.com ↗"
+      },
+      "resume": {
+        "top": 486.890625,
+        "width": 143.8125,
+        "height": 55.375,
+        "font": "14px",
+        "text": "Скачать резюмеPDF · на русском↓"
+      },
+      "sample": {
+        "top": 156.578125,
+        "width": 515.875,
+        "height": 612.984375,
+        "font": "16px",
+        "text": "Данные → правка → результатК кейсу↘\n        Rowline.Мини-пример\n        Три искусственные строки. Уберите пробелы в SKU — ведущие "
+      },
+      "rowlineTitle": {
+        "top": 1069.875,
+        "width": 573.625,
+        "height": 55.1875,
+        "font": "53.59px",
+        "text": "Rowline"
+      },
+      "hobbyTitle": {
+        "top": 2895.59375,
+        "width": 573.625,
+        "height": 55.1875,
+        "font": "53.59px",
+        "text": "Красная нить"
+      },
+      "diagram": {
+        "top": 7725.28125,
+        "width": 1060.15625,
+        "height": 749.875,
+        "font": "16px",
+        "text": "Интерактив / устройство приложенияАвторская схема устройства приложения\n        \n          \n            \n              \n          "
+      },
+      "projectOrder": [
+        "rowline",
+        "hobby",
+        "atyrau",
+        "neuralbrief",
+        "artportal"
+      ],
+      "statuses": [
+        "Работает в браузере · инструмент",
+        "Личный проект · работает в браузере",
+        "Работает в браузере · кампус-тур",
+        "Схема · без публичного демо",
+        "Учебный код · без публичного демо"
+      ],
+      "image": {
+        "width": 962.15625,
+        "height": 870.609375,
+        "naturalWidth": 1440,
+        "naturalHeight": 1303,
+        "regionHeight": 871,
+        "scrollHeight": 871,
+        "tabindex": 0,
+        "role": "region",
+        "label": "Снимок Rowline. На узком экране прокручивается по вертикали."
+      },
+      "overflow": [],
+      "sceneInitiallyLoaded": false,
+      "pointer": {
+        "hover": false,
+        "coarse": true
+      },
+      "axe": {
+        "violations": [
+          {
+            "id": "aria-allowed-role",
+            "impact": "minor",
+            "nodes": [
+              {
+                "target": [
+                  "picture"
+                ],
+                "message": "Fix any of the following:\n  ARIA role region is not allowed for given element"
+              }
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "nodes": [
+              {
+                "target": [
+                  ".sample-empty"
+                ],
+                "message": "Fix any of the following:\n  Element has insufficient color contrast of 4.29 (foreground color: #bb3d25, background color: #e0e5d6, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "td[data-i18n=\"sample.invalid\"]"
+                ],
+                "message": "Fix any of the following:\n  Element has insufficient color contrast of 4.29 (foreground color: #bb3d25, background color: #e0e5d6, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ]
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "aria-prohibited-attr",
+            "nodes": [
+              [
+                ".sample"
+              ]
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "nodes": [
+              [
+                ".text-link > span[aria-hidden=\"true\"]"
+              ],
+              [
+                "#sample-fix > span[aria-hidden=\"true\"]"
+              ],
+              [
+                "#sample-export > span[aria-hidden=\"true\"]"
+              ],
+              [
+                "text[y=\"407\"]"
+              ],
+              [
+                "text[x=\"443\"]"
+              ],
+              [
+                "text[y=\"285\"]"
+              ],
+              [
+                "text[y=\"161\"]"
+              ],
+              [
+                ".scene-axis > span:nth-child(1)"
+              ],
+              [
+                ".scene-axis > span:nth-child(3)"
+              ],
+              [
+                "#signal-start > span[aria-hidden=\"true\"]"
+              ],
+              [
+                ".resume-link.primary-link > span[aria-hidden=\"true\"]"
+              ],
+              [
+                ".back-top > span[aria-hidden=\"true\"]"
+              ]
+            ]
+          }
+        ],
+        "passes": 50
+      }
+    },
+    {
+      "name": "1165-kk-dark",
+      "locale": "kk",
+      "theme": "dark",
+      "viewport": {
+        "width": 1165,
+        "height": 747,
+        "scrollWidth": 1165
+      },
+      "h1": {
+        "top": 192.171875,
+        "width": 491.28125,
+        "height": 146.875,
+        "font": "75.725px",
+        "text": "БахтиярЗикирин"
+      },
+      "role": {
+        "top": 361.4375,
+        "width": 491.28125,
+        "height": 30.28125,
+        "font": "23.3px",
+        "text": "Frontend әзірлеуші"
+      },
+      "email": {
+        "top": 584.65625,
+        "width": 153.65625,
+        "height": 64.1875,
+        "font": "15.2px",
+        "text": "Пошта арқылы жазуb.zikirin@gmail.com ↗"
+      },
+      "resume": {
+        "top": 513.28125,
+        "width": 193.015625,
+        "height": 55.375,
+        "font": "14px",
+        "text": "Түйіндемені жүктеп алуPDF · орыс тілінде↓"
+      },
+      "sample": {
+        "top": 156.578125,
+        "width": 515.875,
+        "height": 588.671875,
+        "font": "16px",
+        "text": "Деректер → түзету → нәтижеЖоба туралы↘\n        Rowline.Шағын мысал\n        Үш жасанды жол. SKU шеттеріндегі бос орындарды алып тас"
+      },
+      "rowlineTitle": {
+        "top": 1067.953125,
+        "width": 573.625,
+        "height": 55.1875,
+        "font": "53.59px",
+        "text": "Rowline"
+      },
+      "hobbyTitle": {
+        "top": 2916.09375,
+        "width": 573.625,
+        "height": 55.1875,
+        "font": "53.59px",
+        "text": "Красная нить"
+      },
+      "diagram": {
+        "top": 7838.9375,
+        "width": 1060.15625,
+        "height": 749.875,
+        "font": "16px",
+        "text": "Интерактив / қосымша құрылымыҚолданба қабаттарының авторлық сызбасы\n        \n          \n            \n              \n              "
+      },
+      "projectOrder": [
+        "rowline",
+        "hobby",
+        "atyrau",
+        "neuralbrief",
+        "artportal"
+      ],
+      "statuses": [
+        "Браузерде жұмыс істейді · құрал",
+        "Жеке жоба · браузерде жұмыс істейді",
+        "Браузерде жұмыс істейді · кампус-туры",
+        "Үдеріс сызбасы · ашық демо жоқ",
+        "Оқу жобасының коды · ашық демо жоқ"
+      ],
+      "image": {
+        "width": 962.15625,
+        "height": 870.609375,
+        "naturalWidth": 1440,
+        "naturalHeight": 1303,
+        "regionHeight": 871,
+        "scrollHeight": 871,
+        "tabindex": 0,
+        "role": "region",
+        "label": "Rowline суреті. Шағын экранда тігінен айналдыруға болады."
+      },
+      "overflow": [],
+      "sceneInitiallyLoaded": false,
+      "pointer": {
+        "hover": false,
+        "coarse": true
+      }
+    },
+    {
+      "name": "1440-en-light",
+      "locale": "en",
+      "theme": "light",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "scrollWidth": 1440
+      },
+      "h1": {
+        "top": 192.171875,
+        "width": 607.25,
+        "height": 181.5625,
+        "font": "93.6px",
+        "text": "BakhtiyarZikirin"
+      },
+      "role": {
+        "top": 396.125,
+        "width": 607.25,
+        "height": 34.328125,
+        "font": "26.4px",
+        "text": "Frontend developer"
+      },
+      "email": {
+        "top": 623.390625,
+        "width": 153.65625,
+        "height": 64.1875,
+        "font": "15.2px",
+        "text": "Send an emailb.zikirin@gmail.com ↗"
+      },
+      "resume": {
+        "top": 552.015625,
+        "width": 151.5,
+        "height": 55.375,
+        "font": "14px",
+        "text": "Download résuméPDF · in Russian↓"
+      },
+      "sample": {
+        "top": 156.578125,
+        "width": 637.640625,
+        "height": 599.125,
+        "font": "16px",
+        "text": "Data → edit → resultCase study↘\n        Rowline.Small example\n        Three synthetic rows. Trim the SKU spaces while keeping its "
+      },
+      "rowlineTitle": {
+        "top": 1056.515625,
+        "width": 727.625,
+        "height": 68.21875,
+        "font": "66.24px",
+        "text": "Rowline"
+      },
+      "hobbyTitle": {
+        "top": 3096.625,
+        "width": 727.625,
+        "height": 68.21875,
+        "font": "66.24px",
+        "text": "Krasnaya Nit"
+      },
+      "diagram": {
+        "top": 8097.515625,
+        "width": 1310.40625,
+        "height": 749.875,
+        "font": "16px",
+        "text": "Interactive / application structureAn original diagram of an application's layers\n        \n          \n            \n              \n"
+      },
+      "projectOrder": [
+        "rowline",
+        "hobby",
+        "atyrau",
+        "neuralbrief",
+        "artportal"
+      ],
+      "statuses": [
+        "Runs in the browser · tool",
+        "Personal project · runs in the browser",
+        "Runs in the browser · campus tour",
+        "Workflow diagram · no public demo",
+        "Learning project code · no public demo"
+      ],
+      "image": {
+        "width": 1212.40625,
+        "height": 1097.046875,
+        "naturalWidth": 1440,
+        "naturalHeight": 1303,
+        "regionHeight": 1097,
+        "scrollHeight": 1097,
+        "tabindex": 0,
+        "role": "region",
+        "label": "Rowline screenshot. Scroll vertically on a narrow screen."
+      },
+      "overflow": [],
+      "sceneInitiallyLoaded": false,
+      "pointer": {
+        "hover": false,
+        "coarse": true
+      }
+    },
+    {
+      "name": "1440-kk-dark",
+      "locale": "kk",
+      "theme": "dark",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "scrollWidth": 1440
+      },
+      "h1": {
+        "top": 192.171875,
+        "width": 607.25,
+        "height": 181.5625,
+        "font": "93.6px",
+        "text": "БахтиярЗикирин"
+      },
+      "role": {
+        "top": 396.125,
+        "width": 607.25,
+        "height": 34.328125,
+        "font": "26.4px",
+        "text": "Frontend әзірлеуші"
+      },
+      "email": {
+        "top": 623.390625,
+        "width": 153.65625,
+        "height": 64.1875,
+        "font": "15.2px",
+        "text": "Пошта арқылы жазуb.zikirin@gmail.com ↗"
+      },
+      "resume": {
+        "top": 552.015625,
+        "width": 193.015625,
+        "height": 55.375,
+        "font": "14px",
+        "text": "Түйіндемені жүктеп алуPDF · орыс тілінде↓"
+      },
+      "sample": {
+        "top": 156.578125,
+        "width": 637.640625,
+        "height": 599.125,
+        "font": "16px",
+        "text": "Деректер → түзету → нәтижеЖоба туралы↘\n        Rowline.Шағын мысал\n        Үш жасанды жол. SKU шеттеріндегі бос орындарды алып тас"
+      },
+      "rowlineTitle": {
+        "top": 1056.515625,
+        "width": 727.625,
+        "height": 68.21875,
+        "font": "66.24px",
+        "text": "Rowline"
+      },
+      "hobbyTitle": {
+        "top": 3121.703125,
+        "width": 727.625,
+        "height": 68.21875,
+        "font": "66.24px",
+        "text": "Красная нить"
+      },
+      "diagram": {
+        "top": 8123.59375,
+        "width": 1310.40625,
+        "height": 749.875,
+        "font": "16px",
+        "text": "Интерактив / қосымша құрылымыҚолданба қабаттарының авторлық сызбасы\n        \n          \n            \n              \n              "
+      },
+      "projectOrder": [
+        "rowline",
+        "hobby",
+        "atyrau",
+        "neuralbrief",
+        "artportal"
+      ],
+      "statuses": [
+        "Браузерде жұмыс істейді · құрал",
+        "Жеке жоба · браузерде жұмыс істейді",
+        "Браузерде жұмыс істейді · кампус-туры",
+        "Үдеріс сызбасы · ашық демо жоқ",
+        "Оқу жобасының коды · ашық демо жоқ"
+      ],
+      "image": {
+        "width": 1212.40625,
+        "height": 1097.046875,
+        "naturalWidth": 1440,
+        "naturalHeight": 1303,
+        "regionHeight": 1097,
+        "scrollHeight": 1097,
+        "tabindex": 0,
+        "role": "region",
+        "label": "Rowline суреті. Шағын экранда тігінен айналдыруға болады."
+      },
+      "overflow": [],
+      "sceneInitiallyLoaded": false,
+      "pointer": {
+        "hover": false,
+        "coarse": true
+      }
+    },
+    {
+      "name": "768-kk-light",
+      "locale": "kk",
+      "theme": "light",
+      "viewport": {
+        "width": 768,
+        "height": 1024,
+        "scrollWidth": 768
+      },
+      "h1": {
+        "top": 239.328125,
+        "width": 358.34375,
+        "height": 116.1875,
+        "font": "59.904px",
+        "text": "БахтиярЗикирин"
+      },
+      "role": {
+        "top": 368.3125,
+        "width": 358.34375,
+        "height": 27.03125,
+        "font": "20.8px",
+        "text": "Frontend әзірлеуші"
+      },
+      "email": {
+        "top": 507.671875,
+        "width": 298.625,
+        "height": 64.1875,
+        "font": "15.2px",
+        "text": "Пошта арқылы жазуb.zikirin@gmail.com ↗"
+      },
+      "resume": {
+        "top": 445.90625,
+        "width": 193.015625,
+        "height": 55.375,
+        "font": "14px",
+        "text": "Түйіндемені жүктеп алуPDF · орыс тілінде↓"
+      },
+      "sample": {
+        "top": 603.859375,
+        "width": 698.90625,
+        "height": 560.71875,
+        "font": "16px",
+        "text": "Деректер → түзету → нәтижеЖоба туралы↘\n        Rowline.Шағын мысал\n        Үш жасанды жол. SKU шеттеріндегі бос орындарды алып тас"
+      },
+      "rowlineTitle": {
+        "top": 1509.671875,
+        "width": 382.84375,
+        "height": 47.796875,
+        "font": "46.4px",
+        "text": "Rowline"
+      },
+      "hobbyTitle": {
+        "top": 3260.90625,
+        "width": 382.84375,
+        "height": 47.796875,
+        "font": "46.4px",
+        "text": "Красная нить"
+      },
+      "diagram": {
+        "top": 9797.3125,
+        "width": 698.90625,
+        "height": 727.328125,
+        "font": "16px",
+        "text": "Интерактив / қосымша құрылымыҚолданба қабаттарының авторлық сызбасы\n        \n          \n            \n              \n              "
+      },
+      "projectOrder": [
+        "rowline",
+        "hobby",
+        "atyrau",
+        "neuralbrief",
+        "artportal"
+      ],
+      "statuses": [
+        "Браузерде жұмыс істейді · құрал",
+        "Жеке жоба · браузерде жұмыс істейді",
+        "Браузерде жұмыс істейді · кампус-туры",
+        "Үдеріс сызбасы · ашық демо жоқ",
+        "Оқу жобасының коды · ашық демо жоқ"
+      ],
+      "image": {
+        "width": 640.90625,
+        "height": 579.921875,
+        "naturalWidth": 1440,
+        "naturalHeight": 1303,
+        "regionHeight": 580,
+        "scrollHeight": 580,
+        "tabindex": 0,
+        "role": "region",
+        "label": "Rowline суреті. Шағын экранда тігінен айналдыруға болады."
+      },
+      "overflow": [],
+      "sceneInitiallyLoaded": false,
+      "pointer": {
+        "hover": false,
+        "coarse": true
+      },
+      "axe": {
+        "violations": [
+          {
+            "id": "aria-allowed-role",
+            "impact": "minor",
+            "nodes": [
+              {
+                "target": [
+                  "picture"
+                ],
+                "message": "Fix any of the following:\n  ARIA role region is not allowed for given element"
+              }
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "nodes": [
+              {
+                "target": [
+                  ".sample-empty"
+                ],
+                "message": "Fix any of the following:\n  Element has insufficient color contrast of 4.29 (foreground color: #bb3d25, background color: #e0e5d6, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "td[data-i18n=\"sample.invalid\"]"
+                ],
+                "message": "Fix any of the following:\n  Element has insufficient color contrast of 4.29 (foreground color: #bb3d25, background color: #e0e5d6, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ]
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "aria-prohibited-attr",
+            "nodes": [
+              [
+                ".sample"
+              ]
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "nodes": [
+              [
+                ".text-link > span[aria-hidden=\"true\"]"
+              ],
+              [
+                "#sample-fix > span[aria-hidden=\"true\"]"
+              ],
+              [
+                "#sample-export > span[aria-hidden=\"true\"]"
+              ],
+              [
+                "text[y=\"407\"]"
+              ],
+              [
+                "text[x=\"443\"]"
+              ],
+              [
+                "text[y=\"285\"]"
+              ],
+              [
+                "text[y=\"161\"]"
+              ],
+              [
+                ".scene-axis > span:nth-child(1)"
+              ],
+              [
+                ".scene-axis > span:nth-child(3)"
+              ],
+              [
+                "#signal-start > span[aria-hidden=\"true\"]"
+              ],
+              [
+                ".resume-link.primary-link > span[aria-hidden=\"true\"]"
+              ],
+              [
+                ".back-top > span[aria-hidden=\"true\"]"
+              ]
+            ]
+          }
+        ],
+        "passes": 50
+      }
+    },
+    {
+      "name": "768-kk-dark",
+      "locale": "kk",
+      "theme": "dark",
+      "viewport": {
+        "width": 768,
+        "height": 1024,
+        "scrollWidth": 768
+      },
+      "h1": {
+        "top": 239.328125,
+        "width": 358.34375,
+        "height": 116.1875,
+        "font": "59.904px",
+        "text": "БахтиярЗикирин"
+      },
+      "role": {
+        "top": 368.3125,
+        "width": 358.34375,
+        "height": 27.03125,
+        "font": "20.8px",
+        "text": "Frontend әзірлеуші"
+      },
+      "email": {
+        "top": 507.671875,
+        "width": 298.625,
+        "height": 64.1875,
+        "font": "15.2px",
+        "text": "Пошта арқылы жазуb.zikirin@gmail.com ↗"
+      },
+      "resume": {
+        "top": 445.90625,
+        "width": 193.015625,
+        "height": 55.375,
+        "font": "14px",
+        "text": "Түйіндемені жүктеп алуPDF · орыс тілінде↓"
+      },
+      "sample": {
+        "top": 603.859375,
+        "width": 698.90625,
+        "height": 560.71875,
+        "font": "16px",
+        "text": "Деректер → түзету → нәтижеЖоба туралы↘\n        Rowline.Шағын мысал\n        Үш жасанды жол. SKU шеттеріндегі бос орындарды алып тас"
+      },
+      "rowlineTitle": {
+        "top": 1509.671875,
+        "width": 382.84375,
+        "height": 47.796875,
+        "font": "46.4px",
+        "text": "Rowline"
+      },
+      "hobbyTitle": {
+        "top": 3260.90625,
+        "width": 382.84375,
+        "height": 47.796875,
+        "font": "46.4px",
+        "text": "Красная нить"
+      },
+      "diagram": {
+        "top": 9797.3125,
+        "width": 698.90625,
+        "height": 727.328125,
+        "font": "16px",
+        "text": "Интерактив / қосымша құрылымыҚолданба қабаттарының авторлық сызбасы\n        \n          \n            \n              \n              "
+      },
+      "projectOrder": [
+        "rowline",
+        "hobby",
+        "atyrau",
+        "neuralbrief",
+        "artportal"
+      ],
+      "statuses": [
+        "Браузерде жұмыс істейді · құрал",
+        "Жеке жоба · браузерде жұмыс істейді",
+        "Браузерде жұмыс істейді · кампус-туры",
+        "Үдеріс сызбасы · ашық демо жоқ",
+        "Оқу жобасының коды · ашық демо жоқ"
+      ],
+      "image": {
+        "width": 640.90625,
+        "height": 579.921875,
+        "naturalWidth": 1440,
+        "naturalHeight": 1303,
+        "regionHeight": 580,
+        "scrollHeight": 580,
+        "tabindex": 0,
+        "role": "region",
+        "label": "Rowline суреті. Шағын экранда тігінен айналдыруға болады."
+      },
+      "overflow": [],
+      "sceneInitiallyLoaded": false,
+      "pointer": {
+        "hover": false,
+        "coarse": true
+      }
+    },
+    {
+      "name": "360-kk-light",
+      "locale": "kk",
+      "theme": "light",
+      "viewport": {
+        "width": 360,
+        "height": 800,
+        "scrollWidth": 360
+      },
+      "h1": {
+        "top": 282.9375,
+        "width": 324,
+        "height": 99.3125,
+        "font": "51.2px",
+        "text": "БахтиярЗикирин"
+      },
+      "role": {
+        "top": 398.25,
+        "width": 324,
+        "height": 24.953125,
+        "font": "19.2px",
+        "text": "Frontend әзірлеуші"
+      },
+      "email": {
+        "top": 694.0625,
+        "width": 153.65625,
+        "height": 64.1875,
+        "font": "15.2px",
+        "text": "Пошта арқылы жазуb.zikirin@gmail.com ↗"
+      },
+      "resume": {
+        "top": 624.296875,
+        "width": 193.015625,
+        "height": 55.375,
+        "font": "14px",
+        "text": "Түйіндемені жүктеп алуPDF · орыс тілінде↓"
+      },
+      "sample": {
+        "top": 790.25,
+        "width": 324,
+        "height": 762.609375,
+        "font": "16px",
+        "text": "Деректер → түзету → нәтижеЖоба туралы↘\n        Rowline.Шағын мысал\n        Үш жасанды жол. SKU шеттеріндегі бос орындарды алып тас"
+      },
+      "rowlineTitle": {
+        "top": 1908,
+        "width": 288.8125,
+        "height": 42.828125,
+        "font": "41.6px",
+        "text": "Rowline"
+      },
+      "hobbyTitle": {
+        "top": 3948.765625,
+        "width": 288.8125,
+        "height": 42.828125,
+        "font": "41.6px",
+        "text": "Красная нить"
+      },
+      "diagram": {
+        "top": 10964.625,
+        "width": 324,
+        "height": 704,
+        "font": "16px",
+        "text": "Интерактив / қосымша құрылымыҚолданба қабаттарының авторлық сызбасы\n        \n          \n            \n              \n              "
+      },
+      "projectOrder": [
+        "rowline",
+        "hobby",
+        "atyrau",
+        "neuralbrief",
+        "artportal"
+      ],
+      "statuses": [
+        "Браузерде жұмыс істейді · құрал",
+        "Жеке жоба · браузерде жұмыс істейді",
+        "Браузерде жұмыс істейді · кампус-туры",
+        "Үдеріс сызбасы · ашық демо жоқ",
+        "Оқу жобасының коды · ашық демо жоқ"
+      ],
+      "image": {
+        "width": 322,
+        "height": 2186.296875,
+        "naturalWidth": 390,
+        "naturalHeight": 2648,
+        "regionHeight": 518,
+        "scrollHeight": 2186,
+        "tabindex": 0,
+        "role": "region",
+        "label": "Rowline суреті. Шағын экранда тігінен айналдыруға болады."
+      },
+      "overflow": [],
+      "sceneInitiallyLoaded": false,
+      "pointer": {
+        "hover": false,
+        "coarse": true
+      }
+    },
+    {
+      "name": "360-kk-dark",
+      "locale": "kk",
+      "theme": "dark",
+      "viewport": {
+        "width": 360,
+        "height": 800,
+        "scrollWidth": 360
+      },
+      "h1": {
+        "top": 282.9375,
+        "width": 324,
+        "height": 99.3125,
+        "font": "51.2px",
+        "text": "БахтиярЗикирин"
+      },
+      "role": {
+        "top": 398.25,
+        "width": 324,
+        "height": 24.953125,
+        "font": "19.2px",
+        "text": "Frontend әзірлеуші"
+      },
+      "email": {
+        "top": 694.0625,
+        "width": 153.65625,
+        "height": 64.1875,
+        "font": "15.2px",
+        "text": "Пошта арқылы жазуb.zikirin@gmail.com ↗"
+      },
+      "resume": {
+        "top": 624.296875,
+        "width": 193.015625,
+        "height": 55.375,
+        "font": "14px",
+        "text": "Түйіндемені жүктеп алуPDF · орыс тілінде↓"
+      },
+      "sample": {
+        "top": 790.25,
+        "width": 324,
+        "height": 762.609375,
+        "font": "16px",
+        "text": "Деректер → түзету → нәтижеЖоба туралы↘\n        Rowline.Шағын мысал\n        Үш жасанды жол. SKU шеттеріндегі бос орындарды алып тас"
+      },
+      "rowlineTitle": {
+        "top": 1908,
+        "width": 288.8125,
+        "height": 42.828125,
+        "font": "41.6px",
+        "text": "Rowline"
+      },
+      "hobbyTitle": {
+        "top": 3948.765625,
+        "width": 288.8125,
+        "height": 42.828125,
+        "font": "41.6px",
+        "text": "Красная нить"
+      },
+      "diagram": {
+        "top": 10964.625,
+        "width": 324,
+        "height": 704,
+        "font": "16px",
+        "text": "Интерактив / қосымша құрылымыҚолданба қабаттарының авторлық сызбасы\n        \n          \n            \n              \n              "
+      },
+      "projectOrder": [
+        "rowline",
+        "hobby",
+        "atyrau",
+        "neuralbrief",
+        "artportal"
+      ],
+      "statuses": [
+        "Браузерде жұмыс істейді · құрал",
+        "Жеке жоба · браузерде жұмыс істейді",
+        "Браузерде жұмыс істейді · кампус-туры",
+        "Үдеріс сызбасы · ашық демо жоқ",
+        "Оқу жобасының коды · ашық демо жоқ"
+      ],
+      "image": {
+        "width": 322,
+        "height": 2186.296875,
+        "naturalWidth": 390,
+        "naturalHeight": 2648,
+        "regionHeight": 518,
+        "scrollHeight": 2186,
+        "tabindex": 0,
+        "role": "region",
+        "label": "Rowline суреті. Шағын экранда тігінен айналдыруға болады."
+      },
+      "overflow": [],
+      "sceneInitiallyLoaded": false,
+      "pointer": {
+        "hover": false,
+        "coarse": true
+      },
+      "axe": {
+        "violations": [
+          {
+            "id": "aria-allowed-role",
+            "impact": "minor",
+            "nodes": [
+              {
+                "target": [
+                  "picture"
+                ],
+                "message": "Fix any of the following:\n  ARIA role region is not allowed for given element"
+              }
+            ]
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "aria-prohibited-attr",
+            "nodes": [
+              [
+                ".sample"
+              ]
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "nodes": [
+              [
+                ".text-link > span[aria-hidden=\"true\"]"
+              ],
+              [
+                "#sample-fix > span[aria-hidden=\"true\"]"
+              ],
+              [
+                "#sample-export > span[aria-hidden=\"true\"]"
+              ],
+              [
+                "text[y=\"407\"]"
+              ],
+              [
+                "text[x=\"443\"]"
+              ],
+              [
+                "text[y=\"285\"]"
+              ],
+              [
+                "text[y=\"161\"]"
+              ],
+              [
+                ".scene-axis > span:nth-child(1)"
+              ],
+              [
+                ".scene-axis > span:nth-child(3)"
+              ],
+              [
+                "#signal-start > span[aria-hidden=\"true\"]"
+              ],
+              [
+                ".resume-link.primary-link > span[aria-hidden=\"true\"]"
+              ],
+              [
+                ".back-top > span[aria-hidden=\"true\"]"
+              ]
+            ]
+          }
+        ],
+        "passes": 51
+      }
+    },
+    {
+      "name": "390-ru-light",
+      "locale": "ru",
+      "theme": "light",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390
+      },
+      "h1": {
+        "top": 266.9375,
+        "width": 351,
+        "height": 99.3125,
+        "font": "51.2px",
+        "text": "БахтиярЗикирин"
+      },
+      "role": {
+        "top": 382.25,
+        "width": 351,
+        "height": 24.953125,
+        "font": "19.2px",
+        "text": "Frontend-разработчик"
+      },
+      "email": {
+        "top": 588.984375,
+        "width": 153.65625,
+        "height": 64.1875,
+        "font": "15.2px",
+        "text": "Написать на почтуb.zikirin@gmail.com ↗"
+      },
+      "resume": {
+        "top": 519.21875,
+        "width": 143.8125,
+        "height": 55.375,
+        "font": "14px",
+        "text": "Скачать резюмеPDF · на русском↓"
+      },
+      "sample": {
+        "top": 685.171875,
+        "width": 351,
+        "height": 668.765625,
+        "font": "16px",
+        "text": "Данные → правка → результатК кейсу↘\n        Rowline.Мини-пример\n        Три искусственные строки. Уберите пробелы в SKU — ведущие "
+      },
+      "rowlineTitle": {
+        "top": 1688.609375,
+        "width": 315.8125,
+        "height": 42.828125,
+        "font": "41.6px",
+        "text": "Rowline"
+      },
+      "hobbyTitle": {
+        "top": 3578.09375,
+        "width": 315.8125,
+        "height": 42.828125,
+        "font": "41.6px",
+        "text": "Красная нить"
+      },
+      "diagram": {
+        "top": 10341.15625,
+        "width": 351,
+        "height": 657.609375,
+        "font": "16px",
+        "text": "Интерактив / устройство приложенияАвторская схема устройства приложения\n        \n          \n            \n              \n          "
+      },
+      "projectOrder": [
+        "rowline",
+        "hobby",
+        "atyrau",
+        "neuralbrief",
+        "artportal"
+      ],
+      "statuses": [
+        "Работает в браузере · инструмент",
+        "Личный проект · работает в браузере",
+        "Работает в браузере · кампус-тур",
+        "Схема · без публичного демо",
+        "Учебный код · без публичного демо"
+      ],
+      "image": {
+        "width": 349,
+        "height": 2369.609375,
+        "naturalWidth": 390,
+        "naturalHeight": 2648,
+        "regionHeight": 518,
+        "scrollHeight": 2370,
+        "tabindex": 0,
+        "role": "region",
+        "label": "Снимок Rowline. На узком экране прокручивается по вертикали."
+      },
+      "overflow": [],
+      "sceneInitiallyLoaded": false,
+      "pointer": {
+        "hover": false,
+        "coarse": true
+      }
+    },
+    {
+      "name": "390-en-dark",
+      "locale": "en",
+      "theme": "dark",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390
+      },
+      "h1": {
+        "top": 266.9375,
+        "width": 351,
+        "height": 99.3125,
+        "font": "51.2px",
+        "text": "BakhtiyarZikirin"
+      },
+      "role": {
+        "top": 382.25,
+        "width": 351,
+        "height": 24.953125,
+        "font": "19.2px",
+        "text": "Frontend developer"
+      },
+      "email": {
+        "top": 588.984375,
+        "width": 153.65625,
+        "height": 64.1875,
+        "font": "15.2px",
+        "text": "Send an emailb.zikirin@gmail.com ↗"
+      },
+      "resume": {
+        "top": 519.21875,
+        "width": 151.5,
+        "height": 55.375,
+        "font": "14px",
+        "text": "Download résuméPDF · in Russian↓"
+      },
+      "sample": {
+        "top": 685.171875,
+        "width": 351,
+        "height": 649.578125,
+        "font": "16px",
+        "text": "Data → edit → resultCase study↘\n        Rowline.Small example\n        Three synthetic rows. Trim the SKU spaces while keeping its "
+      },
+      "rowlineTitle": {
+        "top": 1669.421875,
+        "width": 315.8125,
+        "height": 42.828125,
+        "font": "41.6px",
+        "text": "Rowline"
+      },
+      "hobbyTitle": {
+        "top": 3512.046875,
+        "width": 315.8125,
+        "height": 42.828125,
+        "font": "41.6px",
+        "text": "Krasnaya Nit"
+      },
+      "diagram": {
+        "top": 10136.109375,
+        "width": 351,
+        "height": 657.609375,
+        "font": "16px",
+        "text": "Interactive / application structureAn original diagram of an application's layers\n        \n          \n            \n              \n"
+      },
+      "projectOrder": [
+        "rowline",
+        "hobby",
+        "atyrau",
+        "neuralbrief",
+        "artportal"
+      ],
+      "statuses": [
+        "Runs in the browser · tool",
+        "Personal project · runs in the browser",
+        "Runs in the browser · campus tour",
+        "Workflow diagram · no public demo",
+        "Learning project code · no public demo"
+      ],
+      "image": {
+        "width": 349,
+        "height": 2369.609375,
+        "naturalWidth": 390,
+        "naturalHeight": 2648,
+        "regionHeight": 518,
+        "scrollHeight": 2370,
+        "tabindex": 0,
+        "role": "region",
+        "label": "Rowline screenshot. Scroll vertically on a narrow screen."
+      },
+      "overflow": [],
+      "sceneInitiallyLoaded": false,
+      "pointer": {
+        "hover": false,
+        "coarse": true
+      }
+    }
+  ],
+  "errors": [],
+  "failedResponses": [],
+  "limitations": [
+    "Chromium emulated touch/viewport; no physical devices/native Safari/screen reader.",
+    "Read-only candidate review; no build, product edits or commits."
+  ],
+  "version": "153.0.8010.12",
+  "sample": {
+    "initial": "·00124·",
+    "fixed": "00124",
+    "fixedPressed": "true",
+    "afterLanguage": {
+      "sku": "00124",
+      "button": "Түзетуді болдырмау→"
+    },
+    "undo": "·00124·",
+    "repeatUndo": "·00124·",
+    "originalExport": "sku,stock\r\n\" 00124 \",12\r\n\"00125\",8\r\n",
+    "trimmedExport": "sku,stock\r\n\"00124\",12\r\n\"00125\",8\r\n"
+  },
+  "desktopArtifact": {
+    "locale": "ru",
+    "theme": "light",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440
+    },
+    "h1": {
+      "top": 192.171875,
+      "width": 607.25,
+      "height": 181.5625,
+      "font": "93.6px",
+      "text": "БахтиярЗикирин"
+    },
+    "role": {
+      "top": 396.125,
+      "width": 607.25,
+      "height": 34.328125,
+      "font": "26.4px",
+      "text": "Frontend-разработчик"
+    },
+    "email": {
+      "top": 597,
+      "width": 153.65625,
+      "height": 64.1875,
+      "font": "15.2px",
+      "text": "Написать на почтуb.zikirin@gmail.com ↗"
+    },
+    "resume": {
+      "top": 525.625,
+      "width": 143.8125,
+      "height": 55.375,
+      "font": "14px",
+      "text": "Скачать резюмеPDF · на русском↓"
+    },
+    "sample": {
+      "top": 156.578125,
+      "width": 637.640625,
+      "height": 599.125,
+      "font": "16px",
+      "text": "Данные → правка → результатК кейсу↘\n        Rowline.Мини-пример\n        Три искусственные строки. Уберите пробелы в SKU — ведущие "
+    },
+    "rowlineTitle": {
+      "top": 1056.515625,
+      "width": 727.625,
+      "height": 68.21875,
+      "font": "66.24px",
+      "text": "Rowline"
+    },
+    "hobbyTitle": {
+      "top": 3099.28125,
+      "width": 727.625,
+      "height": 68.21875,
+      "font": "66.24px",
+      "text": "Красная нить"
+    },
+    "diagram": {
+      "top": 8101.171875,
+      "width": 1310.40625,
+      "height": 749.875,
+      "font": "16px",
+      "text": "Интерактив / устройство приложенияАвторская схема устройства приложения\n        \n          \n            \n              \n          "
+    },
+    "projectOrder": [
+      "rowline",
+      "hobby",
+      "atyrau",
+      "neuralbrief",
+      "artportal"
+    ],
+    "statuses": [
+      "Работает в браузере · инструмент",
+      "Личный проект · работает в браузере",
+      "Работает в браузере · кампус-тур",
+      "Схема · без публичного демо",
+      "Учебный код · без публичного демо"
+    ],
+    "image": {
+      "width": 1212.40625,
+      "height": 1097.046875,
+      "naturalWidth": 1440,
+      "naturalHeight": 1303,
+      "regionHeight": 1097,
+      "scrollHeight": 1097,
+      "tabindex": 0,
+      "role": "region",
+      "label": "Снимок Rowline. На узком экране прокручивается по вертикали."
+    },
+    "overflow": [],
+    "sceneInitiallyLoaded": false,
+    "pointer": {
+      "hover": false,
+      "coarse": true
+    }
+  },
+  "scrollRegion": {
+    "before": {
+      "top": 0,
+      "client": 518,
+      "total": 2370
+    },
+    "afterKeyboard": 453,
+    "focus": {
+      "tag": "PICTURE",
+      "role": "region"
+    }
+  },
+  "fullScreenshotLink": {
+    "text": "Открыть полный снимок↗— новая вкладка",
+    "href": "./projects/rowline-desktop.png"
+  },
+  "text200": {
+    "locale": "kk",
+    "theme": "light",
+    "viewport": {
+      "width": 360,
+      "height": 800,
+      "scrollWidth": 361
+    },
+    "h1": {
+      "top": 781.515625,
+      "width": 324,
+      "height": 397.3125,
+      "font": "102.4px",
+      "text": "БахтиярЗикирин"
+    },
+    "role": {
+      "top": 1210.828125,
+      "width": 324,
+      "height": 99.84375,
+      "font": "38.4px",
+      "text": "Frontend әзірлеуші"
+    },
+    "email": {
+      "top": 2121.453125,
+      "width": 307.296875,
+      "height": 123.375,
+      "font": "30.4px",
+      "text": "Пошта арқылы жазуb.zikirin@gmail.com ↗"
+    },
+    "resume": {
+      "top": 1945.890625,
+      "width": 324,
+      "height": 146.765625,
+      "font": "28px",
+      "text": "Түйіндемені жүктеп алуPDF · орыс тілінде↓"
+    },
+    "sample": {
+      "top": 2308.828125,
+      "width": 324,
+      "height": 2048.640625,
+      "font": "32px",
+      "text": "Деректер → түзету → нәтижеЖоба туралы↘\n        Rowline.Шағын мысал\n        Үш жасанды жол. SKU шеттеріндегі бос орындарды алып тас"
+    },
+    "rowlineTitle": {
+      "top": 5376.015625,
+      "width": 253.609375,
+      "height": 171.375,
+      "font": "83.2px",
+      "text": "Rowline"
+    },
+    "hobbyTitle": {
+      "top": 11172.9375,
+      "width": 253.609375,
+      "height": 257.0625,
+      "font": "83.2px",
+      "text": "Красная нить"
+    },
+    "diagram": {
+      "top": 34408.125,
+      "width": 324,
+      "height": 1440.421875,
+      "font": "32px",
+      "text": "Интерактив / қосымша құрылымыҚолданба қабаттарының авторлық сызбасы\n        \n          \n            \n              \n              "
+    },
+    "projectOrder": [
+      "rowline",
+      "hobby",
+      "atyrau",
+      "neuralbrief",
+      "artportal"
+    ],
+    "statuses": [
+      "Браузерде жұмыс істейді · құрал",
+      "Жеке жоба · браузерде жұмыс істейді",
+      "Браузерде жұмыс істейді · кампус-туры",
+      "Үдеріс сызбасы · ашық демо жоқ",
+      "Оқу жобасының коды · ашық демо жоқ"
+    ],
+    "image": {
+      "width": 322,
+      "height": 2186.296875,
+      "naturalWidth": 390,
+      "naturalHeight": 2648,
+      "regionHeight": 518,
+      "scrollHeight": 2186,
+      "tabindex": 0,
+      "role": "region",
+      "label": "Rowline суреті. Шағын экранда тігінен айналдыруға болады."
+    },
+    "overflow": [],
+    "sceneInitiallyLoaded": false,
+    "pointer": {
+      "hover": false,
+      "coarse": true
+    }
+  },
+  "reduced2d": {
+    "status": "3D недоступно в этом браузере · работает 2D-схема",
+    "view": "solid",
+    "layer": "data",
+    "signal": "04 / Ответ обновляет состояние интерфейса. Путь завершён.",
+    "buttonEnabled": true,
+    "canvasHidden": true
+  }
+}

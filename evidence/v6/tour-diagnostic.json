@@ -1,0 +1,20 @@
+{
+  "time": "2026-10-02T07:46:05.646Z",
+  "errors": [],
+  "failedRequests": [],
+  "responses": [],
+  "state": {
+    "title": "3D Тур — Атырау университеті",
+    "pannellum": "object",
+    "viewer": "object",
+    "floor": 1,
+    "scene": "university_front",
+    "errorText": "",
+    "body": "АТЫРАУ УНИ\nВИРТУАЛДЫ ТУР ЖҮКТЕЛУДЕ\nАУ\nХ.Досмұхамедов атындағы Атырау университеті\n\nВиртуалды тур • 3D Virtual Tour\n\n1 қабат\n2 қабат\n3 қабат\n4 қабат\n⊞\n⛶\n\nLoading...\n\n1.57 / 6.12 MB\n\nУниверситет — алдыңғы жақ\n🖱 Сүйреп айналдырыңыз / Drag to look around\n←\n→\n⟳\n+\n−\n1 ҚАБАТ\n🏛 Университет — алдыңғы жақ\n🏛 Университет — фасад\n🚪 Кіру / Главный вход\n🏫 Дәліз / Коридор 1 этаж\n🚶 Өту — сол жақ\n🍽 Асхана / Столовая\n📚 Кітапхана / Библиотека\n🚶 Өту — оң жақ\n🚶 Өту / Переход\n🎓 119 аудитория\n🎓 125 аудитория",
+    "scripts": [
+      "https://cdnjs.cloudflare.com/ajax/libs/pannellum/2.5.6/pannellum.js",
+      ""
+    ],
+    "loading": "Loading...1.57 / 6.12 MB"
+  }
+}

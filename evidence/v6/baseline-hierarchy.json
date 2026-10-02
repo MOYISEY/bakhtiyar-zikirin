@@ -1,0 +1,770 @@
+{
+  "url": "http://127.0.0.1:5191/",
+  "time": "2026-10-02T07:07:38.510Z",
+  "scope": "Native viewport captures and measured document positions; laboratory browser timing, not field Core Web Vitals.",
+  "cases": [
+    {
+      "width": 1165,
+      "height": 747,
+      "language": "ru",
+      "theme": "light",
+      "errors": [],
+      "screenshots": [
+        "evidence\\v6\\baseline\\1165-ru-light-hero.png",
+        "evidence\\v6\\baseline\\1165-ru-light-rowline.png",
+        "evidence\\v6\\baseline\\1165-ru-light-hobby.png",
+        "evidence\\v6\\baseline\\1165-ru-light-approach.png",
+        "evidence\\v6\\baseline\\1165-ru-light-contact.png"
+      ],
+      "measurements": {
+        "viewport": {
+          "width": 1165,
+          "height": 747
+        },
+        "scrollWidth": 1165,
+        "documentHeight": 7899,
+        "hero": {
+          "x": 0,
+          "y": 108.578125,
+          "width": 1165,
+          "height": 1226.046875,
+          "font": "16px"
+        },
+        "title": {
+          "x": 52.421875,
+          "y": 201.765625,
+          "width": 1060.15625,
+          "height": 147.78125,
+          "font": "71.065px"
+        },
+        "project": {
+          "x": 52.421875,
+          "y": 1588.984375,
+          "width": 1060.15625,
+          "height": 1040.109375,
+          "font": "16px"
+        },
+        "rowlineImage": {
+          "x": 598.34375,
+          "y": 1765.96875,
+          "width": 513.234375,
+          "height": 464.390625,
+          "font": "16px"
+        },
+        "cv": {
+          "x": 720.515625,
+          "y": 7674.953125,
+          "width": 184.1875,
+          "height": 71.390625,
+          "font": "14px"
+        },
+        "email": {
+          "x": 927.09375,
+          "y": 7681.046875,
+          "width": 124.265625,
+          "height": 59.1875,
+          "font": "13.6px"
+        },
+        "system": {
+          "x": 52.421875,
+          "y": 506.96875,
+          "width": 1060.15625,
+          "height": 749.875,
+          "font": "16px"
+        },
+        "hobby": {
+          "x": 52.421875,
+          "y": 7057.296875,
+          "width": 1060.15625,
+          "height": 220.84375,
+          "font": "16px"
+        },
+        "navigation": [
+          {
+            "responseEnd": 18.5,
+            "domContentLoaded": 39.700000000186265,
+            "load": 220.20000000018626,
+            "bytes": 11743
+          }
+        ],
+        "resources": [
+          {
+            "name": "http://127.0.0.1:5191/assets/index-BSMNP4_4.js",
+            "duration": 12,
+            "transferSize": 19335,
+            "decodedSize": 58347
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/index-Cgoci1TS.css",
+            "duration": 10.700000000186265,
+            "transferSize": 8723,
+            "decodedSize": 36093
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+            "duration": 98.5,
+            "transferSize": 34060,
+            "decodedSize": 33760
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+            "duration": 90.5,
+            "transferSize": 18468,
+            "decodedSize": 18168
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+            "duration": 83.20000000018626,
+            "transferSize": 16160,
+            "decodedSize": 15860
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2",
+            "duration": 78.79999999981374,
+            "transferSize": 10840,
+            "decodedSize": 10540
+          },
+          {
+            "name": "http://127.0.0.1:5191/projects/rowline-desktop.png",
+            "duration": 5.2999999998137355,
+            "transferSize": 211306,
+            "decodedSize": 211006
+          },
+          {
+            "name": "http://127.0.0.1:5191/favicon.svg",
+            "duration": 3.8000000002793968,
+            "transferSize": 687,
+            "decodedSize": 387
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/scene-BJfIN--z.js",
+            "duration": 17.5,
+            "transferSize": 151661,
+            "decodedSize": 603074
+          }
+        ],
+        "lcp": [],
+        "cls": [
+          0.00043960494485817793
+        ]
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "language": "en",
+      "theme": "dark",
+      "errors": [],
+      "screenshots": [
+        "evidence\\v6\\baseline\\1440-en-dark-hero.png",
+        "evidence\\v6\\baseline\\1440-en-dark-rowline.png",
+        "evidence\\v6\\baseline\\1440-en-dark-hobby.png",
+        "evidence\\v6\\baseline\\1440-en-dark-approach.png",
+        "evidence\\v6\\baseline\\1440-en-dark-contact.png"
+      ],
+      "measurements": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "scrollWidth": 1440,
+        "documentHeight": 7728,
+        "hero": {
+          "x": 0,
+          "y": 108.578125,
+          "width": 1440,
+          "height": 1234.078125,
+          "font": "16px"
+        },
+        "title": {
+          "x": 64.796875,
+          "y": 201.765625,
+          "width": 1310.40625,
+          "height": 182.6875,
+          "font": "87.84px"
+        },
+        "project": {
+          "x": 64.796875,
+          "y": 1579.703125,
+          "width": 1310.40625,
+          "height": 912.578125,
+          "font": "16px"
+        },
+        "rowlineImage": {
+          "x": 739.34375,
+          "y": 1772.265625,
+          "width": 634.84375,
+          "height": 574.4375,
+          "font": "16px"
+        },
+        "cv": {
+          "x": 883.03125,
+          "y": 7503.859375,
+          "width": 191.875,
+          "height": 71.390625,
+          "font": "14px"
+        },
+        "email": {
+          "x": 1097.296875,
+          "y": 7509.953125,
+          "width": 124.265625,
+          "height": 59.1875,
+          "font": "13.6px"
+        },
+        "system": {
+          "x": 64.796875,
+          "y": 515,
+          "width": 1310.40625,
+          "height": 749.875,
+          "font": "16px"
+        },
+        "hobby": {
+          "x": 64.796875,
+          "y": 6911.28125,
+          "width": 1310.40625,
+          "height": 195.765625,
+          "font": "16px"
+        },
+        "navigation": [
+          {
+            "responseEnd": 6.399999999906868,
+            "domContentLoaded": 25.700000000186265,
+            "load": 229.3000000002794,
+            "bytes": 11743
+          }
+        ],
+        "resources": [
+          {
+            "name": "http://127.0.0.1:5191/assets/index-BSMNP4_4.js",
+            "duration": 9.899999999906868,
+            "transferSize": 19335,
+            "decodedSize": 58347
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/index-Cgoci1TS.css",
+            "duration": 9.200000000186265,
+            "transferSize": 8723,
+            "decodedSize": 36093
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+            "duration": 160.20000000018626,
+            "transferSize": 34060,
+            "decodedSize": 33760
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+            "duration": 155,
+            "transferSize": 18468,
+            "decodedSize": 18168
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+            "duration": 60.200000000186265,
+            "transferSize": 16160,
+            "decodedSize": 15860
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2",
+            "duration": 58.59999999962747,
+            "transferSize": 10840,
+            "decodedSize": 10540
+          },
+          {
+            "name": "http://127.0.0.1:5191/projects/rowline-desktop.png",
+            "duration": 8.600000000093132,
+            "transferSize": 211306,
+            "decodedSize": 211006
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/scene-BJfIN--z.js",
+            "duration": 22.700000000186265,
+            "transferSize": 151661,
+            "decodedSize": 603074
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-math-wght-normal-Bl4ZGkZl.woff2",
+            "duration": 9.700000000186265,
+            "transferSize": 25780,
+            "decodedSize": 25480
+          },
+          {
+            "name": "http://127.0.0.1:5191/favicon.svg",
+            "duration": 3.8999999999068677,
+            "transferSize": 687,
+            "decodedSize": 387
+          }
+        ],
+        "lcp": [
+          {
+            "startTime": 204,
+            "size": 158080,
+            "tag": "H1"
+          }
+        ],
+        "cls": [
+          0.007554457826967592
+        ]
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "ru",
+      "theme": "light",
+      "errors": [],
+      "screenshots": [
+        "evidence\\v6\\baseline\\390-ru-light-hero.png",
+        "evidence\\v6\\baseline\\390-ru-light-rowline.png",
+        "evidence\\v6\\baseline\\390-ru-light-hobby.png",
+        "evidence\\v6\\baseline\\390-ru-light-approach.png",
+        "evidence\\v6\\baseline\\390-ru-light-contact.png"
+      ],
+      "measurements": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "documentHeight": 9434,
+        "hero": {
+          "x": 0,
+          "y": 222.53125,
+          "width": 390,
+          "height": 1129.84375,
+          "font": "16px"
+        },
+        "title": {
+          "x": 19.5,
+          "y": 284.71875,
+          "width": 351,
+          "height": 74.3125,
+          "font": "34.4px"
+        },
+        "project": {
+          "x": 19.5,
+          "y": 1628.171875,
+          "width": 351,
+          "height": 1303.90625,
+          "font": "16px"
+        },
+        "rowlineImage": {
+          "x": 20.5,
+          "y": 2330.125,
+          "width": 349,
+          "height": 458,
+          "font": "16px"
+        },
+        "cv": {
+          "x": 19.5,
+          "y": 9249.390625,
+          "width": 171.171875,
+          "height": 65.578125,
+          "font": "13.6px"
+        },
+        "email": {
+          "x": 209.859375,
+          "y": 9252.578125,
+          "width": 124.265625,
+          "height": 59.1875,
+          "font": "13.6px"
+        },
+        "system": {
+          "x": 19.5,
+          "y": 570.578125,
+          "width": 351,
+          "height": 657.609375,
+          "font": "16px"
+        },
+        "hobby": {
+          "x": 19.5,
+          "y": 8494.484375,
+          "width": 351,
+          "height": 344.890625,
+          "font": "16px"
+        },
+        "navigation": [
+          {
+            "responseEnd": 5.899999999906868,
+            "domContentLoaded": 25.899999999906868,
+            "load": 133.89999999990687,
+            "bytes": 11743
+          }
+        ],
+        "resources": [
+          {
+            "name": "http://127.0.0.1:5191/assets/index-BSMNP4_4.js",
+            "duration": 8.399999999906868,
+            "transferSize": 19335,
+            "decodedSize": 58347
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/index-Cgoci1TS.css",
+            "duration": 7.5,
+            "transferSize": 8723,
+            "decodedSize": 36093
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+            "duration": 80.39999999990687,
+            "transferSize": 34060,
+            "decodedSize": 33760
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+            "duration": 75.10000000009313,
+            "transferSize": 18468,
+            "decodedSize": 18168
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+            "duration": 69,
+            "transferSize": 16160,
+            "decodedSize": 15860
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/scene-BJfIN--z.js",
+            "duration": 22.600000000093132,
+            "transferSize": 151661,
+            "decodedSize": 603074
+          },
+          {
+            "name": "http://127.0.0.1:5191/favicon.svg",
+            "duration": 3.5,
+            "transferSize": 687,
+            "decodedSize": 387
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-math-wght-normal-Bl4ZGkZl.woff2",
+            "duration": 12.600000000093132,
+            "transferSize": 25780,
+            "decodedSize": 25480
+          }
+        ],
+        "lcp": [
+          {
+            "startTime": 148,
+            "size": 24153,
+            "tag": "P"
+          }
+        ],
+        "cls": []
+      },
+      "passed": true
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "language": "kk",
+      "theme": "dark",
+      "errors": [],
+      "screenshots": [
+        "evidence\\v6\\baseline\\360-kk-dark-hero.png",
+        "evidence\\v6\\baseline\\360-kk-dark-rowline.png",
+        "evidence\\v6\\baseline\\360-kk-dark-hobby.png",
+        "evidence\\v6\\baseline\\360-kk-dark-approach.png",
+        "evidence\\v6\\baseline\\360-kk-dark-contact.png"
+      ],
+      "measurements": {
+        "viewport": {
+          "width": 360,
+          "height": 800
+        },
+        "scrollWidth": 360,
+        "documentHeight": 9907,
+        "hero": {
+          "x": 0,
+          "y": 222.53125,
+          "width": 360,
+          "height": 1242.125,
+          "font": "16px"
+        },
+        "title": {
+          "x": 18,
+          "y": 284.71875,
+          "width": 324,
+          "height": 106.21875,
+          "font": "32.8px"
+        },
+        "project": {
+          "x": 18,
+          "y": 1740.453125,
+          "width": 324,
+          "height": 1401.890625,
+          "font": "16px"
+        },
+        "rowlineImage": {
+          "x": 19,
+          "y": 2540.390625,
+          "width": 322,
+          "height": 458,
+          "font": "16px"
+        },
+        "cv": {
+          "x": 18,
+          "y": 9644.28125,
+          "width": 218.96875,
+          "height": 65.578125,
+          "font": "13.6px"
+        },
+        "email": {
+          "x": 18,
+          "y": 9729.046875,
+          "width": 124.265625,
+          "height": 59.1875,
+          "font": "13.6px"
+        },
+        "system": {
+          "x": 18,
+          "y": 624.875,
+          "width": 324,
+          "height": 722,
+          "font": "16px"
+        },
+        "hobby": {
+          "x": 18,
+          "y": 8838.421875,
+          "width": 324,
+          "height": 367.3125,
+          "font": "16px"
+        },
+        "navigation": [
+          {
+            "responseEnd": 5.899999999906868,
+            "domContentLoaded": 25.200000000186265,
+            "load": 162,
+            "bytes": 11743
+          }
+        ],
+        "resources": [
+          {
+            "name": "http://127.0.0.1:5191/assets/index-BSMNP4_4.js",
+            "duration": 7,
+            "transferSize": 19335,
+            "decodedSize": 58347
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/index-Cgoci1TS.css",
+            "duration": 7.100000000093132,
+            "transferSize": 8723,
+            "decodedSize": 36093
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+            "duration": 88.1999999997206,
+            "transferSize": 34060,
+            "decodedSize": 33760
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+            "duration": 83.39999999990687,
+            "transferSize": 18468,
+            "decodedSize": 18168
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+            "duration": 77.29999999981374,
+            "transferSize": 16160,
+            "decodedSize": 15860
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2",
+            "duration": 76.89999999990687,
+            "transferSize": 10840,
+            "decodedSize": 10540
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/scene-BJfIN--z.js",
+            "duration": 25.5,
+            "transferSize": 151661,
+            "decodedSize": 603074
+          },
+          {
+            "name": "http://127.0.0.1:5191/favicon.svg",
+            "duration": 2.6999999997206032,
+            "transferSize": 687,
+            "decodedSize": 387
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-math-wght-normal-Bl4ZGkZl.woff2",
+            "duration": 8.600000000093132,
+            "transferSize": 25780,
+            "decodedSize": 25480
+          }
+        ],
+        "lcp": [
+          {
+            "startTime": 120,
+            "size": 26892,
+            "tag": "P"
+          }
+        ],
+        "cls": []
+      },
+      "passed": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "language": "kk",
+      "theme": "light",
+      "errors": [],
+      "screenshots": [
+        "evidence\\v6\\baseline\\768-kk-light-hero.png",
+        "evidence\\v6\\baseline\\768-kk-light-rowline.png",
+        "evidence\\v6\\baseline\\768-kk-light-hobby.png",
+        "evidence\\v6\\baseline\\768-kk-light-approach.png",
+        "evidence\\v6\\baseline\\768-kk-light-contact.png"
+      ],
+      "measurements": {
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "scrollWidth": 768,
+        "documentHeight": 8885,
+        "hero": {
+          "x": 0,
+          "y": 173.34375,
+          "width": 768,
+          "height": 1199.40625,
+          "font": "16px"
+        },
+        "title": {
+          "x": 34.546875,
+          "y": 256.9375,
+          "width": 698.90625,
+          "height": 97.40625,
+          "font": "46.848px"
+        },
+        "project": {
+          "x": 34.546875,
+          "y": 1649.5,
+          "width": 698.90625,
+          "height": 1167.640625,
+          "font": "16px"
+        },
+        "rowlineImage": {
+          "x": 355.21875,
+          "y": 1835.984375,
+          "width": 377.234375,
+          "height": 341.34375,
+          "font": "16px"
+        },
+        "cv": {
+          "x": 485.890625,
+          "y": 8579.734375,
+          "width": 233.390625,
+          "height": 71.390625,
+          "font": "14px"
+        },
+        "email": {
+          "x": 485.890625,
+          "y": 8673.515625,
+          "width": 124.265625,
+          "height": 59.1875,
+          "font": "13.6px"
+        },
+        "system": {
+          "x": 34.546875,
+          "y": 538.640625,
+          "width": 698.90625,
+          "height": 756.328125,
+          "font": "16px"
+        },
+        "hobby": {
+          "x": 34.546875,
+          "y": 7869.1875,
+          "width": 698.90625,
+          "height": 289.421875,
+          "font": "16px"
+        },
+        "navigation": [
+          {
+            "responseEnd": 6.2000000001862645,
+            "domContentLoaded": 104.60000000009313,
+            "load": 154.5,
+            "bytes": 11743
+          }
+        ],
+        "resources": [
+          {
+            "name": "http://127.0.0.1:5191/assets/index-BSMNP4_4.js",
+            "duration": 7.2999999998137355,
+            "transferSize": 19335,
+            "decodedSize": 58347
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/index-Cgoci1TS.css",
+            "duration": 7.899999999906868,
+            "transferSize": 8723,
+            "decodedSize": 36093
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+            "duration": 84.20000000018626,
+            "transferSize": 34060,
+            "decodedSize": 33760
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+            "duration": 84.5,
+            "transferSize": 16160,
+            "decodedSize": 15860
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+            "duration": 80.70000000018626,
+            "transferSize": 18468,
+            "decodedSize": 18168
+          },
+          {
+            "name": "http://127.0.0.1:5191/projects/rowline-desktop.png",
+            "duration": 7.199999999720603,
+            "transferSize": 211306,
+            "decodedSize": 211006
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2",
+            "duration": 17.300000000279397,
+            "transferSize": 10840,
+            "decodedSize": 10540
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/scene-BJfIN--z.js",
+            "duration": 21,
+            "transferSize": 151661,
+            "decodedSize": 603074
+          },
+          {
+            "name": "http://127.0.0.1:5191/favicon.svg",
+            "duration": 2.7000000001862645,
+            "transferSize": 687,
+            "decodedSize": 387
+          },
+          {
+            "name": "http://127.0.0.1:5191/assets/onest-math-wght-normal-Bl4ZGkZl.woff2",
+            "duration": 9,
+            "transferSize": 25780,
+            "decodedSize": 25480
+          }
+        ],
+        "lcp": [
+          {
+            "startTime": 136,
+            "size": 48076,
+            "tag": "H1"
+          }
+        ],
+        "cls": [
+          0.0018274065805599093,
+          0.00022909138351678848
+        ]
+      },
+      "passed": true
+    }
+  ],
+  "passed": true
+}

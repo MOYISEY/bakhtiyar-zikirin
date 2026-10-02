@@ -1,0 +1,401 @@
+{
+  "generatedAt": "2026-10-02T07:57:27.248Z",
+  "target": "http://127.0.0.1:5191/",
+  "viewport": {
+    "width": 320,
+    "height": 844
+  },
+  "rootFontSize": "32px",
+  "cases": [
+    {
+      "language": "ru",
+      "theme": "light",
+      "geometry": {
+        "inner": 320,
+        "doc": 320,
+        "stylesheet": "index-BZvi39jK.css",
+        "caption": {
+          "x": 44.796875,
+          "y": 33492.671875,
+          "width": 230.40625,
+          "height": 108,
+          "top": 33492.671875,
+          "right": 275.203125,
+          "bottom": 33600.671875,
+          "left": 44.796875
+        },
+        "active": "sample-table-wrap",
+        "role": "region",
+        "label": "Строки примера. При увеличении текста таблица прокручивается по горизонтали.",
+        "wrapClient": 216,
+        "wrapScroll": 480,
+        "rows": [
+          {
+            "sku": "·00124·",
+            "codeLeft": 64.984375,
+            "codeRight": 169.671875,
+            "cellRight": 205.78125,
+            "stockText": "12",
+            "stockLeft": 218.578125,
+            "stockRight": 242.375,
+            "stockHeight": 33,
+            "stockLineHeight": "35.84px",
+            "stockWhiteSpace": "nowrap",
+            "stockCellRight": 292.171875,
+            "codeFits": true,
+            "valuesSeparate": true,
+            "stockFits": true
+          },
+          {
+            "sku": "00125",
+            "codeLeft": 64.984375,
+            "codeRight": 139.765625,
+            "cellRight": 205.78125,
+            "stockText": "8",
+            "stockLeft": 218.578125,
+            "stockRight": 234.515625,
+            "stockHeight": 33,
+            "stockLineHeight": "35.84px",
+            "stockWhiteSpace": "nowrap",
+            "stockCellRight": 292.171875,
+            "codeFits": true,
+            "valuesSeparate": true,
+            "stockFits": true
+          }
+        ]
+      },
+      "keyboard": {
+        "before": 0,
+        "after": 264,
+        "returned": 0,
+        "movedRight": true,
+        "movedBack": true
+      }
+    },
+    {
+      "language": "kk",
+      "theme": "light",
+      "geometry": {
+        "inner": 320,
+        "doc": 320,
+        "stylesheet": "index-BZvi39jK.css",
+        "caption": {
+          "x": 44.796875,
+          "y": 492.390625,
+          "width": 230.40625,
+          "height": 108,
+          "top": 492.390625,
+          "right": 275.203125,
+          "bottom": 600.390625,
+          "left": 44.796875
+        },
+        "active": "sample-table-wrap",
+        "role": "region",
+        "label": "Мысал кестесі. Мәтін үлкейгенде көлденең сырғытуға болады.",
+        "wrapClient": 216,
+        "wrapScroll": 480,
+        "rows": [
+          {
+            "sku": "·00124·",
+            "codeLeft": 64.984375,
+            "codeRight": 169.671875,
+            "cellRight": 205.78125,
+            "stockText": "12",
+            "stockLeft": 218.578125,
+            "stockRight": 242.375,
+            "stockHeight": 33,
+            "stockLineHeight": "35.84px",
+            "stockWhiteSpace": "nowrap",
+            "stockCellRight": 292.171875,
+            "codeFits": true,
+            "valuesSeparate": true,
+            "stockFits": true
+          },
+          {
+            "sku": "00125",
+            "codeLeft": 64.984375,
+            "codeRight": 139.765625,
+            "cellRight": 205.78125,
+            "stockText": "8",
+            "stockLeft": 218.578125,
+            "stockRight": 234.515625,
+            "stockHeight": 33,
+            "stockLineHeight": "35.84px",
+            "stockWhiteSpace": "nowrap",
+            "stockCellRight": 292.171875,
+            "codeFits": true,
+            "valuesSeparate": true,
+            "stockFits": true
+          }
+        ]
+      },
+      "keyboard": {
+        "before": 0,
+        "after": 264,
+        "returned": 0,
+        "movedRight": true,
+        "movedBack": true
+      }
+    },
+    {
+      "language": "en",
+      "theme": "light",
+      "geometry": {
+        "inner": 320,
+        "doc": 320,
+        "stylesheet": "index-BZvi39jK.css",
+        "caption": {
+          "x": 44.796875,
+          "y": 258.234375,
+          "width": 230.40625,
+          "height": 108,
+          "top": 258.234375,
+          "right": 275.203125,
+          "bottom": 366.234375,
+          "left": 44.796875
+        },
+        "active": "sample-table-wrap",
+        "role": "region",
+        "label": "Example rows. Scroll horizontally when text is enlarged.",
+        "wrapClient": 216,
+        "wrapScroll": 480,
+        "rows": [
+          {
+            "sku": "·00124·",
+            "codeLeft": 64.984375,
+            "codeRight": 169.671875,
+            "cellRight": 205.78125,
+            "stockText": "12",
+            "stockLeft": 218.578125,
+            "stockRight": 242.375,
+            "stockHeight": 33,
+            "stockLineHeight": "35.84px",
+            "stockWhiteSpace": "nowrap",
+            "stockCellRight": 292.171875,
+            "codeFits": true,
+            "valuesSeparate": true,
+            "stockFits": true
+          },
+          {
+            "sku": "00125",
+            "codeLeft": 64.984375,
+            "codeRight": 139.765625,
+            "cellRight": 205.78125,
+            "stockText": "8",
+            "stockLeft": 218.578125,
+            "stockRight": 234.515625,
+            "stockHeight": 33,
+            "stockLineHeight": "35.84px",
+            "stockWhiteSpace": "nowrap",
+            "stockCellRight": 292.171875,
+            "codeFits": true,
+            "valuesSeparate": true,
+            "stockFits": true
+          }
+        ]
+      },
+      "keyboard": {
+        "before": 0,
+        "after": 264,
+        "returned": 0,
+        "movedRight": true,
+        "movedBack": true
+      }
+    },
+    {
+      "language": "ru",
+      "theme": "dark",
+      "geometry": {
+        "inner": 320,
+        "doc": 320,
+        "stylesheet": "index-BZvi39jK.css",
+        "caption": {
+          "x": 44.796875,
+          "y": 554.671875,
+          "width": 230.40625,
+          "height": 108,
+          "top": 554.671875,
+          "right": 275.203125,
+          "bottom": 662.671875,
+          "left": 44.796875
+        },
+        "active": "sample-table-wrap",
+        "role": "region",
+        "label": "Строки примера. При увеличении текста таблица прокручивается по горизонтали.",
+        "wrapClient": 216,
+        "wrapScroll": 480,
+        "rows": [
+          {
+            "sku": "·00124·",
+            "codeLeft": 64.984375,
+            "codeRight": 169.671875,
+            "cellRight": 205.78125,
+            "stockText": "12",
+            "stockLeft": 218.578125,
+            "stockRight": 242.375,
+            "stockHeight": 33,
+            "stockLineHeight": "35.84px",
+            "stockWhiteSpace": "nowrap",
+            "stockCellRight": 292.171875,
+            "codeFits": true,
+            "valuesSeparate": true,
+            "stockFits": true
+          },
+          {
+            "sku": "00125",
+            "codeLeft": 64.984375,
+            "codeRight": 139.765625,
+            "cellRight": 205.78125,
+            "stockText": "8",
+            "stockLeft": 218.578125,
+            "stockRight": 234.515625,
+            "stockHeight": 33,
+            "stockLineHeight": "35.84px",
+            "stockWhiteSpace": "nowrap",
+            "stockCellRight": 292.171875,
+            "codeFits": true,
+            "valuesSeparate": true,
+            "stockFits": true
+          }
+        ]
+      },
+      "keyboard": {
+        "before": 0,
+        "after": 264,
+        "returned": 0,
+        "movedRight": true,
+        "movedBack": true
+      }
+    },
+    {
+      "language": "kk",
+      "theme": "dark",
+      "geometry": {
+        "inner": 320,
+        "doc": 320,
+        "stylesheet": "index-BZvi39jK.css",
+        "caption": {
+          "x": 44.796875,
+          "y": 492.390625,
+          "width": 230.40625,
+          "height": 108,
+          "top": 492.390625,
+          "right": 275.203125,
+          "bottom": 600.390625,
+          "left": 44.796875
+        },
+        "active": "sample-table-wrap",
+        "role": "region",
+        "label": "Мысал кестесі. Мәтін үлкейгенде көлденең сырғытуға болады.",
+        "wrapClient": 216,
+        "wrapScroll": 480,
+        "rows": [
+          {
+            "sku": "·00124·",
+            "codeLeft": 64.984375,
+            "codeRight": 169.671875,
+            "cellRight": 205.78125,
+            "stockText": "12",
+            "stockLeft": 218.578125,
+            "stockRight": 242.375,
+            "stockHeight": 33,
+            "stockLineHeight": "35.84px",
+            "stockWhiteSpace": "nowrap",
+            "stockCellRight": 292.171875,
+            "codeFits": true,
+            "valuesSeparate": true,
+            "stockFits": true
+          },
+          {
+            "sku": "00125",
+            "codeLeft": 64.984375,
+            "codeRight": 139.765625,
+            "cellRight": 205.78125,
+            "stockText": "8",
+            "stockLeft": 218.578125,
+            "stockRight": 234.515625,
+            "stockHeight": 33,
+            "stockLineHeight": "35.84px",
+            "stockWhiteSpace": "nowrap",
+            "stockCellRight": 292.171875,
+            "codeFits": true,
+            "valuesSeparate": true,
+            "stockFits": true
+          }
+        ]
+      },
+      "keyboard": {
+        "before": 0,
+        "after": 264,
+        "returned": 0,
+        "movedRight": true,
+        "movedBack": true
+      }
+    },
+    {
+      "language": "en",
+      "theme": "dark",
+      "geometry": {
+        "inner": 320,
+        "doc": 320,
+        "stylesheet": "index-BZvi39jK.css",
+        "caption": {
+          "x": 44.796875,
+          "y": 258.234375,
+          "width": 230.40625,
+          "height": 108,
+          "top": 258.234375,
+          "right": 275.203125,
+          "bottom": 366.234375,
+          "left": 44.796875
+        },
+        "active": "sample-table-wrap",
+        "role": "region",
+        "label": "Example rows. Scroll horizontally when text is enlarged.",
+        "wrapClient": 216,
+        "wrapScroll": 480,
+        "rows": [
+          {
+            "sku": "·00124·",
+            "codeLeft": 64.984375,
+            "codeRight": 169.671875,
+            "cellRight": 205.78125,
+            "stockText": "12",
+            "stockLeft": 218.578125,
+            "stockRight": 242.375,
+            "stockHeight": 33,
+            "stockLineHeight": "35.84px",
+            "stockWhiteSpace": "nowrap",
+            "stockCellRight": 292.171875,
+            "codeFits": true,
+            "valuesSeparate": true,
+            "stockFits": true
+          },
+          {
+            "sku": "00125",
+            "codeLeft": 64.984375,
+            "codeRight": 139.765625,
+            "cellRight": 205.78125,
+            "stockText": "8",
+            "stockLeft": 218.578125,
+            "stockRight": 234.515625,
+            "stockHeight": 33,
+            "stockLineHeight": "35.84px",
+            "stockWhiteSpace": "nowrap",
+            "stockCellRight": 292.171875,
+            "codeFits": true,
+            "valuesSeparate": true,
+            "stockFits": true
+          }
+        ]
+      },
+      "keyboard": {
+        "before": 0,
+        "after": 264,
+        "returned": 0,
+        "movedRight": true,
+        "movedBack": true
+      }
+    }
+  ]
+}

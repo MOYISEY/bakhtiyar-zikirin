@@ -1,0 +1,430 @@
+{
+  "url": "http://127.0.0.1:5191/",
+  "engine": "chromium",
+  "checkedAt": "2026-10-02T07:55:08.944Z",
+  "scope": "Six language/theme combinations in desktop and mobile viewport emulation. Directed browser interaction, DOM assertions, axe WCAG 2 AA; no physical phone, Safari or screen-reader claim.",
+  "scenarios": [
+    {
+      "language": "ru",
+      "theme": "light",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes",
+        "All four disclosures opened; axe and horizontal overflow"
+      ],
+      "errors": [],
+      "passed": true,
+      "sceneState": "ready",
+      "axe": {
+        "violations": [],
+        "passes": 50,
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 10
+          }
+        ]
+      },
+      "focusStyle": {
+        "outline": "rgb(187, 61, 37) solid 3px",
+        "color": "rgb(23, 34, 35)",
+        "background": "rgb(243, 240, 232)",
+        "colorScheme": "light"
+      }
+    },
+    {
+      "language": "ru",
+      "theme": "light",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes",
+        "All four disclosures opened; axe and horizontal overflow"
+      ],
+      "errors": [],
+      "passed": true,
+      "sceneState": "ready",
+      "axe": {
+        "violations": [],
+        "passes": 51,
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 10
+          }
+        ]
+      },
+      "focusStyle": {
+        "outline": "rgb(187, 61, 37) solid 3px",
+        "color": "rgb(23, 34, 35)",
+        "background": "rgb(243, 240, 232)",
+        "colorScheme": "light"
+      }
+    },
+    {
+      "language": "ru",
+      "theme": "dark",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes",
+        "All four disclosures opened; axe and horizontal overflow"
+      ],
+      "errors": [],
+      "passed": true,
+      "sceneState": "ready",
+      "axe": {
+        "violations": [],
+        "passes": 50,
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 10
+          }
+        ]
+      },
+      "focusStyle": {
+        "outline": "rgb(255, 157, 129) solid 3px",
+        "color": "rgb(237, 241, 232)",
+        "background": "rgb(18, 27, 26)",
+        "colorScheme": "dark"
+      }
+    },
+    {
+      "language": "ru",
+      "theme": "dark",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes",
+        "All four disclosures opened; axe and horizontal overflow"
+      ],
+      "errors": [],
+      "passed": true,
+      "sceneState": "ready",
+      "axe": {
+        "violations": [],
+        "passes": 51,
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 10
+          }
+        ]
+      },
+      "focusStyle": {
+        "outline": "rgb(255, 157, 129) solid 3px",
+        "color": "rgb(237, 241, 232)",
+        "background": "rgb(18, 27, 26)",
+        "colorScheme": "dark"
+      }
+    },
+    {
+      "language": "kk",
+      "theme": "light",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes",
+        "All four disclosures opened; axe and horizontal overflow"
+      ],
+      "errors": [],
+      "passed": true,
+      "sceneState": "ready",
+      "axe": {
+        "violations": [],
+        "passes": 50,
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 10
+          }
+        ]
+      },
+      "focusStyle": {
+        "outline": "rgb(187, 61, 37) solid 3px",
+        "color": "rgb(23, 34, 35)",
+        "background": "rgb(243, 240, 232)",
+        "colorScheme": "light"
+      }
+    },
+    {
+      "language": "kk",
+      "theme": "light",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes",
+        "All four disclosures opened; axe and horizontal overflow"
+      ],
+      "errors": [],
+      "passed": true,
+      "sceneState": "ready",
+      "axe": {
+        "violations": [],
+        "passes": 51,
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 10
+          }
+        ]
+      },
+      "focusStyle": {
+        "outline": "rgb(187, 61, 37) solid 3px",
+        "color": "rgb(23, 34, 35)",
+        "background": "rgb(243, 240, 232)",
+        "colorScheme": "light"
+      }
+    },
+    {
+      "language": "kk",
+      "theme": "dark",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes",
+        "All four disclosures opened; axe and horizontal overflow"
+      ],
+      "errors": [],
+      "passed": true,
+      "sceneState": "ready",
+      "axe": {
+        "violations": [],
+        "passes": 50,
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 10
+          }
+        ]
+      },
+      "focusStyle": {
+        "outline": "rgb(255, 157, 129) solid 3px",
+        "color": "rgb(237, 241, 232)",
+        "background": "rgb(18, 27, 26)",
+        "colorScheme": "dark"
+      }
+    },
+    {
+      "language": "kk",
+      "theme": "dark",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes",
+        "All four disclosures opened; axe and horizontal overflow"
+      ],
+      "errors": [],
+      "passed": true,
+      "sceneState": "ready",
+      "axe": {
+        "violations": [],
+        "passes": 51,
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 10
+          }
+        ]
+      },
+      "focusStyle": {
+        "outline": "rgb(255, 157, 129) solid 3px",
+        "color": "rgb(237, 241, 232)",
+        "background": "rgb(18, 27, 26)",
+        "colorScheme": "dark"
+      }
+    },
+    {
+      "language": "en",
+      "theme": "light",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes",
+        "All four disclosures opened; axe and horizontal overflow"
+      ],
+      "errors": [],
+      "passed": true,
+      "sceneState": "ready",
+      "axe": {
+        "violations": [],
+        "passes": 50,
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 10
+          }
+        ]
+      },
+      "focusStyle": {
+        "outline": "rgb(187, 61, 37) solid 3px",
+        "color": "rgb(23, 34, 35)",
+        "background": "rgb(243, 240, 232)",
+        "colorScheme": "light"
+      }
+    },
+    {
+      "language": "en",
+      "theme": "light",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes",
+        "All four disclosures opened; axe and horizontal overflow"
+      ],
+      "errors": [],
+      "passed": true,
+      "sceneState": "ready",
+      "axe": {
+        "violations": [],
+        "passes": 51,
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 10
+          }
+        ]
+      },
+      "focusStyle": {
+        "outline": "rgb(187, 61, 37) solid 3px",
+        "color": "rgb(23, 34, 35)",
+        "background": "rgb(243, 240, 232)",
+        "colorScheme": "light"
+      }
+    },
+    {
+      "language": "en",
+      "theme": "dark",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes",
+        "All four disclosures opened; axe and horizontal overflow"
+      ],
+      "errors": [],
+      "passed": true,
+      "sceneState": "ready",
+      "axe": {
+        "violations": [],
+        "passes": 50,
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 10
+          }
+        ]
+      },
+      "focusStyle": {
+        "outline": "rgb(255, 157, 129) solid 3px",
+        "color": "rgb(237, 241, 232)",
+        "background": "rgb(18, 27, 26)",
+        "colorScheme": "dark"
+      }
+    },
+    {
+      "language": "en",
+      "theme": "dark",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "actions": [
+        "Initial language, title, aria/alt/meta labels and first-paint theme",
+        "Keyboard skip link",
+        "Native language/theme changes; only preferences persisted",
+        "3D keyboard, reset, pause/resume, paused texture repaint",
+        "All modes/layers; reduced-motion complete signal",
+        "Three brief steps; selected step retained through language changes",
+        "All four disclosures opened; axe and horizontal overflow"
+      ],
+      "errors": [],
+      "passed": true,
+      "sceneState": "ready",
+      "axe": {
+        "violations": [],
+        "passes": 51,
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 10
+          }
+        ]
+      },
+      "focusStyle": {
+        "outline": "rgb(255, 157, 129) solid 3px",
+        "color": "rgb(237, 241, 232)",
+        "background": "rgb(18, 27, 26)",
+        "colorScheme": "dark"
+      }
+    }
+  ],
+  "browserVersion": "153.0.8010.12",
+  "passed": true
+}

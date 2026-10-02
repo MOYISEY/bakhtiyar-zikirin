@@ -129,7 +129,8 @@ export function initScene() {
   controls.touches.ONE=null as unknown as THREE.TOUCH;controls.touches.TWO=THREE.TOUCH.DOLLY_ROTATE;canvas.style.touchAction='pan-y';
   let view=(system.dataset.view??'explode') as View;
   let activeLayer=(system.dataset.layer??'interface') as Layer;
-  let signalLayer: Layer|null=null;
+  // Deferred initialization can finish in the middle of an already running signal.
+  let signalLayer: Layer|null=['interface','logic','data'].includes(system.dataset.signal??'') ? system.dataset.signal as Layer : null;
   let paused=preference.matches,visible=true,dirty=true,disposed=false,suspended=false;
   let frame=0,previous=0,elapsed=0;
   const handlers=new AbortController();

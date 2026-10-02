@@ -1,0 +1,177 @@
+{
+  "generatedAt": "2026-10-02T07:38:29.764Z",
+  "target": "http://127.0.0.1:5191/",
+  "checks": [
+    {
+      "name": "sample exports, repeated actions, locales, themes, true back navigation",
+      "original": {
+        "filename": "rowline-synthetic-example.csv",
+        "data": "sku,stock\r\n\" 00124 \",12\r\n\"00125\",8\r\n"
+      },
+      "trimmed": {
+        "filename": "rowline-synthetic-example.csv",
+        "data": "sku,stock\r\n\"00124\",12\r\n\"00125\",8\r\n"
+      },
+      "repeated": {
+        "filename": "rowline-synthetic-example.csv",
+        "data": "sku,stock\r\n\"00124\",12\r\n\"00125\",8\r\n"
+      },
+      "undone": {
+        "filename": "rowline-synthetic-example.csv",
+        "data": "sku,stock\r\n\" 00124 \",12\r\n\"00125\",8\r\n"
+      },
+      "translations": [
+        {
+          "lang": "kk",
+          "sku": "00124",
+          "pressed": "true",
+          "button": "Түзетуді кері қайтару\n→",
+          "status": "CSV дайын: SKU толтырылған екі жол. SKU жоқ жол қосылмады."
+        },
+        {
+          "lang": "en",
+          "sku": "00124",
+          "pressed": "true",
+          "button": "Undo edit\n→",
+          "status": "CSV prepared: two rows with a SKU. The row without a SKU was excluded."
+        },
+        {
+          "lang": "ru",
+          "sku": "00124",
+          "pressed": "true",
+          "button": "Отменить правку\n→",
+          "status": "CSV подготовлен: две строки с заполненным SKU. Строка без SKU не включена."
+        }
+      ],
+      "afterBack": {
+        "sku": "00124",
+        "pressed": "true",
+        "pageshows": [
+          false,
+          true
+        ]
+      },
+      "initialSceneRequests": 0,
+      "sceneRequestsBeforeApproach": 0,
+      "sceneRequestsAfterApproach": 1,
+      "failures": []
+    },
+    {
+      "name": "a11y and reflow of candidate",
+      "audits": [
+        {
+          "theme": "light",
+          "lang": "ru",
+          "violations": []
+        },
+        {
+          "theme": "light",
+          "lang": "kk",
+          "violations": []
+        },
+        {
+          "theme": "light",
+          "lang": "en",
+          "violations": []
+        },
+        {
+          "theme": "dark",
+          "lang": "ru",
+          "violations": []
+        },
+        {
+          "theme": "dark",
+          "lang": "kk",
+          "violations": []
+        },
+        {
+          "theme": "dark",
+          "lang": "en",
+          "violations": []
+        }
+      ],
+      "widths": [
+        {
+          "width": 320,
+          "lang": "ru",
+          "inner": 320,
+          "scroll": 320
+        },
+        {
+          "width": 320,
+          "lang": "kk",
+          "inner": 320,
+          "scroll": 320
+        },
+        {
+          "width": 320,
+          "lang": "en",
+          "inner": 320,
+          "scroll": 320
+        },
+        {
+          "width": 390,
+          "lang": "ru",
+          "inner": 390,
+          "scroll": 390
+        },
+        {
+          "width": 390,
+          "lang": "kk",
+          "inner": 390,
+          "scroll": 390
+        },
+        {
+          "width": 390,
+          "lang": "en",
+          "inner": 390,
+          "scroll": 390
+        },
+        {
+          "width": 768,
+          "lang": "ru",
+          "inner": 768,
+          "scroll": 768
+        },
+        {
+          "width": 768,
+          "lang": "kk",
+          "inner": 768,
+          "scroll": 768
+        },
+        {
+          "width": 768,
+          "lang": "en",
+          "inner": 768,
+          "scroll": 768
+        }
+      ]
+    },
+    {
+      "name": "signal state while deferred 3D chunk is loading",
+      "instrumented": true,
+      "networkDelayMs": 1100,
+      "atReady": {
+        "signal": "logic",
+        "status": "02 / Логика формирует запрос и проверяет условия.",
+        "pulseVisible": true,
+        "pulseY": 0.060200000000000004
+      },
+      "nextStage": {
+        "signal": "data",
+        "status": "03 / Данные читаются или изменяются.",
+        "pulseVisible": true
+      }
+    },
+    {
+      "name": "no-JS content and hidden inert actions",
+      "h1": "Бахтияр\nЗикирин",
+      "sampleText": "Три искусственные строки. Уберите пробелы в SKU — ведущие нули сохранятся. Строка без SKU останется ошибкой.",
+      "sampleActionsVisible": false,
+      "cases": 5,
+      "canvasVisible": false
+    }
+  ],
+  "errors": [],
+  "pdfSha256": "566051b1e65dbfdf17982f0466948e2556157887f512b5db4d7bb248272060cb"
+}

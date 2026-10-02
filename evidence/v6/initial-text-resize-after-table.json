@@ -1,0 +1,662 @@
+{
+  "url": "http://127.0.0.1:5191/",
+  "checkedAt": "2026-10-02T07:51:21.021Z",
+  "scope": "320px CSS viewport with root font size 200%. Text enlargement emulation, not browser zoom or a physical phone. Two-dimensional table scroll remains local to its labelled keyboard-focusable region.",
+  "cases": [
+    {
+      "language": "ru",
+      "theme": "light",
+      "passed": false,
+      "geometry": {
+        "docWidth": 336,
+        "regionWidth": 216,
+        "tableWidth": 480,
+        "cells": [
+          [
+            {
+              "cell": {
+                "left": 52.1875,
+                "right": 205.78125
+              },
+              "text": {
+                "left": 64.984375,
+                "right": 169.671875
+              }
+            },
+            {
+              "cell": {
+                "left": 205.78125,
+                "right": 292.171875
+              },
+              "text": {
+                "left": 218.578125,
+                "right": 242.375
+              }
+            },
+            {
+              "cell": {
+                "left": 292.171875,
+                "right": 532.1875
+              },
+              "text": {
+                "left": 304.96875,
+                "right": 452.28125
+              }
+            }
+          ],
+          [
+            {
+              "cell": {
+                "left": 52.1875,
+                "right": 205.78125
+              },
+              "text": {
+                "left": 64.984375,
+                "right": 139.765625
+              }
+            },
+            {
+              "cell": {
+                "left": 205.78125,
+                "right": 292.171875
+              },
+              "text": {
+                "left": 218.578125,
+                "right": 234.515625
+              }
+            },
+            {
+              "cell": {
+                "left": 292.171875,
+                "right": 532.1875
+              },
+              "text": {
+                "left": 304.96875,
+                "right": 389.15625
+              }
+            }
+          ],
+          [
+            {
+              "cell": {
+                "left": 52.1875,
+                "right": 205.78125
+              },
+              "text": {
+                "left": 64.984375,
+                "right": 139.03125
+              }
+            },
+            {
+              "cell": {
+                "left": 205.78125,
+                "right": 292.171875
+              },
+              "text": {
+                "left": 218.578125,
+                "right": 234.53125
+              }
+            },
+            {
+              "cell": {
+                "left": 292.171875,
+                "right": 532.1875
+              },
+              "text": {
+                "left": 304.96875,
+                "right": 444.265625
+              }
+            }
+          ]
+        ]
+      },
+      "failure": "The expression evaluated to a falsy value:\n\n  assert(entry.geometry.docWidth <= 320)\n"
+    },
+    {
+      "language": "ru",
+      "theme": "dark",
+      "passed": false,
+      "geometry": {
+        "docWidth": 336,
+        "regionWidth": 216,
+        "tableWidth": 480,
+        "cells": [
+          [
+            {
+              "cell": {
+                "left": 52.1875,
+                "right": 205.78125
+              },
+              "text": {
+                "left": 64.984375,
+                "right": 169.671875
+              }
+            },
+            {
+              "cell": {
+                "left": 205.78125,
+                "right": 292.171875
+              },
+              "text": {
+                "left": 218.578125,
+                "right": 242.375
+              }
+            },
+            {
+              "cell": {
+                "left": 292.171875,
+                "right": 532.1875
+              },
+              "text": {
+                "left": 304.96875,
+                "right": 452.28125
+              }
+            }
+          ],
+          [
+            {
+              "cell": {
+                "left": 52.1875,
+                "right": 205.78125
+              },
+              "text": {
+                "left": 64.984375,
+                "right": 139.765625
+              }
+            },
+            {
+              "cell": {
+                "left": 205.78125,
+                "right": 292.171875
+              },
+              "text": {
+                "left": 218.578125,
+                "right": 234.515625
+              }
+            },
+            {
+              "cell": {
+                "left": 292.171875,
+                "right": 532.1875
+              },
+              "text": {
+                "left": 304.96875,
+                "right": 389.15625
+              }
+            }
+          ],
+          [
+            {
+              "cell": {
+                "left": 52.1875,
+                "right": 205.78125
+              },
+              "text": {
+                "left": 64.984375,
+                "right": 139.03125
+              }
+            },
+            {
+              "cell": {
+                "left": 205.78125,
+                "right": 292.171875
+              },
+              "text": {
+                "left": 218.578125,
+                "right": 234.53125
+              }
+            },
+            {
+              "cell": {
+                "left": 292.171875,
+                "right": 532.1875
+              },
+              "text": {
+                "left": 304.96875,
+                "right": 444.265625
+              }
+            }
+          ]
+        ]
+      },
+      "failure": "The expression evaluated to a falsy value:\n\n  assert(entry.geometry.docWidth <= 320)\n"
+    },
+    {
+      "language": "kk",
+      "theme": "light",
+      "passed": false,
+      "geometry": {
+        "docWidth": 359,
+        "regionWidth": 216,
+        "tableWidth": 480,
+        "cells": [
+          [
+            {
+              "cell": {
+                "left": 52.1875,
+                "right": 205.78125
+              },
+              "text": {
+                "left": 64.984375,
+                "right": 169.671875
+              }
+            },
+            {
+              "cell": {
+                "left": 205.78125,
+                "right": 292.171875
+              },
+              "text": {
+                "left": 218.578125,
+                "right": 242.375
+              }
+            },
+            {
+              "cell": {
+                "left": 292.171875,
+                "right": 532.1875
+              },
+              "text": {
+                "left": 304.96875,
+                "right": 500.359375
+              }
+            }
+          ],
+          [
+            {
+              "cell": {
+                "left": 52.1875,
+                "right": 205.78125
+              },
+              "text": {
+                "left": 64.984375,
+                "right": 139.765625
+              }
+            },
+            {
+              "cell": {
+                "left": 205.78125,
+                "right": 292.171875
+              },
+              "text": {
+                "left": 218.578125,
+                "right": 234.515625
+              }
+            },
+            {
+              "cell": {
+                "left": 292.171875,
+                "right": 532.1875
+              },
+              "text": {
+                "left": 304.96875,
+                "right": 384.515625
+              }
+            }
+          ],
+          [
+            {
+              "cell": {
+                "left": 52.1875,
+                "right": 205.78125
+              },
+              "text": {
+                "left": 64.984375,
+                "right": 111.125
+              }
+            },
+            {
+              "cell": {
+                "left": 205.78125,
+                "right": 292.171875
+              },
+              "text": {
+                "left": 218.578125,
+                "right": 234.53125
+              }
+            },
+            {
+              "cell": {
+                "left": 292.171875,
+                "right": 532.1875
+              },
+              "text": {
+                "left": 304.96875,
+                "right": 436.8125
+              }
+            }
+          ]
+        ]
+      },
+      "failure": "The expression evaluated to a falsy value:\n\n  assert(entry.geometry.docWidth <= 320)\n"
+    },
+    {
+      "language": "kk",
+      "theme": "dark",
+      "passed": false,
+      "geometry": {
+        "docWidth": 359,
+        "regionWidth": 216,
+        "tableWidth": 480,
+        "cells": [
+          [
+            {
+              "cell": {
+                "left": 52.1875,
+                "right": 205.78125
+              },
+              "text": {
+                "left": 64.984375,
+                "right": 169.671875
+              }
+            },
+            {
+              "cell": {
+                "left": 205.78125,
+                "right": 292.171875
+              },
+              "text": {
+                "left": 218.578125,
+                "right": 242.375
+              }
+            },
+            {
+              "cell": {
+                "left": 292.171875,
+                "right": 532.1875
+              },
+              "text": {
+                "left": 304.96875,
+                "right": 500.359375
+              }
+            }
+          ],
+          [
+            {
+              "cell": {
+                "left": 52.1875,
+                "right": 205.78125
+              },
+              "text": {
+                "left": 64.984375,
+                "right": 139.765625
+              }
+            },
+            {
+              "cell": {
+                "left": 205.78125,
+                "right": 292.171875
+              },
+              "text": {
+                "left": 218.578125,
+                "right": 234.515625
+              }
+            },
+            {
+              "cell": {
+                "left": 292.171875,
+                "right": 532.1875
+              },
+              "text": {
+                "left": 304.96875,
+                "right": 384.515625
+              }
+            }
+          ],
+          [
+            {
+              "cell": {
+                "left": 52.1875,
+                "right": 205.78125
+              },
+              "text": {
+                "left": 64.984375,
+                "right": 111.125
+              }
+            },
+            {
+              "cell": {
+                "left": 205.78125,
+                "right": 292.171875
+              },
+              "text": {
+                "left": 218.578125,
+                "right": 234.53125
+              }
+            },
+            {
+              "cell": {
+                "left": 292.171875,
+                "right": 532.1875
+              },
+              "text": {
+                "left": 304.96875,
+                "right": 436.8125
+              }
+            }
+          ]
+        ]
+      },
+      "failure": "The expression evaluated to a falsy value:\n\n  assert(entry.geometry.docWidth <= 320)\n"
+    },
+    {
+      "language": "en",
+      "theme": "light",
+      "passed": false,
+      "geometry": {
+        "docWidth": 345,
+        "regionWidth": 216,
+        "tableWidth": 480,
+        "cells": [
+          [
+            {
+              "cell": {
+                "left": 52.1875,
+                "right": 205.78125
+              },
+              "text": {
+                "left": 64.984375,
+                "right": 169.671875
+              }
+            },
+            {
+              "cell": {
+                "left": 205.78125,
+                "right": 292.171875
+              },
+              "text": {
+                "left": 218.578125,
+                "right": 242.375
+              }
+            },
+            {
+              "cell": {
+                "left": 292.171875,
+                "right": 532.1875
+              },
+              "text": {
+                "left": 304.96875,
+                "right": 465.03125
+              }
+            }
+          ],
+          [
+            {
+              "cell": {
+                "left": 52.1875,
+                "right": 205.78125
+              },
+              "text": {
+                "left": 64.984375,
+                "right": 139.765625
+              }
+            },
+            {
+              "cell": {
+                "left": 205.78125,
+                "right": 292.171875
+              },
+              "text": {
+                "left": 218.578125,
+                "right": 234.515625
+              }
+            },
+            {
+              "cell": {
+                "left": 292.171875,
+                "right": 532.1875
+              },
+              "text": {
+                "left": 304.96875,
+                "right": 381.1875
+              }
+            }
+          ],
+          [
+            {
+              "cell": {
+                "left": 52.1875,
+                "right": 205.78125
+              },
+              "text": {
+                "left": 64.984375,
+                "right": 142.453125
+              }
+            },
+            {
+              "cell": {
+                "left": 205.78125,
+                "right": 292.171875
+              },
+              "text": {
+                "left": 218.578125,
+                "right": 234.53125
+              }
+            },
+            {
+              "cell": {
+                "left": 292.171875,
+                "right": 532.1875
+              },
+              "text": {
+                "left": 304.96875,
+                "right": 462.359375
+              }
+            }
+          ]
+        ]
+      },
+      "failure": "The expression evaluated to a falsy value:\n\n  assert(entry.geometry.docWidth <= 320)\n"
+    },
+    {
+      "language": "en",
+      "theme": "dark",
+      "passed": false,
+      "geometry": {
+        "docWidth": 345,
+        "regionWidth": 216,
+        "tableWidth": 480,
+        "cells": [
+          [
+            {
+              "cell": {
+                "left": 52.1875,
+                "right": 205.78125
+              },
+              "text": {
+                "left": 64.984375,
+                "right": 169.671875
+              }
+            },
+            {
+              "cell": {
+                "left": 205.78125,
+                "right": 292.171875
+              },
+              "text": {
+                "left": 218.578125,
+                "right": 242.375
+              }
+            },
+            {
+              "cell": {
+                "left": 292.171875,
+                "right": 532.1875
+              },
+              "text": {
+                "left": 304.96875,
+                "right": 465.03125
+              }
+            }
+          ],
+          [
+            {
+              "cell": {
+                "left": 52.1875,
+                "right": 205.78125
+              },
+              "text": {
+                "left": 64.984375,
+                "right": 139.765625
+              }
+            },
+            {
+              "cell": {
+                "left": 205.78125,
+                "right": 292.171875
+              },
+              "text": {
+                "left": 218.578125,
+                "right": 234.515625
+              }
+            },
+            {
+              "cell": {
+                "left": 292.171875,
+                "right": 532.1875
+              },
+              "text": {
+                "left": 304.96875,
+                "right": 381.1875
+              }
+            }
+          ],
+          [
+            {
+              "cell": {
+                "left": 52.1875,
+                "right": 205.78125
+              },
+              "text": {
+                "left": 64.984375,
+                "right": 142.453125
+              }
+            },
+            {
+              "cell": {
+                "left": 205.78125,
+                "right": 292.171875
+              },
+              "text": {
+                "left": 218.578125,
+                "right": 234.53125
+              }
+            },
+            {
+              "cell": {
+                "left": 292.171875,
+                "right": 532.1875
+              },
+              "text": {
+                "left": 304.96875,
+                "right": 462.359375
+              }
+            }
+          ]
+        ]
+      },
+      "failure": "The expression evaluated to a falsy value:\n\n  assert(entry.geometry.docWidth <= 320)\n"
+    }
+  ],
+  "passed": false
+}
