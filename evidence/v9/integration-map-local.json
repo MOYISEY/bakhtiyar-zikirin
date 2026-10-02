@@ -1,0 +1,210 @@
+{
+  "checkedAt": "2026-10-02T15:10:50.604Z",
+  "url": "http://127.0.0.1:5193/",
+  "scope": "Targeted compact Helio integration alongside existing tools: language/theme pairs at1440/390, long KK at360/768 and one320 text200 probe. Directed browser commands; no full external app audit, physical phone or Safari claim.",
+  "cases": [
+    {
+      "width": 1440,
+      "language": "ru",
+      "theme": "light",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 1440,
+      "language": "ru",
+      "theme": "dark",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 1440,
+      "language": "kk",
+      "theme": "light",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 1440,
+      "language": "kk",
+      "theme": "dark",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 1440,
+      "language": "en",
+      "theme": "light",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 1440,
+      "language": "en",
+      "theme": "dark",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 390,
+      "language": "ru",
+      "theme": "light",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "csvDownloaded": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 390,
+      "language": "ru",
+      "theme": "dark",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 390,
+      "language": "kk",
+      "theme": "light",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 390,
+      "language": "kk",
+      "theme": "dark",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 390,
+      "language": "en",
+      "theme": "light",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 390,
+      "language": "en",
+      "theme": "dark",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 360,
+      "language": "kk",
+      "theme": "light",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 360,
+      "language": "kk",
+      "theme": "dark",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 768,
+      "language": "kk",
+      "theme": "light",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 768,
+      "language": "kk",
+      "theme": "dark",
+      "text": 100,
+      "errors": [],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 320,
+      "language": "kk",
+      "theme": "dark",
+      "text": 200,
+      "errors": [],
+      "passed": true
+    }
+  ],
+  "demos": [],
+  "passed": true
+}

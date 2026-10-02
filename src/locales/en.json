@@ -302,5 +302,16 @@
   "shapecheck.outputLabel": "Export",
   "shapecheck.output": "An editable JSON project and a ZIP with runnable Node tests. Node 22+, with no npm dependencies to install.",
   "shapecheck.limitsLabel": "Boundaries",
-  "shapecheck.limits": "Up to 20 fixtures; a bounded draft-07 subset. No OpenAPI, regex/format, remote or recursive references."
+  "shapecheck.limits": "Up to 20 fixtures; a bounded draft-07 subset. No OpenAPI, regex/format, remote or recursive references.",
+  "helio.eyebrow": "Web / city sunlight and shadows",
+  "helio.summary": "Choose a spot and see how the light changes.",
+  "helio.lead": "A map point, a neighborhood and a time of day.",
+  "helio.text": "Real building contours become a local 3D model. The timeline moves the sun and shadows; every height is labelled a cartographic estimate and incomplete data has its own state.",
+  "helio.note": "RU / EN. Open horizon is an additional mode. Solar calculations are local; the map loads through OpenFreeMap.",
+  "helio.inputLabel": "Place",
+  "helio.input": "Search nine cities, pick a map point and set an explicit IANA zone.",
+  "helio.checkLabel": "Model",
+  "helio.check": "300 × 300 m area, estimated heights, Three.js shadows and a ray test against loaded buildings.",
+  "helio.outputLabel": "Plan",
+  "helio.output": "Sunrise, sunset, twilight and golden light with DST. JSON and ICS; a clear ray is not an illumination guarantee."
 }
