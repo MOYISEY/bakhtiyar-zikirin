@@ -23,6 +23,9 @@ try {
    await page.goto(url,{waitUntil:'domcontentloaded'});await page.locator('.preferences').waitFor();
    assert.equal(await page.locator('html').getAttribute('lang'),language);assert.equal(await page.locator('html').getAttribute('data-theme'),theme);
    const d=JSON.parse(readFileSync(`src/locales/${language}.json`,'utf8'));
+   assert.equal(await page.locator('#hobby, .case-hobby, .rowline-visual, .rowline-scroll, .image-help').count(),0);
+   assert.equal(await page.locator('#rowline img, #rowline picture, a[href*="krasnaya-nit"], a[href*="rowline-desktop.png"]').count(),0);
+   assert.equal(await page.locator('#work > article').count(),4);entry.actions.push('Personal case and large Rowline image/full-image link absent; four retained projects');
    assert.equal(await page.title(),d.s207); // title key from the annotated document
    const mismatch=await page.evaluate(dictionary=>{
     const bad=[];document.querySelectorAll('[data-i18n-attrs]').forEach(e=>JSON.parse(e.dataset.i18nAttrs).forEach(({attr,key})=>{if(e.id!=='motion-toggle'&&e.getAttribute(attr)!==dictionary[key])bad.push({key,attr,actual:e.getAttribute(attr)});}));
@@ -59,7 +62,6 @@ try {
    assert.deepEqual(entry.axe.violations,[]);entry.actions.push('All four disclosures opened; axe and horizontal overflow');
    for(const selector of ['#rowline summary','#neuralbrief summary','#atyrau summary','#artportal summary'])await page.locator(selector).click();
    await page.locator('#neuralbrief .brief-demo').scrollIntoViewIfNeeded();await page.screenshot({path:`${shots}/${language}-${theme}-${device}-brief.png`});
-   await page.locator('#hobby').scrollIntoViewIfNeeded();await page.screenshot({path:`${shots}/${language}-${theme}-${device}-hobby.png`});
    await page.locator('#contact').scrollIntoViewIfNeeded();await page.screenshot({path:`${shots}/${language}-${theme}-${device}-contact.png`});
    await page.locator('.header').scrollIntoViewIfNeeded();await page.screenshot({path:`${shots}/${language}-${theme}-${device}-hero.png`});
    await page.locator('#language-select').focus();entry.focusStyle=await page.locator('#language-select').evaluate(e=>{const s=getComputedStyle(e);return{outline:s.outline,color:s.color,background:s.backgroundColor,colorScheme:s.colorScheme};});

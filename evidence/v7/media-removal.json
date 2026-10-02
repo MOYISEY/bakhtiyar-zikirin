@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-02T08:49:22.041Z",
+  "removed": [
+    "public/projects/rowline-desktop.png",
+    "public/projects/rowline-mobile.png",
+    "public/projects/krasnaya-nit-board.png",
+    "docs/projects/rowline-desktop.png",
+    "docs/projects/rowline-mobile.png",
+    "docs/projects/krasnaya-nit-board.png",
+    "evidence/v5/link-screenshots/desktop-hobby.png",
+    "evidence/v5/link-screenshots/mobile-hobby.png",
+    "evidence/v5/screenshots/en-dark-desktop-hobby.png",
+    "evidence/v5/screenshots/en-dark-mobile-hobby.png",
+    "evidence/v5/screenshots/en-light-desktop-hobby.png",
+    "evidence/v5/screenshots/en-light-mobile-hobby.png",
+    "evidence/v5/screenshots/kk-dark-desktop-hobby.png",
+    "evidence/v5/screenshots/kk-dark-mobile-hobby.png",
+    "evidence/v5/screenshots/kk-light-desktop-hobby.png",
+    "evidence/v5/screenshots/kk-light-mobile-hobby.png",
+    "evidence/v5/screenshots/ru-dark-desktop-hobby.png",
+    "evidence/v5/screenshots/ru-dark-mobile-hobby.png",
+    "evidence/v5/screenshots/ru-light-desktop-hobby.png",
+    "evidence/v5/screenshots/ru-light-mobile-hobby.png",
+    "evidence/v6/baseline/1165-ru-light-hobby.png",
+    "evidence/v6/baseline/1440-en-dark-hobby.png",
+    "evidence/v6/baseline/360-kk-dark-hobby.png",
+    "evidence/v6/baseline/390-ru-light-hobby.png",
+    "evidence/v6/baseline/768-kk-light-hobby.png",
+    "evidence/v6/screenshots/live/kk-dark-mobile-hobby.png"
+  ],
+  "scope": "Current source/publication assets and personal-case viewport screenshots. Private local copies retained; Git history and separate project repository unchanged."
+}

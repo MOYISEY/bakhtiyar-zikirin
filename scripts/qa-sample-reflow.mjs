@@ -26,7 +26,8 @@ try {
       const dictionary = JSON.parse(readFileSync(`src/locales/${language}.json`, 'utf8'));
       assert.equal(await page.locator('html').getAttribute('lang'), language);
       assert.equal(await page.locator('#system').evaluate(el => el.closest('section').id), 'approach');
-      assert.deepEqual(await page.locator('#work > article').evaluateAll(elements => elements.map(el => el.id)), ['rowline', 'hobby', 'atyrau', 'neuralbrief', 'artportal']);
+      assert.deepEqual(await page.locator('#work > article').evaluateAll(elements => elements.map(el => el.id)), ['rowline', 'atyrau', 'neuralbrief', 'artportal']);
+      assert.equal(await page.locator('#hobby, .case-hobby, #rowline img, #rowline picture, .image-help, a[href*="krasnaya-nit"], a[href*="rowline-desktop.png"]').count(), 0);
       const overflow = await page.evaluate(() => [...document.querySelectorAll('main *, .header *')].filter(el => {
         if (el.closest('.scene-viewport') || el.closest('.sr-only') || getComputedStyle(el).display === 'none') return false;
         const r = el.getBoundingClientRect(); return r.width > 0 && (r.right > innerWidth + 1 || r.left < -1);
@@ -70,11 +71,7 @@ try {
       entry.checks.push('3 tap edit/undo cycles; state survives locale/theme; 2 identical corrected downloads and 1 original download; invalid row excluded');
       await page.locator('.sample').scrollIntoViewIfNeeded();
       await page.screenshot({ path: `${shots}/${width}-${language}-${theme}-sample.png` });
-      const image = page.locator('.rowline-scroll');
-      await image.scrollIntoViewIfNeeded();
-      await image.evaluate(el => { el.scrollTop = 600; });
-      if (width <= 760) assert(await image.evaluate(el => el.scrollTop > 0));
-      entry.imageScroll = await image.evaluate(el => ({ top: el.scrollTop, height: el.clientHeight, scrollHeight: el.scrollHeight }));
+      await page.locator('#rowline').scrollIntoViewIfNeeded();
       await page.screenshot({ path: `${shots}/${width}-${language}-${theme}-rowline.png` });
       assert.equal(await page.locator('#atyrau img').count(), 0);
       assert.deepEqual(entry.errors, []);
