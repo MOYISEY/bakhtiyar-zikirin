@@ -1,0 +1,628 @@
+{
+  "at": "2026-10-04T19:19:48.903Z",
+  "base": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "scope": "live",
+  "method": "Directed native Chromium clicks and direct HTTP navigation. All 11 static entries in language/theme/viewport matrix; mobile is touch emulation. Selected axe checks, actual image decode, route refresh, history, filters, gallery keyboard/mobile controls and preferences. Physical phones, Safari and screen reader not claimed.",
+  "cases": [
+    {
+      "width": 1366,
+      "lang": "ru",
+      "theme": "light",
+      "path": "",
+      "passed": true,
+      "overflow": -15,
+      "axe": []
+    },
+    {
+      "width": 1366,
+      "lang": "ru",
+      "theme": "light",
+      "path": "projects/",
+      "passed": true,
+      "overflow": -15,
+      "axe": []
+    },
+    {
+      "width": 1366,
+      "lang": "ru",
+      "theme": "light",
+      "path": "projects/helio.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "ru",
+      "theme": "light",
+      "path": "projects/keyform.html",
+      "passed": true,
+      "overflow": -15,
+      "axe": []
+    },
+    {
+      "width": 1366,
+      "lang": "ru",
+      "theme": "light",
+      "path": "projects/poslesvet.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "ru",
+      "theme": "light",
+      "path": "projects/framepack.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "ru",
+      "theme": "light",
+      "path": "projects/shapecheck.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "ru",
+      "theme": "light",
+      "path": "projects/rowline.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "ru",
+      "theme": "light",
+      "path": "projects/atyrau.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "ru",
+      "theme": "light",
+      "path": "projects/neuralbrief.html",
+      "passed": true,
+      "overflow": -15,
+      "axe": []
+    },
+    {
+      "width": 1366,
+      "lang": "ru",
+      "theme": "light",
+      "path": "projects/artportal.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "kk",
+      "theme": "light",
+      "path": "",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "kk",
+      "theme": "light",
+      "path": "projects/",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "kk",
+      "theme": "light",
+      "path": "projects/helio.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "kk",
+      "theme": "light",
+      "path": "projects/keyform.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "kk",
+      "theme": "light",
+      "path": "projects/poslesvet.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "kk",
+      "theme": "light",
+      "path": "projects/framepack.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "kk",
+      "theme": "light",
+      "path": "projects/shapecheck.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "kk",
+      "theme": "light",
+      "path": "projects/rowline.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "kk",
+      "theme": "light",
+      "path": "projects/atyrau.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "kk",
+      "theme": "light",
+      "path": "projects/neuralbrief.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "kk",
+      "theme": "light",
+      "path": "projects/artportal.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "en",
+      "theme": "light",
+      "path": "",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "en",
+      "theme": "light",
+      "path": "projects/",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "en",
+      "theme": "light",
+      "path": "projects/helio.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "en",
+      "theme": "light",
+      "path": "projects/keyform.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "en",
+      "theme": "light",
+      "path": "projects/poslesvet.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "en",
+      "theme": "light",
+      "path": "projects/framepack.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "en",
+      "theme": "light",
+      "path": "projects/shapecheck.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "en",
+      "theme": "light",
+      "path": "projects/rowline.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "en",
+      "theme": "light",
+      "path": "projects/atyrau.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "en",
+      "theme": "light",
+      "path": "projects/neuralbrief.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 1366,
+      "lang": "en",
+      "theme": "light",
+      "path": "projects/artportal.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "path": "",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "path": "projects/",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "path": "projects/helio.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "path": "projects/keyform.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "path": "projects/poslesvet.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "path": "projects/framepack.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "path": "projects/shapecheck.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "path": "projects/rowline.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "path": "projects/atyrau.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "path": "projects/neuralbrief.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "path": "projects/artportal.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "kk",
+      "theme": "dark",
+      "path": "",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "kk",
+      "theme": "dark",
+      "path": "projects/",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "kk",
+      "theme": "dark",
+      "path": "projects/helio.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "kk",
+      "theme": "dark",
+      "path": "projects/keyform.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "kk",
+      "theme": "dark",
+      "path": "projects/poslesvet.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "kk",
+      "theme": "dark",
+      "path": "projects/framepack.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "kk",
+      "theme": "dark",
+      "path": "projects/shapecheck.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "kk",
+      "theme": "dark",
+      "path": "projects/rowline.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "kk",
+      "theme": "dark",
+      "path": "projects/atyrau.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "kk",
+      "theme": "dark",
+      "path": "projects/neuralbrief.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "kk",
+      "theme": "dark",
+      "path": "projects/artportal.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "path": "",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "path": "projects/",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "path": "projects/helio.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "path": "projects/keyform.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "path": "projects/poslesvet.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "path": "projects/framepack.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "path": "projects/shapecheck.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "path": "projects/rowline.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "path": "projects/atyrau.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "path": "projects/neuralbrief.html",
+      "passed": true,
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "path": "projects/artportal.html",
+      "passed": true,
+      "overflow": -15
+    }
+  ],
+  "interactions": [
+    {
+      "width": 1366,
+      "lang": "ru",
+      "theme": "light",
+      "checks": [
+        "all five filters, counts, URL, back and forward",
+        "image opens separate case; back restores category and language",
+        "real Rowline sample trim, undo and CSV",
+        "opt-in 3D/fallback, controls, pause and reduced motion",
+        "system theme and public PDF"
+      ],
+      "passed": true,
+      "scene": "ready"
+    },
+    {
+      "width": 1366,
+      "lang": "kk",
+      "theme": "light",
+      "checks": [
+        "all five filters, counts, URL, back and forward",
+        "image opens separate case; back restores category and language",
+        "real Rowline sample trim, undo and CSV",
+        "opt-in 3D/fallback, controls, pause and reduced motion",
+        "system theme and public PDF"
+      ],
+      "passed": true,
+      "scene": "ready"
+    },
+    {
+      "width": 1366,
+      "lang": "en",
+      "theme": "light",
+      "checks": [
+        "all five filters, counts, URL, back and forward",
+        "image opens separate case; back restores category and language",
+        "real Rowline sample trim, undo and CSV",
+        "opt-in 3D/fallback, controls, pause and reduced motion",
+        "system theme and public PDF"
+      ],
+      "passed": true,
+      "scene": "ready"
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "checks": [
+        "all five filters, counts, URL, back and forward",
+        "image opens separate case; back restores category and language",
+        "real Rowline sample trim, undo and CSV",
+        "opt-in 3D/fallback, controls, pause and reduced motion",
+        "system theme and public PDF"
+      ],
+      "passed": true,
+      "scene": "ready"
+    },
+    {
+      "width": 390,
+      "lang": "kk",
+      "theme": "dark",
+      "checks": [
+        "all five filters, counts, URL, back and forward",
+        "image opens separate case; back restores category and language",
+        "real Rowline sample trim, undo and CSV",
+        "opt-in 3D/fallback, controls, pause and reduced motion",
+        "system theme and public PDF"
+      ],
+      "passed": true,
+      "scene": "ready"
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "checks": [
+        "all five filters, counts, URL, back and forward",
+        "image opens separate case; back restores category and language",
+        "real Rowline sample trim, undo and CSV",
+        "opt-in 3D/fallback, controls, pause and reduced motion",
+        "system theme and public PDF"
+      ],
+      "passed": true,
+      "scene": "ready"
+    }
+  ],
+  "edges": [],
+  "passed": true
+}

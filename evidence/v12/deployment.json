@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-10-04T19:18:50.103Z",
+  "repo": "https://github.com/MOYISEY/bakhtiyar-zikirin",
+  "pages": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "status": "built",
+  "build": {
+    "status": "built",
+    "commit": "f27d297f596e39a63831b998883cc2cb5dc043f6",
+    "created_at": "2026-10-04T19:17:08Z",
+    "updated_at": "2026-10-04T19:17:33Z",
+    "error": {
+      "message": null
+    }
+  },
+  "head": "f27d297f596e39a63831b998883cc2cb5dc043f6",
+  "runs": [
+    {
+      "id": 37227685876,
+      "url": "https://github.com/MOYISEY/bakhtiyar-zikirin/actions/runs/37227685876",
+      "head": "f27d297f596e39a63831b998883cc2cb5dc043f6",
+      "status": "completed",
+      "conclusion": "success",
+      "updated_at": "2026-10-04T19:17:40Z"
+    },
+    {
+      "id": 37219718715,
+      "url": "https://github.com/MOYISEY/bakhtiyar-zikirin/actions/runs/37219718715",
+      "head": "03b63f1a252c1dbca4013564cacb45ca3b848db7",
+      "status": "completed",
+      "conclusion": "success",
+      "updated_at": "2026-10-04T17:14:27Z"
+    },
+    {
+      "id": 37219429335,
+      "url": "https://github.com/MOYISEY/bakhtiyar-zikirin/actions/runs/37219429335",
+      "head": "3ee04fc30b8f75ba343bb2f133a430956da2d56c",
+      "status": "completed",
+      "conclusion": "success",
+      "updated_at": "2026-10-04T17:09:53Z"
+    }
+  ]
+}
