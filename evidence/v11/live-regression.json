@@ -1,0 +1,184 @@
+{
+  "at": "2026-10-04T17:11:32.875Z",
+  "scope": "live",
+  "base": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "method": "Directed native Chromium browser clicks, DOM checks, visual screenshots and selected axe checks. 1366×768 laptop and 390×844 touch emulation, three languages and both themes. No physical-phone, Safari or screen-reader claim.",
+  "cases": [
+    {
+      "width": 1366,
+      "lang": "ru",
+      "theme": "light",
+      "checks": [
+        "v9 palette and static normal name; no v10 gallery, photos or removed personal case; complete short-copy bindings",
+        "four visible navigation links; all nine project rows immediately available; every disclosure opens/closes with focus restored; primary links uncovered",
+        "restored hero Rowline trim/undo and actual CSV download",
+        "all native selectors change; preferences survive reload; system theme follows media",
+        "actual primary demo/code popup visits for Helio, Keyform and Poslesvet; real public PDF download",
+        "all remaining primary project destinations clicked; unchanged Windows release URL returns HTTP 200",
+        "visible approach diagram loads; mode/layer/request controls respond with reduced motion"
+      ],
+      "errors": [],
+      "passed": true,
+      "overflow": 0,
+      "axe": [],
+      "sceneState": "ready"
+    },
+    {
+      "width": 1366,
+      "lang": "kk",
+      "theme": "light",
+      "checks": [
+        "v9 palette and static normal name; no v10 gallery, photos or removed personal case; complete short-copy bindings",
+        "four visible navigation links; all nine project rows immediately available; every disclosure opens/closes with focus restored; primary links uncovered",
+        "restored hero Rowline trim/undo and actual CSV download",
+        "all native selectors change; preferences survive reload; system theme follows media",
+        "visible approach diagram loads; mode/layer/request controls respond with reduced motion"
+      ],
+      "errors": [],
+      "passed": true,
+      "overflow": 0,
+      "sceneState": "ready"
+    },
+    {
+      "width": 1366,
+      "lang": "en",
+      "theme": "light",
+      "checks": [
+        "v9 palette and static normal name; no v10 gallery, photos or removed personal case; complete short-copy bindings",
+        "four visible navigation links; all nine project rows immediately available; every disclosure opens/closes with focus restored; primary links uncovered",
+        "restored hero Rowline trim/undo and actual CSV download",
+        "all native selectors change; preferences survive reload; system theme follows media",
+        "visible approach diagram loads; mode/layer/request controls respond with reduced motion"
+      ],
+      "errors": [],
+      "passed": true,
+      "overflow": 0,
+      "sceneState": "ready"
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "checks": [
+        "v9 palette and static normal name; no v10 gallery, photos or removed personal case; complete short-copy bindings",
+        "four visible navigation links; all nine project rows immediately available; every disclosure opens/closes with focus restored; primary links uncovered",
+        "restored hero Rowline trim/undo and actual CSV download",
+        "all native selectors change; preferences survive reload; system theme follows media",
+        "visible approach diagram loads; mode/layer/request controls respond with reduced motion"
+      ],
+      "errors": [],
+      "passed": true,
+      "overflow": 0,
+      "axe": [],
+      "sceneState": "ready"
+    },
+    {
+      "width": 390,
+      "lang": "kk",
+      "theme": "dark",
+      "checks": [
+        "v9 palette and static normal name; no v10 gallery, photos or removed personal case; complete short-copy bindings",
+        "four visible navigation links; all nine project rows immediately available; every disclosure opens/closes with focus restored; primary links uncovered",
+        "restored hero Rowline trim/undo and actual CSV download",
+        "all native selectors change; preferences survive reload; system theme follows media",
+        "visible approach diagram loads; mode/layer/request controls respond with reduced motion"
+      ],
+      "errors": [],
+      "passed": true,
+      "overflow": 0,
+      "sceneState": "ready"
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "checks": [
+        "v9 palette and static normal name; no v10 gallery, photos or removed personal case; complete short-copy bindings",
+        "four visible navigation links; all nine project rows immediately available; every disclosure opens/closes with focus restored; primary links uncovered",
+        "restored hero Rowline trim/undo and actual CSV download",
+        "all native selectors change; preferences survive reload; system theme follows media",
+        "visible approach diagram loads; mode/layer/request controls respond with reduced motion"
+      ],
+      "errors": [],
+      "passed": true,
+      "overflow": 0,
+      "sceneState": "ready"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://moyisey.github.io/helio/",
+      "landed": "https://moyisey.github.io/helio/",
+      "status": 200,
+      "clicked": true
+    },
+    {
+      "href": "https://github.com/MOYISEY/helio",
+      "landed": "https://github.com/MOYISEY/helio",
+      "status": 200,
+      "clicked": true
+    },
+    {
+      "href": "https://moyisey.github.io/keyform/",
+      "landed": "https://moyisey.github.io/keyform/",
+      "status": 200,
+      "clicked": true
+    },
+    {
+      "href": "https://github.com/MOYISEY/keyform",
+      "landed": "https://github.com/MOYISEY/keyform",
+      "status": 200,
+      "clicked": true
+    },
+    {
+      "href": "https://moyisey.github.io/poslesvet/",
+      "landed": "https://moyisey.github.io/poslesvet/",
+      "status": 200,
+      "clicked": true
+    },
+    {
+      "href": "https://github.com/MOYISEY/poslesvet",
+      "landed": "https://github.com/MOYISEY/poslesvet",
+      "status": 200,
+      "clicked": true
+    },
+    {
+      "href": "https://moyisey.github.io/framepack/",
+      "landed": "https://moyisey.github.io/framepack/",
+      "status": 200,
+      "clicked": true
+    },
+    {
+      "href": "https://moyisey.github.io/shapecheck/",
+      "landed": "https://moyisey.github.io/shapecheck/",
+      "status": 200,
+      "clicked": true
+    },
+    {
+      "href": "https://moyisey.github.io/rowline/",
+      "landed": "https://moyisey.github.io/rowline/",
+      "status": 200,
+      "clicked": true
+    },
+    {
+      "href": "https://moyisey.github.io/atyrau-tour-3d/tour_v2/",
+      "landed": "https://moyisey.github.io/atyrau-tour-3d/tour_v2/",
+      "status": 200,
+      "clicked": true
+    },
+    {
+      "href": "https://github.com/MOYISEY/art_portal",
+      "landed": "https://github.com/MOYISEY/art_portal",
+      "status": 200,
+      "clicked": true
+    }
+  ],
+  "passed": true,
+  "browserVersion": "153.0.8010.12",
+  "windowsRelease": {
+    "href": "https://github.com/MOYISEY/poslesvet/releases/download/v0.2.0/Poslesvet-Windows-x64.zip",
+    "method": "HEAD",
+    "status": 200
+  },
+  "codeCommit": "3ee04fc30b8f75ba343bb2f133a430956da2d56c"
+}

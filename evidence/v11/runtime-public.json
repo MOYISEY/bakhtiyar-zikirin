@@ -1,0 +1,153 @@
+{
+  "at": "2026-10-04T17:11:36.226Z",
+  "commit": "3ee04fc30b8f75ba343bb2f133a430956da2d56c",
+  "url": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "scope": "All committed production runtime files except hosting marker .nojekyll; publicly fetched bytes compared with local build. No map provider tile/data collection.",
+  "passed": true,
+  "results": [
+    {
+      "path": "assets/index-DzwX36bW.css",
+      "status": 200,
+      "bytes": 48311,
+      "sha256": "b201cf7af3d72778757923c7b1a3387d9f69c565369fb6c6d13d466fbbfdb3aa",
+      "localSha256": "b201cf7af3d72778757923c7b1a3387d9f69c565369fb6c6d13d466fbbfdb3aa",
+      "identical": true
+    },
+    {
+      "path": "assets/index-DZnKQEH-.js",
+      "status": 200,
+      "bytes": 90978,
+      "sha256": "f457a8209b785f6ebeba0ff737687a2090741f5d7bfab252300ba2353734d74d",
+      "localSha256": "f457a8209b785f6ebeba0ff737687a2090741f5d7bfab252300ba2353734d74d",
+      "identical": true
+    },
+    {
+      "path": "assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2",
+      "status": 200,
+      "bytes": 10540,
+      "sha256": "268f03691b3d06e57abcf20f9277e314ea8784298983aab5b40c1b91965027e1",
+      "localSha256": "268f03691b3d06e57abcf20f9277e314ea8784298983aab5b40c1b91965027e1",
+      "identical": true
+    },
+    {
+      "path": "assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+      "status": 200,
+      "bytes": 15860,
+      "sha256": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27",
+      "localSha256": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27",
+      "identical": true
+    },
+    {
+      "path": "assets/onest-latin-ext-wght-normal-QAhDxQuo.woff2",
+      "status": 200,
+      "bytes": 28452,
+      "sha256": "14e7d3079b75860e2ab50efc6c318c398fdb46ede9b56e625f12ae70a3c5d9a4",
+      "localSha256": "14e7d3079b75860e2ab50efc6c318c398fdb46ede9b56e625f12ae70a3c5d9a4",
+      "identical": true
+    },
+    {
+      "path": "assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+      "status": 200,
+      "bytes": 33760,
+      "sha256": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828",
+      "localSha256": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828",
+      "identical": true
+    },
+    {
+      "path": "assets/onest-math-wght-normal-Bl4ZGkZl.woff2",
+      "status": 200,
+      "bytes": 25480,
+      "sha256": "c74952a8c0c8c558c4f879f83773cf529d11350609f7073f5b2c5999dec46041",
+      "localSha256": "c74952a8c0c8c558c4f879f83773cf529d11350609f7073f5b2c5999dec46041",
+      "identical": true
+    },
+    {
+      "path": "assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+      "status": 200,
+      "bytes": 18168,
+      "sha256": "2ec2d45d2ec0770e2c18cba2dba5126cf2dcff181d23ad192e9fffeb4af4b0b6",
+      "localSha256": "2ec2d45d2ec0770e2c18cba2dba5126cf2dcff181d23ad192e9fffeb4af4b0b6",
+      "identical": true
+    },
+    {
+      "path": "favicon.svg",
+      "status": 200,
+      "bytes": 387,
+      "sha256": "597b0d82b4c680bacdfc829de873a5041d712a60041fe7e707fc691b3c139843",
+      "localSha256": "597b0d82b4c680bacdfc829de873a5041d712a60041fe7e707fc691b3c139843",
+      "identical": true
+    },
+    {
+      "path": "assets/onest-vietnamese-wght-normal-BBxOatbv.woff2",
+      "status": 200,
+      "bytes": 12400,
+      "sha256": "d852d4d094a3a46d701d16245deb7ca83b16b5bd69e20aa0aba089392ad69474",
+      "localSha256": "d852d4d094a3a46d701d16245deb7ca83b16b5bd69e20aa0aba089392ad69474",
+      "identical": true
+    },
+    {
+      "path": "assets/scene-C_SzKQoF.js",
+      "status": 200,
+      "bytes": 603151,
+      "sha256": "69fc85dbde897fe639c61d95004925cdc610f9fe3625f7d3bd2a839f34adc883",
+      "localSha256": "69fc85dbde897fe639c61d95004925cdc610f9fe3625f7d3bd2a839f34adc883",
+      "identical": true
+    },
+    {
+      "path": "files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf",
+      "status": 200,
+      "bytes": 96616,
+      "sha256": "566051b1e65dbfdf17982f0466948e2556157887f512b5db4d7bb248272060cb",
+      "localSha256": "566051b1e65dbfdf17982f0466948e2556157887f512b5db4d7bb248272060cb",
+      "identical": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 37162,
+      "sha256": "6cd1f5197b5b0fb2cd415d9ef920440d1f186d5b226bd12a8586bcf9dd309326",
+      "localSha256": "6cd1f5197b5b0fb2cd415d9ef920440d1f186d5b226bd12a8586bcf9dd309326",
+      "identical": true
+    },
+    {
+      "path": "images/keyform-exploded.png",
+      "status": 200,
+      "bytes": 273484,
+      "sha256": "5ad3f52a8de0325df2848ce5870a685a4effa632686c6c729b73ea23bc92e729",
+      "localSha256": "5ad3f52a8de0325df2848ce5870a685a4effa632686c6c729b73ea23bc92e729",
+      "identical": true
+    },
+    {
+      "path": "images/poslesvet-tide.png",
+      "status": 200,
+      "bytes": 236082,
+      "sha256": "e510217e62baa97b6025a15543e39d0b3e3009d46748240a50376963ecea281b",
+      "localSha256": "e510217e62baa97b6025a15543e39d0b3e3009d46748240a50376963ecea281b",
+      "identical": true
+    },
+    {
+      "path": "images/helio-evening-map.png",
+      "status": 200,
+      "bytes": 646321,
+      "sha256": "4816f564bfcacd4ab421aba40f9c4c923dc957db4477bc7cbcbb4597e8e839f4",
+      "localSha256": "4816f564bfcacd4ab421aba40f9c4c923dc957db4477bc7cbcbb4597e8e839f4",
+      "identical": true
+    },
+    {
+      "path": "licenses/Onest-OFL.txt",
+      "status": 200,
+      "bytes": 4384,
+      "sha256": "071195d8806e226faeee60259c28ca67b458227af5195a73f5cfcab06e3003bc",
+      "localSha256": "071195d8806e226faeee60259c28ca67b458227af5195a73f5cfcab06e3003bc",
+      "identical": true
+    },
+    {
+      "path": "licenses/Three-MIT.txt",
+      "status": 200,
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "localSha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "identical": true
+    }
+  ]
+}
