@@ -1,6 +1,6 @@
 import './style.css';
 import './hierarchy.css';
-import './concise.css';
+import './restoration.css';
 import { showSceneFallback } from './fallback';
 import { initPreferences, t } from './preferences';
 import { initRowlineSample } from './rowline-sample';
@@ -73,7 +73,7 @@ const sectionObserver = new IntersectionObserver(entries => {
     });
   });
 }, { rootMargin: '-15% 0px -60% 0px' });
-['work', 'experience', 'contact'].forEach(id => sectionObserver.observe(document.getElementById(id)!));
+['work', 'experience', 'approach', 'contact'].forEach(id => sectionObserver.observe(document.getElementById(id)!));
 
 function updateMotionPreference() {
   document.documentElement.classList.toggle('reduced-motion', reducedMotion.matches);
@@ -89,15 +89,18 @@ window.addEventListener('portfolio:preferences', () => {
 });
 document.querySelectorAll<HTMLButtonElement>('[data-js-only]').forEach(button => { button.disabled = false; });
 
-// The diagram is optional. Opening it is the only request for its renderer.
+// Restore v9's visible diagram and load its renderer near the viewport.
 let sceneRequested = false;
-const diagram = document.querySelector<HTMLDetailsElement>('#approach')!;
+const sceneLoader = new IntersectionObserver(entries => {
+  if (entries.some(entry => entry.isIntersecting)) loadScene();
+}, { rootMargin: '600px' });
 function loadScene() {
-  if (sceneRequested || !diagram.open) return;
+  if (sceneRequested) return;
   sceneRequested = true;
+  sceneLoader.disconnect();
   import('./scene').then(({ initScene }) => initScene()).catch(showSceneFallback);
 }
-diagram.addEventListener('toggle', () => { if (diagram.open) loadScene(); });
+sceneLoader.observe(system);
 system.addEventListener('pointerdown', loadScene, { once: true });
 system.addEventListener('focusin', loadScene, { once: true });
 
@@ -116,7 +119,6 @@ function revealHash() {
     if (ancestor instanceof HTMLDetailsElement) ancestor.open = true;
   }
   if (target instanceof HTMLDetailsElement) target.open = true;
-  document.querySelector<HTMLDetailsElement>('.mobile-navigation')!.open = false;
   target.focus({ preventScroll: true });
   requestAnimationFrame(() => target.scrollIntoView({ behavior: reducedMotion.matches ? 'instant' : 'smooth', block: 'start' }));
 }
@@ -125,20 +127,3 @@ navLinks.forEach(link => link.addEventListener('click', () => {
   if (link.hash === location.hash) revealHash();
 }));
 if (location.hash) revealHash();
-const appearance = document.querySelector<HTMLDetailsElement>('.appearance-menu')!;
-document.addEventListener('pointerdown', event => { if (!appearance.contains(event.target as Node)) appearance.open = false; });
-appearance.addEventListener('keydown', event => {
-  if (event.key === 'Escape') { appearance.open = false; appearance.querySelector('summary')!.focus(); }
-});
-const mobileNav = document.querySelector<HTMLDetailsElement>('.mobile-navigation')!;
-appearance.addEventListener('toggle', () => { if (appearance.open) mobileNav.open = false; });
-mobileNav.addEventListener('toggle', () => { if (mobileNav.open) appearance.open = false; });
-document.addEventListener('pointerdown', event => { if (!mobileNav.contains(event.target as Node)) mobileNav.open = false; });
-mobileNav.addEventListener('keydown', event => {
-  if (event.key === 'Escape') { mobileNav.open = false; mobileNav.querySelector('summary')!.focus(); }
-});
-const hero = document.querySelector<HTMLElement>('.hero')!;
-let heroVisible = true;
-const updateHero = () => hero.classList.toggle('motion-paused', !heroVisible || document.hidden);
-new IntersectionObserver(entries => { heroVisible = entries[0]?.isIntersecting ?? false; updateHero(); }).observe(hero);
-document.addEventListener('visibilitychange', updateHero);

@@ -1,0 +1,245 @@
+{
+  "at": "2026-10-04T17:02:59.120Z",
+  "scope": "local",
+  "base": "http://127.0.0.1:5202/",
+  "method": "Directed native Chromium browser clicks, DOM checks, visual screenshots and selected axe checks. 1366×768 laptop and 390×844 touch emulation, three languages and both themes. No physical-phone, Safari or screen-reader claim.",
+  "cases": [
+    {
+      "width": 1366,
+      "lang": "ru",
+      "theme": "light",
+      "checks": [
+        "v9 palette and static normal name; no v10 gallery, photos or removed personal case; complete short-copy bindings",
+        "four visible navigation links; all nine project rows immediately available; every disclosure opens/closes with focus restored; primary links uncovered",
+        "restored hero Rowline trim/undo and actual CSV download",
+        "all native selectors change; preferences survive reload; system theme follows media",
+        "actual primary demo/code popup visits for Helio, Keyform and Poslesvet; real public PDF download",
+        "visible approach diagram loads; mode/layer/request controls respond with reduced motion"
+      ],
+      "errors": [],
+      "passed": true,
+      "overflow": 0,
+      "axe": [],
+      "sceneState": "ready"
+    },
+    {
+      "width": 1366,
+      "lang": "ru",
+      "theme": "dark",
+      "checks": [
+        "v9 palette and static normal name; no v10 gallery, photos or removed personal case; complete short-copy bindings",
+        "four visible navigation links; all nine project rows immediately available; every disclosure opens/closes with focus restored; primary links uncovered",
+        "restored hero Rowline trim/undo and actual CSV download",
+        "all native selectors change; preferences survive reload; system theme follows media",
+        "visible approach diagram loads; mode/layer/request controls respond with reduced motion"
+      ],
+      "errors": [],
+      "passed": true,
+      "overflow": 0,
+      "axe": [],
+      "sceneState": "ready"
+    },
+    {
+      "width": 1366,
+      "lang": "kk",
+      "theme": "light",
+      "checks": [
+        "v9 palette and static normal name; no v10 gallery, photos or removed personal case; complete short-copy bindings",
+        "four visible navigation links; all nine project rows immediately available; every disclosure opens/closes with focus restored; primary links uncovered",
+        "restored hero Rowline trim/undo and actual CSV download",
+        "all native selectors change; preferences survive reload; system theme follows media",
+        "visible approach diagram loads; mode/layer/request controls respond with reduced motion"
+      ],
+      "errors": [],
+      "passed": true,
+      "overflow": 0,
+      "sceneState": "ready"
+    },
+    {
+      "width": 1366,
+      "lang": "kk",
+      "theme": "dark",
+      "checks": [
+        "v9 palette and static normal name; no v10 gallery, photos or removed personal case; complete short-copy bindings",
+        "four visible navigation links; all nine project rows immediately available; every disclosure opens/closes with focus restored; primary links uncovered",
+        "restored hero Rowline trim/undo and actual CSV download",
+        "all native selectors change; preferences survive reload; system theme follows media",
+        "visible approach diagram loads; mode/layer/request controls respond with reduced motion"
+      ],
+      "errors": [],
+      "passed": true,
+      "overflow": 0,
+      "sceneState": "ready"
+    },
+    {
+      "width": 1366,
+      "lang": "en",
+      "theme": "light",
+      "checks": [
+        "v9 palette and static normal name; no v10 gallery, photos or removed personal case; complete short-copy bindings",
+        "four visible navigation links; all nine project rows immediately available; every disclosure opens/closes with focus restored; primary links uncovered",
+        "restored hero Rowline trim/undo and actual CSV download",
+        "all native selectors change; preferences survive reload; system theme follows media",
+        "visible approach diagram loads; mode/layer/request controls respond with reduced motion"
+      ],
+      "errors": [],
+      "passed": true,
+      "overflow": 0,
+      "sceneState": "ready"
+    },
+    {
+      "width": 1366,
+      "lang": "en",
+      "theme": "dark",
+      "checks": [
+        "v9 palette and static normal name; no v10 gallery, photos or removed personal case; complete short-copy bindings",
+        "four visible navigation links; all nine project rows immediately available; every disclosure opens/closes with focus restored; primary links uncovered",
+        "restored hero Rowline trim/undo and actual CSV download",
+        "all native selectors change; preferences survive reload; system theme follows media",
+        "visible approach diagram loads; mode/layer/request controls respond with reduced motion"
+      ],
+      "errors": [],
+      "passed": true,
+      "overflow": 0,
+      "sceneState": "ready"
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "light",
+      "checks": [
+        "v9 palette and static normal name; no v10 gallery, photos or removed personal case; complete short-copy bindings",
+        "four visible navigation links; all nine project rows immediately available; every disclosure opens/closes with focus restored; primary links uncovered",
+        "restored hero Rowline trim/undo and actual CSV download",
+        "all native selectors change; preferences survive reload; system theme follows media",
+        "visible approach diagram loads; mode/layer/request controls respond with reduced motion"
+      ],
+      "errors": [],
+      "passed": true,
+      "overflow": 0,
+      "axe": [],
+      "sceneState": "ready"
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "checks": [
+        "v9 palette and static normal name; no v10 gallery, photos or removed personal case; complete short-copy bindings",
+        "four visible navigation links; all nine project rows immediately available; every disclosure opens/closes with focus restored; primary links uncovered",
+        "restored hero Rowline trim/undo and actual CSV download",
+        "all native selectors change; preferences survive reload; system theme follows media",
+        "visible approach diagram loads; mode/layer/request controls respond with reduced motion"
+      ],
+      "errors": [],
+      "passed": true,
+      "overflow": 0,
+      "axe": [],
+      "sceneState": "ready"
+    },
+    {
+      "width": 390,
+      "lang": "kk",
+      "theme": "light",
+      "checks": [
+        "v9 palette and static normal name; no v10 gallery, photos or removed personal case; complete short-copy bindings",
+        "four visible navigation links; all nine project rows immediately available; every disclosure opens/closes with focus restored; primary links uncovered",
+        "restored hero Rowline trim/undo and actual CSV download",
+        "all native selectors change; preferences survive reload; system theme follows media",
+        "visible approach diagram loads; mode/layer/request controls respond with reduced motion"
+      ],
+      "errors": [],
+      "passed": true,
+      "overflow": 0,
+      "sceneState": "ready"
+    },
+    {
+      "width": 390,
+      "lang": "kk",
+      "theme": "dark",
+      "checks": [
+        "v9 palette and static normal name; no v10 gallery, photos or removed personal case; complete short-copy bindings",
+        "four visible navigation links; all nine project rows immediately available; every disclosure opens/closes with focus restored; primary links uncovered",
+        "restored hero Rowline trim/undo and actual CSV download",
+        "all native selectors change; preferences survive reload; system theme follows media",
+        "visible approach diagram loads; mode/layer/request controls respond with reduced motion"
+      ],
+      "errors": [],
+      "passed": true,
+      "overflow": 0,
+      "sceneState": "ready"
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "light",
+      "checks": [
+        "v9 palette and static normal name; no v10 gallery, photos or removed personal case; complete short-copy bindings",
+        "four visible navigation links; all nine project rows immediately available; every disclosure opens/closes with focus restored; primary links uncovered",
+        "restored hero Rowline trim/undo and actual CSV download",
+        "all native selectors change; preferences survive reload; system theme follows media",
+        "visible approach diagram loads; mode/layer/request controls respond with reduced motion"
+      ],
+      "errors": [],
+      "passed": true,
+      "overflow": 0,
+      "sceneState": "ready"
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "checks": [
+        "v9 palette and static normal name; no v10 gallery, photos or removed personal case; complete short-copy bindings",
+        "four visible navigation links; all nine project rows immediately available; every disclosure opens/closes with focus restored; primary links uncovered",
+        "restored hero Rowline trim/undo and actual CSV download",
+        "all native selectors change; preferences survive reload; system theme follows media",
+        "visible approach diagram loads; mode/layer/request controls respond with reduced motion"
+      ],
+      "errors": [],
+      "passed": true,
+      "overflow": 0,
+      "sceneState": "ready"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://moyisey.github.io/helio/",
+      "landed": "https://moyisey.github.io/helio/",
+      "status": 200,
+      "clicked": true
+    },
+    {
+      "href": "https://github.com/MOYISEY/helio",
+      "landed": "https://github.com/MOYISEY/helio",
+      "status": 200,
+      "clicked": true
+    },
+    {
+      "href": "https://moyisey.github.io/keyform/",
+      "landed": "https://moyisey.github.io/keyform/",
+      "status": 200,
+      "clicked": true
+    },
+    {
+      "href": "https://github.com/MOYISEY/keyform",
+      "landed": "https://github.com/MOYISEY/keyform",
+      "status": 200,
+      "clicked": true
+    },
+    {
+      "href": "https://moyisey.github.io/poslesvet/",
+      "landed": "https://moyisey.github.io/poslesvet/",
+      "status": 200,
+      "clicked": true
+    },
+    {
+      "href": "https://github.com/MOYISEY/poslesvet",
+      "landed": "https://github.com/MOYISEY/poslesvet",
+      "status": 200,
+      "clicked": true
+    }
+  ],
+  "passed": true,
+  "browserVersion": "153.0.8010.12"
+}

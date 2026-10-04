@@ -35,7 +35,7 @@ function applyTheme() {
   document.documentElement.dataset.theme = theme;
   document.documentElement.dataset.themePreference = preferences.theme;
   document.querySelector<HTMLSelectElement>('#theme-select')!.value = preferences.theme;
-  document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#111214' : '#eeeef0');
+  document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#121b1a' : '#f3f0e8');
 }
 function save() { try { localStorage.setItem(storageKey, JSON.stringify(preferences)); } catch { /* Changes still work for this visit. */ } }
 export function initPreferences() {
