@@ -1,0 +1,19 @@
+import {readFileSync,writeFileSync,copyFileSync} from 'node:fs';
+import {openBrowser} from './browser-config.mjs';
+const root='evidence/v13',old=JSON.parse(readFileSync('evidence/v12/media-provenance.json','utf8')).captures.find(c=>c.id==='keyform'&&c.index===1),fresh=JSON.parse(readFileSync(root+'/media-provenance.json','utf8')).projects.keyform;
+copyFileSync('public/'+old.preview.file,root+'/keyform-before-720.jpg');copyFileSync('public/'+fresh.card.variants.at(-1).file,root+'/keyform-after-1600.webp');
+const url=(file,type)=>`data:image/${type};base64,${readFileSync(file).toString('base64')}`;
+const browser=await openBrowser(),context=await browser.newContext({viewport:{width:1680,height:650},deviceScaleFactor:2}),page=await context.newPage();
+try {
+ await page.setContent(`<html lang="ru"><style>body{margin:0;padding:24px;background:#f3f0e8;color:#172223;font:18px Arial}h1{font-size:28px;margin:0 0 12px}p{margin:0 0 18px}.row{display:flex;gap:24px}figure{margin:0;width:800px}img{display:block;width:800px;height:500px;object-fit:contain;background:#e4e8df}figcaption{margin:10px 0;font-size:18px}</style><h1>Keyform · свежий кадр вместо маленького JPEG</h1><p>Оба изображения показаны шириной 800 CSS px при DPR 2. Прежний интерфейс занимает почти весь кадр; новое превью сосредоточено на настоящей модели.</p><div class="row"><figure><img src="${url(root+'/keyform-before-720.jpg','jpeg')}"><figcaption>V12 · 720×450 · ${old.preview.bytes.toLocaleString('en-US')} байт · JPEG, два этапа сжатия</figcaption></figure><figure><img src="${url(root+'/keyform-after-1600.webp','webp')}"><figcaption>Новый кадр · 1600×1000 · ${fresh.card.variants.at(-1).bytes.toLocaleString('en-US')} байт · WebP, из нового PNG</figcaption></figure></div></html>`);
+ await page.locator('img').evaluateAll(async nodes=>{for(const n of nodes)await n.decode();});await page.screenshot({path:root+'/keyform-before-after.png'});
+ const crops=await page.evaluate(async ({before,after})=>{
+  const images=await Promise.all([before,after].map(async data=>{const i=new Image();i.src=data;await i.decode();return i;}));
+  const canvas=document.createElement('canvas');canvas.width=1280;canvas.height=400;const c=canvas.getContext('2d');c.fillStyle='#f3f0e8';c.fillRect(0,0,1280,400);
+  for(let k=0;k<2;k++){const scaled=document.createElement('canvas');scaled.width=1600;scaled.height=1000;scaled.getContext('2d').drawImage(images[k],0,0,1600,1000);c.drawImage(scaled,40,20,320,160,k*640,70,640,320);c.fillStyle='#172223';c.font='26px Arial';c.fillText(k?'Новое фото: 2400×1500':'V12: 1280×800',k*640+12,38);}
+  return canvas.toDataURL('image/png').split(',')[1];
+ },{before:url('public/'+old.file,'jpeg'),after:url('public/'+fresh.shots[0].variants.find(v=>v.width===2400).file,'webp')});
+ writeFileSync(root+'/keyform-text-detail-before-after.png',Buffer.from(crops,'base64'));
+ const baseline=JSON.parse(readFileSync('qa-private/v13/inspection.json','utf8'));writeFileSync(root+'/baseline-image-density.json',JSON.stringify(baseline.filter(e=>e.width),null,2)+'\n');
+ const report={at:new Date().toISOString(),scope:'First Keyform comparison before changing portfolio UI; both own actual-app captures. User attachment not used.',cardDisplay:{cssWidth:800,dpr:2,requiredPixelWidth:1600},before:{...old.preview,jpegPasses:2},after:{...fresh.card.variants.at(-1),pngSourceWidth:fresh.card.sourceWidth,pngSourceHeight:fresh.card.sourceHeight,sourceDpr:fresh.captures[1].dpr},detailBefore:{width:old.width,height:old.height,bytes:old.bytes},detailAfter:fresh.shots[0].variants.find(v=>v.width===2400),sourceCanvas:fresh.captures[0].canvas};writeFileSync(root+'/first-comparison.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));
+}finally{await context.close();await browser.close();}

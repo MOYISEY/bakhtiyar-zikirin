@@ -3,15 +3,16 @@ import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
 import AxeBuilder from '@axe-core/playwright';
 import {openBrowser} from './browser-config.mjs';
 const base=process.argv[2]??'http://127.0.0.1:5202/',scope=process.argv[3]??'local';
-const out=`evidence/v12/${scope}-pages.json`,shots=`qa-private/v12/${scope}`;mkdirSync(shots,{recursive:true});mkdirSync('evidence/v12/screenshots',{recursive:true});
+const version=process.env.QA_EVIDENCE_VERSION??'v12';
+const out=`evidence/${version}/${scope}-pages.json`,shots=`qa-private/${version}/${scope}`;mkdirSync(shots,{recursive:true});mkdirSync(`evidence/${version}/screenshots`,{recursive:true});
 const projects=JSON.parse(readFileSync('src/content/projects.json','utf8')),routes=[{path:'',page:'home'},{path:'projects/',page:'catalog'},...projects.map(p=>({path:'projects/'+p.id+'.html',page:'project',id:p.id}))];
 const report={at:new Date().toISOString(),base,scope,method:'Directed native Chromium clicks and direct HTTP navigation. All 11 static entries in language/theme/viewport matrix; mobile is touch emulation. Selected axe checks, actual image decode, route refresh, history, filters, gallery keyboard/mobile controls and preferences. Physical phones, Safari and screen reader not claimed.',cases:[],interactions:[],edges:[],passed:false};
 let b;const save=()=>writeFileSync(out,JSON.stringify(report,null,2));
 async function decodeImages(page){return page.locator('img[src]').evaluateAll(async nodes=>{const errors=[];for(const n of nodes){try{n.loading='eager';await Promise.race([n.decode(),new Promise((_,reject)=>setTimeout(()=>reject(Error('Image decode timeout')),10000))]);if(!n.naturalWidth)errors.push(n.src);}catch{errors.push(n.src);}}return errors;});}
-async function shot(page,name,publish=false){await page.screenshot({path:shots+'/'+name+'.png'});if(publish)await page.screenshot({path:'evidence/v12/screenshots/'+scope+'-'+name+'.png'});}
+async function shot(page,name,publish=false){await page.screenshot({path:shots+'/'+name+'.png'});if(publish)await page.screenshot({path:`evidence/${version}/screenshots/`+scope+'-'+name+'.png'});}
 try {
 for(const width of [1366,390])for(const lang of ['ru','kk','en'])for(const theme of ['light','dark']) {
- if(scope==='live'&&theme!==(width===1366?'light':'dark'))continue;
+ if(['live','smoke'].includes(scope)&&theme!==(width===1366?'light':'dark'))continue;
  b=await openBrowser();const context=await b.newContext({viewport:{width,height:width===1366?768:844},hasTouch:width===390,reducedMotion:'reduce',colorScheme:theme,acceptDownloads:true});
  await context.addInitScript(p=>localStorage.setItem('portfolio.preferences.v1',JSON.stringify(p)),{language:lang,theme});
  let page;const d=JSON.parse(readFileSync('src/locales/'+lang+'.json','utf8')),prefix=`${width}-${lang}-${theme}`,errors=[];

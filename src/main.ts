@@ -6,6 +6,14 @@ import { initPreferences, language, t } from './preferences';
 import { showSceneFallback } from './fallback';
 
 initPreferences();
+function limitDetailImages() {
+  document.querySelectorAll<HTMLAnchorElement>('.case-media .gallery-open[data-kind="screenshot"]').forEach(link => {
+    const figure = link.closest<HTMLElement>('.case-media')!;
+    figure.style.maxWidth = `${Math.min(1100, Number(link.dataset.width) / devicePixelRatio)}px`;
+  });
+}
+limitDetailImages();
+window.addEventListener('resize', limitDetailImages);
 document.querySelectorAll<HTMLElement>('.project-preview, .gallery-open, .hero-preview > a').forEach(wrapper => {
   const image = wrapper.querySelector<HTMLImageElement>('img');
   if (!image) return;
@@ -59,12 +67,33 @@ const dialog = document.querySelector<HTMLDialogElement>('#gallery-dialog');
 const gallery = [...document.querySelectorAll<HTMLAnchorElement>('.gallery-open')];
 let galleryIndex = 0;
 let galleryTrigger: HTMLAnchorElement | undefined;
+let galleryZoom = false;
+function fitGalleryImage() {
+  if (!dialog?.open) return;
+  const current = gallery[galleryIndex];
+  const image = dialog.querySelector<HTMLImageElement>('#gallery-image')!;
+  const viewport = dialog.querySelector<HTMLElement>('.gallery-viewport')!;
+  const nativeWidth = Number(current.dataset.width), nativeHeight = Number(current.dataset.height);
+  const fitWidth = Math.min(viewport.clientWidth, innerHeight * (innerWidth <= 760 ? .58 : .66) * nativeWidth / nativeHeight, current.dataset.kind === 'diagram' ? Infinity : nativeWidth / devicePixelRatio);
+  const width = galleryZoom ? Math.max(fitWidth, current.dataset.kind === 'diagram' ? fitWidth * 2 : nativeWidth / devicePixelRatio) : fitWidth;
+  viewport.classList.toggle('is-zoomed', galleryZoom);
+  image.style.width = `${width}px`; image.style.height = 'auto';
+  image.sizes = `${Math.ceil(width)}px`;
+  image.srcset = galleryZoom ? '' : current.dataset.srcset ?? '';
+  image.src = galleryZoom ? current.href : current.querySelector<HTMLImageElement>('img')!.src;
+  dialog.querySelector<HTMLButtonElement>('#gallery-zoom')!.setAttribute('aria-pressed', String(galleryZoom));
+  const label = dialog.querySelector<HTMLElement>('#gallery-zoom span')!;
+  label.dataset.i18n = galleryZoom ? 'v13.fit' : 'v13.details'; label.textContent = t(label.dataset.i18n);
+}
 function renderGallery() {
   if (!dialog) return;
   const current = gallery[galleryIndex];
   const image = dialog.querySelector<HTMLImageElement>('#gallery-image')!;
   image.hidden = false; dialog.querySelector<HTMLElement>('#gallery-error')!.hidden = true;
-  image.src = current.href; image.alt = t(current.dataset.captionKey!);
+  galleryZoom = false; image.alt = t(current.dataset.captionKey!);
+  dialog.querySelector<HTMLAnchorElement>('#gallery-file')!.href = current.href;
+  fitGalleryImage();
+  dialog.querySelector<HTMLElement>('.gallery-viewport')!.scrollTo(0, 0);
   dialog.querySelector('#gallery-caption')!.textContent = image.alt;
   dialog.querySelector('#gallery-counter')!.textContent = `${galleryIndex + 1} / ${gallery.length}`;
   dialog.querySelector<HTMLButtonElement>('#gallery-prev')!.disabled = gallery.length < 2;
@@ -77,15 +106,18 @@ if (dialog) {
     dialog.querySelector<HTMLElement>('#gallery-error')!.hidden = false;
   });
   gallery.forEach((link, index) => link.addEventListener('click', event => {
-    event.preventDefault(); galleryIndex = index; galleryTrigger = link; renderGallery();
-    dialog.showModal(); document.body.classList.add('gallery-open');
+    event.preventDefault(); galleryIndex = index; galleryTrigger = link;
+    dialog.showModal(); document.body.classList.add('gallery-open'); renderGallery();
     dialog.querySelector<HTMLButtonElement>('#gallery-close')!.focus();
   }));
   dialog.querySelector('#gallery-close')!.addEventListener('click', () => dialog.close());
   dialog.querySelector('#gallery-prev')!.addEventListener('click', () => stepGallery(-1));
   dialog.querySelector('#gallery-next')!.addEventListener('click', () => stepGallery(1));
+  dialog.querySelector('#gallery-zoom')!.addEventListener('click', () => { galleryZoom = !galleryZoom; fitGalleryImage(); });
+  window.addEventListener('resize', fitGalleryImage);
   dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
   dialog.addEventListener('keydown', event => {
+    if (galleryZoom && event.target === dialog.querySelector('.gallery-viewport')) return;
     if (event.key === 'ArrowRight' || event.key === 'ArrowLeft') { event.preventDefault(); stepGallery(event.key === 'ArrowRight' ? 1 : -1); }
   });
   dialog.addEventListener('close', () => { document.body.classList.remove('gallery-open'); galleryTrigger?.focus({ preventScroll: true }); });

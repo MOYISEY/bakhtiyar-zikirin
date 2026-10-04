@@ -110,3 +110,14 @@ node scripts/qa-project-links.mjs https://moyisey.github.io/bakhtiyar-zikirin/ q
 `sh
 node scripts/qa-restoration.mjs http://127.0.0.1:5202/ local
 `
+
+
+## Качество изображений — версия 13
+
+Свежие PNG-снимки семи приложений, отдельные кадры карточек, responsive WebP, большой первый экран Helio и галерея с просмотром деталей. Схемы остаются SVG. [Происхождение, сравнения и реальные проверки](evidence/v13/QA.md).
+
+```sh
+npm run build
+node scripts/qa-quality-media.mjs http://127.0.0.1:5202/ local
+QA_EVIDENCE_VERSION=v13 node scripts/qa-pages.mjs http://127.0.0.1:5202/ smoke
+```

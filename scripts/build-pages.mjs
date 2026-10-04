@@ -1,18 +1,26 @@
 import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
 const fragments=JSON.parse(readFileSync('src/content/fragments.json','utf8'));
 const projects=JSON.parse(readFileSync('src/content/projects.json','utf8'));
+const responsiveMedia=JSON.parse(readFileSync('src/content/media.json','utf8'));
 const ru=JSON.parse(readFileSync('src/locales/ru.json','utf8'));
 const esc=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const text=(key,tag='span',attrs='')=>`<${tag} data-i18n="${key}" ${attrs}>${esc(ru[key]??key)}</${tag}>`;
 const ext=(url,key,cls='source-link')=>`<a class="${cls}" href="${url}" target="_blank" rel="noopener noreferrer">${text(key)}<span aria-hidden="true">↗</span></a>`;
 const internal=(url,key,cls='text-link')=>`<a class="${cls} site-internal" href="${url}">${text(key)}<span aria-hidden="true">↗</span></a>`;
-const media=project=>project.diagram?`${project.id}-diagram.svg`:`${project.id}-preview.jpg`;
+const imageSizes={card:'(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px',hero:'(max-width: 760px) 90vw, (max-width: 1500px) 45vw, 660px',detail:'(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px'};
+function imageData(project,prefix,kind='card',index=1){
+ if(project.diagram)return {src:prefix+'projects/media/'+project.id+'-diagram.svg',width:1280,height:800,attrs:''};
+ const variants=kind==='detail'?responsiveMedia[project.id].shots[index-1]:kind==='hero'?responsiveMedia[project.id].hero:responsiveMedia[project.id].card;
+ const fallback=variants.find(v=>v.width===(kind==='detail'?1600:800)),max=variants.at(-1);
+ const srcset=variants.map(v=>prefix+v.file+' '+v.width+'w').join(', ');
+ return {...fallback,src:prefix+fallback.file,max:prefix+max.file,maxWidth:max.width,maxHeight:max.height,srcset,attrs:`srcset="${srcset}" sizes="${imageSizes[kind]}"`};
+}
 const title=project=>text('v12.title.'+project.id);
 const mediaError=text('v12.imageUnavailable','span','class="media-error" hidden role="status"');
 function card(project,prefix,index=0){
- const path=prefix+'projects/'+project.id+'.html',image=prefix+'projects/media/'+media(project);
+ const path=prefix+'projects/'+project.id+'.html',image=imageData(project,prefix);
  return `<article class="visual-card" id="${project.id}" data-category="${project.category}" tabindex="-1">
- <a class="project-preview site-internal" href="${path}" aria-labelledby="title-${project.id}"><img src="${image}" width="720" height="450" loading="${index<3?'eager':'lazy'}" decoding="async" alt="${esc(ru['v12.'+project.id+'.shot1'])}" data-i18n-attrs='[{"attr":"alt","key":"v12.${project.id}.shot1"}]'>${mediaError}<span class="media-kind">${text(project.diagram?'v12.diagram':'v12.screenshot')}</span></a>
+ <a class="project-preview site-internal" href="${path}" aria-labelledby="title-${project.id}"><img src="${image.src}" ${image.attrs} width="${image.width}" height="${image.height}" loading="${index<3?'eager':'lazy'}" decoding="async" alt="${esc(ru['v12.'+project.id+'.shot1'])}" data-i18n-attrs='[{"attr":"alt","key":"v12.${project.id}.shot1"}]'>${mediaError}<span class="media-kind">${text(project.diagram?'v12.diagram':'v12.screenshot')}</span></a>
  <div class="visual-card-copy"><a class="project-title site-internal" href="${path}"><h3 id="title-${project.id}">${title(project)}</h3></a>${text(project.description,'p')}
  <div class="card-actions">${internal(path,'v12.case')}${project.demo?ext(project.demo,'v12.demo','demo-link'):project.code?ext(project.code,'v12.code','demo-link'):''}</div></div></article>`;
 }
@@ -30,16 +38,17 @@ function diagram(project){
  const fields=project.diagram==='brief'?['client','interview','brief.json']:['User','Project','ProjectImage'];
  return `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800"><rect width="1280" height="800" fill="#e0e5d6"/><g fill="none" stroke="#23615b" stroke-width="3"><path d="M140 280H1140M140 520H1140" opacity=".2"/><path d="M390 405H460M790 405H860"/><path d="m450 396 10 9-10 9m400-9 10 9-10 9"/></g><text x="90" y="155" fill="#172223" font-family="Arial,sans-serif" font-size="54">${esc(project.title)}</text><g font-family="Consolas,monospace" font-size="28" fill="#172223">${fields.map((field,i)=>`<rect x="${100+i*380}" y="320" width="300" height="170" rx="8" fill="#f3f0e8" stroke="#9ba994"/><text x="${125+i*380}" y="415">${esc(field)}</text>`).join('')}</g><g stroke="#23615b" stroke-width="2" fill="none"><path d="M145 610h170m-170 25h100m160-25h280m-280 25h170m160-25h200"/></g></svg>`;
 }
-const lightbox=`<dialog id="gallery-dialog" aria-labelledby="viewer-title"><div class="lightbox-frame"><div class="lightbox-top">${text('v12.gallery','h2','id="viewer-title"')}<button type="button" id="gallery-close">${text('v12.close')} <span aria-hidden="true">×</span></button></div><img id="gallery-image" alt="">${text('v12.imageUnavailable','p','id="gallery-error" hidden role="status"')}<div class="lightbox-caption"><p id="gallery-caption"></p><span id="gallery-counter" role="status"></span></div><div class="lightbox-controls"><button type="button" id="gallery-prev">← ${text('v12.prevShot')}</button><button type="button" id="gallery-next">${text('v12.nextShot')} →</button></div></div></dialog>`;
+const lightbox=`<dialog id="gallery-dialog" aria-labelledby="viewer-title"><div class="lightbox-frame"><div class="lightbox-top">${text('v12.gallery','h2','id="viewer-title"')}<button type="button" id="gallery-close">${text('v12.close')} <span aria-hidden="true">×</span></button></div><div class="gallery-viewport" tabindex="0" role="region" aria-label="${esc(ru['v13.imageRegion'])}" data-i18n-attrs='[{"attr":"aria-label","key":"v13.imageRegion"}]'><img id="gallery-image" alt=""></div>${text('v12.imageUnavailable','p','id="gallery-error" hidden role="status"')}<div class="lightbox-caption"><p id="gallery-caption"></p><span id="gallery-counter" role="status"></span></div><div class="lightbox-tools"><button type="button" id="gallery-zoom" aria-pressed="false">${text('v13.details')}</button><a id="gallery-file" target="_blank" rel="noopener noreferrer">${text('v13.openFile')} ↗</a></div><div class="lightbox-controls"><button type="button" id="gallery-prev">← ${text('v12.prevShot')}</button><button type="button" id="gallery-next">${text('v12.nextShot')} →</button></div></div></dialog>`;
 function figure(project,prefix,index){
- const file=project.diagram?project.id+'-diagram.svg':`${project.id}-${index}.jpg`,key=`v12.${project.id}.shot${index}`;
- return `<figure class="case-media" id="shot-${index}"><a class="gallery-open" href="${prefix}projects/media/${file}" data-caption-key="${key}" data-kind="${project.diagram?'diagram':'screenshot'}"><img src="${prefix}projects/media/${file}" width="1280" height="800" loading="${index===1?'eager':'lazy'}" decoding="async" alt="${esc(ru[key])}" data-i18n-attrs='[{"attr":"alt","key":"${key}"}]'>${mediaError}<span class="enlarge-label">${text('v12.enlarge')} <span aria-hidden="true">＋</span></span></a><figcaption>${text(key)}</figcaption></figure>`;
+ const image=imageData(project,prefix,'detail',index),key=`v12.${project.id}.shot${index}`;
+ return `<figure class="case-media" id="shot-${index}"><a class="gallery-open" href="${image.max??image.src}" data-caption-key="${key}" data-kind="${project.diagram?'diagram':'screenshot'}" data-srcset="${image.srcset??''}" data-width="${image.maxWidth??1280}" data-height="${image.maxHeight??800}"><img src="${image.src}" ${image.attrs} width="${image.width}" height="${image.height}" loading="${index===1?'eager':'lazy'}" decoding="async" alt="${esc(ru[key])}" data-i18n-attrs='[{"attr":"alt","key":"${key}"}]'>${mediaError}<span class="enlarge-label">${text('v12.enlarge')} <span aria-hidden="true">＋</span></span></a><figcaption>${text(key)}</figcaption></figure>`;
 }
 mkdirSync('projects',{recursive:true});mkdirSync('public/projects/media',{recursive:true});
 for(const project of projects.filter(p=>p.diagram))writeFileSync('public/projects/media/'+project.id+'-diagram.svg',diagram(project));
 // Keep the familiar v11 identity, short experience and genuine public contact/CV.
 let hero=fragments.hero.replace('href="#work"','href="#work"').replace('href="./files/','href="./files/');
-const home=`<section class="hero home-hero" aria-labelledby="hero-title">${hero}<figure class="hero-preview"><a class="site-internal" href="./projects/helio.html"><img src="./projects/media/helio-preview.jpg" width="720" height="450" alt="${esc(ru['v12.helio.shot1'])}" data-i18n-attrs='[{"attr":"alt","key":"v12.helio.shot1"}]'>${mediaError}</a><figcaption>${text('v12.homePreview')}${internal('./projects/helio.html','v12.case')}</figcaption></figure></section>
+const heroImage=imageData(projects.find(p=>p.id==='helio'),'./','hero');
+const home=`<section class="hero home-hero" aria-labelledby="hero-title">${hero}<figure class="hero-preview"><a class="site-internal" href="./projects/helio.html"><img src="${heroImage.src}" ${heroImage.attrs} width="${heroImage.width}" height="${heroImage.height}" fetchpriority="high" decoding="async" alt="${esc(ru['v12.helio.shot1'])}" data-i18n-attrs='[{"attr":"alt","key":"v12.helio.shot1"}]'>${mediaError}</a><figcaption>${text('v12.homePreview')}${internal('./projects/helio.html','v12.case')}</figcaption></figure></section>
  <section class="work visual-work" id="work" tabindex="-1" aria-labelledby="work-title"><div class="visual-heading"><span class="eyebrow">01 / ${text('v12.projects')}</span>${text('v12.featured','h2','id="work-title"')}${internal('./projects/','v12.catalog')}</div><div class="project-grid">${projects.slice(0,3).map((p,i)=>card(p,'./',i)).join('')}</div></section>
  ${fragments.experience}${fragments.approach}${fragments.contact}`;
 writeFileSync('index.html',shell(home));

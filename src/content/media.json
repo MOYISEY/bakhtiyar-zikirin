@@ -1,0 +1,690 @@
+{
+  "keyform": {
+    "card": [
+      {
+        "width": 480,
+        "height": 300,
+        "file": "projects/media/keyform-card-480.webp",
+        "bytes": 18622,
+        "sha256": "772f605e9c78b21f7c48621b1e8cd7535c8d6cd362ce69d6c6fe13af23276eea"
+      },
+      {
+        "width": 800,
+        "height": 500,
+        "file": "projects/media/keyform-card-800.webp",
+        "bytes": 35204,
+        "sha256": "d9ca62cb1ff24a747f0efd396172cf44477d00bae74a4f2727aeb46428d8ecbd"
+      },
+      {
+        "width": 1200,
+        "height": 750,
+        "file": "projects/media/keyform-card-1200.webp",
+        "bytes": 60388,
+        "sha256": "801629b8784217aff47298658ea9d1446f5a1a910c2edf12e02616bf7fe00da0"
+      },
+      {
+        "width": 1600,
+        "height": 1000,
+        "file": "projects/media/keyform-card-1600.webp",
+        "bytes": 85626,
+        "sha256": "b6efcb3d2980402dec22ce61cfa5c1433daf9e4be2b0d94a93fe126dbc974cb9"
+      }
+    ],
+    "shots": [
+      [
+        {
+          "width": 960,
+          "height": 600,
+          "file": "projects/media/keyform-detail-1-960.webp",
+          "bytes": 44266,
+          "sha256": "cedf5c6fab58df4dbbe10989ad4230ba47000ee662b15f86b06d340dcf050e48"
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "file": "projects/media/keyform-detail-1-1600.webp",
+          "bytes": 90636,
+          "sha256": "f9b02a618940e66f1d1220da35d175455e42d49e25f93cf8dd7fd92166bb8f61"
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "file": "projects/media/keyform-detail-1-2400.webp",
+          "bytes": 153802,
+          "sha256": "aaa0e93c8933a886ff62d89bba5f1516ffbfddd93dd37b873140411348e2f059"
+        },
+        {
+          "width": 2880,
+          "height": 1800,
+          "file": "projects/media/keyform-detail-1-2880.webp",
+          "bytes": 200900,
+          "sha256": "fe5cadbef615f8764e989d96e246dd896047f77105a6fd79a3e49d3e4806f2a7"
+        }
+      ],
+      [
+        {
+          "width": 960,
+          "height": 600,
+          "file": "projects/media/keyform-detail-2-960.webp",
+          "bytes": 30970,
+          "sha256": "c6cb07bfcc9c0d7569d58b8ab6602052f4288dae4cee47d1814d13995df8a63d"
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "file": "projects/media/keyform-detail-2-1600.webp",
+          "bytes": 64614,
+          "sha256": "a9c4e3cae9ff30149bff0d8378cee7ddfd8a21bbbe5441c2496143898885834c"
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "file": "projects/media/keyform-detail-2-2400.webp",
+          "bytes": 109822,
+          "sha256": "ee1ad1f9d5ed7d69d299f0e2fc2583e31d303a79cd9becc05537c57b3866ea80"
+        },
+        {
+          "width": 2880,
+          "height": 1800,
+          "file": "projects/media/keyform-detail-2-2880.webp",
+          "bytes": 143044,
+          "sha256": "ec98efc941c139e5d49c782ef74143f221a1fa9ea86c02cac87720a2680e179c"
+        }
+      ]
+    ]
+  },
+  "helio": {
+    "card": [
+      {
+        "width": 480,
+        "height": 300,
+        "file": "projects/media/helio-card-480.webp",
+        "bytes": 39228,
+        "sha256": "a3b145b1e642ef0a80dfccc87851b1327911817698d99f6e82412144fabcc7c7"
+      },
+      {
+        "width": 800,
+        "height": 499,
+        "file": "projects/media/helio-card-800.webp",
+        "bytes": 86612,
+        "sha256": "78c3d916987ac26c81eadb33b71b379f00d08dc4e05a35f78cdc68e8957d6a1a"
+      },
+      {
+        "width": 1200,
+        "height": 749,
+        "file": "projects/media/helio-card-1200.webp",
+        "bytes": 163098,
+        "sha256": "15665eb4d24862e5e1b2b37c469702c971e3f27a845ea17aede1fdc0f2659980"
+      },
+      {
+        "width": 1600,
+        "height": 999,
+        "file": "projects/media/helio-card-1600.webp",
+        "bytes": 257578,
+        "sha256": "7a4c01f36bc542a704974056806e6d5f2deb4d1fdf0382339ea2db6a4892c708"
+      }
+    ],
+    "shots": [
+      [
+        {
+          "width": 960,
+          "height": 652,
+          "file": "projects/media/helio-detail-1-960.webp",
+          "bytes": 111548,
+          "sha256": "9e6a021b9590ae69dd698589da32ad8f64d89c266b300f55886d31cb1b794e9c"
+        },
+        {
+          "width": 1600,
+          "height": 1087,
+          "file": "projects/media/helio-detail-1-1600.webp",
+          "bytes": 239520,
+          "sha256": "10135b04b23f412c32d0c4962befdc618ef84b53fb3424c460b646c9e210358b"
+        },
+        {
+          "width": 2400,
+          "height": 1630,
+          "file": "projects/media/helio-detail-1-2400.webp",
+          "bytes": 458264,
+          "sha256": "00a8fe0ab17326b8331ce2d2642b25136c3262d272dea7d504e6872001051433"
+        },
+        {
+          "width": 3200,
+          "height": 2173,
+          "file": "projects/media/helio-detail-1-3200.webp",
+          "bytes": 650794,
+          "sha256": "b2517cf05014780f13773eff8d53d9f03008b552700eecbad98a89cb687ea8b7"
+        }
+      ],
+      [
+        {
+          "width": 960,
+          "height": 652,
+          "file": "projects/media/helio-detail-2-960.webp",
+          "bytes": 111772,
+          "sha256": "d630066b63ad1a4bf3eb9065d5d2e679d8e16934be4001c83141459d4fb2389a"
+        },
+        {
+          "width": 1600,
+          "height": 1087,
+          "file": "projects/media/helio-detail-2-1600.webp",
+          "bytes": 235976,
+          "sha256": "58ee0981eeac800cd8c6d5534cb8e1e739d88b0ce741870e2dfaf7f69909ce97"
+        },
+        {
+          "width": 2400,
+          "height": 1630,
+          "file": "projects/media/helio-detail-2-2400.webp",
+          "bytes": 459410,
+          "sha256": "bf9b44fc50fad48187becfe279675330abf791f4d51639f44161fd195328b073"
+        },
+        {
+          "width": 3200,
+          "height": 2173,
+          "file": "projects/media/helio-detail-2-3200.webp",
+          "bytes": 655598,
+          "sha256": "19bd956e8802f1bca507bbc77b1e6d9c82989995185b3977a0d7cf612bb0e5d2"
+        }
+      ]
+    ],
+    "hero": [
+      {
+        "width": 800,
+        "height": 499,
+        "file": "projects/media/helio-hero-800.webp",
+        "bytes": 86612,
+        "sha256": "78c3d916987ac26c81eadb33b71b379f00d08dc4e05a35f78cdc68e8957d6a1a"
+      },
+      {
+        "width": 1600,
+        "height": 999,
+        "file": "projects/media/helio-hero-1600.webp",
+        "bytes": 257578,
+        "sha256": "7a4c01f36bc542a704974056806e6d5f2deb4d1fdf0382339ea2db6a4892c708"
+      },
+      {
+        "width": 2400,
+        "height": 1498,
+        "file": "projects/media/helio-hero-2400.webp",
+        "bytes": 462504,
+        "sha256": "b225baf180076d16dc56df78edc9ba1970c67769a21fc7394f3556c1869dbaa9"
+      },
+      {
+        "width": 3000,
+        "height": 1873,
+        "file": "projects/media/helio-hero-3000.webp",
+        "bytes": 597434,
+        "sha256": "5d75a530d6dbbd222214bc327976335f6342061a3f768a0ca93aa8ed18436a63"
+      }
+    ]
+  },
+  "poslesvet": {
+    "card": [
+      {
+        "width": 480,
+        "height": 300,
+        "file": "projects/media/poslesvet-card-480.webp",
+        "bytes": 18076,
+        "sha256": "bea97688bb68622e62db9f5f0caa3557564352cb29514e3aec4d12c032fb8337"
+      },
+      {
+        "width": 800,
+        "height": 500,
+        "file": "projects/media/poslesvet-card-800.webp",
+        "bytes": 41404,
+        "sha256": "bd83752709eb41b6544031197a5647d309725772eea30af732dddd73cffb8f44"
+      },
+      {
+        "width": 1200,
+        "height": 750,
+        "file": "projects/media/poslesvet-card-1200.webp",
+        "bytes": 69812,
+        "sha256": "95457271840931f2de81dc9dce9161f4305be45c21b5122fb0e72533caad5c6f"
+      },
+      {
+        "width": 1600,
+        "height": 1000,
+        "file": "projects/media/poslesvet-card-1600.webp",
+        "bytes": 106378,
+        "sha256": "7754ecddef8acdb6ddbcd534c19e513fc55099e327973567a74ed89a83281645"
+      }
+    ],
+    "shots": [
+      [
+        {
+          "width": 960,
+          "height": 600,
+          "file": "projects/media/poslesvet-detail-1-960.webp",
+          "bytes": 52630,
+          "sha256": "8a89faea467a918a4acfe104173acd17ef967a3e248061b69adfff71fa433093"
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "file": "projects/media/poslesvet-detail-1-1600.webp",
+          "bytes": 106378,
+          "sha256": "7754ecddef8acdb6ddbcd534c19e513fc55099e327973567a74ed89a83281645"
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "file": "projects/media/poslesvet-detail-1-2400.webp",
+          "bytes": 165906,
+          "sha256": "b20f60f0a367f9e4b79f5314b9329d9ae5f27e66d4c2599ee6c75ac91d595574"
+        },
+        {
+          "width": 3200,
+          "height": 2000,
+          "file": "projects/media/poslesvet-detail-1-3200.webp",
+          "bytes": 235108,
+          "sha256": "8d5f725f497ac4a6bda9bce2b10a34596d848557302dee6a23a500044da24938"
+        }
+      ],
+      [
+        {
+          "width": 960,
+          "height": 600,
+          "file": "projects/media/poslesvet-detail-2-960.webp",
+          "bytes": 56052,
+          "sha256": "8cedcbbe0e8e4489712767a651a11518d84693d921cf2084508cb4a4e7f00cf8"
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "file": "projects/media/poslesvet-detail-2-1600.webp",
+          "bytes": 110864,
+          "sha256": "5eb31185efe652db59ac410a20fc97436a43aa1a37be13fb2917f71421b42434"
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "file": "projects/media/poslesvet-detail-2-2400.webp",
+          "bytes": 174324,
+          "sha256": "a360b5af5646968b914e80a15098097c8319fcecd8baca74e142eaecdc04ce19"
+        },
+        {
+          "width": 3200,
+          "height": 2000,
+          "file": "projects/media/poslesvet-detail-2-3200.webp",
+          "bytes": 241198,
+          "sha256": "800c2c9dd4d21dc61f9444c8a21dd7d023be84f0ab5804bb6882e8376b9f04a0"
+        }
+      ]
+    ]
+  },
+  "framepack": {
+    "card": [
+      {
+        "width": 480,
+        "height": 300,
+        "file": "projects/media/framepack-card-480.webp",
+        "bytes": 10582,
+        "sha256": "d0ddf48205e73ce3cb0f1277de50e531e5f2cef6b01754c333b5603869944f62"
+      },
+      {
+        "width": 800,
+        "height": 500,
+        "file": "projects/media/framepack-card-800.webp",
+        "bytes": 25156,
+        "sha256": "b3be10a603710998d6004fd0c04b0864ebfeacbde0e258436453426f336acd4f"
+      },
+      {
+        "width": 1200,
+        "height": 750,
+        "file": "projects/media/framepack-card-1200.webp",
+        "bytes": 45888,
+        "sha256": "73189d0bafa1a214cb1c9070b7aa9fc24fb8eac562a721b20d10b871871e8e72"
+      },
+      {
+        "width": 1600,
+        "height": 1000,
+        "file": "projects/media/framepack-card-1600.webp",
+        "bytes": 70146,
+        "sha256": "ea13153827c3547a89f76ce68ad5585ef8c9161d9b3e64dd46f251d23cc27aaf"
+      }
+    ],
+    "shots": [
+      [
+        {
+          "width": 960,
+          "height": 600,
+          "file": "projects/media/framepack-detail-1-960.webp",
+          "bytes": 36124,
+          "sha256": "e7dbbbb8b653906f91be84b90e077b9cdf4e38282d1e54b263f81395e7853dee"
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "file": "projects/media/framepack-detail-1-1600.webp",
+          "bytes": 80266,
+          "sha256": "1eadbac4073a941e67d8aafc94ab06f5de0c0018bb344e7753415f585649a19e"
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "file": "projects/media/framepack-detail-1-2400.webp",
+          "bytes": 139450,
+          "sha256": "0b2fc36dd64a6e82aecb2b38a3c6572a40f9ae1218439758cea109d071257053"
+        },
+        {
+          "width": 3200,
+          "height": 2000,
+          "file": "projects/media/framepack-detail-1-3200.webp",
+          "bytes": 206642,
+          "sha256": "df20e8462a8bfe2c969014679987e2da9531cb57e476f692209bda99d95409fc"
+        }
+      ],
+      [
+        {
+          "width": 960,
+          "height": 600,
+          "file": "projects/media/framepack-detail-2-960.webp",
+          "bytes": 53672,
+          "sha256": "25643761b4de5ef0bbb74d659acfdaadffd80de4c666cf2b3e9c7e67b6d953f7"
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "file": "projects/media/framepack-detail-2-1600.webp",
+          "bytes": 103184,
+          "sha256": "f054372100b8517ac1c0c60d694f90e2461cb0cd88770adb44dbaf8c7500f2d5"
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "file": "projects/media/framepack-detail-2-2400.webp",
+          "bytes": 180852,
+          "sha256": "7566547888a8ef131e0e617c83688b1079dec84f6713c55b4d07a5b00d0e419e"
+        },
+        {
+          "width": 3200,
+          "height": 2000,
+          "file": "projects/media/framepack-detail-2-3200.webp",
+          "bytes": 249336,
+          "sha256": "c261638832031bd47b1256805d5ba717b378a8d2423f5bdc8c928131d5111665"
+        }
+      ]
+    ]
+  },
+  "shapecheck": {
+    "card": [
+      {
+        "width": 480,
+        "height": 431,
+        "file": "projects/media/shapecheck-card-480.webp",
+        "bytes": 7718,
+        "sha256": "c69044d8fa8b4e237960547f7a862e0d0ed916babc663a5db11313078181e649"
+      },
+      {
+        "width": 800,
+        "height": 719,
+        "file": "projects/media/shapecheck-card-800.webp",
+        "bytes": 15880,
+        "sha256": "6d7cf02a5c74b7fcb147f63a1d1e1817d79d0a97f3f52ea8df6cb4048c84e389"
+      },
+      {
+        "width": 1200,
+        "height": 1079,
+        "file": "projects/media/shapecheck-card-1200.webp",
+        "bytes": 25544,
+        "sha256": "30442e30aa9a1654866efe130a1578e636ab9f0229f8319b3e06c0563fe5c6c5"
+      },
+      {
+        "width": 1600,
+        "height": 1438,
+        "file": "projects/media/shapecheck-card-1600.webp",
+        "bytes": 36460,
+        "sha256": "d7131013f89d54e6b90de0ffff6c796c972ec64d7ac14fe818b6b798394b2fc4"
+      }
+    ],
+    "shots": [
+      [
+        {
+          "width": 960,
+          "height": 600,
+          "file": "projects/media/shapecheck-detail-1-960.webp",
+          "bytes": 32068,
+          "sha256": "2c2264cc8db8748e55b52e6e70bb7f935d282b2ee1cbe10735405a5cc7ada055"
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "file": "projects/media/shapecheck-detail-1-1600.webp",
+          "bytes": 71360,
+          "sha256": "a7394d989d9af89d61a2b37bacf7084b3382f042dd887c7bd4d863f2a7a06981"
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "file": "projects/media/shapecheck-detail-1-2400.webp",
+          "bytes": 122626,
+          "sha256": "d2a2cd6dac7c50e79ddf421183e550f0f4aa7fc5543bc411ec5dcf4aa189333d"
+        },
+        {
+          "width": 3200,
+          "height": 2000,
+          "file": "projects/media/shapecheck-detail-1-3200.webp",
+          "bytes": 176398,
+          "sha256": "d5de8469652e6a8fc06026529eef464baa164fadd69e5eaa526ffa28e08bcf79"
+        }
+      ],
+      [
+        {
+          "width": 960,
+          "height": 773,
+          "file": "projects/media/shapecheck-detail-2-960.webp",
+          "bytes": 42020,
+          "sha256": "0dcfe43ee305c1d207f079efa875fa11f8cd4a2f692d590ec9e327a641645ed8"
+        },
+        {
+          "width": 1600,
+          "height": 1289,
+          "file": "projects/media/shapecheck-detail-2-1600.webp",
+          "bytes": 94568,
+          "sha256": "bda47c43c8fd0c8c1178b4ad27144877eb46c6f36d67faddab7cf8b2c039e52e"
+        },
+        {
+          "width": 2400,
+          "height": 1934,
+          "file": "projects/media/shapecheck-detail-2-2400.webp",
+          "bytes": 164248,
+          "sha256": "9fff942a0a581d092eacdc68bbead44f4be3436e51eea5942fb3630054c78fca"
+        },
+        {
+          "width": 3200,
+          "height": 2578,
+          "file": "projects/media/shapecheck-detail-2-3200.webp",
+          "bytes": 237074,
+          "sha256": "ea53bd959884f9419a29566229a2e44b62dfa9caf541e4e26180ede6c7e0edd7"
+        }
+      ]
+    ]
+  },
+  "rowline": {
+    "card": [
+      {
+        "width": 480,
+        "height": 300,
+        "file": "projects/media/rowline-card-480.webp",
+        "bytes": 14844,
+        "sha256": "6466d8be660c3401a7912176d75566da3dc862233ad5b3f02a2cea84c9af1cb2"
+      },
+      {
+        "width": 800,
+        "height": 499,
+        "file": "projects/media/rowline-card-800.webp",
+        "bytes": 32790,
+        "sha256": "a8264131587ce352a00201d2aa81a5037b610dcc71f883dee84d48b9e57d361e"
+      },
+      {
+        "width": 1200,
+        "height": 749,
+        "file": "projects/media/rowline-card-1200.webp",
+        "bytes": 56842,
+        "sha256": "0588f88c26125fb98c7fc2f590cee7e44462311ab94fdc710ef631fa4492dbc7"
+      },
+      {
+        "width": 1600,
+        "height": 999,
+        "file": "projects/media/rowline-card-1600.webp",
+        "bytes": 86202,
+        "sha256": "904fc126c7ce377acdbe65f910b0cb6a9b34586a72741bfb01bdb1fac6d5697c"
+      }
+    ],
+    "shots": [
+      [
+        {
+          "width": 960,
+          "height": 600,
+          "file": "projects/media/rowline-detail-1-960.webp",
+          "bytes": 50478,
+          "sha256": "c046dc1f42c4516baf1c7b3c392c1503d7a304e3ef958388c33ae8359c79b933"
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "file": "projects/media/rowline-detail-1-1600.webp",
+          "bytes": 111760,
+          "sha256": "df81e5103654fa77afb00f9363a44383b8c72cf7cb6d19e096672876d2cd5bf9"
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "file": "projects/media/rowline-detail-1-2400.webp",
+          "bytes": 198632,
+          "sha256": "ec6fa66a06680155f51b1224836bb3c2aab78d215ccdb7071b872b00dbaf225e"
+        },
+        {
+          "width": 3200,
+          "height": 2000,
+          "file": "projects/media/rowline-detail-1-3200.webp",
+          "bytes": 291622,
+          "sha256": "1f89f6b37460547fb251fbfd370cbb8baf5458587b5f77ccbc751ae3b201f262"
+        }
+      ],
+      [
+        {
+          "width": 960,
+          "height": 600,
+          "file": "projects/media/rowline-detail-2-960.webp",
+          "bytes": 26476,
+          "sha256": "3a010cd03e476d3d202d00580ad2d6b2a8aacb6f45c124cd57f04d75363990fc"
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "file": "projects/media/rowline-detail-2-1600.webp",
+          "bytes": 51256,
+          "sha256": "57c0453c14d56be729c7086bce10295830f9ef6d65fc02040bd2179dec20056e"
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "file": "projects/media/rowline-detail-2-2400.webp",
+          "bytes": 83960,
+          "sha256": "8d5804dfe81592b24c9515d2a105835df38eb10ef1cab90efb7445611fac7e0c"
+        },
+        {
+          "width": 3200,
+          "height": 2000,
+          "file": "projects/media/rowline-detail-2-3200.webp",
+          "bytes": 124164,
+          "sha256": "3cf58aa694bc7bfa3356ef1b9f1e89dff8e0bd05bf52ccc599bcf8ac7a621a34"
+        }
+      ]
+    ]
+  },
+  "atyrau": {
+    "card": [
+      {
+        "width": 480,
+        "height": 300,
+        "file": "projects/media/atyrau-card-480.webp",
+        "bytes": 39778,
+        "sha256": "6efd489e269a8d5fd47a162cbb54cc6460e7b4e1f5c5a1e7871de2704b54f202"
+      },
+      {
+        "width": 800,
+        "height": 500,
+        "file": "projects/media/atyrau-card-800.webp",
+        "bytes": 84264,
+        "sha256": "7a32d9129b4862ac8371473a5674a6ab4eec6be00df30ba4ea0066ffa05acfc9"
+      },
+      {
+        "width": 1200,
+        "height": 750,
+        "file": "projects/media/atyrau-card-1200.webp",
+        "bytes": 141980,
+        "sha256": "e873496a78abad41edafc27a901b4b3db1e55b12d9b192068cbeb2b0c2deaabd"
+      },
+      {
+        "width": 1600,
+        "height": 1000,
+        "file": "projects/media/atyrau-card-1600.webp",
+        "bytes": 206574,
+        "sha256": "d5032c2c26defd0613bad59759af894fd08f7d02645c8e0d7c6a36c7c00da313"
+      }
+    ],
+    "shots": [
+      [
+        {
+          "width": 960,
+          "height": 600,
+          "file": "projects/media/atyrau-detail-1-960.webp",
+          "bytes": 122340,
+          "sha256": "c085de6e577f8f091b74960624345345314d0c79a8fb310519a2e0bba555d993"
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "file": "projects/media/atyrau-detail-1-1600.webp",
+          "bytes": 255876,
+          "sha256": "89a1c246d79437e6b46221c748fceb3e7b851d028490b97d3f050fea69150a9d"
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "file": "projects/media/atyrau-detail-1-2400.webp",
+          "bytes": 421136,
+          "sha256": "ae32e87faa30691b2cd0d44f609ffd96250c3c90cbe1cb7b0b9336f291a975d1"
+        },
+        {
+          "width": 3200,
+          "height": 2000,
+          "file": "projects/media/atyrau-detail-1-3200.webp",
+          "bytes": 631634,
+          "sha256": "26046618491f6ee8ede8e7c6404908239716e6987ea9c01627f6e8d6666adabd"
+        }
+      ],
+      [
+        {
+          "width": 960,
+          "height": 600,
+          "file": "projects/media/atyrau-detail-2-960.webp",
+          "bytes": 88880,
+          "sha256": "18a9904fdadef1d218587be891f432e84e7acf80d6843ee67d3a9d92611e7101"
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "file": "projects/media/atyrau-detail-2-1600.webp",
+          "bytes": 189694,
+          "sha256": "a746083c5b5e558ffa17293946baf0369a5cd53b7c25e2ff8d028e0f4131e37e"
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "file": "projects/media/atyrau-detail-2-2400.webp",
+          "bytes": 320190,
+          "sha256": "3e3a31e2dc7958fc903a84009fc12b25815da6734c9850c1fd5cd497d254d95c"
+        },
+        {
+          "width": 3200,
+          "height": 2000,
+          "file": "projects/media/atyrau-detail-2-3200.webp",
+          "bytes": 489084,
+          "sha256": "c497daed9a43681aea4c27858b035e3bb504db8f01d21e4592a9b72839e80d43"
+        }
+      ]
+    ]
+  }
+}
