@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-04T16:19:06.846Z",
+  "base": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "scope": "One targeted actual portfolio-demo click; wait for the Godot loader to finish before inspecting the playable page, not a full independent game audit.",
+  "errors": [],
+  "console": [],
+  "passed": true,
+  "title": "Послесвет",
+  "statusDOM": 1,
+  "loadSeconds": 11.931,
+  "canvases": [
+    {
+      "id": "canvas",
+      "width": 1366,
+      "height": 768
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-04T16:16:19.694Z",
+  "base": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "commit": "a1e7fb1f04ed2201b05fd974aa4b7003faa87a7b",
+  "checks": [
+    "Canvas keyboard ArrowLeft changes actual pixels; Home exactly restores baseline",
+    "Actual pointer drag changes scene pixels; Reset exactly restores baseline",
+    "Explicit Resume animates actual pixels; Pause stops actual pixel changes"
+  ],
+  "errors": [],
+  "passed": true,
+  "original": "66178386ba3e4d28db3668c33dbb3f87bb664fa0084eb9a7463beaf5c2c86a4b",
+  "keyboard": "10f8aa3ffd24e720c9c070abeefa6d9dd5fa77682527f8e243a2aa7c529311f1",
+  "home": "66178386ba3e4d28db3668c33dbb3f87bb664fa0084eb9a7463beaf5c2c86a4b",
+  "drag": "b5fdf68e5f2f811167b615792fabe2f3c10d57969b8ffd5ce83591c424beb2a4",
+  "reset": "66178386ba3e4d28db3668c33dbb3f87bb664fa0084eb9a7463beaf5c2c86a4b"
+}

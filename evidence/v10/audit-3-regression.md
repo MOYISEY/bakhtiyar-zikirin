@@ -4,7 +4,7 @@ Auditor: Codex subagent `v10_final_audit`. Source, Git and external services wer
 
 ## Pre-release regression
 
-Actual Windows Chromium, laptop viewport 1366×768 and touch-emulated mobile 390×844, all RU/KK/EN × light/dark: **12/12 passed** on stable production-preview assets `index-CJ585xak.js` and `index-CkG3FulQ.css`. The built index SHA remained identical before and after the run. Each case executed seven directed groups:
+Actual Windows Chromium, laptop viewport 1366×768 and touch-emulated mobile 390×844, all RU/KK/EN × light/dark: **12/12 passed** on stable production-preview assets `index-CJ585xak.js` and `index-CkG3FulQ.css`. The built index SHA remained identical before and after the run. Visual inspection was performed by the Codex agent. Each case executed seven directed groups:
 
 - Actual document language/theme and complete translated text bindings; exactly two first-screen actions and three featured projects. Reduced motion disables the name animation. No scene bundle loads before opening the optional diagram.
 - Pointer and keyboard popovers are mutually exclusive; Escape restores summary focus; clicking outside closes Appearance.
@@ -28,8 +28,18 @@ Two invalid harness/transport attempts are retained separately: the initial crop
 
 ## Live verification
 
-Pending exact public deploy notification. No public regression, external demo visit or runtime/commit comparison is claimed yet.
+Live URL: https://moyisey.github.io/bakhtiyar-zikirin/ . Exact runtime deployment tested: `a1e7fb1f04ed2201b05fd974aa4b7003faa87a7b`. Root supplied successful Pages run https://github.com/MOYISEY/bakhtiyar-zikirin/actions/runs/37215760372 ; this audit independently verified the public runtime and interface, rather than repeating the GitHub deployment API query.
+
+**9/9 public files matched final local `docs/` SHA256 exactly**, each HTTP 200: HTML, main JS/CSS, optional scene JS, all three featured PNGs, PDF and favicon. Actual public interface **6/6 contexts passed**: RU/KK/EN at 1366 and 390 pixels, selecting both actual themes in every case, following system-media changes and confirming persistence after reload. The complete navigation, all featured/additional/education disclosures, closing/focus, real sample trim/undo/CSV and real PDF downloads passed. No ordinary public context had a page or console error or horizontal overflow. The public blocked-WebGL fallback and disabled-JavaScript scenarios separately passed, without uncaught errors.
+
+**Nine actual popup visits passed HTTP 200**: the three principal demos, their three repositories, Helio QA, Keyform CI and the contact GitHub profile. The Poslesvet Windows release separately returned HTTP 200 on HEAD with the expected downloadable content type. This auditor did not install or execute the Windows build. Root independently verified other external links and the ZIP signature; those checks are not counted as this auditor's work.
+
+The optional public scene ran on ANGLE / NVIDIA RTX 3050 / D3D11. View modes, all three layers, signal and explicit close passed. A separate live scene-control check compared actual canvas pixel hashes: ArrowLeft and pointer drag changed the render; Home and Reset exactly restored the baseline; explicit Resume animated and Pause stopped pixel changes. The scene-control result is `audit-3/live/scene-controls.json` with `live-3D-controls-verified.png`.
+
+The Codex agent visually inspected the actual live hero/gallery/contact sheets covering all six contexts, the real Helio and Keyform popup frames, and the verified public 3D scene. The first Poslesvet popup frame was still its Godot loader at 2.5 seconds. A single targeted follow-up clicked its actual portfolio demo link and waited for the loader to disappear: the initial screen loaded in 11.931 seconds in that run, with zero page/console errors and a real 1366×768 game canvas. The Codex agent inspected `demo-poslesvet-loaded.png`, which shows the rendered board and initial Start Shift dialog. Evidence is `audit-3/live/poslesvet-load.json`. The external game itself is outside this portfolio audit's full functional scope.
+
+An initial live harness selector accidentally selected both Rowline's main summary and its nested sample summary. The script was corrected to the direct summary and all six actual UI contexts rerun successfully. The unchanged site's initial and corrected records are retained separately. Evidence: `audit-3/live/results.json`, its 18 ordinary PNGs and the own browser-rendered sheets. **No blocking portfolio regression was found in the executed scope.**
 
 ## Limits
 
-Directed native browser automation and human visual inspection of screenshots were used. This is not a claim of physical manual mouse/touch input, a physical phone, Safari, a screen reader or an external email client test. Selected automated accessibility rules from other rounds do not constitute complete accessibility conformance. The parent/researcher reviewed the reference video; this auditor used the approved brief and did not independently view that source.
+Directed native browser automation and visual inspection by the Codex agent were used. This is not a claim of physical manual mouse/touch input, a physical phone, Safari, a screen reader or an external email client test. Selected automated accessibility rules from other rounds do not constitute complete accessibility conformance. The parent/researcher reviewed the reference video; this auditor used the approved brief and did not independently view that source.

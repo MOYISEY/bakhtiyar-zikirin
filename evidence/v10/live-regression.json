@@ -1,0 +1,278 @@
+{
+  "at": "2026-10-04T16:14:04.068Z",
+  "base": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "commit": "a1e7fb1f04ed2201b05fd974aa4b7003faa87a7b",
+  "scope": "Independent public directed native Windows Chromium clicks, runtime byte comparisons and visual inspection by the Codex agent of actual own frames. Laptop and touch-emulated mobile; not physical input/device testing.",
+  "runtime": [
+    {
+      "file": "index.html",
+      "passed": true,
+      "status": 200,
+      "bytes": 33612,
+      "publicSha256": "f7157271145dacd112fb41f5ffb3810f2a20c8bf94fc6ddb23166178119b3c99",
+      "localSha256": "f7157271145dacd112fb41f5ffb3810f2a20c8bf94fc6ddb23166178119b3c99"
+    },
+    {
+      "file": "assets/index-DytlbY27.js",
+      "passed": true,
+      "status": 200,
+      "bytes": 86326,
+      "publicSha256": "e55c01694cd6780c390664e2d2ccc551b8aec8f2e0cb2f5a8c1e1c25a96aacd2",
+      "localSha256": "e55c01694cd6780c390664e2d2ccc551b8aec8f2e0cb2f5a8c1e1c25a96aacd2"
+    },
+    {
+      "file": "assets/index-ztZL-Kql.css",
+      "passed": true,
+      "status": 200,
+      "bytes": 64127,
+      "publicSha256": "c372790f015f4bd472cf441ead6054868c3e710abce78e49a83a6c6c018d28a8",
+      "localSha256": "c372790f015f4bd472cf441ead6054868c3e710abce78e49a83a6c6c018d28a8"
+    },
+    {
+      "file": "assets/scene-BFmPUJMD.js",
+      "passed": true,
+      "status": 200,
+      "bytes": 603151,
+      "publicSha256": "ffd291f47ca06e2bd638dd3bc10eb1b910db118ccd3c9e4c240a209bd946f9e8",
+      "localSha256": "ffd291f47ca06e2bd638dd3bc10eb1b910db118ccd3c9e4c240a209bd946f9e8"
+    },
+    {
+      "file": "images/helio-evening-map.png",
+      "passed": true,
+      "status": 200,
+      "bytes": 646321,
+      "publicSha256": "4816f564bfcacd4ab421aba40f9c4c923dc957db4477bc7cbcbb4597e8e839f4",
+      "localSha256": "4816f564bfcacd4ab421aba40f9c4c923dc957db4477bc7cbcbb4597e8e839f4"
+    },
+    {
+      "file": "images/keyform-exploded.png",
+      "passed": true,
+      "status": 200,
+      "bytes": 273484,
+      "publicSha256": "5ad3f52a8de0325df2848ce5870a685a4effa632686c6c729b73ea23bc92e729",
+      "localSha256": "5ad3f52a8de0325df2848ce5870a685a4effa632686c6c729b73ea23bc92e729"
+    },
+    {
+      "file": "images/poslesvet-tide.png",
+      "passed": true,
+      "status": 200,
+      "bytes": 236082,
+      "publicSha256": "e510217e62baa97b6025a15543e39d0b3e3009d46748240a50376963ecea281b",
+      "localSha256": "e510217e62baa97b6025a15543e39d0b3e3009d46748240a50376963ecea281b"
+    },
+    {
+      "file": "files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf",
+      "passed": true,
+      "status": 200,
+      "bytes": 96616,
+      "publicSha256": "566051b1e65dbfdf17982f0466948e2556157887f512b5db4d7bb248272060cb",
+      "localSha256": "566051b1e65dbfdf17982f0466948e2556157887f512b5db4d7bb248272060cb"
+    },
+    {
+      "file": "favicon.svg",
+      "passed": true,
+      "status": 200,
+      "bytes": 387,
+      "publicSha256": "597b0d82b4c680bacdfc829de873a5041d712a60041fe7e707fc691b3c139843",
+      "localSha256": "597b0d82b4c680bacdfc829de873a5041d712a60041fe7e707fc691b3c139843"
+    }
+  ],
+  "cases": [
+    {
+      "id": "1366-ru-light",
+      "width": 1366,
+      "lang": "ru",
+      "theme": "light",
+      "errors": [],
+      "console": [],
+      "checks": [
+        "Actual public language/theme, concise hero/featured count and deferred optional renderer",
+        "All native section links, featured/other/education disclosures, close focus, actual CSV trim/undo/download",
+        "Exact authorized email href and actual live PDF download",
+        "Both themes, system-media changes, back to top and saved preferences after public reload",
+        "Live real optional GPU scene, view modes/layers/signal and explicit close"
+      ],
+      "passed": true,
+      "gpu": {
+        "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      }
+    },
+    {
+      "id": "1366-kk-dark",
+      "width": 1366,
+      "lang": "kk",
+      "theme": "dark",
+      "errors": [],
+      "console": [],
+      "checks": [
+        "Actual public language/theme, concise hero/featured count and deferred optional renderer",
+        "All native section links, featured/other/education disclosures, close focus, actual CSV trim/undo/download",
+        "Exact authorized email href and actual live PDF download",
+        "Both themes, system-media changes, back to top and saved preferences after public reload"
+      ],
+      "passed": true
+    },
+    {
+      "id": "1366-en-light",
+      "width": 1366,
+      "lang": "en",
+      "theme": "light",
+      "errors": [],
+      "console": [],
+      "checks": [
+        "Actual public language/theme, concise hero/featured count and deferred optional renderer",
+        "All native section links, featured/other/education disclosures, close focus, actual CSV trim/undo/download",
+        "Exact authorized email href and actual live PDF download",
+        "Both themes, system-media changes, back to top and saved preferences after public reload"
+      ],
+      "passed": true
+    },
+    {
+      "id": "390-ru-light",
+      "width": 390,
+      "lang": "ru",
+      "theme": "light",
+      "errors": [],
+      "console": [],
+      "checks": [
+        "Actual public language/theme, concise hero/featured count and deferred optional renderer",
+        "All native section links, featured/other/education disclosures, close focus, actual CSV trim/undo/download",
+        "Exact authorized email href and actual live PDF download",
+        "Both themes, system-media changes, back to top and saved preferences after public reload",
+        "Mobile keyboard popovers mutually exclusive and Escape focus"
+      ],
+      "passed": true
+    },
+    {
+      "id": "390-kk-dark",
+      "width": 390,
+      "lang": "kk",
+      "theme": "dark",
+      "errors": [],
+      "console": [],
+      "checks": [
+        "Actual public language/theme, concise hero/featured count and deferred optional renderer",
+        "All native section links, featured/other/education disclosures, close focus, actual CSV trim/undo/download",
+        "Exact authorized email href and actual live PDF download",
+        "Both themes, system-media changes, back to top and saved preferences after public reload",
+        "Mobile keyboard popovers mutually exclusive and Escape focus"
+      ],
+      "passed": true
+    },
+    {
+      "id": "390-en-dark",
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "errors": [],
+      "console": [],
+      "checks": [
+        "Actual public language/theme, concise hero/featured count and deferred optional renderer",
+        "All native section links, featured/other/education disclosures, close focus, actual CSV trim/undo/download",
+        "Exact authorized email href and actual live PDF download",
+        "Both themes, system-media changes, back to top and saved preferences after public reload",
+        "Mobile keyboard popovers mutually exclusive and Escape focus"
+      ],
+      "passed": true
+    }
+  ],
+  "external": [
+    {
+      "id": "helio",
+      "expected": "https://moyisey.github.io/helio/",
+      "passed": true,
+      "url": "https://moyisey.github.io/helio/",
+      "status": 200,
+      "title": "Helio — атлас дневного света",
+      "canvases": 1
+    },
+    {
+      "id": "helio-code",
+      "expected": "https://github.com/MOYISEY/helio",
+      "passed": true,
+      "url": "https://github.com/MOYISEY/helio",
+      "status": 200,
+      "title": "GitHub - MOYISEY/helio: Daylight Atlas — local sunlight planning with an original interactive 3D world. · GitHub"
+    },
+    {
+      "id": "helio-qa",
+      "expected": "https://github.com/MOYISEY/helio/blob/main/evidence/live-map-qa.md",
+      "passed": true,
+      "url": "https://github.com/MOYISEY/helio/blob/main/evidence/live-map-qa.md",
+      "status": 200,
+      "title": "helio/evidence/live-map-qa.md at main · MOYISEY/helio · GitHub"
+    },
+    {
+      "id": "keyform",
+      "expected": "https://moyisey.github.io/keyform/",
+      "passed": true,
+      "url": "https://moyisey.github.io/keyform/",
+      "status": 200,
+      "title": "Keyform — Keyboard studio",
+      "canvases": 1
+    },
+    {
+      "id": "keyform-code",
+      "expected": "https://github.com/MOYISEY/keyform",
+      "passed": true,
+      "url": "https://github.com/MOYISEY/keyform",
+      "status": 200,
+      "title": "GitHub - MOYISEY/keyform: An original interactive 3D mechanical keyboard studio. React, TypeScript and Three.js. · GitHub"
+    },
+    {
+      "id": "keyform-ci",
+      "expected": "https://github.com/MOYISEY/keyform/actions/runs/37213782820",
+      "passed": true,
+      "url": "https://github.com/MOYISEY/keyform/actions/runs/37213782820",
+      "status": 200,
+      "title": "Replace hero slogans with direct keyboard instructions · MOYISEY/keyform@6f92d47 · GitHub"
+    },
+    {
+      "id": "poslesvet",
+      "expected": "https://moyisey.github.io/poslesvet/",
+      "passed": true,
+      "url": "https://moyisey.github.io/poslesvet/",
+      "status": 200,
+      "title": "Послесвет",
+      "canvases": 1
+    },
+    {
+      "id": "poslesvet-code",
+      "expected": "https://github.com/MOYISEY/poslesvet",
+      "passed": true,
+      "url": "https://github.com/MOYISEY/poslesvet",
+      "status": 200,
+      "title": "GitHub - MOYISEY/poslesvet: Пошаговая игра о маяке, тенях и приливе. Godot, Windows и Web. · GitHub"
+    },
+    {
+      "id": "contact-github",
+      "expected": "https://github.com/MOYISEY",
+      "passed": true,
+      "url": "https://github.com/MOYISEY",
+      "status": 200,
+      "title": "MOYISEY (Бахтияр) · GitHub"
+    },
+    {
+      "id": "poslesvet-windows-release-head",
+      "expected": "https://github.com/MOYISEY/poslesvet/releases/download/v0.2.0/Poslesvet-Windows-x64.zip",
+      "passed": true,
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "contentLength": "37991633"
+    }
+  ],
+  "edges": [
+    {
+      "name": "public-blocked-WebGL",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "public-no-JS",
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "passed": true
+}

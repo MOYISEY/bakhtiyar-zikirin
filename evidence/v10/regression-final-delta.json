@@ -1,0 +1,812 @@
+{
+  "at": "2026-10-04T16:03:44.637Z",
+  "base": "http://127.0.0.1:5202/",
+  "assets": [
+    "index-ztZL-Kql.css",
+    "index-DytlbY27.js",
+    "scene-BFmPUJMD.js"
+  ],
+  "hashStart": "f7157271145dacd112fb41f5ffb3810f2a20c8bf94fc6ddb23166178119b3c99",
+  "cases": [
+    {
+      "id": "1366-ru-light",
+      "width": 1366,
+      "lang": "ru",
+      "theme": "light",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-290.516px",
+          "top": "-161.375px",
+          "width": "1045.88px"
+        },
+        "sourceCrop": {
+          "x": 399.9914330515929,
+          "y": 222.1861016560217,
+          "width": 799.9388075113778,
+          "height": 494.2823268443798
+        }
+      }
+    },
+    {
+      "id": "1366-ru-dark",
+      "width": 1366,
+      "lang": "ru",
+      "theme": "dark",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-290.516px",
+          "top": "-161.375px",
+          "width": "1045.88px"
+        },
+        "sourceCrop": {
+          "x": 399.9914330515929,
+          "y": 222.1861016560217,
+          "width": 799.9388075113778,
+          "height": 494.2823268443798
+        }
+      }
+    },
+    {
+      "id": "1366-kk-light",
+      "width": 1366,
+      "lang": "kk",
+      "theme": "light",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-290.516px",
+          "top": "-161.375px",
+          "width": "1045.88px"
+        },
+        "sourceCrop": {
+          "x": 399.9914330515929,
+          "y": 222.1861016560217,
+          "width": 799.9388075113778,
+          "height": 494.2823268443798
+        }
+      }
+    },
+    {
+      "id": "1366-kk-dark",
+      "width": 1366,
+      "lang": "kk",
+      "theme": "dark",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-290.516px",
+          "top": "-161.375px",
+          "width": "1045.88px"
+        },
+        "sourceCrop": {
+          "x": 399.9914330515929,
+          "y": 222.1861016560217,
+          "width": 799.9388075113778,
+          "height": 494.2823268443798
+        }
+      }
+    },
+    {
+      "id": "1366-en-light",
+      "width": 1366,
+      "lang": "en",
+      "theme": "light",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-290.516px",
+          "top": "-161.375px",
+          "width": "1045.88px"
+        },
+        "sourceCrop": {
+          "x": 399.9914330515929,
+          "y": 222.1861016560217,
+          "width": 799.9388075113778,
+          "height": 494.2823268443798
+        }
+      }
+    },
+    {
+      "id": "1366-en-dark",
+      "width": 1366,
+      "lang": "en",
+      "theme": "dark",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-290.516px",
+          "top": "-161.375px",
+          "width": "1045.88px"
+        },
+        "sourceCrop": {
+          "x": 399.9914330515929,
+          "y": 222.1861016560217,
+          "width": 799.9388075113778,
+          "height": 494.2823268443798
+        }
+      }
+    },
+    {
+      "id": "1024-ru-light",
+      "width": 1024,
+      "lang": "ru",
+      "theme": "light",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-254.828px",
+          "top": "-141.312px",
+          "width": "917.375px"
+        },
+        "sourceCrop": {
+          "x": 400.00252895489854,
+          "y": 221.816901485216,
+          "width": 800.5450333832948,
+          "height": 492.8845891810874
+        }
+      }
+    },
+    {
+      "id": "1024-ru-dark",
+      "width": 1024,
+      "lang": "ru",
+      "theme": "dark",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-254.828px",
+          "top": "-141.312px",
+          "width": "917.375px"
+        },
+        "sourceCrop": {
+          "x": 400.00252895489854,
+          "y": 221.816901485216,
+          "width": 800.5450333832948,
+          "height": 492.8845891810874
+        }
+      }
+    },
+    {
+      "id": "1024-kk-light",
+      "width": 1024,
+      "lang": "kk",
+      "theme": "light",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-254.828px",
+          "top": "-141.312px",
+          "width": "917.375px"
+        },
+        "sourceCrop": {
+          "x": 400.00252895489854,
+          "y": 221.816901485216,
+          "width": 800.5450333832948,
+          "height": 492.8845891810874
+        }
+      }
+    },
+    {
+      "id": "1024-kk-dark",
+      "width": 1024,
+      "lang": "kk",
+      "theme": "dark",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-254.828px",
+          "top": "-141.312px",
+          "width": "917.375px"
+        },
+        "sourceCrop": {
+          "x": 400.00252895489854,
+          "y": 221.816901485216,
+          "width": 800.5450333832948,
+          "height": 492.8845891810874
+        }
+      }
+    },
+    {
+      "id": "1024-en-light",
+      "width": 1024,
+      "lang": "en",
+      "theme": "light",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-254.828px",
+          "top": "-141.312px",
+          "width": "917.375px"
+        },
+        "sourceCrop": {
+          "x": 400.00252895489854,
+          "y": 221.816901485216,
+          "width": 800.5450333832948,
+          "height": 492.8845891810874
+        }
+      }
+    },
+    {
+      "id": "1024-en-dark",
+      "width": 1024,
+      "lang": "en",
+      "theme": "dark",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-254.828px",
+          "top": "-141.312px",
+          "width": "917.375px"
+        },
+        "sourceCrop": {
+          "x": 400.00252895489854,
+          "y": 221.816901485216,
+          "width": 800.5450333832948,
+          "height": 492.8845891810874
+        }
+      }
+    },
+    {
+      "id": "820-ru-light",
+      "width": 820,
+      "lang": "ru",
+      "theme": "light",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-202.469px",
+          "top": "-111.859px",
+          "width": "728.875px"
+        },
+        "sourceCrop": {
+          "x": 400.00735379866234,
+          "y": 220.99394271994512,
+          "width": 800.1371977362373,
+          "height": 491.93620305264966
+        }
+      }
+    },
+    {
+      "id": "820-ru-dark",
+      "width": 820,
+      "lang": "ru",
+      "theme": "dark",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-202.469px",
+          "top": "-111.859px",
+          "width": "728.875px"
+        },
+        "sourceCrop": {
+          "x": 400.00735379866234,
+          "y": 220.99394271994512,
+          "width": 800.1371977362373,
+          "height": 491.93620305264966
+        }
+      }
+    },
+    {
+      "id": "820-kk-light",
+      "width": 820,
+      "lang": "kk",
+      "theme": "light",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-202.469px",
+          "top": "-111.859px",
+          "width": "728.875px"
+        },
+        "sourceCrop": {
+          "x": 400.00735379866234,
+          "y": 220.99394271994512,
+          "width": 800.1371977362373,
+          "height": 491.93620305264966
+        }
+      }
+    },
+    {
+      "id": "820-kk-dark",
+      "width": 820,
+      "lang": "kk",
+      "theme": "dark",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-202.469px",
+          "top": "-111.859px",
+          "width": "728.875px"
+        },
+        "sourceCrop": {
+          "x": 400.00735379866234,
+          "y": 220.99394271994512,
+          "width": 800.1371977362373,
+          "height": 491.93620305264966
+        }
+      }
+    },
+    {
+      "id": "820-en-light",
+      "width": 820,
+      "lang": "en",
+      "theme": "light",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-202.469px",
+          "top": "-111.859px",
+          "width": "728.875px"
+        },
+        "sourceCrop": {
+          "x": 400.00735379866234,
+          "y": 220.99394271994512,
+          "width": 800.1371977362373,
+          "height": 491.93620305264966
+        }
+      }
+    },
+    {
+      "id": "820-en-dark",
+      "width": 820,
+      "lang": "en",
+      "theme": "dark",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-202.469px",
+          "top": "-111.859px",
+          "width": "728.875px"
+        },
+        "sourceCrop": {
+          "x": 400.00735379866234,
+          "y": 220.99394271994512,
+          "width": 800.1371977362373,
+          "height": 491.93620305264966
+        }
+      }
+    },
+    {
+      "id": "390-ru-light",
+      "width": 390,
+      "lang": "ru",
+      "theme": "light",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered",
+        "Smartphone keyboard mutual popovers, Escape/focus, contact navigation and actual PDF download"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-171.5px",
+          "top": "-95.1094px",
+          "width": "617.391px"
+        },
+        "sourceCrop": {
+          "x": 400.00583098878997,
+          "y": 221.83273808656105,
+          "width": 800.0116619775799,
+          "height": 492.13545386959
+        }
+      }
+    },
+    {
+      "id": "390-ru-dark",
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered",
+        "Smartphone keyboard mutual popovers, Escape/focus, contact navigation and actual PDF download"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-171.5px",
+          "top": "-95.1094px",
+          "width": "617.391px"
+        },
+        "sourceCrop": {
+          "x": 400.00583098878997,
+          "y": 221.83273808656105,
+          "width": 800.0116619775799,
+          "height": 492.13545386959
+        }
+      }
+    },
+    {
+      "id": "390-kk-light",
+      "width": 390,
+      "lang": "kk",
+      "theme": "light",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered",
+        "Smartphone keyboard mutual popovers, Escape/focus, contact navigation and actual PDF download"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-171.5px",
+          "top": "-95.1094px",
+          "width": "617.391px"
+        },
+        "sourceCrop": {
+          "x": 400.00583098878997,
+          "y": 221.83273808656105,
+          "width": 800.0116619775799,
+          "height": 492.13545386959
+        }
+      }
+    },
+    {
+      "id": "390-kk-dark",
+      "width": 390,
+      "lang": "kk",
+      "theme": "dark",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered",
+        "Smartphone keyboard mutual popovers, Escape/focus, contact navigation and actual PDF download"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-171.5px",
+          "top": "-95.1094px",
+          "width": "617.391px"
+        },
+        "sourceCrop": {
+          "x": 400.00583098878997,
+          "y": 221.83273808656105,
+          "width": 800.0116619775799,
+          "height": 492.13545386959
+        }
+      }
+    },
+    {
+      "id": "390-en-light",
+      "width": 390,
+      "lang": "en",
+      "theme": "light",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered",
+        "Smartphone keyboard mutual popovers, Escape/focus, contact navigation and actual PDF download"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-171.5px",
+          "top": "-95.1094px",
+          "width": "617.391px"
+        },
+        "sourceCrop": {
+          "x": 400.00583098878997,
+          "y": 221.83273808656105,
+          "width": 800.0116619775799,
+          "height": 492.13545386959
+        }
+      }
+    },
+    {
+      "id": "390-en-dark",
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "checks": [
+        "helio .project-demo 10 edge/center points uncovered",
+        "helio .project-details>summary 10 edge/center points uncovered",
+        "keyform .project-demo 10 edge/center points uncovered",
+        "keyform .project-details>summary 10 edge/center points uncovered",
+        "poslesvet .project-demo 10 edge/center points uncovered",
+        "poslesvet .project-details>summary 10 edge/center points uncovered",
+        "Smartphone keyboard mutual popovers, Escape/focus, contact navigation and actual PDF download"
+      ],
+      "errors": [],
+      "passed": true,
+      "crop": {
+        "natural": [
+          1440,
+          1026
+        ],
+        "styles": {
+          "left": "-171.5px",
+          "top": "-95.1094px",
+          "width": "617.391px"
+        },
+        "sourceCrop": {
+          "x": 400.00583098878997,
+          "y": 221.83273808656105,
+          "width": 800.0116619775799,
+          "height": 492.13545386959
+        }
+      }
+    }
+  ],
+  "passed": true,
+  "hashEnd": "f7157271145dacd112fb41f5ffb3810f2a20c8bf94fc6ddb23166178119b3c99"
+}

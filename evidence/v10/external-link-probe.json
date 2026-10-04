@@ -1,0 +1,199 @@
+{
+  "at": "2026-10-04T16:12:16.769Z",
+  "base": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "scope": "Actual browser popup navigation for unique external portfolio links, navigation HTTP responses and rendered titles; native ZIP download verified by signature. Child-app full audits and OS email client are outside scope.",
+  "links": [
+    {
+      "url": "https://www.openstreetmap.org/copyright",
+      "passed": true,
+      "status": 200,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://www.openstreetmap.org/copyright",
+      "title": "Авторские права и лицензирование | OpenStreetMap"
+    },
+    {
+      "url": "https://openfreemap.org/",
+      "passed": true,
+      "status": 200,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://openfreemap.org/",
+      "title": "OpenFreeMap"
+    },
+    {
+      "url": "https://moyisey.github.io/helio/",
+      "passed": true,
+      "status": 200,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://moyisey.github.io/helio/",
+      "title": "Helio — атлас дневного света"
+    },
+    {
+      "url": "https://github.com/MOYISEY/helio",
+      "passed": true,
+      "status": 200,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://github.com/MOYISEY/helio",
+      "title": "GitHub - MOYISEY/helio: Daylight Atlas — local sunlight planning with an original interactive 3D world. · GitHub"
+    },
+    {
+      "url": "https://github.com/MOYISEY/helio/blob/main/evidence/live-map-qa.md",
+      "passed": false,
+      "status": 429,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://github.com/MOYISEY/helio/blob/main/evidence/live-map-qa.md",
+      "title": "helio/evidence/live-map-qa.md at main · MOYISEY/helio · GitHub"
+    },
+    {
+      "url": "https://moyisey.github.io/keyform/",
+      "passed": true,
+      "status": 200,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://moyisey.github.io/keyform/",
+      "title": "Keyform — Keyboard studio"
+    },
+    {
+      "url": "https://github.com/MOYISEY/keyform",
+      "passed": true,
+      "status": 200,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://github.com/MOYISEY/keyform",
+      "title": "GitHub - MOYISEY/keyform: An original interactive 3D mechanical keyboard studio. React, TypeScript and Three.js. · GitHub"
+    },
+    {
+      "url": "https://github.com/MOYISEY/keyform/actions/runs/37213782820",
+      "passed": true,
+      "status": 200,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://github.com/MOYISEY/keyform/actions/runs/37213782820",
+      "title": "Replace hero slogans with direct keyboard instructions · MOYISEY/keyform@6f92d47 · GitHub"
+    },
+    {
+      "url": "https://moyisey.github.io/poslesvet/",
+      "passed": true,
+      "status": 200,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://moyisey.github.io/poslesvet/",
+      "title": "Послесвет"
+    },
+    {
+      "url": "https://github.com/MOYISEY/poslesvet/releases/download/v0.2.0/Poslesvet-Windows-x64.zip",
+      "passed": true,
+      "suggestedFilename": "Poslesvet-Windows-x64.zip",
+      "error": null,
+      "zipMagic": "504b0304"
+    },
+    {
+      "url": "https://github.com/MOYISEY/poslesvet",
+      "passed": true,
+      "status": 200,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://github.com/MOYISEY/poslesvet",
+      "title": "GitHub - MOYISEY/poslesvet: Пошаговая игра о маяке, тенях и приливе. Godot, Windows и Web. · GitHub"
+    },
+    {
+      "url": "https://moyisey.github.io/framepack/",
+      "passed": true,
+      "status": 200,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://moyisey.github.io/framepack/",
+      "title": "Framepack — responsive image workspace"
+    },
+    {
+      "url": "https://github.com/MOYISEY/framepack",
+      "passed": true,
+      "status": 200,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://github.com/MOYISEY/framepack",
+      "title": "GitHub - MOYISEY/framepack: Local responsive-image handoff workspace: real resize/compress, size comparisons, ZIP + manifest + HTML. React/TypeScript, privacy-first. · GitHub"
+    },
+    {
+      "url": "https://github.com/MOYISEY/framepack/blob/main/qa/QA.md",
+      "passed": true,
+      "status": 200,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://github.com/MOYISEY/framepack/blob/main/qa/QA.md",
+      "title": "framepack/qa/QA.md at main · MOYISEY/framepack · GitHub"
+    },
+    {
+      "url": "https://moyisey.github.io/shapecheck/",
+      "passed": true,
+      "status": 200,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://moyisey.github.io/shapecheck/",
+      "title": "Shapecheck · JSON contract workbench"
+    },
+    {
+      "url": "https://github.com/MOYISEY/shapecheck",
+      "passed": true,
+      "status": 200,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://github.com/MOYISEY/shapecheck",
+      "title": "GitHub - MOYISEY/shapecheck: Local JSON Schema draft-07 workbench with safe workers and portable Node regression tests. React + TypeScript. · GitHub"
+    },
+    {
+      "url": "https://github.com/MOYISEY/shapecheck/blob/main/docs/LIVE-QA.md",
+      "passed": true,
+      "status": 200,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://github.com/MOYISEY/shapecheck/blob/main/docs/LIVE-QA.md",
+      "title": "shapecheck/docs/LIVE-QA.md at main · MOYISEY/shapecheck · GitHub"
+    },
+    {
+      "url": "https://moyisey.github.io/rowline/",
+      "passed": true,
+      "status": 200,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://moyisey.github.io/rowline/",
+      "title": "Rowline — CSV, готовый к импорту"
+    },
+    {
+      "url": "https://github.com/MOYISEY/rowline",
+      "passed": true,
+      "status": 200,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://github.com/MOYISEY/rowline",
+      "title": "GitHub - MOYISEY/rowline: Local CSV import preparation. Reversible cleanup, validation, rejection reports and reusable recipes. Built by Bakhtiyar Zikirin. · GitHub"
+    },
+    {
+      "url": "https://github.com/MOYISEY/rowline/blob/main/QA.md",
+      "passed": true,
+      "status": 200,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://github.com/MOYISEY/rowline/blob/main/QA.md",
+      "title": "rowline/QA.md at main · MOYISEY/rowline · GitHub"
+    },
+    {
+      "url": "https://moyisey.github.io/atyrau-tour-3d/tour_v2/",
+      "passed": true,
+      "status": 200,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://moyisey.github.io/atyrau-tour-3d/tour_v2/",
+      "title": "3D Тур — Атырау университеті"
+    },
+    {
+      "url": "https://github.com/MOYISEY/atyrau-tour-3d",
+      "passed": true,
+      "status": 200,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://github.com/MOYISEY/atyrau-tour-3d",
+      "title": "GitHub - MOYISEY/atyrau-tour-3d · GitHub"
+    },
+    {
+      "url": "https://github.com/MOYISEY/art_portal",
+      "passed": true,
+      "status": 200,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://github.com/MOYISEY/art_portal",
+      "title": "GitHub - MOYISEY/art_portal · GitHub"
+    },
+    {
+      "url": "https://github.com/MOYISEY",
+      "passed": true,
+      "status": 200,
+      "statusMethod": "independent HTTP GET after actual popup click",
+      "finalUrl": "https://github.com/MOYISEY",
+      "title": "MOYISEY (Бахтияр) · GitHub"
+    }
+  ],
+  "passed": false
+}

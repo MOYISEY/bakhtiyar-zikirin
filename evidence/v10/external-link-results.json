@@ -1,0 +1,156 @@
+{
+  "commit": "a1e7fb1f04ed2201b05fd974aa4b7003faa87a7b",
+  "rootProbe": "external-link-probe.json",
+  "followup": "live-regression.json",
+  "scope": "24 unique portfolio destinations actually clicked. Original 429 retained; the single Helio QA destination was later opened successfully by the independent live auditor. ZIP signature and download are in the root probe.",
+  "passed": true,
+  "results": [
+    {
+      "url": "https://www.openstreetmap.org/copyright",
+      "initialStatus": 200,
+      "initialPassed": true,
+      "finalPassed": true
+    },
+    {
+      "url": "https://openfreemap.org/",
+      "initialStatus": 200,
+      "initialPassed": true,
+      "finalPassed": true
+    },
+    {
+      "url": "https://moyisey.github.io/helio/",
+      "initialStatus": 200,
+      "initialPassed": true,
+      "finalPassed": true
+    },
+    {
+      "url": "https://github.com/MOYISEY/helio",
+      "initialStatus": 200,
+      "initialPassed": true,
+      "finalPassed": true
+    },
+    {
+      "url": "https://github.com/MOYISEY/helio/blob/main/evidence/live-map-qa.md",
+      "initialStatus": 429,
+      "initialPassed": false,
+      "finalPassed": true,
+      "followupStatus": 200,
+      "followupEvidence": "live-regression.json",
+      "initialReason": "HTTP 429"
+    },
+    {
+      "url": "https://moyisey.github.io/keyform/",
+      "initialStatus": 200,
+      "initialPassed": true,
+      "finalPassed": true
+    },
+    {
+      "url": "https://github.com/MOYISEY/keyform",
+      "initialStatus": 200,
+      "initialPassed": true,
+      "finalPassed": true
+    },
+    {
+      "url": "https://github.com/MOYISEY/keyform/actions/runs/37213782820",
+      "initialStatus": 200,
+      "initialPassed": true,
+      "finalPassed": true
+    },
+    {
+      "url": "https://moyisey.github.io/poslesvet/",
+      "initialStatus": 200,
+      "initialPassed": true,
+      "finalPassed": true
+    },
+    {
+      "url": "https://github.com/MOYISEY/poslesvet/releases/download/v0.2.0/Poslesvet-Windows-x64.zip",
+      "initialStatus": null,
+      "initialPassed": true,
+      "finalPassed": true
+    },
+    {
+      "url": "https://github.com/MOYISEY/poslesvet",
+      "initialStatus": 200,
+      "initialPassed": true,
+      "finalPassed": true
+    },
+    {
+      "url": "https://moyisey.github.io/framepack/",
+      "initialStatus": 200,
+      "initialPassed": true,
+      "finalPassed": true
+    },
+    {
+      "url": "https://github.com/MOYISEY/framepack",
+      "initialStatus": 200,
+      "initialPassed": true,
+      "finalPassed": true
+    },
+    {
+      "url": "https://github.com/MOYISEY/framepack/blob/main/qa/QA.md",
+      "initialStatus": 200,
+      "initialPassed": true,
+      "finalPassed": true
+    },
+    {
+      "url": "https://moyisey.github.io/shapecheck/",
+      "initialStatus": 200,
+      "initialPassed": true,
+      "finalPassed": true
+    },
+    {
+      "url": "https://github.com/MOYISEY/shapecheck",
+      "initialStatus": 200,
+      "initialPassed": true,
+      "finalPassed": true
+    },
+    {
+      "url": "https://github.com/MOYISEY/shapecheck/blob/main/docs/LIVE-QA.md",
+      "initialStatus": 200,
+      "initialPassed": true,
+      "finalPassed": true
+    },
+    {
+      "url": "https://moyisey.github.io/rowline/",
+      "initialStatus": 200,
+      "initialPassed": true,
+      "finalPassed": true
+    },
+    {
+      "url": "https://github.com/MOYISEY/rowline",
+      "initialStatus": 200,
+      "initialPassed": true,
+      "finalPassed": true
+    },
+    {
+      "url": "https://github.com/MOYISEY/rowline/blob/main/QA.md",
+      "initialStatus": 200,
+      "initialPassed": true,
+      "finalPassed": true
+    },
+    {
+      "url": "https://moyisey.github.io/atyrau-tour-3d/tour_v2/",
+      "initialStatus": 200,
+      "initialPassed": true,
+      "finalPassed": true
+    },
+    {
+      "url": "https://github.com/MOYISEY/atyrau-tour-3d",
+      "initialStatus": 200,
+      "initialPassed": true,
+      "finalPassed": true
+    },
+    {
+      "url": "https://github.com/MOYISEY/art_portal",
+      "initialStatus": 200,
+      "initialPassed": true,
+      "finalPassed": true
+    },
+    {
+      "url": "https://github.com/MOYISEY",
+      "initialStatus": 200,
+      "initialPassed": true,
+      "finalPassed": true
+    }
+  ]
+}
