@@ -1,0 +1,872 @@
+[
+  {
+    "width": 1366,
+    "path": "",
+    "imgs": [
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-preview.jpg",
+        "naturalWidth": 720,
+        "css": {
+          "x": 692.984375,
+          "y": 186.25,
+          "width": 596.21875,
+          "height": 372.625,
+          "top": 186.25,
+          "right": 1289.203125,
+          "bottom": 558.875,
+          "left": 692.984375
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-preview.jpg",
+        "naturalWidth": 720,
+        "css": {
+          "x": 61.78125,
+          "y": 827.140625,
+          "width": 391.8125,
+          "height": 244.875,
+          "top": 827.140625,
+          "right": 453.59375,
+          "bottom": 1072.015625,
+          "left": 61.78125
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/keyform-preview.jpg",
+        "naturalWidth": 720,
+        "css": {
+          "x": 479.59375,
+          "y": 827.140625,
+          "width": 391.8125,
+          "height": 244.875,
+          "top": 827.140625,
+          "right": 871.40625,
+          "bottom": 1072.015625,
+          "left": 479.59375
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/poslesvet-preview.jpg",
+        "naturalWidth": 720,
+        "css": {
+          "x": 897.40625,
+          "y": 827.140625,
+          "width": 391.8125,
+          "height": 244.875,
+          "top": 827.140625,
+          "right": 1289.21875,
+          "bottom": 1072.015625,
+          "left": 897.40625
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      }
+    ]
+  },
+  {
+    "width": 1366,
+    "path": "projects/",
+    "imgs": [
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-preview.jpg",
+        "naturalWidth": 720,
+        "css": {
+          "x": 61.78125,
+          "y": 447.375,
+          "width": 391.8125,
+          "height": 244.875,
+          "top": 447.375,
+          "right": 453.59375,
+          "bottom": 692.25,
+          "left": 61.78125
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/keyform-preview.jpg",
+        "naturalWidth": 720,
+        "css": {
+          "x": 479.59375,
+          "y": 447.375,
+          "width": 391.8125,
+          "height": 244.875,
+          "top": 447.375,
+          "right": 871.40625,
+          "bottom": 692.25,
+          "left": 479.59375
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/poslesvet-preview.jpg",
+        "naturalWidth": 720,
+        "css": {
+          "x": 897.40625,
+          "y": 447.375,
+          "width": 391.8125,
+          "height": 244.875,
+          "top": 447.375,
+          "right": 1289.21875,
+          "bottom": 692.25,
+          "left": 897.40625
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "",
+        "naturalWidth": 0,
+        "css": {
+          "x": 61.78125,
+          "y": 937.71875,
+          "width": 391.8125,
+          "height": 244.875,
+          "top": 937.71875,
+          "right": 453.59375,
+          "bottom": 1182.59375,
+          "left": 61.78125
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "",
+        "naturalWidth": 0,
+        "css": {
+          "x": 479.59375,
+          "y": 937.71875,
+          "width": 391.8125,
+          "height": 244.875,
+          "top": 937.71875,
+          "right": 871.40625,
+          "bottom": 1182.59375,
+          "left": 479.59375
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "",
+        "naturalWidth": 0,
+        "css": {
+          "x": 897.40625,
+          "y": 937.71875,
+          "width": 391.8125,
+          "height": 244.875,
+          "top": 937.71875,
+          "right": 1289.21875,
+          "bottom": 1182.59375,
+          "left": 897.40625
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "",
+        "naturalWidth": 0,
+        "css": {
+          "x": 61.78125,
+          "y": 1428.0625,
+          "width": 391.8125,
+          "height": 244.875,
+          "top": 1428.0625,
+          "right": 453.59375,
+          "bottom": 1672.9375,
+          "left": 61.78125
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "",
+        "naturalWidth": 0,
+        "css": {
+          "x": 479.59375,
+          "y": 1428.0625,
+          "width": 391.8125,
+          "height": 244.875,
+          "top": 1428.0625,
+          "right": 871.40625,
+          "bottom": 1672.9375,
+          "left": 479.59375
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "",
+        "naturalWidth": 0,
+        "css": {
+          "x": 897.40625,
+          "y": 1428.0625,
+          "width": 391.8125,
+          "height": 244.875,
+          "top": 1428.0625,
+          "right": 1289.21875,
+          "bottom": 1672.9375,
+          "left": 897.40625
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      }
+    ]
+  },
+  {
+    "width": 1366,
+    "path": "projects/helio.html",
+    "imgs": [
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-1.jpg",
+        "naturalWidth": 1280,
+        "css": {
+          "x": 126.5,
+          "y": 213.890625,
+          "width": 1098,
+          "height": 686.25,
+          "top": 213.890625,
+          "right": 1224.5,
+          "bottom": 900.140625,
+          "left": 126.5
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-2.jpg",
+        "naturalWidth": 1280,
+        "css": {
+          "x": 126.5,
+          "y": 1336.4375,
+          "width": 1098,
+          "height": 686.25,
+          "top": 1336.4375,
+          "right": 1224.5,
+          "bottom": 2022.6875,
+          "left": 126.5
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-1.jpg",
+        "naturalWidth": 1280,
+        "css": {
+          "x": 92.5,
+          "y": 135.71875,
+          "width": 1166,
+          "height": 594,
+          "top": 135.71875,
+          "right": 1258.5,
+          "bottom": 729.71875,
+          "left": 92.5
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "path": "",
+    "imgs": [
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-preview.jpg",
+        "naturalWidth": 720,
+        "css": {
+          "x": 971.3125,
+          "y": 175.90625,
+          "width": 644.453125,
+          "height": 402.78125,
+          "top": 175.90625,
+          "right": 1615.765625,
+          "bottom": 578.6875,
+          "left": 971.3125
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-preview.jpg",
+        "naturalWidth": 720,
+        "css": {
+          "x": 289.21875,
+          "y": 837.609375,
+          "width": 424.84375,
+          "height": 265.515625,
+          "top": 837.609375,
+          "right": 714.0625,
+          "bottom": 1103.125,
+          "left": 289.21875
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/keyform-preview.jpg",
+        "naturalWidth": 720,
+        "css": {
+          "x": 740.0625,
+          "y": 837.609375,
+          "width": 424.859375,
+          "height": 265.53125,
+          "top": 837.609375,
+          "right": 1164.921875,
+          "bottom": 1103.140625,
+          "left": 740.0625
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/poslesvet-preview.jpg",
+        "naturalWidth": 720,
+        "css": {
+          "x": 1190.921875,
+          "y": 837.609375,
+          "width": 424.84375,
+          "height": 265.515625,
+          "top": 837.609375,
+          "right": 1615.765625,
+          "bottom": 1103.125,
+          "left": 1190.921875
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "path": "projects/",
+    "imgs": [
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-preview.jpg",
+        "naturalWidth": 720,
+        "css": {
+          "x": 314.21875,
+          "y": 450.15625,
+          "width": 408.1875,
+          "height": 255.109375,
+          "top": 450.15625,
+          "right": 722.40625,
+          "bottom": 705.265625,
+          "left": 314.21875
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/keyform-preview.jpg",
+        "naturalWidth": 720,
+        "css": {
+          "x": 748.40625,
+          "y": 450.15625,
+          "width": 408.1875,
+          "height": 255.109375,
+          "top": 450.15625,
+          "right": 1156.59375,
+          "bottom": 705.265625,
+          "left": 748.40625
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/poslesvet-preview.jpg",
+        "naturalWidth": 720,
+        "css": {
+          "x": 1182.59375,
+          "y": 450.15625,
+          "width": 408.1875,
+          "height": 255.109375,
+          "top": 450.15625,
+          "right": 1590.78125,
+          "bottom": 705.265625,
+          "left": 1182.59375
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "",
+        "naturalWidth": 0,
+        "css": {
+          "x": 314.21875,
+          "y": 950.734375,
+          "width": 408.1875,
+          "height": 255.109375,
+          "top": 950.734375,
+          "right": 722.40625,
+          "bottom": 1205.84375,
+          "left": 314.21875
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "",
+        "naturalWidth": 0,
+        "css": {
+          "x": 748.40625,
+          "y": 950.734375,
+          "width": 408.1875,
+          "height": 255.109375,
+          "top": 950.734375,
+          "right": 1156.59375,
+          "bottom": 1205.84375,
+          "left": 748.40625
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "",
+        "naturalWidth": 0,
+        "css": {
+          "x": 1182.59375,
+          "y": 950.734375,
+          "width": 408.1875,
+          "height": 255.109375,
+          "top": 950.734375,
+          "right": 1590.78125,
+          "bottom": 1205.84375,
+          "left": 1182.59375
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "",
+        "naturalWidth": 0,
+        "css": {
+          "x": 314.21875,
+          "y": 1451.3125,
+          "width": 408.1875,
+          "height": 255.109375,
+          "top": 1451.3125,
+          "right": 722.40625,
+          "bottom": 1706.421875,
+          "left": 314.21875
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "",
+        "naturalWidth": 0,
+        "css": {
+          "x": 748.40625,
+          "y": 1451.3125,
+          "width": 408.1875,
+          "height": 255.109375,
+          "top": 1451.3125,
+          "right": 1156.59375,
+          "bottom": 1706.421875,
+          "left": 748.40625
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "",
+        "naturalWidth": 0,
+        "css": {
+          "x": 1182.59375,
+          "y": 1451.3125,
+          "width": 408.1875,
+          "height": 255.109375,
+          "top": 1451.3125,
+          "right": 1590.78125,
+          "bottom": 1706.421875,
+          "left": 1182.59375
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "path": "projects/helio.html",
+    "imgs": [
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-1.jpg",
+        "naturalWidth": 1280,
+        "css": {
+          "x": 403.5,
+          "y": 213.890625,
+          "width": 1098,
+          "height": 686.25,
+          "top": 213.890625,
+          "right": 1501.5,
+          "bottom": 900.140625,
+          "left": 403.5
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-2.jpg",
+        "naturalWidth": 1280,
+        "css": {
+          "x": 403.5,
+          "y": 1336.4375,
+          "width": 1098,
+          "height": 686.25,
+          "top": 1336.4375,
+          "right": 1501.5,
+          "bottom": 2022.6875,
+          "left": 403.5
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-1.jpg",
+        "naturalWidth": 1280,
+        "css": {
+          "x": 369.5,
+          "y": 135.71875,
+          "width": 1166,
+          "height": 594,
+          "top": 135.71875,
+          "right": 1535.5,
+          "bottom": 729.71875,
+          "left": 369.5
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "path": "",
+    "imgs": [
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-preview.jpg",
+        "naturalWidth": 720,
+        "css": {
+          "x": 19.75,
+          "y": 771.390625,
+          "width": 335.5,
+          "height": 209.6875,
+          "top": 771.390625,
+          "right": 355.25,
+          "bottom": 981.078125,
+          "left": 19.75
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-preview.jpg",
+        "naturalWidth": 720,
+        "css": {
+          "x": 19.75,
+          "y": 1259.84375,
+          "width": 335.5,
+          "height": 209.6875,
+          "top": 1259.84375,
+          "right": 355.25,
+          "bottom": 1469.53125,
+          "left": 19.75
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/keyform-preview.jpg",
+        "naturalWidth": 720,
+        "css": {
+          "x": 19.75,
+          "y": 1667.328125,
+          "width": 335.5,
+          "height": 209.6875,
+          "top": 1667.328125,
+          "right": 355.25,
+          "bottom": 1877.015625,
+          "left": 19.75
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/poslesvet-preview.jpg",
+        "naturalWidth": 720,
+        "css": {
+          "x": 19.75,
+          "y": 2097.859375,
+          "width": 335.5,
+          "height": 209.6875,
+          "top": 2097.859375,
+          "right": 355.25,
+          "bottom": 2307.546875,
+          "left": 19.75
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "path": "projects/",
+    "imgs": [
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-preview.jpg",
+        "naturalWidth": 720,
+        "css": {
+          "x": 19.75,
+          "y": 666.875,
+          "width": 335.5,
+          "height": 209.6875,
+          "top": 666.875,
+          "right": 355.25,
+          "bottom": 876.5625,
+          "left": 19.75
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/keyform-preview.jpg",
+        "naturalWidth": 720,
+        "css": {
+          "x": 19.75,
+          "y": 1074.359375,
+          "width": 335.5,
+          "height": 209.6875,
+          "top": 1074.359375,
+          "right": 355.25,
+          "bottom": 1284.046875,
+          "left": 19.75
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/poslesvet-preview.jpg",
+        "naturalWidth": 720,
+        "css": {
+          "x": 19.75,
+          "y": 1504.890625,
+          "width": 335.5,
+          "height": 209.6875,
+          "top": 1504.890625,
+          "right": 355.25,
+          "bottom": 1714.578125,
+          "left": 19.75
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "",
+        "naturalWidth": 0,
+        "css": {
+          "x": 19.75,
+          "y": 1912.375,
+          "width": 335.5,
+          "height": 209.6875,
+          "top": 1912.375,
+          "right": 355.25,
+          "bottom": 2122.0625,
+          "left": 19.75
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "",
+        "naturalWidth": 0,
+        "css": {
+          "x": 19.75,
+          "y": 2342.90625,
+          "width": 335.5,
+          "height": 209.6875,
+          "top": 2342.90625,
+          "right": 355.25,
+          "bottom": 2552.59375,
+          "left": 19.75
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "",
+        "naturalWidth": 0,
+        "css": {
+          "x": 19.75,
+          "y": 2773.4375,
+          "width": 335.5,
+          "height": 209.6875,
+          "top": 2773.4375,
+          "right": 355.25,
+          "bottom": 2983.125,
+          "left": 19.75
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "",
+        "naturalWidth": 0,
+        "css": {
+          "x": 19.75,
+          "y": 3203.96875,
+          "width": 335.5,
+          "height": 209.6875,
+          "top": 3203.96875,
+          "right": 355.25,
+          "bottom": 3413.65625,
+          "left": 19.75
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "",
+        "naturalWidth": 0,
+        "css": {
+          "x": 19.75,
+          "y": 3634.5,
+          "width": 335.5,
+          "height": 209.6875,
+          "top": 3634.5,
+          "right": 355.25,
+          "bottom": 3844.1875,
+          "left": 19.75
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "",
+        "naturalWidth": 0,
+        "css": {
+          "x": 19.75,
+          "y": 4065.03125,
+          "width": 335.5,
+          "height": 209.6875,
+          "top": 4065.03125,
+          "right": 355.25,
+          "bottom": 4274.71875,
+          "left": 19.75
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "path": "projects/helio.html",
+    "imgs": [
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-1.jpg",
+        "naturalWidth": 1280,
+        "css": {
+          "x": 20.640625,
+          "y": 652.28125,
+          "width": 333.71875,
+          "height": 208.5625,
+          "top": 652.28125,
+          "right": 354.359375,
+          "bottom": 860.84375,
+          "left": 20.640625
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-2.jpg",
+        "naturalWidth": 1280,
+        "css": {
+          "x": 20.640625,
+          "y": 1645.640625,
+          "width": 333.71875,
+          "height": 208.5625,
+          "top": 1645.640625,
+          "right": 354.359375,
+          "bottom": 1854.203125,
+          "left": 20.640625
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      },
+      {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-1.jpg",
+        "naturalWidth": 1280,
+        "css": {
+          "x": 12.484375,
+          "y": 313.75,
+          "width": 350.015625,
+          "height": 218.75,
+          "top": 313.75,
+          "right": 362.5,
+          "bottom": 532.5,
+          "left": 12.484375
+        },
+        "dpr": 2,
+        "srcset": "",
+        "sizes": ""
+      }
+    ]
+  }
+]

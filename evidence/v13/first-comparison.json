@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-04T19:43:49.343Z",
+  "scope": "First Keyform comparison before changing portfolio UI; both own actual-app captures. User attachment not used.",
+  "cardDisplay": {
+    "cssWidth": 800,
+    "dpr": 2,
+    "requiredPixelWidth": 1600
+  },
+  "before": {
+    "file": "projects/media/keyform-preview.jpg",
+    "width": 720,
+    "height": 450,
+    "bytes": 28464,
+    "sha256": "c0c47be95341be42826420be364e30c8d655f79e28e6b0ce5316b0130d99acf8",
+    "jpegPasses": 2
+  },
+  "after": {
+    "width": 1600,
+    "height": 1000,
+    "file": "projects/media/keyform-card-1600.webp",
+    "bytes": 85626,
+    "sha256": "b6efcb3d2980402dec22ce61cfa5c1433daf9e4be2b0d94a93fe126dbc974cb9",
+    "pngSourceWidth": 1843,
+    "pngSourceHeight": 1152,
+    "sourceDpr": 1.7999999523162842
+  },
+  "detailBefore": {
+    "width": 1280,
+    "height": 800,
+    "bytes": 86635
+  },
+  "detailAfter": {
+    "width": 2400,
+    "height": 1500,
+    "file": "projects/media/keyform-detail-1-2400.webp",
+    "bytes": 153802,
+    "sha256": "aaa0e93c8933a886ff62d89bba5f1516ffbfddd93dd37b873140411348e2f059"
+  },
+  "sourceCanvas": [
+    {
+      "width": 2476,
+      "height": 1151,
+      "cssWidth": 1376,
+      "cssHeight": 640
+    }
+  ]
+}
