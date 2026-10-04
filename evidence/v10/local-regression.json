@@ -1,0 +1,366 @@
+{
+  "at": "2026-10-04T15:49:02.947Z",
+  "base": "http://127.0.0.1:5202/",
+  "scope": "Local production-preview directed UI checks, actual native Chromium and emulated laptop/mobile. Matrix3languages x2themes x2widths; no physical-device or Safari claim.",
+  "cases": [
+    {
+      "width": 1366,
+      "lang": "ru",
+      "theme": "light",
+      "errors": [],
+      "checks": [
+        "complete translated bindings and actual language/theme",
+        "two clear hero actions within first screen and reduced motion",
+        "three featured real projects, compact others, no forbidden photo/game/placeholders",
+        "all featured demo targets uncovered; explicit details close restores keyboard focus",
+        "all existing projects reachable; real sample trim undo and CSV file preserved",
+        "language and both theme switches; Escape; mobile section navigation and same-hash close",
+        "contact action, exact authorized email and actual public PDF download",
+        "top anchor, viewport fit and no optional3D fetch before opening",
+        "selected axe rules and no uncaught page errors"
+      ],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 9
+          }
+        ]
+      }
+    },
+    {
+      "width": 1366,
+      "lang": "ru",
+      "theme": "dark",
+      "errors": [],
+      "checks": [
+        "complete translated bindings and actual language/theme",
+        "two clear hero actions within first screen and reduced motion",
+        "three featured real projects, compact others, no forbidden photo/game/placeholders",
+        "all featured demo targets uncovered; explicit details close restores keyboard focus",
+        "all existing projects reachable; real sample trim undo and CSV file preserved",
+        "language and both theme switches; Escape; mobile section navigation and same-hash close",
+        "contact action, exact authorized email and actual public PDF download",
+        "top anchor, viewport fit and no optional3D fetch before opening",
+        "selected axe rules and no uncaught page errors"
+      ],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 9
+          }
+        ]
+      }
+    },
+    {
+      "width": 1366,
+      "lang": "kk",
+      "theme": "light",
+      "errors": [],
+      "checks": [
+        "complete translated bindings and actual language/theme",
+        "two clear hero actions within first screen and reduced motion",
+        "three featured real projects, compact others, no forbidden photo/game/placeholders",
+        "all featured demo targets uncovered; explicit details close restores keyboard focus",
+        "all existing projects reachable; real sample trim undo and CSV file preserved",
+        "language and both theme switches; Escape; mobile section navigation and same-hash close",
+        "contact action, exact authorized email and actual public PDF download",
+        "top anchor, viewport fit and no optional3D fetch before opening",
+        "selected axe rules and no uncaught page errors"
+      ],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 10
+          }
+        ]
+      }
+    },
+    {
+      "width": 1366,
+      "lang": "kk",
+      "theme": "dark",
+      "errors": [],
+      "checks": [
+        "complete translated bindings and actual language/theme",
+        "two clear hero actions within first screen and reduced motion",
+        "three featured real projects, compact others, no forbidden photo/game/placeholders",
+        "all featured demo targets uncovered; explicit details close restores keyboard focus",
+        "all existing projects reachable; real sample trim undo and CSV file preserved",
+        "language and both theme switches; Escape; mobile section navigation and same-hash close",
+        "contact action, exact authorized email and actual public PDF download",
+        "top anchor, viewport fit and no optional3D fetch before opening",
+        "selected axe rules and no uncaught page errors"
+      ],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 10
+          }
+        ]
+      }
+    },
+    {
+      "width": 1366,
+      "lang": "en",
+      "theme": "light",
+      "errors": [],
+      "checks": [
+        "complete translated bindings and actual language/theme",
+        "two clear hero actions within first screen and reduced motion",
+        "three featured real projects, compact others, no forbidden photo/game/placeholders",
+        "all featured demo targets uncovered; explicit details close restores keyboard focus",
+        "all existing projects reachable; real sample trim undo and CSV file preserved",
+        "language and both theme switches; Escape; mobile section navigation and same-hash close",
+        "contact action, exact authorized email and actual public PDF download",
+        "top anchor, viewport fit and no optional3D fetch before opening",
+        "selected axe rules and no uncaught page errors"
+      ],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 10
+          }
+        ]
+      }
+    },
+    {
+      "width": 1366,
+      "lang": "en",
+      "theme": "dark",
+      "errors": [],
+      "checks": [
+        "complete translated bindings and actual language/theme",
+        "two clear hero actions within first screen and reduced motion",
+        "three featured real projects, compact others, no forbidden photo/game/placeholders",
+        "all featured demo targets uncovered; explicit details close restores keyboard focus",
+        "all existing projects reachable; real sample trim undo and CSV file preserved",
+        "language and both theme switches; Escape; mobile section navigation and same-hash close",
+        "contact action, exact authorized email and actual public PDF download",
+        "top anchor, viewport fit and no optional3D fetch before opening",
+        "selected axe rules and no uncaught page errors"
+      ],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 10
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "light",
+      "errors": [],
+      "checks": [
+        "complete translated bindings and actual language/theme",
+        "two clear hero actions within first screen and reduced motion",
+        "three featured real projects, compact others, no forbidden photo/game/placeholders",
+        "all featured demo targets uncovered; explicit details close restores keyboard focus",
+        "all existing projects reachable; real sample trim undo and CSV file preserved",
+        "language and both theme switches; Escape; mobile section navigation and same-hash close",
+        "contact action, exact authorized email and actual public PDF download",
+        "top anchor, viewport fit and no optional3D fetch before opening",
+        "selected axe rules and no uncaught page errors"
+      ],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 13
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "errors": [],
+      "checks": [
+        "complete translated bindings and actual language/theme",
+        "two clear hero actions within first screen and reduced motion",
+        "three featured real projects, compact others, no forbidden photo/game/placeholders",
+        "all featured demo targets uncovered; explicit details close restores keyboard focus",
+        "all existing projects reachable; real sample trim undo and CSV file preserved",
+        "language and both theme switches; Escape; mobile section navigation and same-hash close",
+        "contact action, exact authorized email and actual public PDF download",
+        "top anchor, viewport fit and no optional3D fetch before opening",
+        "selected axe rules and no uncaught page errors"
+      ],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 13
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "lang": "kk",
+      "theme": "light",
+      "errors": [],
+      "checks": [
+        "complete translated bindings and actual language/theme",
+        "two clear hero actions within first screen and reduced motion",
+        "three featured real projects, compact others, no forbidden photo/game/placeholders",
+        "all featured demo targets uncovered; explicit details close restores keyboard focus",
+        "all existing projects reachable; real sample trim undo and CSV file preserved",
+        "language and both theme switches; Escape; mobile section navigation and same-hash close",
+        "contact action, exact authorized email and actual public PDF download",
+        "top anchor, viewport fit and no optional3D fetch before opening",
+        "selected axe rules and no uncaught page errors"
+      ],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 13
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "lang": "kk",
+      "theme": "dark",
+      "errors": [],
+      "checks": [
+        "complete translated bindings and actual language/theme",
+        "two clear hero actions within first screen and reduced motion",
+        "three featured real projects, compact others, no forbidden photo/game/placeholders",
+        "all featured demo targets uncovered; explicit details close restores keyboard focus",
+        "all existing projects reachable; real sample trim undo and CSV file preserved",
+        "language and both theme switches; Escape; mobile section navigation and same-hash close",
+        "contact action, exact authorized email and actual public PDF download",
+        "top anchor, viewport fit and no optional3D fetch before opening",
+        "selected axe rules and no uncaught page errors"
+      ],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 13
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "light",
+      "errors": [],
+      "checks": [
+        "complete translated bindings and actual language/theme",
+        "two clear hero actions within first screen and reduced motion",
+        "three featured real projects, compact others, no forbidden photo/game/placeholders",
+        "all featured demo targets uncovered; explicit details close restores keyboard focus",
+        "all existing projects reachable; real sample trim undo and CSV file preserved",
+        "language and both theme switches; Escape; mobile section navigation and same-hash close",
+        "contact action, exact authorized email and actual public PDF download",
+        "top anchor, viewport fit and no optional3D fetch before opening",
+        "selected axe rules and no uncaught page errors"
+      ],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 13
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "errors": [],
+      "checks": [
+        "complete translated bindings and actual language/theme",
+        "two clear hero actions within first screen and reduced motion",
+        "three featured real projects, compact others, no forbidden photo/game/placeholders",
+        "all featured demo targets uncovered; explicit details close restores keyboard focus",
+        "all existing projects reachable; real sample trim undo and CSV file preserved",
+        "language and both theme switches; Escape; mobile section navigation and same-hash close",
+        "contact action, exact authorized email and actual public PDF download",
+        "top anchor, viewport fit and no optional3D fetch before opening",
+        "selected axe rules and no uncaught page errors"
+      ],
+      "passed": true,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 13
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "scenario": "keyboard-and-diagram",
+      "checks": [
+        "keyboard skip, optional actual3D modes/layer/signal, explicit close and preserved deep links"
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "scenario": "no-WebGL",
+      "checks": [
+        "honest interactive2D fallback after explicit opt-in"
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "scenario": "no-JS",
+      "checks": [
+        "static facts/links and native disclosures remain usable without JS"
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "scenario": "320-text200",
+      "checks": [
+        "KK320 doubled root text stays bounded and sample remains usable"
+      ],
+      "errors": [],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,295 @@
+{
+  "at": "2026-10-04T16:06:22.011Z",
+  "baselineCommit": "a6eceff758a3714cdc7467857cecf48b3f3b3db9",
+  "method": "Same route /, fresh preference state, reduced motion, closed native details, ready fonts; scroll through every section then return top. Visible DOM text nodes counted by nonzero Range rectangles and visible computed ancestors. Screen-reader-only/skip text excluded. Full route includes rendered offscreen text; first viewport counts nodes with rectangles intersecting viewport. Canvas raster labels are not counted. Whitespace-separated tokens and Unicode characters, not language-segmented lexical words.",
+  "cases": [
+    {
+      "width": 1366,
+      "height": 768,
+      "language": "ru",
+      "theme": "light",
+      "before": {
+        "tokens": 1272,
+        "characters": 8680
+      },
+      "after": {
+        "tokens": 105,
+        "characters": 654
+      },
+      "firstViewportBefore": {
+        "tokens": 129,
+        "characters": 836
+      },
+      "firstViewportAfter": {
+        "tokens": 18,
+        "characters": 116
+      },
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "language": "ru",
+      "theme": "dark",
+      "before": {
+        "tokens": 1272,
+        "characters": 8680
+      },
+      "after": {
+        "tokens": 105,
+        "characters": 654
+      },
+      "firstViewportBefore": {
+        "tokens": 129,
+        "characters": 836
+      },
+      "firstViewportAfter": {
+        "tokens": 18,
+        "characters": 116
+      },
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "language": "kk",
+      "theme": "light",
+      "before": {
+        "tokens": 1320,
+        "characters": 9619
+      },
+      "after": {
+        "tokens": 105,
+        "characters": 680
+      },
+      "firstViewportBefore": {
+        "tokens": 149,
+        "characters": 958
+      },
+      "firstViewportAfter": {
+        "tokens": 19,
+        "characters": 130
+      },
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "language": "kk",
+      "theme": "dark",
+      "before": {
+        "tokens": 1320,
+        "characters": 9619
+      },
+      "after": {
+        "tokens": 105,
+        "characters": 680
+      },
+      "firstViewportBefore": {
+        "tokens": 149,
+        "characters": 958
+      },
+      "firstViewportAfter": {
+        "tokens": 19,
+        "characters": 130
+      },
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "language": "en",
+      "theme": "light",
+      "before": {
+        "tokens": 1446,
+        "characters": 8868
+      },
+      "after": {
+        "tokens": 119,
+        "characters": 677
+      },
+      "firstViewportBefore": {
+        "tokens": 143,
+        "characters": 827
+      },
+      "firstViewportAfter": {
+        "tokens": 23,
+        "characters": 120
+      },
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "language": "en",
+      "theme": "dark",
+      "before": {
+        "tokens": 1446,
+        "characters": 8868
+      },
+      "after": {
+        "tokens": 119,
+        "characters": 677
+      },
+      "firstViewportBefore": {
+        "tokens": 143,
+        "characters": 827
+      },
+      "firstViewportAfter": {
+        "tokens": 23,
+        "characters": 120
+      },
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "ru",
+      "theme": "light",
+      "before": {
+        "tokens": 1267,
+        "characters": 8650
+      },
+      "after": {
+        "tokens": 103,
+        "characters": 637
+      },
+      "firstViewportBefore": {
+        "tokens": 81,
+        "characters": 528
+      },
+      "firstViewportAfter": {
+        "tokens": 16,
+        "characters": 99
+      },
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "ru",
+      "theme": "dark",
+      "before": {
+        "tokens": 1267,
+        "characters": 8650
+      },
+      "after": {
+        "tokens": 103,
+        "characters": 637
+      },
+      "firstViewportBefore": {
+        "tokens": 81,
+        "characters": 528
+      },
+      "firstViewportAfter": {
+        "tokens": 16,
+        "characters": 99
+      },
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "kk",
+      "theme": "light",
+      "before": {
+        "tokens": 1314,
+        "characters": 9576
+      },
+      "after": {
+        "tokens": 103,
+        "characters": 656
+      },
+      "firstViewportBefore": {
+        "tokens": 70,
+        "characters": 481
+      },
+      "firstViewportAfter": {
+        "tokens": 17,
+        "characters": 106
+      },
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "kk",
+      "theme": "dark",
+      "before": {
+        "tokens": 1314,
+        "characters": 9576
+      },
+      "after": {
+        "tokens": 103,
+        "characters": 656
+      },
+      "firstViewportBefore": {
+        "tokens": 70,
+        "characters": 481
+      },
+      "firstViewportAfter": {
+        "tokens": 17,
+        "characters": 106
+      },
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "theme": "light",
+      "before": {
+        "tokens": 1441,
+        "characters": 8840
+      },
+      "after": {
+        "tokens": 117,
+        "characters": 655
+      },
+      "firstViewportBefore": {
+        "tokens": 91,
+        "characters": 551
+      },
+      "firstViewportAfter": {
+        "tokens": 21,
+        "characters": 98
+      },
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "theme": "dark",
+      "before": {
+        "tokens": 1441,
+        "characters": 8840
+      },
+      "after": {
+        "tokens": 117,
+        "characters": 655
+      },
+      "firstViewportBefore": {
+        "tokens": 91,
+        "characters": 551
+      },
+      "firstViewportAfter": {
+        "tokens": 21,
+        "characters": 98
+      },
+      "overflow": false,
+      "errors": []
+    }
+  ]
+}

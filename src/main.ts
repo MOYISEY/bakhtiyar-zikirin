@@ -1,5 +1,6 @@
 import './style.css';
 import './hierarchy.css';
+import './concise.css';
 import { showSceneFallback } from './fallback';
 import { initPreferences, t } from './preferences';
 import { initRowlineSample } from './rowline-sample';
@@ -24,27 +25,6 @@ layerButtons.forEach(button => button.addEventListener('click', () => {
   document.querySelector('#layer-description')!.textContent = layerDescription(layer);
   window.dispatchEvent(new CustomEvent('portfolio:layer', { detail: layer }));
 }));
-
-const briefSteps = () => [
-  { label: t('s084'), title: [t('s085'), t('s086')], text: t('s087'), output: t('s089') },
-  { label: t('brief.label1'), title: [t('brief.title1a'), t('brief.title1b')], text: t('brief.text1'), output: t('brief.output1') },
-  { label: t('brief.label2'), title: [t('brief.title2a'), t('brief.title2b')], text: t('brief.text2'), output: t('brief.output2') },
-];
-let briefIndex = 0;
-const briefButtons = document.querySelectorAll<HTMLButtonElement>('[data-step]');
-function renderBrief(index: number) {
-  const step = briefSteps()[index];
-  if (!step) return;
-  briefIndex = index;
-  briefButtons.forEach(item => item.setAttribute('aria-pressed', String(Number(item.dataset.step) === index)));
-  const content = document.querySelector('#brief-content')!;
-  content.querySelector('.brief-label')!.textContent = step.label;
-  content.querySelector('h4')!.replaceChildren(document.createTextNode(step.title[0]), document.createElement('br'), document.createTextNode(step.title[1]));
-  content.querySelector('p')!.textContent = step.text;
-  document.querySelector('#brief-output-text')!.textContent = step.output;
-  document.querySelectorAll('.route-node').forEach((node, position) => node.classList.toggle('is-current', position === index));
-}
-briefButtons.forEach(button => button.addEventListener('click', () => renderBrief(Number(button.dataset.step))));
 
 const signalButton = document.querySelector<HTMLButtonElement>('#signal-start')!;
 const signalStatus = document.querySelector('#signal-status')!;
@@ -93,7 +73,7 @@ const sectionObserver = new IntersectionObserver(entries => {
     });
   });
 }, { rootMargin: '-15% 0px -60% 0px' });
-['work', 'experience', 'approach'].forEach(id => sectionObserver.observe(document.getElementById(id)!));
+['work', 'experience', 'contact'].forEach(id => sectionObserver.observe(document.getElementById(id)!));
 
 function updateMotionPreference() {
   document.documentElement.classList.toggle('reduced-motion', reducedMotion.matches);
@@ -103,24 +83,62 @@ updateMotionPreference();
 reducedMotion.addEventListener('change', updateMotionPreference);
 window.addEventListener('portfolio:preferences', () => {
   document.querySelector('#layer-description')!.textContent = layerDescription(system.dataset.layer ?? 'interface');
-  renderBrief(briefIndex);
   if (lastSignalStage !== undefined) signalStatus.textContent = t('signal.' + lastSignalStage);
   const status = document.querySelector<HTMLElement>('#scene-status')!;
   status.textContent = t(status.dataset.sceneState === 'ready' ? 'scene.ready' : status.dataset.sceneState === 'fallback' ? 'scene.fallback' : 's024');
 });
 document.querySelectorAll<HTMLButtonElement>('[data-js-only]').forEach(button => { button.disabled = false; });
 
-// The diagram belongs to Approach. Fetch its renderer only as the section approaches.
+// The diagram is optional. Opening it is the only request for its renderer.
 let sceneRequested = false;
-const sceneLoader = new IntersectionObserver(entries => {
-  if (entries.some(entry => entry.isIntersecting)) loadScene();
-}, { rootMargin: '600px' });
+const diagram = document.querySelector<HTMLDetailsElement>('#approach')!;
 function loadScene() {
-  if (sceneRequested) return;
+  if (sceneRequested || !diagram.open) return;
   sceneRequested = true;
-  sceneLoader.disconnect();
   import('./scene').then(({ initScene }) => initScene()).catch(showSceneFallback);
 }
-sceneLoader.observe(system);
+diagram.addEventListener('toggle', () => { if (diagram.open) loadScene(); });
 system.addEventListener('pointerdown', loadScene, { once: true });
 system.addEventListener('focusin', loadScene, { once: true });
+
+document.querySelectorAll<HTMLButtonElement>('[data-close-details]').forEach(button => button.addEventListener('click', () => {
+  const details = button.closest('details');
+  if (!details) return;
+  details.open = false;
+  details.querySelector<HTMLElement>(':scope > summary')?.focus();
+}));
+function revealHash() {
+  let id: string;
+  try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
+  const target = document.getElementById(id);
+  if (!target) return;
+  for (let ancestor = target.parentElement; ancestor; ancestor = ancestor.parentElement) {
+    if (ancestor instanceof HTMLDetailsElement) ancestor.open = true;
+  }
+  if (target instanceof HTMLDetailsElement) target.open = true;
+  document.querySelector<HTMLDetailsElement>('.mobile-navigation')!.open = false;
+  target.focus({ preventScroll: true });
+  requestAnimationFrame(() => target.scrollIntoView({ behavior: reducedMotion.matches ? 'instant' : 'smooth', block: 'start' }));
+}
+window.addEventListener('hashchange', revealHash);
+navLinks.forEach(link => link.addEventListener('click', () => {
+  if (link.hash === location.hash) revealHash();
+}));
+if (location.hash) revealHash();
+const appearance = document.querySelector<HTMLDetailsElement>('.appearance-menu')!;
+document.addEventListener('pointerdown', event => { if (!appearance.contains(event.target as Node)) appearance.open = false; });
+appearance.addEventListener('keydown', event => {
+  if (event.key === 'Escape') { appearance.open = false; appearance.querySelector('summary')!.focus(); }
+});
+const mobileNav = document.querySelector<HTMLDetailsElement>('.mobile-navigation')!;
+appearance.addEventListener('toggle', () => { if (appearance.open) mobileNav.open = false; });
+mobileNav.addEventListener('toggle', () => { if (mobileNav.open) appearance.open = false; });
+document.addEventListener('pointerdown', event => { if (!mobileNav.contains(event.target as Node)) mobileNav.open = false; });
+mobileNav.addEventListener('keydown', event => {
+  if (event.key === 'Escape') { mobileNav.open = false; mobileNav.querySelector('summary')!.focus(); }
+});
+const hero = document.querySelector<HTMLElement>('.hero')!;
+let heroVisible = true;
+const updateHero = () => hero.classList.toggle('motion-paused', !heroVisible || document.hidden);
+new IntersectionObserver(entries => { heroVisible = entries[0]?.isIntersecting ?? false; updateHero(); }).observe(hero);
+document.addEventListener('visibilitychange', updateHero);

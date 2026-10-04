@@ -1,0 +1,29 @@
+{
+  "helio": {
+    "source": "Own Helio worker screenshot, desktop-evening-map.png",
+    "sourceProject": "https://github.com/MOYISEY/helio",
+    "display": "Full original map crop with embedded map attribution and additional visible OpenStreetMap/OpenFreeMap links."
+  },
+  "keyform": {
+    "project": "https://github.com/MOYISEY/keyform",
+    "commit": "6f92d476d261ec466d3b2ae56e96252d724e0397",
+    "workerScreenshot": "evidence/desktop-exploded.png",
+    "bytes": 273484,
+    "sha256": "5ad3f52a8de0325df2848ce5870a685a4effa632686c6c729b73ea23bc92e729",
+    "width": 1440,
+    "height": 1026,
+    "display": "Original PNG bytes, central model displayed by CSS crop; no raster edits.",
+    "ci": "https://github.com/MOYISEY/keyform/actions/runs/37213782820",
+    "originalImageSha256": "5ad3f52a8de0325df2848ce5870a685a4effa632686c6c729b73ea23bc92e729",
+    "sameAsCurrentWorkerPng": true
+  },
+  "poslesvet": {
+    "url": "https://raw.githubusercontent.com/MOYISEY/poslesvet/284060bc8c638fd87e3521a5a52386d99b0f611a/docs/tide.png",
+    "status": 200,
+    "bytes": 236082,
+    "sha256": "e510217e62baa97b6025a15543e39d0b3e3009d46748240a50376963ecea281b",
+    "width": 1366,
+    "height": 768
+  },
+  "reference": "Visual brief supplied and personally checked by the parent. Worker did not view TikTok reference bytes because supported Library materialization failed on Windows; parent explicitly waived worker-reference viewing. No TikTok or portrait imagery is shipped."
+}
