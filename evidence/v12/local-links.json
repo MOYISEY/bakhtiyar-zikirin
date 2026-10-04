@@ -1,0 +1,185 @@
+{
+  "at": "2026-10-04T19:09:58.494Z",
+  "base": "http://127.0.0.1:5202/",
+  "scope": "local",
+  "method": "Actual native Chromium clicks on each distinct external action in the nine case pages and GitHub profile. The popup navigation HTTP response, page title and native ZIP signature; no claim of a new child-app audit or OS mail client test.",
+  "links": [
+    {
+      "project": "helio",
+      "url": "https://moyisey.github.io/helio/",
+      "passed": true,
+      "finalUrl": "https://moyisey.github.io/helio/",
+      "title": "Helio — атлас дневного света",
+      "status": 200
+    },
+    {
+      "project": "helio",
+      "url": "https://github.com/MOYISEY/helio",
+      "passed": true,
+      "finalUrl": "https://github.com/MOYISEY/helio",
+      "title": "GitHub - MOYISEY/helio: Daylight Atlas — local sunlight planning with an original interactive 3D world. · GitHub",
+      "status": 200
+    },
+    {
+      "project": "helio",
+      "url": "https://github.com/MOYISEY/helio/blob/main/evidence/live-map-qa.md",
+      "passed": true,
+      "finalUrl": "https://github.com/MOYISEY/helio/blob/main/evidence/live-map-qa.md",
+      "title": "helio/evidence/live-map-qa.md at main · MOYISEY/helio · GitHub",
+      "status": 200
+    },
+    {
+      "project": "helio",
+      "url": "https://github.com/MOYISEY",
+      "passed": true,
+      "finalUrl": "https://github.com/MOYISEY",
+      "title": "MOYISEY (Бахтияр) · GitHub",
+      "status": 200
+    },
+    {
+      "project": "keyform",
+      "url": "https://moyisey.github.io/keyform/",
+      "passed": true,
+      "finalUrl": "https://moyisey.github.io/keyform/",
+      "title": "Keyform — Keyboard studio",
+      "status": 200
+    },
+    {
+      "project": "keyform",
+      "url": "https://github.com/MOYISEY/keyform",
+      "passed": true,
+      "finalUrl": "https://github.com/MOYISEY/keyform",
+      "title": "GitHub - MOYISEY/keyform: An original interactive 3D mechanical keyboard studio. React, TypeScript and Three.js. · GitHub",
+      "status": 200
+    },
+    {
+      "project": "keyform",
+      "url": "https://github.com/MOYISEY/keyform/actions/runs/37213782820",
+      "passed": true,
+      "finalUrl": "https://github.com/MOYISEY/keyform/actions/runs/37213782820",
+      "title": "Replace hero slogans with direct keyboard instructions · MOYISEY/keyform@6f92d47 · GitHub",
+      "status": 200
+    },
+    {
+      "project": "poslesvet",
+      "url": "https://moyisey.github.io/poslesvet/",
+      "passed": true,
+      "finalUrl": "https://moyisey.github.io/poslesvet/",
+      "title": "Послесвет",
+      "status": 200
+    },
+    {
+      "project": "poslesvet",
+      "url": "https://github.com/MOYISEY/poslesvet",
+      "passed": true,
+      "finalUrl": "https://github.com/MOYISEY/poslesvet",
+      "title": "GitHub - MOYISEY/poslesvet: Пошаговая игра о маяке, тенях и приливе. Godot, Windows и Web. · GitHub",
+      "status": 200
+    },
+    {
+      "project": "poslesvet",
+      "url": "https://github.com/MOYISEY/poslesvet/releases/download/v0.2.0/Poslesvet-Windows-x64.zip",
+      "passed": true,
+      "filename": "Poslesvet-Windows-x64.zip",
+      "error": null,
+      "zipMagic": "504b0304"
+    },
+    {
+      "project": "framepack",
+      "url": "https://moyisey.github.io/framepack/",
+      "passed": true,
+      "finalUrl": "https://moyisey.github.io/framepack/",
+      "title": "Framepack — responsive image workspace",
+      "status": 200
+    },
+    {
+      "project": "framepack",
+      "url": "https://github.com/MOYISEY/framepack",
+      "passed": true,
+      "finalUrl": "https://github.com/MOYISEY/framepack",
+      "title": "GitHub - MOYISEY/framepack: Local responsive-image handoff workspace: real resize/compress, size comparisons, ZIP + manifest + HTML. React/TypeScript, privacy-first. · GitHub",
+      "status": 200
+    },
+    {
+      "project": "framepack",
+      "url": "https://github.com/MOYISEY/framepack/blob/main/qa/QA.md",
+      "passed": true,
+      "finalUrl": "https://github.com/MOYISEY/framepack/blob/main/qa/QA.md",
+      "title": "framepack/qa/QA.md at main · MOYISEY/framepack · GitHub",
+      "status": 200
+    },
+    {
+      "project": "shapecheck",
+      "url": "https://moyisey.github.io/shapecheck/",
+      "passed": true,
+      "finalUrl": "https://moyisey.github.io/shapecheck/",
+      "title": "Shapecheck · JSON contract workbench",
+      "status": 200
+    },
+    {
+      "project": "shapecheck",
+      "url": "https://github.com/MOYISEY/shapecheck",
+      "passed": true,
+      "finalUrl": "https://github.com/MOYISEY/shapecheck",
+      "title": "GitHub - MOYISEY/shapecheck: Local JSON Schema draft-07 workbench with safe workers and portable Node regression tests. React + TypeScript. · GitHub",
+      "status": 200
+    },
+    {
+      "project": "shapecheck",
+      "url": "https://github.com/MOYISEY/shapecheck/blob/main/docs/QA.md",
+      "passed": true,
+      "finalUrl": "https://github.com/MOYISEY/shapecheck/blob/main/docs/QA.md",
+      "title": "shapecheck/docs/QA.md at main · MOYISEY/shapecheck · GitHub",
+      "status": 200
+    },
+    {
+      "project": "rowline",
+      "url": "https://moyisey.github.io/rowline/",
+      "passed": true,
+      "finalUrl": "https://moyisey.github.io/rowline/",
+      "title": "Rowline — CSV, готовый к импорту",
+      "status": 200
+    },
+    {
+      "project": "rowline",
+      "url": "https://github.com/MOYISEY/rowline",
+      "passed": true,
+      "finalUrl": "https://github.com/MOYISEY/rowline",
+      "title": "GitHub - MOYISEY/rowline: Local CSV import preparation. Reversible cleanup, validation, rejection reports and reusable recipes. Built by Bakhtiyar Zikirin. · GitHub",
+      "status": 200
+    },
+    {
+      "project": "rowline",
+      "url": "https://github.com/MOYISEY/rowline/blob/main/QA.md",
+      "passed": true,
+      "finalUrl": "https://github.com/MOYISEY/rowline/blob/main/QA.md",
+      "title": "rowline/QA.md at main · MOYISEY/rowline · GitHub",
+      "status": 200
+    },
+    {
+      "project": "atyrau",
+      "url": "https://moyisey.github.io/atyrau-tour-3d/tour_v2/",
+      "passed": true,
+      "finalUrl": "https://moyisey.github.io/atyrau-tour-3d/tour_v2/",
+      "title": "3D Тур — Атырау университеті",
+      "status": 200
+    },
+    {
+      "project": "atyrau",
+      "url": "https://github.com/MOYISEY/atyrau-tour-3d",
+      "passed": true,
+      "finalUrl": "https://github.com/MOYISEY/atyrau-tour-3d",
+      "title": "GitHub - MOYISEY/atyrau-tour-3d · GitHub",
+      "status": 200
+    },
+    {
+      "project": "artportal",
+      "url": "https://github.com/MOYISEY/art_portal",
+      "passed": true,
+      "finalUrl": "https://github.com/MOYISEY/art_portal",
+      "title": "GitHub - MOYISEY/art_portal · GitHub",
+      "status": 200
+    }
+  ],
+  "passed": true
+}

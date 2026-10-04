@@ -1,129 +1,122 @@
 import './style.css';
 import './hierarchy.css';
 import './restoration.css';
+import './pages.css';
+import { initPreferences, language, t } from './preferences';
 import { showSceneFallback } from './fallback';
-import { initPreferences, t } from './preferences';
-import { initRowlineSample } from './rowline-sample';
 
 initPreferences();
-initRowlineSample();
-
-const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
-const system = document.querySelector<HTMLElement>('#system')!;
-const layerDescription = (layer: string) => t(({ interface: 's028', logic: 'layer.logic', data: 'layer.data' } as Record<string, string>)[layer]);
-const modeButtons = document.querySelectorAll<HTMLButtonElement>('[data-mode]');
-modeButtons.forEach(button => button.addEventListener('click', () => {
-  system.dataset.view = button.dataset.mode;
-  modeButtons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
-  window.dispatchEvent(new CustomEvent('portfolio:mode', { detail: button.dataset.mode }));
-}));
-const layerButtons = document.querySelectorAll<HTMLButtonElement>('button[data-layer]');
-layerButtons.forEach(button => button.addEventListener('click', () => {
-  const layer = button.dataset.layer!;
-  system.dataset.layer = layer;
-  layerButtons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
-  document.querySelector('#layer-description')!.textContent = layerDescription(layer);
-  window.dispatchEvent(new CustomEvent('portfolio:layer', { detail: layer }));
-}));
-
-const signalButton = document.querySelector<HTMLButtonElement>('#signal-start')!;
-const signalStatus = document.querySelector('#signal-status')!;
-let signalTimer: ReturnType<typeof setTimeout> | undefined;
-const signalStages = ['interface', 'logic', 'data', 'interface'];
-let lastSignalStage: number | undefined;
-function endSignal() {
-  if (signalTimer) clearTimeout(signalTimer);
-  signalTimer = undefined;
-  delete system.dataset.signal;
-  signalButton.disabled = false;
-  window.dispatchEvent(new CustomEvent('portfolio:signal', { detail: null }));
-}
-signalButton.addEventListener('click', () => {
-  endSignal();
-  signalButton.disabled = true;
-  let index = 0;
-  function stage() {
-    const current = signalStages[index];
-    if (!current) { endSignal(); return; }
-    system.dataset.signal = current;
-    lastSignalStage = index;
-    signalStatus.textContent = t('signal.' + index);
-    window.dispatchEvent(new CustomEvent('portfolio:signal', { detail: current }));
-    index++;
-    if (reducedMotion.matches) {
-      if (index < signalStages.length) stage();
-      else endSignal();
-    } else signalTimer = setTimeout(stage, 850);
-  }
-  stage();
+document.querySelectorAll<HTMLElement>('.project-preview, .gallery-open, .hero-preview > a').forEach(wrapper => {
+  const image = wrapper.querySelector<HTMLImageElement>('img');
+  if (!image) return;
+  const failed = () => {
+    wrapper.classList.add('image-failed');
+    wrapper.querySelector<HTMLElement>('.media-error')!.hidden = false;
+  };
+  image.addEventListener('error', failed);
+  if (image.complete && !image.naturalWidth) failed();
 });
-document.addEventListener('visibilitychange', () => { if (document.hidden) endSignal(); });
-window.addEventListener('pagehide', endSignal);
-
-const navLinks = document.querySelectorAll<HTMLAnchorElement>('.header nav a');
-const sectionObserver = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (!entry.isIntersecting) {
-      navLinks.forEach(link => { if (link.hash === '#' + entry.target.id) link.removeAttribute('aria-current'); });
-      return;
-    }
-    navLinks.forEach(link => {
-      if (link.hash === '#' + entry.target.id) link.setAttribute('aria-current', 'location');
-      else link.removeAttribute('aria-current');
-    });
+const allowedFilters = ['all', 'spatial', 'tools', 'games', 'cases'];
+const cards = [...document.querySelectorAll<HTMLElement>('.catalog-grid .visual-card')];
+const filterButtons = [...document.querySelectorAll<HTMLButtonElement>('[data-filter]')];
+function filterFromUrl() {
+  const candidate = new URL(location.href).searchParams.get('filter') ?? 'all';
+  return allowedFilters.includes(candidate) ? candidate : 'all';
+}
+function syncLinks() {
+  const filter = filterFromUrl();
+  document.querySelectorAll<HTMLAnchorElement>('a.site-internal').forEach(link => {
+    const target = new URL(link.getAttribute('href')!, location.href);
+    if (target.origin !== location.origin) return;
+    target.searchParams.set('lang', language());
+    if (target.pathname.includes('/projects/') && filter !== 'all') target.searchParams.set('filter', filter);
+    else target.searchParams.delete('filter');
+    link.href = target.href;
   });
-}, { rootMargin: '-15% 0px -60% 0px' });
-['work', 'experience', 'approach', 'contact'].forEach(id => sectionObserver.observe(document.getElementById(id)!));
-
-function updateMotionPreference() {
-  document.documentElement.classList.toggle('reduced-motion', reducedMotion.matches);
-  if (reducedMotion.matches) endSignal();
 }
-updateMotionPreference();
-reducedMotion.addEventListener('change', updateMotionPreference);
-window.addEventListener('portfolio:preferences', () => {
-  document.querySelector('#layer-description')!.textContent = layerDescription(system.dataset.layer ?? 'interface');
-  if (lastSignalStage !== undefined) signalStatus.textContent = t('signal.' + lastSignalStage);
-  const status = document.querySelector<HTMLElement>('#scene-status')!;
-  status.textContent = t(status.dataset.sceneState === 'ready' ? 'scene.ready' : status.dataset.sceneState === 'fallback' ? 'scene.fallback' : 's024');
+function applyFilter() {
+  const selected = filterFromUrl();
+  for (const card of cards) card.hidden = selected !== 'all' && card.dataset.category !== selected;
+  for (const button of filterButtons) button.setAttribute('aria-pressed', String(button.dataset.filter === selected));
+  const count = document.querySelector('#filter-count');
+  if (count) count.textContent = String(cards.filter(card => !card.hidden).length);
+  syncLinks();
+}
+filterButtons.forEach(button => {
+  button.disabled = false;
+  button.addEventListener('click', () => {
+    if (button.dataset.filter === filterFromUrl()) return;
+    const url = new URL(location.href);
+    if (button.dataset.filter === 'all') url.searchParams.delete('filter');
+    else url.searchParams.set('filter', button.dataset.filter!);
+    history.pushState(null, '', url); applyFilter();
+  });
 });
-document.querySelectorAll<HTMLButtonElement>('[data-js-only]').forEach(button => { button.disabled = false; });
+window.addEventListener('popstate', applyFilter);
+applyFilter();
 
-// Restore v9's visible diagram and load its renderer near the viewport.
-let sceneRequested = false;
-const sceneLoader = new IntersectionObserver(entries => {
-  if (entries.some(entry => entry.isIntersecting)) loadScene();
-}, { rootMargin: '600px' });
-function loadScene() {
-  if (sceneRequested) return;
-  sceneRequested = true;
-  sceneLoader.disconnect();
-  import('./scene').then(({ initScene }) => initScene()).catch(showSceneFallback);
+const dialog = document.querySelector<HTMLDialogElement>('#gallery-dialog');
+const gallery = [...document.querySelectorAll<HTMLAnchorElement>('.gallery-open')];
+let galleryIndex = 0;
+let galleryTrigger: HTMLAnchorElement | undefined;
+function renderGallery() {
+  if (!dialog) return;
+  const current = gallery[galleryIndex];
+  const image = dialog.querySelector<HTMLImageElement>('#gallery-image')!;
+  image.hidden = false; dialog.querySelector<HTMLElement>('#gallery-error')!.hidden = true;
+  image.src = current.href; image.alt = t(current.dataset.captionKey!);
+  dialog.querySelector('#gallery-caption')!.textContent = image.alt;
+  dialog.querySelector('#gallery-counter')!.textContent = `${galleryIndex + 1} / ${gallery.length}`;
+  dialog.querySelector<HTMLButtonElement>('#gallery-prev')!.disabled = gallery.length < 2;
+  dialog.querySelector<HTMLButtonElement>('#gallery-next')!.disabled = gallery.length < 2;
 }
-sceneLoader.observe(system);
-system.addEventListener('pointerdown', loadScene, { once: true });
-system.addEventListener('focusin', loadScene, { once: true });
+function stepGallery(delta: number) { galleryIndex = (galleryIndex + delta + gallery.length) % gallery.length; renderGallery(); }
+if (dialog) {
+  dialog.querySelector<HTMLImageElement>('#gallery-image')!.addEventListener('error', () => {
+    dialog.querySelector<HTMLImageElement>('#gallery-image')!.hidden = true;
+    dialog.querySelector<HTMLElement>('#gallery-error')!.hidden = false;
+  });
+  gallery.forEach((link, index) => link.addEventListener('click', event => {
+    event.preventDefault(); galleryIndex = index; galleryTrigger = link; renderGallery();
+    dialog.showModal(); document.body.classList.add('gallery-open');
+    dialog.querySelector<HTMLButtonElement>('#gallery-close')!.focus();
+  }));
+  dialog.querySelector('#gallery-close')!.addEventListener('click', () => dialog.close());
+  dialog.querySelector('#gallery-prev')!.addEventListener('click', () => stepGallery(-1));
+  dialog.querySelector('#gallery-next')!.addEventListener('click', () => stepGallery(1));
+  dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
+  dialog.addEventListener('keydown', event => {
+    if (event.key === 'ArrowRight' || event.key === 'ArrowLeft') { event.preventDefault(); stepGallery(event.key === 'ArrowRight' ? 1 : -1); }
+  });
+  dialog.addEventListener('close', () => { document.body.classList.remove('gallery-open'); galleryTrigger?.focus({ preventScroll: true }); });
+}
+window.addEventListener('portfolio:preferences', () => { syncLinks(); if (dialog?.open) renderGallery(); });
 
-document.querySelectorAll<HTMLButtonElement>('[data-close-details]').forEach(button => button.addEventListener('click', () => {
-  const details = button.closest('details');
-  if (!details) return;
-  details.open = false;
-  details.querySelector<HTMLElement>(':scope > summary')?.focus();
-}));
+if (document.querySelector('#sample-fix')) {
+  import('./rowline-sample').then(({ initRowlineSample }) => {
+    initRowlineSample();
+    for (const id of ['sample-fix', 'sample-export']) document.querySelector<HTMLButtonElement>('#' + id)!.disabled = false;
+    document.body.dataset.sampleReady = 'true';
+  });
+}
+const diagram = document.querySelector<HTMLDetailsElement>('#scene-disclosure');
+let controlsRequested = false;
+diagram?.addEventListener('toggle', () => {
+  if (!diagram.open || controlsRequested) return;
+  controlsRequested = true;
+  import('./scene-controls').then(({ initSceneControls }) => initSceneControls()).catch(showSceneFallback);
+});
 function revealHash() {
-  let id: string;
-  try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
+  let id: string; try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
   const target = document.getElementById(id);
-  if (!target) return;
-  for (let ancestor = target.parentElement; ancestor; ancestor = ancestor.parentElement) {
-    if (ancestor instanceof HTMLDetailsElement) ancestor.open = true;
+  if (target) {
+    for (let ancestor = target.parentElement; ancestor; ancestor = ancestor.parentElement) if (ancestor instanceof HTMLDetailsElement) ancestor.open = true;
+    if (target instanceof HTMLDetailsElement) target.open = true;
+    requestAnimationFrame(() => target.scrollIntoView({ block: 'start' }));
+  } else if (document.body.dataset.page === 'home' && ['framepack', 'shapecheck', 'rowline', 'atyrau', 'neuralbrief', 'artportal'].includes(id)) {
+    const url = new URL('projects/' + id + '.html', location.href); url.searchParams.set('lang', language()); location.replace(url);
   }
-  if (target instanceof HTMLDetailsElement) target.open = true;
-  target.focus({ preventScroll: true });
-  requestAnimationFrame(() => target.scrollIntoView({ behavior: reducedMotion.matches ? 'instant' : 'smooth', block: 'start' }));
 }
 window.addEventListener('hashchange', revealHash);
-navLinks.forEach(link => link.addEventListener('click', () => {
-  if (link.hash === location.hash) revealHash();
-}));
 if (location.hash) revealHash();
+document.body.dataset.siteReady = 'true';

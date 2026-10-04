@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "tsc --noEmit && vite build",
+    "build": "node scripts/build-pages.mjs && tsc --noEmit && vite build",
     "preview": "vite preview --host 127.0.0.1",
     "qa": "node scripts/qa-v2.mjs",
     "qa:v1": "node scripts/qa.mjs"

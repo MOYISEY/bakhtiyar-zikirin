@@ -14,6 +14,8 @@ function sanitize(value: unknown): Preferences {
   return { language: input && ['ru', 'kk', 'en'].includes(input.language ?? '') ? input.language! : 'ru', theme: input && ['system', 'light', 'dark'].includes(input.theme ?? '') ? input.theme! : 'system' };
 }
 try { preferences = sanitize(JSON.parse(localStorage.getItem(storageKey) ?? 'null')); } catch { /* Preferences are optional, including when storage is blocked. */ }
+const requestedLanguage = new URL(location.href).searchParams.get('lang');
+if (requestedLanguage && ['ru', 'kk', 'en'].includes(requestedLanguage)) preferences.language = requestedLanguage as Language;
 export const language = () => preferences.language;
 export const darkTheme = () => (preferences.theme === 'system' ? systemTheme.matches : preferences.theme === 'dark');
 export function t(key: string): string { return dictionaries[preferences.language][key] ?? dictionaries.ru[key] ?? key; }
@@ -23,6 +25,7 @@ const bindings: TextBinding[] = [];
 function notify() { window.dispatchEvent(new CustomEvent('portfolio:preferences', { detail: { ...preferences, resolvedTheme: darkTheme() ? 'dark' : 'light' } })); }
 function applyLanguage() {
   document.documentElement.lang = preferences.language;
+  const url = new URL(location.href); url.searchParams.set('lang', preferences.language); history.replaceState(history.state, '', url);
   for (const binding of bindings) binding.node.textContent = binding.before + t(binding.key) + binding.after;
   document.querySelectorAll<HTMLElement>('[data-i18n-attrs]').forEach(element => {
     for (const { attr, key } of JSON.parse(element.dataset.i18nAttrs!) as { attr: string; key: string }[]) element.setAttribute(attr, t(key));
@@ -48,6 +51,7 @@ export function initPreferences() {
     }
   });
   applyLanguage(); applyTheme();
+  if (requestedLanguage) save();
   delete document.documentElement.dataset.localePending;
   document.querySelector<HTMLElement>('.preferences')!.hidden = false;
   document.querySelector<HTMLSelectElement>('#language-select')!.addEventListener('change', event => {

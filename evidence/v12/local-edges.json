@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-04T19:14:19.478Z",
+  "base": "http://127.0.0.1:5202/",
+  "scope": "local",
+  "checks": [
+    {
+      "type": "all fourteen fresh screenshots and seven previews match provenance and production build",
+      "passed": true,
+      "captures": 14,
+      "previewBytes": 258178
+    },
+    {
+      "type": "image-failure",
+      "passed": true
+    },
+    {
+      "type": "controls-chunk-failure",
+      "passed": true,
+      "optionalCodeAbsentBeforeOpen": true
+    },
+    {
+      "type": "renderer-chunk-failure",
+      "passed": true,
+      "optionalCodeAbsentBeforeOpen": true
+    },
+    {
+      "type": "startup-and-webgl-fallback",
+      "passed": true,
+      "optionalCodeAbsentBeforeOpen": true
+    }
+  ],
+  "passed": true
+}

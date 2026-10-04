@@ -1,0 +1,280 @@
+{
+  "at": "2026-10-04T18:43:57.275Z",
+  "method": "Fresh native Chromium screenshots of the actual public demos, 1280×800, JPEG quality 86. Preview images are browser-canvas resizes of the same capture, 720×450 JPEG quality 78; no generated interface or replaced project pixels.",
+  "captures": [
+    {
+      "id": "keyform",
+      "index": 1,
+      "url": "https://moyisey.github.io/keyform/",
+      "state": {
+        "view": "75% layout, exploded keyboard layers"
+      },
+      "at": "2026-10-04T18:22:42.635Z",
+      "width": 1280,
+      "height": 800,
+      "file": "projects/media/keyform-1.jpg",
+      "bytes": 86635,
+      "sha256": "a3da216d3fc5047ac58742e5edeeb26c232620f567943abc1b5578c03f30ab1d",
+      "errors": [],
+      "preview": {
+        "file": "projects/media/keyform-preview.jpg",
+        "width": 720,
+        "height": 450,
+        "bytes": 28464,
+        "sha256": "c0c47be95341be42826420be364e30c8d655f79e28e6b0ce5316b0130d99acf8"
+      }
+    },
+    {
+      "id": "keyform",
+      "index": 2,
+      "url": "https://moyisey.github.io/keyform/",
+      "state": {
+        "view": "65% layout, assembled sage case"
+      },
+      "at": "2026-10-04T18:22:44.005Z",
+      "width": 1280,
+      "height": 800,
+      "file": "projects/media/keyform-2.jpg",
+      "bytes": 69633,
+      "sha256": "34bd3391770636eced72bd92f5532fac1ce3f7f836d6a155a913b0ba0797ad9b",
+      "errors": []
+    },
+    {
+      "id": "poslesvet",
+      "index": 1,
+      "url": "https://moyisey.github.io/poslesvet/",
+      "state": {
+        "view": "loaded Godot game, first shift after pressing Enter"
+      },
+      "at": "2026-10-04T18:22:56.083Z",
+      "width": 1280,
+      "height": 800,
+      "file": "projects/media/poslesvet-1.jpg",
+      "bytes": 94949,
+      "sha256": "edf3ad3af73630143f8919bb2e7cbeb063c2117ed64b6a2b12287df1a5fe9a56",
+      "errors": [],
+      "preview": {
+        "file": "projects/media/poslesvet-preview.jpg",
+        "width": 720,
+        "height": 450,
+        "bytes": 31484,
+        "sha256": "ad02ffe89f71333120be5575adac514f550dffe360eb6b432879178576ce81cb"
+      }
+    },
+    {
+      "id": "poslesvet",
+      "index": 2,
+      "url": "https://moyisey.github.io/poslesvet/",
+      "state": {
+        "view": "actual in-game rules opened with H"
+      },
+      "at": "2026-10-04T18:22:56.906Z",
+      "width": 1280,
+      "height": 800,
+      "file": "projects/media/poslesvet-2.jpg",
+      "bytes": 90565,
+      "sha256": "17d01486d195218cc715ed5f29614a37bf29f9187005261d3bde48ad83a19518",
+      "errors": []
+    },
+    {
+      "id": "framepack",
+      "index": 1,
+      "url": "https://moyisey.github.io/framepack/",
+      "state": {
+        "view": "built-in synthetic demo images processed locally"
+      },
+      "at": "2026-10-04T18:22:59.027Z",
+      "width": 1280,
+      "height": 800,
+      "file": "projects/media/framepack-1.jpg",
+      "bytes": 92991,
+      "sha256": "aad127d98ceb454070f90166ca7cd8da923a512abfa573a0484f944f84c17955",
+      "errors": [],
+      "preview": {
+        "file": "projects/media/framepack-preview.jpg",
+        "width": 720,
+        "height": 450,
+        "bytes": 32141,
+        "sha256": "0a0f21e894a615ebd2824057056e15256999a63263c86873d89aa68678881781"
+      }
+    },
+    {
+      "id": "framepack",
+      "index": 2,
+      "url": "https://moyisey.github.io/framepack/",
+      "state": {
+        "view": "actual comparison dialog for a processed built-in demo image"
+      },
+      "at": "2026-10-04T18:22:59.418Z",
+      "width": 1280,
+      "height": 800,
+      "file": "projects/media/framepack-2.jpg",
+      "bytes": 122129,
+      "sha256": "a98b0a67b7b9d6125331c665b0e8059c259ecccbfcff2c3ebc66409a49485bcb",
+      "errors": []
+    },
+    {
+      "id": "shapecheck",
+      "index": 1,
+      "url": "https://moyisey.github.io/shapecheck/",
+      "state": {
+        "view": "built-in valid order fixture"
+      },
+      "at": "2026-10-04T18:23:01.101Z",
+      "width": 1280,
+      "height": 800,
+      "file": "projects/media/shapecheck-1.jpg",
+      "bytes": 86081,
+      "sha256": "206e6e1b992320b5de2c5baa6f756a8ff0def23d8a82311aa7dd7504240ec2b3",
+      "errors": [],
+      "preview": {
+        "file": "projects/media/shapecheck-preview.jpg",
+        "width": 720,
+        "height": 450,
+        "bytes": 29424,
+        "sha256": "746591fa1735ee9db81963d7ea3f20ea286498f7b8260731dca4cdce82779aa8"
+      }
+    },
+    {
+      "id": "shapecheck",
+      "index": 2,
+      "url": "https://moyisey.github.io/shapecheck/",
+      "state": {
+        "view": "built-in invalid fixture with validation results"
+      },
+      "at": "2026-10-04T18:23:01.486Z",
+      "width": 1280,
+      "height": 800,
+      "file": "projects/media/shapecheck-2.jpg",
+      "bytes": 86783,
+      "sha256": "c0db5f94cd1a1799cbc74d55bab9d77f4a0ce879cef73e06809636e5f3e6d233",
+      "errors": []
+    },
+    {
+      "id": "rowline",
+      "index": 1,
+      "url": "https://moyisey.github.io/rowline/",
+      "state": {
+        "view": "built-in synthetic CSV example, loaded table and validation"
+      },
+      "at": "2026-10-04T18:23:04.284Z",
+      "width": 1280,
+      "height": 800,
+      "file": "projects/media/rowline-1.jpg",
+      "bytes": 116249,
+      "sha256": "c12de8e49a13174b0c9daad8ffb7d44b3eea23f4a1541625ba421d7b19464b44",
+      "errors": [],
+      "preview": {
+        "file": "projects/media/rowline-preview.jpg",
+        "width": 720,
+        "height": 450,
+        "bytes": 38020,
+        "sha256": "9c66c0acaead135af3e4442e2a9555b24bf21c9e51c2994b22f980db501cc8a7"
+      }
+    },
+    {
+      "id": "rowline",
+      "index": 2,
+      "url": "https://moyisey.github.io/rowline/",
+      "state": {
+        "view": "actual cleaning-rule selection dialog"
+      },
+      "at": "2026-10-04T18:23:04.583Z",
+      "width": 1280,
+      "height": 800,
+      "file": "projects/media/rowline-2.jpg",
+      "bytes": 58926,
+      "sha256": "5b8f765f7b01800b7d474883ff3755378d7510bc341ac4af3a4c104508afb598",
+      "errors": []
+    },
+    {
+      "id": "atyrau",
+      "index": 1,
+      "url": "https://moyisey.github.io/atyrau-tour-3d/tour_v2/",
+      "state": {
+        "view": "fresh university facade scene, thumbnail 2; not the old portfolio photograph"
+      },
+      "at": "2026-10-04T18:32:58.185Z",
+      "width": 1280,
+      "height": 800,
+      "file": "projects/media/atyrau-1.jpg",
+      "bytes": 166616,
+      "sha256": "d5a2ab89bf1f2db642b311d568f3ad88ce0a9f5f94566cb0a673d9ccb7de8620",
+      "errors": [],
+      "preview": {
+        "file": "projects/media/atyrau-preview.jpg",
+        "width": 720,
+        "height": 450,
+        "bytes": 51918,
+        "sha256": "e436ceabe5397f73f2e1cbbeccd37a9177b0db4e9030f97364f6d5034ec30860"
+      }
+    },
+    {
+      "id": "atyrau",
+      "index": 2,
+      "url": "https://moyisey.github.io/atyrau-tour-3d/tour_v2/",
+      "state": {
+        "view": "actual second-floor panorama"
+      },
+      "at": "2026-10-04T18:33:06.301Z",
+      "width": 1280,
+      "height": 800,
+      "file": "projects/media/atyrau-2.jpg",
+      "bytes": 131396,
+      "sha256": "afd984505172ad828d822cc473732de64ebb6700aa46c448befad0964fc601e4",
+      "errors": []
+    },
+    {
+      "id": "helio",
+      "index": 1,
+      "url": "https://moyisey.github.io/helio/?city=london&date=2026-06-21&lang=ru&time=08:00",
+      "state": {
+        "view": "real London neighborhood, morning",
+        "modelParts": "134",
+        "modelVertices": "1358",
+        "modelSkipped": "0",
+        "modelReasons": "{}",
+        "modelIncomplete": "false",
+        "shade": "clear",
+        "attribution": "OpenFreeMap © OpenMapTiles Data from OpenStreetMap"
+      },
+      "at": "2026-10-04T18:44:03.117Z",
+      "width": 1280,
+      "height": 800,
+      "file": "projects/media/helio-1.jpg",
+      "bytes": 156617,
+      "sha256": "fe792466d551c72fca13f42dd5f658113301e4edb690aba3b18f19c9be3224f4",
+      "errors": [],
+      "preview": {
+        "file": "projects/media/helio-preview.jpg",
+        "width": 720,
+        "height": 450,
+        "bytes": 46727,
+        "sha256": "cd0bf769adfe49b2f1f80f394c6efe06308eb3c5fbaeb8b9b7c8b7edc93e82ea"
+      }
+    },
+    {
+      "id": "helio",
+      "index": 2,
+      "url": "https://moyisey.github.io/helio/?city=london&date=2026-06-21&lang=ru&time=08:00",
+      "state": {
+        "view": "same neighborhood, evening",
+        "modelParts": "134",
+        "modelVertices": "1358",
+        "modelSkipped": "0",
+        "modelReasons": "{}",
+        "modelIncomplete": "false",
+        "shade": "clear",
+        "attribution": "OpenFreeMap © OpenMapTiles Data from OpenStreetMap"
+      },
+      "at": "2026-10-04T18:44:04.299Z",
+      "width": 1280,
+      "height": 800,
+      "file": "projects/media/helio-2.jpg",
+      "bytes": 157017,
+      "sha256": "227baf153c7d1bba2241f401ecb8b83a4819d1c550451e398ec46e06b59174cc",
+      "errors": []
+    }
+  ],
+  "passed": true
+}
