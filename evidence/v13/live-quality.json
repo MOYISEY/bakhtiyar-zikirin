@@ -1,0 +1,4919 @@
+{
+  "at": "2026-10-04T20:44:48.364Z",
+  "base": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "scope": "live",
+  "method": "Native Chromium directed image/gallery clicks, desktop and touch mobile emulation at DPR 2 and 3. Encoded dimensions compared with actual painted dimensions; screenshots retained for visual inspection. No physical-device or additional independent audit claim.",
+  "integrity": [
+    "projects/media/keyform-card-480.webp",
+    "projects/media/keyform-card-800.webp",
+    "projects/media/keyform-card-1200.webp",
+    "projects/media/keyform-card-1600.webp",
+    "projects/media/keyform-detail-1-960.webp",
+    "projects/media/keyform-detail-1-1600.webp",
+    "projects/media/keyform-detail-1-2400.webp",
+    "projects/media/keyform-detail-1-2880.webp",
+    "projects/media/keyform-detail-2-960.webp",
+    "projects/media/keyform-detail-2-1600.webp",
+    "projects/media/keyform-detail-2-2400.webp",
+    "projects/media/keyform-detail-2-2880.webp",
+    "projects/media/helio-card-480.webp",
+    "projects/media/helio-card-800.webp",
+    "projects/media/helio-card-1200.webp",
+    "projects/media/helio-card-1600.webp",
+    "projects/media/helio-detail-1-960.webp",
+    "projects/media/helio-detail-1-1600.webp",
+    "projects/media/helio-detail-1-2400.webp",
+    "projects/media/helio-detail-1-3200.webp",
+    "projects/media/helio-detail-2-960.webp",
+    "projects/media/helio-detail-2-1600.webp",
+    "projects/media/helio-detail-2-2400.webp",
+    "projects/media/helio-detail-2-3200.webp",
+    "projects/media/helio-hero-800.webp",
+    "projects/media/helio-hero-1600.webp",
+    "projects/media/helio-hero-2400.webp",
+    "projects/media/helio-hero-3000.webp",
+    "projects/media/poslesvet-card-480.webp",
+    "projects/media/poslesvet-card-800.webp",
+    "projects/media/poslesvet-card-1200.webp",
+    "projects/media/poslesvet-card-1600.webp",
+    "projects/media/poslesvet-detail-1-960.webp",
+    "projects/media/poslesvet-detail-1-1600.webp",
+    "projects/media/poslesvet-detail-1-2400.webp",
+    "projects/media/poslesvet-detail-1-3200.webp",
+    "projects/media/poslesvet-detail-2-960.webp",
+    "projects/media/poslesvet-detail-2-1600.webp",
+    "projects/media/poslesvet-detail-2-2400.webp",
+    "projects/media/poslesvet-detail-2-3200.webp",
+    "projects/media/framepack-card-480.webp",
+    "projects/media/framepack-card-800.webp",
+    "projects/media/framepack-card-1200.webp",
+    "projects/media/framepack-card-1600.webp",
+    "projects/media/framepack-detail-1-960.webp",
+    "projects/media/framepack-detail-1-1600.webp",
+    "projects/media/framepack-detail-1-2400.webp",
+    "projects/media/framepack-detail-1-3200.webp",
+    "projects/media/framepack-detail-2-960.webp",
+    "projects/media/framepack-detail-2-1600.webp",
+    "projects/media/framepack-detail-2-2400.webp",
+    "projects/media/framepack-detail-2-3200.webp",
+    "projects/media/shapecheck-card-480.webp",
+    "projects/media/shapecheck-card-800.webp",
+    "projects/media/shapecheck-card-1200.webp",
+    "projects/media/shapecheck-card-1600.webp",
+    "projects/media/shapecheck-detail-1-960.webp",
+    "projects/media/shapecheck-detail-1-1600.webp",
+    "projects/media/shapecheck-detail-1-2400.webp",
+    "projects/media/shapecheck-detail-1-3200.webp",
+    "projects/media/shapecheck-detail-2-960.webp",
+    "projects/media/shapecheck-detail-2-1600.webp",
+    "projects/media/shapecheck-detail-2-2400.webp",
+    "projects/media/shapecheck-detail-2-3200.webp",
+    "projects/media/rowline-card-480.webp",
+    "projects/media/rowline-card-800.webp",
+    "projects/media/rowline-card-1200.webp",
+    "projects/media/rowline-card-1600.webp",
+    "projects/media/rowline-detail-1-960.webp",
+    "projects/media/rowline-detail-1-1600.webp",
+    "projects/media/rowline-detail-1-2400.webp",
+    "projects/media/rowline-detail-1-3200.webp",
+    "projects/media/rowline-detail-2-960.webp",
+    "projects/media/rowline-detail-2-1600.webp",
+    "projects/media/rowline-detail-2-2400.webp",
+    "projects/media/rowline-detail-2-3200.webp",
+    "projects/media/atyrau-card-480.webp",
+    "projects/media/atyrau-card-800.webp",
+    "projects/media/atyrau-card-1200.webp",
+    "projects/media/atyrau-card-1600.webp",
+    "projects/media/atyrau-detail-1-960.webp",
+    "projects/media/atyrau-detail-1-1600.webp",
+    "projects/media/atyrau-detail-1-2400.webp",
+    "projects/media/atyrau-detail-1-3200.webp",
+    "projects/media/atyrau-detail-2-960.webp",
+    "projects/media/atyrau-detail-2-1600.webp",
+    "projects/media/atyrau-detail-2-2400.webp",
+    "projects/media/atyrau-detail-2-3200.webp"
+  ],
+  "routes": [
+    {
+      "width": 1366,
+      "dpr": 2,
+      "path": "",
+      "images": [
+        {
+          "file": "helio-hero-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 999,
+          "cssWidth": 596.21875,
+          "cssHeight": 372.625,
+          "paintedWidth": 596.21875,
+          "dpr": 2,
+          "physicalWidth": 1192.4375,
+          "vector": false,
+          "srcset": "./projects/media/helio-hero-800.webp 800w, ./projects/media/helio-hero-1600.webp 1600w, ./projects/media/helio-hero-2400.webp 2400w, ./projects/media/helio-hero-3000.webp 3000w",
+          "sizes": "(max-width: 760px) 90vw, (max-width: 1500px) 45vw, 660px",
+          "name": "home-0"
+        },
+        {
+          "file": "helio-card-800.webp",
+          "encodedWidth": 800,
+          "encodedHeight": 499,
+          "cssWidth": 391.8125,
+          "cssHeight": 244.875,
+          "paintedWidth": 391.8125,
+          "dpr": 2,
+          "physicalWidth": 783.625,
+          "vector": false,
+          "srcset": "./projects/media/helio-card-480.webp 480w, ./projects/media/helio-card-800.webp 800w, ./projects/media/helio-card-1200.webp 1200w, ./projects/media/helio-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "home-1"
+        },
+        {
+          "file": "keyform-card-800.webp",
+          "encodedWidth": 800,
+          "encodedHeight": 500,
+          "cssWidth": 391.8125,
+          "cssHeight": 244.875,
+          "paintedWidth": 391.8125,
+          "dpr": 2,
+          "physicalWidth": 783.625,
+          "vector": false,
+          "srcset": "./projects/media/keyform-card-480.webp 480w, ./projects/media/keyform-card-800.webp 800w, ./projects/media/keyform-card-1200.webp 1200w, ./projects/media/keyform-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "home-2"
+        },
+        {
+          "file": "poslesvet-card-800.webp",
+          "encodedWidth": 800,
+          "encodedHeight": 500,
+          "cssWidth": 391.8125,
+          "cssHeight": 244.875,
+          "paintedWidth": 391.8125,
+          "dpr": 2,
+          "physicalWidth": 783.625,
+          "vector": false,
+          "srcset": "./projects/media/poslesvet-card-480.webp 480w, ./projects/media/poslesvet-card-800.webp 800w, ./projects/media/poslesvet-card-1200.webp 1200w, ./projects/media/poslesvet-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "home-3"
+        }
+      ],
+      "gallery": [],
+      "passed": true,
+      "initialImages": [
+        "helio-hero-1600.webp",
+        "helio-card-800.webp",
+        "keyform-card-800.webp",
+        "poslesvet-card-800.webp"
+      ]
+    },
+    {
+      "width": 1366,
+      "dpr": 2,
+      "path": "projects/",
+      "images": [
+        {
+          "file": "helio-card-800.webp",
+          "encodedWidth": 800,
+          "encodedHeight": 499,
+          "cssWidth": 391.8125,
+          "cssHeight": 244.875,
+          "paintedWidth": 391.8125,
+          "dpr": 2,
+          "physicalWidth": 783.625,
+          "vector": false,
+          "srcset": "../projects/media/helio-card-480.webp 480w, ../projects/media/helio-card-800.webp 800w, ../projects/media/helio-card-1200.webp 1200w, ../projects/media/helio-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-0"
+        },
+        {
+          "file": "keyform-card-800.webp",
+          "encodedWidth": 800,
+          "encodedHeight": 500,
+          "cssWidth": 391.8125,
+          "cssHeight": 244.875,
+          "paintedWidth": 391.8125,
+          "dpr": 2,
+          "physicalWidth": 783.625,
+          "vector": false,
+          "srcset": "../projects/media/keyform-card-480.webp 480w, ../projects/media/keyform-card-800.webp 800w, ../projects/media/keyform-card-1200.webp 1200w, ../projects/media/keyform-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-1"
+        },
+        {
+          "file": "poslesvet-card-800.webp",
+          "encodedWidth": 800,
+          "encodedHeight": 500,
+          "cssWidth": 391.8125,
+          "cssHeight": 244.875,
+          "paintedWidth": 391.8125,
+          "dpr": 2,
+          "physicalWidth": 783.625,
+          "vector": false,
+          "srcset": "../projects/media/poslesvet-card-480.webp 480w, ../projects/media/poslesvet-card-800.webp 800w, ../projects/media/poslesvet-card-1200.webp 1200w, ../projects/media/poslesvet-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-2"
+        },
+        {
+          "file": "framepack-card-800.webp",
+          "encodedWidth": 800,
+          "encodedHeight": 500,
+          "cssWidth": 391.8125,
+          "cssHeight": 244.875,
+          "paintedWidth": 391.8125,
+          "dpr": 2,
+          "physicalWidth": 783.625,
+          "vector": false,
+          "srcset": "../projects/media/framepack-card-480.webp 480w, ../projects/media/framepack-card-800.webp 800w, ../projects/media/framepack-card-1200.webp 1200w, ../projects/media/framepack-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-3"
+        },
+        {
+          "file": "shapecheck-card-800.webp",
+          "encodedWidth": 800,
+          "encodedHeight": 719,
+          "cssWidth": 391.8125,
+          "cssHeight": 244.875,
+          "paintedWidth": 272.461752433936,
+          "dpr": 2,
+          "physicalWidth": 544.923504867872,
+          "vector": false,
+          "srcset": "../projects/media/shapecheck-card-480.webp 480w, ../projects/media/shapecheck-card-800.webp 800w, ../projects/media/shapecheck-card-1200.webp 1200w, ../projects/media/shapecheck-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-4"
+        },
+        {
+          "file": "rowline-card-800.webp",
+          "encodedWidth": 800,
+          "encodedHeight": 499,
+          "cssWidth": 391.8125,
+          "cssHeight": 244.875,
+          "paintedWidth": 391.8125,
+          "dpr": 2,
+          "physicalWidth": 783.625,
+          "vector": false,
+          "srcset": "../projects/media/rowline-card-480.webp 480w, ../projects/media/rowline-card-800.webp 800w, ../projects/media/rowline-card-1200.webp 1200w, ../projects/media/rowline-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-5"
+        },
+        {
+          "file": "atyrau-card-800.webp",
+          "encodedWidth": 800,
+          "encodedHeight": 500,
+          "cssWidth": 391.8125,
+          "cssHeight": 244.875,
+          "paintedWidth": 391.8125,
+          "dpr": 2,
+          "physicalWidth": 783.625,
+          "vector": false,
+          "srcset": "../projects/media/atyrau-card-480.webp 480w, ../projects/media/atyrau-card-800.webp 800w, ../projects/media/atyrau-card-1200.webp 1200w, ../projects/media/atyrau-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-6"
+        },
+        {
+          "file": "neuralbrief-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 391.8125,
+          "cssHeight": 244.875,
+          "paintedWidth": 391.8125,
+          "dpr": 2,
+          "physicalWidth": 783.625,
+          "vector": true,
+          "srcset": "",
+          "sizes": "",
+          "name": "catalog-7"
+        },
+        {
+          "file": "artportal-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 391.8125,
+          "cssHeight": 244.875,
+          "paintedWidth": 391.8125,
+          "dpr": 2,
+          "physicalWidth": 783.625,
+          "vector": true,
+          "srcset": "",
+          "sizes": "",
+          "name": "catalog-8"
+        }
+      ],
+      "gallery": [],
+      "passed": true,
+      "initialImages": [
+        "helio-card-800.webp",
+        "keyform-card-800.webp",
+        "poslesvet-card-800.webp",
+        "framepack-card-800.webp",
+        "shapecheck-card-800.webp",
+        "rowline-card-800.webp",
+        "atyrau-card-800.webp",
+        "neuralbrief-diagram.svg",
+        "artportal-diagram.svg"
+      ]
+    },
+    {
+      "width": 1366,
+      "dpr": 2,
+      "path": "projects/helio.html",
+      "images": [
+        {
+          "file": "helio-detail-1-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1630,
+          "cssWidth": 1098,
+          "cssHeight": 745.71875,
+          "paintedWidth": 1098,
+          "dpr": 2,
+          "physicalWidth": 2196,
+          "vector": false,
+          "srcset": "../projects/media/helio-detail-1-960.webp 960w, ../projects/media/helio-detail-1-1600.webp 1600w, ../projects/media/helio-detail-1-2400.webp 2400w, ../projects/media/helio-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "helio-0"
+        },
+        {
+          "file": "helio-detail-2-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1630,
+          "cssWidth": 1098,
+          "cssHeight": 745.71875,
+          "paintedWidth": 1098,
+          "dpr": 2,
+          "physicalWidth": 2196,
+          "vector": false,
+          "srcset": "../projects/media/helio-detail-2-960.webp 960w, ../projects/media/helio-detail-2-1600.webp 1600w, ../projects/media/helio-detail-2-2400.webp 2400w, ../projects/media/helio-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "helio-1"
+        },
+        {
+          "file": "helio-detail-1-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1630,
+          "cssWidth": 971.921875,
+          "cssHeight": 660.09375,
+          "paintedWidth": 971.921875,
+          "dpr": 2,
+          "physicalWidth": 1943.84375,
+          "vector": false,
+          "srcset": "../projects/media/helio-detail-1-960.webp 960w, ../projects/media/helio-detail-1-1600.webp 1600w, ../projects/media/helio-detail-1-2400.webp 2400w, ../projects/media/helio-detail-1-3200.webp 3200w",
+          "sizes": "972px",
+          "name": "gallery-helio-0"
+        },
+        {
+          "file": "helio-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2173,
+          "cssWidth": 1600,
+          "cssHeight": 1086.5,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-helio-0"
+        },
+        {
+          "file": "helio-detail-2-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1630,
+          "cssWidth": 971.921875,
+          "cssHeight": 660.09375,
+          "paintedWidth": 971.921875,
+          "dpr": 2,
+          "physicalWidth": 1943.84375,
+          "vector": false,
+          "srcset": "../projects/media/helio-detail-2-960.webp 960w, ../projects/media/helio-detail-2-1600.webp 1600w, ../projects/media/helio-detail-2-2400.webp 2400w, ../projects/media/helio-detail-2-3200.webp 3200w",
+          "sizes": "972px",
+          "name": "gallery-helio-1"
+        },
+        {
+          "file": "helio-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2173,
+          "cssWidth": 1600,
+          "cssHeight": 1086.5,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-helio-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "helio-detail-1-2400.webp",
+          "zoom": "helio-detail-1-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "helio-detail-2-2400.webp",
+          "zoom": "helio-detail-2-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "helio-detail-1-2400.webp",
+        "helio-detail-2-2400.webp"
+      ]
+    },
+    {
+      "width": 1366,
+      "dpr": 2,
+      "path": "projects/keyform.html",
+      "images": [
+        {
+          "file": "keyform-detail-1-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1500,
+          "cssWidth": 1098,
+          "cssHeight": 686.25,
+          "paintedWidth": 1098,
+          "dpr": 2,
+          "physicalWidth": 2196,
+          "vector": false,
+          "srcset": "../projects/media/keyform-detail-1-960.webp 960w, ../projects/media/keyform-detail-1-1600.webp 1600w, ../projects/media/keyform-detail-1-2400.webp 2400w, ../projects/media/keyform-detail-1-2880.webp 2880w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "keyform-0"
+        },
+        {
+          "file": "keyform-detail-2-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1500,
+          "cssWidth": 1098,
+          "cssHeight": 686.25,
+          "paintedWidth": 1098,
+          "dpr": 2,
+          "physicalWidth": 2196,
+          "vector": false,
+          "srcset": "../projects/media/keyform-detail-2-960.webp 960w, ../projects/media/keyform-detail-2-1600.webp 1600w, ../projects/media/keyform-detail-2-2400.webp 2400w, ../projects/media/keyform-detail-2-2880.webp 2880w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "keyform-1"
+        },
+        {
+          "file": "keyform-detail-1-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1500,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 2,
+          "physicalWidth": 2112,
+          "vector": false,
+          "srcset": "../projects/media/keyform-detail-1-960.webp 960w, ../projects/media/keyform-detail-1-1600.webp 1600w, ../projects/media/keyform-detail-1-2400.webp 2400w, ../projects/media/keyform-detail-1-2880.webp 2880w",
+          "sizes": "1056px",
+          "name": "gallery-keyform-0"
+        },
+        {
+          "file": "keyform-detail-1-2880.webp",
+          "encodedWidth": 2880,
+          "encodedHeight": 1800,
+          "cssWidth": 1440,
+          "cssHeight": 900,
+          "paintedWidth": 1440,
+          "dpr": 2,
+          "physicalWidth": 2880,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1440px",
+          "name": "zoom-keyform-0"
+        },
+        {
+          "file": "keyform-detail-2-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1500,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 2,
+          "physicalWidth": 2112,
+          "vector": false,
+          "srcset": "../projects/media/keyform-detail-2-960.webp 960w, ../projects/media/keyform-detail-2-1600.webp 1600w, ../projects/media/keyform-detail-2-2400.webp 2400w, ../projects/media/keyform-detail-2-2880.webp 2880w",
+          "sizes": "1056px",
+          "name": "gallery-keyform-1"
+        },
+        {
+          "file": "keyform-detail-2-2880.webp",
+          "encodedWidth": 2880,
+          "encodedHeight": 1800,
+          "cssWidth": 1440,
+          "cssHeight": 900,
+          "paintedWidth": 1440,
+          "dpr": 2,
+          "physicalWidth": 2880,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1440px",
+          "name": "zoom-keyform-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "keyform-detail-1-2400.webp",
+          "zoom": "keyform-detail-1-2880.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/keyform-detail-1-2880.webp"
+        },
+        {
+          "index": 1,
+          "fit": "keyform-detail-2-2400.webp",
+          "zoom": "keyform-detail-2-2880.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/keyform-detail-2-2880.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "keyform-detail-1-2400.webp",
+        "keyform-detail-2-2400.webp"
+      ]
+    },
+    {
+      "width": 1366,
+      "dpr": 2,
+      "path": "projects/poslesvet.html",
+      "images": [
+        {
+          "file": "poslesvet-detail-1-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1500,
+          "cssWidth": 1098,
+          "cssHeight": 686.25,
+          "paintedWidth": 1098,
+          "dpr": 2,
+          "physicalWidth": 2196,
+          "vector": false,
+          "srcset": "../projects/media/poslesvet-detail-1-960.webp 960w, ../projects/media/poslesvet-detail-1-1600.webp 1600w, ../projects/media/poslesvet-detail-1-2400.webp 2400w, ../projects/media/poslesvet-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "poslesvet-0"
+        },
+        {
+          "file": "poslesvet-detail-2-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1500,
+          "cssWidth": 1098,
+          "cssHeight": 686.25,
+          "paintedWidth": 1098,
+          "dpr": 2,
+          "physicalWidth": 2196,
+          "vector": false,
+          "srcset": "../projects/media/poslesvet-detail-2-960.webp 960w, ../projects/media/poslesvet-detail-2-1600.webp 1600w, ../projects/media/poslesvet-detail-2-2400.webp 2400w, ../projects/media/poslesvet-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "poslesvet-1"
+        },
+        {
+          "file": "poslesvet-detail-1-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1500,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 2,
+          "physicalWidth": 2112,
+          "vector": false,
+          "srcset": "../projects/media/poslesvet-detail-1-960.webp 960w, ../projects/media/poslesvet-detail-1-1600.webp 1600w, ../projects/media/poslesvet-detail-1-2400.webp 2400w, ../projects/media/poslesvet-detail-1-3200.webp 3200w",
+          "sizes": "1056px",
+          "name": "gallery-poslesvet-0"
+        },
+        {
+          "file": "poslesvet-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1600,
+          "cssHeight": 1000,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-poslesvet-0"
+        },
+        {
+          "file": "poslesvet-detail-2-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1500,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 2,
+          "physicalWidth": 2112,
+          "vector": false,
+          "srcset": "../projects/media/poslesvet-detail-2-960.webp 960w, ../projects/media/poslesvet-detail-2-1600.webp 1600w, ../projects/media/poslesvet-detail-2-2400.webp 2400w, ../projects/media/poslesvet-detail-2-3200.webp 3200w",
+          "sizes": "1056px",
+          "name": "gallery-poslesvet-1"
+        },
+        {
+          "file": "poslesvet-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1600,
+          "cssHeight": 1000,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-poslesvet-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "poslesvet-detail-1-2400.webp",
+          "zoom": "poslesvet-detail-1-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/poslesvet-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "poslesvet-detail-2-2400.webp",
+          "zoom": "poslesvet-detail-2-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/poslesvet-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "poslesvet-detail-1-2400.webp",
+        "poslesvet-detail-2-2400.webp"
+      ]
+    },
+    {
+      "width": 1366,
+      "dpr": 2,
+      "path": "projects/framepack.html",
+      "images": [
+        {
+          "file": "framepack-detail-1-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1500,
+          "cssWidth": 1098,
+          "cssHeight": 686.25,
+          "paintedWidth": 1098,
+          "dpr": 2,
+          "physicalWidth": 2196,
+          "vector": false,
+          "srcset": "../projects/media/framepack-detail-1-960.webp 960w, ../projects/media/framepack-detail-1-1600.webp 1600w, ../projects/media/framepack-detail-1-2400.webp 2400w, ../projects/media/framepack-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "framepack-0"
+        },
+        {
+          "file": "framepack-detail-2-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1500,
+          "cssWidth": 1098,
+          "cssHeight": 686.25,
+          "paintedWidth": 1098,
+          "dpr": 2,
+          "physicalWidth": 2196,
+          "vector": false,
+          "srcset": "../projects/media/framepack-detail-2-960.webp 960w, ../projects/media/framepack-detail-2-1600.webp 1600w, ../projects/media/framepack-detail-2-2400.webp 2400w, ../projects/media/framepack-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "framepack-1"
+        },
+        {
+          "file": "framepack-detail-1-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1500,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 2,
+          "physicalWidth": 2112,
+          "vector": false,
+          "srcset": "../projects/media/framepack-detail-1-960.webp 960w, ../projects/media/framepack-detail-1-1600.webp 1600w, ../projects/media/framepack-detail-1-2400.webp 2400w, ../projects/media/framepack-detail-1-3200.webp 3200w",
+          "sizes": "1056px",
+          "name": "gallery-framepack-0"
+        },
+        {
+          "file": "framepack-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1600,
+          "cssHeight": 1000,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-framepack-0"
+        },
+        {
+          "file": "framepack-detail-2-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1500,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 2,
+          "physicalWidth": 2112,
+          "vector": false,
+          "srcset": "../projects/media/framepack-detail-2-960.webp 960w, ../projects/media/framepack-detail-2-1600.webp 1600w, ../projects/media/framepack-detail-2-2400.webp 2400w, ../projects/media/framepack-detail-2-3200.webp 3200w",
+          "sizes": "1056px",
+          "name": "gallery-framepack-1"
+        },
+        {
+          "file": "framepack-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1600,
+          "cssHeight": 1000,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-framepack-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "framepack-detail-1-2400.webp",
+          "zoom": "framepack-detail-1-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/framepack-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "framepack-detail-2-2400.webp",
+          "zoom": "framepack-detail-2-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/framepack-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "framepack-detail-1-2400.webp",
+        "framepack-detail-2-2400.webp"
+      ]
+    },
+    {
+      "width": 1366,
+      "dpr": 2,
+      "path": "projects/shapecheck.html",
+      "images": [
+        {
+          "file": "shapecheck-detail-1-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1500,
+          "cssWidth": 1098,
+          "cssHeight": 686.25,
+          "paintedWidth": 1098,
+          "dpr": 2,
+          "physicalWidth": 2196,
+          "vector": false,
+          "srcset": "../projects/media/shapecheck-detail-1-960.webp 960w, ../projects/media/shapecheck-detail-1-1600.webp 1600w, ../projects/media/shapecheck-detail-1-2400.webp 2400w, ../projects/media/shapecheck-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "shapecheck-0"
+        },
+        {
+          "file": "shapecheck-detail-2-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1934,
+          "cssWidth": 1098,
+          "cssHeight": 884.796875,
+          "paintedWidth": 1098,
+          "dpr": 2,
+          "physicalWidth": 2196,
+          "vector": false,
+          "srcset": "../projects/media/shapecheck-detail-2-960.webp 960w, ../projects/media/shapecheck-detail-2-1600.webp 1600w, ../projects/media/shapecheck-detail-2-2400.webp 2400w, ../projects/media/shapecheck-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "shapecheck-1"
+        },
+        {
+          "file": "shapecheck-detail-1-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1500,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 2,
+          "physicalWidth": 2112,
+          "vector": false,
+          "srcset": "../projects/media/shapecheck-detail-1-960.webp 960w, ../projects/media/shapecheck-detail-1-1600.webp 1600w, ../projects/media/shapecheck-detail-1-2400.webp 2400w, ../projects/media/shapecheck-detail-1-3200.webp 3200w",
+          "sizes": "1056px",
+          "name": "gallery-shapecheck-0"
+        },
+        {
+          "file": "shapecheck-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1600,
+          "cssHeight": 1000,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-shapecheck-0"
+        },
+        {
+          "file": "shapecheck-detail-2-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1934,
+          "cssWidth": 819.234375,
+          "cssHeight": 660.15625,
+          "paintedWidth": 819.234375,
+          "dpr": 2,
+          "physicalWidth": 1638.46875,
+          "vector": false,
+          "srcset": "../projects/media/shapecheck-detail-2-960.webp 960w, ../projects/media/shapecheck-detail-2-1600.webp 1600w, ../projects/media/shapecheck-detail-2-2400.webp 2400w, ../projects/media/shapecheck-detail-2-3200.webp 3200w",
+          "sizes": "820px",
+          "name": "gallery-shapecheck-1"
+        },
+        {
+          "file": "shapecheck-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2578,
+          "cssWidth": 1600,
+          "cssHeight": 1289,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-shapecheck-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "shapecheck-detail-1-2400.webp",
+          "zoom": "shapecheck-detail-1-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/shapecheck-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "shapecheck-detail-2-2400.webp",
+          "zoom": "shapecheck-detail-2-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/shapecheck-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "shapecheck-detail-1-2400.webp",
+        "shapecheck-detail-2-2400.webp"
+      ]
+    },
+    {
+      "width": 1366,
+      "dpr": 2,
+      "path": "projects/rowline.html",
+      "images": [
+        {
+          "file": "rowline-detail-1-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1500,
+          "cssWidth": 1098,
+          "cssHeight": 686.25,
+          "paintedWidth": 1098,
+          "dpr": 2,
+          "physicalWidth": 2196,
+          "vector": false,
+          "srcset": "../projects/media/rowline-detail-1-960.webp 960w, ../projects/media/rowline-detail-1-1600.webp 1600w, ../projects/media/rowline-detail-1-2400.webp 2400w, ../projects/media/rowline-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "rowline-0"
+        },
+        {
+          "file": "rowline-detail-2-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1500,
+          "cssWidth": 1098,
+          "cssHeight": 686.25,
+          "paintedWidth": 1098,
+          "dpr": 2,
+          "physicalWidth": 2196,
+          "vector": false,
+          "srcset": "../projects/media/rowline-detail-2-960.webp 960w, ../projects/media/rowline-detail-2-1600.webp 1600w, ../projects/media/rowline-detail-2-2400.webp 2400w, ../projects/media/rowline-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "rowline-1"
+        },
+        {
+          "file": "rowline-detail-1-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1500,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 2,
+          "physicalWidth": 2112,
+          "vector": false,
+          "srcset": "../projects/media/rowline-detail-1-960.webp 960w, ../projects/media/rowline-detail-1-1600.webp 1600w, ../projects/media/rowline-detail-1-2400.webp 2400w, ../projects/media/rowline-detail-1-3200.webp 3200w",
+          "sizes": "1056px",
+          "name": "gallery-rowline-0"
+        },
+        {
+          "file": "rowline-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1600,
+          "cssHeight": 1000,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-rowline-0"
+        },
+        {
+          "file": "rowline-detail-2-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1500,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 2,
+          "physicalWidth": 2112,
+          "vector": false,
+          "srcset": "../projects/media/rowline-detail-2-960.webp 960w, ../projects/media/rowline-detail-2-1600.webp 1600w, ../projects/media/rowline-detail-2-2400.webp 2400w, ../projects/media/rowline-detail-2-3200.webp 3200w",
+          "sizes": "1056px",
+          "name": "gallery-rowline-1"
+        },
+        {
+          "file": "rowline-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1600,
+          "cssHeight": 1000,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-rowline-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "rowline-detail-1-2400.webp",
+          "zoom": "rowline-detail-1-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/rowline-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "rowline-detail-2-2400.webp",
+          "zoom": "rowline-detail-2-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/rowline-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "rowline-detail-1-2400.webp",
+        "rowline-detail-2-2400.webp"
+      ]
+    },
+    {
+      "width": 1366,
+      "dpr": 2,
+      "path": "projects/atyrau.html",
+      "images": [
+        {
+          "file": "atyrau-detail-1-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1500,
+          "cssWidth": 1098,
+          "cssHeight": 686.25,
+          "paintedWidth": 1098,
+          "dpr": 2,
+          "physicalWidth": 2196,
+          "vector": false,
+          "srcset": "../projects/media/atyrau-detail-1-960.webp 960w, ../projects/media/atyrau-detail-1-1600.webp 1600w, ../projects/media/atyrau-detail-1-2400.webp 2400w, ../projects/media/atyrau-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "atyrau-0"
+        },
+        {
+          "file": "atyrau-detail-2-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1500,
+          "cssWidth": 1098,
+          "cssHeight": 686.25,
+          "paintedWidth": 1098,
+          "dpr": 2,
+          "physicalWidth": 2196,
+          "vector": false,
+          "srcset": "../projects/media/atyrau-detail-2-960.webp 960w, ../projects/media/atyrau-detail-2-1600.webp 1600w, ../projects/media/atyrau-detail-2-2400.webp 2400w, ../projects/media/atyrau-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "atyrau-1"
+        },
+        {
+          "file": "atyrau-detail-1-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1500,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 2,
+          "physicalWidth": 2112,
+          "vector": false,
+          "srcset": "../projects/media/atyrau-detail-1-960.webp 960w, ../projects/media/atyrau-detail-1-1600.webp 1600w, ../projects/media/atyrau-detail-1-2400.webp 2400w, ../projects/media/atyrau-detail-1-3200.webp 3200w",
+          "sizes": "1056px",
+          "name": "gallery-atyrau-0"
+        },
+        {
+          "file": "atyrau-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1600,
+          "cssHeight": 1000,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-atyrau-0"
+        },
+        {
+          "file": "atyrau-detail-2-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1500,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 2,
+          "physicalWidth": 2112,
+          "vector": false,
+          "srcset": "../projects/media/atyrau-detail-2-960.webp 960w, ../projects/media/atyrau-detail-2-1600.webp 1600w, ../projects/media/atyrau-detail-2-2400.webp 2400w, ../projects/media/atyrau-detail-2-3200.webp 3200w",
+          "sizes": "1056px",
+          "name": "gallery-atyrau-1"
+        },
+        {
+          "file": "atyrau-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1600,
+          "cssHeight": 1000,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-atyrau-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "atyrau-detail-1-2400.webp",
+          "zoom": "atyrau-detail-1-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/atyrau-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "atyrau-detail-2-2400.webp",
+          "zoom": "atyrau-detail-2-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/atyrau-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "atyrau-detail-1-2400.webp",
+        "atyrau-detail-2-2400.webp"
+      ]
+    },
+    {
+      "width": 1366,
+      "dpr": 2,
+      "path": "projects/neuralbrief.html",
+      "images": [
+        {
+          "file": "neuralbrief-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 1098,
+          "cssHeight": 686.25,
+          "paintedWidth": 1098,
+          "dpr": 2,
+          "physicalWidth": 2196,
+          "vector": true,
+          "srcset": "",
+          "sizes": "",
+          "name": "neuralbrief-0"
+        },
+        {
+          "file": "neuralbrief-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 2,
+          "physicalWidth": 2112,
+          "vector": true,
+          "srcset": "",
+          "sizes": "1056px",
+          "name": "gallery-neuralbrief-0"
+        },
+        {
+          "file": "neuralbrief-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 2112,
+          "cssHeight": 1320,
+          "paintedWidth": 2112,
+          "dpr": 2,
+          "physicalWidth": 4224,
+          "vector": true,
+          "srcset": "",
+          "sizes": "2112px",
+          "name": "zoom-neuralbrief-0"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "neuralbrief-diagram.svg",
+          "zoom": "neuralbrief-diagram.svg",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/neuralbrief-diagram.svg"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "neuralbrief-diagram.svg"
+      ]
+    },
+    {
+      "width": 1366,
+      "dpr": 2,
+      "path": "projects/artportal.html",
+      "images": [
+        {
+          "file": "artportal-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 1098,
+          "cssHeight": 686.25,
+          "paintedWidth": 1098,
+          "dpr": 2,
+          "physicalWidth": 2196,
+          "vector": true,
+          "srcset": "",
+          "sizes": "",
+          "name": "artportal-0"
+        },
+        {
+          "file": "artportal-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 2,
+          "physicalWidth": 2112,
+          "vector": true,
+          "srcset": "",
+          "sizes": "1056px",
+          "name": "gallery-artportal-0"
+        },
+        {
+          "file": "artportal-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 2112,
+          "cssHeight": 1320,
+          "paintedWidth": 2112,
+          "dpr": 2,
+          "physicalWidth": 4224,
+          "vector": true,
+          "srcset": "",
+          "sizes": "2112px",
+          "name": "zoom-artportal-0"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "artportal-diagram.svg",
+          "zoom": "artportal-diagram.svg",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/artportal-diagram.svg"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "artportal-diagram.svg"
+      ]
+    },
+    {
+      "width": 1920,
+      "dpr": 3,
+      "path": "",
+      "images": [
+        {
+          "file": "helio-hero-2400.webp",
+          "encodedWidth": 2400,
+          "encodedHeight": 1498,
+          "cssWidth": 644.453125,
+          "cssHeight": 402.78125,
+          "paintedWidth": 644.453125,
+          "dpr": 3,
+          "physicalWidth": 1933.359375,
+          "vector": false,
+          "srcset": "./projects/media/helio-hero-800.webp 800w, ./projects/media/helio-hero-1600.webp 1600w, ./projects/media/helio-hero-2400.webp 2400w, ./projects/media/helio-hero-3000.webp 3000w",
+          "sizes": "(max-width: 760px) 90vw, (max-width: 1500px) 45vw, 660px",
+          "name": "home-0"
+        },
+        {
+          "file": "helio-card-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 999,
+          "cssWidth": 424.84375,
+          "cssHeight": 265.515625,
+          "paintedWidth": 424.84375,
+          "dpr": 3,
+          "physicalWidth": 1274.53125,
+          "vector": false,
+          "srcset": "./projects/media/helio-card-480.webp 480w, ./projects/media/helio-card-800.webp 800w, ./projects/media/helio-card-1200.webp 1200w, ./projects/media/helio-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "home-1"
+        },
+        {
+          "file": "keyform-card-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 424.859375,
+          "cssHeight": 265.53125,
+          "paintedWidth": 424.859375,
+          "dpr": 3,
+          "physicalWidth": 1274.578125,
+          "vector": false,
+          "srcset": "./projects/media/keyform-card-480.webp 480w, ./projects/media/keyform-card-800.webp 800w, ./projects/media/keyform-card-1200.webp 1200w, ./projects/media/keyform-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "home-2"
+        },
+        {
+          "file": "poslesvet-card-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 424.84375,
+          "cssHeight": 265.515625,
+          "paintedWidth": 424.84375,
+          "dpr": 3,
+          "physicalWidth": 1274.53125,
+          "vector": false,
+          "srcset": "./projects/media/poslesvet-card-480.webp 480w, ./projects/media/poslesvet-card-800.webp 800w, ./projects/media/poslesvet-card-1200.webp 1200w, ./projects/media/poslesvet-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "home-3"
+        }
+      ],
+      "gallery": [],
+      "passed": true,
+      "initialImages": [
+        "helio-hero-2400.webp",
+        "helio-card-1600.webp",
+        "keyform-card-1600.webp",
+        "poslesvet-card-1600.webp"
+      ]
+    },
+    {
+      "width": 1920,
+      "dpr": 3,
+      "path": "projects/",
+      "images": [
+        {
+          "file": "helio-card-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 999,
+          "cssWidth": 408.1875,
+          "cssHeight": 255.109375,
+          "paintedWidth": 408.1875,
+          "dpr": 3,
+          "physicalWidth": 1224.5625,
+          "vector": false,
+          "srcset": "../projects/media/helio-card-480.webp 480w, ../projects/media/helio-card-800.webp 800w, ../projects/media/helio-card-1200.webp 1200w, ../projects/media/helio-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-0"
+        },
+        {
+          "file": "keyform-card-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 408.1875,
+          "cssHeight": 255.109375,
+          "paintedWidth": 408.1875,
+          "dpr": 3,
+          "physicalWidth": 1224.5625,
+          "vector": false,
+          "srcset": "../projects/media/keyform-card-480.webp 480w, ../projects/media/keyform-card-800.webp 800w, ../projects/media/keyform-card-1200.webp 1200w, ../projects/media/keyform-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-1"
+        },
+        {
+          "file": "poslesvet-card-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 408.1875,
+          "cssHeight": 255.109375,
+          "paintedWidth": 408.1875,
+          "dpr": 3,
+          "physicalWidth": 1224.5625,
+          "vector": false,
+          "srcset": "../projects/media/poslesvet-card-480.webp 480w, ../projects/media/poslesvet-card-800.webp 800w, ../projects/media/poslesvet-card-1200.webp 1200w, ../projects/media/poslesvet-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-2"
+        },
+        {
+          "file": "framepack-card-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 408.1875,
+          "cssHeight": 255.109375,
+          "paintedWidth": 408.1875,
+          "dpr": 3,
+          "physicalWidth": 1224.5625,
+          "vector": false,
+          "srcset": "../projects/media/framepack-card-480.webp 480w, ../projects/media/framepack-card-800.webp 800w, ../projects/media/framepack-card-1200.webp 1200w, ../projects/media/framepack-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-3"
+        },
+        {
+          "file": "shapecheck-card-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1438,
+          "cssWidth": 408.1875,
+          "cssHeight": 255.109375,
+          "paintedWidth": 283.84909596662027,
+          "dpr": 3,
+          "physicalWidth": 851.5472878998607,
+          "vector": false,
+          "srcset": "../projects/media/shapecheck-card-480.webp 480w, ../projects/media/shapecheck-card-800.webp 800w, ../projects/media/shapecheck-card-1200.webp 1200w, ../projects/media/shapecheck-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-4"
+        },
+        {
+          "file": "rowline-card-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 999,
+          "cssWidth": 408.1875,
+          "cssHeight": 255.109375,
+          "paintedWidth": 408.1875,
+          "dpr": 3,
+          "physicalWidth": 1224.5625,
+          "vector": false,
+          "srcset": "../projects/media/rowline-card-480.webp 480w, ../projects/media/rowline-card-800.webp 800w, ../projects/media/rowline-card-1200.webp 1200w, ../projects/media/rowline-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-5"
+        },
+        {
+          "file": "atyrau-card-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 408.1875,
+          "cssHeight": 255.109375,
+          "paintedWidth": 408.1875,
+          "dpr": 3,
+          "physicalWidth": 1224.5625,
+          "vector": false,
+          "srcset": "../projects/media/atyrau-card-480.webp 480w, ../projects/media/atyrau-card-800.webp 800w, ../projects/media/atyrau-card-1200.webp 1200w, ../projects/media/atyrau-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-6"
+        },
+        {
+          "file": "neuralbrief-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 408.1875,
+          "cssHeight": 255.109375,
+          "paintedWidth": 408.1875,
+          "dpr": 3,
+          "physicalWidth": 1224.5625,
+          "vector": true,
+          "srcset": "",
+          "sizes": "",
+          "name": "catalog-7"
+        },
+        {
+          "file": "artportal-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 408.1875,
+          "cssHeight": 255.109375,
+          "paintedWidth": 408.1875,
+          "dpr": 3,
+          "physicalWidth": 1224.5625,
+          "vector": true,
+          "srcset": "",
+          "sizes": "",
+          "name": "catalog-8"
+        }
+      ],
+      "gallery": [],
+      "passed": true,
+      "initialImages": [
+        "helio-card-1600.webp",
+        "keyform-card-1600.webp",
+        "poslesvet-card-1600.webp",
+        "framepack-card-1600.webp",
+        "shapecheck-card-1600.webp",
+        "rowline-card-1600.webp",
+        "atyrau-card-1600.webp",
+        "neuralbrief-diagram.svg",
+        "artportal-diagram.svg"
+      ]
+    },
+    {
+      "width": 1920,
+      "dpr": 3,
+      "path": "projects/helio.html",
+      "images": [
+        {
+          "file": "helio-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2173,
+          "cssWidth": 1064.65625,
+          "cssHeight": 722.953125,
+          "paintedWidth": 1064.65625,
+          "dpr": 3,
+          "physicalWidth": 3193.96875,
+          "vector": false,
+          "srcset": "../projects/media/helio-detail-1-960.webp 960w, ../projects/media/helio-detail-1-1600.webp 1600w, ../projects/media/helio-detail-1-2400.webp 2400w, ../projects/media/helio-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "helio-0"
+        },
+        {
+          "file": "helio-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2173,
+          "cssWidth": 1064.65625,
+          "cssHeight": 722.953125,
+          "paintedWidth": 1064.65625,
+          "dpr": 3,
+          "physicalWidth": 3193.96875,
+          "vector": false,
+          "srcset": "../projects/media/helio-detail-2-960.webp 960w, ../projects/media/helio-detail-2-1600.webp 1600w, ../projects/media/helio-detail-2-2400.webp 2400w, ../projects/media/helio-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "helio-1"
+        },
+        {
+          "file": "helio-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2173,
+          "cssWidth": 971.921875,
+          "cssHeight": 659.984375,
+          "paintedWidth": 971.921875,
+          "dpr": 3,
+          "physicalWidth": 2915.765625,
+          "vector": false,
+          "srcset": "../projects/media/helio-detail-1-960.webp 960w, ../projects/media/helio-detail-1-1600.webp 1600w, ../projects/media/helio-detail-1-2400.webp 2400w, ../projects/media/helio-detail-1-3200.webp 3200w",
+          "sizes": "972px",
+          "name": "gallery-helio-0"
+        },
+        {
+          "file": "helio-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2173,
+          "cssWidth": 1066.65625,
+          "cssHeight": 724.3125,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-helio-0"
+        },
+        {
+          "file": "helio-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2173,
+          "cssWidth": 971.921875,
+          "cssHeight": 659.984375,
+          "paintedWidth": 971.921875,
+          "dpr": 3,
+          "physicalWidth": 2915.765625,
+          "vector": false,
+          "srcset": "../projects/media/helio-detail-2-960.webp 960w, ../projects/media/helio-detail-2-1600.webp 1600w, ../projects/media/helio-detail-2-2400.webp 2400w, ../projects/media/helio-detail-2-3200.webp 3200w",
+          "sizes": "972px",
+          "name": "gallery-helio-1"
+        },
+        {
+          "file": "helio-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2173,
+          "cssWidth": 1066.65625,
+          "cssHeight": 724.3125,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-helio-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "helio-detail-1-3200.webp",
+          "zoom": "helio-detail-1-3200.webp",
+          "canScroll": {
+            "x": false,
+            "y": true,
+            "scrollX": 0,
+            "scrollY": 64
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "helio-detail-2-3200.webp",
+          "zoom": "helio-detail-2-3200.webp",
+          "canScroll": {
+            "x": false,
+            "y": true,
+            "scrollX": 0,
+            "scrollY": 64
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "helio-detail-1-3200.webp",
+        "helio-detail-2-3200.webp"
+      ]
+    },
+    {
+      "width": 1920,
+      "dpr": 3,
+      "path": "projects/keyform.html",
+      "images": [
+        {
+          "file": "keyform-detail-1-2880.webp",
+          "encodedWidth": 2880,
+          "encodedHeight": 1800,
+          "cssWidth": 958,
+          "cssHeight": 598.75,
+          "paintedWidth": 958,
+          "dpr": 3,
+          "physicalWidth": 2874,
+          "vector": false,
+          "srcset": "../projects/media/keyform-detail-1-960.webp 960w, ../projects/media/keyform-detail-1-1600.webp 1600w, ../projects/media/keyform-detail-1-2400.webp 2400w, ../projects/media/keyform-detail-1-2880.webp 2880w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "keyform-0"
+        },
+        {
+          "file": "keyform-detail-2-2880.webp",
+          "encodedWidth": 2880,
+          "encodedHeight": 1800,
+          "cssWidth": 958,
+          "cssHeight": 598.75,
+          "paintedWidth": 958,
+          "dpr": 3,
+          "physicalWidth": 2874,
+          "vector": false,
+          "srcset": "../projects/media/keyform-detail-2-960.webp 960w, ../projects/media/keyform-detail-2-1600.webp 1600w, ../projects/media/keyform-detail-2-2400.webp 2400w, ../projects/media/keyform-detail-2-2880.webp 2880w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "keyform-1"
+        },
+        {
+          "file": "keyform-detail-1-2880.webp",
+          "encodedWidth": 2880,
+          "encodedHeight": 1800,
+          "cssWidth": 960,
+          "cssHeight": 600,
+          "paintedWidth": 960,
+          "dpr": 3,
+          "physicalWidth": 2880,
+          "vector": false,
+          "srcset": "../projects/media/keyform-detail-1-960.webp 960w, ../projects/media/keyform-detail-1-1600.webp 1600w, ../projects/media/keyform-detail-1-2400.webp 2400w, ../projects/media/keyform-detail-1-2880.webp 2880w",
+          "sizes": "960px",
+          "name": "gallery-keyform-0"
+        },
+        {
+          "file": "keyform-detail-1-2880.webp",
+          "encodedWidth": 2880,
+          "encodedHeight": 1800,
+          "cssWidth": 960,
+          "cssHeight": 600,
+          "paintedWidth": 960,
+          "dpr": 3,
+          "physicalWidth": 2880,
+          "vector": false,
+          "srcset": "",
+          "sizes": "960px",
+          "name": "zoom-keyform-0"
+        },
+        {
+          "file": "keyform-detail-2-2880.webp",
+          "encodedWidth": 2880,
+          "encodedHeight": 1800,
+          "cssWidth": 960,
+          "cssHeight": 600,
+          "paintedWidth": 960,
+          "dpr": 3,
+          "physicalWidth": 2880,
+          "vector": false,
+          "srcset": "../projects/media/keyform-detail-2-960.webp 960w, ../projects/media/keyform-detail-2-1600.webp 1600w, ../projects/media/keyform-detail-2-2400.webp 2400w, ../projects/media/keyform-detail-2-2880.webp 2880w",
+          "sizes": "960px",
+          "name": "gallery-keyform-1"
+        },
+        {
+          "file": "keyform-detail-2-2880.webp",
+          "encodedWidth": 2880,
+          "encodedHeight": 1800,
+          "cssWidth": 960,
+          "cssHeight": 600,
+          "paintedWidth": 960,
+          "dpr": 3,
+          "physicalWidth": 2880,
+          "vector": false,
+          "srcset": "",
+          "sizes": "960px",
+          "name": "zoom-keyform-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "keyform-detail-1-2880.webp",
+          "zoom": "keyform-detail-1-2880.webp",
+          "canScroll": {
+            "x": false,
+            "y": false,
+            "scrollX": 0,
+            "scrollY": 0
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/keyform-detail-1-2880.webp"
+        },
+        {
+          "index": 1,
+          "fit": "keyform-detail-2-2880.webp",
+          "zoom": "keyform-detail-2-2880.webp",
+          "canScroll": {
+            "x": false,
+            "y": false,
+            "scrollX": 0,
+            "scrollY": 0
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/keyform-detail-2-2880.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "keyform-detail-1-2880.webp",
+        "keyform-detail-2-2880.webp"
+      ]
+    },
+    {
+      "width": 1920,
+      "dpr": 3,
+      "path": "projects/poslesvet.html",
+      "images": [
+        {
+          "file": "poslesvet-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1064.65625,
+          "cssHeight": 665.40625,
+          "paintedWidth": 1064.65625,
+          "dpr": 3,
+          "physicalWidth": 3193.96875,
+          "vector": false,
+          "srcset": "../projects/media/poslesvet-detail-1-960.webp 960w, ../projects/media/poslesvet-detail-1-1600.webp 1600w, ../projects/media/poslesvet-detail-1-2400.webp 2400w, ../projects/media/poslesvet-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "poslesvet-0"
+        },
+        {
+          "file": "poslesvet-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1064.65625,
+          "cssHeight": 665.40625,
+          "paintedWidth": 1064.65625,
+          "dpr": 3,
+          "physicalWidth": 3193.96875,
+          "vector": false,
+          "srcset": "../projects/media/poslesvet-detail-2-960.webp 960w, ../projects/media/poslesvet-detail-2-1600.webp 1600w, ../projects/media/poslesvet-detail-2-2400.webp 2400w, ../projects/media/poslesvet-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "poslesvet-1"
+        },
+        {
+          "file": "poslesvet-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 3,
+          "physicalWidth": 3168,
+          "vector": false,
+          "srcset": "../projects/media/poslesvet-detail-1-960.webp 960w, ../projects/media/poslesvet-detail-1-1600.webp 1600w, ../projects/media/poslesvet-detail-1-2400.webp 2400w, ../projects/media/poslesvet-detail-1-3200.webp 3200w",
+          "sizes": "1056px",
+          "name": "gallery-poslesvet-0"
+        },
+        {
+          "file": "poslesvet-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1066.65625,
+          "cssHeight": 666.65625,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-poslesvet-0"
+        },
+        {
+          "file": "poslesvet-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 3,
+          "physicalWidth": 3168,
+          "vector": false,
+          "srcset": "../projects/media/poslesvet-detail-2-960.webp 960w, ../projects/media/poslesvet-detail-2-1600.webp 1600w, ../projects/media/poslesvet-detail-2-2400.webp 2400w, ../projects/media/poslesvet-detail-2-3200.webp 3200w",
+          "sizes": "1056px",
+          "name": "gallery-poslesvet-1"
+        },
+        {
+          "file": "poslesvet-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1066.65625,
+          "cssHeight": 666.65625,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-poslesvet-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "poslesvet-detail-1-3200.webp",
+          "zoom": "poslesvet-detail-1-3200.webp",
+          "canScroll": {
+            "x": false,
+            "y": true,
+            "scrollX": 0,
+            "scrollY": 7
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/poslesvet-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "poslesvet-detail-2-3200.webp",
+          "zoom": "poslesvet-detail-2-3200.webp",
+          "canScroll": {
+            "x": false,
+            "y": true,
+            "scrollX": 0,
+            "scrollY": 7
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/poslesvet-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "poslesvet-detail-1-3200.webp",
+        "poslesvet-detail-2-3200.webp"
+      ]
+    },
+    {
+      "width": 1920,
+      "dpr": 3,
+      "path": "projects/framepack.html",
+      "images": [
+        {
+          "file": "framepack-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1064.65625,
+          "cssHeight": 665.40625,
+          "paintedWidth": 1064.65625,
+          "dpr": 3,
+          "physicalWidth": 3193.96875,
+          "vector": false,
+          "srcset": "../projects/media/framepack-detail-1-960.webp 960w, ../projects/media/framepack-detail-1-1600.webp 1600w, ../projects/media/framepack-detail-1-2400.webp 2400w, ../projects/media/framepack-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "framepack-0"
+        },
+        {
+          "file": "framepack-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1064.65625,
+          "cssHeight": 665.40625,
+          "paintedWidth": 1064.65625,
+          "dpr": 3,
+          "physicalWidth": 3193.96875,
+          "vector": false,
+          "srcset": "../projects/media/framepack-detail-2-960.webp 960w, ../projects/media/framepack-detail-2-1600.webp 1600w, ../projects/media/framepack-detail-2-2400.webp 2400w, ../projects/media/framepack-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "framepack-1"
+        },
+        {
+          "file": "framepack-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 3,
+          "physicalWidth": 3168,
+          "vector": false,
+          "srcset": "../projects/media/framepack-detail-1-960.webp 960w, ../projects/media/framepack-detail-1-1600.webp 1600w, ../projects/media/framepack-detail-1-2400.webp 2400w, ../projects/media/framepack-detail-1-3200.webp 3200w",
+          "sizes": "1056px",
+          "name": "gallery-framepack-0"
+        },
+        {
+          "file": "framepack-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1066.65625,
+          "cssHeight": 666.65625,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-framepack-0"
+        },
+        {
+          "file": "framepack-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 3,
+          "physicalWidth": 3168,
+          "vector": false,
+          "srcset": "../projects/media/framepack-detail-2-960.webp 960w, ../projects/media/framepack-detail-2-1600.webp 1600w, ../projects/media/framepack-detail-2-2400.webp 2400w, ../projects/media/framepack-detail-2-3200.webp 3200w",
+          "sizes": "1056px",
+          "name": "gallery-framepack-1"
+        },
+        {
+          "file": "framepack-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1066.65625,
+          "cssHeight": 666.65625,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-framepack-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "framepack-detail-1-3200.webp",
+          "zoom": "framepack-detail-1-3200.webp",
+          "canScroll": {
+            "x": false,
+            "y": true,
+            "scrollX": 0,
+            "scrollY": 7
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/framepack-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "framepack-detail-2-3200.webp",
+          "zoom": "framepack-detail-2-3200.webp",
+          "canScroll": {
+            "x": false,
+            "y": true,
+            "scrollX": 0,
+            "scrollY": 7
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/framepack-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "framepack-detail-1-3200.webp",
+        "framepack-detail-2-3200.webp"
+      ]
+    },
+    {
+      "width": 1920,
+      "dpr": 3,
+      "path": "projects/shapecheck.html",
+      "images": [
+        {
+          "file": "shapecheck-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1064.65625,
+          "cssHeight": 665.40625,
+          "paintedWidth": 1064.65625,
+          "dpr": 3,
+          "physicalWidth": 3193.96875,
+          "vector": false,
+          "srcset": "../projects/media/shapecheck-detail-1-960.webp 960w, ../projects/media/shapecheck-detail-1-1600.webp 1600w, ../projects/media/shapecheck-detail-1-2400.webp 2400w, ../projects/media/shapecheck-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "shapecheck-0"
+        },
+        {
+          "file": "shapecheck-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2578,
+          "cssWidth": 1064.65625,
+          "cssHeight": 857.703125,
+          "paintedWidth": 1064.65625,
+          "dpr": 3,
+          "physicalWidth": 3193.96875,
+          "vector": false,
+          "srcset": "../projects/media/shapecheck-detail-2-960.webp 960w, ../projects/media/shapecheck-detail-2-1600.webp 1600w, ../projects/media/shapecheck-detail-2-2400.webp 2400w, ../projects/media/shapecheck-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "shapecheck-1"
+        },
+        {
+          "file": "shapecheck-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 3,
+          "physicalWidth": 3168,
+          "vector": false,
+          "srcset": "../projects/media/shapecheck-detail-1-960.webp 960w, ../projects/media/shapecheck-detail-1-1600.webp 1600w, ../projects/media/shapecheck-detail-1-2400.webp 2400w, ../projects/media/shapecheck-detail-1-3200.webp 3200w",
+          "sizes": "1056px",
+          "name": "gallery-shapecheck-0"
+        },
+        {
+          "file": "shapecheck-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1066.65625,
+          "cssHeight": 666.65625,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-shapecheck-0"
+        },
+        {
+          "file": "shapecheck-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2578,
+          "cssWidth": 819.234375,
+          "cssHeight": 659.984375,
+          "paintedWidth": 819.234375,
+          "dpr": 3,
+          "physicalWidth": 2457.703125,
+          "vector": false,
+          "srcset": "../projects/media/shapecheck-detail-2-960.webp 960w, ../projects/media/shapecheck-detail-2-1600.webp 1600w, ../projects/media/shapecheck-detail-2-2400.webp 2400w, ../projects/media/shapecheck-detail-2-3200.webp 3200w",
+          "sizes": "820px",
+          "name": "gallery-shapecheck-1"
+        },
+        {
+          "file": "shapecheck-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2578,
+          "cssWidth": 1066.65625,
+          "cssHeight": 859.3125,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-shapecheck-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "shapecheck-detail-1-3200.webp",
+          "zoom": "shapecheck-detail-1-3200.webp",
+          "canScroll": {
+            "x": false,
+            "y": true,
+            "scrollX": 0,
+            "scrollY": 7
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/shapecheck-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "shapecheck-detail-2-3200.webp",
+          "zoom": "shapecheck-detail-2-3200.webp",
+          "canScroll": {
+            "x": false,
+            "y": true,
+            "scrollX": 0,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/shapecheck-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "shapecheck-detail-1-3200.webp",
+        "shapecheck-detail-2-3200.webp"
+      ]
+    },
+    {
+      "width": 1920,
+      "dpr": 3,
+      "path": "projects/rowline.html",
+      "images": [
+        {
+          "file": "rowline-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1064.65625,
+          "cssHeight": 665.40625,
+          "paintedWidth": 1064.65625,
+          "dpr": 3,
+          "physicalWidth": 3193.96875,
+          "vector": false,
+          "srcset": "../projects/media/rowline-detail-1-960.webp 960w, ../projects/media/rowline-detail-1-1600.webp 1600w, ../projects/media/rowline-detail-1-2400.webp 2400w, ../projects/media/rowline-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "rowline-0"
+        },
+        {
+          "file": "rowline-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1064.65625,
+          "cssHeight": 665.40625,
+          "paintedWidth": 1064.65625,
+          "dpr": 3,
+          "physicalWidth": 3193.96875,
+          "vector": false,
+          "srcset": "../projects/media/rowline-detail-2-960.webp 960w, ../projects/media/rowline-detail-2-1600.webp 1600w, ../projects/media/rowline-detail-2-2400.webp 2400w, ../projects/media/rowline-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "rowline-1"
+        },
+        {
+          "file": "rowline-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 3,
+          "physicalWidth": 3168,
+          "vector": false,
+          "srcset": "../projects/media/rowline-detail-1-960.webp 960w, ../projects/media/rowline-detail-1-1600.webp 1600w, ../projects/media/rowline-detail-1-2400.webp 2400w, ../projects/media/rowline-detail-1-3200.webp 3200w",
+          "sizes": "1056px",
+          "name": "gallery-rowline-0"
+        },
+        {
+          "file": "rowline-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1066.65625,
+          "cssHeight": 666.65625,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-rowline-0"
+        },
+        {
+          "file": "rowline-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 3,
+          "physicalWidth": 3168,
+          "vector": false,
+          "srcset": "../projects/media/rowline-detail-2-960.webp 960w, ../projects/media/rowline-detail-2-1600.webp 1600w, ../projects/media/rowline-detail-2-2400.webp 2400w, ../projects/media/rowline-detail-2-3200.webp 3200w",
+          "sizes": "1056px",
+          "name": "gallery-rowline-1"
+        },
+        {
+          "file": "rowline-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1066.65625,
+          "cssHeight": 666.65625,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-rowline-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "rowline-detail-1-3200.webp",
+          "zoom": "rowline-detail-1-3200.webp",
+          "canScroll": {
+            "x": false,
+            "y": true,
+            "scrollX": 0,
+            "scrollY": 7
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/rowline-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "rowline-detail-2-3200.webp",
+          "zoom": "rowline-detail-2-3200.webp",
+          "canScroll": {
+            "x": false,
+            "y": true,
+            "scrollX": 0,
+            "scrollY": 7
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/rowline-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "rowline-detail-1-3200.webp",
+        "rowline-detail-2-3200.webp"
+      ]
+    },
+    {
+      "width": 1920,
+      "dpr": 3,
+      "path": "projects/atyrau.html",
+      "images": [
+        {
+          "file": "atyrau-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1064.65625,
+          "cssHeight": 665.40625,
+          "paintedWidth": 1064.65625,
+          "dpr": 3,
+          "physicalWidth": 3193.96875,
+          "vector": false,
+          "srcset": "../projects/media/atyrau-detail-1-960.webp 960w, ../projects/media/atyrau-detail-1-1600.webp 1600w, ../projects/media/atyrau-detail-1-2400.webp 2400w, ../projects/media/atyrau-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "atyrau-0"
+        },
+        {
+          "file": "atyrau-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1064.65625,
+          "cssHeight": 665.40625,
+          "paintedWidth": 1064.65625,
+          "dpr": 3,
+          "physicalWidth": 3193.96875,
+          "vector": false,
+          "srcset": "../projects/media/atyrau-detail-2-960.webp 960w, ../projects/media/atyrau-detail-2-1600.webp 1600w, ../projects/media/atyrau-detail-2-2400.webp 2400w, ../projects/media/atyrau-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "atyrau-1"
+        },
+        {
+          "file": "atyrau-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 3,
+          "physicalWidth": 3168,
+          "vector": false,
+          "srcset": "../projects/media/atyrau-detail-1-960.webp 960w, ../projects/media/atyrau-detail-1-1600.webp 1600w, ../projects/media/atyrau-detail-1-2400.webp 2400w, ../projects/media/atyrau-detail-1-3200.webp 3200w",
+          "sizes": "1056px",
+          "name": "gallery-atyrau-0"
+        },
+        {
+          "file": "atyrau-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1066.65625,
+          "cssHeight": 666.65625,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-atyrau-0"
+        },
+        {
+          "file": "atyrau-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 3,
+          "physicalWidth": 3168,
+          "vector": false,
+          "srcset": "../projects/media/atyrau-detail-2-960.webp 960w, ../projects/media/atyrau-detail-2-1600.webp 1600w, ../projects/media/atyrau-detail-2-2400.webp 2400w, ../projects/media/atyrau-detail-2-3200.webp 3200w",
+          "sizes": "1056px",
+          "name": "gallery-atyrau-1"
+        },
+        {
+          "file": "atyrau-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1066.65625,
+          "cssHeight": 666.65625,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-atyrau-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "atyrau-detail-1-3200.webp",
+          "zoom": "atyrau-detail-1-3200.webp",
+          "canScroll": {
+            "x": false,
+            "y": true,
+            "scrollX": 0,
+            "scrollY": 7
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/atyrau-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "atyrau-detail-2-3200.webp",
+          "zoom": "atyrau-detail-2-3200.webp",
+          "canScroll": {
+            "x": false,
+            "y": true,
+            "scrollX": 0,
+            "scrollY": 7
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/atyrau-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "atyrau-detail-1-3200.webp",
+        "atyrau-detail-2-3200.webp"
+      ]
+    },
+    {
+      "width": 1920,
+      "dpr": 3,
+      "path": "projects/neuralbrief.html",
+      "images": [
+        {
+          "file": "neuralbrief-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 1098,
+          "cssHeight": 686.25,
+          "paintedWidth": 1098,
+          "dpr": 3,
+          "physicalWidth": 3294,
+          "vector": true,
+          "srcset": "",
+          "sizes": "",
+          "name": "neuralbrief-0"
+        },
+        {
+          "file": "neuralbrief-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 3,
+          "physicalWidth": 3168,
+          "vector": true,
+          "srcset": "",
+          "sizes": "1056px",
+          "name": "gallery-neuralbrief-0"
+        },
+        {
+          "file": "neuralbrief-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 2112,
+          "cssHeight": 1320,
+          "paintedWidth": 2112,
+          "dpr": 3,
+          "physicalWidth": 6336,
+          "vector": true,
+          "srcset": "",
+          "sizes": "2112px",
+          "name": "zoom-neuralbrief-0"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "neuralbrief-diagram.svg",
+          "zoom": "neuralbrief-diagram.svg",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/neuralbrief-diagram.svg"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "neuralbrief-diagram.svg"
+      ]
+    },
+    {
+      "width": 1920,
+      "dpr": 3,
+      "path": "projects/artportal.html",
+      "images": [
+        {
+          "file": "artportal-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 1098,
+          "cssHeight": 686.25,
+          "paintedWidth": 1098,
+          "dpr": 3,
+          "physicalWidth": 3294,
+          "vector": true,
+          "srcset": "",
+          "sizes": "",
+          "name": "artportal-0"
+        },
+        {
+          "file": "artportal-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 1056,
+          "cssHeight": 660,
+          "paintedWidth": 1056,
+          "dpr": 3,
+          "physicalWidth": 3168,
+          "vector": true,
+          "srcset": "",
+          "sizes": "1056px",
+          "name": "gallery-artportal-0"
+        },
+        {
+          "file": "artportal-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 2112,
+          "cssHeight": 1320,
+          "paintedWidth": 2112,
+          "dpr": 3,
+          "physicalWidth": 6336,
+          "vector": true,
+          "srcset": "",
+          "sizes": "2112px",
+          "name": "zoom-artportal-0"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "artportal-diagram.svg",
+          "zoom": "artportal-diagram.svg",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/artportal-diagram.svg"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "artportal-diagram.svg"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "path": "",
+      "images": [
+        {
+          "file": "helio-hero-800.webp",
+          "encodedWidth": 800,
+          "encodedHeight": 499,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "./projects/media/helio-hero-800.webp 800w, ./projects/media/helio-hero-1600.webp 1600w, ./projects/media/helio-hero-2400.webp 2400w, ./projects/media/helio-hero-3000.webp 3000w",
+          "sizes": "(max-width: 760px) 90vw, (max-width: 1500px) 45vw, 660px",
+          "name": "home-0"
+        },
+        {
+          "file": "helio-card-800.webp",
+          "encodedWidth": 800,
+          "encodedHeight": 499,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "./projects/media/helio-card-480.webp 480w, ./projects/media/helio-card-800.webp 800w, ./projects/media/helio-card-1200.webp 1200w, ./projects/media/helio-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "home-1"
+        },
+        {
+          "file": "keyform-card-800.webp",
+          "encodedWidth": 800,
+          "encodedHeight": 500,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "./projects/media/keyform-card-480.webp 480w, ./projects/media/keyform-card-800.webp 800w, ./projects/media/keyform-card-1200.webp 1200w, ./projects/media/keyform-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "home-2"
+        },
+        {
+          "file": "poslesvet-card-800.webp",
+          "encodedWidth": 800,
+          "encodedHeight": 500,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "./projects/media/poslesvet-card-480.webp 480w, ./projects/media/poslesvet-card-800.webp 800w, ./projects/media/poslesvet-card-1200.webp 1200w, ./projects/media/poslesvet-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "home-3"
+        }
+      ],
+      "gallery": [],
+      "passed": true,
+      "initialImages": [
+        "helio-hero-800.webp",
+        "helio-card-800.webp",
+        "keyform-card-800.webp",
+        "poslesvet-card-800.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "path": "projects/",
+      "images": [
+        {
+          "file": "helio-card-800.webp",
+          "encodedWidth": 800,
+          "encodedHeight": 499,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "../projects/media/helio-card-480.webp 480w, ../projects/media/helio-card-800.webp 800w, ../projects/media/helio-card-1200.webp 1200w, ../projects/media/helio-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-0"
+        },
+        {
+          "file": "keyform-card-800.webp",
+          "encodedWidth": 800,
+          "encodedHeight": 500,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "../projects/media/keyform-card-480.webp 480w, ../projects/media/keyform-card-800.webp 800w, ../projects/media/keyform-card-1200.webp 1200w, ../projects/media/keyform-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-1"
+        },
+        {
+          "file": "poslesvet-card-800.webp",
+          "encodedWidth": 800,
+          "encodedHeight": 500,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "../projects/media/poslesvet-card-480.webp 480w, ../projects/media/poslesvet-card-800.webp 800w, ../projects/media/poslesvet-card-1200.webp 1200w, ../projects/media/poslesvet-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-2"
+        },
+        {
+          "file": "framepack-card-800.webp",
+          "encodedWidth": 800,
+          "encodedHeight": 500,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "../projects/media/framepack-card-480.webp 480w, ../projects/media/framepack-card-800.webp 800w, ../projects/media/framepack-card-1200.webp 1200w, ../projects/media/framepack-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-3"
+        },
+        {
+          "file": "shapecheck-card-800.webp",
+          "encodedWidth": 800,
+          "encodedHeight": 719,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 233.31015299026424,
+          "dpr": 2,
+          "physicalWidth": 466.6203059805285,
+          "vector": false,
+          "srcset": "../projects/media/shapecheck-card-480.webp 480w, ../projects/media/shapecheck-card-800.webp 800w, ../projects/media/shapecheck-card-1200.webp 1200w, ../projects/media/shapecheck-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-4"
+        },
+        {
+          "file": "rowline-card-800.webp",
+          "encodedWidth": 800,
+          "encodedHeight": 499,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "../projects/media/rowline-card-480.webp 480w, ../projects/media/rowline-card-800.webp 800w, ../projects/media/rowline-card-1200.webp 1200w, ../projects/media/rowline-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-5"
+        },
+        {
+          "file": "atyrau-card-800.webp",
+          "encodedWidth": 800,
+          "encodedHeight": 500,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "../projects/media/atyrau-card-480.webp 480w, ../projects/media/atyrau-card-800.webp 800w, ../projects/media/atyrau-card-1200.webp 1200w, ../projects/media/atyrau-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-6"
+        },
+        {
+          "file": "neuralbrief-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": true,
+          "srcset": "",
+          "sizes": "",
+          "name": "catalog-7"
+        },
+        {
+          "file": "artportal-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": true,
+          "srcset": "",
+          "sizes": "",
+          "name": "catalog-8"
+        }
+      ],
+      "gallery": [],
+      "passed": true,
+      "initialImages": [
+        "helio-card-800.webp",
+        "keyform-card-800.webp",
+        "poslesvet-card-800.webp",
+        "framepack-card-800.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "path": "projects/helio.html",
+      "images": [
+        {
+          "file": "helio-detail-1-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 652,
+          "cssWidth": 335.5,
+          "cssHeight": 227.859375,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "../projects/media/helio-detail-1-960.webp 960w, ../projects/media/helio-detail-1-1600.webp 1600w, ../projects/media/helio-detail-1-2400.webp 2400w, ../projects/media/helio-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "helio-0"
+        },
+        {
+          "file": "helio-detail-2-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 652,
+          "cssWidth": 335.5,
+          "cssHeight": 227.859375,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "../projects/media/helio-detail-2-960.webp 960w, ../projects/media/helio-detail-2-1600.webp 1600w, ../projects/media/helio-detail-2-2400.webp 2400w, ../projects/media/helio-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "helio-1"
+        },
+        {
+          "file": "helio-detail-1-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 652,
+          "cssWidth": 350,
+          "cssHeight": 237.703125,
+          "paintedWidth": 350,
+          "dpr": 2,
+          "physicalWidth": 700,
+          "vector": false,
+          "srcset": "../projects/media/helio-detail-1-960.webp 960w, ../projects/media/helio-detail-1-1600.webp 1600w, ../projects/media/helio-detail-1-2400.webp 2400w, ../projects/media/helio-detail-1-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-helio-0"
+        },
+        {
+          "file": "helio-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2173,
+          "cssWidth": 1600,
+          "cssHeight": 1086.5,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-helio-0"
+        },
+        {
+          "file": "helio-detail-2-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 652,
+          "cssWidth": 350,
+          "cssHeight": 237.703125,
+          "paintedWidth": 350,
+          "dpr": 2,
+          "physicalWidth": 700,
+          "vector": false,
+          "srcset": "../projects/media/helio-detail-2-960.webp 960w, ../projects/media/helio-detail-2-1600.webp 1600w, ../projects/media/helio-detail-2-2400.webp 2400w, ../projects/media/helio-detail-2-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-helio-1"
+        },
+        {
+          "file": "helio-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2173,
+          "cssWidth": 1600,
+          "cssHeight": 1086.5,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-helio-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "helio-detail-1-960.webp",
+          "zoom": "helio-detail-1-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "helio-detail-2-960.webp",
+          "zoom": "helio-detail-2-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "helio-detail-1-960.webp",
+        "helio-detail-2-960.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "path": "projects/keyform.html",
+      "images": [
+        {
+          "file": "keyform-detail-1-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 600,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "../projects/media/keyform-detail-1-960.webp 960w, ../projects/media/keyform-detail-1-1600.webp 1600w, ../projects/media/keyform-detail-1-2400.webp 2400w, ../projects/media/keyform-detail-1-2880.webp 2880w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "keyform-0"
+        },
+        {
+          "file": "keyform-detail-2-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 600,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "../projects/media/keyform-detail-2-960.webp 960w, ../projects/media/keyform-detail-2-1600.webp 1600w, ../projects/media/keyform-detail-2-2400.webp 2400w, ../projects/media/keyform-detail-2-2880.webp 2880w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "keyform-1"
+        },
+        {
+          "file": "keyform-detail-1-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 600,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 2,
+          "physicalWidth": 700,
+          "vector": false,
+          "srcset": "../projects/media/keyform-detail-1-960.webp 960w, ../projects/media/keyform-detail-1-1600.webp 1600w, ../projects/media/keyform-detail-1-2400.webp 2400w, ../projects/media/keyform-detail-1-2880.webp 2880w",
+          "sizes": "350px",
+          "name": "gallery-keyform-0"
+        },
+        {
+          "file": "keyform-detail-1-2880.webp",
+          "encodedWidth": 2880,
+          "encodedHeight": 1800,
+          "cssWidth": 1440,
+          "cssHeight": 900,
+          "paintedWidth": 1440,
+          "dpr": 2,
+          "physicalWidth": 2880,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1440px",
+          "name": "zoom-keyform-0"
+        },
+        {
+          "file": "keyform-detail-2-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 600,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 2,
+          "physicalWidth": 700,
+          "vector": false,
+          "srcset": "../projects/media/keyform-detail-2-960.webp 960w, ../projects/media/keyform-detail-2-1600.webp 1600w, ../projects/media/keyform-detail-2-2400.webp 2400w, ../projects/media/keyform-detail-2-2880.webp 2880w",
+          "sizes": "350px",
+          "name": "gallery-keyform-1"
+        },
+        {
+          "file": "keyform-detail-2-2880.webp",
+          "encodedWidth": 2880,
+          "encodedHeight": 1800,
+          "cssWidth": 1440,
+          "cssHeight": 900,
+          "paintedWidth": 1440,
+          "dpr": 2,
+          "physicalWidth": 2880,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1440px",
+          "name": "zoom-keyform-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "keyform-detail-1-960.webp",
+          "zoom": "keyform-detail-1-2880.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/keyform-detail-1-2880.webp"
+        },
+        {
+          "index": 1,
+          "fit": "keyform-detail-2-960.webp",
+          "zoom": "keyform-detail-2-2880.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/keyform-detail-2-2880.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "keyform-detail-1-960.webp",
+        "keyform-detail-2-960.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "path": "projects/poslesvet.html",
+      "images": [
+        {
+          "file": "poslesvet-detail-1-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 600,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "../projects/media/poslesvet-detail-1-960.webp 960w, ../projects/media/poslesvet-detail-1-1600.webp 1600w, ../projects/media/poslesvet-detail-1-2400.webp 2400w, ../projects/media/poslesvet-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "poslesvet-0"
+        },
+        {
+          "file": "poslesvet-detail-2-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 600,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "../projects/media/poslesvet-detail-2-960.webp 960w, ../projects/media/poslesvet-detail-2-1600.webp 1600w, ../projects/media/poslesvet-detail-2-2400.webp 2400w, ../projects/media/poslesvet-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "poslesvet-1"
+        },
+        {
+          "file": "poslesvet-detail-1-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 600,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 2,
+          "physicalWidth": 700,
+          "vector": false,
+          "srcset": "../projects/media/poslesvet-detail-1-960.webp 960w, ../projects/media/poslesvet-detail-1-1600.webp 1600w, ../projects/media/poslesvet-detail-1-2400.webp 2400w, ../projects/media/poslesvet-detail-1-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-poslesvet-0"
+        },
+        {
+          "file": "poslesvet-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1600,
+          "cssHeight": 1000,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-poslesvet-0"
+        },
+        {
+          "file": "poslesvet-detail-2-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 600,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 2,
+          "physicalWidth": 700,
+          "vector": false,
+          "srcset": "../projects/media/poslesvet-detail-2-960.webp 960w, ../projects/media/poslesvet-detail-2-1600.webp 1600w, ../projects/media/poslesvet-detail-2-2400.webp 2400w, ../projects/media/poslesvet-detail-2-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-poslesvet-1"
+        },
+        {
+          "file": "poslesvet-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1600,
+          "cssHeight": 1000,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-poslesvet-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "poslesvet-detail-1-960.webp",
+          "zoom": "poslesvet-detail-1-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/poslesvet-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "poslesvet-detail-2-960.webp",
+          "zoom": "poslesvet-detail-2-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/poslesvet-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "poslesvet-detail-1-960.webp",
+        "poslesvet-detail-2-960.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "path": "projects/framepack.html",
+      "images": [
+        {
+          "file": "framepack-detail-1-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 600,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "../projects/media/framepack-detail-1-960.webp 960w, ../projects/media/framepack-detail-1-1600.webp 1600w, ../projects/media/framepack-detail-1-2400.webp 2400w, ../projects/media/framepack-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "framepack-0"
+        },
+        {
+          "file": "framepack-detail-2-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 600,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "../projects/media/framepack-detail-2-960.webp 960w, ../projects/media/framepack-detail-2-1600.webp 1600w, ../projects/media/framepack-detail-2-2400.webp 2400w, ../projects/media/framepack-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "framepack-1"
+        },
+        {
+          "file": "framepack-detail-1-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 600,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 2,
+          "physicalWidth": 700,
+          "vector": false,
+          "srcset": "../projects/media/framepack-detail-1-960.webp 960w, ../projects/media/framepack-detail-1-1600.webp 1600w, ../projects/media/framepack-detail-1-2400.webp 2400w, ../projects/media/framepack-detail-1-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-framepack-0"
+        },
+        {
+          "file": "framepack-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1600,
+          "cssHeight": 1000,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-framepack-0"
+        },
+        {
+          "file": "framepack-detail-2-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 600,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 2,
+          "physicalWidth": 700,
+          "vector": false,
+          "srcset": "../projects/media/framepack-detail-2-960.webp 960w, ../projects/media/framepack-detail-2-1600.webp 1600w, ../projects/media/framepack-detail-2-2400.webp 2400w, ../projects/media/framepack-detail-2-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-framepack-1"
+        },
+        {
+          "file": "framepack-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1600,
+          "cssHeight": 1000,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-framepack-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "framepack-detail-1-960.webp",
+          "zoom": "framepack-detail-1-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/framepack-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "framepack-detail-2-960.webp",
+          "zoom": "framepack-detail-2-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/framepack-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "framepack-detail-1-960.webp",
+        "framepack-detail-2-960.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "path": "projects/shapecheck.html",
+      "images": [
+        {
+          "file": "shapecheck-detail-1-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 600,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "../projects/media/shapecheck-detail-1-960.webp 960w, ../projects/media/shapecheck-detail-1-1600.webp 1600w, ../projects/media/shapecheck-detail-1-2400.webp 2400w, ../projects/media/shapecheck-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "shapecheck-0"
+        },
+        {
+          "file": "shapecheck-detail-2-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 773,
+          "cssWidth": 335.5,
+          "cssHeight": 270.140625,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "../projects/media/shapecheck-detail-2-960.webp 960w, ../projects/media/shapecheck-detail-2-1600.webp 1600w, ../projects/media/shapecheck-detail-2-2400.webp 2400w, ../projects/media/shapecheck-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "shapecheck-1"
+        },
+        {
+          "file": "shapecheck-detail-1-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 600,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 2,
+          "physicalWidth": 700,
+          "vector": false,
+          "srcset": "../projects/media/shapecheck-detail-1-960.webp 960w, ../projects/media/shapecheck-detail-1-1600.webp 1600w, ../projects/media/shapecheck-detail-1-2400.webp 2400w, ../projects/media/shapecheck-detail-1-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-shapecheck-0"
+        },
+        {
+          "file": "shapecheck-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1600,
+          "cssHeight": 1000,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-shapecheck-0"
+        },
+        {
+          "file": "shapecheck-detail-2-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 773,
+          "cssWidth": 350,
+          "cssHeight": 281.8125,
+          "paintedWidth": 350,
+          "dpr": 2,
+          "physicalWidth": 700,
+          "vector": false,
+          "srcset": "../projects/media/shapecheck-detail-2-960.webp 960w, ../projects/media/shapecheck-detail-2-1600.webp 1600w, ../projects/media/shapecheck-detail-2-2400.webp 2400w, ../projects/media/shapecheck-detail-2-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-shapecheck-1"
+        },
+        {
+          "file": "shapecheck-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2578,
+          "cssWidth": 1600,
+          "cssHeight": 1289,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-shapecheck-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "shapecheck-detail-1-960.webp",
+          "zoom": "shapecheck-detail-1-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/shapecheck-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "shapecheck-detail-2-960.webp",
+          "zoom": "shapecheck-detail-2-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/shapecheck-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "shapecheck-detail-1-960.webp",
+        "shapecheck-detail-2-960.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "path": "projects/rowline.html",
+      "images": [
+        {
+          "file": "rowline-detail-1-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 600,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "../projects/media/rowline-detail-1-960.webp 960w, ../projects/media/rowline-detail-1-1600.webp 1600w, ../projects/media/rowline-detail-1-2400.webp 2400w, ../projects/media/rowline-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "rowline-0"
+        },
+        {
+          "file": "rowline-detail-2-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 600,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "../projects/media/rowline-detail-2-960.webp 960w, ../projects/media/rowline-detail-2-1600.webp 1600w, ../projects/media/rowline-detail-2-2400.webp 2400w, ../projects/media/rowline-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "rowline-1"
+        },
+        {
+          "file": "rowline-detail-1-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 600,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 2,
+          "physicalWidth": 700,
+          "vector": false,
+          "srcset": "../projects/media/rowline-detail-1-960.webp 960w, ../projects/media/rowline-detail-1-1600.webp 1600w, ../projects/media/rowline-detail-1-2400.webp 2400w, ../projects/media/rowline-detail-1-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-rowline-0"
+        },
+        {
+          "file": "rowline-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1600,
+          "cssHeight": 1000,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-rowline-0"
+        },
+        {
+          "file": "rowline-detail-2-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 600,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 2,
+          "physicalWidth": 700,
+          "vector": false,
+          "srcset": "../projects/media/rowline-detail-2-960.webp 960w, ../projects/media/rowline-detail-2-1600.webp 1600w, ../projects/media/rowline-detail-2-2400.webp 2400w, ../projects/media/rowline-detail-2-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-rowline-1"
+        },
+        {
+          "file": "rowline-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1600,
+          "cssHeight": 1000,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-rowline-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "rowline-detail-1-960.webp",
+          "zoom": "rowline-detail-1-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/rowline-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "rowline-detail-2-960.webp",
+          "zoom": "rowline-detail-2-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/rowline-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "rowline-detail-1-960.webp",
+        "rowline-detail-2-960.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "path": "projects/atyrau.html",
+      "images": [
+        {
+          "file": "atyrau-detail-1-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 600,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "../projects/media/atyrau-detail-1-960.webp 960w, ../projects/media/atyrau-detail-1-1600.webp 1600w, ../projects/media/atyrau-detail-1-2400.webp 2400w, ../projects/media/atyrau-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "atyrau-0"
+        },
+        {
+          "file": "atyrau-detail-2-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 600,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": false,
+          "srcset": "../projects/media/atyrau-detail-2-960.webp 960w, ../projects/media/atyrau-detail-2-1600.webp 1600w, ../projects/media/atyrau-detail-2-2400.webp 2400w, ../projects/media/atyrau-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "atyrau-1"
+        },
+        {
+          "file": "atyrau-detail-1-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 600,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 2,
+          "physicalWidth": 700,
+          "vector": false,
+          "srcset": "../projects/media/atyrau-detail-1-960.webp 960w, ../projects/media/atyrau-detail-1-1600.webp 1600w, ../projects/media/atyrau-detail-1-2400.webp 2400w, ../projects/media/atyrau-detail-1-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-atyrau-0"
+        },
+        {
+          "file": "atyrau-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1600,
+          "cssHeight": 1000,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-atyrau-0"
+        },
+        {
+          "file": "atyrau-detail-2-960.webp",
+          "encodedWidth": 960,
+          "encodedHeight": 600,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 2,
+          "physicalWidth": 700,
+          "vector": false,
+          "srcset": "../projects/media/atyrau-detail-2-960.webp 960w, ../projects/media/atyrau-detail-2-1600.webp 1600w, ../projects/media/atyrau-detail-2-2400.webp 2400w, ../projects/media/atyrau-detail-2-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-atyrau-1"
+        },
+        {
+          "file": "atyrau-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1600,
+          "cssHeight": 1000,
+          "paintedWidth": 1600,
+          "dpr": 2,
+          "physicalWidth": 3200,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1600px",
+          "name": "zoom-atyrau-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "atyrau-detail-1-960.webp",
+          "zoom": "atyrau-detail-1-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/atyrau-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "atyrau-detail-2-960.webp",
+          "zoom": "atyrau-detail-2-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/atyrau-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "atyrau-detail-1-960.webp",
+        "atyrau-detail-2-960.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "path": "projects/neuralbrief.html",
+      "images": [
+        {
+          "file": "neuralbrief-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": true,
+          "srcset": "",
+          "sizes": "",
+          "name": "neuralbrief-0"
+        },
+        {
+          "file": "neuralbrief-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 2,
+          "physicalWidth": 700,
+          "vector": true,
+          "srcset": "",
+          "sizes": "350px",
+          "name": "gallery-neuralbrief-0"
+        },
+        {
+          "file": "neuralbrief-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 700,
+          "cssHeight": 437.5,
+          "paintedWidth": 700,
+          "dpr": 2,
+          "physicalWidth": 1400,
+          "vector": true,
+          "srcset": "",
+          "sizes": "700px",
+          "name": "zoom-neuralbrief-0"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "neuralbrief-diagram.svg",
+          "zoom": "neuralbrief-diagram.svg",
+          "canScroll": {
+            "x": true,
+            "y": false,
+            "scrollX": 160,
+            "scrollY": 0
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/neuralbrief-diagram.svg"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "neuralbrief-diagram.svg"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "path": "projects/artportal.html",
+      "images": [
+        {
+          "file": "artportal-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 2,
+          "physicalWidth": 671,
+          "vector": true,
+          "srcset": "",
+          "sizes": "",
+          "name": "artportal-0"
+        },
+        {
+          "file": "artportal-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 2,
+          "physicalWidth": 700,
+          "vector": true,
+          "srcset": "",
+          "sizes": "350px",
+          "name": "gallery-artportal-0"
+        },
+        {
+          "file": "artportal-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 700,
+          "cssHeight": 437.5,
+          "paintedWidth": 700,
+          "dpr": 2,
+          "physicalWidth": 1400,
+          "vector": true,
+          "srcset": "",
+          "sizes": "700px",
+          "name": "zoom-artportal-0"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "artportal-diagram.svg",
+          "zoom": "artportal-diagram.svg",
+          "canScroll": {
+            "x": true,
+            "y": false,
+            "scrollX": 160,
+            "scrollY": 0
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/artportal-diagram.svg"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "artportal-diagram.svg"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 3,
+      "path": "",
+      "images": [
+        {
+          "file": "helio-hero-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 999,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "./projects/media/helio-hero-800.webp 800w, ./projects/media/helio-hero-1600.webp 1600w, ./projects/media/helio-hero-2400.webp 2400w, ./projects/media/helio-hero-3000.webp 3000w",
+          "sizes": "(max-width: 760px) 90vw, (max-width: 1500px) 45vw, 660px",
+          "name": "home-0"
+        },
+        {
+          "file": "helio-card-1200.webp",
+          "encodedWidth": 1200,
+          "encodedHeight": 749,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "./projects/media/helio-card-480.webp 480w, ./projects/media/helio-card-800.webp 800w, ./projects/media/helio-card-1200.webp 1200w, ./projects/media/helio-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "home-1"
+        },
+        {
+          "file": "keyform-card-1200.webp",
+          "encodedWidth": 1200,
+          "encodedHeight": 750,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "./projects/media/keyform-card-480.webp 480w, ./projects/media/keyform-card-800.webp 800w, ./projects/media/keyform-card-1200.webp 1200w, ./projects/media/keyform-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "home-2"
+        },
+        {
+          "file": "poslesvet-card-1200.webp",
+          "encodedWidth": 1200,
+          "encodedHeight": 750,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "./projects/media/poslesvet-card-480.webp 480w, ./projects/media/poslesvet-card-800.webp 800w, ./projects/media/poslesvet-card-1200.webp 1200w, ./projects/media/poslesvet-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "home-3"
+        }
+      ],
+      "gallery": [],
+      "passed": true,
+      "initialImages": [
+        "helio-hero-1600.webp",
+        "helio-card-1200.webp",
+        "keyform-card-1200.webp",
+        "poslesvet-card-1200.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 3,
+      "path": "projects/",
+      "images": [
+        {
+          "file": "helio-card-1200.webp",
+          "encodedWidth": 1200,
+          "encodedHeight": 749,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "../projects/media/helio-card-480.webp 480w, ../projects/media/helio-card-800.webp 800w, ../projects/media/helio-card-1200.webp 1200w, ../projects/media/helio-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-0"
+        },
+        {
+          "file": "keyform-card-1200.webp",
+          "encodedWidth": 1200,
+          "encodedHeight": 750,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "../projects/media/keyform-card-480.webp 480w, ../projects/media/keyform-card-800.webp 800w, ../projects/media/keyform-card-1200.webp 1200w, ../projects/media/keyform-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-1"
+        },
+        {
+          "file": "poslesvet-card-1200.webp",
+          "encodedWidth": 1200,
+          "encodedHeight": 750,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "../projects/media/poslesvet-card-480.webp 480w, ../projects/media/poslesvet-card-800.webp 800w, ../projects/media/poslesvet-card-1200.webp 1200w, ../projects/media/poslesvet-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-2"
+        },
+        {
+          "file": "framepack-card-1200.webp",
+          "encodedWidth": 1200,
+          "encodedHeight": 750,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "../projects/media/framepack-card-480.webp 480w, ../projects/media/framepack-card-800.webp 800w, ../projects/media/framepack-card-1200.webp 1200w, ../projects/media/framepack-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-3"
+        },
+        {
+          "file": "shapecheck-card-1200.webp",
+          "encodedWidth": 1200,
+          "encodedHeight": 1079,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 233.2020389249305,
+          "dpr": 3,
+          "physicalWidth": 699.6061167747914,
+          "vector": false,
+          "srcset": "../projects/media/shapecheck-card-480.webp 480w, ../projects/media/shapecheck-card-800.webp 800w, ../projects/media/shapecheck-card-1200.webp 1200w, ../projects/media/shapecheck-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-4"
+        },
+        {
+          "file": "rowline-card-1200.webp",
+          "encodedWidth": 1200,
+          "encodedHeight": 749,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "../projects/media/rowline-card-480.webp 480w, ../projects/media/rowline-card-800.webp 800w, ../projects/media/rowline-card-1200.webp 1200w, ../projects/media/rowline-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-5"
+        },
+        {
+          "file": "atyrau-card-1200.webp",
+          "encodedWidth": 1200,
+          "encodedHeight": 750,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "../projects/media/atyrau-card-480.webp 480w, ../projects/media/atyrau-card-800.webp 800w, ../projects/media/atyrau-card-1200.webp 1200w, ../projects/media/atyrau-card-1600.webp 1600w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1100px) calc(45.5vw - 14px), (max-width: 1500px) calc(30.333vw - 18px), 430px",
+          "name": "catalog-6"
+        },
+        {
+          "file": "neuralbrief-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": true,
+          "srcset": "",
+          "sizes": "",
+          "name": "catalog-7"
+        },
+        {
+          "file": "artportal-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": true,
+          "srcset": "",
+          "sizes": "",
+          "name": "catalog-8"
+        }
+      ],
+      "gallery": [],
+      "passed": true,
+      "initialImages": [
+        "helio-card-1200.webp",
+        "keyform-card-1200.webp",
+        "poslesvet-card-1200.webp",
+        "framepack-card-1200.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 3,
+      "path": "projects/helio.html",
+      "images": [
+        {
+          "file": "helio-detail-1-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1087,
+          "cssWidth": 335.5,
+          "cssHeight": 227.921875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "../projects/media/helio-detail-1-960.webp 960w, ../projects/media/helio-detail-1-1600.webp 1600w, ../projects/media/helio-detail-1-2400.webp 2400w, ../projects/media/helio-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "helio-0"
+        },
+        {
+          "file": "helio-detail-2-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1087,
+          "cssWidth": 335.5,
+          "cssHeight": 227.921875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "../projects/media/helio-detail-2-960.webp 960w, ../projects/media/helio-detail-2-1600.webp 1600w, ../projects/media/helio-detail-2-2400.webp 2400w, ../projects/media/helio-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "helio-1"
+        },
+        {
+          "file": "helio-detail-1-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1087,
+          "cssWidth": 350,
+          "cssHeight": 237.78125,
+          "paintedWidth": 350,
+          "dpr": 3,
+          "physicalWidth": 1050,
+          "vector": false,
+          "srcset": "../projects/media/helio-detail-1-960.webp 960w, ../projects/media/helio-detail-1-1600.webp 1600w, ../projects/media/helio-detail-1-2400.webp 2400w, ../projects/media/helio-detail-1-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-helio-0"
+        },
+        {
+          "file": "helio-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2173,
+          "cssWidth": 1066.65625,
+          "cssHeight": 724.3125,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-helio-0"
+        },
+        {
+          "file": "helio-detail-2-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1087,
+          "cssWidth": 350,
+          "cssHeight": 237.78125,
+          "paintedWidth": 350,
+          "dpr": 3,
+          "physicalWidth": 1050,
+          "vector": false,
+          "srcset": "../projects/media/helio-detail-2-960.webp 960w, ../projects/media/helio-detail-2-1600.webp 1600w, ../projects/media/helio-detail-2-2400.webp 2400w, ../projects/media/helio-detail-2-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-helio-1"
+        },
+        {
+          "file": "helio-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2173,
+          "cssWidth": 1066.65625,
+          "cssHeight": 724.3125,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-helio-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "helio-detail-1-1600.webp",
+          "zoom": "helio-detail-1-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "helio-detail-2-1600.webp",
+          "zoom": "helio-detail-2-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "helio-detail-1-1600.webp",
+        "helio-detail-2-1600.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 3,
+      "path": "projects/keyform.html",
+      "images": [
+        {
+          "file": "keyform-detail-1-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "../projects/media/keyform-detail-1-960.webp 960w, ../projects/media/keyform-detail-1-1600.webp 1600w, ../projects/media/keyform-detail-1-2400.webp 2400w, ../projects/media/keyform-detail-1-2880.webp 2880w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "keyform-0"
+        },
+        {
+          "file": "keyform-detail-2-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "../projects/media/keyform-detail-2-960.webp 960w, ../projects/media/keyform-detail-2-1600.webp 1600w, ../projects/media/keyform-detail-2-2400.webp 2400w, ../projects/media/keyform-detail-2-2880.webp 2880w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "keyform-1"
+        },
+        {
+          "file": "keyform-detail-1-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 3,
+          "physicalWidth": 1050,
+          "vector": false,
+          "srcset": "../projects/media/keyform-detail-1-960.webp 960w, ../projects/media/keyform-detail-1-1600.webp 1600w, ../projects/media/keyform-detail-1-2400.webp 2400w, ../projects/media/keyform-detail-1-2880.webp 2880w",
+          "sizes": "350px",
+          "name": "gallery-keyform-0"
+        },
+        {
+          "file": "keyform-detail-1-2880.webp",
+          "encodedWidth": 2880,
+          "encodedHeight": 1800,
+          "cssWidth": 960,
+          "cssHeight": 600,
+          "paintedWidth": 960,
+          "dpr": 3,
+          "physicalWidth": 2880,
+          "vector": false,
+          "srcset": "",
+          "sizes": "960px",
+          "name": "zoom-keyform-0"
+        },
+        {
+          "file": "keyform-detail-2-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 3,
+          "physicalWidth": 1050,
+          "vector": false,
+          "srcset": "../projects/media/keyform-detail-2-960.webp 960w, ../projects/media/keyform-detail-2-1600.webp 1600w, ../projects/media/keyform-detail-2-2400.webp 2400w, ../projects/media/keyform-detail-2-2880.webp 2880w",
+          "sizes": "350px",
+          "name": "gallery-keyform-1"
+        },
+        {
+          "file": "keyform-detail-2-2880.webp",
+          "encodedWidth": 2880,
+          "encodedHeight": 1800,
+          "cssWidth": 960,
+          "cssHeight": 600,
+          "paintedWidth": 960,
+          "dpr": 3,
+          "physicalWidth": 2880,
+          "vector": false,
+          "srcset": "",
+          "sizes": "960px",
+          "name": "zoom-keyform-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "keyform-detail-1-1600.webp",
+          "zoom": "keyform-detail-1-2880.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 110
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/keyform-detail-1-2880.webp"
+        },
+        {
+          "index": 1,
+          "fit": "keyform-detail-2-1600.webp",
+          "zoom": "keyform-detail-2-2880.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 110
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/keyform-detail-2-2880.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "keyform-detail-1-1600.webp",
+        "keyform-detail-2-1600.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 3,
+      "path": "projects/poslesvet.html",
+      "images": [
+        {
+          "file": "poslesvet-detail-1-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "../projects/media/poslesvet-detail-1-960.webp 960w, ../projects/media/poslesvet-detail-1-1600.webp 1600w, ../projects/media/poslesvet-detail-1-2400.webp 2400w, ../projects/media/poslesvet-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "poslesvet-0"
+        },
+        {
+          "file": "poslesvet-detail-2-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "../projects/media/poslesvet-detail-2-960.webp 960w, ../projects/media/poslesvet-detail-2-1600.webp 1600w, ../projects/media/poslesvet-detail-2-2400.webp 2400w, ../projects/media/poslesvet-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "poslesvet-1"
+        },
+        {
+          "file": "poslesvet-detail-1-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 3,
+          "physicalWidth": 1050,
+          "vector": false,
+          "srcset": "../projects/media/poslesvet-detail-1-960.webp 960w, ../projects/media/poslesvet-detail-1-1600.webp 1600w, ../projects/media/poslesvet-detail-1-2400.webp 2400w, ../projects/media/poslesvet-detail-1-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-poslesvet-0"
+        },
+        {
+          "file": "poslesvet-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1066.65625,
+          "cssHeight": 666.65625,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-poslesvet-0"
+        },
+        {
+          "file": "poslesvet-detail-2-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 3,
+          "physicalWidth": 1050,
+          "vector": false,
+          "srcset": "../projects/media/poslesvet-detail-2-960.webp 960w, ../projects/media/poslesvet-detail-2-1600.webp 1600w, ../projects/media/poslesvet-detail-2-2400.webp 2400w, ../projects/media/poslesvet-detail-2-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-poslesvet-1"
+        },
+        {
+          "file": "poslesvet-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1066.65625,
+          "cssHeight": 666.65625,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-poslesvet-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "poslesvet-detail-1-1600.webp",
+          "zoom": "poslesvet-detail-1-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/poslesvet-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "poslesvet-detail-2-1600.webp",
+          "zoom": "poslesvet-detail-2-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/poslesvet-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "poslesvet-detail-1-1600.webp",
+        "poslesvet-detail-2-1600.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 3,
+      "path": "projects/framepack.html",
+      "images": [
+        {
+          "file": "framepack-detail-1-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "../projects/media/framepack-detail-1-960.webp 960w, ../projects/media/framepack-detail-1-1600.webp 1600w, ../projects/media/framepack-detail-1-2400.webp 2400w, ../projects/media/framepack-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "framepack-0"
+        },
+        {
+          "file": "framepack-detail-2-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "../projects/media/framepack-detail-2-960.webp 960w, ../projects/media/framepack-detail-2-1600.webp 1600w, ../projects/media/framepack-detail-2-2400.webp 2400w, ../projects/media/framepack-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "framepack-1"
+        },
+        {
+          "file": "framepack-detail-1-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 3,
+          "physicalWidth": 1050,
+          "vector": false,
+          "srcset": "../projects/media/framepack-detail-1-960.webp 960w, ../projects/media/framepack-detail-1-1600.webp 1600w, ../projects/media/framepack-detail-1-2400.webp 2400w, ../projects/media/framepack-detail-1-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-framepack-0"
+        },
+        {
+          "file": "framepack-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1066.65625,
+          "cssHeight": 666.65625,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-framepack-0"
+        },
+        {
+          "file": "framepack-detail-2-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 3,
+          "physicalWidth": 1050,
+          "vector": false,
+          "srcset": "../projects/media/framepack-detail-2-960.webp 960w, ../projects/media/framepack-detail-2-1600.webp 1600w, ../projects/media/framepack-detail-2-2400.webp 2400w, ../projects/media/framepack-detail-2-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-framepack-1"
+        },
+        {
+          "file": "framepack-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1066.65625,
+          "cssHeight": 666.65625,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-framepack-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "framepack-detail-1-1600.webp",
+          "zoom": "framepack-detail-1-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/framepack-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "framepack-detail-2-1600.webp",
+          "zoom": "framepack-detail-2-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/framepack-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "framepack-detail-1-1600.webp",
+        "framepack-detail-2-1600.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 3,
+      "path": "projects/shapecheck.html",
+      "images": [
+        {
+          "file": "shapecheck-detail-1-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "../projects/media/shapecheck-detail-1-960.webp 960w, ../projects/media/shapecheck-detail-1-1600.webp 1600w, ../projects/media/shapecheck-detail-1-2400.webp 2400w, ../projects/media/shapecheck-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "shapecheck-0"
+        },
+        {
+          "file": "shapecheck-detail-2-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1289,
+          "cssWidth": 335.5,
+          "cssHeight": 270.28125,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "../projects/media/shapecheck-detail-2-960.webp 960w, ../projects/media/shapecheck-detail-2-1600.webp 1600w, ../projects/media/shapecheck-detail-2-2400.webp 2400w, ../projects/media/shapecheck-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "shapecheck-1"
+        },
+        {
+          "file": "shapecheck-detail-1-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 3,
+          "physicalWidth": 1050,
+          "vector": false,
+          "srcset": "../projects/media/shapecheck-detail-1-960.webp 960w, ../projects/media/shapecheck-detail-1-1600.webp 1600w, ../projects/media/shapecheck-detail-1-2400.webp 2400w, ../projects/media/shapecheck-detail-1-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-shapecheck-0"
+        },
+        {
+          "file": "shapecheck-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1066.65625,
+          "cssHeight": 666.65625,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-shapecheck-0"
+        },
+        {
+          "file": "shapecheck-detail-2-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1289,
+          "cssWidth": 350,
+          "cssHeight": 281.96875,
+          "paintedWidth": 350,
+          "dpr": 3,
+          "physicalWidth": 1050,
+          "vector": false,
+          "srcset": "../projects/media/shapecheck-detail-2-960.webp 960w, ../projects/media/shapecheck-detail-2-1600.webp 1600w, ../projects/media/shapecheck-detail-2-2400.webp 2400w, ../projects/media/shapecheck-detail-2-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-shapecheck-1"
+        },
+        {
+          "file": "shapecheck-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2578,
+          "cssWidth": 1066.65625,
+          "cssHeight": 859.3125,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-shapecheck-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "shapecheck-detail-1-1600.webp",
+          "zoom": "shapecheck-detail-1-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/shapecheck-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "shapecheck-detail-2-1600.webp",
+          "zoom": "shapecheck-detail-2-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/shapecheck-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "shapecheck-detail-1-1600.webp",
+        "shapecheck-detail-2-1600.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 3,
+      "path": "projects/rowline.html",
+      "images": [
+        {
+          "file": "rowline-detail-1-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "../projects/media/rowline-detail-1-960.webp 960w, ../projects/media/rowline-detail-1-1600.webp 1600w, ../projects/media/rowline-detail-1-2400.webp 2400w, ../projects/media/rowline-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "rowline-0"
+        },
+        {
+          "file": "rowline-detail-2-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "../projects/media/rowline-detail-2-960.webp 960w, ../projects/media/rowline-detail-2-1600.webp 1600w, ../projects/media/rowline-detail-2-2400.webp 2400w, ../projects/media/rowline-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "rowline-1"
+        },
+        {
+          "file": "rowline-detail-1-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 3,
+          "physicalWidth": 1050,
+          "vector": false,
+          "srcset": "../projects/media/rowline-detail-1-960.webp 960w, ../projects/media/rowline-detail-1-1600.webp 1600w, ../projects/media/rowline-detail-1-2400.webp 2400w, ../projects/media/rowline-detail-1-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-rowline-0"
+        },
+        {
+          "file": "rowline-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1066.65625,
+          "cssHeight": 666.65625,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-rowline-0"
+        },
+        {
+          "file": "rowline-detail-2-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 3,
+          "physicalWidth": 1050,
+          "vector": false,
+          "srcset": "../projects/media/rowline-detail-2-960.webp 960w, ../projects/media/rowline-detail-2-1600.webp 1600w, ../projects/media/rowline-detail-2-2400.webp 2400w, ../projects/media/rowline-detail-2-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-rowline-1"
+        },
+        {
+          "file": "rowline-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1066.65625,
+          "cssHeight": 666.65625,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-rowline-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "rowline-detail-1-1600.webp",
+          "zoom": "rowline-detail-1-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/rowline-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "rowline-detail-2-1600.webp",
+          "zoom": "rowline-detail-2-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/rowline-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "rowline-detail-1-1600.webp",
+        "rowline-detail-2-1600.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 3,
+      "path": "projects/atyrau.html",
+      "images": [
+        {
+          "file": "atyrau-detail-1-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "../projects/media/atyrau-detail-1-960.webp 960w, ../projects/media/atyrau-detail-1-1600.webp 1600w, ../projects/media/atyrau-detail-1-2400.webp 2400w, ../projects/media/atyrau-detail-1-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "atyrau-0"
+        },
+        {
+          "file": "atyrau-detail-2-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": false,
+          "srcset": "../projects/media/atyrau-detail-2-960.webp 960w, ../projects/media/atyrau-detail-2-1600.webp 1600w, ../projects/media/atyrau-detail-2-2400.webp 2400w, ../projects/media/atyrau-detail-2-3200.webp 3200w",
+          "sizes": "(max-width: 760px) calc(90vw - 2px), (max-width: 1240px) 89vw, 1100px",
+          "name": "atyrau-1"
+        },
+        {
+          "file": "atyrau-detail-1-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 3,
+          "physicalWidth": 1050,
+          "vector": false,
+          "srcset": "../projects/media/atyrau-detail-1-960.webp 960w, ../projects/media/atyrau-detail-1-1600.webp 1600w, ../projects/media/atyrau-detail-1-2400.webp 2400w, ../projects/media/atyrau-detail-1-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-atyrau-0"
+        },
+        {
+          "file": "atyrau-detail-1-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1066.65625,
+          "cssHeight": 666.65625,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-atyrau-0"
+        },
+        {
+          "file": "atyrau-detail-2-1600.webp",
+          "encodedWidth": 1600,
+          "encodedHeight": 1000,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 3,
+          "physicalWidth": 1050,
+          "vector": false,
+          "srcset": "../projects/media/atyrau-detail-2-960.webp 960w, ../projects/media/atyrau-detail-2-1600.webp 1600w, ../projects/media/atyrau-detail-2-2400.webp 2400w, ../projects/media/atyrau-detail-2-3200.webp 3200w",
+          "sizes": "350px",
+          "name": "gallery-atyrau-1"
+        },
+        {
+          "file": "atyrau-detail-2-3200.webp",
+          "encodedWidth": 3200,
+          "encodedHeight": 2000,
+          "cssWidth": 1066.65625,
+          "cssHeight": 666.65625,
+          "paintedWidth": 1066.65625,
+          "dpr": 3,
+          "physicalWidth": 3199.96875,
+          "vector": false,
+          "srcset": "",
+          "sizes": "1067px",
+          "name": "zoom-atyrau-1"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "atyrau-detail-1-1600.webp",
+          "zoom": "atyrau-detail-1-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/atyrau-detail-1-3200.webp"
+        },
+        {
+          "index": 1,
+          "fit": "atyrau-detail-2-1600.webp",
+          "zoom": "atyrau-detail-2-3200.webp",
+          "canScroll": {
+            "x": true,
+            "y": true,
+            "scrollX": 160,
+            "scrollY": 120
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/atyrau-detail-2-3200.webp"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "atyrau-detail-1-1600.webp",
+        "atyrau-detail-2-1600.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 3,
+      "path": "projects/neuralbrief.html",
+      "images": [
+        {
+          "file": "neuralbrief-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": true,
+          "srcset": "",
+          "sizes": "",
+          "name": "neuralbrief-0"
+        },
+        {
+          "file": "neuralbrief-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 3,
+          "physicalWidth": 1050,
+          "vector": true,
+          "srcset": "",
+          "sizes": "350px",
+          "name": "gallery-neuralbrief-0"
+        },
+        {
+          "file": "neuralbrief-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 700,
+          "cssHeight": 437.5,
+          "paintedWidth": 700,
+          "dpr": 3,
+          "physicalWidth": 2100,
+          "vector": true,
+          "srcset": "",
+          "sizes": "700px",
+          "name": "zoom-neuralbrief-0"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "neuralbrief-diagram.svg",
+          "zoom": "neuralbrief-diagram.svg",
+          "canScroll": {
+            "x": true,
+            "y": false,
+            "scrollX": 160,
+            "scrollY": 0
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/neuralbrief-diagram.svg"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "neuralbrief-diagram.svg"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 3,
+      "path": "projects/artportal.html",
+      "images": [
+        {
+          "file": "artportal-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 335.5,
+          "cssHeight": 209.6875,
+          "paintedWidth": 335.5,
+          "dpr": 3,
+          "physicalWidth": 1006.5,
+          "vector": true,
+          "srcset": "",
+          "sizes": "",
+          "name": "artportal-0"
+        },
+        {
+          "file": "artportal-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 350,
+          "cssHeight": 218.75,
+          "paintedWidth": 350,
+          "dpr": 3,
+          "physicalWidth": 1050,
+          "vector": true,
+          "srcset": "",
+          "sizes": "350px",
+          "name": "gallery-artportal-0"
+        },
+        {
+          "file": "artportal-diagram.svg",
+          "encodedWidth": 1280,
+          "encodedHeight": 800,
+          "cssWidth": 700,
+          "cssHeight": 437.5,
+          "paintedWidth": 700,
+          "dpr": 3,
+          "physicalWidth": 2100,
+          "vector": true,
+          "srcset": "",
+          "sizes": "700px",
+          "name": "zoom-artportal-0"
+        }
+      ],
+      "gallery": [
+        {
+          "index": 0,
+          "fit": "artportal-diagram.svg",
+          "zoom": "artportal-diagram.svg",
+          "canScroll": {
+            "x": true,
+            "y": false,
+            "scrollX": 160,
+            "scrollY": 0
+          },
+          "openFile": "https://moyisey.github.io/bakhtiyar-zikirin/projects/media/artportal-diagram.svg"
+        }
+      ],
+      "passed": true,
+      "initialImages": [
+        "artportal-diagram.svg"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "type": "no-js",
+      "passed": true
+    },
+    {
+      "type": "failed-images",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

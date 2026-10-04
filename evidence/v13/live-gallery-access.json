@@ -1,0 +1,72 @@
+{
+  "at": "2026-10-04T20:52:36.576Z",
+  "base": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "method": "Directed native Chromium clicks, keyboard scrolling, localized gallery control checks and axe WCAG A/AA on the open gallery. Touch emulation, no physical phone or screen reader claim.",
+  "checks": [
+    {
+      "width": 1366,
+      "lang": "ru",
+      "theme": "light",
+      "passed": true,
+      "axe": [],
+      "scrollTop": 487
+    },
+    {
+      "width": 1366,
+      "lang": "ru",
+      "theme": "dark",
+      "passed": true,
+      "axe": [],
+      "scrollTop": 487
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "light",
+      "passed": true,
+      "axe": [],
+      "scrollTop": 234
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "passed": true,
+      "axe": [],
+      "scrollTop": 234
+    },
+    {
+      "width": 390,
+      "lang": "kk",
+      "theme": "light",
+      "passed": true,
+      "axe": [],
+      "scrollTop": 234
+    },
+    {
+      "width": 390,
+      "lang": "kk",
+      "theme": "dark",
+      "passed": true,
+      "axe": [],
+      "scrollTop": 234
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "light",
+      "passed": true,
+      "axe": [],
+      "scrollTop": 234
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "passed": true,
+      "axe": [],
+      "scrollTop": 234
+    }
+  ],
+  "passed": true
+}

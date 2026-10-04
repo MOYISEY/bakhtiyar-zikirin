@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import {readFileSync,writeFileSync} from 'node:fs';
 import {openBrowser} from './browser-config.mjs';
 const base=process.argv[2]??'http://127.0.0.1:5202/',scope=process.argv[3]??'local',ids=JSON.parse(readFileSync('src/content/projects.json','utf8')).map(p=>p.id);
+const version=process.env.QA_EVIDENCE_VERSION??'v12';
 const report={at:new Date().toISOString(),base,scope,method:'Actual clicks on all twelve image cards, all nine catalog project titles, all four primary navigation links, home work anchor and return-to-top. Both public mailto destinations checked without launching an OS client. Native Chromium desktop and touch emulation; no physical device claim.',checks:[],passed:false};
 const browser=await openBrowser();
 try {
@@ -26,4 +27,4 @@ try {
   report.checks.push(entry);await context.close();
  }
 }finally{await browser.close();}
-report.passed=report.checks.every(c=>c.passed);writeFileSync('evidence/v12/'+scope+'-navigation.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));if(!report.passed)process.exitCode=1;
+report.passed=report.checks.every(c=>c.passed);writeFileSync('evidence/'+version+'/'+scope+'-navigation.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));if(!report.passed)process.exitCode=1;

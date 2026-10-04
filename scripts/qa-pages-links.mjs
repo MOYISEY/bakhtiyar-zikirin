@@ -1,6 +1,7 @@
 import {openBrowser} from './browser-config.mjs';
 import {readFileSync,writeFileSync} from 'node:fs';
 const base=process.argv[2]??'http://127.0.0.1:5202/',scope=process.argv[3]??'local';
+const version=process.env.QA_EVIDENCE_VERSION??'v12';
 const report={at:new Date().toISOString(),base,scope,method:'Actual native Chromium clicks on each distinct external action in the nine case pages and GitHub profile. The popup navigation HTTP response, page title and native ZIP signature; no claim of a new child-app audit or OS mail client test.',links:[],passed:false};
 const browser=await openBrowser(),context=await browser.newContext({viewport:{width:1366,height:768},acceptDownloads:true}),page=await context.newPage();
 const projects=JSON.parse(readFileSync('src/content/projects.json','utf8')),seen=new Set(),downloads=[];
@@ -23,8 +24,8 @@ try {
      entry.status=responses.get(entry.finalUrl);entry.passed=entry.status>=200&&entry.status<400&&!/404|not found|privacy error/i.test(entry.title)&&!entry.finalUrl.startsWith('chrome-error:');await popup.close();
     }
    }catch(error){entry.error=error.message.split(/\r?\n/,1)[0];}
-   writeFileSync('evidence/v12/'+scope+'-links.json',JSON.stringify(report,null,2));console.log((entry.passed?'PASS ':'FAIL ')+url);
+   writeFileSync('evidence/'+version+'/'+scope+'-links.json',JSON.stringify(report,null,2));console.log((entry.passed?'PASS ':'FAIL ')+url);
   }
  }
- report.passed=report.links.every(l=>l.passed);writeFileSync('evidence/v12/'+scope+'-links.json',JSON.stringify(report,null,2));if(!report.passed)process.exitCode=1;
+ report.passed=report.links.every(l=>l.passed);writeFileSync('evidence/'+version+'/'+scope+'-links.json',JSON.stringify(report,null,2));if(!report.passed)process.exitCode=1;
 }finally{await context.close();await browser.close();}
