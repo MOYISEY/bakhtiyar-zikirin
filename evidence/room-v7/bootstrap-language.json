@@ -1,0 +1,74 @@
+{
+  "result": "PASS",
+  "cases": [
+    {
+      "mode": "import",
+      "lang": "ru",
+      "oppositeSavedLanguageOverridden": true,
+      "shellLocalized": true,
+      "retryRecovers": true,
+      "healthyMenuAndLanguageSwitch": true
+    },
+    {
+      "mode": "import",
+      "lang": "kk",
+      "oppositeSavedLanguageOverridden": true,
+      "shellLocalized": true,
+      "retryRecovers": true,
+      "healthyMenuAndLanguageSwitch": true
+    },
+    {
+      "mode": "import",
+      "lang": "en",
+      "oppositeSavedLanguageOverridden": true,
+      "shellLocalized": true,
+      "retryRecovers": true,
+      "healthyMenuAndLanguageSwitch": true
+    },
+    {
+      "mode": "webgl",
+      "lang": "ru",
+      "oppositeSavedLanguageOverridden": true,
+      "shellLocalized": true,
+      "retryRecovers": true,
+      "healthyMenuAndLanguageSwitch": true
+    },
+    {
+      "mode": "webgl",
+      "lang": "kk",
+      "oppositeSavedLanguageOverridden": true,
+      "shellLocalized": true,
+      "retryRecovers": true,
+      "healthyMenuAndLanguageSwitch": true
+    },
+    {
+      "mode": "webgl",
+      "lang": "en",
+      "oppositeSavedLanguageOverridden": true,
+      "shellLocalized": true,
+      "retryRecovers": true,
+      "healthyMenuAndLanguageSwitch": true
+    },
+    {
+      "query": "?lang=en",
+      "stored": "kk",
+      "denied": true,
+      "expected": "en",
+      "fallbackPriorityCorrect": true
+    },
+    {
+      "query": "?lang=invalid",
+      "stored": "kk",
+      "expected": "kk",
+      "fallbackPriorityCorrect": true
+    },
+    {
+      "query": "",
+      "stored": "invalid",
+      "expected": "ru",
+      "fallbackPriorityCorrect": true
+    }
+  ],
+  "healthyErrors": [],
+  "externalRequests": []
+}
