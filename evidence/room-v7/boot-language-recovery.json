@@ -1,0 +1,20 @@
+{
+  "result": "PASS",
+  "cases": [
+    {
+      "lang": "ru",
+      "bootFailureFallbackLanguage": true,
+      "retryRecovers": true
+    },
+    {
+      "lang": "kk",
+      "bootFailureFallbackLanguage": true,
+      "retryRecovers": true
+    },
+    {
+      "lang": "en",
+      "bootFailureFallbackLanguage": true,
+      "retryRecovers": true
+    }
+  ]
+}

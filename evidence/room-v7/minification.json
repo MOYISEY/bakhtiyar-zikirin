@@ -1,0 +1,19 @@
+{
+  "tool": "rolldown 1.2.12 minifySync",
+  "keepFunctionAndClassNames": true,
+  "propertyMangling": false,
+  "files": [
+    {
+      "name": "three.core.js",
+      "beforeBytes": 1458113,
+      "afterBytes": 402617,
+      "sha256": "0814550d776d724e97d42efa2fa456cb08b12a95adcffff7bfafaf778ca57ff7"
+    },
+    {
+      "name": "three.module.js",
+      "beforeBytes": 662772,
+      "afterBytes": 376660,
+      "sha256": "ce36afc4c426fceb714c415df8192ceb98c432b0d02e4a97532f3730ecefb161"
+    }
+  ]
+}

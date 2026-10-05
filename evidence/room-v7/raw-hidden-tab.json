@@ -1,0 +1,6 @@
+{
+  "method": "Standalone Edge controlled directly through CDP, without Playwright focus emulation",
+  "checks": [],
+  "result": "FAIL",
+  "error": "CDP timeout: Page.enable"
+}

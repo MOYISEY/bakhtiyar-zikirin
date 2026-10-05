@@ -1,0 +1,31 @@
+{
+  "network": "10 Mbps, 80ms, cold",
+  "base": {
+    "ms": 2652.5,
+    "bytes": 1937045,
+    "detailsReady": false
+  },
+  "full": {
+    "ms": 7604,
+    "bytes": 6630157,
+    "plant": {
+      "floorY": 0.0125,
+      "minY": 0.0125,
+      "gapMetres": 0
+    },
+    "nightLight": [
+      0.23,
+      0.18
+    ]
+  },
+  "render": {
+    "fps": 131,
+    "drawCalls": 232,
+    "triangles": 327950
+  },
+  "earlyWeatherUsable": true,
+  "nightSurvivesLateAssets": true,
+  "errors": [],
+  "external": [],
+  "timestamp": "2026-10-05T18:54:57.645Z"
+}

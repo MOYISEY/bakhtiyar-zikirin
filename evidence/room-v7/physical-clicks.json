@@ -1,0 +1,180 @@
+{
+  "started": "2026-10-05T18:51:39.417Z",
+  "checks": [],
+  "objects": [
+    {
+      "id": "projects",
+      "zone": "work",
+      "markerVisible": true,
+      "marker": "Projects",
+      "physicalPoint": {
+        "x": 791.4729323944719,
+        "y": 573.5382971102247
+      },
+      "opened": "panel",
+      "title": "Projects",
+      "focus": "canvas"
+    },
+    {
+      "id": "resume",
+      "zone": "work",
+      "markerVisible": true,
+      "marker": "Résumé",
+      "physicalPoint": {
+        "x": 719.9999372930545,
+        "y": 549.6991996552349
+      },
+      "opened": "panel",
+      "title": "Résumé",
+      "focus": "canvas"
+    },
+    {
+      "id": "audio",
+      "zone": "work",
+      "markerVisible": true,
+      "marker": "Sound",
+      "physicalPoint": {
+        "x": 717.4282153248731,
+        "y": 495.840911761812
+      },
+      "opened": "panel",
+      "title": "Sound",
+      "focus": "canvas"
+    },
+    {
+      "id": "weather",
+      "zone": "work",
+      "markerVisible": true,
+      "marker": "Window & weather",
+      "physicalPoint": {
+        "x": 720.4221284282077,
+        "y": 782.276716679588
+      },
+      "opened": "panel",
+      "title": "Window & weather",
+      "focus": "canvas"
+    },
+    {
+      "id": "light",
+      "zone": "work",
+      "markerVisible": true,
+      "marker": "Lighting",
+      "physicalPoint": {
+        "x": 700.4894001389875,
+        "y": 643.3608414324746
+      },
+      "opened": "panel",
+      "toggled": false,
+      "title": "Lighting",
+      "focus": "canvas"
+    },
+    {
+      "id": "helio",
+      "zone": "cases",
+      "markerVisible": true,
+      "marker": "Helio",
+      "physicalPoint": {
+        "x": 713.7008144916539,
+        "y": 501.34882252574596
+      },
+      "opened": "panel",
+      "title": "Helio",
+      "focus": "canvas"
+    },
+    {
+      "id": "keyform",
+      "zone": "cases",
+      "markerVisible": true,
+      "marker": "Keyform",
+      "physicalPoint": {
+        "x": 720.000063284293,
+        "y": 541.4430034353946
+      },
+      "opened": "panel",
+      "title": "Keyform",
+      "focus": "canvas"
+    },
+    {
+      "id": "process",
+      "zone": "cases",
+      "markerVisible": true,
+      "marker": "Work process",
+      "physicalPoint": {
+        "x": 720.0000586210958,
+        "y": 581.2183521164238
+      },
+      "opened": "panel",
+      "title": "Work process",
+      "focus": "canvas"
+    },
+    {
+      "id": "skills",
+      "zone": "cases",
+      "markerVisible": true,
+      "marker": "Skills",
+      "physicalPoint": {
+        "x": 590.8405962161527,
+        "y": 629.4234601781477
+      },
+      "opened": "panel",
+      "title": "Skills",
+      "focus": "canvas"
+    },
+    {
+      "id": "experience",
+      "zone": "cases",
+      "markerVisible": true,
+      "marker": "Experience",
+      "physicalPoint": {
+        "x": 811.8678244852872,
+        "y": 665.0418404172082
+      },
+      "opened": "panel",
+      "title": "Experience",
+      "focus": "canvas"
+    },
+    {
+      "id": "about",
+      "zone": "profile",
+      "markerVisible": true,
+      "marker": "Developer",
+      "physicalPoint": {
+        "x": 719.9999486350875,
+        "y": 579.24018436144
+      },
+      "opened": "panel",
+      "title": "Developer",
+      "focus": "canvas"
+    },
+    {
+      "id": "contact",
+      "zone": "profile",
+      "markerVisible": true,
+      "marker": "Contact",
+      "physicalPoint": {
+        "x": 720.0000518517163,
+        "y": 552.9776050277516
+      },
+      "opened": "panel",
+      "title": "Contact",
+      "focus": "canvas"
+    },
+    {
+      "id": "poslesvet",
+      "zone": "profile",
+      "markerVisible": true,
+      "marker": "Poslesvet",
+      "physicalPoint": {
+        "x": 725.4366267862512,
+        "y": 501.52121824388405
+      },
+      "opened": "panel",
+      "title": "Poslesvet",
+      "focus": "canvas"
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "findings": [],
+  "status": "PASS"
+}

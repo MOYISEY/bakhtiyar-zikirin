@@ -1,0 +1,19 @@
+{
+  "result": "PASS",
+  "method": "Native chrome.tabs.setZoom(2), ordinary Edge window; CSS layout and DPR measured",
+  "before": {
+    "width": 1418,
+    "height": 744,
+    "dpr": 1.25
+  },
+  "after": {
+    "width": 709,
+    "height": 372,
+    "dpr": 2.5
+  },
+  "nativeZoom": 2,
+  "checks": [
+    "genuine browser zoom 200%, native API/DPR/layout confirmed",
+    "experience at native zoom has no horizontal overflow"
+  ]
+}

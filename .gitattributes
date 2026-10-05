@@ -1,0 +1,6 @@
+# Preserve audited room bytes across Windows and Pages checkouts.
+public/room/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+docs/room/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Retain upstream vendor formatting and embedded shader strings.
+public/room/vendor/** -whitespace
+docs/room/vendor/** -whitespace

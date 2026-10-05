@@ -104,3 +104,5 @@ body.gallery-open { overflow: hidden; }
  .case-pagination { gap: 1rem; }.page-footer { padding: 1rem 5%; }
 }
 @media (prefers-reduced-motion: reduce) { .project-preview img { transition: none; }.project-preview:hover img { transform: none; } }
+
+.room-entry { display: inline-flex; align-items: center; gap: .5rem; min-height: 44px; margin-top: .8rem; font-size: .875rem; color: var(--muted); }

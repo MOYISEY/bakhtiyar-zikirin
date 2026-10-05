@@ -1,0 +1,258 @@
+{
+  "CREDITS.txt": {
+    "bytes": 3122,
+    "sha256": "26308835be145ddbb68007687bfe5b8534865e4cd0311c75200ab33381f95f6f"
+  },
+  "assets/cloth-normal.webp": {
+    "bytes": 504898,
+    "sha256": "74979d3b27d71651a4aede3bedceac3c72bbf9206e5e9e24becce58448797bb1"
+  },
+  "assets/cobblestone_floor_08/diff.webp": {
+    "bytes": 107304,
+    "sha256": "c04c6ed2117e49762ffc8a325fd253bf0138b36e2b74a848212f2967190355f1"
+  },
+  "assets/cobblestone_floor_08/nor_gl.webp": {
+    "bytes": 117446,
+    "sha256": "85fa68bd45ae7e0282140f496f30febbda8301cc81f4eca96311244473f8d728"
+  },
+  "assets/cobblestone_floor_08/rough.webp": {
+    "bytes": 92646,
+    "sha256": "626dc1f62d225b1675434eb9afcb10c37e9ff164d8a09de20c4b2adac0ba43f4"
+  },
+  "assets/facade/selected.bin": {
+    "bytes": 564904,
+    "sha256": "639950e7f18d010c3f156cf3aec3b40d7a9c7d412febcb3bc0aed452af39458e"
+  },
+  "assets/facade/selected.gltf": {
+    "bytes": 15180,
+    "sha256": "ee18248b4e02327d632be2b7b427b4a3e36f26070d351e02e00a7a9ded176d7d"
+  },
+  "assets/facade/textures/modular_urban_apartments_facade_objects_arm_1k.webp": {
+    "bytes": 89950,
+    "sha256": "de295632d8f31c5352f9e75156709c0c801fa856fcf6c06f6c0ea48f86c34d1f"
+  },
+  "assets/facade/textures/modular_urban_apartments_facade_objects_diff_1k.webp": {
+    "bytes": 203150,
+    "sha256": "1171c7aa30079b792fa3456cb4ba60afb09c3e47716e6bec73858f92d5cc448f"
+  },
+  "assets/facade/textures/modular_urban_apartments_facade_objects_nor_gl_1k.webp": {
+    "bytes": 45484,
+    "sha256": "ee3a90e336236684303262b196238e1034af54d5c99f624df527bbdfeb04942e"
+  },
+  "assets/facade/textures/modular_urban_apartments_facade_plaster_arm_1k.webp": {
+    "bytes": 28664,
+    "sha256": "e000b75b8807ec9266628cd4768abb0df66b2d68b83d38101fc69033f2e09c50"
+  },
+  "assets/facade/textures/modular_urban_apartments_facade_plaster_diff_1k.webp": {
+    "bytes": 168368,
+    "sha256": "4cf03e9657b138e0c8e646a4516060d19fe15a8c79f67dd97962c845afec2a04"
+  },
+  "assets/facade/textures/modular_urban_apartments_facade_plaster_nor_gl_1k.webp": {
+    "bytes": 102224,
+    "sha256": "ff8de011075c453728e82235e20e48ea3e3f5617e6cda264f4a06beb82f22bf8"
+  },
+  "assets/facade/textures/modular_urban_apartments_facade_trim_01_arm_1k.webp": {
+    "bytes": 58082,
+    "sha256": "a57078b08174fce8b24700654debdab11125044f2a2f791acc0e7ca7c307c80e"
+  },
+  "assets/facade/textures/modular_urban_apartments_facade_trim_01_diff_1k.webp": {
+    "bytes": 197518,
+    "sha256": "56589b1c65a004230f66bb6393997b1aee852450799fc1617ed679c9e73db8d3"
+  },
+  "assets/facade/textures/modular_urban_apartments_facade_trim_01_nor_gl_1k.webp": {
+    "bytes": 84614,
+    "sha256": "d792b69b9e4fdd883d67cc82f0b6e8e9a0b8466da5eae49f5871f3be5970f470"
+  },
+  "assets/facade/textures/modular_urban_apartments_facade_trim_02_arm_1k.webp": {
+    "bytes": 58502,
+    "sha256": "9916be64a1a859bcacf1536bf744ad4c5f3dcc6fdd9d8d35183a9ad686270ed8"
+  },
+  "assets/facade/textures/modular_urban_apartments_facade_trim_02_diff_1k.webp": {
+    "bytes": 186286,
+    "sha256": "f8c4d5d3bca5657c284d9f2070bfff9a7b60143e4a1fa3afb71852a7c577aca8"
+  },
+  "assets/facade/textures/modular_urban_apartments_facade_trim_02_nor_gl_1k.webp": {
+    "bytes": 74660,
+    "sha256": "42d350af8aa22b3654dd19a4e4563aa28f918c2e9cdb53156c543aecf5194b3f"
+  },
+  "assets/foliage/selected.bin": {
+    "bytes": 609690,
+    "sha256": "7233b8c6aea1bd900cff715929954abab01b55ef2f7508fa66b7d4f10757ca84"
+  },
+  "assets/foliage/selected.gltf": {
+    "bytes": 6789,
+    "sha256": "311763d53a47c09d3c0ca571b34e7fb88c485f4c5a151900c67f231e3c80c98d"
+  },
+  "assets/foliage/textures/searsia_lucida_arm_1k.webp": {
+    "bytes": 61276,
+    "sha256": "de474b86cbb5a9582042ada78431cb9fd25e12a7b20f7c016421c67db5632e1e"
+  },
+  "assets/foliage/textures/searsia_lucida_diff_1k.webp": {
+    "bytes": 62438,
+    "sha256": "fe7d6a4d844e92389b2ef23c91c3a45be304d850331681c76a002cef33fe8bdf"
+  },
+  "assets/foliage/textures/searsia_lucida_nor_gl_1k.webp": {
+    "bytes": 91960,
+    "sha256": "8607e32337e2c9b1077f5bb10b2e3d1a228b2bc045038da206853a97b3e7e9c4"
+  },
+  "assets/potted_plant_02/selected.bin": {
+    "bytes": 421272,
+    "sha256": "26ba8b774e4fb0f0aac9c2bd6c0de385d997b371cb8377a9e050370a8fc981cc"
+  },
+  "assets/potted_plant_02/selected.gltf": {
+    "bytes": 3468,
+    "sha256": "3258f9b9193820e16f2d67e8db8df0ff1dd8901a524d526f7ad9789ed610d3d2"
+  },
+  "assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp": {
+    "bytes": 146806,
+    "sha256": "35e6f8b33b5e8ce9b952fac3d9b7ce4bb4665fde947565ff2409aab01980f5d4"
+  },
+  "assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp": {
+    "bytes": 161598,
+    "sha256": "14adcd17e041fa6dd4816a42e601d703a9eda2eda38949e0d78d50710aba756c"
+  },
+  "assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp": {
+    "bytes": 131324,
+    "sha256": "37460e8c6f087347d059b49bbfd92447fc04c4f75c1f675ef3cfa3c515163c15"
+  },
+  "assets/potted_plant_02/textures/potted_plant_02_pot_diff_1k.webp": {
+    "bytes": 134428,
+    "sha256": "a0119441b973c6ae16c1a38f8c38682ba1367141d29fd4eb0cbbd4dfadbcb065"
+  },
+  "assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp": {
+    "bytes": 153486,
+    "sha256": "c84b88948228d626f02fc145a87cf152ee825fdeb1e340abb370f0f6bdea3992"
+  },
+  "assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp": {
+    "bytes": 134396,
+    "sha256": "fd264c446bda85a2e06f5a2b8028e33a7833cafeb852842682ed96c90e66f5c4"
+  },
+  "assets/projects/helio-card-800.webp": {
+    "bytes": 86612,
+    "sha256": "78c3d916987ac26c81eadb33b71b379f00d08dc4e05a35f78cdc68e8957d6a1a"
+  },
+  "assets/projects/keyform-card-800.webp": {
+    "bytes": 35204,
+    "sha256": "d9ca62cb1ff24a747f0efd396172cf44477d00bae74a4f2727aeb46428d8ecbd"
+  },
+  "assets/projects/poslesvet-card-800.webp": {
+    "bytes": 41404,
+    "sha256": "bd83752709eb41b6544031197a5647d309725772eea30af732dddd73cffb8f44"
+  },
+  "assets/white_plaster_02/diff.webp": {
+    "bytes": 91508,
+    "sha256": "4c3d0b5e5abdc2619543022c868a658bc31c990faace02de3999a44888fbadea"
+  },
+  "assets/white_plaster_02/nor_gl.webp": {
+    "bytes": 64300,
+    "sha256": "3d81c0dec1f773b8838f1c5d974f4765029e3cca7bec2371dd9cba29ef564269"
+  },
+  "assets/white_plaster_02/rough.webp": {
+    "bytes": 45214,
+    "sha256": "d4ecaa5fb9a31a3e43500cdf942ef9f27f78e5c10ea6fb871862d60dc080328f"
+  },
+  "assets/wood/diff.webp": {
+    "bytes": 142734,
+    "sha256": "f083cf22b6d883ceb13488f8fe3de035b7b5d5d7a8c8efe880e05d326368f659"
+  },
+  "assets/wood/nor_gl.webp": {
+    "bytes": 97182,
+    "sha256": "2bff12a4cee74f697d8b0b87abfbe443d3b50e9ba180b3bf2c54fbc24cd4cf94"
+  },
+  "assets/wood/rough.webp": {
+    "bytes": 135452,
+    "sha256": "a4d8b28c674db9f6d7662ceef2870603a8ec43662b1152e7099c617d17f72e8b"
+  },
+  "audio-score.js": {
+    "bytes": 3515,
+    "sha256": "dbd236484a7b7ee44e79fe4e4d550b785eea7d09dcf9653133cec2ea92028131"
+  },
+  "audio.js": {
+    "bytes": 7722,
+    "sha256": "6c6def08efbe40f645b794b63a8dfe865be4ab7345f9dd9e5ef529be753dae1a"
+  },
+  "batch-static.js": {
+    "bytes": 1763,
+    "sha256": "e38147902e7fc937f0ecb0c280c8d3a8fadc4cd18e03ee6ef5a20e7e14a59d64"
+  },
+  "bootstrap.js": {
+    "bytes": 1909,
+    "sha256": "73c5b1f332c124dcce457d0b40de188412471f82bbc0298a9bb624b9a2038f3e"
+  },
+  "corner.css": {
+    "bytes": 5593,
+    "sha256": "d459c619119501b087f8c35717a2a6993aee9f9bd9e7c704076248fc8bce08bc"
+  },
+  "furniture.js": {
+    "bytes": 18097,
+    "sha256": "26915c0b1f92a8d1b97a978cf2173559d4a942fc80c5d9a560cfbdb69a91893d"
+  },
+  "index.html": {
+    "bytes": 2808,
+    "sha256": "55e679ed76594ede62d700d832185363fc15936b929215d48efe5d11fac2f0fe"
+  },
+  "licensed-environment.js": {
+    "bytes": 5927,
+    "sha256": "b8b0c68dee4e635597507efc11e8934a9ba9cb07293cbf6b3668ea75ad77c456"
+  },
+  "navigation.js": {
+    "bytes": 12367,
+    "sha256": "842a9a1bca66244f4f9e3362009cf122e03f3f7d1da5283afb985cf76d45c8d3"
+  },
+  "studio-model.js": {
+    "bytes": 9281,
+    "sha256": "8287dcc317fce8afe48569bf548ea8e655208695b96b13b7fb44fe087fe3ba17"
+  },
+  "studio.css": {
+    "bytes": 3779,
+    "sha256": "f9494c70cda88f5e5914bfae788383d0c4c64a0e5a2073787f52e260c0107ac3"
+  },
+  "studio.js": {
+    "bytes": 11153,
+    "sha256": "d0e2c7392c473bddc9420fea3a8bb38cb257265ace1ae336d9e1d48d6486bcac"
+  },
+  "ui.js": {
+    "bytes": 21020,
+    "sha256": "a7eaf4de466f5295809f8fafca933a25008f877fd433077d0ebe22ae449721f1"
+  },
+  "vendor/THREE-LICENSE.txt": {
+    "bytes": 1081,
+    "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+  },
+  "vendor/addons/controls/OrbitControls.js": {
+    "bytes": 40755,
+    "sha256": "3d79d07ecb686b4e5d93232eedab255331c1beef711e13164eaa1f68655a5f2b"
+  },
+  "vendor/addons/environments/RoomEnvironment.js": {
+    "bytes": 4960,
+    "sha256": "55f466192cc84298755a424c5e040345006b2ee1455589b3b54126c2ea4123f4"
+  },
+  "vendor/addons/geometries/RoundedBoxGeometry.js": {
+    "bytes": 6470,
+    "sha256": "c5feab96123858ed8823c889b238dc8734adab7e760e3cfd21e7f3f2f3e348e3"
+  },
+  "vendor/addons/loaders/GLTFLoader.js": {
+    "bytes": 117570,
+    "sha256": "131c0f78c01d19368ae495caa65b3adaa10487810a36a05bb5901b769a35ac16"
+  },
+  "vendor/addons/utils/BufferGeometryUtils.js": {
+    "bytes": 37712,
+    "sha256": "9fb63427ce6641fa14fd0baff9cc4d1b5f9c3d85fd084bf2e90e803c44ec1797"
+  },
+  "vendor/addons/utils/SkeletonUtils.js": {
+    "bytes": 11535,
+    "sha256": "b1632a703206c3d830de9fcbe515696770d04b71a15ee6b50afa6d2c3298c86f"
+  },
+  "vendor/licenses.html": {
+    "bytes": 282,
+    "sha256": "226f4fff251da6d4204dbd4c4018cf43fef7152cc462249d7d6a79e4e2df10c4"
+  },
+  "vendor/three.core.js": {
+    "bytes": 402617,
+    "sha256": "0814550d776d724e97d42efa2fa456cb08b12a95adcffff7bfafaf778ca57ff7"
+  },
+  "vendor/three.module.js": {
+    "bytes": 376660,
+    "sha256": "ce36afc4c426fceb714c415df8192ceb98c432b0d02e4a97532f3730ecefb161"
+  }
+}

@@ -121,3 +121,7 @@ npm run build
 node scripts/qa-quality-media.mjs http://127.0.0.1:5202/ local
 QA_EVIDENCE_VERSION=v13 node scripts/qa-pages.mjs http://127.0.0.1:5202/ smoke
 ```
+
+## Optional professional 3D room
+
+The `/room/` route is reached from a compact localized homepage link; the ordinary portfolio remains the main view. URL language has priority. Audio begins only after explicit entry and respects saved controls. The room additionally stores its local language/audio preferences; it sends no analytics. Source runtime: `public/room/`; Pages output: `docs/room/`. See [integration evidence and limitations](evidence/room-v7/QA.md). This separate candidate has not been pushed or deployed.

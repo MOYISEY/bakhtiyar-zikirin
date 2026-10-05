@@ -1,0 +1,33 @@
+{
+  "checks": [
+    "main translated link ru",
+    "main-to-room language ru",
+    "ordinary view language ru",
+    "URL sync ru",
+    "main translated link kk",
+    "main-to-room language kk",
+    "ordinary view language kk",
+    "URL sync kk",
+    "main translated link en",
+    "main-to-room language en",
+    "ordinary view language en",
+    "URL sync en",
+    "invalid URL uses saved KK",
+    "URL priority with denied storage",
+    "actual output captured through MediaRecorder",
+    "plant remains exactly grounded",
+    "opaque wall blocks helio",
+    "opaque wall blocks poslesvet",
+    "actual touch drag changes yaw and pitch",
+    "touch joystick moves",
+    "touchCancel stops movement",
+    "mobile content no horizontal overflow",
+    "no runtime errors",
+    "no unsolicited external requests"
+  ],
+  "errors": [],
+  "external": [],
+  "capture": "12s stereo Opus from the live master output, no microphone; not a human listening verdict",
+  "occlusionMethod": "Native canvas clicks from controlled camera fixtures outside left/right opaque walls; not an exhaustive collision walk.",
+  "result": "PASS"
+}

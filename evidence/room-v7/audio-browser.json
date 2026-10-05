@@ -1,0 +1,81 @@
+{
+  "time": "2026-10-05T18:51:01.329Z",
+  "checks": [
+    "no AudioContext before entry",
+    "entry has actual nonzero music signal",
+    "entry has actual audible output",
+    "rain is mixed on rainy weather",
+    "output has no clipping",
+    "music mute silences music only",
+    "dry weather silences rain with music intact",
+    "exit suspends output",
+    "reentry resumes without duplicate sources",
+    "volume remains user-selected",
+    "hidden-tab handler suspends audio",
+    "visibility return restores sound once",
+    "global mute suspends",
+    "saved global mute prevents new-entry sound",
+    "saved volume restored",
+    "keyboard Enter unlocks audio",
+    "touch Enter unlocks audio",
+    "scroll entry offers explicit unlock",
+    "scroll entry never starts context",
+    "unlock button starts actual source",
+    "blocked resume attempts only once",
+    "no runtime page errors",
+    "no external audio requests"
+  ],
+  "errors": [],
+  "external": [],
+  "entrySignal": {
+    "armed": true,
+    "inside": true,
+    "state": "running",
+    "needsGesture": false,
+    "resumePending": false,
+    "resumeAttempts": 0,
+    "musicReady": true,
+    "musicDuration": 64,
+    "sourceStarts": {
+      "music": 1,
+      "rain": 1,
+      "effects": 0
+    },
+    "desiredMaster": 0.65,
+    "levels": {
+      "master": {
+        "rms": 0.05247463642487258,
+        "peak": 0.1565069556236267
+      },
+      "music": {
+        "rms": 0.07684860491212311,
+        "peak": 0.20390620827674866
+      },
+      "rain": {
+        "rms": 0.019909175159548657,
+        "peak": 0.06258789449930191
+      }
+    },
+    "preferences": {
+      "muted": false,
+      "music": {
+        "muted": false,
+        "volume": 0.45
+      },
+      "rain": {
+        "muted": false,
+        "volume": 0.18
+      },
+      "effects": {
+        "muted": false,
+        "volume": 0.25
+      }
+    },
+    "savedPreferences": false,
+    "raining": true,
+    "error": null,
+    "score": "Window Notes"
+  },
+  "hiddenTest": "visibility handler simulated; physical background-tab behaviour not asserted",
+  "result": "PASS"
+}
