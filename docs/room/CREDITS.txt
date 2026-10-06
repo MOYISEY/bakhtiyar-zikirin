@@ -1,14 +1,91 @@
-V7 PROFESSIONAL. Separate local prototype; not published or visually approved.
-Desk/chair/interior architecture, surface weave and interface textures: original procedural work for this prototype. No personal ownership/history is implied by decorative objects.
-Exterior facade: Poly Haven, Modular Urban Apartments Facade, CC0. https://polyhaven.com/a/modular_urban_apartments_facade . Selected 11 original modules; unused components removed, no simplification of retained geometry. Texture maps converted to WebP at 512/1024px.
-Exterior foliage: Poly Haven, Searsia Lucida, CC0. https://polyhaven.com/a/searsia_lucida . Two original variants f/g retained, no geometric simplification. WebP 512px textures.
-Indoor plant: Poly Haven, Potted Plant 02, CC0. https://polyhaven.com/a/potted_plant_02 . Original pot and leaves retained; dense soil mesh omitted. WebP 1024px textures from the prior verified asset set.
-Courtyard: Poly Haven, Cobblestone Floor 08, CC0. https://polyhaven.com/a/cobblestone_floor_08 . WebP 512px PBR maps.
-Interior plaster: Poly Haven, White Plaster 02, CC0. https://polyhaven.com/a/white_plaster_02 . WebP 512px maps; albedo contrast reduced at runtime, fine normal response retained.
-Chair cloth normal: Poly Haven, Fabric Pattern 07, CC0. https://polyhaven.com/a/fabric_pattern_07 . Original 1024px normal map; neutral custom woven albedo.
-Fine Grained Wood: Poly Haven, CC0, https://polyhaven.com/a/fine_grained_wood . Existing locally verified asset from V5, unchanged files. https://polyhaven.com/license
-Three.js 0.186.1: MIT. Core and renderer modules minified locally with rolldown 1.2.12; public exports, function/class names retained; no property mangling. Full license: vendor/THREE-LICENSE.txt . https://threejs.org/
-Music: Window Notes, original 64-second ambient composition and PCM synthesis in audio-score.js; soft keys, voiced pads, bass and stereo reflections. No downloaded recordings or samples. Rain: original filtered seeded noise. Object sounds: original synthesized tones. No sampled recordings or third-party musical composition. First entry starts sound from the Enter click/tap/key gesture. Prior mute and volume preferences are preserved. No sound before entry. A blocked browser is offered an explicit Enable sound button; no automatic retry loop.
-Public portfolio facts and project links: https://moyisey.github.io/bakhtiyar-zikirin/ . Project technical descriptions verified against public MOYISEY GitHub package.json files (Helio, Keyform, Framepack, Shapecheck, Rowline), and the public Godot export for Poslesvet, accessed 2026-10-05.
-No analytics, accounts, cookies, remote audio, CDN scripts or outbound runtime requests. Explicit external links navigate only on user activation. Browser localStorage stores language and audio preferences independently; memory fallback is supported.
-Project screenshots: existing public portfolio images, unchanged: https://moyisey.github.io/bakhtiyar-zikirin/projects/media/{helio,keyform,poslesvet}-card-800.webp . Helio image retains its OpenFreeMap/OpenMapTiles/OpenStreetMap attribution. Accessed 2026-10-05.
+V8 STUDIO SLICE — LOCAL VISUAL REVIEW CANDIDATE, NOT PUBLISHED.
+
+CC0 hero assets from Poly Haven, downloaded 2026-10-05:
+Modern Arm Chair 01 — https://polyhaven.com/a/modern_arm_chair_01
+Desk Lamp Arm 01 — https://polyhaven.com/a/desk_lamp_arm_01
+White Plaster 02 — https://polyhaven.com/a/white_plaster_02
+Laminate Floor 02 — https://polyhaven.com/a/laminate_floor_02
+License: https://polyhaven.com/license
+Only selected glTF, buffers and PBR maps were downloaded. The full source packages were not downloaded or shipped. Chair/lamp geometry and authored UVs are unchanged, with uniform scale 1. Texture maps converted to WebP at source 1K dimensions; floor uses 2K maps. Painted plaster albedo contrast was reduced while retaining normal/roughness maps. The lamp's clamp is placed square to the visible front edge, with local clearance in the decorative fascia. The desktop is 20.6 mm thick to fit the source model's fixed jaw opening; the deeper front fascia is separate. Chair/lamp meshes were not deformed to force a fit. A separate original wall pull switch and wired circuit control its local light; the string is not attached to the lamp arm.
+
+Previously verified CC0 assets retained from the local V7 source:
+Potted Plant 02 — https://polyhaven.com/a/potted_plant_02
+Fine Grained Wood — https://polyhaven.com/a/fine_grained_wood
+Plant: original pot and leaves; dense soil mesh omitted in the retained subset; uniform scale .9, grounded from actual bounds. Plant maps retain the prior verified WebP conversion. Wood maps unchanged from V7.
+
+Architecture, door hardware, desk, monitor, notebook, pull-switch mechanism and interaction code: original for this local prototype. No ownership or personal-history claims are implied by furniture.
+
+Three.js 0.186.1, MIT: vendor/THREE-LICENSE.txt. Existing locally minified core/renderer retain public exports and full license. Addons are unchanged upstream files.
+
+Helio image: existing public portfolio image, unchanged — https://moyisey.github.io/bakhtiyar-zikirin/projects/media/helio-hero-1600.webp . OpenFreeMap/OpenMapTiles/OpenStreetMap attribution is retained within the image. Project: https://moyisey.github.io/helio/ ; source: https://github.com/MOYISEY/helio . Developer and experience facts come from the already verified public portfolio and public resume, not fictional clients or metrics.
+
+Music: Window Notes, original 64-second composition and PCM synthesis retained from the verified V7 audio module. No downloaded recordings, no microphone, no remote audio. The scene is dry; the existing rain generator is silent. Explicit click/key entry can unlock audio. Scroll-only entry exposes an Enable sound control. Saved mute is respected.
+
+Live reference observations: JReyes MC entry render and Samsy intro rendered in Edge and were visually inspected. Jay Ransijn remained at shader compilation in the observation window; gameplay was not viewed. Five supplied Library screenshots could not be materialized on Windows due to the official helper's unavailable os.setxattr; those pixels were not inspected. No assets were copied from these reference sites.
+
+No analytics, cookies, external fonts, remote scripts or unsolicited outbound requests. Explicit project/profile links only navigate after user activation. Language and audio preferences use localStorage with an in-memory fallback.
+
+Current chair: Sheen Chair, Eric Chadwick / Wayfair LLC (2020), CC0-1.0.
+https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/SheenChair
+Model license: https://github.com/KhronosGroup/glTF-Sample-Assets/blob/main/Models/SheenChair/LICENSE.md
+A different authored mesh replaces the previous leather chair. Native scale 1; dimensions 0.827 x 0.686 x 0.570 m (width/height/depth). This is a low occasional chair, not an ergonomic office chair. All geometry, both UV sets, normals, indices, texture transforms, normal strength, roughness and AO are preserved. Default Mango fabric base/sheen colors adapted to neutral stone velvet; unused alternative variant omitted. PNG maps converted losslessly to WebP without resizing. Four measured feet are grounded without deforming the model; small local contact-shadow patches complement actual scene shadows. Source metadata is CC-BY-4.0, attributed above; original model-associated files are CC0.
+
+DAYLIGHT ITERATION (2026-10-06): Original bounded 3D courtyard authored for this prototype: facade masses, window frames/reveals, sills, floor bands, parapets and roof volumes at world-space distances of 12/17/28/39 m. Original procedural atmospheric sky dome; no photo backdrop, purchased or externally sourced street assets. This is an architectural set viewed from the room, not a navigable full city. Exterior sky fill is approximated; this is not a global-illumination simulation. Interior fill was reduced and directional PCF shadows softened. Existing lounge chair retained at native scale, placed by the window; local contact patches moved with its feet.
+Performance: four large PBR maps recompressed; floor normal/roughness reduced to 1K, floor albedo retained at 2K, chair normal retained at 1K. See optimization.json for precise sizes. Hidden underside-label node excluded from active glTF scene (source data retained), so its texture is not initially requested. Original unused plaster albedo no longer fetched. Hero assets and room textures now load concurrently. Same-light close renders compare original and optimized maps.
+
+
+EXTERIOR VISUAL STUDY — 2026-10-06
+Poly Haven Modular Urban Apartments Facade — James Ray Cock — CC0.
+https://polyhaven.com/a/modular_urban_apartments_facade
+Poly Haven Kloofendal 48d Partly Cloudy (Pure Sky) — Greg Zaal / Jarod Guest — CC0.
+https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky
+License: https://polyhaven.com/license
+CC0 deed: https://creativecommons.org/publicdomain/zero/1.0/
+Adaptations: selected 26 native-scale facade modules, retained geometry/UVs; instanced arrangement; tinted materials and glass reflection; albedo 1K WebP, normal/ARM 512px WebP; sky 3072px WebP.
+Exterior-only directional fill is a material shading approximation, not baked GI or facade cast-shadow simulation.
+World-space facade planes at 24/33/58m; photographic sky at infinity. No building billboard.
+Original procedural paving/planting-strip layout. Limited view set, not a navigable city.
+
+OFFICE EXPANSION / EXPO — 2026-10-06
+Original procedural interpretation of Nur Alem / EXPO, not an exact AITU office or surveyed view. Sphere horizontal diameter80m; overall ground-to-top100m; camera about17.6m over the plaza; centre about232m away. Smooth geometry with an upper wind-scoop depression, UV glazing grid, opaque reflection material and a one-time cubemap capture. Pavilion layout is artistic.
+Architectural reference: https://www.smithgill.com/work/kazakhstan_pavilion_science_museum/
+Reference viewpoint context: https://www.smithgill.com/work/astana_congress_hotel/
+Official reference photographs are not included in the application or archive.
+Only the existing CC0 Kloofendal pure-sky panorama is used as a photographic exterior texture. The previous modular apartment facades are removed from this expansion runtime.
+
+OFFICE EXPANSION — 2026-10-06
+Modern wooden cabinet — Patrik Pangerl / Poly Haven, CC0.
+https://polyhaven.com/a/modern_wooden_cabinet
+Side table 01 — James Ray Cock / Poly Haven, CC0.
+https://polyhaven.com/a/side_table_01
+License: https://polyhaven.com/license
+Native geometry and scale retained; source maps converted to local WebP. Cabinet guide paths omitted.
+Keyform and Poslesvet images: author's existing portfolio project cards, copied from public/room/assets/projects. No external image fetch at runtime.
+Professional text: existing src/content/projects.json and src/locales/{ru,kk,en}.json, plus the previously verified public resume/experience copy. No client metrics or achievements added.
+Nur Alem reflection: one static sky-only PMREM; no interior/pavilion cube capture, no runtime reflection updates.
+
+PROGRESSIVE LOADING CANDIDATE — separate branch, 2026-10-06
+The entry uses 512px WebP derivatives of the same licensed plaster, floor and oak albedos (quality 90). Full original maps and native model geometry are installed before entry. All 46 existing asset files remain byte-identical to office candidate dfc6e8ca.
+Framepack, Shapecheck, Rowline: real existing author's portfolio screenshots copied byte-for-byte from public/projects/media/{project}-card-800.webp. No generated project covers.
+
+MATERIAL STUDY — separate local review candidate, 2026-10-06
+Original procedural ash veneer, honed stone maps and alpha foliage (fixed seed 4240); architectural details and pavilion envelope original project work. No new purchased/downloaded model. All 52 inherited asset files remain byte-identical to c4f1015. Imported model geometry, UVs and native scale retained. EXPO remains an artistic interpretation, not a surveyed or licensed detailed EXPO reconstruction. Terrain20km, camera far6km, aerial perspective starts1.8km; no dense fog or blur to hide nearby geometry. Colour maps sRGB; data maps NoColorSpace; generated contact-shadow maps corrected to sRGB.
+
+WINDOW FRAGMENT STUDY (2026-10-06, local review only): Original metre-scale window profiles, glazing beads, EPDM seals, handle/hinges, limestone sill and painted/plaster reveals authored for this project in Blender 4.5.14 LTS. No purchased or third-party geometry or new material images. FinishUV and independent packed IndirectUV exported with glTF. Static indirect daylight only: Cycles CPU 512 samples, 1024 atlas; direct and colour bake passes disabled; task lamp excluded. OpenImageDenoise applied to linear EXR before sRGB encoding; raw EXR retained locally. Runtime lossless WebP matched the browser-decoded PNG reference. Ambient diffuse on these surfaces is replaced by the bake; existing live direct lights and specular environment remain. Existing room walls/ceiling and furniture retain their lighting/materials. EXPO geometry remains an original approximation; glass response was adjusted, not replaced by an accurate surveyed model.
+
+COHERENT OFFICE / WINDOW / CORRIDOR STUDY (local candidate, 2026-10-06)
+This paragraph supersedes historical implementation descriptions above for this copy.
+Tree small 02 - Rico Cilliers / Poly Haven - CC0: https://polyhaven.com/a/tree_small_02 . Source 1K Blender file and ten textures verified against official MD5 metadata (authoring/exterior/source-acquisition.json). Eight 512px native-shape rotations rendered in Blender Cycles; 2048x1024 lossless RGBA atlas. Nearest row additionally retains a 3394-triangle native trunk/branch LOD. Canopies are view-facing rendered LODs, not full geometry foliage. Scales vary explicitly; no botanical or geographic claim.
+Modular Urban Apartments Facade - James Ray Cock / Poly Haven - CC0: https://polyhaven.com/a/modular_urban_apartments_facade . Three native facade bays rendered as distance LOD samples, adjusted to a lighter finish. Original named courtyard/slab/podium/chamfered skyline massing, with explicit fixed positions; not a surveyed Astana reconstruction or a randomized city generator. No building photograph backdrop.
+License for both assets: https://polyhaven.com/license . No purchase.
+Three.js r186 CSM.js, CSMFrustum.js and CSMShader.js are unchanged official MIT addons; license vendor/THREE-LICENSE.txt. A single sun with three 2048px cascades now casts actual pavilion/plaza/interior shadows. Roof clerestories and rooflights are original geometry. Terrain remains 20km with 6km far clip; aerial perspective starts900m and remains subordinate to readable near geometry.
+Original corridor profiles: three bays,60 components,11280 triangles, independent FinishUV/IndirectUV, bevels/gaskets/casing/thresholds. Cycles CPU256 samples,1024 indirect-only atlas; fixed ceiling lights, no dynamic lamp baked. OIDN in linear light then sRGB lossless WebP, runtime irradiance intensity pi. Original window asset unchanged. Existing CC0 laminate wood maps reused on custom desk/joinery with corrected local grain direction; powder-coated entrance trim matches the window finish.
+Embedded GLB images are allowed through local blob: URLs by CSP. HTTP connections remain self-only. Active missing model textures block entry and expose retry; invalid cached GLB bytes are evicted before retry. No new analytics, remote runtime assets, audio tracks or personal facts.
+
+LOADING / SURFACE CORRECTION (local candidate, 2026-10-06)
+All 60 inherited asset files remain byte-identical to coherent checkpoint 290524b. Four additional gzip transport files decode exactly to their retained original GLBs; native DecompressionStream with raw GLB fallback, no geometry quantization, image recompression or new decoder dependency. Unused full oak maps remain on disk but are no longer fetched. Existing procedural plaza texture has calmer contrast and anisotropic filtering; the overlapping terrain now has a plaza cut-out. Existing CC0 laminate map is reused with lower albedo contrast and varied grain offset only on the near corridor acoustic panel. No additional assets, licenses, purchases or bakes.
+
+EXTERIOR FINISH (local art-review candidate, 2026-10-07)
+Original sawn-limestone paving, lawn, zinc and distant-terrain samples are generated once at startup with fixed seed4320; no photographic ground or building backdrop. Paving sample9.6m (0.6x1.2m running bond), lawn24m, zinc8m, distant terrain3km. Colour maps sRGB, roughness/AO linear. A1024 ambient-contact field spans the600m plaza on UV1; it supplements ambient contact only, while the inherited three-cascade sun remains unchanged. Additional roof seams, service walkways, drains and equipment plinths use shared batched materials. The existing42 named skyline components are regrouped, with the same552 source triangles and lower-contrast derivatives of the existing CC0 facade samples. No additional buildings or downloaded assets. Existing window, tree atlas/trunks, camera, loader, door and audio preserved. This is an artistic EXPO interpretation, not a surveyed reconstruction or a claim of photorealism.
+
+FINAL CLOSEOUT: Fine repeated roof-seam meshes removed after independent art review; service grilles simplified. No new materials, media or licences. All64 runtime media files unchanged from c499d43.
