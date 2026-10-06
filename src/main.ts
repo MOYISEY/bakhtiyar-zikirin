@@ -6,6 +6,38 @@ import { initPreferences, language, t } from './preferences';
 import { showSceneFallback } from './fallback';
 
 initPreferences();
+const copyEmail = document.querySelector<HTMLButtonElement>('#copy-email');
+if (copyEmail) {
+  const wrapper = copyEmail.closest<HTMLElement>('.email-copy')!;
+  const status = wrapper.querySelector<HTMLElement>('#email-copy-status')!;
+  const fallback = wrapper.querySelector<HTMLInputElement>('#email-copy-fallback')!;
+  let statusKey = '';
+  let copying = false;
+  wrapper.hidden = false;
+  copyEmail.addEventListener('click', async () => {
+    if (copying) return;
+    copying = true;
+    copyEmail.setAttribute('aria-busy', 'true');
+    try {
+      await navigator.clipboard.writeText(fallback.value);
+      fallback.hidden = true;
+      statusKey = 'contact.emailCopied';
+    } catch {
+      fallback.hidden = false;
+      fallback.focus();
+      fallback.select();
+      statusKey = 'contact.copyManual';
+    } finally {
+      status.textContent = t(statusKey);
+      copying = false;
+      copyEmail.removeAttribute('aria-busy');
+    }
+  });
+  window.addEventListener('portfolio:preferences', () => {
+    if (statusKey) status.textContent = t(statusKey);
+  });
+}
+
 function limitDetailImages() {
   document.querySelectorAll<HTMLAnchorElement>('.case-media .gallery-open[data-kind="screenshot"]').forEach(link => {
     const figure = link.closest<HTMLElement>('.case-media')!;

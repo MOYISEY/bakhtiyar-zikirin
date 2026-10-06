@@ -120,3 +120,14 @@ body.gallery-open { overflow: hidden; }
 @media (max-width: 760px) {
  .home-hero .hero-actions { margin-top: 1.4rem; }
 }
+
+.hero-preview-actions { display: flex; align-items: center; flex-wrap: wrap; gap: .5rem 1.25rem; }
+.hero-preview .hero-preview-actions a { display: inline-flex; align-items: center; min-height: 44px; padding: 0; font-size: .8rem; }
+.hero-preview figcaption { align-items: center; }
+.email-copy { display: flex; align-items: center; flex-wrap: wrap; gap: .5rem 1rem; margin-top: .65rem; }
+.email-copy[hidden], .email-copy input[hidden] { display: none; }
+.email-copy button { min-height: 44px; border: 1px solid var(--contact-line); background: transparent; color: var(--ink); padding: .65rem .85rem; font: inherit; font-size: .85rem; cursor: pointer; }
+.email-copy button:hover { background: var(--hover); }
+.email-copy button[aria-busy=true] { cursor: wait; }
+.email-copy #email-copy-status { margin: 0; font-size: .85rem; color: var(--contact-muted); }
+.email-copy input { flex-basis: 100%; width: 100%; min-width: 0; min-height: 44px; border: 1px solid var(--contact-line); background: var(--paper); color: var(--ink); padding: .6rem; font: inherit; }
