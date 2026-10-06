@@ -57,3 +57,25 @@ body:has(#loading:not([hidden])) header{background:none}body:has(#loading:not([h
 @media(max-width:700px){#loading{padding:88px 22px 22px}.load-card{max-width:340px}#load-title{font-size:31px}.load-door{height:78px;width:52px}.load-door::after{top:40px;right:11px}#load-note{margin-bottom:25px}#loading #stream-status{padding:0 5px}}
 @media(max-height:650px){.load-door{height:52px;width:37px}.load-door::after{top:27px;right:10px;height:8px}.load-eyebrow{margin-top:15px}#load-note{margin-bottom:20px}#load-title{font-size:28px}}
 @media(prefers-reduced-motion:reduce){.load-door::before{animation:none;opacity:.7}}
+
+#panel { scroll-padding-top: 76px; }
+#panel-toolbar { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; gap: 10px; padding: 10px 14px; background: #f5f0e6; border-bottom: 1px solid #70837333; }
+#panel-global-tools { flex: 1; min-width: 0; }
+#panel-toolbar .top-tools { justify-content: flex-start; }
+#panel-toolbar #close { position: static; float: none; flex: 0 0 42px; margin: 0; }
+#panel-toolbar .top-tools a { display: flex; align-items: center; min-height: 42px; }
+#panel-toolbar .top-tools label { min-width: 0; }
+@media(max-width:600px){
+ #panel-toolbar { padding: 8px; gap: 6px; }
+ #panel-toolbar #close { width: 36px; height: 42px; flex-basis: 36px; }
+ #panel-toolbar .top-tools { display: grid; grid-template-columns: minmax(0,1fr) auto minmax(0,1.2fr); gap: 5px; font-size: 11px; }
+ #panel-toolbar .top-tools button, #panel-toolbar .top-tools select, #panel-toolbar .top-tools a { font-size: 11px; padding: 7px 5px; min-height: 42px; overflow-wrap: anywhere; }
+ #panel-toolbar .top-tools button, #panel-toolbar .top-tools a { white-space: normal; }
+ #panel-body { padding-top: 20px; }
+}
+
+#panel { overflow: hidden; }
+#panel[open] { display: flex; flex-direction: column; }
+#panel-toolbar { position: relative; flex-shrink: 0; }
+#panel-body { min-height: 0; overflow-y: auto; overscroll-behavior: contain; scroll-padding-top: 12px; }
+#panel-body:focus-visible { outline: 2px solid #315246; outline-offset: -4px; }

@@ -9,7 +9,7 @@ import {RoundedBoxGeometry} from 'three/addons/geometries/RoundedBoxGeometry.js'
 export async function createWorld(renderer,camera){
  const scene=new T.Scene();scene.background=new T.Color('#a8bac2');const daylight=createDaylight(scene,camera);
  const stream=createStreaming();let changed=()=>{},studioReady=false,warming=false,warmError=null,warmPromise=null,allPromise=null,skyFallback=false,windowRoot=null;
- const loader=new T.TextureLoader(),objects=[],assetInfo=[],colliders=[];let architecture=true;
+ const loader=new T.TextureLoader(),objects=[],assetInfo=[],colliders=[],localizedLabels=[];let architecture=true;
  let allowAssembly;const entrancePrepared=new Promise(resolve=>allowAssembly=resolve);
  const assembly={};const materialCopies=new Map();
  const cloneMaterial=original=>{const m=original.clone();if(!materialCopies.has(original))materialCopies.set(original,[]);materialCopies.get(original).push(m);return m};
@@ -24,8 +24,9 @@ export async function createWorld(renderer,camera){
  function realUV(g){const p=g.attributes.position,n=g.attributes.normal,uv=g.attributes.uv;for(let i=0;i<p.count;i++){const x=p.getX(i),y=p.getY(i),z=p.getZ(i),nx=Math.abs(n.getX(i)),ny=Math.abs(n.getY(i)),nz=Math.abs(n.getZ(i));uv.setXY(i,nx>ny&&nx>nz?z:x,ny>nz&&ny>nx?z:y)}uv.needsUpdate=true;return g}
  function box(w,h,d,m,x,y,z,r=.006,parent=scene){const g=r?new RoundedBoxGeometry(w,h,d,2,Math.min(r,w/3,h/3,d/3)):new T.BoxGeometry(w,h,d);realUV(g);if(m===oak){const uv=g.attributes.uv;for(let i=0;i<uv.count;i++)uv.setXY(i,.35+uv.getX(i)*.16,.13+uv.getY(i)*.035)}const o=new T.Mesh(g,m);o.position.set(x,y,z);o.castShadow=o.receiveShadow=true;parent.add(o);if(architecture){g.computeBoundingBox();colliders.push(o)}return o}
  function cylinder(radius,height,m,x,y,z,parent=scene){const o=new T.Mesh(new T.CylinderGeometry(radius,radius,height,24),m);o.position.set(x,y,z);o.castShadow=o.receiveShadow=true;parent.add(o);return o}
- function textMap(lines,{w=1024,h=512,bg='#ded5bd',color='#253e34',size=75,align='left'}={}){const c=document.createElement('canvas');c.width=w;c.height=h;const a=c.getContext('2d');a.fillStyle=bg;a.fillRect(0,0,w,h);a.fillStyle=color;a.textAlign=align;for(const [i,line]of lines.entries()){a.font=`${i===0?'500':'400'} ${i===0?size:size*.38}px ${i===0?'Georgia':'Arial'}`;a.fillText(line,align==='center'?w/2:70,100+i*100)}const t=new T.CanvasTexture(c);t.colorSpace=T.SRGBColorSpace;t.anisotropy=8;return t}
+ function textMap(lines,{w=1024,h=512,bg='#ded5bd',color='#253e34',size=75,align='left'}={}){const c=document.createElement('canvas');c.width=w;c.height=h;const a=c.getContext('2d');a.fillStyle=bg;a.fillRect(0,0,w,h);a.fillStyle=color;a.textAlign=align;for(const [i,line]of lines.entries()){let fontSize=i===0?size:size*.38;const font=()=>`${i===0?'500':'400'} ${fontSize}px ${i===0?'Georgia':'Arial'}`;a.font=font();const measured=a.measureText(line).width,available=align==='center'?w-60:w-100;if(measured>available){fontSize*=available/measured;a.font=font()}a.fillText(line,align==='center'?w/2:70,100+i*100)}const t=new T.CanvasTexture(c);t.colorSpace=T.SRGBColorSpace;t.anisotropy=8;return t}
  function label(lines,w,h,x,y,z,options={},parent=scene){const t=textMap(lines,options),o=new T.Mesh(new T.PlaneGeometry(w,h),new T.MeshStandardMaterial({map:t,roughness:.8}));o.position.set(x,y,z);parent.add(o);return o}
+ function localizedLabel(lines,w,h,x,y,z,options={},parent=scene){const o=label(lines(),w,h,x,y,z,options,parent);localizedLabels.push({o,lines,options});return o}
  function cable(points,radius=.008,m=black,parent=scene){const curve=new T.CatmullRomCurve3(points.map(p=>new T.Vector3(...p)));const o=new T.Mesh(new T.TubeGeometry(curve,32,radius,8,false),m);o.castShadow=true;parent.add(o);return o}
  function contact(x,z,w,d,opacity=.28,y=.012){const c=document.createElement('canvas');c.width=c.height=128;const a=c.getContext('2d'),g=a.createRadialGradient(64,64,0,64,64,64);g.addColorStop(0,`rgba(13,17,13,${opacity})`);g.addColorStop(.6,`rgba(13,17,13,${opacity*.5})`);g.addColorStop(1,'rgba(13,17,13,0)');a.fillStyle=g;a.fillRect(0,0,128,128);const p=new T.Mesh(new T.PlaneGeometry(w,d),new T.MeshBasicMaterial({map:Object.assign(new T.CanvasTexture(c),{colorSpace:T.SRGBColorSpace}),transparent:true,depthWrite:false}));p.rotation.x=-Math.PI/2;p.position.set(x,y,z);scene.add(p)}
  // Room and narrow entrance. Surfaces use metre-based UVs, not stretched box UVs.
@@ -109,7 +110,7 @@ export async function createWorld(renderer,camera){
  const plate=box(.07,.26,.012,brass,width-.075,1.04,.06,.008,door);
  const lever=cylinder(.016,.14,brass,width-.14,1.1,.105,door);lever.rotation.z=Math.PI/2;
  const handle=box(.15,.24,.18,new T.MeshBasicMaterial({visible:false}),width-.13,1.08,.07,0,door);handle.userData.action='door';objects.push(handle);
- const doorLabel=label(['STUDIO','BAKHTIYAR ZIKIRIN'],.49,.20,.515,1.84,.065,{w:1024,h:350,bg:'#dbc9a4',color:'#284239',size:112,align:'center'},door);doorLabel.userData.action='door';objects.push(doorLabel);
+ const doorLabel=localizedLabel(()=>[L('СТУДИЯ','СТУДИЯ','STUDIO'),L('БАХТИЯР ЗИКИРИН','БАҚТИЯР ЗИКИРИН','BAKHTIYAR ZIKIRIN')],.49,.20,.515,1.84,.065,{w:1024,h:350,bg:'#dbc9a4',color:'#284239',size:112,align:'center'},door);doorLabel.userData.action='door';objects.push(doorLabel);
  box(.14,.28,.014,brass,.83,1.63,2.192,.01);
  label(['08'],.10,.16,.83,1.65,2.205,{w:200,h:300,bg:'#bd9860',color:'#2d4136',size:85,align:'center'});
  architecture=false;
@@ -135,21 +136,21 @@ export async function createWorld(renderer,camera){
  box(.64,.027,.21,dark,.05,.856,-1.85,.009);
  for(let row=0;row<4;row++)for(let col=0;col<13;col++)box(.035,.008,.035,cream,-.226+col*.044,.873,-1.922+row*.044,.003);
  box(.09,.027,.13,black,.57,.856,-1.82,.018);
- box(.94,.36,.018,oak,-.1,2.03,-2.832,.005);const projectPlaque=label(['01 / HELIO','LIGHT · CITY · TIME'],.90,.32,-.1,2.03,-2.82,{w:1024,h:320,bg:'#345148',color:'#eadcc3',size:102});projectPlaque.userData.action='case';objects.push(projectPlaque);
+ box(.94,.36,.018,oak,-.1,2.03,-2.832,.005);localizedLabel(()=>['01 / HELIO',L('СВЕТ · ГОРОД · ВРЕМЯ','ЖАРЫҚ · ҚАЛА · УАҚЫТ','LIGHT · CITY · TIME')],.90,.32,-.1,2.03,-2.82,{w:1024,h:320,bg:'#345148',color:'#eadcc3',size:102});// The wall plaque is decorative; project actions belong to the monitor.
  for(const x of [-.54,.34]){const screw=cylinder(.007,.018,brass,x,2.17,-2.81);screw.rotation.x=Math.PI/2;}
  // The notebook is the single developer/experience object; constrained cover hinge.
  const folder=new T.Group();folder.position.set(-.46,.843,-1.80);folder.rotation.y=.14;scene.add(folder);
  const leather=new T.MeshStandardMaterial({color:'#526252',roughness:.87});
  box(.32,.025,.26,leather,0,.012,0,.004,folder);box(.295,.021,.242,paper,0,.031,0,.002,folder);
- const page=label(['B. ZIKIRIN','FRONTEND / ASTANA','2025 — 2026'],.27,.21,0,.044,0,{w:800,h:600,bg:'#e9e1cb',color:'#3c5246',size:65},folder);page.rotation.x=-Math.PI/2;
+ const page=localizedLabel(()=>[L('Б. ЗИКИРИН','Б. ЗИКИРИН','B. ZIKIRIN'),L('FRONTEND / АСТАНА','FRONTEND / АСТАНА','FRONTEND / ASTANA'),'2025 — 2026'],.27,.21,0,.044,0,{w:800,h:600,bg:'#e9e1cb',color:'#3c5246',size:65},folder);page.rotation.x=-Math.PI/2;
  const cover=new T.Group();cover.position.set(-.16,.046,0);folder.add(cover);
  const lid=box(.32,.01,.26,leather,.16,0,0,.003,cover);lid.userData.action='profile';objects.push(lid);
- const coverText=label(['FIELD NOTES','BAKHTIYAR ZIKIRIN'],.25,.19,.16,.007,0,{w:800,h:500,bg:'#526252',color:'#ddd2b6',size:68},cover);coverText.rotation.x=-Math.PI/2;coverText.userData.action='profile';objects.push(coverText);
+ const coverText=localizedLabel(()=>[L('ЗАМЕТКИ','ЖАЗБАЛАР','FIELD NOTES'),L('БАХТИЯР ЗИКИРИН','БАҚТИЯР ЗИКИРИН','BAKHTIYAR ZIKIRIN')],.25,.19,.16,.007,0,{w:800,h:500,bg:'#526252',color:'#ddd2b6',size:68},cover);coverText.rotation.x=-Math.PI/2;coverText.userData.action='profile';objects.push(coverText);
  const contacts=new T.Group();contacts.position.set(2.53,.687,-.24);contacts.rotation.y=-Math.PI/2;contacts.userData.action='contacts';scene.add(contacts);
  box(.51,.018,.20,dark,0,.009,0,.008,contacts);box(.48,.35,.027,cream,0,.19,-.018,.008,contacts);
- const contactsLabel=label(['CV / CONTACT','BAKHTIYAR ZIKIRIN'],.44,.30,0,.20,0,{w:1024,h:700,bg:'#d8cfbc',color:'#2a483c',size:100},contacts);objects.push(contacts);
+ const contactsLabel=localizedLabel(()=>[L('РЕЗЮМЕ / СВЯЗЬ','ТҮЙІНДЕМЕ / БАЙЛАНЫС','CV / CONTACT'),L('БАХТИЯР ЗИКИРИН','БАҚТИЯР ЗИКИРИН','BAKHTIYAR ZIKIRIN')],.44,.30,0,.20,0,{w:1024,h:700,bg:'#d8cfbc',color:'#2a483c',size:100},contacts);objects.push(contacts);
  const gallery=[];
- for(let i=0;i<2;i++){const g=new T.Group();g.position.set(2.94,1.66,-1.02+i*1.25);g.rotation.y=-Math.PI/2;g.userData.action=i?'poslesvet':'keyform';scene.add(g);box(.89,.64,.038,oak,0,0,0,.008,g);const pic=new T.Mesh(new T.PlaneGeometry(.83,.519),new T.MeshBasicMaterial({map:galleryMaps[i],toneMapped:false}));pic.position.z=.022;g.add(pic);label([i?'POSLESVET':'KEYFORM'],.76,.10,0,-.265,.024,{w:1024,h:180,bg:'#b49165',color:'#1e362e',size:100},g);objects.push(g);gallery.push(g);}
+ for(let i=0;i<2;i++){const g=new T.Group();g.position.set(2.94,1.66,-1.02+i*1.25);g.rotation.y=-Math.PI/2;g.userData.action=i?'poslesvet':'keyform';scene.add(g);box(.89,.64,.038,oak,0,0,0,.008,g);const pic=new T.Mesh(new T.PlaneGeometry(.83,.519),new T.MeshBasicMaterial({map:galleryMaps[i],toneMapped:false}));pic.position.z=.022;g.add(pic);localizedLabel(()=>[i?L('ПОСЛЕСВЕТ','ПОСЛЕСВЕТ','POSLESVET'):'KEYFORM'],.76,.10,0,-.265,.024,{w:1024,h:180,bg:'#b49165',color:'#1e362e',size:100},g);objects.push(g);gallery.push(g);}
  const lightPos=new T.Vector3(1.32,1.51,-1.94);
  const taskLight=new T.SpotLight('#ffcf8a',14,3.5,.68,.55,1.7);taskLight.position.copy(lightPos);taskLight.target.position.set(.84,.81,-1.64);taskLight.castShadow=true;taskLight.shadow.mapSize.set(1024,1024);taskLight.shadow.bias=-.0003;taskLight.shadow.normalBias=.01;scene.add(taskLight,taskLight.target);
  // Separate wired pull switch: porcelain body, brass mechanism, cord exit and bounded travel.
@@ -163,8 +164,8 @@ export async function createWorld(renderer,camera){
  cordLine.userData.action='lamp';
  const cordGrip=cylinder(.017,.072,brass,0,-.434,0,cord);cordGrip.userData.action='lamp';objects.push(cordGrip);
  const cordHit=box(.14,.20,.10,new T.MeshBasicMaterial({visible:false}),0,-.425,0,0,cord);cordHit.userData.action='lamp';objects.push(cordHit);
- const switchLabel=label([], .18,.12,1.25,1.48,-2.83);
- const localize=()=>{contactsLabel.material.map?.dispose();contactsLabel.material.map=textMap([L('РЕЗЮМЕ / СВЯЗЬ','ТҮЙІНДЕМЕ / БАЙЛАНЫС','CV / CONTACT'),'BAKHTIYAR ZIKIRIN'],{w:1024,h:700,bg:'#d8cfbc',color:'#2a483c',size:78});contactsLabel.material.needsUpdate=true;switchLabel.material.map?.dispose();switchLabel.material.map=textMap([L('ТЯНИТЕ','ТАРТЫҢЫЗ','PULL'),L('СВЕТ','ЖАРЫҚ','LIGHT')],{w:512,h:320,bg:'#d9d2bc',color:'#354e43',size:64});switchLabel.material.needsUpdate=true};localize();
+ localizedLabel(()=>[L('ТЯНИТЕ','ТАРТЫҢЫЗ','PULL'),L('СВЕТ','ЖАРЫҚ','LIGHT')],.18,.12,1.25,1.48,-2.83,{w:512,h:320,bg:'#d9d2bc',color:'#354e43',size:64});
+ const localize=()=>{for(const {o,lines,options}of localizedLabels){const next=textMap(lines(),options);o.material.map.image=next.image;o.material.map.needsUpdate=true;next.dispose()}};localize();
  const fill=new T.HemisphereLight('#d2e2e7','#666459',.48);scene.add(fill);
 
  const entryLight=new T.SpotLight('#fff0da',10,6,1.15,.8,2);entryLight.position.set(0,2.93,2.9);entryLight.target.position.set(0,.1,3.6);scene.add(entryLight,entryLight.target);
@@ -223,7 +224,7 @@ export async function createWorld(renderer,camera){
   const sideTop=new T.Box3().setFromObject(sideTable).max.y;
  // A quiet, original paper study on the reading table; no fake interactive controls.
  box(.29,.012,.22,paper,-2.03,sideTop+.009,.17,.003);
- const study=label(['INTERFACE NOTES','01 / STATE   02 / DATA'],.25,.18,-2.03,sideTop+.017,.17,{w:800,h:500,bg:'#e9e1cb',color:'#3c5246',size:72});study.rotation.x=-Math.PI/2;
+ const study=localizedLabel(()=>[L('ИНТЕРФЕЙСЫ','ИНТЕРФЕЙСТЕР','INTERFACE NOTES'),L('01 / СОСТОЯНИЕ   02 / ДАННЫЕ','01 / КҮЙ   02 / ДЕРЕКТЕР','01 / STATE   02 / DATA')],.25,.18,-2.03,sideTop+.017,.17,{w:800,h:500,bg:'#e9e1cb',color:'#3c5246',size:72});study.rotation.x=-Math.PI/2;
 
   daylight.prepare();scene.updateMatrixWorld(true);changed();};
  })}
