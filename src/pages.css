@@ -106,3 +106,17 @@ body.gallery-open { overflow: hidden; }
 @media (prefers-reduced-motion: reduce) { .project-preview img { transition: none; }.project-preview:hover img { transform: none; } }
 
 .room-entry { display: inline-flex; align-items: center; gap: .5rem; min-height: 44px; margin-top: .8rem; font-size: .875rem; color: var(--muted); }
+
+/* Keep the primary actions, contact and studio on distinct, aligned rows. */
+.home-hero .hero-actions { display: grid; justify-items: start; gap: 1rem; min-width: 0; margin-top: 1.65rem; }
+.home-hero .hero-actions > * { grid-column: auto; grid-row: auto; margin: 0; min-width: 0; max-width: 100%; }
+.home-hero .hero-actions .hero-links { gap: 1rem 1.5rem; }
+.home-hero .hero-actions .room-entry { white-space: normal; }
+.scene-disclosure-icon::before { content: '+'; }
+.scene-disclosure[open] .scene-disclosure-icon::before { content: '\2212'; }
+@media (min-width: 761px) and (max-width: 900px) {
+ .home-hero .hero-actions { grid-column: 2; grid-row: 3 / span 3; margin-top: .8rem; }
+}
+@media (max-width: 760px) {
+ .home-hero .hero-actions { margin-top: 1.4rem; }
+}

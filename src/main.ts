@@ -133,11 +133,13 @@ if (document.querySelector('#sample-fix')) {
 }
 const diagram = document.querySelector<HTMLDetailsElement>('#scene-disclosure');
 let controlsRequested = false;
-diagram?.addEventListener('toggle', () => {
-  if (!diagram.open || controlsRequested) return;
+function requestDiagramControls() {
+  if (!diagram?.open || controlsRequested) return;
   controlsRequested = true;
   import('./scene-controls').then(({ initSceneControls }) => initSceneControls()).catch(showSceneFallback);
-});
+}
+diagram?.addEventListener('toggle', requestDiagramControls);
+requestDiagramControls();
 function revealHash() {
   let id: string; try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
   const target = document.getElementById(id);
