@@ -465,9 +465,10 @@
   "v13.fit": "Сыйғызу",
   "v13.openFile": "Файлды ашу",
   "v13.imageRegion": "Сурет: егжей-тегжей режимінде айналдыруға болады",
-  "room.open": "3D студияны ашу",
+  "room.open": "3D бөлмені зерттеу",
   "contact.copyEmail": "Email көшіру",
   "contact.emailCopied": "Email көшірілді",
   "contact.copyManual": "Белгіленген мекенжайды қолмен көшіріңіз.",
-  "contact.copyAddress": "Көшіруге арналған email"
+  "contact.copyAddress": "Көшіруге арналған email",
+  "room.hint": "Интерактивті студиядағы жобалар"
 }

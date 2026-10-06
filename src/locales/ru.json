@@ -465,9 +465,10 @@
   "v13.fit": "Уместить",
   "v13.openFile": "Открыть файл",
   "v13.imageRegion": "Изображение: в режиме деталей можно прокручивать",
-  "room.open": "Открыть 3D-студию",
+  "room.open": "Исследовать 3D-комнату",
   "contact.copyEmail": "Скопировать email",
   "contact.emailCopied": "Email скопирован",
   "contact.copyManual": "Скопируйте выделенный адрес вручную.",
-  "contact.copyAddress": "Email для копирования"
+  "contact.copyAddress": "Email для копирования",
+  "room.hint": "Проекты в интерактивной студии"
 }

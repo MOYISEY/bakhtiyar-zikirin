@@ -465,9 +465,10 @@
   "v13.fit": "Fit image",
   "v13.openFile": "Open image",
   "v13.imageRegion": "Image: scroll to explore in detail mode",
-  "room.open": "Explore the 3D studio",
+  "room.open": "Explore the 3D room",
   "contact.copyEmail": "Copy email",
   "contact.emailCopied": "Email copied",
   "contact.copyManual": "Copy the selected address manually.",
-  "contact.copyAddress": "Email address to copy"
+  "contact.copyAddress": "Email address to copy",
+  "room.hint": "Projects in an interactive studio"
 }
