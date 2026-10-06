@@ -4,8 +4,10 @@ import './restoration.css';
 import './pages.css';
 import { initPreferences, language, t } from './preferences';
 import { showSceneFallback } from './fallback';
+import { initProjectRail } from './project-rail';
 
 initPreferences();
+initProjectRail();
 const copyEmail = document.querySelector<HTMLButtonElement>('#copy-email');
 if (copyEmail) {
   const wrapper = copyEmail.closest<HTMLElement>('.email-copy')!;

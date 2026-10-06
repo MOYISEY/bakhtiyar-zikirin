@@ -470,5 +470,10 @@
   "contact.emailCopied": "Email скопирован",
   "contact.copyManual": "Скопируйте выделенный адрес вручную.",
   "contact.copyAddress": "Email для копирования",
-  "room.hint": "Проекты в интерактивной студии"
+  "room.hint": "Проекты в интерактивной студии",
+  "rail.hint": "Листайте проекты в сторону →",
+  "rail.previous": "Предыдущие проекты",
+  "rail.next": "Следующие проекты",
+  "rail.position": "Проекты",
+  "rail.label": "Лента проектов"
 }

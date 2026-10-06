@@ -168,3 +168,26 @@ html[data-theme=dark] .home-hero .hero-links > .room-entry:hover { background: #
  .home-hero .room-entry-copy strong { font-size: .82rem; }
  .home-hero .room-entry-copy small { font-size: .68rem; }
 }
+
+/* Native horizontal browsing keeps all projects on the home page. */
+.project-rail-toolbar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .65rem 1rem; margin: -.3rem 0 1rem; }
+.project-rail-toolbar p { color: var(--muted); font-size: .85rem; line-height: 1.5; }
+.project-rail-controls { display: flex; align-items: center; gap: .5rem; }
+.project-rail-controls[hidden] { display: none; }
+#project-rail-position { min-width: 9em; font-size: .75rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.project-rail-controls button { display: grid; place-items: center; width: 44px; height: 44px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); font: inherit; font-size: 1.2rem; cursor: pointer; }
+.project-rail-controls button:hover:not(:disabled) { background: var(--hover); }
+.project-rail-controls button:disabled { opacity: .4; cursor: default; }
+.project-rail { display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 4.5rem) / 3.15); gap: 1.5rem; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scroll-padding: 0; padding: 4px 0 1rem; scrollbar-width: thin; scrollbar-color: var(--teal) var(--surface); cursor: grab; }
+.project-rail:focus-visible { outline: 2px solid var(--teal); outline-offset: 5px; }
+.project-rail > .visual-card { scroll-snap-align: start; display: flex; flex-direction: column; }
+.project-rail .visual-card-copy { display: flex; flex-direction: column; flex: 1; }
+.project-rail .card-actions { margin-top: auto; padding-top: 1.1rem; }
+.project-rail .project-preview { flex: 0 0 auto; }
+.project-rail.is-dragging { scroll-snap-type: none; cursor: grabbing; user-select: none; }
+.project-rail.is-dragging * { cursor: grabbing; }
+.project-rail.is-dragging img { transform: none; }
+.project-rail-footer { display: flex; justify-content: flex-end; margin-top: .55rem; }
+.project-rail-footer a { display: inline-flex; gap: .5rem; align-items: center; min-height: 44px; font-size: .8rem; color: var(--muted); }
+@media (max-width: 1100px) { .project-rail { grid-auto-columns: calc((100% - 3rem) / 2.12); } }
+@media (max-width: 760px) { .project-rail { grid-auto-columns: 88%; gap: 1rem; }.project-rail-toolbar { align-items: flex-start; }.project-rail .visual-card-copy { padding: 1rem; } }

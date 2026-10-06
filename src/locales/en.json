@@ -470,5 +470,10 @@
   "contact.emailCopied": "Email copied",
   "contact.copyManual": "Copy the selected address manually.",
   "contact.copyAddress": "Email address to copy",
-  "room.hint": "Projects in an interactive studio"
+  "room.hint": "Projects in an interactive studio",
+  "rail.hint": "Scroll sideways to explore →",
+  "rail.previous": "Previous projects",
+  "rail.next": "Next projects",
+  "rail.position": "Projects",
+  "rail.label": "Project strip"
 }
