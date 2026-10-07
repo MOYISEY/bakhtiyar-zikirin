@@ -6,19 +6,22 @@ export function createWeather(scene,sky){
  const fogColor=new T.Color('#aabfc3');
  scene.fog=new T.Fog(fogColor,115,620);
  const root=new T.Group();root.name='Exterior_rain_and_haze';scene.add(root);
- const cloud=new T.ShaderMaterial({side:T.BackSide,depthWrite:false,uniforms:{sky:{value:sky},haze:{value:fogColor}},vertexShader:`
+ const cloud=new T.ShaderMaterial({side:T.BackSide,depthWrite:false,uniforms:{sky:{value:sky},haze:{value:fogColor},hazeOutput:{value:fogColor.clone().convertLinearToSRGB()}},vertexShader:`
   varying vec2 vUv; varying vec3 vDirection;
   void main(){vUv=uv;vDirection=normalize(position);gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}
  `,fragmentShader:`
-  uniform sampler2D sky; uniform vec3 haze; varying vec2 vUv; varying vec3 vDirection;
+  uniform sampler2D sky; uniform vec3 haze; uniform vec3 hazeOutput; varying vec2 vUv; varying vec3 vDirection;
   void main(){
    vec3 source=texture2D(sky,vec2(fract(vUv.x+.11),vUv.y)).rgb;
    float gray=dot(source,vec3(.2126,.7152,.0722));
-   vec3 overcast=mix(haze*.82,vec3(gray)*.66+haze*.24,.26);
-   float high=smoothstep(-.015,.42,vDirection.y);
-   gl_FragColor=vec4(mix(haze,overcast,high),1.);
+   vec3 overcast=mix(haze*.70,vec3(gray)*.80+haze*.15,.52);
+   float high=smoothstep(.025,.38,vDirection.y);
+   gl_FragColor=vec4(overcast,1.);
    #include <tonemapping_fragment>
    #include <colorspace_fragment>
+   // Three applies fog after tone mapping, in output color space. Match that
+   // exact endpoint so fully fogged terrain/buildings cannot leave silhouettes.
+   gl_FragColor.rgb=mix(hazeOutput,gl_FragColor.rgb,high);
   }
  `});
  const dome=new T.Mesh(new T.SphereGeometry(4400,32,16),cloud);dome.name='Overcast_horizon';dome.renderOrder=-10;root.add(dome);
@@ -60,8 +63,8 @@ export function createWeather(scene,sky){
  function animate(dt,camera,paused){
   frustum.setFromProjectionMatrix(matrix.multiplyMatrices(camera.projectionMatrix,camera.matrixWorldInverse));visible=frustum.intersectsBox(windowBounds);
   if(paused||!visible){accumulator=0;return false}
-  accumulator+=dt;if(accumulator<1/30)return false;
+  accumulator+=dt;if(accumulator<1/24)return false;
   elapsed+=accumulator;accumulator=0;rainMaterial.uniforms.time.value=elapsed;animatedFrames++;return true;
  }
- return{animate,inspect:()=>({fogNear:115,fogFar:620,rainCount:count,glassBeads:95,animatedFrames,time:elapsed,windowVisible:visible,maxRainFPS:30,extraDrawCalls:3,audioChanged:false})};
+ return{animate,inspect:()=>({fogNear:115,fogFar:620,rainCount:count,glassBeads:95,animatedFrames,time:elapsed,windowVisible:visible,maxRainFPS:24,extraDrawCalls:3,audioChanged:false})};
 }

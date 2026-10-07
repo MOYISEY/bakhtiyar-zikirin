@@ -1,22 +1,24 @@
 import * as T from 'three';
 import {createWorld} from './world.js';
 import {RoomAudio} from './audio.js';
-import {$,L,attachApp,openPanel} from './ui.js';
+import {$,L,attachApp,openPanel,weatherText} from './ui.js';
 const canvas=$('#scene'),renderer=new T.WebGLRenderer({canvas,antialias:true,powerPreference:'high-performance'});
 renderer.setPixelRatio(Math.min(devicePixelRatio,1.75));renderer.shadowMap.enabled=true;renderer.shadowMap.type=T.PCFShadowMap;renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.05;
 const camera=new T.PerspectiveCamera(52,innerWidth/innerHeight,.05,6000),world=await createWorld(renderer,camera),scene=world.scene;
 let storage;try{storage=localStorage}catch{}const audio=new RoomAudio(storage);audio.setRain(false);
 const captureMode=new URLSearchParams(location.search).has('capture');let captureFrozen=false,captureReferenceFraming=false;
+let rainPaused=false;try{rainPaused=storage?.getItem('room-weather-motion-v1')==='paused'}catch{}
 const reduced=captureMode?{matches:true}:matchMedia('(prefers-reduced-motion: reduce)');const ray=new T.Raycaster(),mouse=new T.Vector2(),look=new T.Vector3();
+let lastReduced=reduced.matches;
 let firstFrameAt=null,fullSceneAt=null,doorNear=false,preExit=false,viewName='desk',progress=0,target=0,lookX=0,lookY=0,moveX=0,moveZ=0,pointer=null,dragging=false,pull=0,pullVelocity=0,pullTriggered=false,light=true,brightness=1,folder=0,folderTarget=0,dirty=true,last=performance.now(),frameCount=0,renderCount=0;
 const mobile=()=>innerWidth/innerHeight<.82,clamp=T.MathUtils.clamp,smooth=(v)=>v*v*(3-2*v);
 const path=new T.CatmullRomCurve3([new T.Vector3(0,1.60,9.55),new T.Vector3(.02,1.57,5.20),new T.Vector3(.04,1.55,1.60),new T.Vector3(.40,1.50,1.15),new T.Vector3(.65,1.60,1.50)]);
 // Stop outside the door's sweep until the physical opening is clear.
 const doorStopProgress=(()=>{let lo=0,hi=.8;for(let i=0;i<24;i++){const mid=(lo+hi)/2;if(path.getPoint(smooth(mid)).z>2.65)lo=mid;else hi=mid}return lo})();
 let activeHotspot=null,pointerHotspot=null,focusHotspot=null,leaveTimer=null,keyboardMode=false;
-const api={hold:false,audio,localize(){world.localize();streamStatus();renderHotspot();dirty=true},go(value,gesture=false){if(!window.sliceUsable)return;preExit=value<.5&&progress>.96&&!reduced.matches;viewName='desk';target=clamp(value,0,1);lookX=lookY=moveX=moveZ=0;if(target>.4){if(gesture)audio.enter(true);else audio.setInside(true)}else audio.setInside(false);dirty=true},view(name){api.go(1,true);viewName=name;lookX=0;dirty=true},pull(){toggleLight();pull=.09;pullVelocity=0;dirty=true},folder(){folderTarget=folderTarget>.5?0:1;dirty=true}};
+const api={hold:false,audio,get rainPaused(){return rainPaused},get rainMotionBlocked(){return reduced.matches},toggleRainMotion(){rainPaused=!rainPaused;try{storage?.setItem('room-weather-motion-v1',rainPaused?'paused':'playing')}catch{}weatherText();dirty=true},localize(){world.localize();streamStatus();renderHotspot();dirty=true},go(value,gesture=false){if(!window.sliceUsable)return;preExit=value<.5&&progress>.96&&!reduced.matches;viewName='desk';target=clamp(value,0,1);lookX=lookY=moveX=moveZ=0;if(target>.4){if(gesture)audio.enter(true);else audio.setInside(true)}else audio.setInside(false);dirty=true},view(name){api.go(1,true);viewName=name;lookX=0;dirty=true},pull(){toggleLight();pull=.09;pullVelocity=0;dirty=true},folder(){folderTarget=folderTarget>.5?0:1;dirty=true}};
 function toggleLight(){$('#object-lamp').classList.remove('cord-guide-visible');light=!light;audio.effect();for(const id of ['#lamp-button','#object-lamp'])$(id).setAttribute('aria-pressed',String(light));dirty=true}
-attachApp(api);
+attachApp(api);reduced.addEventListener?.('change',()=>{weatherText();dirty=true});
 function streamStatus(){
  const state=world.inspectStream(),box=$('#stream-status');box.hidden=state.ready;
  const names={room:L('Комната','Бөлме','Room'),decor:L('Предметы','Заттар','Objects'),expo:L('Вид из окна','Терезе көрінісі','Window view')};
@@ -50,7 +52,7 @@ function clearHotspots(){clearTimeout(leaveTimer);pointerHotspot=focusHotspot=nu
 document.addEventListener('keydown',()=>{keyboardMode=true;clearTimeout(leaveTimer);pointerHotspot=null;const el=document.activeElement;focusHotspot=el?.classList.contains('object-action')?el.id.slice(7):null;renderHotspot()},true);
 document.addEventListener('pointerdown',()=>{keyboardMode=false;clearHotspots()},true);
 window.addEventListener('room-scene-disabled',()=>{if(pointer)release({pointerId:pointer.id},true);keyboardMode=false;$('#object-lamp').classList.remove('cord-guide-visible','pulling');clearHotspots();canvas.style.cursor='default'});
-window.addEventListener('room-scene-ready',()=>{dirty=true;updateActions()});
+window.addEventListener('room-scene-ready',()=>{dirty=true;updateActions();weatherText()});
 window.addEventListener('room-panel-open',clearHotspots);
 window.addEventListener('room-actions',()=>{if(!$('#controls').hidden)clearHotspots();else renderHotspot()});
 $('#panel').addEventListener('close',renderHotspot);
@@ -149,16 +151,17 @@ canvas.addEventListener('keydown',e=>{if(!window.sliceUsable)return;if(api.hold|
 canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();window.sliceFail()});
 function frame(time){const dt=Math.min((time-last)/1000,.04);last=time;cameraDelta=dt;requestAnimationFrame(frame);frameCount++;if(document.hidden||captureFrozen||window.sliceFatal)return;
  if(world.preparingGPU)return;
+ if(lastReduced!==reduced.matches){lastReduced=reduced.matches;weatherText();dirty=true}
  const allowedTarget=!world.studioReady?0:target>progress&&world.door.rotation.y<1.70?Math.min(target,doorStopProgress):target;
  let moving=Math.abs(progress-allowedTarget)>.0001||Math.abs(brightness-(light?1:0))>.0001||Math.abs(folder-folderTarget)>.0001||pull>.0001||Math.abs(pullVelocity)>.0001||Math.abs(world.door.rotation.y-(doorNear?1.77:.04))>.0001;
  if(!api.hold&&!preExit){const allowed=allowedTarget,next=T.MathUtils.damp(progress,allowed,6.5,dt);progress=reduced.matches?allowed:progress+clamp(next-progress,-.02,.02);if(Math.abs(progress-allowed)<.0001)progress=allowed}
  brightness=T.MathUtils.damp(brightness,light?1:0,10,dt);folder=T.MathUtils.damp(folder,folderTarget,reduced.matches?30:10,dt);
  if(pointer?.kind!=='lamp'){pullVelocity+=(-pull*180-pullVelocity*22)*dt;pull=clamp(pull+pullVelocity*dt,0,.12);if(pull<.0001&&Math.abs(pullVelocity)<.002){pull=pullVelocity=0}}
  world.cordLine.scale.y=1+pull/.4;world.cordLine.position.y=-(.4+pull)/2;world.cordGrip.position.y=-.434-pull;world.cord.rotation.z=reduced.matches?0:pullVelocity*.025;world.cover.rotation.z=folder*1.95;world.taskLight.intensity=14*brightness;if(world.lightSurface){const mats=Array.isArray(world.lightSurface.material)?world.lightSurface.material:[world.lightSurface.material];for(const m of mats)if(m.emissive)m.emissiveIntensity=brightness*1.2}
- const weatherMoving=world.exterior?.weather?.animate(dt,camera,reduced.matches||api.hold);
+ const weatherMoving=world.exterior?.weather?.animate(dt,camera,reduced.matches||rainPaused||api.hold);
  if(dirty||moving||cameraSettling>0||weatherMoving){if(dirty)cameraSettling=90;else if(cameraSettling>0)cameraSettling--;updateCamera();world.daylight.update();world.exterior?.update?.(camera);scene.updateMatrixWorld();renderer.render(scene,camera);renderCount++;if(renderCount===1){firstFrameAt=performance.now();world.allowAssembly()}dirty=false}
 }
-window.__SLICE__={inspect:()=>({firstFrameAt,fullSceneAt,doorNear,doorStopProgress,window:world.inspectWindow(),weather:world.exterior?.weather?.inspect(),stream:world.inspectStream(),cameraClear:world.clearance(camera.position),viewName,progress,target,doorAngle:world.door.rotation.y,camera:camera.position.toArray(),look:[lookX,lookY],move:[moveX,moveZ],lamp:light,brightness,pull,folder,held:api.hold,pointerKind:pointer?.kind||null,pullThreshold:.065,pullLimit:.12,office:world.office,assets:world.assetInfo,drawCalls:renderer.info.render.calls,triangles:renderer.info.render.triangles,frames:frameCount,renders:renderCount,audio:audio.inspect()}),points:()=>Object.fromEntries(world.objects.map(o=>{const p=new T.Box3().setFromObject(o).getCenter(new T.Vector3()).project(camera);return[o.userData.action,{x:(p.x+1)*innerWidth/2,y:(1-p.y)*innerHeight/2}]})),cord:()=>{const project=o=>{const p=o.getWorldPosition(new T.Vector3()).project(camera);return{x:(p.x+1)*innerWidth/2,y:(1-p.y)*innerHeight/2}};return{top:project(world.cordRoot),grip:project(world.cordGrip)}},get ready(){return world.studioReady&&window.sliceUsable}};
+window.__SLICE__={inspect:()=>({firstFrameAt,fullSceneAt,doorNear,doorStopProgress,window:world.inspectWindow(),weather:{...world.exterior?.weather?.inspect(),paused:rainPaused,reduced:reduced.matches},stream:world.inspectStream(),cameraClear:world.clearance(camera.position),viewName,progress,target,doorAngle:world.door.rotation.y,camera:camera.position.toArray(),look:[lookX,lookY],move:[moveX,moveZ],lamp:light,brightness,pull,folder,held:api.hold,pointerKind:pointer?.kind||null,pullThreshold:.065,pullLimit:.12,office:world.office,assets:world.assetInfo,drawCalls:renderer.info.render.calls,triangles:renderer.info.render.triangles,frames:frameCount,renders:renderCount,audio:audio.inspect()}),points:()=>Object.fromEntries(world.objects.map(o=>{const p=new T.Box3().setFromObject(o).getCenter(new T.Vector3()).project(camera);return[o.userData.action,{x:(p.x+1)*innerWidth/2,y:(1-p.y)*innerHeight/2}]})),cord:()=>{const project=o=>{const p=o.getWorldPosition(new T.Vector3()).project(camera);return{x:(p.x+1)*innerWidth/2,y:(1-p.y)*innerHeight/2}};return{top:project(world.cordRoot),grip:project(world.cordGrip)}},get ready(){return world.studioReady&&window.sliceUsable}};
 // Explicit review-only capture mode freezes scene state, not just CSS animation.
 if(captureMode)window.__SLICE__.capture=async({view='corridor',yaw=0,pitch=0,x=0,z=0,assetsReady=true,baked=true,lampOn=true,referenceFraming=false}={})=>{
  if(assetsReady){world.prepare(true);const start=performance.now();while(!world.studioReady){if(performance.now()-start>90000)throw Error('Capture assets failed or timed out');await new Promise(r=>setTimeout(r,50))}}
