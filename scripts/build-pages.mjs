@@ -3,7 +3,7 @@ const fragments=JSON.parse(readFileSync('src/content/fragments.json','utf8'));
 const projects=JSON.parse(readFileSync('src/content/projects.json','utf8'));
 const responsiveMedia=JSON.parse(readFileSync('src/content/media.json','utf8'));
 const ru=JSON.parse(readFileSync('src/locales/ru.json','utf8'));
-const profileKeys=['about.intro','about.adoPeriod','about.adoBody','s166','s170',...['college','aiu'].flatMap(k=>['Period','Name','Body'].map(s=>'education.'+k+s))];
+const profileKeys=['about.intro','about.adoPeriod','about.iqadamPeriod','about.adoBody','s166','s170',...['college','aiu'].flatMap(k=>['Period','Name','Body'].map(s=>'education.'+k+s))];
 const profileData=Object.fromEntries(['ru','kk','en'].map(lang=>{const d=JSON.parse(readFileSync('src/locales/'+lang+'.json','utf8'));return[lang,Object.fromEntries(profileKeys.map(key=>[key,d[key]]))]}));
 writeFileSync('public/room/profile-data.js','export const PROFILE = '+JSON.stringify(profileData)+';\n');
 const esc=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
