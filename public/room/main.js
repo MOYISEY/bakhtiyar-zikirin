@@ -51,7 +51,7 @@ function pointHotspot(id){if(!window.sliceUsable||window.sliceFatal){clearHotspo
 function clearHotspots(){clearTimeout(leaveTimer);pointerHotspot=focusHotspot=null;renderHotspot()}
 document.addEventListener('keydown',()=>{keyboardMode=true;clearTimeout(leaveTimer);pointerHotspot=null;const el=document.activeElement;focusHotspot=el?.classList.contains('object-action')?el.id.slice(7):null;renderHotspot()},true);
 document.addEventListener('pointerdown',()=>{keyboardMode=false;clearHotspots()},true);
-window.addEventListener('room-scene-disabled',()=>{if(pointer)release({pointerId:pointer.id},true);keyboardMode=false;$('#object-lamp').classList.remove('cord-guide-visible','pulling');clearHotspots();canvas.style.cursor='default'});
+window.addEventListener('room-scene-disabled',()=>{audio.setInside(false);audio.pauseForPage();if(pointer)release({pointerId:pointer.id},true);keyboardMode=false;$('#object-lamp').classList.remove('cord-guide-visible','pulling');clearHotspots();canvas.style.cursor='default'});
 window.addEventListener('room-scene-ready',()=>{dirty=true;updateActions();weatherText()});
 window.addEventListener('room-panel-open',clearHotspots);
 window.addEventListener('room-actions',()=>{if(!$('#controls').hidden)clearHotspots();else renderHotspot()});
