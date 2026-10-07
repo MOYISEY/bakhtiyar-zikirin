@@ -478,5 +478,14 @@
   "rail.label": "Жобалар таспасы",
   "room.heroAlt": "Бақтиярдың 3D студиясы: жұмыс үстелі, терезе және қабырғадағы жобалар.",
   "room.heroCaption": "3D студия · бөлмеден алынған нақты кадр",
-  "room.heroOpen": "Бөлмені ашу"
+  "room.heroOpen": "Бөлмені ашу",
+  "about.intro": "Астанадағы frontend әзірлеуші. React және TypeScript арқылы интерфейстер әзірлеп, API қосамын. Пайдаланушы сценарийлері мен деректердің сақталуын тексеремін.",
+  "about.adoPeriod": "Мамыр 2025 — маусым 2025",
+  "about.adoBody": "React, Material UI және Tailwind CSS арқылы қайта қолданылатын UI компоненттерін әзірледім. REST API-ды Postman арқылы тексеріп, интерфейс қателерін түзеттім.",
+  "education.collegePeriod": "Бітірген жылы · 2026",
+  "education.collegeName": "Astana IT University колледжі",
+  "education.collegeBody": "Арнаулы орта білім.",
+  "education.aiuPeriod": "2026 жылдан бастап",
+  "education.aiuName": "Astana International University",
+  "education.aiuBody": "Ақпараттық технологиялар. Бірінші курс, колледжден кейінгі қысқартылған күндізгі оқу бағдарламасы."
 }

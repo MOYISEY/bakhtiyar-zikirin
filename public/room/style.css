@@ -79,3 +79,12 @@ body:has(#loading:not([hidden])) header{background:none}body:has(#loading:not([h
 #panel-toolbar { position: relative; flex-shrink: 0; }
 #panel-body { min-height: 0; overflow-y: auto; overscroll-behavior: contain; scroll-padding-top: 12px; }
 #panel-body:focus-visible { outline: 2px solid #315246; outline-offset: -4px; }
+
+.profile-education { margin-top: 28px; border-top: 1px solid #70837355; padding-top: 22px; }
+.profile-education > h2 { font-size: 24px; margin: 0 0 16px; }
+.profile-education article { border: 1px solid #b4bdab; border-left: 3px solid #315246; background: #e7eadf; padding: 16px 18px; margin-top: 12px; color: #263c32; }
+.profile-education h3 { font-size: 18px; line-height: 1.35; margin: 8px 0; }
+#panel-body .profile-education .date { font-size: 13px; color: #315246; margin: 0; }
+#panel-body .profile-education article > p:last-child { font-size: 14px; line-height: 1.6; margin-bottom: 0; }
+@media(max-width:600px){.profile-education article { padding: 14px; }.profile-education h3 { font-size: 17px; }}
+#panel-body .timeline .date { color: #526357; }

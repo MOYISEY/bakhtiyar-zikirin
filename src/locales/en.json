@@ -478,5 +478,14 @@
   "rail.label": "Project strip",
   "room.heroAlt": "Bakhtiyar’s 3D studio: a desk, a window and projects on the wall.",
   "room.heroCaption": "3D studio · captured in the room",
-  "room.heroOpen": "Open the room"
+  "room.heroOpen": "Open the room",
+  "about.intro": "Frontend developer in Astana. I build interfaces with React and TypeScript and integrate APIs. I test user flows and verify that data is saved correctly.",
+  "about.adoPeriod": "May 2025 — June 2025",
+  "about.adoBody": "Built reusable UI components with React, Material UI and Tailwind CSS. Tested REST APIs in Postman and fixed interface bugs.",
+  "education.collegePeriod": "Graduated · 2026",
+  "education.collegeName": "Astana IT University College",
+  "education.collegeBody": "Secondary vocational education.",
+  "education.aiuPeriod": "Since 2026",
+  "education.aiuName": "Astana International University",
+  "education.aiuBody": "Information technology. First year of a shortened full-time program after college."
 }

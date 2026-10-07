@@ -478,5 +478,14 @@
   "rail.label": "Лента проектов",
   "room.heroAlt": "3D-студия Бахтияра: рабочий стол, окно и проекты на стене.",
   "room.heroCaption": "3D-студия · реальный кадр из комнаты",
-  "room.heroOpen": "Открыть комнату"
+  "room.heroOpen": "Открыть комнату",
+  "about.intro": "Frontend-разработчик из Астаны. Разрабатываю интерфейсы на React и TypeScript, подключаю API. Проверяю пользовательские сценарии и сохранение данных.",
+  "about.adoPeriod": "Май 2025 — июнь 2025",
+  "about.adoBody": "Разрабатывал переиспользуемые UI-компоненты на React, Material UI и Tailwind CSS. Проверял REST API в Postman и исправлял ошибки интерфейса.",
+  "education.collegePeriod": "Выпуск · 2026",
+  "education.collegeName": "Колледж Astana IT University",
+  "education.collegeBody": "Среднее специальное образование.",
+  "education.aiuPeriod": "С 2026",
+  "education.aiuName": "Astana International University",
+  "education.aiuBody": "Информационные технологии. Первый курс, очная сокращённая программа после колледжа."
 }

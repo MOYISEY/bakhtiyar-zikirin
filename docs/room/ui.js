@@ -1,3 +1,4 @@
+import {PROFILE} from './profile-data.js';
 import {PROJECTS} from './projects-data.js';
 export const $=s=>document.querySelector(s);
 export let lang=document.documentElement.lang;
@@ -21,6 +22,7 @@ export function translate(){
  $('#close').ariaLabel=L('Закрыть','Жабу','Close');$('#sound').textContent=L('Включить звук','Дыбысты қосу','Enable sound');audioText();
 }
 export function audioText(){if(!app)return;const a=app.audio.inspect(),on=a.state==='running'&&!a.preferences.muted;$('#sound').textContent=on?L('Звук вкл.','Дыбыс қосулы','Sound on'):L('Включить звук','Дыбысты қосу','Enable sound');$('#sound').setAttribute('aria-pressed',String(on));}
+const profile=key=>PROFILE[lang]?.[key]||PROFILE.en[key]||'';
 const tx=value=>value?.[lang]||value?.en||'';
 const title=p=>p.id==='poslesvet'?L('Послесвет','Послесвет','Poslesvet'):p.title;
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -36,10 +38,11 @@ export function openPanel(type,from,preserve=false){
  else if(type==='contacts')body=`<p class="eyebrow">${L('На связи','Байланыста','Get in touch')}</p><h1 id="panel-title" tabindex="-1">${L('Резюме и контакты','Түйіндеме және байланыс','Resume and contact')}</h1><p class="lead">${L('Бахтияр Зикирин','Бақтияр Зикирин','Bakhtiyar Zikirin')}</p><p>Frontend · ${L('Астана','Астана','Astana')}</p><div class="case-links"><a href="https://moyisey.github.io/bakhtiyar-zikirin/files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf" target="_blank" rel="noopener noreferrer">${L('Резюме · PDF','Түйіндеме · PDF','Resume · PDF')} ↗</a><a href="mailto:b.zikirin@gmail.com">b.zikirin@gmail.com ↗</a></div>`;
  else body=`
  <p class="eyebrow">${L('Разработчик / опыт','Әзірлеуші / тәжірибе','Developer / experience')}</p><h1 id="panel-title" tabindex="-1">${L('Бахтияр Зикирин','Бақтияр Зикирин','Bakhtiyar Zikirin')}</h1>
- <p class="lead">${L('Frontend-разработчик из Астаны. Работаю с интерфейсами, логикой и данными — от интеграции API до интерактивных инструментов.','Астанадағы Frontend әзірлеуші. API интеграциясынан интерактивті құралдарға дейін интерфейс, логика және деректермен жұмыс істеймін.','Frontend developer in Astana. I work with interfaces, logic and data — from API integration to interactive tools.')}</p>
+ <p class="lead">${esc(profile('about.intro'))}</p>
  <p class="case-meta">React · Next.js · TypeScript · Python · Django · SQL</p>
  <article class="timeline"><p class="date">${L('Март — апрель 2026','Наурыз — сәуір 2026','March — April 2026')}</p><h2>IQadam Systems</h2><p>${L('Frontend-разработчик с функциями тестирования: frontend-модули, интеграция API и проверка приложения.','Frontend әзірлеу және тестілеу: frontend модульдері, API интеграциясы және қолданбаны тексеру.','Frontend development with testing responsibilities: frontend modules, API integration and application testing.')}</p></article>
- <article class="timeline"><p class="date">${L('Май — июнь 2025','Мамыр — маусым 2025','May — June 2025')}</p><h2>Astana Digital Outsource</h2><p>${L('Frontend Developer Trainee. React, Tailwind, MUI и подключение REST API.','Frontend Developer Trainee. React, Tailwind, MUI және REST API қосу.','Frontend Developer Trainee. React, Tailwind, MUI and REST API integration.')}</p></article>
+ <article class="timeline"><p class="date">${esc(profile('about.adoPeriod'))}</p><h2>Astana Digital Outsource</h2><p class="case-meta">${esc(profile('s166'))}</p><p>${esc(profile('about.adoBody'))}</p></article>
+ <section class="profile-education" aria-labelledby="profile-education-title"><h2 id="profile-education-title">${esc(profile('s170'))}</h2>${['college','aiu'].map(k=>`<article><p class="date">${esc(profile('education.'+k+'Period'))}</p><h3>${esc(profile('education.'+k+'Name'))}</h3><p>${esc(profile('education.'+k+'Body'))}</p></article>`).join('')}</section>
  `;
  $('#panel-body').innerHTML=body;$('#panel-body').scrollTop=0;
  for(const el of panel.querySelectorAll('[data-project]'))el.onclick=()=>openPanel(el.dataset.project);
