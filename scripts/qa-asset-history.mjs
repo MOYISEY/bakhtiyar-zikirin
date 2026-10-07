@@ -1,0 +1,28 @@
+import assert from 'node:assert/strict';
+import { execFileSync } from 'node:child_process';
+import { mkdtempSync, writeFileSync, readFileSync, existsSync, mkdirSync } from 'node:fs';
+import { join, resolve } from 'node:path';
+import { tmpdir } from 'node:os';
+const fixture=mkdtempSync(join(tmpdir(),'portfolio-asset-history-'));
+const builder=resolve('scripts/build-with-asset-history.mjs');
+const run=(cmd,args)=>execFileSync(cmd,args,{cwd:fixture,stdio:['ignore','pipe','pipe'],maxBuffer:16*1024*1024});
+const git=(...args)=>run('git',args);
+const build=()=>run(process.execPath,[builder]);
+const history=()=>JSON.parse(readFileSync(join(fixture,'docs/asset-history.json'),'utf8'));
+const setVersion=n=>{
+ writeFileSync(join(fixture,'main.js'),`import './style.css';document.body.dataset.version='${n}';`);
+ writeFileSync(join(fixture,'style.css'),`body{color:rgb(${n},${n*11},${n*31})}`);
+};
+const publish=()=>{git('add','.');git('commit','-m','Fixture release');git('update-ref','refs/remotes/origin/main','HEAD');return git('rev-parse','HEAD').toString().trim()};
+const checkSaved=(names,saved)=>{for(const name of names)assert.deepEqual(readFileSync(join(fixture,'docs/assets',name)),saved.get(name))};
+git('init');git('config','user.name','Asset history test');git('config','user.email','qa@example.invalid');
+writeFileSync(join(fixture,'vite.config.mjs'),"export default {build:{outDir:'docs',emptyOutDir:true}};");
+writeFileSync(join(fixture,'index.html'),'<!doctype html><title>Fixture</title><script type="module" src="/main.js"></script>');
+setVersion(1);build();const first=history().current;const firstBytes=new Map(first.map(n=>[n,readFileSync(join(fixture,'docs/assets',n))]));const firstRevision=publish();
+setVersion(2);build();assert.equal(history().retainedFrom,firstRevision);checkSaved(first,firstBytes);const draft=history().current;
+setVersion(3);build();assert.equal(history().retainedFrom,firstRevision);checkSaved(first,firstBytes);for(const name of draft)assert(!existsSync(join(fixture,'docs/assets',name)),'Unpublished builds must not accumulate');
+const third=history().current;const thirdBytes=new Map(third.map(n=>[n,readFileSync(join(fixture,'docs/assets',n))]));const stable=readFileSync(join(fixture,'docs/asset-history.json'));build();assert.deepEqual(readFileSync(join(fixture,'docs/asset-history.json')),stable);
+const thirdRevision=publish();build();assert.deepEqual(history().previous,first);checkSaved(first,firstBytes);
+setVersion(4);build();assert.equal(history().retainedFrom,thirdRevision);assert.deepEqual(history().previous,third);checkSaved(third,thirdBytes);for(const name of first)assert(!existsSync(join(fixture,'docs/assets',name)),'Older releases must not accumulate');
+mkdirSync('qa-private/rail-focus',{recursive:true});writeFileSync('qa-private/rail-focus/asset-history-test.json',JSON.stringify({pass:true,fixture,checks:['Initial build without origin ref','Previous published JS/CSS retained byte-for-byte','Multiple unpublished builds keep published baseline','Repeated build stable','Rebuilding published source keeps compatibility assets','Next release drops older generation']},null,2));
+console.log('PASS asset history: published baseline, repeated builds and bounded retention');

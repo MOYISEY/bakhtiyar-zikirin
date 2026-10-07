@@ -5,10 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "node scripts/build-pages.mjs && tsc --noEmit && vite build",
+    "build": "node scripts/build-pages.mjs && tsc --noEmit && node scripts/build-with-asset-history.mjs",
     "preview": "vite preview --host 127.0.0.1",
     "qa": "node scripts/qa-v2.mjs",
-    "qa:v1": "node scripts/qa.mjs"
+    "qa:v1": "node scripts/qa.mjs",
+    "qa:rail-focus": "node scripts/qa-project-rail-focus.mjs",
+    "qa:asset-history": "node scripts/qa-asset-history.mjs"
   },
   "dependencies": {
     "@fontsource-variable/onest": "^5.3.1",

@@ -24,6 +24,18 @@ export function initProjectRail() {
   function go(index: number, immediate = false) {
     rail!.scrollTo({ left: offsets()[Math.max(0, Math.min(cards.length - 1, index))], behavior: immediate || reducedMotion.matches ? 'instant' : 'smooth' });
   }
+  rail.addEventListener('focusin', event => {
+    const target = event.target;
+    if (!(target instanceof HTMLElement) || target === rail || !target.matches(':focus-visible')) return;
+    const card = target.closest<HTMLElement>('.visual-card');
+    if (!card) return;
+    // Let native focus scrolling settle, then correct only the horizontal axis.
+    requestAnimationFrame(() => {
+      if (document.activeElement !== target || !target.matches(':focus-visible')) return;
+      const item = target.getBoundingClientRect(), viewport = rail.getBoundingClientRect();
+      if (item.left < viewport.left || item.right > viewport.right) go(cards.indexOf(card));
+    });
+  });
   previous.addEventListener('click', () => go(closest() - 1));
   next.addEventListener('click', () => go(closest() + 1));
   rail.addEventListener('keydown', event => {
