@@ -10,7 +10,8 @@
     "qa": "node scripts/qa-v2.mjs",
     "qa:v1": "node scripts/qa.mjs",
     "qa:rail-focus": "node scripts/qa-project-rail-focus.mjs",
-    "qa:asset-history": "node scripts/qa-asset-history.mjs"
+    "qa:asset-history": "node scripts/qa-asset-history.mjs",
+    "qa:room-menu": "node scripts/qa-room-menu.cjs"
   },
   "dependencies": {
     "@fontsource-variable/onest": "^5.3.1",
