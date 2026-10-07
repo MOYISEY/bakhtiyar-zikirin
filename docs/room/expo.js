@@ -1,4 +1,5 @@
 import * as T from 'three';
+import {createWeather} from './weather.js';
 import {createVegetation} from './vegetation.js';
 import {exteriorSurfaces,planarUV} from './exterior-surfaces.js';
 
@@ -8,7 +9,7 @@ import {exteriorSurfaces,planarUV} from './exterior-surfaces.js';
 export function createExpo(scene,sky,treeAtlas,trunkAsset,skyline){
  sky.colorSpace=T.SRGBColorSpace;sky.mapping=T.EquirectangularReflectionMapping;
  scene.background=sky;scene.backgroundIntensity=1.12;scene.backgroundRotation.y=.7;
- scene.fog=new T.Fog('#b8cbd0',900,5600); // Distant aerial perspective, not an edge-hiding fog bank.
+ const weather=createWeather(scene,sky);
  const group=new T.Group();group.name='Original_EXPO_view';scene.add(group);
  const ground=-16,centre=new T.Vector3(-210,44,-98);
  function mesh(geometry,material,x,y,z){const o=new T.Mesh(geometry,material);o.position.set(x,y,z);o.castShadow=o.receiveShadow=true;group.add(o);return o;}
@@ -97,5 +98,5 @@ export function createExpo(scene,sky,treeAtlas,trunkAsset,skyline){
  for(const [material,parts]of batches){if(parts.length<2)continue;const positions=[],normals=[],uvs=[];for(const part of parts){const g=(part.geometry.index?part.geometry.toNonIndexed():part.geometry.clone()).applyMatrix4(part.matrixWorld),a=g.attributes;positions.push(...a.position.array);normals.push(...a.normal.array);uvs.push(...a.uv.array);g.dispose();part.removeFromParent()}const geometry=new T.BufferGeometry();geometry.setAttribute('position',new T.Float32BufferAttribute(positions,3));geometry.setAttribute('normal',new T.Float32BufferAttribute(normals,3));geometry.setAttribute('uv',new T.Float32BufferAttribute(uvs,2));geometry.computeBoundingSphere();const batched=new T.Mesh(geometry,material);batched.castShadow=batched.receiveShadow=true;group.add(batched)}
  function bakeReflections(renderer){const pmrem=new T.PMREMGenerator(renderer);const reflection=pmrem.fromEquirectangular(sky).texture;group.traverse(o=>{if(o.isMesh)for(const m of Array.isArray(o.material)?o.material:[o.material])if(m.envMap){m.envMap=reflection;m.envMapIntensity=.9;m.needsUpdate=true}});sphere.material.roughness=.18;pmrem.dispose();}
 
- return{update:vegetation.update,vegetation:{count:vegetation.count,nearTrunks:vegetation.nearTrunks,representation:vegetation.representation},bakeReflections,type:'Original artistic Nur Alem / EXPO view',sphereDiameterM:80,overallHeightM:100,distanceM:Math.hypot(centre.x,centre.z),viewHeightAbovePlazaM:17.6,sphereSegments:[112,72],buildingPhotoBackdrop:false,officialPhotosShipped:false,terrainExtentM:20000,fogNearM:900,licensedDetailedExpoModel:false,exterior:group};
+ return{update:vegetation.update,weather,vegetation:{count:vegetation.count,nearTrunks:vegetation.nearTrunks,representation:vegetation.representation},bakeReflections,type:'Original artistic Nur Alem / EXPO view',sphereDiameterM:80,overallHeightM:100,distanceM:Math.hypot(centre.x,centre.z),viewHeightAbovePlazaM:17.6,sphereSegments:[112,72],buildingPhotoBackdrop:false,officialPhotosShipped:false,terrainExtentM:20000,fogNearM:115,licensedDetailedExpoModel:false,exterior:group};
 }
