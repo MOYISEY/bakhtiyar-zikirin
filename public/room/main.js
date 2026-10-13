@@ -5,7 +5,7 @@ import {$,L,attachApp,openPanel,weatherText} from './ui.js';
 const canvas=$('#scene'),renderer=new T.WebGLRenderer({canvas,antialias:true,powerPreference:'high-performance'});
 renderer.setPixelRatio(Math.min(devicePixelRatio,1.75));renderer.shadowMap.enabled=true;renderer.shadowMap.type=T.PCFShadowMap;renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.05;
 const camera=new T.PerspectiveCamera(52,innerWidth/innerHeight,.05,6000),world=await createWorld(renderer,camera),scene=world.scene;
-let storage;try{storage=localStorage}catch{}const audio=new RoomAudio(storage);audio.setRain(false);
+let storage;try{storage=localStorage}catch{}const audio=new RoomAudio(storage);audio.setRain(!!world.exterior?.weather);
 const captureMode=new URLSearchParams(location.search).has('capture');let captureFrozen=false,captureReferenceFraming=false;
 let rainPaused=false;try{rainPaused=storage?.getItem('room-weather-motion-v1')==='paused'}catch{}
 const reduced=captureMode?{matches:true}:matchMedia('(prefers-reduced-motion: reduce)');const ray=new T.Raycaster(),mouse=new T.Vector2(),look=new T.Vector3();
@@ -20,6 +20,9 @@ const api={hold:false,audio,get rainPaused(){return rainPaused},get rainMotionBl
 function toggleLight(){$('#object-lamp').classList.remove('cord-guide-visible');light=!light;audio.effect();for(const id of ['#lamp-button','#object-lamp'])$(id).setAttribute('aria-pressed',String(light));dirty=true}
 attachApp(api);reduced.addEventListener?.('change',()=>{weatherText();dirty=true});
 function streamStatus(){
+ // The weather remains rainy when animation is paused or reduced; sound follows
+ // the assembled exterior and still respects the existing gesture/mute controls.
+ const raining=!!world.exterior?.weather;if(audio.raining!==raining)audio.setRain(raining);
  const state=world.inspectStream(),box=$('#stream-status');box.hidden=state.ready;
  const names={room:L('Комната','Бөлме','Room'),decor:L('Предметы','Заттар','Objects'),expo:L('Вид из окна','Терезе көрінісі','Window view')};
  $('#stream-message').hidden=true;$('#stream-retry').hidden=true;
