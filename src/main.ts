@@ -2,6 +2,7 @@ import './style.css';
 import './hierarchy.css';
 import './restoration.css';
 import './pages.css';
+import './project-polish.css';
 import { initPreferences, language, t } from './preferences';
 import { showSceneFallback } from './fallback';
 import { initProjectRail } from './project-rail';

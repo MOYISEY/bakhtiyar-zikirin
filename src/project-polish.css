@@ -1,0 +1,51 @@
+/* Real project imagery leads; the existing palette and identity stay familiar. */
+.hero-project { background: var(--surface); }
+.hero-project > a { overflow: hidden; }
+.hero-project img { transition: transform .35s cubic-bezier(.2,.65,.3,1); }
+.hero-project > a:hover img, .hero-project > a:focus-visible img { transform: scale(1.015); }
+.hero-project-index { position: absolute; left: 1rem; top: 1rem; padding: .4rem .55rem; background: var(--paper); color: var(--ink); font: .7rem Consolas,monospace; border: 1px solid var(--line); }
+.hero-project-label { display: grid; gap: .25rem; }
+.hero-project-label strong { font-size: 1.15rem; font-weight: 600; letter-spacing: -.02em; }
+.hero-project-label > span { color: var(--muted); font-size: .7rem; }
+.hero-project .hero-project-open { color: var(--teal); font-weight: 600; }
+.project-rail { grid-auto-columns: calc((100% - 3rem) / 2.5); }
+.catalog-grid { grid-template-columns: repeat(2,minmax(0,1fr)); max-width: 1088px; margin-inline: auto; gap: 2.5rem 1.75rem; }
+.visual-card { background: var(--paper); transition: border-color .2s ease, box-shadow .2s ease; }
+.visual-card:focus-within, .visual-card:hover { border-color: var(--teal); box-shadow: 0 5px 18px #17222308; }
+.visual-card-copy { padding: 1.35rem 1.4rem; }
+.visual-card-copy > .card-kicker { display: flex; gap: .7rem; min-height: 0; margin: 0 0 .4rem; font: .65rem/1.6 Consolas,monospace; color: var(--muted); }
+.card-kicker > span:first-child { color: var(--teal); }
+.project-title h3 { font-size: 1.8rem; }
+.visual-card-copy > .card-description { margin-top: .35rem; min-height: 3.2em; font-size: .95rem; }
+.visual-card-copy > .card-stack { min-height: 0; margin: 1.2rem 0 0; font: .7rem/1.8 Consolas,monospace; color: var(--muted); }
+.card-stack > span { opacity: .5; margin-inline: .15rem; }
+.card-actions { padding-top: 1.2rem; gap: .6rem 1.1rem; }
+.card-actions .demo-link { padding: .65rem .85rem; gap: 1.2rem; color: var(--paper); background: var(--teal); border: 1px solid var(--teal); }
+.card-actions .demo-link:hover { background: var(--ink); border-color: var(--ink); }
+.card-actions .text-link, .card-code { color: var(--muted); font-size: .8rem; min-height: 44px; display: inline-flex; align-items: center; gap: .5rem; }
+.preview-visit { display: inline-flex; position: absolute; right: .75rem; top: .75rem; align-items: center; gap: 1.25rem; padding: .65rem .85rem; color: var(--ink); background: var(--paper); border: 1px solid var(--line); font-size: .75rem; opacity: 0; transform: translateY(4px); transition: opacity .18s ease, transform .18s ease; }
+.project-preview:hover .preview-visit, .project-preview:focus-visible .preview-visit { opacity: 1; transform: none; }
+.project-rail.is-dragging .preview-visit { opacity: 0; }
+.project-rail-controls button { transition: background-color .18s ease, border-color .18s ease; }
+.project-rail-controls button:focus-visible { outline-offset: 3px; }
+@media (max-width:1100px) { .project-rail { grid-auto-columns: calc((100% - 3rem) / 2.12); } }
+@media (max-width:760px) {
+ .project-rail { grid-auto-columns: 88%; }
+ .catalog-grid { grid-template-columns: minmax(0,1fr); gap: 1.5rem; }
+ .visual-card-copy { padding: 1.15rem; }
+ .project-title h3 { font-size: 1.65rem; }
+ .visual-card-copy > .card-description { min-height: 0; }
+ .visual-card-copy > .card-kicker { font-size: .62rem; }
+ .hero-project figcaption { align-items: start; gap: .75rem; }
+ .hero-project .hero-preview-actions { gap: .6rem 1rem; }
+}
+@media (hover:none) { .preview-visit { display: none; } }
+/* A short arrival works with native links, history and saved preferences. */
+#main { animation: page-arrive .2s ease-out both; }
+@keyframes page-arrive { from { opacity: .45; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion:reduce) {
+ html { scroll-behavior: auto; }
+ .hero-project img, .visual-card, .preview-visit, .project-rail-controls button { transition: none; }
+ .hero-project > a:hover img, .hero-project > a:focus-visible img { transform: none; }
+ #main { animation: none; }
+}

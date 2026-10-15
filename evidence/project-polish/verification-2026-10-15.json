@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-15T08:57:07.376Z",
+  "baseRevision": "d6c30abedf87ea868b855535e424559b370c4608",
+  "reference": "https://seoshiro.github.io/",
+  "method": "Installed Edge / Playwright. Actual rendered reference, desktop and mobile screenshots; own existing project captures, no reference assets copied.",
+  "checks": {
+    "routes": 132,
+    "flows": 12,
+    "edges": 4,
+    "interactionAssertions": 336,
+    "interactionCases": 12,
+    "focusVariants": 12,
+    "mediaRoutes": 44,
+    "mediaImages": 268,
+    "externalLinks": 9
+  },
+  "assets": [
+    "main--b33ebTB.js",
+    "main-BIuPSuep.css",
+    "onest-cyrillic-ext-wght-normal-DOFToQv1.woff2",
+    "onest-cyrillic-wght-normal-DayYxulF.woff2",
+    "onest-latin-ext-wght-normal-QAhDxQuo.woff2",
+    "onest-latin-wght-normal-Dun_Rd-l.woff2",
+    "onest-math-wght-normal-Bl4ZGkZl.woff2",
+    "onest-symbols-wght-normal-DxQzqQfC.woff2",
+    "onest-vietnamese-wght-normal-BBxOatbv.woff2",
+    "preferences-DoZxgqnc.js",
+    "rowline-sample-Gh1WEy91.js",
+    "scene-BOFtVC5S.js",
+    "scene-controls-m6DUrsdT.js"
+  ],
+  "files": {
+    "docs/index.html": "c78c1dd065f2596955bb24f71574e03c8a413c762ef583d2f416c2a2f52fa048",
+    "docs/projects/index.html": "54ea22c25689f1ba18d5942667d66bcddea18e7ef567501420b5078b21137795",
+    "src/project-polish.css": "526b5e725d4dc2da7b4e44055ae61c52d6a130fecafc09c89e807bffdacaf3af",
+    "src/project-rail.ts": "45b1bf13b2a40cb9d8ef4bce54439e02d6c6ceab48333b29571cdfc059bc96e1"
+  }
+}

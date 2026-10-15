@@ -8,6 +8,7 @@ export function initProjectRail() {
   const next = document.querySelector<HTMLButtonElement>('#project-rail-next')!;
   const position = document.querySelector<HTMLElement>('#project-rail-position')!;
   document.querySelector<HTMLElement>('.project-rail-controls')!.hidden = false;
+  rail.setAttribute('aria-keyshortcuts', 'ArrowLeft ArrowRight Home End PageUp PageDown');
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
   const offsets = () => cards.map(card => card.getBoundingClientRect().left - rail.getBoundingClientRect().left + rail.scrollLeft);
   const closest = () => offsets().reduce((best, value, index, all) => Math.abs(value - rail.scrollLeft) < Math.abs(all[best] - rail.scrollLeft) ? index : best, 0);
@@ -40,7 +41,8 @@ export function initProjectRail() {
   next.addEventListener('click', () => go(closest() + 1));
   rail.addEventListener('keydown', event => {
     if (event.target !== rail) return;
-    const index = event.key === 'Home' ? 0 : event.key === 'End' ? cards.length - 1 : event.key === 'ArrowLeft' ? closest() - 1 : event.key === 'ArrowRight' ? closest() + 1 : null;
+    const pageStep = Math.max(1, Math.floor(rail!.clientWidth / cards[0].getBoundingClientRect().width));
+    const index = event.key === 'PageUp' ? closest() - pageStep : event.key === 'PageDown' ? closest() + pageStep : event.key === 'Home' ? 0 : event.key === 'End' ? cards.length - 1 : event.key === 'ArrowLeft' ? closest() - 1 : event.key === 'ArrowRight' ? closest() + 1 : null;
     if (index === null) return;
     event.preventDefault();
     go(index);
