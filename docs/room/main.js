@@ -7,7 +7,7 @@ const canvas=$('#scene'),renderer=new T.WebGLRenderer({canvas,antialias:true,pow
 renderer.setPixelRatio(Math.min(devicePixelRatio,1.75));renderer.shadowMap.enabled=true;renderer.shadowMap.type=T.PCFShadowMap;renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.05;
 const camera=new T.PerspectiveCamera(52,innerWidth/innerHeight,.05,6000),world=await createWorld(renderer,camera),scene=world.scene;
 let storage;try{storage=localStorage}catch{}const audio=new RoomAudio(storage);audio.setRain(!!world.exterior?.weather);
-const captureMode=new URLSearchParams(location.search).has('capture');let captureFrozen=false,captureReferenceFraming=false;
+const captureMode=new URLSearchParams(location.search).has('capture');let captureFrozen=false,captureReferenceFraming=false;let closeCabinetFocus=false;
 let rainPaused=false;try{rainPaused=storage?.getItem('room-weather-motion-v1')==='paused'}catch{}
 const reduced=captureMode?{matches:true}:matchMedia('(prefers-reduced-motion: reduce)');const ray=new T.Raycaster(),mouse=new T.Vector2(),look=new T.Vector3();
 const doorOpenAngle=1.54,doorPassAngle=1.48;
@@ -18,7 +18,7 @@ const path=new T.CatmullRomCurve3([new T.Vector3(0,1.60,9.55),new T.Vector3(.02,
 // Stop outside the door's sweep until the physical opening is clear.
 const doorStopProgress=(()=>{let lo=0,hi=.8;for(let i=0;i<24;i++){const mid=(lo+hi)/2;if(path.getPoint(smooth(mid)).z>2.65)lo=mid;else hi=mid}return lo})();
 let activeHotspot=null,pointerHotspot=null,focusHotspot=null,leaveTimer=null,keyboardMode=false;
-const api={hold:false,audio,canInspect(id){return world.collectionReady(id)},cabinet(){cabinetTarget=cabinetTarget>.5?0:1;dirty=true},previewProject(project,image){if(!window.sliceUsable||window.sliceFatal)return;world.previewProject(project,image);dirty=true},get rainPaused(){return rainPaused},get rainMotionBlocked(){return reduced.matches},toggleRainMotion(){rainPaused=!rainPaused;try{storage?.setItem('room-weather-motion-v1',rainPaused?'paused':'playing')}catch{}weatherText();dirty=true},localize(){world.localize();streamStatus();renderHotspot();dirty=true},go(value,gesture=false){if(!window.sliceUsable)return;preExit=value<.5&&progress>.96&&!reduced.matches;viewName='desk';target=clamp(value,0,1);lookX=lookY=moveX=moveZ=0;if(target>.4){if(gesture)audio.enter(true);else audio.setInside(true)}else audio.setInside(false);dirty=true},documents(){if(world.drawerPull){drawerTarget=1;api.view('drawer')}},view(name){if(name==='education'){api.documents();return}api.go(1,true);viewName=name;lookX=0;dirty=true},pull(){toggleLight();pull=.09;pullVelocity=0;dirty=true},folder(){folderTarget=folderTarget>.5?0:1;dirty=true},drawer(){if(!world.drawerPull)return;drawerTarget=drawerTarget>.5?0:1;if(drawerTarget){api.view('drawer')}else if(viewName==='drawer'){viewName='desk'}dirty=true}};
+const api={hold:false,audio,canInspect(id){return world.collectionReady(id)},cabinet(){cabinetTarget=cabinetTarget>.5?0:1;dirty=true},closeCabinet(){if(api.hold||!cabinetCommandProjection()||cabinetTarget<=.5)return;closeCabinetFocus=document.activeElement===$('#cabinet-close');cabinetTarget=0;cabinetVelocity=0;dirty=true},previewProject(project,image){if(!window.sliceUsable||window.sliceFatal)return;world.previewProject(project,image);dirty=true},get rainPaused(){return rainPaused},get rainMotionBlocked(){return reduced.matches},toggleRainMotion(){rainPaused=!rainPaused;try{storage?.setItem('room-weather-motion-v1',rainPaused?'paused':'playing')}catch{}weatherText();dirty=true},localize(){world.localize();streamStatus();renderHotspot();dirty=true},go(value,gesture=false){if(!window.sliceUsable)return;preExit=value<.5&&progress>.96&&!reduced.matches;viewName='desk';target=clamp(value,0,1);lookX=lookY=moveX=moveZ=0;if(target>.4){if(gesture)audio.enter(true);else audio.setInside(true)}else audio.setInside(false);dirty=true},documents(){if(world.drawerPull){drawerTarget=1;api.view('drawer')}},view(name){if(name==='education'){api.documents();return}api.go(1,true);viewName=name;lookX=0;dirty=true},pull(){toggleLight();pull=.09;pullVelocity=0;dirty=true},folder(){folderTarget=folderTarget>.5?0:1;dirty=true},drawer(){if(!world.drawerPull)return;drawerTarget=drawerTarget>.5?0:1;if(drawerTarget){api.view('drawer')}else if(viewName==='drawer'){viewName='desk'}dirty=true}};
 function toggleLight(){$('#object-lamp').classList.remove('cord-guide-visible');light=!light;audio.effect();for(const id of ['#lamp-button','#object-lamp'])$(id).setAttribute('aria-pressed',String(light));dirty=true}
 attachApp(api);reduced.addEventListener?.('change',()=>{weatherText();dirty=true});
 function streamStatus(){
@@ -118,6 +118,20 @@ function projectedAction(id,o=actionTargets()[id]){
 }
 function canActivateObject(id){return !api.hold&&(id==='door'?actionEligible(id):!!projectedAction(id))}
 document.addEventListener('click',e=>{const el=e.target.closest?.('.object-action');if(el&&!canActivateObject(el.id.slice(7))){e.preventDefault();e.stopImmediatePropagation();clearHotspots()}},true);
+// This is an explicit close command in the cabinet view, not a displaced
+// physical hotspot. Existing rays and all object eligibility remain unchanged.
+function cabinetCommandProjection(){
+ if(innerWidth>420||viewName!=='cabinet'||!world.cabinet||!actionEligible('cabinet'))return null;
+ const p=world.cabinet.localToWorld(new T.Vector3(0,.142,.356)).project(camera);if(p.z< -1||p.z>1||Math.abs(p.x)>.96||Math.abs(p.y)>.92)return null;
+ ray.setFromCamera(new T.Vector2(p.x,p.y),camera);
+ for(const hit of ray.intersectObjects(scene.children,true)){const m=Array.isArray(hit.object.material)?hit.object.material[hit.face?.materialIndex||0]:hit.object.material;let shown=true;for(let parent=hit.object;parent;parent=parent.parent)if(!parent.visible)shown=false;if(!shown||!m||m.visible===false||m.transparent&&m.opacity<.45||hit.object.isLine)continue;let belongs=false;for(let o=hit.object;o;o=o.parent)if(o===world.cabinet)belongs=true;return belongs&&actionEligible('cabinet',hit.distance)?p:null}
+ return null;
+}
+function updateCabinetCommand(collectionItems){
+ const el=$('#cabinet-close'),p=cabinetCommandProjection();el.hidden=!p||cabinet<.01;el.disabled=window.sliceFatal||!window.sliceUsable||cabinetTarget<=.5;
+ if(!el.hidden){const w=el.offsetWidth,h=el.offsetHeight,x=(p.x+1)*innerWidth/2,y=(1-p.y)*innerHeight/2,neighbours=collectionItems.filter(i=>!i.el.hidden).map(i=>i.el.getBoundingClientRect()),top=Math.max(90,y+10,...neighbours.map(r=>r.bottom+8));el.style.left=clamp(x,12+w/2,innerWidth-12-w/2)+'px';el.style.top=Math.min(top,innerHeight-h-40)+'px'}
+ if(closeCabinetFocus&&cabinet===0){closeCabinetFocus=false;if(!api.hold&&(document.activeElement===el||document.activeElement===document.body))($('#object-cabinet').hidden?$('#actions-toggle'):$('#object-cabinet')).focus({preventScroll:true})}
+}
 function updateActions(){
  const documentItems=[],collectionItems=[];let certificateItem=null;
  for(const [id,o]of Object.entries(actionTargets())){
@@ -136,7 +150,7 @@ function updateActions(){
   const inset=el.offsetWidth/2+12;el.style.left=clamp(x,inset,innerWidth-inset)+'px';el.style.top=clamp(y,90,innerHeight-45)+'px';
  }
  layoutDocumentActions(documentItems,camera,$('#object-drawer'));
- layoutCollectionActions(collectionItems,camera,$('#object-cabinet'));layoutCertificateAction(certificateItem,camera,collectionItems);
+ layoutCollectionActions(collectionItems,camera,$('#object-cabinet'));updateCabinetCommand(collectionItems);layoutCertificateAction(certificateItem,camera,collectionItems);
  $('#cabinet-button').setAttribute('aria-pressed',String(cabinetTarget>.5));
  $('#drawer-button').hidden=!world.drawerPull;for(const id of ['#drawer-button','#object-drawer'])$(id).setAttribute('aria-pressed',String(drawer>.5));
  renderHotspot();

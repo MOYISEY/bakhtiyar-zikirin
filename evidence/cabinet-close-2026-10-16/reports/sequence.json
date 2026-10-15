@@ -1,0 +1,35 @@
+{
+  "jobs": [
+    {
+      "name": "command-gates",
+      "args": [
+        "scripts/qa-room-cabinet-close.cjs",
+        "http://127.0.0.1:4331/after/",
+        "pose-gates",
+        "--pose-gates"
+      ],
+      "exit": 0,
+      "summary": "{\"passed\":true,\"checks\":12,\"cases\":6}\n"
+    },
+    {
+      "name": "physical-gates",
+      "args": [
+        "scripts/qa-room-interaction-access.cjs",
+        "http://127.0.0.1:4331/after/",
+        "cabinet-close"
+      ],
+      "exit": 0,
+      "summary": "{\"passed\":true,\"checks\":144,\"samples\":16}\n"
+    },
+    {
+      "name": "handles",
+      "args": [
+        "scripts/qa-room-handles.cjs",
+        "http://127.0.0.1:4331/after/",
+        "cabinet-close"
+      ],
+      "exit": 0,
+      "summary": "{\"passed\":true,\"checks\":112,\"samples\":24}\n"
+    }
+  ]
+}

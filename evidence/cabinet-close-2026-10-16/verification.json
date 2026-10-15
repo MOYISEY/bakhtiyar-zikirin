@@ -1,0 +1,86 @@
+{
+  "at": "2026-10-15T22:05:07.607Z",
+  "baseline": "88c6691a4dbbcede5fa0ed8346605891cdfd45e4",
+  "passed": true,
+  "gates": [
+    {
+      "name": "actionEligible",
+      "beforeSha256": "f80c78a49d707510439b1fda0b1e390f9e27a221d97ed3aca9bf1c8b67b2615b",
+      "afterSha256": "f80c78a49d707510439b1fda0b1e390f9e27a221d97ed3aca9bf1c8b67b2615b",
+      "unchanged": true
+    },
+    {
+      "name": "projectedAction",
+      "beforeSha256": "bf5e5d0e840ead04f92c302f19deca1fb4f227045fa468274dfb7a76b4732f23",
+      "afterSha256": "bf5e5d0e840ead04f92c302f19deca1fb4f227045fa468274dfb7a76b4732f23",
+      "unchanged": true
+    },
+    {
+      "name": "hitAt",
+      "beforeSha256": "4d8aba69065b0f88a33876fc958c3e1672638d1396b342ec4833cb2c571ff84d",
+      "afterSha256": "4d8aba69065b0f88a33876fc958c3e1672638d1396b342ec4833cb2c571ff84d",
+      "unchanged": true
+    }
+  ],
+  "unchanged": [
+    {
+      "name": "world.js",
+      "sha256": "3a269f5ec1e55070154493a54922238e734b4ca7fbdccd0845331cfbb0539731",
+      "unchanged": true
+    },
+    {
+      "name": "cabinet-scene.js",
+      "sha256": "faba0347aa4e622fd6b682802dfc1425ce829bcf01501856ec7b272918e2d991",
+      "unchanged": true
+    },
+    {
+      "name": "cabinet-doors.js",
+      "sha256": "338ee6f47d40777e978aab9aae6a6dc38ba0aca24bbe72921abc89b3580eefb6",
+      "unchanged": true
+    },
+    {
+      "name": "joinery-details.js",
+      "sha256": "49cd7244a3922d01a773bf7076940d90c938b5aa196c77982ab568ef87529f98",
+      "unchanged": true
+    },
+    {
+      "name": "compressed-models.js",
+      "sha256": "79110c624660661badd9dc2656d88e5a28488209a6b0df0728031e0b34a471e7",
+      "unchanged": true
+    },
+    {
+      "name": "collection-viewer.js",
+      "sha256": "13ae69e049a58bac022b323b6fa4e9702d7d620b08f58620d422ffc24c00deec",
+      "unchanged": true
+    },
+    {
+      "name": "cube-state.js",
+      "sha256": "444aa7795838492cfd2a6539c1d2815f91da42f5598550b8d4c5a11dffe74aa3",
+      "unchanged": true
+    }
+  ],
+  "runtime": [
+    {
+      "name": "main.js",
+      "sha256": "14efa2dfbc45f770fbaaca1d11038f9687ef28e9e5da1e8827b3a18223e87978"
+    },
+    {
+      "name": "ui.js",
+      "sha256": "d5e5cade3af89d9d8e380ac9f0a7105d91d5663765aef50b7ebe5e7a2a9408db"
+    },
+    {
+      "name": "style.css",
+      "sha256": "c74ac2d4d1503969a8d4e43e91025fdd331e098c557e075cbcc3e7cf2655e881"
+    },
+    {
+      "name": "index.html",
+      "sha256": "b9b75c302f0cceb6ce409ba7f0e5572a4d700dd03013b1a62d9df82f6cd7ba3a"
+    }
+  ],
+  "reports": {
+    "matrix": "qa-private/cabinet-close/initial/checks.json",
+    "commandGates": "qa-private/cabinet-close/pose-gates/checks.json",
+    "physicalGates": "qa-private/access-review-2026-10-15/cabinet-close/checks.json",
+    "handles": "qa-private/handle-review-2026-10-15/cabinet-close/checks.json"
+  }
+}

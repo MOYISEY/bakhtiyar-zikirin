@@ -151,3 +151,5 @@ canvas.viewer-canvas:active{cursor:grabbing}
 #object-cabinet{touch-action:none;cursor:grab}#object-cabinet:active{cursor:grabbing}
 
 .cube-drag-mode{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.8rem}.cube-drag-mode button{min-height:44px;padding:.6rem .8rem;border:1px solid #31524666;border-radius:4px;background:#243b33;color:#f4ead6}.cube-drag-mode [aria-pressed="true"]{background:#eee4cb;color:#26372f;outline:1px solid #31524666}.cube-gesture-help{font-size:12px!important;line-height:1.6!important;color:#526358;max-width:56ch}
+
+.cabinet-command{position:fixed;z-index:2;width:124px;min-height:44px;cursor:pointer;touch-action:manipulation}.cabinet-command:disabled{cursor:default;opacity:.7}
