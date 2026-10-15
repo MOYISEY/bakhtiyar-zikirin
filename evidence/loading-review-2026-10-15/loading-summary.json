@@ -1,0 +1,1275 @@
+{
+  "baseline": "8c82487141a0dd13436b5e6bcc257cf7e4c09900",
+  "at": "2026-10-15T17:54:41.030Z",
+  "method": "No Playwright routing/interception. Serial same-profile Edge cold/warm pairs; cold=fresh browser context+CDP clearBrowserCache, cache enabled; warm=same page normal second navigation with HTTP cache retained. Native network, CPU1x; desktop1440x900 DPR1, touch390x844 DPR1.75. Local immutable Git8c bytes with max-age600/ETag/gzip policy. JS/GL wrappers are read-only timing probes, not GPU execution timers. Reverse origin order in round2. Browser/driver shader caches not cleared.",
+  "passed": true,
+  "browser": "155.0.4283.45",
+  "groups": [
+    {
+      "origin": "live",
+      "mobile": false,
+      "mode": "cold",
+      "readyRange": [
+        9866,
+        28692.60000000149
+      ],
+      "gpuRange": [
+        1622,
+        4158.5
+      ],
+      "parallelWaitRange": [
+        415.20000000298023,
+        1492.2000000029802
+      ],
+      "cacheCounts": [
+        0,
+        0
+      ]
+    },
+    {
+      "origin": "live",
+      "mobile": false,
+      "mode": "warm",
+      "readyRange": [
+        2360.1999999955297,
+        2383.7999999970198
+      ],
+      "gpuRange": [
+        1504.0999999940395,
+        1519.7999999970198
+      ],
+      "parallelWaitRange": [
+        321,
+        346.5
+      ],
+      "cacheCounts": [
+        78,
+        78
+      ]
+    },
+    {
+      "origin": "live",
+      "mobile": true,
+      "mode": "cold",
+      "readyRange": [
+        20999.79999999702,
+        29457.39999999851
+      ],
+      "gpuRange": [
+        1567.3000000044703,
+        1603.3999999985099
+      ],
+      "parallelWaitRange": [
+        331.3999999985099,
+        331.79999999701977
+      ],
+      "cacheCounts": [
+        0,
+        0
+      ]
+    },
+    {
+      "origin": "live",
+      "mobile": true,
+      "mode": "warm",
+      "readyRange": [
+        2389.3000000044703,
+        2436.2999999970198
+      ],
+      "gpuRange": [
+        1493.7000000029802,
+        1546.1999999955297
+      ],
+      "parallelWaitRange": [
+        310.69999999552965,
+        312.8999999985099
+      ],
+      "cacheCounts": [
+        78,
+        78
+      ]
+    },
+    {
+      "origin": "local",
+      "mobile": false,
+      "mode": "cold",
+      "readyRange": [
+        2156.10000000149,
+        2626.4000000059605
+      ],
+      "gpuRange": [
+        1259.9000000059605,
+        1313.8999999985099
+      ],
+      "parallelWaitRange": [
+        362.20000000298023,
+        369.70000000298023
+      ],
+      "cacheCounts": [
+        0,
+        0
+      ]
+    },
+    {
+      "origin": "local",
+      "mobile": false,
+      "mode": "warm",
+      "readyRange": [
+        2295.60000000149,
+        2362.5999999940395
+      ],
+      "gpuRange": [
+        1472.6000000014901,
+        1480.8999999985099
+      ],
+      "parallelWaitRange": [
+        337.80000000447035,
+        351.3999999985099
+      ],
+      "cacheCounts": [
+        78,
+        78
+      ]
+    },
+    {
+      "origin": "local",
+      "mobile": true,
+      "mode": "cold",
+      "readyRange": [
+        2106.2000000029802,
+        2129.6999999955297
+      ],
+      "gpuRange": [
+        1295.3999999985099,
+        1327
+      ],
+      "parallelWaitRange": [
+        378.19999999552965,
+        396.6000000014901
+      ],
+      "cacheCounts": [
+        0,
+        0
+      ]
+    },
+    {
+      "origin": "local",
+      "mobile": true,
+      "mode": "warm",
+      "readyRange": [
+        2302.2000000029802,
+        2333.5
+      ],
+      "gpuRange": [
+        1520.8000000044703,
+        1560.5
+      ],
+      "parallelWaitRange": [
+        332.69999999552965,
+        385.3999999985099
+      ],
+      "cacheCounts": [
+        78,
+        78
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "name": "r0-desktop-live-cold",
+      "round": 0,
+      "mobile": false,
+      "origin": "live",
+      "mode": "cold",
+      "passed": true,
+      "ready": 9866,
+      "first": 3981.2999999970198,
+      "allParsed": 5707.19999999553,
+      "gpuStart": 5707.5,
+      "postParsedPreparation": 4158.5,
+      "criticalParseTail": 47.099999994039536,
+      "loaderReadyLag": 0.10000000149011612,
+      "uploadCpu": 539.2000000029802,
+      "shaderCompileCpu": 0.20000000298023224,
+      "shaderLinkCpu": 0.8999999985098839,
+      "maxGpuParallelProgramWall": 1492.2000000029802,
+      "drawCpu": 3.6000000089406967,
+      "mainThreadLongTasks": 2982,
+      "cached": 0,
+      "requests": 79,
+      "failed": [],
+      "httpErrors": [],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "tail": [
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "bytes": 153486,
+          "start": 4545.10000000149,
+          "ttfb": 922.8000000044703,
+          "body": 191.10000000149012,
+          "end": 5660.10000000149
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "bytes": 146806,
+          "start": 4545.19999999553,
+          "ttfb": 851.7000000029802,
+          "body": 70.79999999701977,
+          "end": 5468.69999999553
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "bytes": 134396,
+          "start": 4544.79999999702,
+          "ttfb": 785.8999999985099,
+          "body": 59,
+          "end": 5390.5
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "bytes": 161598,
+          "start": 4545.60000000149,
+          "ttfb": 694.2999999970198,
+          "body": 82.89999999850988,
+          "end": 5324.19999999553
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "bytes": 131324,
+          "start": 4545.39999999851,
+          "ttfb": 626.3999999985099,
+          "body": 67.80000000447035,
+          "end": 5241.10000000149
+        }
+      ]
+    },
+    {
+      "name": "r0-desktop-live-warm",
+      "round": 0,
+      "mobile": false,
+      "origin": "live",
+      "mode": "warm",
+      "passed": true,
+      "ready": 2383.7999999970198,
+      "first": 734.5,
+      "allParsed": 863.7999999970198,
+      "gpuStart": 864,
+      "postParsedPreparation": 1519.7999999970198,
+      "criticalParseTail": 112.5,
+      "loaderReadyLag": 0,
+      "uploadCpu": 520.599999986589,
+      "shaderCompileCpu": 0.10000000149011612,
+      "shaderLinkCpu": 1.4999999925494194,
+      "maxGpuParallelProgramWall": 346.5,
+      "drawCpu": 4.0999999940395355,
+      "mainThreadLongTasks": 1375,
+      "cached": 78,
+      "requests": 79,
+      "failed": [],
+      "httpErrors": [],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "tail": [
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "bytes": 161598,
+          "start": 746.1000000014901,
+          "ttfb": 0,
+          "body": 0.3999999985098839,
+          "end": 751.2999999970198
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "bytes": 131324,
+          "start": 745.8999999985099,
+          "ttfb": 0.10000000149011612,
+          "body": 0.30000000447034836,
+          "end": 750.7000000029802
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "bytes": 146806,
+          "start": 745.7000000029802,
+          "ttfb": 0.10000000149011612,
+          "body": 1.3999999985098839,
+          "end": 750
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "bytes": 153486,
+          "start": 745.5,
+          "ttfb": 0.10000000149011612,
+          "body": 1.1999999955296516,
+          "end": 749.7999999970198
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "bytes": 134396,
+          "start": 745.2999999970198,
+          "ttfb": 0.20000000298023224,
+          "body": 1.2000000029802322,
+          "end": 749.7000000029802
+        }
+      ]
+    },
+    {
+      "name": "r0-desktop-local-cold",
+      "round": 0,
+      "mobile": false,
+      "origin": "local",
+      "mode": "cold",
+      "passed": true,
+      "ready": 2626.4000000059605,
+      "first": 1159.9000000059605,
+      "allParsed": 1366.3000000044703,
+      "gpuStart": 1366.5,
+      "postParsedPreparation": 1259.9000000059605,
+      "criticalParseTail": 96.60000000149012,
+      "loaderReadyLag": 0.19999999552965164,
+      "uploadCpu": 385.49999998509884,
+      "shaderCompileCpu": 0.19999999552965164,
+      "shaderLinkCpu": 0.7000000029802322,
+      "maxGpuParallelProgramWall": 369.70000000298023,
+      "drawCpu": 1.9999999701976776,
+      "mainThreadLongTasks": 1109,
+      "cached": 0,
+      "requests": 79,
+      "failed": [],
+      "httpErrors": [],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "tail": [
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "bytes": 161598,
+          "start": 1249.7000000029802,
+          "ttfb": 13.800000004470348,
+          "body": 0.7999999970197678,
+          "end": 1269.7000000029802
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "bytes": 131324,
+          "start": 1249.7000000029802,
+          "ttfb": 14.200000002980232,
+          "body": 0.8999999985098839,
+          "end": 1266.8000000044703
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "bytes": 146806,
+          "start": 1249.7000000029802,
+          "ttfb": 11.700000002980232,
+          "body": 0.8999999985098839,
+          "end": 1264.3000000044703
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "bytes": 153486,
+          "start": 1249.6000000014901,
+          "ttfb": 9.5,
+          "body": 0.8999999985098839,
+          "end": 1261.8000000044703
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "bytes": 134396,
+          "start": 1249.5,
+          "ttfb": 7.800000004470348,
+          "body": 0.5999999940395355,
+          "end": 1259
+        }
+      ]
+    },
+    {
+      "name": "r0-desktop-local-warm",
+      "round": 0,
+      "mobile": false,
+      "origin": "local",
+      "mode": "warm",
+      "passed": true,
+      "ready": 2295.60000000149,
+      "first": 701.6000000014901,
+      "allParsed": 822.8999999985099,
+      "gpuStart": 823,
+      "postParsedPreparation": 1472.6000000014901,
+      "criticalParseTail": 371.70000000298023,
+      "loaderReadyLag": 0,
+      "uploadCpu": 505,
+      "shaderCompileCpu": 0.20000000298023224,
+      "shaderLinkCpu": 0.800000011920929,
+      "maxGpuParallelProgramWall": 337.80000000447035,
+      "drawCpu": 4.200000002980232,
+      "mainThreadLongTasks": 1340,
+      "cached": 78,
+      "requests": 79,
+      "failed": [],
+      "httpErrors": [],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "tail": [
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "bytes": 161598,
+          "start": 448.29999999701977,
+          "ttfb": 0,
+          "body": 0.3999999985098839,
+          "end": 451.19999999552965
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "bytes": 131324,
+          "start": 448,
+          "ttfb": 0,
+          "body": 0.30000000447034836,
+          "end": 450.5
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "bytes": 146806,
+          "start": 447.79999999701977,
+          "ttfb": 0,
+          "body": 0.8999999985098839,
+          "end": 450
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "bytes": 153486,
+          "start": 447.6000000014901,
+          "ttfb": 0.10000000149011612,
+          "body": 0.6999999955296516,
+          "end": 449.79999999701977
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "bytes": 134396,
+          "start": 447.3999999985099,
+          "ttfb": 0.20000000298023224,
+          "body": 0.5999999940395355,
+          "end": 449.69999999552965
+        }
+      ]
+    },
+    {
+      "name": "r0-mobile-live-cold",
+      "round": 0,
+      "mobile": true,
+      "origin": "live",
+      "mode": "cold",
+      "passed": true,
+      "ready": 20999.79999999702,
+      "first": 3521.10000000149,
+      "allParsed": 19395.89999999851,
+      "gpuStart": 19396.39999999851,
+      "postParsedPreparation": 1603.3999999985099,
+      "criticalParseTail": 3.7000000029802322,
+      "loaderReadyLag": 0.10000000149011612,
+      "uploadCpu": 550.6999999880791,
+      "shaderCompileCpu": 0.10000000149011612,
+      "shaderLinkCpu": 0.8999999910593033,
+      "maxGpuParallelProgramWall": 331.79999999701977,
+      "drawCpu": 3.499999985098839,
+      "mainThreadLongTasks": 1531,
+      "cached": 0,
+      "requests": 79,
+      "failed": [],
+      "httpErrors": [],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "tail": [
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/exterior/tree-atlas.webp",
+          "bytes": 1211256,
+          "start": 3204.5,
+          "ttfb": 514.5999999940395,
+          "body": 14785.5,
+          "end": 19392.19999999553
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/corridor/indirect.webp",
+          "bytes": 484776,
+          "start": 3203.89999999851,
+          "ttfb": 366.8999999985099,
+          "body": 10955.10000000149,
+          "end": 15413.79999999702
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/urban_facade/sky.webp",
+          "bytes": 146102,
+          "start": 3204.5,
+          "ttfb": 366.1000000014901,
+          "body": 10868.5,
+          "end": 15326.60000000149
+        },
+        {
+          "path": "/bakhtiyar-zikirin/files/resume-preview.webp",
+          "bytes": 54876,
+          "start": 3204.5,
+          "ttfb": 366.8999999985099,
+          "body": 10101.89999999851,
+          "end": 14560.79999999702
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/window/indirect.webp",
+          "bytes": 499252,
+          "start": 3203.89999999851,
+          "ttfb": 514.5,
+          "body": 9751.20000000298,
+          "end": 14357.5
+        }
+      ]
+    },
+    {
+      "name": "r0-mobile-live-warm",
+      "round": 0,
+      "mobile": true,
+      "origin": "live",
+      "mode": "warm",
+      "passed": true,
+      "ready": 2436.2999999970198,
+      "first": 739.2000000029802,
+      "allParsed": 889.8999999985099,
+      "gpuStart": 890.1000000014901,
+      "postParsedPreparation": 1546.1999999955297,
+      "criticalParseTail": 126.39999999850988,
+      "loaderReadyLag": 0,
+      "uploadCpu": 556.9000000283122,
+      "shaderCompileCpu": 0.10000000149011612,
+      "shaderLinkCpu": 1.099999986588955,
+      "maxGpuParallelProgramWall": 312.8999999985099,
+      "drawCpu": 4.1999999806284904,
+      "mainThreadLongTasks": 1423,
+      "cached": 78,
+      "requests": 79,
+      "failed": [],
+      "httpErrors": [],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "tail": [
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "bytes": 161598,
+          "start": 758.8999999985099,
+          "ttfb": 0,
+          "body": 0.29999999701976776,
+          "end": 763.5
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "bytes": 131324,
+          "start": 758.6000000014901,
+          "ttfb": 0.10000000149011612,
+          "body": 0.19999999552965164,
+          "end": 762.8999999985099
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "bytes": 146806,
+          "start": 758.3999999985099,
+          "ttfb": 0.09999999403953552,
+          "body": 1,
+          "end": 762.2999999970198
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "bytes": 153486,
+          "start": 758.2000000029802,
+          "ttfb": 0.19999999552965164,
+          "body": 0.9000000059604645,
+          "end": 762.2000000029802
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "bytes": 134396,
+          "start": 757.7999999970198,
+          "ttfb": 0.30000000447034836,
+          "body": 0.8999999985098839,
+          "end": 762.1000000014901
+        }
+      ]
+    },
+    {
+      "name": "r0-mobile-local-cold",
+      "round": 0,
+      "mobile": true,
+      "origin": "local",
+      "mode": "cold",
+      "passed": true,
+      "ready": 2129.6999999955297,
+      "first": 662.2999999970198,
+      "allParsed": 802.3999999985099,
+      "gpuStart": 802.6999999955297,
+      "postParsedPreparation": 1327,
+      "criticalParseTail": 86.79999999701977,
+      "loaderReadyLag": 0.10000000149011612,
+      "uploadCpu": 388.9999999254942,
+      "shaderCompileCpu": 0.09999999403953552,
+      "shaderLinkCpu": 0.5,
+      "maxGpuParallelProgramWall": 396.6000000014901,
+      "drawCpu": 1.0000000149011612,
+      "mainThreadLongTasks": 1098,
+      "cached": 0,
+      "requests": 79,
+      "failed": [],
+      "httpErrors": [],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "tail": [
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "bytes": 161598,
+          "start": 704.3999999985099,
+          "ttfb": 3.399999998509884,
+          "body": 0.6000000014901161,
+          "end": 715.6000000014901
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "bytes": 131324,
+          "start": 704.2999999970198,
+          "ttfb": 2.5,
+          "body": 0.6999999955296516,
+          "end": 714.6999999955297
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "bytes": 146806,
+          "start": 704.1999999955297,
+          "ttfb": 1.5,
+          "body": 0.8000000044703484,
+          "end": 713.6000000014901
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "bytes": 153486,
+          "start": 704.1999999955297,
+          "ttfb": 3.399999998509884,
+          "body": 1.5,
+          "end": 710.3999999985099
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "bytes": 134396,
+          "start": 704.1000000014901,
+          "ttfb": 2.5,
+          "body": 1.7999999970197678,
+          "end": 709.6999999955297
+        }
+      ]
+    },
+    {
+      "name": "r0-mobile-local-warm",
+      "round": 0,
+      "mobile": true,
+      "origin": "local",
+      "mode": "warm",
+      "passed": true,
+      "ready": 2302.2000000029802,
+      "first": 649.7999999970198,
+      "allParsed": 781.2999999970198,
+      "gpuStart": 781.3999999985099,
+      "postParsedPreparation": 1520.8000000044703,
+      "criticalParseTail": 121.29999999701977,
+      "loaderReadyLag": 0.09999999403953552,
+      "uploadCpu": 541.3999999985099,
+      "shaderCompileCpu": 0.30000000447034836,
+      "shaderLinkCpu": 0.7000000029802322,
+      "maxGpuParallelProgramWall": 332.69999999552965,
+      "drawCpu": 3.200000010430813,
+      "mainThreadLongTasks": 1369,
+      "cached": 78,
+      "requests": 79,
+      "failed": [],
+      "httpErrors": [],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "tail": [
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "bytes": 161598,
+          "start": 658.2000000029802,
+          "ttfb": 0.09999999403953552,
+          "body": 0.7000000029802322,
+          "end": 660
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "bytes": 131324,
+          "start": 658.1000000014901,
+          "ttfb": 0.10000000149011612,
+          "body": 0.6999999955296516,
+          "end": 659.8999999985099
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "bytes": 146806,
+          "start": 657.8999999985099,
+          "ttfb": 0.10000000149011612,
+          "body": 0.5999999940395355,
+          "end": 659.7999999970198
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "bytes": 153486,
+          "start": 657.7000000029802,
+          "ttfb": 0,
+          "body": 0.5,
+          "end": 658.8999999985099
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "bytes": 134396,
+          "start": 657.3999999985099,
+          "ttfb": 0.10000000149011612,
+          "body": 0.3999999985098839,
+          "end": 658.7999999970198
+        }
+      ]
+    },
+    {
+      "name": "r1-desktop-local-cold",
+      "round": 1,
+      "mobile": false,
+      "origin": "local",
+      "mode": "cold",
+      "passed": true,
+      "ready": 2156.10000000149,
+      "first": 690.4000000059605,
+      "allParsed": 841.9000000059605,
+      "gpuStart": 842.2000000029802,
+      "postParsedPreparation": 1313.8999999985099,
+      "criticalParseTail": 89.10000000149012,
+      "loaderReadyLag": 0.10000000149011612,
+      "uploadCpu": 417.20000000298023,
+      "shaderCompileCpu": 0.30000000447034836,
+      "shaderLinkCpu": 0.8999999836087227,
+      "maxGpuParallelProgramWall": 362.20000000298023,
+      "drawCpu": 1.0999999940395355,
+      "mainThreadLongTasks": 1137,
+      "cached": 0,
+      "requests": 79,
+      "failed": [],
+      "httpErrors": [],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "tail": [
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "bytes": 161598,
+          "start": 743.2000000029802,
+          "ttfb": 1.2999999970197678,
+          "body": 0.6000000014901161,
+          "end": 752.8000000044703
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "bytes": 131324,
+          "start": 743.2000000029802,
+          "ttfb": 1,
+          "body": 0.3999999985098839,
+          "end": 751.8000000044703
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "bytes": 146806,
+          "start": 743.1000000014901,
+          "ttfb": 2.9000000059604645,
+          "body": 2,
+          "end": 749.9000000059605
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "bytes": 153486,
+          "start": 743,
+          "ttfb": 2.5,
+          "body": 2.399999998509884,
+          "end": 749.5
+        },
+        {
+          "path": "/room/assets/potted_plant_02/selected.bin",
+          "bytes": 421272,
+          "start": 742.5,
+          "ttfb": 1.6000000014901161,
+          "body": 4,
+          "end": 748.7000000029802
+        }
+      ]
+    },
+    {
+      "name": "r1-desktop-local-warm",
+      "round": 1,
+      "mobile": false,
+      "origin": "local",
+      "mode": "warm",
+      "passed": true,
+      "ready": 2362.5999999940395,
+      "first": 732.2999999970198,
+      "allParsed": 881.5999999940395,
+      "gpuStart": 881.6999999955297,
+      "postParsedPreparation": 1480.8999999985099,
+      "criticalParseTail": 140.89999999850988,
+      "loaderReadyLag": 0,
+      "uploadCpu": 506.9999999925494,
+      "shaderCompileCpu": 0.10000000149011612,
+      "shaderLinkCpu": 0.699999988079071,
+      "maxGpuParallelProgramWall": 351.3999999985099,
+      "drawCpu": 3.7000000029802322,
+      "mainThreadLongTasks": 1370,
+      "cached": 78,
+      "requests": 79,
+      "failed": [],
+      "httpErrors": [],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "tail": [
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "bytes": 161598,
+          "start": 737.5,
+          "ttfb": 0,
+          "body": 0.6999999955296516,
+          "end": 740.6999999955297
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "bytes": 131324,
+          "start": 737.3999999985099,
+          "ttfb": 0.10000000149011612,
+          "body": 0.5,
+          "end": 740.5
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "bytes": 146806,
+          "start": 737.0999999940395,
+          "ttfb": 0,
+          "body": 1.3000000044703484,
+          "end": 739.5
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "bytes": 153486,
+          "start": 736.8999999985099,
+          "ttfb": 0.10000000149011612,
+          "body": 1.1000000014901161,
+          "end": 739.2999999970198
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "bytes": 134396,
+          "start": 736.6999999955297,
+          "ttfb": 0.29999999701976776,
+          "body": 0.8999999985098839,
+          "end": 739.0999999940395
+        }
+      ]
+    },
+    {
+      "name": "r1-desktop-live-cold",
+      "round": 1,
+      "mobile": false,
+      "origin": "live",
+      "mode": "cold",
+      "passed": true,
+      "ready": 28692.60000000149,
+      "first": 2676.5,
+      "allParsed": 27070.20000000298,
+      "gpuStart": 27070.60000000149,
+      "postParsedPreparation": 1622,
+      "criticalParseTail": 3,
+      "loaderReadyLag": 0.19999999552965164,
+      "uploadCpu": 505,
+      "shaderCompileCpu": 0.10000000149011612,
+      "shaderLinkCpu": 0.9000000059604645,
+      "maxGpuParallelProgramWall": 415.20000000298023,
+      "drawCpu": 4.3999999687075615,
+      "mainThreadLongTasks": 1384,
+      "cached": 0,
+      "requests": 79,
+      "failed": [],
+      "httpErrors": [],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "tail": [
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/exterior/tree-atlas.webp",
+          "bytes": 1211256,
+          "start": 2343.39999999851,
+          "ttfb": 323.59999999403954,
+          "body": 24392.40000000596,
+          "end": 27067.20000000298
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/corridor/indirect.webp",
+          "bytes": 484776,
+          "start": 2343.2000000029802,
+          "ttfb": 325,
+          "body": 21986.80000000447,
+          "end": 24659.70000000298
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/urban_facade/sky.webp",
+          "bytes": 146102,
+          "start": 2343.2000000029802,
+          "ttfb": 323.40000000596046,
+          "body": 21903.79999999702,
+          "end": 24577.5
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/window/indirect.webp",
+          "bytes": 499252,
+          "start": 2343.10000000149,
+          "ttfb": 326.69999999552965,
+          "body": 20758.30000000447,
+          "end": 23432.20000000298
+        },
+        {
+          "path": "/bakhtiyar-zikirin/files/resume-preview.webp",
+          "bytes": 54876,
+          "start": 2343.2000000029802,
+          "ttfb": 324.20000000298023,
+          "body": 20159.39999999851,
+          "end": 22833.89999999851
+        }
+      ]
+    },
+    {
+      "name": "r1-desktop-live-warm",
+      "round": 1,
+      "mobile": false,
+      "origin": "live",
+      "mode": "warm",
+      "passed": true,
+      "ready": 2360.1999999955297,
+      "first": 739.1000000014901,
+      "allParsed": 855.8999999985099,
+      "gpuStart": 856.1000000014901,
+      "postParsedPreparation": 1504.0999999940395,
+      "criticalParseTail": 373,
+      "loaderReadyLag": 0,
+      "uploadCpu": 527.6000000089407,
+      "shaderCompileCpu": 0.30000000447034836,
+      "shaderLinkCpu": 1.0000000074505806,
+      "maxGpuParallelProgramWall": 321,
+      "drawCpu": 2.8999999687075615,
+      "mainThreadLongTasks": 1433,
+      "cached": 78,
+      "requests": 79,
+      "failed": [],
+      "httpErrors": [],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "tail": [
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "bytes": 161598,
+          "start": 478,
+          "ttfb": 0,
+          "body": 0.3999999985098839,
+          "end": 482.8999999985099
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "bytes": 131324,
+          "start": 477.79999999701977,
+          "ttfb": 0,
+          "body": 0.29999999701976776,
+          "end": 482.19999999552965
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "bytes": 146806,
+          "start": 477.6000000014901,
+          "ttfb": 0.19999999552965164,
+          "body": 1,
+          "end": 481.69999999552965
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "bytes": 134396,
+          "start": 477.19999999552965,
+          "ttfb": 0.20000000298023224,
+          "body": 1,
+          "end": 481.5
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "bytes": 153486,
+          "start": 477.3999999985099,
+          "ttfb": 0.29999999701976776,
+          "body": 0.8000000044703484,
+          "end": 481.5
+        }
+      ]
+    },
+    {
+      "name": "r1-mobile-local-cold",
+      "round": 1,
+      "mobile": true,
+      "origin": "local",
+      "mode": "cold",
+      "passed": true,
+      "ready": 2106.2000000029802,
+      "first": 670.6000000014901,
+      "allParsed": 810.4000000059605,
+      "gpuStart": 810.8000000044703,
+      "postParsedPreparation": 1295.3999999985099,
+      "criticalParseTail": 73.40000000596046,
+      "loaderReadyLag": 0.10000000149011612,
+      "uploadCpu": 402.899999961257,
+      "shaderCompileCpu": 0.19999998807907104,
+      "shaderLinkCpu": 0.5,
+      "maxGpuParallelProgramWall": 378.19999999552965,
+      "drawCpu": 1.3000000044703484,
+      "mainThreadLongTasks": 1074,
+      "cached": 0,
+      "requests": 79,
+      "failed": [],
+      "httpErrors": [],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "tail": [
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "bytes": 161598,
+          "start": 727.5,
+          "ttfb": 1,
+          "body": 0.5999999940395355,
+          "end": 737
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "bytes": 146806,
+          "start": 727.3000000044703,
+          "ttfb": 2.7000000029802322,
+          "body": 2.7000000029802322,
+          "end": 734.9000000059605
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "bytes": 131324,
+          "start": 727.4000000059605,
+          "ttfb": 3.3000000044703484,
+          "body": 1.6999999955296516,
+          "end": 734.6000000014901
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "bytes": 153486,
+          "start": 727.2000000029802,
+          "ttfb": 2,
+          "body": 2.899999998509884,
+          "end": 734.3000000044703
+        },
+        {
+          "path": "/room/assets/potted_plant_02/selected.bin",
+          "bytes": 421272,
+          "start": 726.7000000029802,
+          "ttfb": 1.5,
+          "body": 4.899999998509884,
+          "end": 733.8000000044703
+        }
+      ]
+    },
+    {
+      "name": "r1-mobile-local-warm",
+      "round": 1,
+      "mobile": true,
+      "origin": "local",
+      "mode": "warm",
+      "passed": true,
+      "ready": 2333.5,
+      "first": 648,
+      "allParsed": 772.7999999970198,
+      "gpuStart": 773,
+      "postParsedPreparation": 1560.5,
+      "criticalParseTail": 117.39999999850988,
+      "loaderReadyLag": 0.10000000149011612,
+      "uploadCpu": 522.4000000283122,
+      "shaderCompileCpu": 0.10000000149011612,
+      "shaderLinkCpu": 1.0999999940395355,
+      "maxGpuParallelProgramWall": 385.3999999985099,
+      "drawCpu": 4.399999998509884,
+      "mainThreadLongTasks": 1372,
+      "cached": 78,
+      "requests": 79,
+      "failed": [],
+      "httpErrors": [],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "tail": [
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "bytes": 161598,
+          "start": 652.1000000014901,
+          "ttfb": 0,
+          "body": 0.7999999970197678,
+          "end": 655.3999999985099
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "bytes": 131324,
+          "start": 651.8999999985099,
+          "ttfb": 0.20000000298023224,
+          "body": 0.5999999940395355,
+          "end": 655.1999999955297
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "bytes": 146806,
+          "start": 651.6999999955297,
+          "ttfb": 0,
+          "body": 1.2000000029802322,
+          "end": 654
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "bytes": 153486,
+          "start": 651.3999999985099,
+          "ttfb": 0.10000000149011612,
+          "body": 1,
+          "end": 653.7999999970198
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "bytes": 134396,
+          "start": 651.1999999955297,
+          "ttfb": 0.29999999701976776,
+          "body": 0.7000000029802322,
+          "end": 653.5
+        }
+      ]
+    },
+    {
+      "name": "r1-mobile-live-cold",
+      "round": 1,
+      "mobile": true,
+      "origin": "live",
+      "mode": "cold",
+      "passed": true,
+      "ready": 29457.39999999851,
+      "first": 2764.6999999955297,
+      "allParsed": 27889.5,
+      "gpuStart": 27890.09999999404,
+      "postParsedPreparation": 1567.3000000044703,
+      "criticalParseTail": 2.5,
+      "loaderReadyLag": 0.19999999552965164,
+      "uploadCpu": 528.5999999940395,
+      "shaderCompileCpu": 0.30000000447034836,
+      "shaderLinkCpu": 0.5000000074505806,
+      "maxGpuParallelProgramWall": 331.3999999985099,
+      "drawCpu": 3.600000023841858,
+      "mainThreadLongTasks": 1427,
+      "cached": 0,
+      "requests": 79,
+      "failed": [],
+      "httpErrors": [],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "tail": [
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/exterior/tree-atlas.webp",
+          "bytes": 1211256,
+          "start": 2406,
+          "ttfb": 441.1000000014901,
+          "body": 25034,
+          "end": 27887
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/corridor/indirect.webp",
+          "bytes": 484776,
+          "start": 2405.5999999940395,
+          "ttfb": 310.5,
+          "body": 18966,
+          "end": 21685.79999999702
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/urban_facade/sky.webp",
+          "bytes": 146102,
+          "start": 2405.89999999851,
+          "ttfb": 441.3999999985099,
+          "body": 17713.20000000298,
+          "end": 20565.39999999851
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/window/indirect.webp",
+          "bytes": 499252,
+          "start": 2405.5999999940395,
+          "ttfb": 311.20000000298023,
+          "body": 17320.09999999404,
+          "end": 20040.59999999404
+        },
+        {
+          "path": "/bakhtiyar-zikirin/files/resume-preview.webp",
+          "bytes": 54876,
+          "start": 2405.89999999851,
+          "ttfb": 310,
+          "body": 16747.70000000298,
+          "end": 19468.39999999851
+        }
+      ]
+    },
+    {
+      "name": "r1-mobile-live-warm",
+      "round": 1,
+      "mobile": true,
+      "origin": "live",
+      "mode": "warm",
+      "passed": true,
+      "ready": 2389.3000000044703,
+      "first": 737,
+      "allParsed": 895.5,
+      "gpuStart": 895.6000000014901,
+      "postParsedPreparation": 1493.7000000029802,
+      "criticalParseTail": 136.29999999701977,
+      "loaderReadyLag": 0.09999999403953552,
+      "uploadCpu": 549.9999999925494,
+      "shaderCompileCpu": 0.10000000149011612,
+      "shaderLinkCpu": 0.7999999821186066,
+      "maxGpuParallelProgramWall": 310.69999999552965,
+      "drawCpu": 4.599999986588955,
+      "mainThreadLongTasks": 1388,
+      "cached": 78,
+      "requests": 79,
+      "failed": [],
+      "httpErrors": [],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "tail": [
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "bytes": 161598,
+          "start": 752.5,
+          "ttfb": 0,
+          "body": 0.3999999985098839,
+          "end": 759.2000000029802
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "bytes": 131324,
+          "start": 752.3000000044703,
+          "ttfb": 0,
+          "body": 0.7999999970197678,
+          "end": 758.1000000014901
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "bytes": 146806,
+          "start": 752,
+          "ttfb": 0.10000000149011612,
+          "body": 1.2999999970197678,
+          "end": 756.6000000014901
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "bytes": 153486,
+          "start": 751.8000000044703,
+          "ttfb": 0.30000000447034836,
+          "body": 1.0999999940395355,
+          "end": 756.3999999985099
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "bytes": 134396,
+          "start": 751.6000000014901,
+          "ttfb": 0.20000000298023224,
+          "body": 1.1000000014901161,
+          "end": 756.3000000044703
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Two rounds/profile/origin; uncontrolled native network; no physical Android/Safari.",
+    "No request routing, no source response patch in measurement; HTTP cache enabled and measured78hits in warm runs.",
+    "GL compile/link CPU calls and KHR completion wall intervals are timing probes, not exclusive GPU execution measurements.",
+    "GPU preparation combines scene assembly/environment baking/texture upload/shader readiness/first real shadow renders. Overlapping stage durations must not be added.",
+    "The old48.7/23.8s run was not instrumented; this dataset cannot reconstruct its individual network timings.",
+    "CDN HIT headers rule out a cache miss for the sampled atlas responses, but do not identify whether bandwidth stalls originate in client transport, an intermediary, or CDN delivery."
+  ]
+}
