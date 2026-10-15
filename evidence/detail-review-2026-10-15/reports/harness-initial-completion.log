@@ -1,0 +1,11 @@
+{"passed":false,"checks":14,"scenarios":0,"failure":{"mobile":false,"message":"page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at http://127.0.0.1:4331/after/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4331/after/\", waiting until \"load\"\u001b[22m\n","errors":["Failed to read the 'localStorage' property from 'Window': Access is denied for this document."]}}
+page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at http://127.0.0.1:4331/after/
+Call log:
+[2m  - navigating to "http://127.0.0.1:4331/after/", waiting until "load"[22m
+
+    at C:\Users\aldia\Documents\Codex\2026-10-13\task\portfolio\scripts\qa-room-completion.cjs:7:747 {
+  log: [
+    '  - navigating to "http://127.0.0.1:4331/after/", waiting until "load"'
+  ],
+  name: 'Error'
+}

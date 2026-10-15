@@ -1,0 +1,345 @@
+{
+  "at": "2026-10-15T19:41:48.948Z",
+  "baseline": "8c82487141a0dd13436b5e6bcc257cf7e4c09900",
+  "all17RegressionJobsPassed": true,
+  "jobs": [
+    {
+      "name": "cube",
+      "file": "test-cube-state.mjs",
+      "args": [],
+      "exit": 0,
+      "durationMs": 85,
+      "summary": "{\"passed\":true,\"checks\":3025,\"turns\":2076}\n"
+    },
+    {
+      "name": "asset-history",
+      "file": "qa-asset-history.mjs",
+      "args": [],
+      "exit": 0,
+      "durationMs": 3402,
+      "summary": "PASS asset history: published baseline, repeated builds and bounded retention\n"
+    },
+    {
+      "name": "completion",
+      "file": "qa-room-completion.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review-retry"
+      ],
+      "exit": 0,
+      "durationMs": 45987,
+      "summary": "{\"passed\":true,\"checks\":148,\"scenarios\":6}\n"
+    },
+    {
+      "name": "sweep",
+      "file": "qa-joinery-sweep.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review"
+      ],
+      "exit": 0,
+      "durationMs": 7511,
+      "summary": ".09249999910593032],\"max\":[-0.03250000208616255,0.038370000000000015,0.11249999910593034]}]},{\"id\":\"drawer-education\",\"pages\":[{\"name\":\"Diploma sheet\",\"min\":[0.03250000208616255,0.036799999993480714,-0.11511999979615206],\"max\":[0.17749999791383742,0.038370000000000015,-0.014880000203847832]},{\"name\":\"Certificate sheet\",\"min\":[0.03250000208616255,0.036799999993480714,0.0005000013113021229],\"max\":[0.17749999791383742,0.038370000000000015,0.10949999868869775]}]}],\"readingTable\":0.550000011920929}}\n"
+    },
+    {
+      "name": "refinement",
+      "file": "qa-room-refinement.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review"
+      ],
+      "exit": 0,
+      "durationMs": 55023,
+      "summary": "{\"passed\":true,\"checks\":84,\"scenarios\":4}\n"
+    },
+    {
+      "name": "furniture",
+      "file": "qa-room-furniture.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review"
+      ],
+      "exit": 0,
+      "durationMs": 78309,
+      "summary": "{\"passed\":true,\"checks\":121,\"scenarios\":4}\n"
+    },
+    {
+      "name": "showcase",
+      "file": "qa-room-showcase.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review"
+      ],
+      "exit": 0,
+      "durationMs": 21230,
+      "summary": ""
+    },
+    {
+      "name": "hotspots",
+      "file": "qa-room-hotspots.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review"
+      ],
+      "exit": 0,
+      "durationMs": 29778,
+      "summary": "{\"pass\":true,\"checks\":27,\"scenarios\":[{\"name\":\"desktop\",\"earlyProgress\":0.46199999999999997,\"doorAngle\":1.5399988522819505,\"markers\":[\"object-case\",\"object-profile\",\"object-lamp\",\"object-drawer\"]},{\"name\":\"mobile\",\"earlyProgress\":0.46199999999999997,\"doorAngle\":1.5399989447521525,\"markers\":[\"object-case\",\"object-profile\",\"object-lamp\",\"object-drawer\"]}]}\n"
+    },
+    {
+      "name": "collection",
+      "file": "qa-room-collection.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review"
+      ],
+      "exit": 0,
+      "durationMs": 66156,
+      "summary": "{\"passed\":true,\"checks\":102,\"scenarios\":4}\n"
+    },
+    {
+      "name": "collection-edges",
+      "file": "qa-room-collection-edges.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review"
+      ],
+      "exit": 0,
+      "durationMs": 11194,
+      "summary": "{\"checks\":[\"Cube dialog has no axe violations\",\"Closing during a turn preserves a legal cube\",\"Room rendering settles while object is held\",\"Room context loss releases item renderer\",\"Projects remain accessible after item and room context loss\"],\"passed\":true,\"axe\":[]}\n"
+    },
+    {
+      "name": "context-loss",
+      "file": "qa-room-context-loss.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review"
+      ],
+      "exit": 0,
+      "durationMs": 8984,
+      "summary": ""
+    },
+    {
+      "name": "case-rain",
+      "file": "qa-room-case-rain.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review"
+      ],
+      "exit": 0,
+      "durationMs": 36161,
+      "summary": ""
+    },
+    {
+      "name": "pages",
+      "file": "qa-pages.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review-retry"
+      ],
+      "exit": 0,
+      "durationMs": 164478,
+      "summary": "e}\n{\"width\":390,\"lang\":\"ru\",\"theme\":\"light\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"ru\",\"theme\":\"dark\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"kk\",\"theme\":\"light\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"kk\",\"theme\":\"dark\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"en\",\"theme\":\"light\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"en\",\"theme\":\"dark\",\"passed\":true,\"flow\":true}\n{\"scope\":\"detail-review-retry\",\"passed\":true,\"routes\":132,\"flows\":12,\"edges\":0,\"failed\":[]}\n"
+    },
+    {
+      "name": "pages-edges",
+      "file": "qa-pages-edges.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review-retry"
+      ],
+      "exit": 0,
+      "durationMs": 9666,
+      "summary": "     \"disclosureOpen\": true,\n      \"failedScripts\": [\n        \"http://127.0.0.1:4331/after/assets/scene-controls-B-65-GTU.js\"\n      ]\n    },\n    {\n      \"type\": \"renderer-chunk-failure\",\n      \"passed\": true,\n      \"disclosureOpen\": true,\n      \"failedScripts\": [\n        \"http://127.0.0.1:4331/after/assets/scene-By8RsxPN.js\"\n      ]\n    },\n    {\n      \"type\": \"startup-and-webgl-fallback\",\n      \"passed\": true,\n      \"disclosureOpen\": true,\n      \"failedScripts\": []\n    }\n  ],\n  \"passed\": true\n}\n"
+    },
+    {
+      "name": "pages-nojs",
+      "file": "qa-pages.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review-nojs",
+        "--edges-only"
+      ],
+      "exit": 0,
+      "durationMs": 3278,
+      "summary": "{\"scope\":\"detail-review-nojs\",\"passed\":true,\"routes\":0,\"flows\":0,\"edges\":4,\"failed\":[]}\n"
+    },
+    {
+      "name": "rail-focus",
+      "file": "qa-project-rail-focus.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review-retry"
+      ],
+      "exit": 0,
+      "durationMs": 69574,
+      "summary": "PASS 12 focus variants\n"
+    },
+    {
+      "name": "menu",
+      "file": "qa-room-menu.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/"
+      ],
+      "exit": 0,
+      "durationMs": 7480,
+      "summary": ""
+    }
+  ],
+  "supplementalCommands": [
+    "node scripts/qa-room-ux.cjs <base> detail-final",
+    "node scripts/qa-room-document-details.cjs <base> final",
+    "node scripts/qa-room-document-fallback.cjs <base> fallback-final",
+    "node scripts/qa-room-document-partial-mobile.cjs <base> partial-mobile",
+    "node scripts/qa-room-shadow-cache.cjs <base>"
+  ],
+  "initialHarnessReport": "reports/regressions-initial.json",
+  "retryReport": "reports/regressions-retry.json",
+  "followup": "After the full regression matrix, partial-opening label selection was changed only for drawer documents. Final directed UX/document/fallback, shadow and performance runs use that updated main.js. Generic actions and ordinary routes are unchanged.",
+  "ux": {
+    "file": "reports/ux.json",
+    "passed": true,
+    "checks": 557,
+    "scenarios": 4,
+    "sweep": 101
+  },
+  "documents": {
+    "file": "reports/documents.json",
+    "passed": true,
+    "checks": 932,
+    "scenarios": 4,
+    "sweep": 101
+  },
+  "partialMobile": {
+    "file": "reports/partialMobile.json",
+    "passed": true,
+    "checks": 162,
+    "samples": 42
+  },
+  "fallback": {
+    "file": "reports/fallback.json",
+    "passed": true,
+    "checks": 36,
+    "scenarios": 6
+  },
+  "shadow": {
+    "file": "reports/shadow.json",
+    "passed": true,
+    "checks": 158,
+    "samples": 76
+  },
+  "furniture": {
+    "file": "reports/furniture.json",
+    "passed": true,
+    "checks": 121,
+    "scenarios": 4
+  },
+  "completion": {
+    "file": "reports/completion.json",
+    "passed": true,
+    "checks": 148,
+    "scenarios": 6
+  },
+  "sweep": {
+    "file": "reports/sweep.json",
+    "passed": true,
+    "checks": 328,
+    "samples": 41
+  },
+  "refinement": {
+    "file": "reports/refinement.json",
+    "passed": true,
+    "checks": 84,
+    "scenarios": 4
+  },
+  "collection": {
+    "file": "reports/collection.json",
+    "passed": true,
+    "checks": 102,
+    "scenarios": 4
+  },
+  "collectionEdges": {
+    "file": "reports/collectionEdges.json",
+    "passed": true,
+    "checks": 5
+  },
+  "hotspots": {
+    "file": "reports/hotspots.json",
+    "passed": true,
+    "checks": 27,
+    "scenarios": 2
+  },
+  "showcase": {
+    "file": "reports/showcase.json",
+    "passed": true,
+    "checks": 149,
+    "scenarios": 2
+  },
+  "rain": {
+    "file": "reports/rain.json",
+    "passed": true,
+    "checks": 94,
+    "scenarios": 2
+  },
+  "contextLoss": {
+    "file": "reports/contextLoss.json",
+    "passed": true,
+    "checks": 9
+  },
+  "menu": {
+    "file": "reports/menu.json",
+    "passed": true,
+    "checks": 9
+  },
+  "rail": {
+    "file": "reports/rail.json",
+    "passed": true
+  },
+  "runtime": [
+    {
+      "name": "room/boot.js",
+      "sha256": "a6f9661f72b625e2d0a90229a58a89954db6cc540c574e5cb8a8cabaea7fde50"
+    },
+    {
+      "name": "room/index.html",
+      "sha256": "6c016266e85d1a3d10363598ab9ba93963d69a3cc6995dcfabd3dbf8b3a022e3"
+    },
+    {
+      "name": "room/main.js",
+      "sha256": "2aa2a39df1c3b3772cc12f260d827768484b9bdcf9dc274de1927224c8391565"
+    },
+    {
+      "name": "room/world.js",
+      "sha256": "ea3e9c84927d560af02d1e72fe420978e5a3f44b3c0c58c2e4065be2bf451bdd"
+    },
+    {
+      "name": "room/ui.js",
+      "sha256": "f6f18b37db979d75a4d649b7759e6b121e8b81233663a23211f8aae920ea1f22"
+    },
+    {
+      "name": "room/style.css",
+      "sha256": "7b7d119bb8fbb214a025007859de620b000474e7d33c57982966320592f0571f"
+    },
+    {
+      "name": "room/document-actions.js",
+      "sha256": "ff2627e20d64fff568cea317cc5bd2f12d912159a9823275232d600a6084b414"
+    },
+    {
+      "name": "room/joinery-details.js",
+      "sha256": "49cd7244a3922d01a773bf7076940d90c938b5aa196c77982ab568ef87529f98"
+    },
+    {
+      "name": "room/compressed-models.js",
+      "sha256": "79110c624660661badd9dc2656d88e5a28488209a6b0df0728031e0b34a471e7"
+    },
+    {
+      "name": "room/assets/studio-furniture/drawer.glb",
+      "sha256": "cbd18d8f6d45cf28379742c78c401f266b26262dea9fdbc58cda1292bcd40f97"
+    },
+    {
+      "name": "room/assets/studio-furniture/drawer.glb.gz",
+      "sha256": "8a949b52af7f079a50085558447f8b15dbc318e74431a09cf85a033be2f3e032"
+    }
+  ],
+  "performanceSummary": "performance-summary.json",
+  "allPassed": true
+}

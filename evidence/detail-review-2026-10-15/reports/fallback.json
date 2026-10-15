@@ -1,0 +1,68 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "checks": [
+    "desktop-ru: fallback hides scene actions and document leaders",
+    "desktop-ru: education available without GPU",
+    "desktop-ru: existing diploma available in native dialog",
+    "desktop-ru: genuine certificate available",
+    "desktop-ru: fallback fits viewport",
+    "desktop-ru: public PDF remains available through the functioning content UI",
+    "desktop-kk: fallback hides scene actions and document leaders",
+    "desktop-kk: education available without GPU",
+    "desktop-kk: existing diploma available in native dialog",
+    "desktop-kk: genuine certificate available",
+    "desktop-kk: fallback fits viewport",
+    "desktop-kk: public PDF remains available through the functioning content UI",
+    "desktop-en: fallback hides scene actions and document leaders",
+    "desktop-en: education available without GPU",
+    "desktop-en: existing diploma available in native dialog",
+    "desktop-en: genuine certificate available",
+    "desktop-en: fallback fits viewport",
+    "desktop-en: public PDF remains available through the functioning content UI",
+    "touch-ru: fallback hides scene actions and document leaders",
+    "touch-ru: education available without GPU",
+    "touch-ru: existing diploma available in native dialog",
+    "touch-ru: genuine certificate available",
+    "touch-ru: fallback fits viewport",
+    "touch-ru: public PDF remains available through the functioning content UI",
+    "touch-kk: fallback hides scene actions and document leaders",
+    "touch-kk: education available without GPU",
+    "touch-kk: existing diploma available in native dialog",
+    "touch-kk: genuine certificate available",
+    "touch-kk: fallback fits viewport",
+    "touch-kk: public PDF remains available through the functioning content UI",
+    "touch-en: fallback hides scene actions and document leaders",
+    "touch-en: education available without GPU",
+    "touch-en: existing diploma available in native dialog",
+    "touch-en: genuine certificate available",
+    "touch-en: fallback fits viewport",
+    "touch-en: public PDF remains available through the functioning content UI"
+  ],
+  "scenarios": [
+    {
+      "name": "desktop-ru",
+      "errors": []
+    },
+    {
+      "name": "desktop-kk",
+      "errors": []
+    },
+    {
+      "name": "desktop-en",
+      "errors": []
+    },
+    {
+      "name": "touch-ru",
+      "errors": []
+    },
+    {
+      "name": "touch-kk",
+      "errors": []
+    },
+    {
+      "name": "touch-en",
+      "errors": []
+    }
+  ],
+  "passed": true
+}

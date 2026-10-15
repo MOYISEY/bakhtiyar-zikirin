@@ -1,0 +1,245 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "width": 320,
+      "theme": "light",
+      "motion": "reduce",
+      "reproduced": {
+        "id": "framepack",
+        "text": "Framepack",
+        "width": 207.546875,
+        "visible": 207.546875,
+        "left": 31.890625,
+        "right": 239.4375,
+        "railLeft": 15.25,
+        "railRight": 289.75,
+        "scrollLeft": 773,
+        "scrollY": 1355
+      },
+      "forwardReverseLinks": 35,
+      "enter": true,
+      "verticalStable": true
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "motion": "no-preference",
+      "reproduced": {
+        "id": "framepack",
+        "text": "Framepack",
+        "width": 207.546875,
+        "visible": 207.546875,
+        "left": 31.890625,
+        "right": 239.4375,
+        "railLeft": 15.25,
+        "railRight": 289.75,
+        "scrollLeft": 773,
+        "scrollY": 1355
+      },
+      "forwardReverseLinks": 35,
+      "enter": true,
+      "verticalStable": true
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "motion": "reduce",
+      "reproduced": {
+        "id": "framepack",
+        "text": "Framepack",
+        "width": 207.546875,
+        "visible": 207.546875,
+        "left": 31.890625,
+        "right": 239.4375,
+        "railLeft": 15.25,
+        "railRight": 289.75,
+        "scrollLeft": 773,
+        "scrollY": 1355
+      },
+      "forwardReverseLinks": 35,
+      "enter": true,
+      "verticalStable": true
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "motion": "no-preference",
+      "reproduced": {
+        "id": "framepack",
+        "text": "Framepack",
+        "width": 207.546875,
+        "visible": 207.546875,
+        "left": 31.890625,
+        "right": 239.4375,
+        "railLeft": 15.25,
+        "railRight": 289.75,
+        "scrollLeft": 773,
+        "scrollY": 1355
+      },
+      "forwardReverseLinks": 35,
+      "enter": true,
+      "verticalStable": true
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "motion": "reduce",
+      "reproduced": {
+        "id": "framepack",
+        "text": "Framepack",
+        "width": 263,
+        "visible": 263,
+        "left": 35.75,
+        "right": 298.75,
+        "railLeft": 18.75,
+        "railRight": 356.25,
+        "scrollLeft": 939,
+        "scrollY": 1210
+      },
+      "forwardReverseLinks": 35,
+      "enter": true,
+      "verticalStable": true
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "motion": "no-preference",
+      "reproduced": {
+        "id": "framepack",
+        "text": "Framepack",
+        "width": 263,
+        "visible": 263,
+        "left": 35.75,
+        "right": 298.75,
+        "railLeft": 18.75,
+        "railRight": 356.25,
+        "scrollLeft": 939,
+        "scrollY": 1210
+      },
+      "forwardReverseLinks": 35,
+      "enter": true,
+      "verticalStable": true
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "motion": "reduce",
+      "reproduced": {
+        "id": "framepack",
+        "text": "Framepack",
+        "width": 263,
+        "visible": 263,
+        "left": 35.75,
+        "right": 298.75,
+        "railLeft": 18.75,
+        "railRight": 356.25,
+        "scrollLeft": 939,
+        "scrollY": 1210
+      },
+      "forwardReverseLinks": 35,
+      "enter": true,
+      "verticalStable": true
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "motion": "no-preference",
+      "reproduced": {
+        "id": "framepack",
+        "text": "Framepack",
+        "width": 263,
+        "visible": 263,
+        "left": 35.75,
+        "right": 298.75,
+        "railLeft": 18.75,
+        "railRight": 356.25,
+        "scrollLeft": 939,
+        "scrollY": 1210
+      },
+      "forwardReverseLinks": 35,
+      "enter": true,
+      "verticalStable": true
+    },
+    {
+      "width": 1600,
+      "theme": "light",
+      "motion": "reduce",
+      "reproduced": {
+        "id": "framepack",
+        "text": "Framepack",
+        "width": 476.96875,
+        "visible": 476.96875,
+        "left": 684.453125,
+        "right": 1161.421875,
+        "railLeft": 113.8125,
+        "railRight": 1471.1875,
+        "scrollLeft": 1096,
+        "scrollY": 590
+      },
+      "forwardReverseLinks": 35,
+      "enter": true,
+      "verticalStable": true
+    },
+    {
+      "width": 1600,
+      "theme": "light",
+      "motion": "no-preference",
+      "reproduced": {
+        "id": "framepack",
+        "text": "Framepack",
+        "width": 476.96875,
+        "visible": 476.96875,
+        "left": 684.453125,
+        "right": 1161.421875,
+        "railLeft": 113.8125,
+        "railRight": 1471.1875,
+        "scrollLeft": 1096,
+        "scrollY": 590
+      },
+      "forwardReverseLinks": 35,
+      "enter": true,
+      "verticalStable": true
+    },
+    {
+      "width": 1600,
+      "theme": "dark",
+      "motion": "reduce",
+      "reproduced": {
+        "id": "framepack",
+        "text": "Framepack",
+        "width": 476.96875,
+        "visible": 476.96875,
+        "left": 684.453125,
+        "right": 1161.421875,
+        "railLeft": 113.8125,
+        "railRight": 1471.1875,
+        "scrollLeft": 1096,
+        "scrollY": 590
+      },
+      "forwardReverseLinks": 35,
+      "enter": true,
+      "verticalStable": true
+    },
+    {
+      "width": 1600,
+      "theme": "dark",
+      "motion": "no-preference",
+      "reproduced": {
+        "id": "framepack",
+        "text": "Framepack",
+        "width": 476.96875,
+        "visible": 476.96875,
+        "left": 684.453125,
+        "right": 1161.421875,
+        "railLeft": 113.8125,
+        "railRight": 1471.1875,
+        "scrollLeft": 1096,
+        "scrollY": 590
+      },
+      "forwardReverseLinks": 35,
+      "enter": true,
+      "verticalStable": true
+    }
+  ]
+}

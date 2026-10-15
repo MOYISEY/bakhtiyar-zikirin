@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-15T19:22:40.226Z",
+  "base": "http://127.0.0.1:4331/after/",
+  "scope": "detail-review",
+  "checks": [
+    {
+      "type": "all fourteen fresh screenshots and seven previews match provenance and production build",
+      "passed": true,
+      "captures": 14,
+      "previewBytes": 258178
+    },
+    {
+      "type": "image-failure",
+      "passed": true
+    },
+    {
+      "type": "controls-chunk-failure",
+      "passed": false,
+      "failure": "page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at http://127.0.0.1:4331/after/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4331/after/\", waiting until \"load\"\u001b[22m\n"
+    },
+    {
+      "type": "renderer-chunk-failure",
+      "passed": false,
+      "failure": "page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at http://127.0.0.1:4331/after/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4331/after/\", waiting until \"load\"\u001b[22m\n"
+    },
+    {
+      "type": "startup-and-webgl-fallback",
+      "passed": false,
+      "failure": "page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at http://127.0.0.1:4331/after/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4331/after/\", waiting until \"load\"\u001b[22m\n"
+    }
+  ],
+  "passed": false
+}

@@ -1,0 +1,332 @@
+{
+  "base": "http://127.0.0.1:4332/",
+  "label": "baseline8c",
+  "expectedStale": true,
+  "checks": [
+    "original8c stale fixed-camera markers independently reproduced"
+  ],
+  "captures": [
+    {
+      "mobile": false,
+      "name": "drawer",
+      "targets": [
+        {
+          "id": "case",
+          "x": 801.375,
+          "y": 414.921875,
+          "width": 44,
+          "height": 44,
+          "hit": "drawer",
+          "top": "object-case"
+        },
+        {
+          "id": "profile",
+          "x": 621.890625,
+          "y": 506.546875,
+          "width": 44,
+          "height": 44,
+          "hit": "drawer-resume",
+          "top": "object-profile"
+        },
+        {
+          "id": "lamp",
+          "x": 1016.265625,
+          "y": 325.234375,
+          "width": 44,
+          "height": 118.140625,
+          "hit": null,
+          "top": "object-lamp"
+        },
+        {
+          "id": "drawer",
+          "x": 828.421875,
+          "y": 602,
+          "width": 44,
+          "height": 44,
+          "hit": null,
+          "top": "object-drawer"
+        }
+      ],
+      "stale": [
+        {
+          "id": "case",
+          "x": 801.375,
+          "y": 414.921875,
+          "width": 44,
+          "height": 44,
+          "hit": "drawer",
+          "top": "object-case"
+        },
+        {
+          "id": "profile",
+          "x": 621.890625,
+          "y": 506.546875,
+          "width": 44,
+          "height": 44,
+          "hit": "drawer-resume",
+          "top": "object-profile"
+        },
+        {
+          "id": "lamp",
+          "x": 1016.265625,
+          "y": 325.234375,
+          "width": 44,
+          "height": 118.140625,
+          "hit": null,
+          "top": "object-lamp"
+        },
+        {
+          "id": "drawer",
+          "x": 828.421875,
+          "y": 602,
+          "width": 44,
+          "height": 44,
+          "hit": null,
+          "top": "object-drawer"
+        }
+      ]
+    },
+    {
+      "mobile": false,
+      "name": "documents",
+      "targets": [
+        {
+          "id": "case",
+          "x": 801.375,
+          "y": 414.921875,
+          "width": 44,
+          "height": 44,
+          "hit": null,
+          "top": "object-case"
+        },
+        {
+          "id": "profile",
+          "x": 621.890625,
+          "y": 506.546875,
+          "width": 44,
+          "height": 44,
+          "hit": "door",
+          "top": "object-profile"
+        },
+        {
+          "id": "lamp",
+          "x": 1016.265625,
+          "y": 325.234375,
+          "width": 44,
+          "height": 118.140625,
+          "hit": null,
+          "top": "object-lamp"
+        },
+        {
+          "id": "drawer",
+          "x": 836.921875,
+          "y": 577.046875,
+          "width": 44,
+          "height": 44,
+          "hit": null,
+          "top": "object-drawer"
+        }
+      ],
+      "stale": [
+        {
+          "id": "case",
+          "x": 801.375,
+          "y": 414.921875,
+          "width": 44,
+          "height": 44,
+          "hit": null,
+          "top": "object-case"
+        },
+        {
+          "id": "profile",
+          "x": 621.890625,
+          "y": 506.546875,
+          "width": 44,
+          "height": 44,
+          "hit": "door",
+          "top": "object-profile"
+        },
+        {
+          "id": "lamp",
+          "x": 1016.265625,
+          "y": 325.234375,
+          "width": 44,
+          "height": 118.140625,
+          "hit": null,
+          "top": "object-lamp"
+        },
+        {
+          "id": "drawer",
+          "x": 836.921875,
+          "y": 577.046875,
+          "width": 44,
+          "height": 44,
+          "hit": null,
+          "top": "object-drawer"
+        }
+      ]
+    },
+    {
+      "mobile": true,
+      "name": "drawer",
+      "targets": [
+        {
+          "id": "case",
+          "x": 144.5625,
+          "y": 417.96875,
+          "width": 44,
+          "height": 44,
+          "hit": "drawer-resume",
+          "top": "object-case"
+        },
+        {
+          "id": "profile",
+          "x": 34,
+          "y": 486.671875,
+          "width": 44,
+          "height": 44,
+          "hit": null,
+          "top": "object-profile"
+        },
+        {
+          "id": "lamp",
+          "x": 285.734375,
+          "y": 359.109375,
+          "width": 44,
+          "height": 84.203125,
+          "hit": "drawer",
+          "top": "object-lamp"
+        },
+        {
+          "id": "drawer",
+          "x": 169.984375,
+          "y": 547.765625,
+          "width": 44,
+          "height": 44,
+          "hit": null,
+          "top": "object-drawer"
+        }
+      ],
+      "stale": [
+        {
+          "id": "case",
+          "x": 144.5625,
+          "y": 417.96875,
+          "width": 44,
+          "height": 44,
+          "hit": "drawer-resume",
+          "top": "object-case"
+        },
+        {
+          "id": "profile",
+          "x": 34,
+          "y": 486.671875,
+          "width": 44,
+          "height": 44,
+          "hit": null,
+          "top": "object-profile"
+        },
+        {
+          "id": "lamp",
+          "x": 285.734375,
+          "y": 359.109375,
+          "width": 44,
+          "height": 84.203125,
+          "hit": "drawer",
+          "top": "object-lamp"
+        },
+        {
+          "id": "drawer",
+          "x": 169.984375,
+          "y": 547.765625,
+          "width": 44,
+          "height": 44,
+          "hit": null,
+          "top": "object-drawer"
+        }
+      ]
+    },
+    {
+      "mobile": true,
+      "name": "documents",
+      "targets": [
+        {
+          "id": "case",
+          "x": 144.5625,
+          "y": 417.96875,
+          "width": 44,
+          "height": 44,
+          "hit": null,
+          "top": "object-case"
+        },
+        {
+          "id": "profile",
+          "x": 34,
+          "y": 486.671875,
+          "width": 44,
+          "height": 44,
+          "hit": null,
+          "top": "object-profile"
+        },
+        {
+          "id": "lamp",
+          "x": 285.734375,
+          "y": 359.109375,
+          "width": 44,
+          "height": 84.203125,
+          "hit": null,
+          "top": "object-lamp"
+        },
+        {
+          "id": "drawer",
+          "x": 174.125,
+          "y": 530.328125,
+          "width": 44,
+          "height": 44,
+          "hit": null,
+          "top": "object-drawer"
+        }
+      ],
+      "stale": [
+        {
+          "id": "case",
+          "x": 144.5625,
+          "y": 417.96875,
+          "width": 44,
+          "height": 44,
+          "hit": null,
+          "top": "object-case"
+        },
+        {
+          "id": "profile",
+          "x": 34,
+          "y": 486.671875,
+          "width": 44,
+          "height": 44,
+          "hit": null,
+          "top": "object-profile"
+        },
+        {
+          "id": "lamp",
+          "x": 285.734375,
+          "y": 359.109375,
+          "width": 44,
+          "height": 84.203125,
+          "hit": null,
+          "top": "object-lamp"
+        },
+        {
+          "id": "drawer",
+          "x": 174.125,
+          "y": 530.328125,
+          "width": 44,
+          "height": 44,
+          "hit": null,
+          "top": "object-drawer"
+        }
+      ]
+    }
+  ],
+  "native": [],
+  "passed": true
+}

@@ -1,0 +1,62 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "at": "2026-10-15T19:23:23.444Z",
+  "jobs": [
+    {
+      "name": "completion",
+      "file": "qa-room-completion.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review-retry"
+      ],
+      "exit": 0,
+      "durationMs": 45987,
+      "summary": "{\"passed\":true,\"checks\":148,\"scenarios\":6}\n"
+    },
+    {
+      "name": "pages",
+      "file": "qa-pages.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review-retry"
+      ],
+      "exit": 0,
+      "durationMs": 164478,
+      "summary": "e}\n{\"width\":390,\"lang\":\"ru\",\"theme\":\"light\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"ru\",\"theme\":\"dark\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"kk\",\"theme\":\"light\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"kk\",\"theme\":\"dark\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"en\",\"theme\":\"light\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"en\",\"theme\":\"dark\",\"passed\":true,\"flow\":true}\n{\"scope\":\"detail-review-retry\",\"passed\":true,\"routes\":132,\"flows\":12,\"edges\":0,\"failed\":[]}\n"
+    },
+    {
+      "name": "pages-edges",
+      "file": "qa-pages-edges.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review-retry"
+      ],
+      "exit": 0,
+      "durationMs": 9666,
+      "summary": "     \"disclosureOpen\": true,\n      \"failedScripts\": [\n        \"http://127.0.0.1:4331/after/assets/scene-controls-B-65-GTU.js\"\n      ]\n    },\n    {\n      \"type\": \"renderer-chunk-failure\",\n      \"passed\": true,\n      \"disclosureOpen\": true,\n      \"failedScripts\": [\n        \"http://127.0.0.1:4331/after/assets/scene-By8RsxPN.js\"\n      ]\n    },\n    {\n      \"type\": \"startup-and-webgl-fallback\",\n      \"passed\": true,\n      \"disclosureOpen\": true,\n      \"failedScripts\": []\n    }\n  ],\n  \"passed\": true\n}\n"
+    },
+    {
+      "name": "pages-nojs",
+      "file": "qa-pages.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review-nojs",
+        "--edges-only"
+      ],
+      "exit": 0,
+      "durationMs": 3278,
+      "summary": "{\"scope\":\"detail-review-nojs\",\"passed\":true,\"routes\":0,\"flows\":0,\"edges\":4,\"failed\":[]}\n"
+    },
+    {
+      "name": "rail-focus",
+      "file": "qa-project-rail-focus.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review-retry"
+      ],
+      "exit": 0,
+      "durationMs": 69574,
+      "summary": "PASS 12 focus variants\n"
+    }
+  ]
+}

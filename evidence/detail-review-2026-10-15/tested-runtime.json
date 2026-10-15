@@ -1,0 +1,49 @@
+{
+  "samePublicAndDocs": true,
+  "runtime": [
+    {
+      "name": "room/boot.js",
+      "sha256": "a6f9661f72b625e2d0a90229a58a89954db6cc540c574e5cb8a8cabaea7fde50"
+    },
+    {
+      "name": "room/index.html",
+      "sha256": "6c016266e85d1a3d10363598ab9ba93963d69a3cc6995dcfabd3dbf8b3a022e3"
+    },
+    {
+      "name": "room/main.js",
+      "sha256": "2aa2a39df1c3b3772cc12f260d827768484b9bdcf9dc274de1927224c8391565"
+    },
+    {
+      "name": "room/world.js",
+      "sha256": "ea3e9c84927d560af02d1e72fe420978e5a3f44b3c0c58c2e4065be2bf451bdd"
+    },
+    {
+      "name": "room/ui.js",
+      "sha256": "f6f18b37db979d75a4d649b7759e6b121e8b81233663a23211f8aae920ea1f22"
+    },
+    {
+      "name": "room/style.css",
+      "sha256": "7b7d119bb8fbb214a025007859de620b000474e7d33c57982966320592f0571f"
+    },
+    {
+      "name": "room/document-actions.js",
+      "sha256": "ff2627e20d64fff568cea317cc5bd2f12d912159a9823275232d600a6084b414"
+    },
+    {
+      "name": "room/joinery-details.js",
+      "sha256": "49cd7244a3922d01a773bf7076940d90c938b5aa196c77982ab568ef87529f98"
+    },
+    {
+      "name": "room/compressed-models.js",
+      "sha256": "79110c624660661badd9dc2656d88e5a28488209a6b0df0728031e0b34a471e7"
+    },
+    {
+      "name": "room/assets/studio-furniture/drawer.glb",
+      "sha256": "cbd18d8f6d45cf28379742c78c401f266b26262dea9fdbc58cda1292bcd40f97"
+    },
+    {
+      "name": "room/assets/studio-furniture/drawer.glb.gz",
+      "sha256": "8a949b52af7f079a50085558447f8b15dbc318e74431a09cf85a033be2f3e032"
+    }
+  ]
+}

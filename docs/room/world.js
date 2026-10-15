@@ -1,6 +1,7 @@
 import {refinedAccents,ACCENT_FILES} from './room-accents.js';
 import {setFigureTemplates} from './collection-models.js';
 import * as T from 'three';
+import {addGalleryFrame,addCorridorDetails,batchStaticDetails} from './joinery-details.js';
 import {installCabinet} from './cabinet-scene.js';
 import {architecturalMaterial} from './architecture-materials.js';
 import {createDaylight} from './daylight.js';
@@ -23,7 +24,7 @@ export async function createWorld(renderer,camera){
  const [plasterMap,floorMap,oakMap]=await Promise.all(['plaster','floor','oak'].map(n=>texture('assets/entry/'+n+'.webp',true)));
  const plaster=new T.MeshStandardMaterial({map:plasterMap,color:'#f3eee4',roughness:.92,normalScale:new T.Vector2(.25,.25)}),floor=new T.MeshStandardMaterial({map:floorMap,color:'#e3d8c5',roughness:.62,normalScale:new T.Vector2(.25,.25)}),oak=new T.MeshStandardMaterial({map:oakMap,color:'#ede4d5',roughness:.78,normalScale:new T.Vector2(.25,.25)});
  let project=textMap(['HELIO'],{bg:'#345148',color:'#eadcc3'}),chair=null,lamp=null,cabinet=null,sideTable=null,lightSurface=null,exterior=null;
- let previewTexture=null,previewId=null,previewSource='',previewUpdates=0,furniture=null,collection=null,education=null;
+ let previewTexture=null,previewId=null,previewSource='',previewUpdates=0,furniture=null,collection=null;
  const galleryMaps=[null,null],workbenchFallback=[];let recordingWorkbench=false;
  // Share the established room oak texture, preserving its photographic grain.
  function matchOak(root){root.traverse(o=>{if(!o.isMesh)return;const materials=Array.isArray(o.material)?o.material:[o.material];if(!materials.some(m=>m.name.replaceAll('_',' ').toLowerCase()==='desk oak edge'))return;realUV(o.geometry);const uv=o.geometry.attributes.uv;for(let i=0;i<uv.count;i++)uv.setXY(i,.35+uv.getX(i)*.16,.13+uv.getY(i)*.035);uv.needsUpdate=true;for(const m of materials)if(m.name.replaceAll('_',' ').toLowerCase()==='desk oak edge'){if(m.map!==oak.map)m.map?.dispose();m.map=oak.map;m.color.copy(oak.color);m.roughness=.64;m.needsUpdate=true}})}
@@ -72,10 +73,10 @@ export async function createWorld(renderer,camera){
   for(const x of [-.63,.63]){profile(.075,2.54,.045,cream,x,1.27,.084,.009,g);profile(.008,2.39,.008,dark,x*.91,1.23,.079,.001,g)}
   profile(1.33,.08,.045,cream,0,2.50,.084,.009,g);profile(1.17,.009,.19,corridorMetal,0,.025,.045,.003,g);
   for(const y of [.34,1.22,2.05])cylinder(.013,.09,corridorMetal,-.56,y,.09,g);
-  const handle=cylinder(.011,.29,corridorMetal,.43,1.02,.10,g);
-  for(const y of [.905,1.135])box(.04,.018,.075,corridorMetal,.43,y,.071,.004,g);
+  addCorridorDetails(g,{trim:cream,metal:corridorMetal,dark});
   const plaque=box(.30,.15,.014,cream,-.31,1.63,.055,.005,g);
   const tag=label([number],.286,.136,-.31,1.63,.0625,{w:500,h:260,bg:'#d8cfbc',color:'#354c46',size:110,align:'center',verticalCenter:true},g);doorNumbers.push(number);doorPlaques.push({number,plaque,tag});
+  batchStaticDetails(g,ff);
  }
  function corridorWall(side,doors){
   const x=side*1.445;let previous=2.18;
@@ -192,7 +193,7 @@ export async function createWorld(renderer,camera){
  box(.51,.018,.20,dark,0,.009,0,.008,contacts);box(.48,.35,.027,cream,0,.19,-.018,.008,contacts);
  const contactsLabel=localizedLabel(()=>[L('РЕЗЮМЕ / СВЯЗЬ','ТҮЙІНДЕМЕ / БАЙЛАНЫС','CV / CONTACT'),L('БАХТИЯР ЗИКИРИН','БАҚТИЯР ЗИКИРИН','BAKHTIYAR ZIKIRIN')],.44,.30,0,.20,0,{w:1024,h:700,bg:'#d8cfbc',color:'#2a483c',size:100},contacts);objects.push(contacts);
  const gallery=[];
- for(let i=0;i<2;i++){const g=new T.Group();g.position.set(2.94,1.66,-1.02+i*1.25);g.rotation.y=-Math.PI/2;g.userData.action=i?'poslesvet':'keyform';scene.add(g);box(.89,.64,.038,oak,0,0,0,.008,g);const pic=new T.Mesh(new T.PlaneGeometry(.83,.519),new T.MeshBasicMaterial({map:galleryMaps[i],toneMapped:false}));pic.position.z=.022;g.add(pic);localizedLabel(()=>[i?L('ПОСЛЕСВЕТ','ПОСЛЕСВЕТ','POSLESVET'):'KEYFORM'],.76,.10,0,-.265,.024,{w:1024,h:180,bg:'#b49165',color:'#1e362e',size:100},g);objects.push(g);gallery.push(g);}
+ for(let i=0;i<2;i++){const g=new T.Group();g.position.set(2.94,1.66,-1.02+i*1.25);g.rotation.y=-Math.PI/2;g.userData.action=i?'poslesvet':'keyform';scene.add(g);addGalleryFrame(g,{wood:oak,board:paper,mount:dark});const pic=new T.Mesh(new T.PlaneGeometry(.80,.50024),new T.MeshBasicMaterial({map:galleryMaps[i],toneMapped:false}));pic.name='Printed project image';pic.position.set(0,.039,-.0023);g.add(pic);localizedLabel(()=>[i?L('ПОСЛЕСВЕТ','ПОСЛЕСВЕТ','POSLESVET'):'KEYFORM'],.80,.068,0,-.253,-.0022,{w:1024,h:180,bg:'#b49165',color:'#1e362e',size:100},g);objects.push(g);gallery.push(g);}
  const lightPos=new T.Vector3(1.32,1.51,-1.94);
  const taskLight=new T.SpotLight('#ffcf8a',14,3.5,.68,.55,1.7);taskLight.position.copy(lightPos);taskLight.target.position.set(.84,.81,-1.64);taskLight.castShadow=true;taskLight.shadow.mapSize.set(1024,1024);taskLight.shadow.bias=-.0003;taskLight.shadow.normalBias=.01;scene.add(taskLight,taskLight.target);
  // Separate wired pull switch: porcelain body, brass mechanism, cord exit and bounded travel.
@@ -267,14 +268,15 @@ export async function createWorld(renderer,camera){
 
   nativeMaterial(sideTable);record('side_table',sideTable);contact(-2.25,-.55,.6,.6,.28);
   const sideTop=new T.Box3().setFromObject(sideTable).max.y;
- // Two genuine redacted documents rest on one portfolio pad, within the tabletop.
- education=new T.Group();education.position.set(-.22,0,-.72);scene.add(education);education.userData.action='education';objects.push(education);highlightTargets.education=education;
- box(.55,.015,.23,green,-2.03,sideTop+.0085,.17,.004,education);
- box(.535,.005,.217,paper,-2.03,sideTop+.0185,.17,.002,education);
- for(const [map,x,w,h]of [[diplomaPreview,-2.17,.245,.16935],[certificatePreview,-1.89,.224,.16755]]){const sheet=new T.Mesh(new T.PlaneGeometry(w,h),new T.MeshStandardMaterial({map,roughness:.82}));sheet.rotation.x=-Math.PI/2;sheet.position.set(x,sideTop+.0219,.17);education.add(sheet)}
- for(const [x,label]of [[-2.17,()=>[L('ДИПЛОМ · 2026','ДИПЛОМ · 2026','DIPLOMA · 2026')]],[-1.89,()=>['iQADAM · 2025']]]){const tag=localizedLabel(label,.23,.024,x,sideTop+.0225,.266,{w:512,h:128,bg:'#e9e1cb',color:'#345148',size:50},education);tag.rotation.x=-Math.PI/2}
-
-  if(furniture){const tray=furniture.tray;const sheet=(id,map,w,d,x,z)=>{const root=new T.Group();root.userData.action=id;root.position.set(x,.0405,z);tray.add(root);box(w,.012,d,paper,0,0,0,.001,root);const image=new T.Mesh(new T.PlaneGeometry(w-.003,d-.003),new T.MeshStandardMaterial({map,roughness:.86}));image.rotation.x=-Math.PI/2;image.position.y=.0061;image.receiveShadow=true;root.add(image);objects.push(root);return root};furniture.documents={'drawer-resume':sheet('drawer-resume',resumePreview,.145,.205,-.100,.075),'drawer-education':sheet('drawer-education',diplomaPreview,.100,.06915,.145,.145)};}
+  if(furniture){const tray=furniture.tray;
+   const document=(id,x)=>{const root=new T.Group();root.name=id;root.userData.action=id;root.position.set(x,.03755,.01);tray.add(root);objects.push(root);const label=new T.Object3D();label.name=id+' label anchor';label.position.set(0,.09595,.216);root.add(label);root.userData.labelAnchor=label.name;return root};
+   const sheet=(root,name,map,w,d,z)=>{const page=new T.Group();page.name=name+' sheet';page.userData.documentSheet=true;page.position.z=z;root.add(page);const stock=new T.Mesh(new T.BoxGeometry(w,.0015,d),paper);stock.name=name+' stock';stock.castShadow=stock.receiveShadow=true;page.add(stock);const image=new T.Mesh(new T.PlaneGeometry(w-.001,d-.001),new T.MeshStandardMaterial({map,roughness:.86}));image.name=name+' preview';image.rotation.x=-Math.PI/2;image.position.y=.00082;image.receiveShadow=true;page.add(image);return image};
+   const cv=document('drawer-resume',-.105),education=document('drawer-education',.105);
+   cv.userData.hotspotAnchor=sheet(cv,'Resume',resumePreview,.145,.205,0).name;
+   education.userData.hotspotAnchor=sheet(education,'Diploma',diplomaPreview,.145,.10024,-.075).name;
+   sheet(education,'Certificate',certificatePreview,.145,.109,.045);
+   furniture.documents={'drawer-resume':cv,'drawer-education':education};
+  }
   daylight.prepare();scene.updateMatrixWorld(true);changed();};
  })}
  function fallbackSky(){const c=document.createElement('canvas');c.width=512;c.height=256;const a=c.getContext('2d'),g=a.createLinearGradient(0,0,0,256);g.addColorStop(0,'#789bb7');g.addColorStop(.5,'#d7e3e6');g.addColorStop(.55,'#b2b4ac');g.addColorStop(1,'#7c8780');a.fillStyle=g;a.fillRect(0,0,512,256);const t=new T.CanvasTexture(c);t.colorSpace=T.SRGBColorSpace;return t}
@@ -315,6 +317,6 @@ export async function createWorld(renderer,camera){
   scene.updateMatrixWorld(true);const tray=furniture?.tray?new T.Box3().setFromObject(furniture.tray):null,leaf=furniture?.leaf;
   let entranceIntersections=0,checkedTriangles=0;
   if(leaf){const walls=colliders.filter(o=>{for(let p=o;p;p=p.parent)if(p===door)return false;return true}).map(o=>new T.Box3().copy(o.geometry.boundingBox).applyMatrix4(o.matrixWorld));leaf.traverse(o=>{if(!o.isMesh)return;const bounds=new T.Box3().setFromObject(o),nearby=walls.filter(b=>b.intersectsBox(bounds));if(!nearby.length)return;const g=o.geometry,a=g.attributes.position,index=g.index,t=new T.Triangle(),vertex=(out,n)=>out.fromBufferAttribute(a,index?index.getX(n):n).applyMatrix4(o.matrixWorld);for(let i=0;i<(index?index.count:a.count);i+=3){vertex(t.a,i);vertex(t.b,i+1);vertex(t.c,i+2);checkedTriangles++;if(nearby.some(b=>b.clone().expandByScalar(-.0005).intersectsTriangle(t)))entranceIntersections++}})}
-  return{cabinet:collection?.geometry(),drawer:tray?{top:tray.max.y,apronBottom:.7819,apronGap:.7819-tray.max.y,min:tray.min.toArray(),max:tray.max.toArray()}:null,entrance:{intersectingTriangles:entranceIntersections,checkedTriangles},education:education?(()=>{const b=new T.Box3().setFromObject(education);return{min:b.min.toArray(),max:b.max.toArray(),tableGap:b.min.y-new T.Box3().setFromObject(sideTable).max.y}})():null,readingTable:sideTable?new T.Box3().setFromObject(sideTable).max.y:null};
- },get collectionTargets(){return collection?{cabinet:collection.anchor,...collection.items,education}:{}},setCabinet(value){collection?.set(value)},collectionReady(id){return !!collection?.items[id]&&collection.inspect().itemsAccessible},inspectCollection(){return collection?.inspect()||null},get drawerPull(){return furniture?.pull},get drawerDocuments(){return furniture?.documents||{}},setDrawer(value){furniture?.setDrawer(value)},inspectFurniture(){return furniture?.inspect()||{variant:'legacy',drawerTravel:0,drawerOffset:0}},previewProject,inspectProject,allowAssembly,get preparingGPU(){return warming},daylight,windowBake,inspectWindow,prepare,retry,inspectStream,onChange(fn){changed=fn},get studioReady(){return studioReady},clearance,walk,scene,objects,door,cover,cord,cordRoot,cordLine,cordGrip,taskLight,get lightSurface(){return lightSurface},get assetInfo(){return [...assetInfo].sort((a,b)=>['chair','lamp','cabinet','side_table'].indexOf(a.id)-['chair','lamp','cabinet','side_table'].indexOf(b.id))},get project(){return project},get chair(){return chair},get lamp(){return lamp},monitor,folder,lightPos,localize,get exterior(){return exterior},highlight,contacts,gallery,get cabinet(){return cabinet},get sideTable(){return sideTable},office:{doorWidth:width,doorHeight:height,corridorWidth:2.65,sideDoors:doorNumbers,corridorLength:9.47,corridorHeight:3.0,routeLength:8.0},cordHit};
+  return{cabinet:collection?.geometry(),drawer:tray?{top:tray.max.y,apronBottom:.7819,apronGap:.7819-tray.max.y,min:tray.min.toArray(),max:tray.max.toArray()}:null,entrance:{intersectingTriangles:entranceIntersections,checkedTriangles},education:null,documents:Object.entries(furniture?.documents||{}).map(([id,o])=>({id,pages:o.children.filter(p=>p.userData.documentSheet).map(p=>{const b=new T.Box3().setFromObject(p).applyMatrix4(furniture.tray.matrixWorld.clone().invert());return{name:p.name,min:b.min.toArray(),max:b.max.toArray()}})})),readingTable:sideTable?new T.Box3().setFromObject(sideTable).max.y:null};
+ },get collectionTargets(){return collection?{cabinet:collection.anchor,...collection.items}:{}},setCabinet(value){collection?.set(value)},collectionReady(id){return !!collection?.items[id]&&collection.inspect().itemsAccessible},inspectCollection(){return collection?.inspect()||null},get drawerPull(){return furniture?.pull},get drawerDocuments(){return furniture?.documents||{}},setDrawer(value){furniture?.setDrawer(value)},inspectFurniture(){return furniture?.inspect()||{variant:'legacy',drawerTravel:0,drawerOffset:0}},previewProject,inspectProject,allowAssembly,get preparingGPU(){return warming},daylight,windowBake,inspectWindow,prepare,retry,inspectStream,onChange(fn){changed=fn},get studioReady(){return studioReady},clearance,walk,scene,objects,door,cover,cord,cordRoot,cordLine,cordGrip,taskLight,get lightSurface(){return lightSurface},get assetInfo(){return [...assetInfo].sort((a,b)=>['chair','lamp','cabinet','side_table'].indexOf(a.id)-['chair','lamp','cabinet','side_table'].indexOf(b.id))},get project(){return project},get chair(){return chair},get lamp(){return lamp},monitor,folder,lightPos,localize,get exterior(){return exterior},highlight,contacts,gallery,get cabinet(){return cabinet},get sideTable(){return sideTable},office:{doorWidth:width,doorHeight:height,corridorWidth:2.65,sideDoors:doorNumbers,corridorLength:9.47,corridorHeight:3.0,routeLength:8.0},cordHit};
 }

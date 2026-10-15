@@ -1,0 +1,16 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at http://127.0.0.1:4331/after/?lang=ru
+Call log:
+[2m  - navigating to "http://127.0.0.1:4331/after/?lang=ru", waiting until "load"[22m
+
+    at C:\Users\aldia\Documents\Codex\2026-10-13\task\portfolio\scripts\qa-project-rail-focus.mjs:19:14 {
+  log: [
+    '  - navigating to "http://127.0.0.1:4331/after/?lang=ru", waiting until "load"'
+  ],
+  name: 'Error'
+}
+
+Node.js v24.15.0

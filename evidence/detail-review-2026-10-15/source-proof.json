@@ -1,0 +1,10 @@
+{
+  "blender": "4.5.14 LTS",
+  "baselineBlendSha256": "13421bd07bc8d3e30ab7362df7f50f3172a1db73603d4fbc20edd6c456d59644",
+  "revisedBlendSha256": "22abfa2b0b1d678fbfad78f7c09963354dc7daecead21fc82d8189a6160c5360",
+  "drawerRawSha256": "cbd18d8f6d45cf28379742c78c401f266b26262dea9fdbc58cda1292bcd40f97",
+  "otherSixRootsMatchAfterIndependentReload": true,
+  "verification": "source-reload-verification.json",
+  "derivation": "drawer-revision.json",
+  "matrixCacheNote": "An initial matrix_local fingerprint differed on inactive Workbench meshes after save. Authoring TRS, matrix_basis and parent inverse were identical. Canonical verification checks stored authoring transforms, geometry, material bindings and modifiers rather than derived scene caches."
+}

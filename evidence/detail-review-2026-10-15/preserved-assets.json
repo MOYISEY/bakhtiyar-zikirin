@@ -1,0 +1,138 @@
+{
+  "baseline": "8c82487141a0dd13436b5e6bcc257cf7e4c09900",
+  "allUnchanged": true,
+  "files": [
+    {
+      "path": "public/room/assets/studio-furniture/chair.glb",
+      "before": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f",
+      "after": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f",
+      "unchanged": true
+    },
+    {
+      "path": "public/room/assets/studio-furniture/chair.glb.gz",
+      "before": "b460d38947d9ae81a279ffae41865da1a64911c64ec817b8db5f2c32b5e853f3",
+      "after": "b460d38947d9ae81a279ffae41865da1a64911c64ec817b8db5f2c32b5e853f3",
+      "unchanged": true
+    },
+    {
+      "path": "public/room/assets/studio-furniture/lamp.glb",
+      "before": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd",
+      "after": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd",
+      "unchanged": true
+    },
+    {
+      "path": "public/room/assets/studio-furniture/lamp.glb.gz",
+      "before": "2f17093c4ba0d33a432a0b6e27f9696f55fc45324ee9d2c1e6d45e9e2d9e01d0",
+      "after": "2f17093c4ba0d33a432a0b6e27f9696f55fc45324ee9d2c1e6d45e9e2d9e01d0",
+      "unchanged": true
+    },
+    {
+      "path": "public/room/assets/studio-furniture/door.glb",
+      "before": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e",
+      "after": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e",
+      "unchanged": true
+    },
+    {
+      "path": "public/room/assets/studio-furniture/door.glb.gz",
+      "before": "dfaa18e8f5071eb92c6e52556acf102aa3e81a308b077a3cf672fa1f85e9d250",
+      "after": "dfaa18e8f5071eb92c6e52556acf102aa3e81a308b077a3cf672fa1f85e9d250",
+      "unchanged": true
+    },
+    {
+      "path": "public/room/assets/studio-furniture/cabinet.glb",
+      "before": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031",
+      "after": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031",
+      "unchanged": true
+    },
+    {
+      "path": "public/room/assets/studio-furniture/cabinet.glb.gz",
+      "before": "d09a88387a934905ecffc002cd83e0e6d8f964a61e1b16e85c8389e96c4fe54b",
+      "after": "d09a88387a934905ecffc002cd83e0e6d8f964a61e1b16e85c8389e96c4fe54b",
+      "unchanged": true
+    },
+    {
+      "path": "public/room/assets/studio-furniture/side-table.glb",
+      "before": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06",
+      "after": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06",
+      "unchanged": true
+    },
+    {
+      "path": "public/room/assets/studio-furniture/side-table.glb.gz",
+      "before": "986f7d410512898b86541abcde6bf2d33fd51fbb7bd5996abf39f70185402491",
+      "after": "986f7d410512898b86541abcde6bf2d33fd51fbb7bd5996abf39f70185402491",
+      "unchanged": true
+    },
+    {
+      "path": "public/room/assets/studio-furniture/workbench.glb",
+      "before": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4",
+      "after": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4",
+      "unchanged": true
+    },
+    {
+      "path": "public/room/assets/studio-furniture/workbench.glb.gz",
+      "before": "205ca2d3ae2eaee55792a3039c8e4fdd632c1efa940a1551bca12a5351526949",
+      "after": "205ca2d3ae2eaee55792a3039c8e4fdd632c1efa940a1551bca12a5351526949",
+      "unchanged": true
+    },
+    {
+      "path": "public/files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf",
+      "before": "dee574b43b52d0ff4fa891d889826038117c8275f255e2f5efd597944b502d75",
+      "after": "dee574b43b52d0ff4fa891d889826038117c8275f255e2f5efd597944b502d75",
+      "unchanged": true
+    },
+    {
+      "path": "public/files/resume-preview.webp",
+      "before": "f06a7e0d5ff54d00dacf5183fb1783f612d070689f8f4b3d6eb7018580ea9b91",
+      "after": "f06a7e0d5ff54d00dacf5183fb1783f612d070689f8f4b3d6eb7018580ea9b91",
+      "unchanged": true
+    },
+    {
+      "path": "public/files/education/diploma-preview.webp",
+      "before": "2aef39616ccdcee55c16b7d2a3cf31905e931dc2ad97ba0d0344d242711dd854",
+      "after": "2aef39616ccdcee55c16b7d2a3cf31905e931dc2ad97ba0d0344d242711dd854",
+      "unchanged": true
+    },
+    {
+      "path": "public/files/education/iqadam-2025-preview.webp",
+      "before": "bc4089f8f192381a8b16d9a41aedf5426507017c4f5bfcd72002d9aefdfa4f85",
+      "after": "bc4089f8f192381a8b16d9a41aedf5426507017c4f5bfcd72002d9aefdfa4f85",
+      "unchanged": true
+    },
+    {
+      "path": "public/files/education/diploma-public.webp",
+      "before": "aeb82b2bc35591a8d6c095ff95adeaf6f6d9bf65da4aa8da62566ccdb811eae6",
+      "after": "aeb82b2bc35591a8d6c095ff95adeaf6f6d9bf65da4aa8da62566ccdb811eae6",
+      "unchanged": true
+    },
+    {
+      "path": "public/files/education/iqadam-2025-public.webp",
+      "before": "da3eeced274d0202518c5d25e2316854c621d967ef0165a0e66aaf09a0454a1e",
+      "after": "da3eeced274d0202518c5d25e2316854c621d967ef0165a0e66aaf09a0454a1e",
+      "unchanged": true
+    },
+    {
+      "path": "public/room/cabinet-doors.js",
+      "before": "a0fab919726e9399cb367932d1f10796323fcc733971c0c9a1c88910997019db",
+      "after": "a0fab919726e9399cb367932d1f10796323fcc733971c0c9a1c88910997019db",
+      "unchanged": true
+    },
+    {
+      "path": "public/room/daylight.js",
+      "before": "33041c679daab94b276482bd2ef68ab1b80e42cc44db1dd40dc94f031bd797ba",
+      "after": "33041c679daab94b276482bd2ef68ab1b80e42cc44db1dd40dc94f031bd797ba",
+      "unchanged": true
+    },
+    {
+      "path": "public/room/window-fragment.js",
+      "before": "10d07af549db828e0c68d1d6187d569cdf557fc6ebc24a6a5bb3240f4be4e4d3",
+      "after": "10d07af549db828e0c68d1d6187d569cdf557fc6ebc24a6a5bb3240f4be4e4d3",
+      "unchanged": true
+    },
+    {
+      "path": "public/room/cube-state.js",
+      "before": "444aa7795838492cfd2a6539c1d2815f91da42f5598550b8d4c5a11dffe74aa3",
+      "after": "444aa7795838492cfd2a6539c1d2815f91da42f5598550b8d4c5a11dffe74aa3",
+      "unchanged": true
+    }
+  ]
+}

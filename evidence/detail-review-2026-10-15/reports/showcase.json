@@ -1,0 +1,396 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "label": "detail-review",
+  "checks": [
+    "desktop: no detail-preview requests before selection",
+    "desktop: no dynamic monitor texture during entry",
+    "desktop: entry audio remains unarmed",
+    "desktop: catalogue still has six existing projects",
+    "desktop: catalogue does not prefetch detail shots",
+    "desktop: late image cannot overwrite latest project",
+    "desktop: rapid selection keeps current panel",
+    "desktop: helio uses an existing responsive detail capture",
+    "desktop: helio image has enough pixels",
+    "desktop: helio one bounded monitor texture",
+    "desktop: helio changes no scene geometry",
+    "desktop: helio keeps camera position and audio choices",
+    "desktop: helio local full-case link retained",
+    "desktop: helio preview opens the existing project URL",
+    "desktop: helio no panel horizontal overflow",
+    "desktop: helio back restores selected-card focus",
+    "desktop: keyform uses an existing responsive detail capture",
+    "desktop: keyform image has enough pixels",
+    "desktop: keyform one bounded monitor texture",
+    "desktop: keyform changes no scene geometry",
+    "desktop: keyform keeps camera position and audio choices",
+    "desktop: keyform local full-case link retained",
+    "desktop: keyform preview opens the existing project URL",
+    "desktop: keyform no panel horizontal overflow",
+    "desktop: keyform back restores selected-card focus",
+    "desktop: poslesvet uses an existing responsive detail capture",
+    "desktop: poslesvet image has enough pixels",
+    "desktop: poslesvet one bounded monitor texture",
+    "desktop: poslesvet changes no scene geometry",
+    "desktop: poslesvet keeps camera position and audio choices",
+    "desktop: poslesvet local full-case link retained",
+    "desktop: poslesvet preview opens the existing project URL",
+    "desktop: poslesvet no panel horizontal overflow",
+    "desktop: poslesvet back restores selected-card focus",
+    "desktop: framepack uses an existing responsive detail capture",
+    "desktop: framepack image has enough pixels",
+    "desktop: framepack one bounded monitor texture",
+    "desktop: framepack changes no scene geometry",
+    "desktop: framepack keeps camera position and audio choices",
+    "desktop: framepack local full-case link retained",
+    "desktop: framepack preview opens the existing project URL",
+    "desktop: framepack no panel horizontal overflow",
+    "desktop: framepack back restores selected-card focus",
+    "desktop: shapecheck uses an existing responsive detail capture",
+    "desktop: shapecheck image has enough pixels",
+    "desktop: shapecheck one bounded monitor texture",
+    "desktop: shapecheck changes no scene geometry",
+    "desktop: shapecheck keeps camera position and audio choices",
+    "desktop: shapecheck local full-case link retained",
+    "desktop: shapecheck preview opens the existing project URL",
+    "desktop: shapecheck no panel horizontal overflow",
+    "desktop: shapecheck back restores selected-card focus",
+    "desktop: rowline uses an existing responsive detail capture",
+    "desktop: rowline image has enough pixels",
+    "desktop: rowline one bounded monitor texture",
+    "desktop: rowline changes no scene geometry",
+    "desktop: rowline keeps camera position and audio choices",
+    "desktop: rowline local full-case link retained",
+    "desktop: rowline preview opens the existing project URL",
+    "desktop: rowline no panel horizontal overflow",
+    "desktop: rowline back restores selected-card focus",
+    "desktop: Kazakh preview action is localized",
+    "desktop: language switch preserves current project",
+    "desktop: Russian preview action is localized",
+    "desktop: rerender preserves focused preview link",
+    "desktop: reduced motion removes showcase fade",
+    "desktop: preview activation opens expected destination",
+    "desktop: Escape returns focus to the originating menu",
+    "desktop: monitor retains the chosen project after Escape",
+    "desktop: object-origin close restores monitor focus",
+    "desktop: failed image keeps a usable project link",
+    "desktop: failed image retains last good monitor texture",
+    "desktop: no runtime errors",
+    "mobile: no detail-preview requests before selection",
+    "mobile: no dynamic monitor texture during entry",
+    "mobile: entry audio remains unarmed",
+    "mobile: catalogue still has six existing projects",
+    "mobile: catalogue does not prefetch detail shots",
+    "mobile: late image cannot overwrite latest project",
+    "mobile: rapid selection keeps current panel",
+    "mobile: helio uses an existing responsive detail capture",
+    "mobile: helio image has enough pixels",
+    "mobile: helio one bounded monitor texture",
+    "mobile: helio changes no scene geometry",
+    "mobile: helio keeps camera position and audio choices",
+    "mobile: helio local full-case link retained",
+    "mobile: helio preview opens the existing project URL",
+    "mobile: helio no panel horizontal overflow",
+    "mobile: helio back restores selected-card focus",
+    "mobile: keyform uses an existing responsive detail capture",
+    "mobile: keyform image has enough pixels",
+    "mobile: keyform one bounded monitor texture",
+    "mobile: keyform changes no scene geometry",
+    "mobile: keyform keeps camera position and audio choices",
+    "mobile: keyform local full-case link retained",
+    "mobile: keyform preview opens the existing project URL",
+    "mobile: keyform no panel horizontal overflow",
+    "mobile: keyform back restores selected-card focus",
+    "mobile: poslesvet uses an existing responsive detail capture",
+    "mobile: poslesvet image has enough pixels",
+    "mobile: poslesvet one bounded monitor texture",
+    "mobile: poslesvet changes no scene geometry",
+    "mobile: poslesvet keeps camera position and audio choices",
+    "mobile: poslesvet local full-case link retained",
+    "mobile: poslesvet preview opens the existing project URL",
+    "mobile: poslesvet no panel horizontal overflow",
+    "mobile: poslesvet back restores selected-card focus",
+    "mobile: framepack uses an existing responsive detail capture",
+    "mobile: framepack image has enough pixels",
+    "mobile: framepack one bounded monitor texture",
+    "mobile: framepack changes no scene geometry",
+    "mobile: framepack keeps camera position and audio choices",
+    "mobile: framepack local full-case link retained",
+    "mobile: framepack preview opens the existing project URL",
+    "mobile: framepack no panel horizontal overflow",
+    "mobile: framepack back restores selected-card focus",
+    "mobile: shapecheck uses an existing responsive detail capture",
+    "mobile: shapecheck image has enough pixels",
+    "mobile: shapecheck one bounded monitor texture",
+    "mobile: shapecheck changes no scene geometry",
+    "mobile: shapecheck keeps camera position and audio choices",
+    "mobile: shapecheck local full-case link retained",
+    "mobile: shapecheck preview opens the existing project URL",
+    "mobile: shapecheck no panel horizontal overflow",
+    "mobile: shapecheck back restores selected-card focus",
+    "mobile: rowline uses an existing responsive detail capture",
+    "mobile: rowline image has enough pixels",
+    "mobile: rowline one bounded monitor texture",
+    "mobile: rowline changes no scene geometry",
+    "mobile: rowline keeps camera position and audio choices",
+    "mobile: rowline local full-case link retained",
+    "mobile: rowline preview opens the existing project URL",
+    "mobile: rowline no panel horizontal overflow",
+    "mobile: rowline back restores selected-card focus",
+    "mobile: Kazakh preview action is localized",
+    "mobile: language switch preserves current project",
+    "mobile: Russian preview action is localized",
+    "mobile: rerender preserves focused preview link",
+    "mobile: reduced motion removes showcase fade",
+    "mobile: preview activation opens expected destination",
+    "mobile: Escape returns focus to the originating menu",
+    "mobile: monitor retains the chosen project after Escape",
+    "mobile: object-origin close restores monitor focus",
+    "mobile: failed image keeps a usable project link",
+    "mobile: failed image retains last good monitor texture",
+    "mobile: no runtime errors",
+    "fallback: responsive showcase available without WebGL",
+    "fallback: full case remains reachable",
+    "fallback: Escape closes the panel"
+  ],
+  "scenarios": [
+    {
+      "name": "desktop",
+      "initial": {
+        "firstFrameAt": 1361.1000000014901,
+        "fullSceneAt": 4827.79999999702,
+        "textures": 85,
+        "triangles": 1257867
+      },
+      "observations": [
+        {
+          "id": "helio",
+          "image": {
+            "src": "http://127.0.0.1:4331/after/projects/media/helio-detail-1-960.webp",
+            "width": 680,
+            "display": 727.859375
+          },
+          "showcase": {
+            "id": "helio",
+            "source": "http://127.0.0.1:4331/after/projects/media/helio-detail-1-960.webp",
+            "updates": 2,
+            "dynamicTextures": 1,
+            "width": 960,
+            "height": 600
+          },
+          "textures": 86,
+          "triangles": 1257867
+        },
+        {
+          "id": "keyform",
+          "image": {
+            "src": "http://127.0.0.1:4331/after/projects/media/keyform-detail-1-960.webp",
+            "width": 680,
+            "display": 727.859375
+          },
+          "showcase": {
+            "id": "keyform",
+            "source": "http://127.0.0.1:4331/after/projects/media/keyform-detail-1-960.webp",
+            "updates": 3,
+            "dynamicTextures": 1,
+            "width": 960,
+            "height": 600
+          },
+          "textures": 86,
+          "triangles": 1257867
+        },
+        {
+          "id": "poslesvet",
+          "image": {
+            "src": "http://127.0.0.1:4331/after/projects/media/poslesvet-detail-1-960.webp",
+            "width": 680,
+            "display": 727.859375
+          },
+          "showcase": {
+            "id": "poslesvet",
+            "source": "http://127.0.0.1:4331/after/projects/media/poslesvet-detail-1-960.webp",
+            "updates": 4,
+            "dynamicTextures": 1,
+            "width": 960,
+            "height": 600
+          },
+          "textures": 86,
+          "triangles": 1257867
+        },
+        {
+          "id": "framepack",
+          "image": {
+            "src": "http://127.0.0.1:4331/after/projects/media/framepack-detail-1-960.webp",
+            "width": 680,
+            "display": 727.859375
+          },
+          "showcase": {
+            "id": "framepack",
+            "source": "http://127.0.0.1:4331/after/projects/media/framepack-detail-1-960.webp",
+            "updates": 5,
+            "dynamicTextures": 1,
+            "width": 960,
+            "height": 600
+          },
+          "textures": 86,
+          "triangles": 1257867
+        },
+        {
+          "id": "shapecheck",
+          "image": {
+            "src": "http://127.0.0.1:4331/after/projects/media/shapecheck-detail-1-960.webp",
+            "width": 680,
+            "display": 727.859375
+          },
+          "showcase": {
+            "id": "shapecheck",
+            "source": "http://127.0.0.1:4331/after/projects/media/shapecheck-detail-1-960.webp",
+            "updates": 6,
+            "dynamicTextures": 1,
+            "width": 960,
+            "height": 600
+          },
+          "textures": 86,
+          "triangles": 1257867
+        },
+        {
+          "id": "rowline",
+          "image": {
+            "src": "http://127.0.0.1:4331/after/projects/media/rowline-detail-1-960.webp",
+            "width": 680,
+            "display": 727.859375
+          },
+          "showcase": {
+            "id": "rowline",
+            "source": "http://127.0.0.1:4331/after/projects/media/rowline-detail-1-960.webp",
+            "updates": 7,
+            "dynamicTextures": 1,
+            "width": 960,
+            "height": 600
+          },
+          "textures": 86,
+          "triangles": 1257867
+        }
+      ]
+    },
+    {
+      "name": "mobile",
+      "initial": {
+        "firstFrameAt": 736.3999999985099,
+        "fullSceneAt": 2114.89999999851,
+        "textures": 85,
+        "triangles": 1238997
+      },
+      "observations": [
+        {
+          "id": "helio",
+          "image": {
+            "src": "http://127.0.0.1:4331/after/projects/media/helio-detail-1-960.webp",
+            "width": 324,
+            "display": 306
+          },
+          "showcase": {
+            "id": "helio",
+            "source": "http://127.0.0.1:4331/after/projects/media/helio-detail-1-960.webp",
+            "updates": 2,
+            "dynamicTextures": 1,
+            "width": 960,
+            "height": 600
+          },
+          "textures": 86,
+          "triangles": 1238997
+        },
+        {
+          "id": "keyform",
+          "image": {
+            "src": "http://127.0.0.1:4331/after/projects/media/keyform-detail-1-960.webp",
+            "width": 324,
+            "display": 306
+          },
+          "showcase": {
+            "id": "keyform",
+            "source": "http://127.0.0.1:4331/after/projects/media/keyform-detail-1-960.webp",
+            "updates": 3,
+            "dynamicTextures": 1,
+            "width": 960,
+            "height": 600
+          },
+          "textures": 86,
+          "triangles": 1238997
+        },
+        {
+          "id": "poslesvet",
+          "image": {
+            "src": "http://127.0.0.1:4331/after/projects/media/poslesvet-detail-1-960.webp",
+            "width": 324,
+            "display": 306
+          },
+          "showcase": {
+            "id": "poslesvet",
+            "source": "http://127.0.0.1:4331/after/projects/media/poslesvet-detail-1-960.webp",
+            "updates": 4,
+            "dynamicTextures": 1,
+            "width": 960,
+            "height": 600
+          },
+          "textures": 86,
+          "triangles": 1238997
+        },
+        {
+          "id": "framepack",
+          "image": {
+            "src": "http://127.0.0.1:4331/after/projects/media/framepack-detail-1-960.webp",
+            "width": 324,
+            "display": 306
+          },
+          "showcase": {
+            "id": "framepack",
+            "source": "http://127.0.0.1:4331/after/projects/media/framepack-detail-1-960.webp",
+            "updates": 5,
+            "dynamicTextures": 1,
+            "width": 960,
+            "height": 600
+          },
+          "textures": 86,
+          "triangles": 1238997
+        },
+        {
+          "id": "shapecheck",
+          "image": {
+            "src": "http://127.0.0.1:4331/after/projects/media/shapecheck-detail-1-960.webp",
+            "width": 324,
+            "display": 306
+          },
+          "showcase": {
+            "id": "shapecheck",
+            "source": "http://127.0.0.1:4331/after/projects/media/shapecheck-detail-1-960.webp",
+            "updates": 6,
+            "dynamicTextures": 1,
+            "width": 960,
+            "height": 600
+          },
+          "textures": 86,
+          "triangles": 1238997
+        },
+        {
+          "id": "rowline",
+          "image": {
+            "src": "http://127.0.0.1:4331/after/projects/media/rowline-detail-1-960.webp",
+            "width": 324,
+            "display": 306
+          },
+          "showcase": {
+            "id": "rowline",
+            "source": "http://127.0.0.1:4331/after/projects/media/rowline-detail-1-960.webp",
+            "updates": 7,
+            "dynamicTextures": 1,
+            "width": 960,
+            "height": 600
+          },
+          "textures": 86,
+          "triangles": 1238997
+        }
+      ]
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,187 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "at": "2026-10-15T19:15:04.536Z",
+  "jobs": [
+    {
+      "name": "cube",
+      "file": "test-cube-state.mjs",
+      "args": [],
+      "exit": 0,
+      "durationMs": 85,
+      "summary": "{\"passed\":true,\"checks\":3025,\"turns\":2076}\n"
+    },
+    {
+      "name": "asset-history",
+      "file": "qa-asset-history.mjs",
+      "args": [],
+      "exit": 0,
+      "durationMs": 3402,
+      "summary": "PASS asset history: published baseline, repeated builds and bounded retention\n"
+    },
+    {
+      "name": "completion",
+      "file": "qa-room-completion.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review"
+      ],
+      "exit": 1,
+      "durationMs": 2827,
+      "summary": "{\"passed\":false,\"checks\":14,\"scenarios\":0,\"failure\":{\"mobile\":false,\"message\":\"page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at http://127.0.0.1:4331/after/\\nCall log:\\n\\u001b[2m  - navigating to \\\"http://127.0.0.1:4331/after/\\\", waiting until \\\"load\\\"\\u001b[22m\\n\",\"errors\":[\"Failed to read the 'localStorage' property from 'Window': Access is denied for this document.\"]}}\n"
+    },
+    {
+      "name": "sweep",
+      "file": "qa-joinery-sweep.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review"
+      ],
+      "exit": 0,
+      "durationMs": 7511,
+      "summary": ".09249999910593032],\"max\":[-0.03250000208616255,0.038370000000000015,0.11249999910593034]}]},{\"id\":\"drawer-education\",\"pages\":[{\"name\":\"Diploma sheet\",\"min\":[0.03250000208616255,0.036799999993480714,-0.11511999979615206],\"max\":[0.17749999791383742,0.038370000000000015,-0.014880000203847832]},{\"name\":\"Certificate sheet\",\"min\":[0.03250000208616255,0.036799999993480714,0.0005000013113021229],\"max\":[0.17749999791383742,0.038370000000000015,0.10949999868869775]}]}],\"readingTable\":0.550000011920929}}\n"
+    },
+    {
+      "name": "refinement",
+      "file": "qa-room-refinement.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review"
+      ],
+      "exit": 0,
+      "durationMs": 55023,
+      "summary": "{\"passed\":true,\"checks\":84,\"scenarios\":4}\n"
+    },
+    {
+      "name": "furniture",
+      "file": "qa-room-furniture.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review"
+      ],
+      "exit": 0,
+      "durationMs": 78309,
+      "summary": "{\"passed\":true,\"checks\":121,\"scenarios\":4}\n"
+    },
+    {
+      "name": "showcase",
+      "file": "qa-room-showcase.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review"
+      ],
+      "exit": 0,
+      "durationMs": 21230,
+      "summary": ""
+    },
+    {
+      "name": "hotspots",
+      "file": "qa-room-hotspots.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review"
+      ],
+      "exit": 0,
+      "durationMs": 29778,
+      "summary": "{\"pass\":true,\"checks\":27,\"scenarios\":[{\"name\":\"desktop\",\"earlyProgress\":0.46199999999999997,\"doorAngle\":1.5399988522819505,\"markers\":[\"object-case\",\"object-profile\",\"object-lamp\",\"object-drawer\"]},{\"name\":\"mobile\",\"earlyProgress\":0.46199999999999997,\"doorAngle\":1.5399989447521525,\"markers\":[\"object-case\",\"object-profile\",\"object-lamp\",\"object-drawer\"]}]}\n"
+    },
+    {
+      "name": "collection",
+      "file": "qa-room-collection.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review"
+      ],
+      "exit": 0,
+      "durationMs": 66156,
+      "summary": "{\"passed\":true,\"checks\":102,\"scenarios\":4}\n"
+    },
+    {
+      "name": "collection-edges",
+      "file": "qa-room-collection-edges.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review"
+      ],
+      "exit": 0,
+      "durationMs": 11194,
+      "summary": "{\"checks\":[\"Cube dialog has no axe violations\",\"Closing during a turn preserves a legal cube\",\"Room rendering settles while object is held\",\"Room context loss releases item renderer\",\"Projects remain accessible after item and room context loss\"],\"passed\":true,\"axe\":[]}\n"
+    },
+    {
+      "name": "context-loss",
+      "file": "qa-room-context-loss.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review"
+      ],
+      "exit": 0,
+      "durationMs": 8984,
+      "summary": ""
+    },
+    {
+      "name": "case-rain",
+      "file": "qa-room-case-rain.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review"
+      ],
+      "exit": 0,
+      "durationMs": 36161,
+      "summary": ""
+    },
+    {
+      "name": "pages",
+      "file": "qa-pages.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review"
+      ],
+      "exit": 1,
+      "durationMs": 134734,
+      "summary": "\\\"\\u001b[22m\\n\"},{\"width\":390,\"lang\":\"en\",\"theme\":\"light\",\"failure\":\"page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at http://127.0.0.1:4331/after/\\nCall log:\\n\\u001b[2m  - navigating to \\\"http://127.0.0.1:4331/after/\\\", waiting until \\\"load\\\"\\u001b[22m\\n\"},{\"width\":390,\"lang\":\"en\",\"theme\":\"dark\",\"failure\":\"page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at http://127.0.0.1:4331/after/\\nCall log:\\n\\u001b[2m  - navigating to \\\"http://127.0.0.1:4331/after/\\\", waiting until \\\"load\\\"\\u001b[22m\\n\"}]}\n"
+    },
+    {
+      "name": "pages-edges",
+      "file": "qa-pages-edges.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review"
+      ],
+      "exit": 1,
+      "durationMs": 8879,
+      "summary": "goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at http://127.0.0.1:4331/after/\\nCall log:\\n\\u001b[2m  - navigating to \\\"http://127.0.0.1:4331/after/\\\", waiting until \\\"load\\\"\\u001b[22m\\n\"\n    },\n    {\n      \"type\": \"startup-and-webgl-fallback\",\n      \"passed\": false,\n      \"failure\": \"page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at http://127.0.0.1:4331/after/\\nCall log:\\n\\u001b[2m  - navigating to \\\"http://127.0.0.1:4331/after/\\\", waiting until \\\"load\\\"\\u001b[22m\\n\"\n    }\n  ],\n  \"passed\": false\n}\n"
+    },
+    {
+      "name": "pages-nojs",
+      "file": "qa-pages.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review-nojs",
+        "--edges-only"
+      ],
+      "exit": 1,
+      "durationMs": 2120,
+      "summary": "-review-nojs\",\"passed\":false,\"routes\":0,\"flows\":0,\"edges\":4,\"failed\":[{\"path\":\"\",\"failure\":\"page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at http://127.0.0.1:4331/after/\\nCall log:\\n\\u001b[2m  - navigating to \\\"http://127.0.0.1:4331/after/\\\", waiting until \\\"load\\\"\\u001b[22m\\n\"},{\"failure\":\"page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at http://127.0.0.1:4331/after/#rowline\\nCall log:\\n\\u001b[2m  - navigating to \\\"http://127.0.0.1:4331/after/#rowline\\\", waiting until \\\"load\\\"\\u001b[22m\\n\"}]}\n"
+    },
+    {
+      "name": "rail-focus",
+      "file": "qa-project-rail-focus.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "detail-review"
+      ],
+      "exit": 1,
+      "durationMs": 1015,
+      "summary": ""
+    },
+    {
+      "name": "menu",
+      "file": "qa-room-menu.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/"
+      ],
+      "exit": 0,
+      "durationMs": 7480,
+      "summary": ""
+    }
+  ]
+}

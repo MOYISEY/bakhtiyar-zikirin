@@ -294,8 +294,10 @@ box('Tray rear',(.42,.010,.068),(0,.187,.061),walnut,tray,.0025,3)
 for x in [-.072,.072]: rod('Recessed pull mount',(x,-.225,.077),(x,-.244,.077),.004,brass,tray)
 handle=rod('DrawerPull',(-.081,-.244,.077),(.081,-.244,.077),.0055,brass,tray,vertices=24)
 empty('DrawerPullAnchor',tray,(0,-.248,.077))
-box('Working note paper',(.24,.17,.003),(-.055,.005,.036),paper,tray,.002,2)
-rod('Graphite pencil',(.085,-.11,.044),(.125,.095,.044),.0035,drawer_wood,tray,vertices=12)
+# Actual documents are supplied by runtime; keep their authored supports separate.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from drawer_storage import add_document_trays
+add_document_trays(tray, walnut, box)
 # Rail gaps remain separate through the complete 0.29 m travel.
 for side in [-1,1]:
     box('Fixed drawer runner',(.006,.38,.020),(side*.220,0,.074),metal,shell,.001,2)

@@ -22,3 +22,7 @@ Baseline: 16b1e8d70c43e884907706c1c9ed83425b1fa17e. 18 pairs, complete native Ed
 | mobile-cabinet | [Before](screenshots/before-mobile-cabinet.webp) | [After](screenshots/after-mobile-cabinet.webp) | Same matrices |
 | mobile-education | [Before](screenshots/before-mobile-education.webp) | [After](screenshots/after-mobile-education.webp) | Changed native view |
 | mobile-documents | [Before](screenshots/before-mobile-documents.webp) | [After](screenshots/after-mobile-documents.webp) | Same matrices |
+
+## Capture erratum — subsequent independent review
+
+The original fixed-camera captures updated HTML actions before applying the final cameraPose. Physical geometry and camera matrices were valid, but some dots/hover markers were stale, including apparent floor hotspots. This does not establish a native interaction defect. The capture helper now updates actions after the final camera/entrance overrides. Historical PNGs remain for traceability; use the [corrected paired review](../detail-review-2026-10-15/VISUAL-REVIEW.md), [independent stale-baseline reproduction](../detail-review-2026-10-15/capture-stale-baseline.json), and final native document QA for current interaction evidence. The duplicate table documents were separately removed at the user’s request.

@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-15T19:27:03.902Z",
+  "base": "http://127.0.0.1:4331/after/",
+  "scope": "detail-review-nojs",
+  "method": "Directed native Chromium clicks and direct HTTP navigation. All 11 static entries in language/theme/viewport matrix; mobile is touch emulation. Selected axe checks, actual image decode, route refresh, history, filters, gallery keyboard/mobile controls and preferences. Physical phones, Safari and screen reader not claimed.",
+  "cases": [],
+  "interactions": [],
+  "edges": [
+    {
+      "type": "no-js",
+      "path": "",
+      "passed": true
+    },
+    {
+      "type": "no-js",
+      "path": "projects/",
+      "passed": true
+    },
+    {
+      "type": "no-js",
+      "path": "projects/keyform.html",
+      "passed": true
+    },
+    {
+      "type": "explicit-language-query-and-legacy-deep-link",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

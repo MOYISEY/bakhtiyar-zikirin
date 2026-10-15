@@ -1,0 +1,12 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "checks": [
+    "desktop-ru: fallback hides scene actions and document leaders",
+    "desktop-ru: education available without GPU",
+    "desktop-ru: existing diploma available in native dialog",
+    "desktop-ru: genuine certificate available",
+    "desktop-ru: fallback fits viewport"
+  ],
+  "scenarios": [],
+  "passed": false
+}

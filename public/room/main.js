@@ -1,4 +1,5 @@
 import * as T from 'three';
+import {layoutDocumentActions,hideDocumentLeaders} from './document-actions.js';
 import {createWorld} from './world.js';
 import {RoomAudio} from './audio.js';
 import {$,L,attachApp,openPanel,weatherText} from './ui.js';
@@ -17,7 +18,7 @@ const path=new T.CatmullRomCurve3([new T.Vector3(0,1.60,9.55),new T.Vector3(.02,
 // Stop outside the door's sweep until the physical opening is clear.
 const doorStopProgress=(()=>{let lo=0,hi=.8;for(let i=0;i<24;i++){const mid=(lo+hi)/2;if(path.getPoint(smooth(mid)).z>2.65)lo=mid;else hi=mid}return lo})();
 let activeHotspot=null,pointerHotspot=null,focusHotspot=null,leaveTimer=null,keyboardMode=false;
-const api={hold:false,audio,canInspect(id){return world.collectionReady(id)},cabinet(){cabinetTarget=cabinetTarget>.5?0:1;dirty=true},previewProject(project,image){if(!window.sliceUsable||window.sliceFatal)return;world.previewProject(project,image);dirty=true},get rainPaused(){return rainPaused},get rainMotionBlocked(){return reduced.matches},toggleRainMotion(){rainPaused=!rainPaused;try{storage?.setItem('room-weather-motion-v1',rainPaused?'paused':'playing')}catch{}weatherText();dirty=true},localize(){world.localize();streamStatus();renderHotspot();dirty=true},go(value,gesture=false){if(!window.sliceUsable)return;preExit=value<.5&&progress>.96&&!reduced.matches;viewName='desk';target=clamp(value,0,1);lookX=lookY=moveX=moveZ=0;if(target>.4){if(gesture)audio.enter(true);else audio.setInside(true)}else audio.setInside(false);dirty=true},view(name){api.go(1,true);viewName=name;lookX=0;dirty=true},pull(){toggleLight();pull=.09;pullVelocity=0;dirty=true},folder(){folderTarget=folderTarget>.5?0:1;dirty=true},drawer(){if(!world.drawerPull)return;drawerTarget=drawerTarget>.5?0:1;if(drawerTarget){api.view('drawer')}else if(viewName==='drawer'){viewName='desk'}dirty=true}};
+const api={hold:false,audio,canInspect(id){return world.collectionReady(id)},cabinet(){cabinetTarget=cabinetTarget>.5?0:1;dirty=true},previewProject(project,image){if(!window.sliceUsable||window.sliceFatal)return;world.previewProject(project,image);dirty=true},get rainPaused(){return rainPaused},get rainMotionBlocked(){return reduced.matches},toggleRainMotion(){rainPaused=!rainPaused;try{storage?.setItem('room-weather-motion-v1',rainPaused?'paused':'playing')}catch{}weatherText();dirty=true},localize(){world.localize();streamStatus();renderHotspot();dirty=true},go(value,gesture=false){if(!window.sliceUsable)return;preExit=value<.5&&progress>.96&&!reduced.matches;viewName='desk';target=clamp(value,0,1);lookX=lookY=moveX=moveZ=0;if(target>.4){if(gesture)audio.enter(true);else audio.setInside(true)}else audio.setInside(false);dirty=true},documents(){if(world.drawerPull){drawerTarget=1;api.view('drawer')}},view(name){if(name==='education'){api.documents();return}api.go(1,true);viewName=name;lookX=0;dirty=true},pull(){toggleLight();pull=.09;pullVelocity=0;dirty=true},folder(){folderTarget=folderTarget>.5?0:1;dirty=true},drawer(){if(!world.drawerPull)return;drawerTarget=drawerTarget>.5?0:1;if(drawerTarget){api.view('drawer')}else if(viewName==='drawer'){viewName='desk'}dirty=true}};
 function toggleLight(){$('#object-lamp').classList.remove('cord-guide-visible');light=!light;audio.effect();for(const id of ['#lamp-button','#object-lamp'])$(id).setAttribute('aria-pressed',String(light));dirty=true}
 attachApp(api);reduced.addEventListener?.('change',()=>{weatherText();dirty=true});
 function streamStatus(){
@@ -42,7 +43,7 @@ function renderHotspot(){
  const el=$('#object-hint'),guide=$('#object-lamp');
  const id=pointerHotspot||focusHotspot||(!guide.hidden&&guide.classList.contains('cord-guide-visible')?'lamp':null);
  const button=id&&$('#object-'+id),blocked=!window.sliceUsable||window.sliceFatal||api.hold||pointer||!$('#controls').hidden;
- const visible=!!id&&!blocked&&(!button||!button.hidden);
+ const visible=!!id&&!blocked&&!id.startsWith('drawer-')&&(!button||!button.hidden);
  const next=visible?id:null;if(next!==activeHotspot){activeHotspot=next;world.highlight(next);dirty=true}
  el.hidden=!visible;el.setAttribute('aria-hidden',String(!visible));el.dataset.hotspot=next||'';if(!visible)return;
  el.textContent=button?(!pointerHotspot&&!focusHotspot?guide.querySelector('.cord-guide').textContent:button.ariaLabel):L('Открыть дверь','Есікті ашу','Open door');
@@ -55,13 +56,13 @@ function pointHotspot(id){if(!window.sliceUsable||window.sliceFatal){clearHotspo
 function clearHotspots(){clearTimeout(leaveTimer);pointerHotspot=focusHotspot=null;renderHotspot()}
 document.addEventListener('keydown',()=>{keyboardMode=true;clearTimeout(leaveTimer);pointerHotspot=null;const el=document.activeElement;focusHotspot=el?.classList.contains('object-action')?el.id.slice(7):null;renderHotspot()},true);
 document.addEventListener('pointerdown',()=>{keyboardMode=false;clearHotspots()},true);
-window.addEventListener('room-scene-disabled',()=>{audio.setInside(false);audio.pauseForPage();if(pointer)release({pointerId:pointer.id},true);keyboardMode=false;$('#object-lamp').classList.remove('cord-guide-visible','pulling');clearHotspots();canvas.style.cursor='default'});
+window.addEventListener('room-scene-disabled',()=>{audio.setInside(false);audio.pauseForPage();if(pointer)release({pointerId:pointer.id},true);hideDocumentLeaders();keyboardMode=false;$('#object-lamp').classList.remove('cord-guide-visible','pulling');clearHotspots();canvas.style.cursor='default'});
 window.addEventListener('room-scene-ready',()=>{dirty=true;updateActions();weatherText()});
 window.addEventListener('room-panel-open',clearHotspots);
 window.addEventListener('room-actions',()=>{if(!$('#controls').hidden)clearHotspots();else renderHotspot()});
 $('#panel').addEventListener('close',renderHotspot);
 canvas.addEventListener('pointerleave',()=>pointHotspot(null));
-for(const id of ['case','profile','lamp','keyform','poslesvet','contacts','drawer','drawer-resume','drawer-education','cabinet','cube','robot','orbit','education']){
+for(const id of ['case','profile','lamp','keyform','poslesvet','contacts','drawer','drawer-resume','drawer-education','cabinet','cube','robot','orbit']){
  const el=$('#object-'+id);
  el.addEventListener('pointerenter',e=>{if(e.pointerType!=='touch')pointHotspot(id)});
  el.addEventListener('pointerleave',()=>pointHotspot(null));
@@ -80,7 +81,6 @@ function updateCamera(){
  const fov=viewName==='cabinet'?(mobile()?80:52):viewName==='room'?(mobile()?78:84):(mobile()?70:52);camera.fov=reduced.matches?fov:T.MathUtils.damp(camera.fov,fov,10,cameraDelta);camera.updateProjectionMatrix();
  if(viewName==='room')p.lerp(new T.Vector3(.65,1.72,1.35),inside);
  if(viewName==='drawer')p.lerp(new T.Vector3(.38,1.60,-.95),inside);
- if(viewName==='education')p.lerp(new T.Vector3(-1.1,1.25,-.15),inside);
  if(viewName==='cabinet')p.lerp(mobile()?new T.Vector3(-.55,1.05,-.34):new T.Vector3(.85,1.04,-.34),inside);
  if(viewName==='window')p.lerp((captureReferenceFraming?new T.Vector3(.2,1.58,.8):new T.Vector3(-.18,1.60,.80)),inside);
  const base=p.clone();p.x+=moveX*progress;p.z+=moveZ*progress;p.copy(world.walk(base,p));
@@ -89,7 +89,6 @@ function updateCamera(){
  if(viewName==='room')look.lerp(new T.Vector3(mobile()?3:.72,mobile()?1.25:1.13,mobile()?-.34:-.5),inside);
  if(viewName==='cabinet')look.lerp(new T.Vector3(2.66,.38,-.34),inside);
  if(viewName==='drawer')look.lerp(new T.Vector3(.38,.69,-1.48),inside);
- if(viewName==='education')look.lerp(new T.Vector3(-2.25,.56,-.55),inside);
  if(viewName==='window')look.lerp((captureReferenceFraming?new T.Vector3(-12,1.9,-7):new T.Vector3(-12,1.95,-5.0)),t);
  look.sub(camera.position).applyAxisAngle(new T.Vector3(0,1,0),-lookX).add(camera.position);look.y+=lookY;if(cameraStarted&&!reduced.matches)aim.lerp(look,1-Math.exp(-10*cameraDelta));else aim.copy(look);cameraStarted=true;camera.lookAt(aim);camera.updateMatrixWorld();updateActions();
 
@@ -97,14 +96,18 @@ function updateCamera(){
  $('#entrance-button').setAttribute('aria-pressed',String(progress<.5));$('#desk-button').setAttribute('aria-pressed',String(progress>=.5));
 }
 function updateActions(){
+ const documentItems=[];
  const targets={case:world.objects.find(o=>o.userData.action==='case'),profile:world.objects.find(o=>o.userData.action==='profile'),lamp:world.cordGrip,contacts:world.contacts,keyform:world.gallery[0],poslesvet:world.gallery[1],drawer:world.drawerPull,...world.drawerDocuments,...world.collectionTargets};
  for(const [id,o]of Object.entries(targets)){
-  const el=$('#object-'+id);if(!o){el.hidden=el.disabled=true;continue}const p=new T.Box3().setFromObject(o).getCenter(new T.Vector3()).project(camera);
+  const el=$('#object-'+id);if(!o){el.hidden=el.disabled=true;continue}const anchor=o.userData.hotspotAnchor&&o.getObjectByName(o.userData.hotspotAnchor);let p=(anchor?anchor.getWorldPosition(new T.Vector3()):new T.Box3().setFromObject(o).getCenter(new T.Vector3())).project(camera);
+  // Either real education sheet may emerge first during a partial opening.
+  if(id.startsWith('drawer-')&&hitAt((p.x+1)*innerWidth/2,(1-p.y)*innerHeight/2)?.action!==id){o.traverse(page=>{if(!page.isMesh||!page.name.endsWith(' preview'))return;const q=page.getWorldPosition(new T.Vector3()).project(camera);if(q.z>=-1&&q.z<=1&&Math.abs(q.x)<.96&&Math.abs(q.y)<.92&&hitAt((q.x+1)*innerWidth/2,(1-q.y)*innerHeight/2)?.action===id)p=q})}
   // Use the same first visible surface as pointer interaction. The physical
   // door must be clear; progress alone says nothing about what is reachable.
   const screenX=(p.x+1)*innerWidth/2,screenY=(1-p.y)*innerHeight/2;
   el.hidden=!window.sliceUsable||window.sliceFatal||!world.studioReady||world.door.rotation.y<doorPassAngle||p.z< -1||p.z>1||Math.abs(p.x)>.96||Math.abs(p.y)>.92||hitAt(screenX,screenY)?.action!==id;
-  if(id.startsWith('drawer-')&&drawer<.98)el.hidden=true;el.disabled=el.hidden;if(el.hidden)continue;
+  if(id.startsWith('drawer-')&&drawer<.55)el.hidden=true;el.disabled=el.hidden;if(el.hidden)continue;
+  if(id.startsWith('drawer-')){documentItems.push({id,el,object:o});continue}
   if(id==='lamp'&&!cordGuideShown){cordGuideShown=true;el.classList.add('cord-guide-visible');try{sessionStorage.setItem('office-cord-guide','seen')}catch{}setTimeout(()=>{el.classList.remove('cord-guide-visible');renderHotspot()},8000);}
   let x=screenX,y=screenY;
   if(id==='lamp'){
@@ -113,11 +116,12 @@ function updateActions(){
   }
   const inset=el.offsetWidth/2+12;el.style.left=clamp(x,inset,innerWidth-inset)+'px';el.style.top=clamp(y,90,innerHeight-45)+'px';
  }
+ layoutDocumentActions(documentItems,camera,$('#object-drawer'));
  $('#cabinet-button').setAttribute('aria-pressed',String(cabinetTarget>.5));
  $('#drawer-button').hidden=!world.drawerPull;for(const id of ['#drawer-button','#object-drawer'])$(id).setAttribute('aria-pressed',String(drawer>.5));
  renderHotspot();
 }
-function hitAt(x,y){mouse.set(x/innerWidth*2-1,-y/innerHeight*2+1);ray.setFromCamera(mouse,camera);const hits=ray.intersectObjects(scene.children,true);for(const hit of hits){const material=hit.object.material,m=Array.isArray(material)?material[hit.face?.materialIndex||0]:material;if(!m)continue;let shown=true;for(let parent=hit.object;parent;parent=parent.parent)if(!parent.visible){shown=false;break}if(!shown||(m.transparent&&m.opacity<.45)||hit.object.isLine)continue;let o=hit.object;while(o&&!o.userData.action)o=o.parent;if(o?.userData.action){const action=o.userData.action;if(action.startsWith('drawer-')&&drawer<.98)return null;if(['cube','robot','orbit'].includes(action)&&!world.collectionReady(action))return null;return{...hit,action}};if(m.visible!==false)return null}return null}
+function hitAt(x,y){mouse.set(x/innerWidth*2-1,-y/innerHeight*2+1);ray.setFromCamera(mouse,camera);const hits=ray.intersectObjects(scene.children,true);for(const hit of hits){const material=hit.object.material,m=Array.isArray(material)?material[hit.face?.materialIndex||0]:material;if(!m)continue;let shown=true;for(let parent=hit.object;parent;parent=parent.parent)if(!parent.visible){shown=false;break}if(!shown||(m.transparent&&m.opacity<.45)||hit.object.isLine)continue;let o=hit.object;while(o&&!o.userData.action)o=o.parent;if(o?.userData.action){const action=o.userData.action;if(action.startsWith('drawer-')&&drawer<.55)return null;if(['cube','robot','orbit'].includes(action)&&!world.collectionReady(action))return null;return{...hit,action}};if(m.visible!==false)return null}return null}
 world.monitor.userData.action='case';
 function hint(hit){pointHotspot(hit?.action||null);canvas.style.cursor=hit?.action==='lamp'||hit?.action==='profile'||hit?.action==='drawer'?'grab':hit?'pointer':'grab'}
 // Canvas and the transparent, cord-aligned semantic button share one gesture.
@@ -194,11 +198,12 @@ function frame(time){const dt=Math.min((time-last)/1000,.04);last=time;cameraDel
 window.__SLICE__={geometry:()=>world.geometryReport(),inspect:()=>({firstFrameAt,fullSceneAt,shadowUpdates,cachedShadowFrames,cabinetVelocity,doorNear,doorStopProgress,doorOpenAngle,doorPassAngle,window:world.inspectWindow(),lighting:world.inspectLighting(),showcase:world.inspectProject(),weather:{...world.exterior?.weather?.inspect(),paused:rainPaused,reduced:reduced.matches},stream:world.inspectStream(),cameraClear:world.clearance(camera.position),viewName,progress,target,doorAngle:world.door.rotation.y,camera:camera.position.toArray(),look:[lookX,lookY],move:[moveX,moveZ],lamp:light,brightness,pull,folder,drawer,collection:world.inspectCollection(),furniture:world.inspectFurniture(),held:api.hold,pointerKind:pointer?.kind||null,pullThreshold:.065,pullLimit:.12,office:world.office,assets:world.assetInfo,drawCalls:renderer.info.render.calls,textureCount:renderer.info.memory.textures,triangles:renderer.info.render.triangles,frames:frameCount,renders:renderCount,audio:audio.inspect()}),drawerGrip:()=>{if(!world.drawerPull)return null;const p=new T.Box3().setFromObject(world.drawerPull).getCenter(new T.Vector3()),travel=world.inspectFurniture().drawerTravel,project=p=>{p.project(camera);return{x:(p.x+1)*innerWidth/2,y:(1-p.y)*innerHeight/2}};return{current:project(p.clone()),closed:project(p.clone().add(new T.Vector3(0,0,-travel*drawer))),open:project(p.clone().add(new T.Vector3(0,0,travel*(1-drawer))))}},points:()=>Object.fromEntries(world.objects.map(o=>{const p=new T.Box3().setFromObject(o).getCenter(new T.Vector3()).project(camera);return[o.userData.action,{x:(p.x+1)*innerWidth/2,y:(1-p.y)*innerHeight/2}]})),cord:()=>{const project=o=>{const p=o.getWorldPosition(new T.Vector3()).project(camera);return{x:(p.x+1)*innerWidth/2,y:(1-p.y)*innerHeight/2}};return{top:project(world.cordRoot),grip:project(world.cordGrip)}},get ready(){return world.studioReady&&window.sliceUsable}};
 // Explicit review-only capture mode freezes scene state, not just CSS animation.
 if(captureMode)window.__SLICE__.capture=async({view='corridor',yaw=0,pitch=0,x=0,z=0,assetsReady=true,baked=true,lampOn=true,referenceFraming=false,drawerOpen=false,cabinetOpen=false,drawerAmount=null,cabinetAmount=null,entranceAngle=null,cameraPose=null}={})=>{
+ if(view==='education'){view='drawer';drawerOpen=true}
  if(assetsReady){world.prepare(true);const start=performance.now();while(!world.studioReady){if(performance.now()-start>90000)throw Error('Capture assets failed or timed out');await new Promise(r=>setTimeout(r,50))}}
  captureReferenceFraming=referenceFraming;captureFrozen=true;doorNear=false;api.hold=false;viewName=view==='corridor'?'desk':view;progress=target=view==='corridor'?0:1;lookX=clamp(yaw,-1.2,1.2);lookY=clamp(pitch,-.45,.5);moveX=clamp(x,-.55,.65);moveZ=clamp(z,-.35,.8);folder=folderTarget=0;pull=pullVelocity=0;light=lampOn;brightness=lampOn?1:0;pointer=null;preExit=false;cameraStarted=false;
  world.cordLine.scale.y=1;world.cordLine.position.y=-.2;world.cordGrip.position.y=-.434;world.cord.rotation.z=world.cover.rotation.z=0;world.taskLight.intensity=lampOn?14:0;world.windowBake(baked);if(world.lightSurface)for(const m of Array.isArray(world.lightSurface.material)?world.lightSurface.material:[world.lightSurface.material])if(m.emissive)m.emissiveIntensity=brightness*1.2;
  cabinetVelocity=0;cabinet=cabinetTarget=typeof cabinetAmount==='number'?clamp(cabinetAmount,0,1):cabinetOpen?1:0;world.setCabinet(cabinet);drawer=drawerTarget=typeof drawerAmount==='number'?clamp(drawerAmount,0,1):drawerOpen?1:0;world.setDrawer(drawer);
- cordGuideShown=true;$('#object-lamp').classList.remove('cord-guide-visible');clearHotspots();updateCamera();if(typeof entranceAngle==='number')world.door.rotation.y=clamp(entranceAngle,.04,doorOpenAngle);if(cameraPose){const position=new T.Vector3(...cameraPose.position),target=new T.Vector3(...cameraPose.target);if(![...position.toArray(),...target.toArray()].every(Number.isFinite)||!world.clearance(position))throw Error('Review camera must remain clear of physical architecture');camera.position.copy(position);camera.lookAt(target);camera.updateMatrixWorld(true)}world.daylight.update();world.exterior?.update?.(camera);scene.updateMatrixWorld(true);renderer.shadowMap.needsUpdate=true;renderer.render(scene,camera);
+ cordGuideShown=true;$('#object-lamp').classList.remove('cord-guide-visible');clearHotspots();updateCamera();if(typeof entranceAngle==='number')world.door.rotation.y=clamp(entranceAngle,.04,doorOpenAngle);if(cameraPose){const position=new T.Vector3(...cameraPose.position),target=new T.Vector3(...cameraPose.target);if(![...position.toArray(),...target.toArray()].every(Number.isFinite)||!world.clearance(position))throw Error('Review camera must remain clear of physical architecture');camera.position.copy(position);camera.lookAt(target);camera.updateMatrixWorld(true)}world.daylight.update();world.exterior?.update?.(camera);scene.updateMatrixWorld(true);updateActions();renderer.shadowMap.needsUpdate=true;renderer.render(scene,camera);
  const maps=[];scene.traverse(o=>{if(o.isMesh)for(const m of Array.isArray(o.material)?o.material:[o.material])for(const key of ['map','normalMap','roughnessMap','metalnessMap','aoMap','emissiveMap'])if(m[key])maps.push({material:m.name,type:key,colorSpace:m[key].colorSpace,url:m[key].image?.src||'generated',repeat:m[key].repeat.toArray()})});
  return{window:world.inspectWindow(),view,yaw:lookX,pitch:lookY,move:[moveX,moveZ],time:0,seed:4240,frozen:captureFrozen,camera:camera.position.toArray(),matrix:camera.matrixWorld.elements,projection:camera.projectionMatrix.elements,assets:world.inspectStream(),output:renderer.outputColorSpace,toneMapping:renderer.toneMapping,maps,drawCalls:renderer.info.render.calls,textureCount:renderer.info.memory.textures,triangles:renderer.info.render.triangles};
 };

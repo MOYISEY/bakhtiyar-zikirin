@@ -1,0 +1,115 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "checks": [
+    "audio active after explicit enable",
+    "native context loss extension available",
+    "loss silences and suspends audio",
+    "saved audio choices unchanged",
+    "fallback displayed",
+    "projects accessible after GPU loss",
+    "reload restores room without autoplay",
+    "unmuted preference survives retry",
+    "explicit reentry resumes one source"
+  ],
+  "before": {
+    "armed": true,
+    "inside": true,
+    "state": "running",
+    "needsGesture": false,
+    "resumePending": false,
+    "resumeAttempts": 1,
+    "musicReady": true,
+    "preparationMode": "worker",
+    "musicDuration": 64,
+    "sourceStarts": {
+      "music": 1,
+      "rain": 1,
+      "effects": 0
+    },
+    "desiredMaster": 0.65,
+    "levels": {
+      "master": {
+        "rms": 0.00019300141475662877,
+        "peak": 0.0008287831442430615
+      },
+      "music": {
+        "rms": 0.012555281066691099,
+        "peak": 0.038039982318878174
+      },
+      "rain": {
+        "rms": 0.0036721001598780134,
+        "peak": 0.012418413534760475
+      }
+    },
+    "preferences": {
+      "muted": false,
+      "music": {
+        "muted": false,
+        "volume": 0.45
+      },
+      "rain": {
+        "muted": false,
+        "volume": 0.18
+      },
+      "effects": {
+        "muted": false,
+        "volume": 0.25
+      }
+    },
+    "savedPreferences": true,
+    "raining": true,
+    "error": null,
+    "score": "Window Notes"
+  },
+  "after": {
+    "armed": true,
+    "inside": false,
+    "state": "suspended",
+    "needsGesture": false,
+    "resumePending": false,
+    "resumeAttempts": 1,
+    "musicReady": true,
+    "preparationMode": "worker",
+    "musicDuration": 64,
+    "sourceStarts": {
+      "music": 1,
+      "rain": 1,
+      "effects": 0
+    },
+    "desiredMaster": 0,
+    "levels": {
+      "master": {
+        "rms": 0.0010015149040011623,
+        "peak": 0.0027134623378515244
+      },
+      "music": {
+        "rms": 0.021740591715999943,
+        "peak": 0.051509369164705276
+      },
+      "rain": {
+        "rms": 0.007601818830616232,
+        "peak": 0.024234136566519737
+      }
+    },
+    "preferences": {
+      "muted": false,
+      "music": {
+        "muted": false,
+        "volume": 0.45
+      },
+      "rain": {
+        "muted": false,
+        "volume": 0.18
+      },
+      "effects": {
+        "muted": false,
+        "volume": 0.25
+      }
+    },
+    "savedPreferences": true,
+    "raining": true,
+    "error": null,
+    "score": "Window Notes"
+  },
+  "pass": true
+}
