@@ -1,4 +1,5 @@
 import * as T from 'three';
+import {installCabinet} from './cabinet-scene.js';
 import {architecturalMaterial} from './architecture-materials.js';
 import {createDaylight} from './daylight.js';
 import {installWindow} from './window-fragment.js';
@@ -19,7 +20,7 @@ export async function createWorld(renderer,camera){
  const [plasterMap,floorMap,oakMap]=await Promise.all(['plaster','floor','oak'].map(n=>texture('assets/entry/'+n+'.webp',true)));
  const plaster=new T.MeshStandardMaterial({map:plasterMap,color:'#f3eee4',roughness:.92,normalScale:new T.Vector2(.25,.25)}),floor=new T.MeshStandardMaterial({map:floorMap,color:'#e3d8c5',roughness:.62,normalScale:new T.Vector2(.25,.25)}),oak=new T.MeshStandardMaterial({map:oakMap,color:'#ede4d5',roughness:.78,normalScale:new T.Vector2(.25,.25)});
  let project=textMap(['HELIO'],{bg:'#345148',color:'#eadcc3'}),chair=null,lamp=null,cabinet=null,sideTable=null,lightSurface=null,exterior=null;
- let previewTexture=null,previewId=null,previewSource='',previewUpdates=0,furniture=null;
+ let previewTexture=null,previewId=null,previewSource='',previewUpdates=0,furniture=null,collection=null,education=null;
  const galleryMaps=[null,null];
  plaster.normalScale.set(.16,.16);const green=cloneMaterial(plaster);green.color.set('#345148');green.normalScale.set(.13,.13);
  const joinery=new T.MeshStandardMaterial({color:'#c4c0b3',roughness:.48,metalness:.02});joinery.name='Warm powder coat / matched window finish';
@@ -228,22 +229,26 @@ export async function createWorld(renderer,camera){
  const lampBox=new T.Box3().setFromObject(lamp);assetInfo.push({id:'lamp',nativeScale:lamp.scale.toArray(),bounds:lampBox.getSize(new T.Vector3()).toArray(),source:authoredFurniture?'studio-furniture/lamp':'desk_lamp_arm_01'});
 
 
-  nativeMaterial(cabinet);record('cabinet',cabinet);contact(2.66,-.34,.62,2.5,.32);
+  nativeMaterial(cabinet);collection=installCabinet(cabinet,objects);highlightTargets.cabinet=collection.anchor;for(const [id,item]of Object.entries(collection.items))highlightTargets[id]=item;record('cabinet',cabinet);contact(2.66,-.34,.62,2.5,.32);
   if(lightSurface)lightPos.copy(new T.Box3().setFromObject(lightSurface).getCenter(new T.Vector3()));taskLight.position.copy(lightPos);
   if(studioAssets){furniture=installStudioFurniture({doorAsset:studioAssets[0],drawerAsset:studioAssets[1],scene,door,doorLabel,doorHandle:handle,objects});highlightTargets.drawer=furniture.tray;}
   daylight.prepare();scene.updateMatrixWorld(true);changed();};
  })}
  function loadDecor(){return stream.run('decor',async()=>{
-  const [plantAsset,sideTableAsset]=await Promise.all([stream.model('decor','assets/potted_plant_02/selected.gltf'),stream.model('decor','assets/side_table_01/model.gltf')]);
+  const [plantAsset,sideTableAsset,diplomaPreview]=await Promise.all([stream.model('decor','assets/potted_plant_02/selected.gltf'),stream.model('decor','assets/side_table_01/model.gltf'),stream.texture('decor','../files/education/diploma-preview.webp',true)]);
   assembly.decor=()=>{const plant=plantAsset.scene;plant.position.set(2.24,0,-2.16);plant.scale.setScalar(.9);scene.add(plant);plant.updateMatrixWorld(true);plant.position.y-=new T.Box3().setFromObject(plant).min.y;plant.traverse(o=>{if(o.isMesh)o.castShadow=o.receiveShadow=true});contact(2.24,-2.16,.63,.63,.60);contact(2.24,-2.16,.32,.32,.70);
 
   sideTable=sideTableAsset.scene;sideTable.position.set(-2.03,0,.17);sideTable.rotation.y=.15;scene.add(sideTable);sideTable.updateMatrixWorld(true);sideTable.position.y-=new T.Box3().setFromObject(sideTable).min.y;
 
   nativeMaterial(sideTable);record('side_table',sideTable);contact(-2.03,.17,.6,.6,.28);
   const sideTop=new T.Box3().setFromObject(sideTable).max.y;
- // A quiet, original paper study on the reading table; no fake interactive controls.
- box(.29,.012,.22,paper,-2.03,sideTop+.009,.17,.003);
- const study=localizedLabel(()=>[L('ИНТЕРФЕЙСЫ','ИНТЕРФЕЙСТЕР','INTERFACE NOTES'),L('01 / СОСТОЯНИЕ   02 / ДАННЫЕ','01 / КҮЙ   02 / ДЕРЕКТЕР','01 / STATE   02 / DATA')],.25,.18,-2.03,sideTop+.017,.17,{w:800,h:500,bg:'#e9e1cb',color:'#3c5246',size:72});study.rotation.x=-Math.PI/2;
+ // A closed education portfolio links to verified study periods, not invented scans.
+ education=new T.Group();scene.add(education);education.userData.action='education';objects.push(education);highlightTargets.education=education;
+ box(.31,.025,.24,green,-2.03,sideTop+.018,.17,.004,education);
+ box(.285,.008,.21,paper,-2.025,sideTop+.030,.17,.002,education);
+ box(.31,.007,.24,green,-2.03,sideTop+.039,.17,.003,education);
+ const study=localizedLabel(()=>[L('ОБРАЗОВАНИЕ','БІЛІМ','EDUCATION'),L('Колледж · AIU','Колледж · AIU','College · AIU')],.26,.18,-2.03,sideTop+.043,.17,{w:800,h:500,bg:'#345148',color:'#e9e1cb',size:74},education);study.rotation.x=-Math.PI/2;
+ const diploma=new T.Mesh(new T.PlaneGeometry(.27,.187),new T.MeshStandardMaterial({map:diplomaPreview,roughness:.82}));diploma.rotation.x=-Math.PI/2;diploma.position.set(-2.025,sideTop+.044,.17);education.add(diploma);
 
   daylight.prepare();scene.updateMatrixWorld(true);changed();};
  })}
@@ -281,5 +286,5 @@ export async function createWorld(renderer,camera){
  function windowBake(enabled=true){windowRoot?.traverse(o=>{if(o.isMesh)for(const m of Array.isArray(o.material)?o.material:[o.material])m.lightMapIntensity=enabled?Math.PI:0})}
  daylight.prepare();
  function inspectWindow(){const meshes=[];windowRoot?.traverse(o=>{if(o.isMesh)meshes.push({uv2:!!o.geometry.attributes.uv1,material:o.material.name,lightmap:o.material.lightMap?.colorSpace,channel:o.material.lightMap?.channel,flipY:o.material.lightMap?.flipY,intensity:o.material.lightMapIntensity,indirectOnly:o.material.userData.indirectOnly})});return {loaded:!!windowRoot,meshes,liveLamp:taskLight.intensity}}
- return {get drawerPull(){return furniture?.pull},setDrawer(value){furniture?.setDrawer(value)},inspectFurniture(){return furniture?.inspect()||{variant:'legacy',drawerTravel:0,drawerOffset:0}},previewProject,inspectProject,allowAssembly,get preparingGPU(){return warming},daylight,windowBake,inspectWindow,prepare,retry,inspectStream,onChange(fn){changed=fn},get studioReady(){return studioReady},clearance,walk,scene,objects,door,cover,cord,cordRoot,cordLine,cordGrip,taskLight,get lightSurface(){return lightSurface},get assetInfo(){return [...assetInfo].sort((a,b)=>['chair','lamp','cabinet','side_table'].indexOf(a.id)-['chair','lamp','cabinet','side_table'].indexOf(b.id))},get project(){return project},get chair(){return chair},get lamp(){return lamp},monitor,folder,lightPos,localize,get exterior(){return exterior},highlight,contacts,gallery,get cabinet(){return cabinet},get sideTable(){return sideTable},office:{doorWidth:width,doorHeight:height,corridorWidth:2.65,sideDoors:doorNumbers,corridorLength:9.47,corridorHeight:3.0,routeLength:8.0},cordHit};
+ return {get collectionTargets(){return collection?{cabinet:collection.anchor,...collection.items,education}:{}},setCabinet(value){collection?.set(value)},collectionReady(id){return !!collection?.items[id]&&collection.inspect().itemsAccessible},inspectCollection(){return collection?.inspect()||null},get drawerPull(){return furniture?.pull},setDrawer(value){furniture?.setDrawer(value)},inspectFurniture(){return furniture?.inspect()||{variant:'legacy',drawerTravel:0,drawerOffset:0}},previewProject,inspectProject,allowAssembly,get preparingGPU(){return warming},daylight,windowBake,inspectWindow,prepare,retry,inspectStream,onChange(fn){changed=fn},get studioReady(){return studioReady},clearance,walk,scene,objects,door,cover,cord,cordRoot,cordLine,cordGrip,taskLight,get lightSurface(){return lightSurface},get assetInfo(){return [...assetInfo].sort((a,b)=>['chair','lamp','cabinet','side_table'].indexOf(a.id)-['chair','lamp','cabinet','side_table'].indexOf(b.id))},get project(){return project},get chair(){return chair},get lamp(){return lamp},monitor,folder,lightPos,localize,get exterior(){return exterior},highlight,contacts,gallery,get cabinet(){return cabinet},get sideTable(){return sideTable},office:{doorWidth:width,doorHeight:height,corridorWidth:2.65,sideDoors:doorNumbers,corridorLength:9.47,corridorHeight:3.0,routeLength:8.0},cordHit};
 }

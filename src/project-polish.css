@@ -49,3 +49,5 @@
  .hero-project > a:hover img, .hero-project > a:focus-visible img { transform: none; }
  #main { animation: none; }
 }
+
+.diploma-link{display:grid;gap:.7rem;max-width:300px;margin-top:1.5rem;color:var(--teal);font-size:.8rem}.diploma-link img{width:100%;height:auto;border:1px solid var(--line)}.diploma-note{display:block;margin-top:.6rem;color:var(--muted);font-size:.7rem;line-height:1.6}

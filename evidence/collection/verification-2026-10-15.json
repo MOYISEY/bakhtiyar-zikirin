@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-15",
+  "baseCommit": "63eeda95bae1e49f16ab134de8032a624ea8f698",
+  "browser": "Installed Microsoft Edge on the Windows laptop; actual WebGL and native mouse/touch emulation",
+  "build": "TypeScript and Vite production build passed",
+  "collection": {
+    "passed": true,
+    "checks": 102,
+    "scenarios": [
+      "desktop-no-preference",
+      "desktop-reduce",
+      "mobile-no-preference",
+      "mobile-reduce"
+    ]
+  },
+  "cubeMath": {
+    "passed": true,
+    "checks": 3025,
+    "legalTurnsAndInverses": 2076
+  },
+  "itemEdges": {
+    "checks": [
+      "Cube dialog has no axe violations",
+      "Closing during a turn preserves a legal cube",
+      "Room rendering settles while object is held",
+      "Room context loss releases item renderer",
+      "Projects remain accessible after item and room context loss"
+    ],
+    "passed": true,
+    "axe": []
+  },
+  "ordinary": {
+    "passed": true,
+    "routes": 132,
+    "flows": 12,
+    "edges": 4,
+    "navigation": true,
+    "navigationLayouts": 2
+  },
+  "regressions": {
+    "showcase": {
+      "passed": true,
+      "checks": 149
+    },
+    "hotspots": {
+      "passed": true,
+      "checks": 27
+    },
+    "contextLoss": {
+      "passed": true,
+      "checks": 9
+    },
+    "furniture": {
+      "passed": true,
+      "checks": 98
+    }
+  },
+  "performance": {
+    "at": "2026-10-15T10:10:01.032Z",
+    "method": "Installed Edge, actual laptop WebGL, isolated sequential sample, 90 RAF intervals per room state; not other-device or network guarantees.",
+    "samples": [
+      {
+        "name": "desk-closed-cabinet",
+        "drawCalls": 1088,
+        "triangles": 1147246,
+        "textures": 87,
+        "medianMs": 7,
+        "p95Ms": 7.100000000000364,
+        "collection": {
+          "opening": 0,
+          "itemsAccessible": false,
+          "leftAngle": 0,
+          "rightAngle": 0
+        }
+      },
+      {
+        "name": "cabinet-open",
+        "drawCalls": 966,
+        "triangles": 1004504,
+        "textures": 87,
+        "medianMs": 6.900000000000546,
+        "p95Ms": 7.100000000000364,
+        "collection": {
+          "opening": 1,
+          "itemsAccessible": true,
+          "leftAngle": -1.48,
+          "rightAngle": 1.48
+        }
+      }
+    ],
+    "item": {
+      "active": 1,
+      "kind": "cube",
+      "yaw": 0.58,
+      "pitch": 0.4,
+      "busy": false,
+      "selected": "F",
+      "drawCalls": 80,
+      "textures": 0
+    },
+    "educationMarker": true,
+    "physicalDiplomaOpened": true
+  },
+  "safety": {
+    "filesChecked": 519,
+    "findings": []
+  },
+  "documents": [
+    {
+      "file": "files/education/diploma-preview.webp",
+      "bytes": 63818,
+      "sha256": "2aef39616ccdcee55c16b7d2a3cf31905e931dc2ad97ba0d0344d242711dd854",
+      "width": 640,
+      "height": 442,
+      "riffChunks": [
+        "VP8X",
+        "ICCP",
+        "VP8 "
+      ]
+    },
+    {
+      "file": "files/education/diploma-public.webp",
+      "bytes": 777344,
+      "sha256": "aeb82b2bc35591a8d6c095ff95adeaf6f6d9bf65da4aa8da62566ccdb811eae6",
+      "width": 2400,
+      "height": 1659,
+      "riffChunks": [
+        "VP8X",
+        "ICCP",
+        "VP8 "
+      ]
+    }
+  ],
+  "limitations": [
+    "No physical phones, Safari or screen reader tested.",
+    "Local frame intervals are not guarantees for other devices or networks.",
+    "Certificates were not supplied and were not fabricated.",
+    "Per-project personal contribution awaits confirmation; no new unverified authorship claims were added."
+  ]
+}

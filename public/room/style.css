@@ -122,3 +122,23 @@ body:has(#loading:not([hidden])) header{background:none}body:has(#loading:not([h
 
 /* Keep every action reachable on short landscape and small mobile viewports. */
 #controls{max-height:calc(100dvh - 90px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin}
+
+/* Temporary object inspection stays inside the existing accessible dialog. */
+#panel.collectible-panel{width:min(780px,calc(100vw - 28px));max-height:calc(100dvh - 28px)}
+.viewer-help{font-size:12px!important;line-height:1.6!important;color:#c8d0c4!important;max-width:65ch}
+#object-view{height:clamp(210px,39dvh,410px);background:radial-gradient(ellipse at center,#55665c66,transparent);border:1px solid #eee3c32b;border-radius:8px;position:relative}
+canvas.viewer-canvas{position:static;width:100%;height:100%;display:block;touch-action:none;cursor:grab}
+canvas.viewer-canvas:active{cursor:grabbing}
+#viewer-error{position:absolute;inset:20%;color:#f5e9ce}
+.cube-tools,.cube-faces,.cube-turns,.item-tools{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.cube-tools{justify-content:space-between;margin-top:14px;gap:10px}
+.cube-tools button,.item-tools button{min-width:44px;min-height:44px;padding:8px 12px;border:1px solid #e5dec84d;background:#243b33;border-radius:5px;font-size:12px}
+.cube-faces button{border-bottom:4px solid var(--face-color)}
+.cube-faces button[aria-pressed=true]{background:#eee4cb;color:#26372f;outline:1px solid #eee4cb}
+.cube-turns button{font-size:23px;line-height:1}
+.item-tools{margin-top:10px;gap:8px}
+#cube-status{font-size:11px;color:#c8d0c4;margin-left:auto}
+.education-regular{display:inline-block;margin-top:24px;color:#e9d9ab}
+@media(max-width:420px){#panel.collectible-panel #panel-body{padding:18px}.cube-tools{justify-content:center}.cube-faces{gap:3px}.cube-faces button{min-width:38px;padding:7px}.viewer-help{font-size:11px!important}#object-view{height:31dvh;min-height:190px}#cube-status{width:100%;margin:4px 0 0}}
+
+.viewer-help{color:#526358!important}.cube-tools button,.item-tools button{color:#f4ead6}.cube-faces button[aria-pressed=true]{color:#26372f}#cube-status{color:#526358}.education-regular{color:#315348}.diploma-room{display:grid;gap:10px;margin-top:20px;color:#315348}.diploma-room img{width:100%;height:auto;border:1px solid #d3cebd}.diploma-note{color:#5a655a;font-size:11px}

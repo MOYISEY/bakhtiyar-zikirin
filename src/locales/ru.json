@@ -484,9 +484,12 @@
   "about.adoBody": "Разрабатывал переиспользуемые UI-компоненты на React, Material UI и Tailwind CSS. Проверял REST API в Postman и исправлял ошибки интерфейса.",
   "education.collegePeriod": "2023 — 2026",
   "education.collegeName": "Колледж Astana IT University",
-  "education.collegeBody": "Среднее специальное образование.",
+  "education.collegeBody": "Вычислительная техника и информационные сети. Квалификация — техник по администрированию баз данных.",
   "education.aiuPeriod": "2026 — настоящее время",
   "education.aiuName": "Astana International University",
   "education.aiuBody": "Информационные технологии. Первый курс, очная сокращённая программа после колледжа.",
-  "about.iqadamPeriod": "Март 2026 — апрель 2026"
+  "about.iqadamPeriod": "Март 2026 — апрель 2026",
+  "education.diploma": "Диплом колледжа · 26 июня 2026",
+  "education.openDiploma": "Открыть диплом",
+  "education.publicCopy": "Публичная копия: номера и подписи скрыты."
 }

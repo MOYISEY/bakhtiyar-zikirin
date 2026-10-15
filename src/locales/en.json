@@ -484,9 +484,12 @@
   "about.adoBody": "Built reusable UI components with React, Material UI and Tailwind CSS. Tested REST APIs in Postman and fixed interface bugs.",
   "education.collegePeriod": "2023 — 2026",
   "education.collegeName": "Astana IT University College",
-  "education.collegeBody": "Secondary vocational education.",
+  "education.collegeBody": "Computing and information networks. Qualification: database administration technician.",
   "education.aiuPeriod": "2026 — present",
   "education.aiuName": "Astana International University",
   "education.aiuBody": "Information technology. First year of a shortened full-time program after college.",
-  "about.iqadamPeriod": "March 2026 — April 2026"
+  "about.iqadamPeriod": "March 2026 — April 2026",
+  "education.diploma": "College diploma · 26 June 2026",
+  "education.openDiploma": "Open diploma",
+  "education.publicCopy": "Public copy: document numbers and signatures are hidden."
 }

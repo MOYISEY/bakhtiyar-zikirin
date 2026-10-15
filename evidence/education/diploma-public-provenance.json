@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-15",
+  "source": "User-authorized already-redacted raster copy of the first diploma page. Received through Library; the private original PDF was not accessed by this executor or included in the repository.",
+  "sourceSafePngSha256": "1d9b6e36f2b030206395b3c4f57f63fe449d56c563e673a3be0b2082fa658245",
+  "processing": "Offline browser Canvas resampling/encoding only; no generative editing. Source masks remain visibly grey. Full-size PNG and derived WebP were visually inspected.",
+  "confirmedFromCopy": {
+    "college": "Astana IT University College",
+    "period": "2023–2026",
+    "issueDate": "2026-06-26",
+    "speciality": "06120100 Computing and information networks",
+    "qualification": "4S06120103 Database administration technician"
+  },
+  "verificationLimit": "Evidence is the supplied scanned copy, not an independent registry check.",
+  "files": [
+    {
+      "file": "files/education/diploma-preview.webp",
+      "bytes": 63818,
+      "sha256": "2aef39616ccdcee55c16b7d2a3cf31905e931dc2ad97ba0d0344d242711dd854",
+      "width": 640,
+      "height": 442,
+      "riffChunks": [
+        "VP8X",
+        "ICCP",
+        "VP8 "
+      ]
+    },
+    {
+      "file": "files/education/diploma-public.webp",
+      "bytes": 777344,
+      "sha256": "aeb82b2bc35591a8d6c095ff95adeaf6f6d9bf65da4aa8da62566ccdb811eae6",
+      "width": 2400,
+      "height": 1659,
+      "riffChunks": [
+        "VP8X",
+        "ICCP",
+        "VP8 "
+      ]
+    }
+  ]
+}
