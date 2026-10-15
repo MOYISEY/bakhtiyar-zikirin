@@ -1,0 +1,329 @@
+{
+  "baseline": "2ffc91328e842ff9985b7d3bc8f1f8d67f48e694",
+  "at": "2026-10-15T13:39:04.001Z",
+  "environment": "Installed Edge on the Windows laptop, real WebGL; desktop and mobile touch emulation. No physical phone, Safari or screen-reader claim.",
+  "reports": [
+    {
+      "name": "completion",
+      "passed": true,
+      "checks": 148,
+      "scenarios": 6
+    },
+    {
+      "name": "joinery",
+      "passed": true,
+      "checks": 328
+    },
+    {
+      "name": "refinement",
+      "passed": true,
+      "checks": 84,
+      "scenarios": 4
+    },
+    {
+      "name": "furniture",
+      "passed": true,
+      "checks": 121,
+      "scenarios": 4
+    },
+    {
+      "name": "showcase",
+      "passed": true,
+      "checks": 149,
+      "scenarios": 2
+    },
+    {
+      "name": "hotspots",
+      "passed": true,
+      "checks": 27,
+      "scenarios": 2
+    },
+    {
+      "name": "collection",
+      "passed": true,
+      "checks": 102,
+      "scenarios": 4
+    },
+    {
+      "name": "context loss",
+      "passed": true,
+      "checks": 9
+    },
+    {
+      "name": "collection edges",
+      "passed": true,
+      "checks": 5
+    },
+    {
+      "name": "ordinary fault injection",
+      "passed": true,
+      "checks": 5
+    }
+  ],
+  "matrix": {
+    "passed": true,
+    "routes": 132,
+    "flows": 12,
+    "edges": 4
+  },
+  "resume": {
+    "passed": true,
+    "checks": [
+      "one complete A4 page",
+      "PDF is unencrypted",
+      "extractable fact: Бахтияр Зикирин",
+      "extractable fact: b.zikirin@gmail.com",
+      "extractable fact: github.com/MOYISEY",
+      "extractable fact: март — апрель 2026",
+      "extractable fact: 10 ноября — 5 декабря 2025",
+      "extractable fact: май — июнь 2025",
+      "extractable fact: 2023–2026",
+      "extractable fact: 2026 — настоящее время",
+      "extractable fact: техник по администрированию баз данных",
+      "extractable fact: Helio",
+      "extractable fact: Keyform",
+      "extractable fact: Rowline",
+      "extractable fact: совместительству.",
+      "two separate iQADAM entries",
+      "active PDF link: mailto:b.zikirin@gmail.com",
+      "active PDF link: https://github.com/MOYISEY",
+      "active PDF link: https://moyisey.github.io/helio/",
+      "active PDF link: https://moyisey.github.io/keyform/",
+      "active PDF link: https://moyisey.github.io/rowline/",
+      "all text inside safe printable margins",
+      "no replacement glyphs",
+      "all PDF fonts embedded",
+      "editable source matches build record",
+      "PDF matches source build record",
+      "served build contains identical PDF"
+    ],
+    "sourceSha256": "2e98e370fdc65d360a2a85b359e9ce12b39fb38b6c44865aa31e86811bcc10aa",
+    "pdfSha256": "dee574b43b52d0ff4fa891d889826038117c8275f255e2f5efd597944b502d75",
+    "pages": 1,
+    "bytes": 95888,
+    "textBounds": [
+      46.5,
+      41.8990592956543,
+      545.7943725585938,
+      755.9321899414062
+    ],
+    "fontNames": [
+      "AAAAAA+Arial-BoldMT",
+      "BAAAAA+ArialMT"
+    ],
+    "links": [
+      "mailto:b.zikirin@gmail.com",
+      "https://github.com/MOYISEY",
+      "https://moyisey.github.io/helio/",
+      "https://moyisey.github.io/keyform/",
+      "https://moyisey.github.io/rowline/"
+    ]
+  },
+  "cube": {
+    "passed": true,
+    "checks": 3025,
+    "legalTurns": 2076
+  },
+  "models": {
+    "blender": "4.5.14 LTS",
+    "units": "metres",
+    "source": "Original parameterised miniatures and hollow ceiling luminaire; no downloaded assets or textures.",
+    "models": [
+      {
+        "id": "robot",
+        "triangles": 4268,
+        "webPrimitives": 4,
+        "rawBytes": 252712,
+        "gzipBytes": 53795,
+        "sha256": "a94781e01ab3a2d263f8ed87d81b2b40c21591e740bc4a0ef7f2f425145c8b2e",
+        "blenderBounds": {
+          "min": [
+            -0.4300000071525574,
+            -0.4300000071525574,
+            -0.550000011920929
+          ],
+          "max": [
+            0.4300000071525574,
+            0.4300000071525574,
+            0.6650000214576721
+          ]
+        }
+      },
+      {
+        "id": "orbit",
+        "triangles": 3108,
+        "webPrimitives": 4,
+        "rawBytes": 100668,
+        "gzipBytes": 41036,
+        "sha256": "7a011facd879ca516cce2bfe183c867bd3b398434162886ae65237f913cb0121",
+        "blenderBounds": {
+          "min": [
+            -0.4300000071525574,
+            -0.4300000071525574,
+            -0.550000011920929
+          ],
+          "max": [
+            0.4300000071525574,
+            0.4300000071525574,
+            0.5649999976158142
+          ]
+        }
+      },
+      {
+        "id": "ceiling-panel",
+        "triangles": 1128,
+        "webPrimitives": 2,
+        "rawBytes": 83060,
+        "gzipBytes": 13983,
+        "sha256": "6dd936a72644c3a88698216b9af3ab1966d96fb2ec825952755870304a9e48e3",
+        "blenderBounds": {
+          "min": [
+            -0.18000000715255737,
+            -0.3499999940395355,
+            -0.03799999877810478
+          ],
+          "max": [
+            0.18000000715255737,
+            0.3499999940395355,
+            0
+          ]
+        }
+      }
+    ]
+  },
+  "performance": {
+    "method": "Installed Edge, sequential isolated local baseline 2ffc913 and candidate, native entrance action after both full scenes are ready; one sample each. Absolute network or cross-device performance is not inferred.",
+    "samples": [
+      {
+        "name": "baseline",
+        "firstFrameMs": 1047,
+        "fullSceneMs": 3739.5,
+        "doorStartMs": 369.19999999925494,
+        "doorPassMs": 632.9999999992551,
+        "openingPhaseMs": 263.8000000000002,
+        "entryCompleteMs": 2008.0999999992546,
+        "cameraClear": true,
+        "drawCalls": 838,
+        "triangles": 1110363,
+        "textures": 86,
+        "medianRafMs": 7,
+        "p95RafMs": 7.100000000000364
+      },
+      {
+        "name": "candidate",
+        "firstFrameMs": 494.8999999985099,
+        "fullSceneMs": 1543.199999999255,
+        "doorStartMs": 355.70000000074515,
+        "doorPassMs": 619.7000000007451,
+        "openingPhaseMs": 264,
+        "entryCompleteMs": 1980.900000000745,
+        "cameraClear": true,
+        "drawCalls": 879,
+        "triangles": 1141371,
+        "textures": 86,
+        "medianRafMs": 6.900000000000091,
+        "p95RafMs": 7.100000000000364
+      }
+    ],
+    "openingPhaseDifferenceMs": 0.1999999999998181,
+    "passed": true
+  },
+  "unchanged": [
+    {
+      "file": "public/room/window-fragment.js",
+      "sha256": "10d07af549db828e0c68d1d6187d569cdf557fc6ebc24a6a5bb3240f4be4e4d3"
+    },
+    {
+      "file": "public/room/vegetation.js",
+      "sha256": "6f18a5c67e7abbe76e5edca7e1a6f0ee5c6fea7c28bef5fe6370c57d0dbbaa56"
+    },
+    {
+      "file": "public/room/expo.js",
+      "sha256": "00c88d8c68aa864b09157438033dac9969ce51a291d6d420951f081a7b3ca2f6"
+    },
+    {
+      "file": "public/room/weather.js",
+      "sha256": "2ed6ceeae76a29fd2c09bb05154ececd376b4b9e9436adb2eeb467ec2d21907c"
+    },
+    {
+      "file": "public/room/cube-state.js",
+      "sha256": "444aa7795838492cfd2a6539c1d2815f91da42f5598550b8d4c5a11dffe74aa3"
+    }
+  ],
+  "review": {
+    "received": [
+      "Missing separate November–December 2025 internship and named current projects in PDF",
+      "Regular view linked to catalogue instead of ordinary home",
+      "Hard rectangular floor-shadow candidate needed full-frame on/off comparison"
+    ],
+    "resolution": [
+      "One-page editable PDF now has both internships, confirmed education and Helio/Keyform/Rowline links",
+      "Relative home link preserves language and stored theme; tested both directions in all three languages",
+      "Full-frame on/off comparison attributes broad silhouette to directional daylight and physical desk geometry; filter radius increased modestly 3→4, without shadow-bias or exposure changes. Graphite trestles received actual powder-coat material so their faces remain readable."
+    ],
+    "limit": "Independent reviewer could inspect evidence and code but had no cloud WebGL. Complete native Edge before/after packs are available in Library; no independent interactive pass is claimed."
+  },
+  "sourceValidation": {
+    "furniture": {
+      "scenes": [
+        "StudioCabinet",
+        "StudioChair",
+        "StudioDeskDrawer",
+        "StudioDoorLeaf",
+        "StudioReadingTable",
+        "StudioTaskLamp",
+        "StudioWorkbench"
+      ],
+      "trestlesWithEditablePowderCoat": 2,
+      "packedMaps": 3,
+      "bevels": 301
+    },
+    "accents": {
+      "scenes": [
+        "StudioCeilingPanel",
+        "StudioOrbit",
+        "StudioRobot"
+      ],
+      "images": 0,
+      "editableBevels": 30,
+      "ceilingContactZ": 0
+    },
+    "passed": true
+  },
+  "sourceSafety": {
+    "checkedAt": "2026-10-15T13:39:06.835Z",
+    "filesChecked": 539,
+    "findings": [],
+    "limitation": "A limited pattern scan of deliverable text files; not a comprehensive secret detector or a scan of Git history.",
+    "additionalPythonFilesChecked": 2
+  },
+  "exportedCeilingBounds": {
+    "min": [
+      -0.18000000715255737,
+      -0.03799999877810478,
+      -0.3499999940395355
+    ],
+    "max": [
+      0.18000000715255737,
+      0,
+      0.3499999940395355
+    ]
+  },
+  "projectLinks": [
+    {
+      "name": "helio",
+      "status": 200,
+      "url": "https://moyisey.github.io/helio/"
+    },
+    {
+      "name": "keyform",
+      "status": 200,
+      "url": "https://moyisey.github.io/keyform/"
+    },
+    {
+      "name": "rowline",
+      "status": 200,
+      "url": "https://moyisey.github.io/rowline/"
+    }
+  ]
+}

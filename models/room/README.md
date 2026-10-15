@@ -13,3 +13,9 @@ assets.json records triangles, primitives, bytes and exact hashes. Legacy cabine
 Entrance seating: the editable leaf root coincides with the hinge pin. Runtime root (-0.515, 0.025, 1.90), maximum angle 1.54 rad, passage threshold 1.48 rad. Three physical jamb mortises clear the knuckles; QA tests all visible leaf triangles against the actual static collision boxes at 41 positions, without excluding hinges.
 
 The runtime reuses the room's existing photographed oak map on the cabinet, reading table and workbench for material continuity. These shared runtime materials are separate from the packed authored procedural maps retained in the editable Blender source.
+
+## Completion accents
+
+room-accents.blend adds three original editable scenes: robot, orbit and a hollow ceiling panel. Rebuild with scripts/blender/build-room-accents.py using the same SOURCE_DIR OUTPUT_DIR arguments. accents.json records exact web budgets and hashes. Runtime instances the ceiling panel four times; its origin touches the ceiling plane and its opal diffuser is separate from the housing. Miniature geometry/materials clone independently for safe viewer disposal. No new image texture. The cube remains procedural with exact legal turn state.
+
+Workbench trestles use an editable graphite powder-coat material (roughness 0.58, metalness 0.10); rubber feet remain separate. Geometry and pivots are unchanged.

@@ -346,12 +346,13 @@ for i in range(7): box('Open shelf slat',(.065,.425,.012),(-.222+i*.074,0,.131),
 models.append(('side-table',scene,collection,table,(1.05,-1.3,.95),(0,0,.28),1.1))
 
 scene,collection,bench=model_scene('StudioWorkbench')
+bench_coating=material('Workbench graphite powder coat',(.075,.09,.083),.58,.10)
 def world_box(name,size,position,mat,bevel=.004):
     x,y,z=position; w,h,d=size
     return box(name,(w,d,h),(x,-z,y),mat,bench,bevel,3)
 world_box('Solid oak worktop',(2.3,.0206,.88),(.45,.8322,-2.03),drawer_wood,.006)
 for x in [-.56,1.46]:
-    world_box('Steel trestle web',(.055,.8019,.64),(x,.42095,-2.03),metal,.006)
+    world_box('Steel trestle web',(.055,.8019,.64),(x,.42095,-2.03),bench_coating,.006)
     world_box('Trestle floor shoe',(.23,.02,.72),(x,.01,-2.03),rubber,.006)
 world_box('Rear cable channel',(2.05,.085,.035),(.45,.69,-2.36),metal,.004)
 for w,x in [(1.725,.1625),(.485,1.3575)]: world_box('Front oak apron',(w,.04,.025),(x,.8019,-1.6025),drawer_wood,.004)

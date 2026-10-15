@@ -2,6 +2,8 @@ import * as T from 'three';
 import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
 import {RoundedBoxGeometry} from 'three/addons/geometries/RoundedBoxGeometry.js';
 import {CubeState,FACES} from './cube-state.js';
+const figureTemplates=new Map();
+export function setFigureTemplates(models){for(const [kind,root]of Object.entries(models))figureTemplates.set(kind,root)}
 const material=color=>new T.MeshStandardMaterial({color,roughness:.48,metalness:.15});
 function mesh(g,m,parent,p=[0,0,0]){const o=new T.Mesh(g,m);o.position.fromArray(p);parent.add(o);return o}
 export function createCube(state=new CubeState()){
@@ -11,7 +13,7 @@ export function createCube(state=new CubeState()){
 }
 // Room props merge by material; the inspection cube retains movable pieces.
 export function batchProp(root){root.updateMatrixWorld(true);const groups=new Map(),old=new Set();root.traverse(o=>{if(!o.isMesh)return;const copy=o.geometry.clone(),g=(copy.index?copy.toNonIndexed():copy).applyMatrix4(o.matrixWorld);if(g!==copy)copy.dispose();old.add(o.geometry);if(!groups.has(o.material))groups.set(o.material,[]);groups.get(o.material).push(g)});const result=new T.Group();for(const [m,geometries]of groups){result.add(new T.Mesh(mergeGeometries(geometries,false),m));geometries.forEach(g=>g.dispose())}old.forEach(g=>g.dispose());return result}
-export function createFigure(kind){const root=new T.Group(),green=material('#45675d'),cream=material('#d8cfb7'),brass=material('#a98750'),dark=material('#243d37');
+export function createFigure(kind){if(figureTemplates.has(kind)){const copy=figureTemplates.get(kind).clone(true);copy.userData.source='blender-room-accents';copy.traverse(o=>{if(o.isMesh){o.geometry=o.geometry.clone();o.material=Array.isArray(o.material)?o.material.map(m=>m.clone()):o.material.clone();o.castShadow=o.receiveShadow=true}});return copy}const root=new T.Group(),green=material('#45675d'),cream=material('#d8cfb7'),brass=material('#a98750'),dark=material('#243d37');
  const box=(w,h,d,m,p)=>mesh(new RoundedBoxGeometry(w,h,d,2,.025),m,root,p),sphere=(r,m,p)=>mesh(new T.SphereGeometry(r,24,16),m,root,p);
  mesh(new T.CylinderGeometry(.39,.43,.10,32),dark,root,[0,-.50,0]);
  if(kind==='robot'){box(.54,.40,.32,green,[0,-.14,0]);box(.59,.34,.37,cream,[0,.28,0]);box(.42,.14,.015,dark,[0,.30,.193]);for(const x of [-.12,.12])sphere(.035,brass,[x,.3,.211]);for(const x of [-.19,.19]){box(.13,.19,.19,brass,[x,-.41,0]);box(.12,.30,.16,cream,[x*1.9,-.12,0])}mesh(new T.CylinderGeometry(.018,.018,.15,12),brass,root,[0,.52,0]);sphere(.055,green,[0,.61,0])}

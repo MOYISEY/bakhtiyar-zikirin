@@ -9,7 +9,7 @@ export function createDaylight(scene,camera){
   shadowMapSize:2048,lightDirection:new T.Vector3(7,-6,.4).normalize(),
   lightIntensity:2.25,lightNear:.1,lightFar:1400,lightMargin:160,shadowBias:.000004});
  csm.fade=true;csm.updateFrustums();
- for(const light of csm.lights){light.color.set('#f5f1e8');light.shadow.normalBias=.016;light.shadow.radius=3;}
+ for(const light of csm.lights){light.color.set('#f5f1e8');light.shadow.normalBias=.016;light.shadow.radius=4;}
  const installed=new WeakSet(),projection=new T.Matrix4();
  function material(m){
   if(!m||installed.has(m)||!(m.isMeshStandardMaterial||m.isMeshLambertMaterial||m.isMeshPhongMaterial))return;
@@ -21,5 +21,5 @@ export function createDaylight(scene,camera){
  }
  function prepare(root=scene){root.traverse(o=>{if(o.isMesh)for(const m of Array.isArray(o.material)?o.material:[o.material])material(m)})}
  function update(){if(!projection.equals(camera.projectionMatrix)){projection.copy(camera.projectionMatrix);csm.updateFrustums()}csm.update()}
- return{prepare,material,update,inspect:()=>({cascades:3,splitsM:[16,135,720],mapSize:2048,oneSun:true})};
+ return{prepare,material,update,inspect:()=>({cascades:3,splitsM:[16,135,720],mapSize:2048,oneSun:true,filterRadius:4})};
 }

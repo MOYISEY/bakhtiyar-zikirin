@@ -1,0 +1,67 @@
+{
+  "blender": "4.5.14 LTS",
+  "units": "metres",
+  "source": "Original parameterised miniatures and hollow ceiling luminaire; no downloaded assets or textures.",
+  "models": [
+    {
+      "id": "robot",
+      "triangles": 4268,
+      "webPrimitives": 4,
+      "rawBytes": 252712,
+      "gzipBytes": 53795,
+      "sha256": "a94781e01ab3a2d263f8ed87d81b2b40c21591e740bc4a0ef7f2f425145c8b2e",
+      "blenderBounds": {
+        "min": [
+          -0.4300000071525574,
+          -0.4300000071525574,
+          -0.550000011920929
+        ],
+        "max": [
+          0.4300000071525574,
+          0.4300000071525574,
+          0.6650000214576721
+        ]
+      }
+    },
+    {
+      "id": "orbit",
+      "triangles": 3108,
+      "webPrimitives": 4,
+      "rawBytes": 100668,
+      "gzipBytes": 41036,
+      "sha256": "7a011facd879ca516cce2bfe183c867bd3b398434162886ae65237f913cb0121",
+      "blenderBounds": {
+        "min": [
+          -0.4300000071525574,
+          -0.4300000071525574,
+          -0.550000011920929
+        ],
+        "max": [
+          0.4300000071525574,
+          0.4300000071525574,
+          0.5649999976158142
+        ]
+      }
+    },
+    {
+      "id": "ceiling-panel",
+      "triangles": 1128,
+      "webPrimitives": 2,
+      "rawBytes": 83060,
+      "gzipBytes": 13983,
+      "sha256": "6dd936a72644c3a88698216b9af3ab1966d96fb2ec825952755870304a9e48e3",
+      "blenderBounds": {
+        "min": [
+          -0.18000000715255737,
+          -0.3499999940395355,
+          -0.03799999877810478
+        ],
+        "max": [
+          0.18000000715255737,
+          0.3499999940395355,
+          0
+        ]
+      }
+    }
+  ]
+}
