@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-15",
+  "browser": "Installed Microsoft Edge, Windows laptop, headless actual WebGL",
+  "build": "TypeScript and Vite production build passed",
+  "furniture": {
+    "passed": true,
+    "checks": 98,
+    "scenarios": [
+      "desktop-no-preference",
+      "desktop-reduce",
+      "mobile-no-preference",
+      "mobile-reduce"
+    ]
+  },
+  "showcase": {
+    "passed": true,
+    "checks": 149
+  },
+  "hotspots": {
+    "passed": true,
+    "checks": 27
+  },
+  "contextLoss": {
+    "passed": true,
+    "checks": 9
+  },
+  "source": {
+    "scenes": [
+      "Scene",
+      "StudioChair",
+      "StudioDeskDrawer",
+      "StudioDoorLeaf",
+      "StudioTaskLamp"
+    ],
+    "bevels": 95,
+    "packedMaps": [
+      {
+        "name": "Authored fine textile weave",
+        "packed": true,
+        "path": ""
+      },
+      {
+        "name": "Authored walnut grain",
+        "packed": true,
+        "path": ""
+      }
+    ],
+    "drawerNodes": true
+  },
+  "models": [
+    {
+      "id": "chair",
+      "triangles": 8292,
+      "webPrimitives": 4,
+      "rawBytes": 246360,
+      "gzipBytes": 113612,
+      "sha256": "923e7bf63c55b70b1ad3593f912f6fc4d84ea3b6b2c7f114e753494b6633afaa"
+    },
+    {
+      "id": "lamp",
+      "triangles": 10824,
+      "webPrimitives": 6,
+      "rawBytes": 301684,
+      "gzipBytes": 118385,
+      "sha256": "715c4ba4b8b5f76648d0f6ce8e27d2239e2321393101f65a52b07f5245e80801"
+    },
+    {
+      "id": "door",
+      "triangles": 9260,
+      "webPrimitives": 4,
+      "rawBytes": 265628,
+      "gzipBytes": 84014,
+      "sha256": "426bc9ce5b3fd0df9f053a96e7520a0b581a1925b382e48f60fd65e48bb4c395"
+    },
+    {
+      "id": "drawer",
+      "triangles": 2808,
+      "webPrimitives": 7,
+      "rawBytes": 112752,
+      "gzipBytes": 56442,
+      "sha256": "1d17b3570ca3513ae3fb875494bbd373060ca97ec9e2614b304e97e62e63b1a6"
+    }
+  ],
+  "benchmark": {
+    "method": "Same installed Edge and laptop, actual WebGL. Local asset resource sizes and 90 RAF intervals after settling; not network/device guarantees.",
+    "samples": [
+      {
+        "variant": "legacy",
+        "medianMs": 6.900000000000546,
+        "p95Ms": 7.100000000000364,
+        "assetBytes": 13959438,
+        "firstFrameAt": 956.8000000007451,
+        "fullSceneAt": 3659.300000000745,
+        "drawCalls": 1064,
+        "triangles": 1338164,
+        "textures": 91
+      },
+      {
+        "variant": "candidate",
+        "medianMs": 6.900000000000546,
+        "p95Ms": 7.100000000000364,
+        "assetBytes": 11556596,
+        "firstFrameAt": 486.80000000074506,
+        "fullSceneAt": 1849.4000000003725,
+        "drawCalls": 1082,
+        "triangles": 1145446,
+        "textures": 86
+      }
+    ]
+  },
+  "safety": {
+    "filesChecked": 506,
+    "findings": []
+  },
+  "limitations": [
+    "No physical phones or Safari tested.",
+    "The local timing sample is not a network or device performance guarantee.",
+    "The limited pattern scan does not cover all secret formats or Git history."
+  ]
+}

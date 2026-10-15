@@ -4,3 +4,5 @@ docs/room/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-e
 # Retain upstream vendor formatting and embedded shader strings.
 public/room/vendor/** -whitespace
 docs/room/vendor/** -whitespace
+
+models/room/*.blend -text

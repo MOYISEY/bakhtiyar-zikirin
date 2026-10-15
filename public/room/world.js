@@ -5,6 +5,7 @@ import {installWindow} from './window-fragment.js';
 import {createStreaming} from './streaming.js';
 import {L} from './ui.js';
 import {PROJECTS} from './projects-data.js';
+import {authoredFurniture,FURNITURE_FILES,installStudioFurniture} from './furniture.js';
 import {RoundedBoxGeometry} from 'three/addons/geometries/RoundedBoxGeometry.js';
 
 export async function createWorld(renderer,camera){
@@ -18,7 +19,7 @@ export async function createWorld(renderer,camera){
  const [plasterMap,floorMap,oakMap]=await Promise.all(['plaster','floor','oak'].map(n=>texture('assets/entry/'+n+'.webp',true)));
  const plaster=new T.MeshStandardMaterial({map:plasterMap,color:'#f3eee4',roughness:.92,normalScale:new T.Vector2(.25,.25)}),floor=new T.MeshStandardMaterial({map:floorMap,color:'#e3d8c5',roughness:.62,normalScale:new T.Vector2(.25,.25)}),oak=new T.MeshStandardMaterial({map:oakMap,color:'#ede4d5',roughness:.78,normalScale:new T.Vector2(.25,.25)});
  let project=textMap(['HELIO'],{bg:'#345148',color:'#eadcc3'}),chair=null,lamp=null,cabinet=null,sideTable=null,lightSurface=null,exterior=null;
- let previewTexture=null,previewId=null,previewSource='',previewUpdates=0;
+ let previewTexture=null,previewId=null,previewSource='',previewUpdates=0,furniture=null;
  const galleryMaps=[null,null];
  plaster.normalScale.set(.16,.16);const green=cloneMaterial(plaster);green.color.set('#345148');green.normalScale.set(.13,.13);
  const joinery=new T.MeshStandardMaterial({color:'#c4c0b3',roughness:.48,metalness:.02});joinery.name='Warm powder coat / matched window finish';
@@ -205,9 +206,9 @@ export async function createWorld(renderer,camera){
  function installMaterial(original,maps){const old=original.map;for(const m of [original,...(materialCopies.get(original)||[])]){[m.map,m.normalMap,m.roughnessMap]=maps;m.needsUpdate=true}old?.dispose()}
  const fullMaterial=name=>Promise.all((name==='white_plaster_02'?['painted','nor_gl','rough']:['diff','nor_gl','rough']).map((part,i)=>stream.texture('room',`assets/${name}/${part}.webp`,i===0)));
  function loadRoom(){return stream.run('room',async()=>{
-  const [maps,screenMap,frames,assets,environmentModule,windowAsset,windowIndirect,corridorAsset,corridorIndirect]=await Promise.all([
+  const [maps,screenMap,frames,assets,environmentModule,windowAsset,windowIndirect,corridorAsset,corridorIndirect,studioAssets]=await Promise.all([
    Promise.all(['white_plaster_02','laminate_floor_02'].map(fullMaterial)),stream.texture('room','assets/helio.webp',true),Promise.all(['keyform','poslesvet'].map(n=>stream.texture('room','assets/'+n+'.webp',true))),
-   Promise.all(['sheen_chair','desk_lamp_arm_01','modern_wooden_cabinet'].map(n=>stream.model('room','assets/'+n+'/model.gltf'))),import('three/addons/environments/RoomEnvironment.js'),stream.model('room','assets/window/window.glb'),stream.texture('room','assets/window/indirect.webp',true),stream.model('room','assets/corridor/profiles.glb'),stream.texture('room','assets/corridor/indirect.webp',true)]);
+   Promise.all([authoredFurniture?FURNITURE_FILES[0]:'assets/sheen_chair/model.gltf',authoredFurniture?FURNITURE_FILES[1]:'assets/desk_lamp_arm_01/model.gltf','assets/modern_wooden_cabinet/model.gltf'].map(url=>stream.model('room',url))),import('three/addons/environments/RoomEnvironment.js'),stream.model('room','assets/window/window.glb'),stream.texture('room','assets/window/indirect.webp',true),stream.model('room','assets/corridor/profiles.glb'),stream.texture('room','assets/corridor/indirect.webp',true),authoredFurniture?Promise.all(FURNITURE_FILES.slice(2).map(url=>stream.model('room',url))):null]);
   assembly.room=()=>{windowRoot=installWindow(scene,windowAsset.scene,windowIndirect);windowFallback.forEach(o=>o.visible=false);
   const bayRoot=installWindow(scene,corridorAsset.scene,corridorIndirect);bayRoot.name='Authored_corridor_profiles';for(const number of ['01','02','03'])bayFallback.get(number).forEach(o=>o.visible=false);
 
@@ -220,15 +221,16 @@ export async function createWorld(renderer,camera){
   chair=chairAsset.scene;chair.position.set(-1.92,0,-1.15);chair.rotation.y=.72;scene.add(chair);
  let cb=new T.Box3().setFromObject(chair);chair.position.y-=cb.min.y;cb=new T.Box3().setFromObject(chair);contact(-1.92,-1.15,1.02,.9,.18);
  // Small contact patches at the four measured native foot tips; no model deformation.
- contact(-2.247975981,-1.151758576,.11,.11,.27,.001);contact(-2.029286924,-0.770255099,.11,.11,.27,.001);contact(-1.878967690,-1.475403902,.11,.11,.27,.001);contact(-1.529245134,-1.208825700,.11,.11,.27,.001);
- assetInfo.push({id:'chair',nativeScale:chair.scale.toArray(),bounds:cb.getSize(new T.Vector3()).toArray(),floorGap:cb.min.y,source:'sheen_chair'});
+ if(authoredFurniture)chair.traverse(o=>{if(o.name.startsWith('FootContact_')){const p=o.getWorldPosition(new T.Vector3());contact(p.x,p.z,.11,.11,.27,.001)}});else{contact(-2.247975981,-1.151758576,.11,.11,.27,.001);contact(-2.029286924,-0.770255099,.11,.11,.27,.001);contact(-1.878967690,-1.475403902,.11,.11,.27,.001);contact(-1.529245134,-1.208825700,.11,.11,.27,.001);}
+ assetInfo.push({id:'chair',nativeScale:chair.scale.toArray(),bounds:cb.getSize(new T.Vector3()).toArray(),floorGap:cb.min.y,source:authoredFurniture?'studio-furniture/chair':'sheen_chair'});
  lamp=lampAsset.scene;lamp.position.set(1.075,.8421,-1.603);lamp.rotation.y=0;scene.add(lamp);
  lightSurface=null;for(const root of [chair,lamp])root.traverse(o=>{if(o.isMesh){o.castShadow=o.receiveShadow=true;for(const m of Array.isArray(o.material)?o.material:[o.material]){if(m.map)m.map.anisotropy=8;if(m.name.includes('light'))lightSurface=o;}}});
- const lampBox=new T.Box3().setFromObject(lamp);assetInfo.push({id:'lamp',nativeScale:lamp.scale.toArray(),bounds:lampBox.getSize(new T.Vector3()).toArray(),source:'desk_lamp_arm_01'});
+ const lampBox=new T.Box3().setFromObject(lamp);assetInfo.push({id:'lamp',nativeScale:lamp.scale.toArray(),bounds:lampBox.getSize(new T.Vector3()).toArray(),source:authoredFurniture?'studio-furniture/lamp':'desk_lamp_arm_01'});
 
 
   nativeMaterial(cabinet);record('cabinet',cabinet);contact(2.66,-.34,.62,2.5,.32);
   if(lightSurface)lightPos.copy(new T.Box3().setFromObject(lightSurface).getCenter(new T.Vector3()));taskLight.position.copy(lightPos);
+  if(studioAssets){furniture=installStudioFurniture({doorAsset:studioAssets[0],drawerAsset:studioAssets[1],scene,door,doorLabel,doorHandle:handle,objects});highlightTargets.drawer=furniture.tray;}
   daylight.prepare();scene.updateMatrixWorld(true);changed();};
  })}
  function loadDecor(){return stream.run('decor',async()=>{
@@ -279,5 +281,5 @@ export async function createWorld(renderer,camera){
  function windowBake(enabled=true){windowRoot?.traverse(o=>{if(o.isMesh)for(const m of Array.isArray(o.material)?o.material:[o.material])m.lightMapIntensity=enabled?Math.PI:0})}
  daylight.prepare();
  function inspectWindow(){const meshes=[];windowRoot?.traverse(o=>{if(o.isMesh)meshes.push({uv2:!!o.geometry.attributes.uv1,material:o.material.name,lightmap:o.material.lightMap?.colorSpace,channel:o.material.lightMap?.channel,flipY:o.material.lightMap?.flipY,intensity:o.material.lightMapIntensity,indirectOnly:o.material.userData.indirectOnly})});return {loaded:!!windowRoot,meshes,liveLamp:taskLight.intensity}}
- return {previewProject,inspectProject,allowAssembly,get preparingGPU(){return warming},daylight,windowBake,inspectWindow,prepare,retry,inspectStream,onChange(fn){changed=fn},get studioReady(){return studioReady},clearance,walk,scene,objects,door,cover,cord,cordRoot,cordLine,cordGrip,taskLight,get lightSurface(){return lightSurface},get assetInfo(){return [...assetInfo].sort((a,b)=>['chair','lamp','cabinet','side_table'].indexOf(a.id)-['chair','lamp','cabinet','side_table'].indexOf(b.id))},get project(){return project},get chair(){return chair},get lamp(){return lamp},monitor,folder,lightPos,localize,get exterior(){return exterior},highlight,contacts,gallery,get cabinet(){return cabinet},get sideTable(){return sideTable},office:{doorWidth:width,doorHeight:height,corridorWidth:2.65,sideDoors:doorNumbers,corridorLength:9.47,corridorHeight:3.0,routeLength:8.0},cordHit};
+ return {get drawerPull(){return furniture?.pull},setDrawer(value){furniture?.setDrawer(value)},inspectFurniture(){return furniture?.inspect()||{variant:'legacy',drawerTravel:0,drawerOffset:0}},previewProject,inspectProject,allowAssembly,get preparingGPU(){return warming},daylight,windowBake,inspectWindow,prepare,retry,inspectStream,onChange(fn){changed=fn},get studioReady(){return studioReady},clearance,walk,scene,objects,door,cover,cord,cordRoot,cordLine,cordGrip,taskLight,get lightSurface(){return lightSurface},get assetInfo(){return [...assetInfo].sort((a,b)=>['chair','lamp','cabinet','side_table'].indexOf(a.id)-['chair','lamp','cabinet','side_table'].indexOf(b.id))},get project(){return project},get chair(){return chair},get lamp(){return lamp},monitor,folder,lightPos,localize,get exterior(){return exterior},highlight,contacts,gallery,get cabinet(){return cabinet},get sideTable(){return sideTable},office:{doorWidth:width,doorHeight:height,corridorWidth:2.65,sideDoors:doorNumbers,corridorLength:9.47,corridorHeight:3.0,routeLength:8.0},cordHit};
 }
