@@ -7,6 +7,6 @@ export const STREAM_FILES={...original,decor:[...original.decor,'../files/educat
 
 if(refinedJoinery){STREAM_FILES.room=STREAM_FILES.room.filter(file=>!file.startsWith('assets/modern_wooden_cabinet/')).concat(JOINERY_FILES.slice(0,2));STREAM_FILES.decor=STREAM_FILES.decor.filter(file=>!file.startsWith('assets/side_table_01/')).concat(JOINERY_FILES[2])}
 
-STREAM_FILES.decor.push('../files/education/iqadam-2025-preview.webp');
+STREAM_FILES.decor.push('../files/education/iqadam-2025-preview.webp','../files/resume-preview.webp');
 
 if(refinedAccents)STREAM_FILES.room.push(...ACCENT_FILES);

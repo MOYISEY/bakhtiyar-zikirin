@@ -1,0 +1,221 @@
+{
+  "method": "Camera/projection equality only. Furniture and mechanism deliberately change; no assertion of pixel equality.",
+  "frames": [
+    {
+      "name": "desktop-desk-drawer",
+      "matched": true,
+      "before": {
+        "calls": 818,
+        "triangles": 1142871
+      },
+      "after": {
+        "calls": 878,
+        "triangles": 1179103
+      }
+    },
+    {
+      "name": "desktop-drawer-closeup",
+      "matched": true,
+      "before": {
+        "calls": 756,
+        "triangles": 1095033
+      },
+      "after": {
+        "calls": 809,
+        "triangles": 1127389
+      }
+    },
+    {
+      "name": "desktop-room",
+      "matched": false,
+      "before": {
+        "calls": 868,
+        "triangles": 1165665
+      },
+      "after": {
+        "calls": 941,
+        "triangles": 1207269
+      }
+    },
+    {
+      "name": "desktop-window",
+      "matched": true,
+      "before": {
+        "calls": 793,
+        "triangles": 1122012
+      },
+      "after": {
+        "calls": 842,
+        "triangles": 1150468
+      }
+    },
+    {
+      "name": "desktop-cabinet-closed",
+      "matched": true,
+      "before": {
+        "calls": 755,
+        "triangles": 999504
+      },
+      "after": {
+        "calls": 815,
+        "triangles": 1036904
+      }
+    },
+    {
+      "name": "desktop-cabinet-half",
+      "matched": true,
+      "before": {
+        "calls": 755,
+        "triangles": 999504
+      },
+      "after": {
+        "calls": 816,
+        "triangles": 1037804
+      }
+    },
+    {
+      "name": "desktop-cabinet",
+      "matched": true,
+      "before": {
+        "calls": 755,
+        "triangles": 999504
+      },
+      "after": {
+        "calls": 817,
+        "triangles": 1038252
+      }
+    },
+    {
+      "name": "desktop-education",
+      "matched": false,
+      "before": {
+        "calls": 818,
+        "triangles": 1142871
+      },
+      "after": {
+        "calls": 842,
+        "triangles": 1113562
+      }
+    },
+    {
+      "name": "desktop-documents",
+      "matched": true,
+      "before": {
+        "calls": 818,
+        "triangles": 1133449
+      },
+      "after": {
+        "calls": 865,
+        "triangles": 1161901
+      }
+    },
+    {
+      "name": "mobile-desk-drawer",
+      "matched": true,
+      "before": {
+        "calls": 757,
+        "triangles": 1056493
+      },
+      "after": {
+        "calls": 808,
+        "triangles": 1085549
+      }
+    },
+    {
+      "name": "mobile-drawer-closeup",
+      "matched": true,
+      "before": {
+        "calls": 698,
+        "triangles": 1026989
+      },
+      "after": {
+        "calls": 749,
+        "triangles": 1056045
+      }
+    },
+    {
+      "name": "mobile-room",
+      "matched": false,
+      "before": {
+        "calls": 759,
+        "triangles": 1018958
+      },
+      "after": {
+        "calls": 808,
+        "triangles": 1052952
+      }
+    },
+    {
+      "name": "mobile-window",
+      "matched": true,
+      "before": {
+        "calls": 789,
+        "triangles": 1106898
+      },
+      "after": {
+        "calls": 831,
+        "triangles": 1132306
+      }
+    },
+    {
+      "name": "mobile-cabinet-closed",
+      "matched": true,
+      "before": {
+        "calls": 763,
+        "triangles": 1020842
+      },
+      "after": {
+        "calls": 823,
+        "triangles": 1058242
+      }
+    },
+    {
+      "name": "mobile-cabinet-half",
+      "matched": true,
+      "before": {
+        "calls": 763,
+        "triangles": 1020842
+      },
+      "after": {
+        "calls": 824,
+        "triangles": 1059142
+      }
+    },
+    {
+      "name": "mobile-cabinet",
+      "matched": true,
+      "before": {
+        "calls": 763,
+        "triangles": 1020842
+      },
+      "after": {
+        "calls": 825,
+        "triangles": 1059590
+      }
+    },
+    {
+      "name": "mobile-education",
+      "matched": false,
+      "before": {
+        "calls": 757,
+        "triangles": 1056493
+      },
+      "after": {
+        "calls": 822,
+        "triangles": 1111658
+      }
+    },
+    {
+      "name": "mobile-documents",
+      "matched": true,
+      "before": {
+        "calls": 787,
+        "triangles": 1106526
+      },
+      "after": {
+        "calls": 833,
+        "triangles": 1134976
+      }
+    }
+  ]
+}

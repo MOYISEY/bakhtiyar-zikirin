@@ -32,7 +32,7 @@ async function drag(page,context,from,to,mobile){
    ok(name+': keyboard opens a bounded physical drawer',await p.evaluate(()=>Math.abs(__SLICE__.inspect().furniture.drawerOffset-.29)<.0001));
    ok(name+': keyboard keeps drawer focus',await p.evaluate(()=>document.activeElement.id==='object-drawer'));
    await p.screenshot({path:out+'/'+name+'-drawer-open.png'});
-   const opened=await pos(p,'#object-drawer');await drag(p,context,opened,{x:opened.x+(closed.x-opened.x)*1.3,y:opened.y+(closed.y-opened.y)*1.3},mobile);await waitDrawer(p,0);
+   const opened=await pos(p,'#object-drawer'),endpoints=await p.evaluate(()=>__SLICE__.drawerGrip());await drag(p,context,opened,{x:opened.x+(endpoints.closed.x-endpoints.current.x)*1.2,y:opened.y+(endpoints.closed.y-endpoints.current.y)*1.2},mobile);await waitDrawer(p,0);
    ok(name+': native drag closes drawer',await p.evaluate(()=>__SLICE__.inspect().furniture.drawerOffset<.0001));
    await click(p,'#object-drawer',mobile);await waitDrawer(p,1);ok(name+': pointer tap opens drawer',await p.locator('#object-drawer').getAttribute('aria-pressed')==='true');
    const stableTextures=await p.evaluate(()=>__SLICE__.inspect().textureCount);
@@ -41,6 +41,7 @@ async function drag(page,context,from,to,mobile){
    await openActions(p,mobile);await click(p,'#profile-button',mobile);await p.locator('#panel[open]').waitFor();
    for(const lang of ['ru','kk','en']){await p.locator('#language').selectOption(lang);ok(name+': '+lang+' language accessible with book open',await p.locator('#language').isVisible()&&await p.locator('html').getAttribute('lang')===lang)}
    ok(name+': book preserves drawer state',await p.evaluate(()=>__SLICE__.inspect().drawer===1));await p.keyboard.press('Escape');await p.waitForFunction(()=>!__SLICE__.inspect().held);
+   await openActions(p,mobile);await click(p,'#desk-button',mobile);await p.waitForTimeout(2200);
    await p.locator('#object-lamp').focus();await p.keyboard.press('Enter');await p.waitForFunction(()=>__SLICE__.inspect().lamp===false);ok(name+': keyboard controls authored lamp',await p.locator('#object-lamp').getAttribute('aria-pressed')==='false');
    const cord=await p.evaluate(()=>__SLICE__.cord());await drag(p,context,cord.grip,{x:cord.grip.x,y:Math.min(820,cord.grip.y+110)},mobile);await p.waitForFunction(()=>__SLICE__.inspect().lamp===true);
    await p.waitForFunction(()=>__SLICE__.inspect().pull===0);ok(name+': real cord drag returns to its travel limit',await p.evaluate(()=>__SLICE__.inspect().pullLimit===.12&&__SLICE__.inspect().pullThreshold===.065));
@@ -67,7 +68,7 @@ async function drag(page,context,from,to,mobile){
   const p=await small.newPage();await p.goto(sceneUrl('kk'));await p.waitForFunction(()=>window.__SLICE__?.ready,null,{timeout:90000});await openActions(p,true);
   ok('small viewport: room menu fits the visible height',await p.locator('#controls').evaluate(e=>e.getBoundingClientRect().bottom<=innerHeight-10));
   await p.locator('#rain-motion-button').scrollIntoViewIfNeeded();ok('small viewport: last action can be reached',await p.locator('#rain-motion-button').isVisible());
-  ok('small viewport: drawer label is translated',await p.locator('#drawer-button').textContent()==='Үстел тартпасы');
+  ok('small viewport: drawer label is translated',await p.locator('#drawer-button').textContent()==='Түйіндеме мен құжаттар · тартпа');
  }finally{await small.close()}
  report.passed=true;
 }finally{await browser?.close();fs.writeFileSync(out+'/checks.json',JSON.stringify(report,null,2));console.log(JSON.stringify({passed:report.passed,checks:report.checks.length,scenarios:report.scenarios.length}))}})().catch(e=>{console.error(e);process.exitCode=1});

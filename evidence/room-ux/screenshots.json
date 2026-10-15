@@ -1,0 +1,366 @@
+{
+  "baseline": "16b1e8d70c43e884907706c1c9ed83425b1fa17e",
+  "method": "Full native Edge PNGs encoded as unscaled WebP at quality0.92, no retouching. Capture mode freezes time and seed and forces fresh shadows. These are independently reconstructed scene views, not the unread Library screenshots. Camera matrices in captures-before/after distinguish matched poses from intentional changed native views.",
+  "frames": [
+    {
+      "version": "before",
+      "name": "desktop-desk-drawer",
+      "file": "screenshots/before-desktop-desk-drawer.webp",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "ca31a46c55955e874ff9e47db049a76d66befda25b6d49f451273eaa57a22db1",
+      "sha256": "267d645c870106e63e2cb57dad8d1ae34b1b76b3514d3eb19cc3c3f93c4cfd40",
+      "bytes": 179618
+    },
+    {
+      "version": "before",
+      "name": "desktop-drawer-closeup",
+      "file": "screenshots/before-desktop-drawer-closeup.webp",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "2e4bbcf37cae8db296f13a246d9d14f74f6efe9dcd07722f207bdd91e121307c",
+      "sha256": "e5ce880cd69ea347f60befee11e2a781ef20ed66d0297a972e9b823579ba2528",
+      "bytes": 190064
+    },
+    {
+      "version": "before",
+      "name": "desktop-room",
+      "file": "screenshots/before-desktop-room.webp",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "163aebec49d9afb817cf15aadd85e46307b722a50e04f61011cdb94b94a0e415",
+      "sha256": "017bf6b5cf8d7756d5a73f26f52320be4d847a0c46d3960ba1a4cd80a113a8ff",
+      "bytes": 175366
+    },
+    {
+      "version": "before",
+      "name": "desktop-window",
+      "file": "screenshots/before-desktop-window.webp",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "1e86ac06be8c989805f309efe2cb679d294382959d85d1731aa595f74e35cadb",
+      "sha256": "c6e69a9853b3ed00448e1e7161aeeacdcc37f1c8c30fa2a70f3c4992798b694f",
+      "bytes": 116918
+    },
+    {
+      "version": "before",
+      "name": "desktop-cabinet-closed",
+      "file": "screenshots/before-desktop-cabinet-closed.webp",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "aeea67e18e3c0d270c8bfd7e2311f03a10e0a7a40422a116b821d38af52f16df",
+      "sha256": "8fdcf563a7699bcf165d60511cd04c8c9f3dad026056074864812ac090808b69",
+      "bytes": 131792
+    },
+    {
+      "version": "before",
+      "name": "desktop-cabinet-half",
+      "file": "screenshots/before-desktop-cabinet-half.webp",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "f1df241a16c57f68ef6186f4c9433fdcb9a73596c0c722167bd3ccbb6351a7c2",
+      "sha256": "1cdd9fb6ab706afa72ff253055e49d926b993c1766156e6ff72862825ff11145",
+      "bytes": 132302
+    },
+    {
+      "version": "before",
+      "name": "desktop-cabinet",
+      "file": "screenshots/before-desktop-cabinet.webp",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "4b9ecde07db907ae0b4e18483e580406fe65d491f9f9b197db7ea476c16fd7d9",
+      "sha256": "c2df8cb32685018cbfb03012b47880dc84903247121dadfcd16a7be307ae3a77",
+      "bytes": 108778
+    },
+    {
+      "version": "before",
+      "name": "desktop-education",
+      "file": "screenshots/before-desktop-education.webp",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "533cdb47d294427492f4cce33c317ec19d03f0888cfcd5cbfffef78455767c8a",
+      "sha256": "ef86f75cb4280f831da38c494f246b132ec2bf06d010fa285c11c02398656649",
+      "bytes": 178694
+    },
+    {
+      "version": "before",
+      "name": "desktop-documents",
+      "file": "screenshots/before-desktop-documents.webp",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "9b67d773e254c601894d97d327def49bd545602377c1a30ce111bcf1556188db",
+      "sha256": "89660149e52a42af725e5749f1dceaf8231ea21324aaf186b8a9db5b93205ff0",
+      "bytes": 165318
+    },
+    {
+      "version": "before",
+      "name": "mobile-desk-drawer",
+      "file": "screenshots/before-mobile-desk-drawer.webp",
+      "width": 390,
+      "height": 844,
+      "pngSha256": "9116216ac4cc4eb4130da69354a1a3bbbfea414d42fcd1b8eb51768103becf44",
+      "sha256": "a7916267e7f7e8f880042486e295e8efde35a6d54a39935e54f8096b22b448cb",
+      "bytes": 52760
+    },
+    {
+      "version": "before",
+      "name": "mobile-drawer-closeup",
+      "file": "screenshots/before-mobile-drawer-closeup.webp",
+      "width": 390,
+      "height": 844,
+      "pngSha256": "d6d825217f34e05ae52990d3260e1783417ea522918d7cd96addf5d4793fa9b6",
+      "sha256": "bee2be64f86bbb53d005dcbe72e950f642cf63468d82f72b8368f7d3a84fe53e",
+      "bytes": 56478
+    },
+    {
+      "version": "before",
+      "name": "mobile-room",
+      "file": "screenshots/before-mobile-room.webp",
+      "width": 390,
+      "height": 844,
+      "pngSha256": "f79943e6a16d5dc4338535b42f0624a0bd80f6e98af5763307045bc2cb0f9503",
+      "sha256": "aacbfb1239a69c438b70e871f5420c541382146f7983fdc517b88f90eb469cc4",
+      "bytes": 40208
+    },
+    {
+      "version": "before",
+      "name": "mobile-window",
+      "file": "screenshots/before-mobile-window.webp",
+      "width": 390,
+      "height": 844,
+      "pngSha256": "2b6d37e7d35b16ab1d571d7c2368da4d61ad66b1eab9026c87642902f27a54cb",
+      "sha256": "d12e8d1562029105bf0697ac039392c4a1d4ad1d8546c32159aaf36f2fcdec0d",
+      "bytes": 50664
+    },
+    {
+      "version": "before",
+      "name": "mobile-cabinet-closed",
+      "file": "screenshots/before-mobile-cabinet-closed.webp",
+      "width": 390,
+      "height": 844,
+      "pngSha256": "ec77f533d4e97c04b1ee009c0dae94e94837b03660b0ab6839cbd1b4ce0f212d",
+      "sha256": "7139696e0d4267e16c57b555d447300ad6085b36e0819f77791e52cc4fff6896",
+      "bytes": 46040
+    },
+    {
+      "version": "before",
+      "name": "mobile-cabinet-half",
+      "file": "screenshots/before-mobile-cabinet-half.webp",
+      "width": 390,
+      "height": 844,
+      "pngSha256": "906d6fb1ced9eea3f29d5e3236723e40804155bd7dc74cbc6fff87bbd7d17455",
+      "sha256": "c3e8f84e048e189e84f28475293a7a840aef1d3b15116b0db443b091962d7e76",
+      "bytes": 47682
+    },
+    {
+      "version": "before",
+      "name": "mobile-cabinet",
+      "file": "screenshots/before-mobile-cabinet.webp",
+      "width": 390,
+      "height": 844,
+      "pngSha256": "99b2e8f2d40964d2df225a9704cf940ffd1c7a31f2d2522a7184c54ef829ca70",
+      "sha256": "f1bea8f9c7c86ad98f6771ee6958aac08d27ab711524e4392b3efc3ecbc5f0ec",
+      "bytes": 43198
+    },
+    {
+      "version": "before",
+      "name": "mobile-education",
+      "file": "screenshots/before-mobile-education.webp",
+      "width": 390,
+      "height": 844,
+      "pngSha256": "7ecaf7dfee393d94c39c96cde60634d6e2d4e1095c2e7bd8843088d294110021",
+      "sha256": "ade15bc80bb7a7685c23c24ae6bd635b39313d0e5ad866cac85693eb37175f50",
+      "bytes": 52352
+    },
+    {
+      "version": "before",
+      "name": "mobile-documents",
+      "file": "screenshots/before-mobile-documents.webp",
+      "width": 390,
+      "height": 844,
+      "pngSha256": "966b621c28f9b5b5c1a58ba5278d211998af905588856d9f7972626e92ec2493",
+      "sha256": "f2ac6e98b738afecf836e46c3b31897ca105f6cfb517baa557f77ce4d61069f0",
+      "bytes": 48258
+    },
+    {
+      "version": "after",
+      "name": "desktop-desk-drawer",
+      "file": "screenshots/after-desktop-desk-drawer.webp",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "42ec43f834dcd414550c1b89d3983762fef256fc9c90d11dbba9418658dd83d7",
+      "sha256": "1a3cb0b1fb91fda3b06d438a20028c48e3c215a15affc6fe0ae64f27c785615f",
+      "bytes": 182008
+    },
+    {
+      "version": "after",
+      "name": "desktop-drawer-closeup",
+      "file": "screenshots/after-desktop-drawer-closeup.webp",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "b9c06e9081fa33d35334d546522899781714af44e47c5b7e6c3c1d1db5e25609",
+      "sha256": "667c49e45687734a3fe5dca36b7e766634c8e4a5fad02ab3b016dbdbff226b34",
+      "bytes": 193472
+    },
+    {
+      "version": "after",
+      "name": "desktop-room",
+      "file": "screenshots/after-desktop-room.webp",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "61dd790767bf59aa02f6ab135c7a439f3fe99563b741c285b52ec6af8fa47b92",
+      "sha256": "e793603f54393272377daadb90da04eb3a789af9fa2baca81fc1284fae9512fc",
+      "bytes": 189076
+    },
+    {
+      "version": "after",
+      "name": "desktop-window",
+      "file": "screenshots/after-desktop-window.webp",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "d76ecae54cc6a559acecd8318c3a02c68a7da6c576ccb65f63fe99e53711e17c",
+      "sha256": "0e1aeea5d99c146ca0e998b017d9141405279c77aef263325cb850a0e9a20336",
+      "bytes": 121542
+    },
+    {
+      "version": "after",
+      "name": "desktop-cabinet-closed",
+      "file": "screenshots/after-desktop-cabinet-closed.webp",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "b6e1c6bccf2e422b76b5c5ecafbaa445093fa02bb6f337a9e03aabdfd0182b0c",
+      "sha256": "8e17d896dee8eff543bcd3c6a35425999e467c81b75822d6cf5c2ea16a8d56b4",
+      "bytes": 132954
+    },
+    {
+      "version": "after",
+      "name": "desktop-cabinet-half",
+      "file": "screenshots/after-desktop-cabinet-half.webp",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "d242a542dcb333b5d41aa52ac6f2461607d1b08822cf5a4661e8101f94fd6e23",
+      "sha256": "b2b2cf2377a1e10bda8d8a15ccf8fbf7031571cdd91faefae5c12483e071aaa5",
+      "bytes": 130200
+    },
+    {
+      "version": "after",
+      "name": "desktop-cabinet",
+      "file": "screenshots/after-desktop-cabinet.webp",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "1f70106f5d11d15bd243c0ee2164f01b35b4c173b15ecb778410b61611029841",
+      "sha256": "c260ac0a5d20f35dfe9137b7d70d425f5236ad36dca9be56d4d5e77f639ec29a",
+      "bytes": 115420
+    },
+    {
+      "version": "after",
+      "name": "desktop-education",
+      "file": "screenshots/after-desktop-education.webp",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "2d52c0d4bf0c635c2324f48fc95fcde2b420fc569e863c3e27f4a41c99d4c54b",
+      "sha256": "170a8b50046890c10b49ff2848c11dd62cf161aaac47d752a93ea5e2bed1691f",
+      "bytes": 217532
+    },
+    {
+      "version": "after",
+      "name": "desktop-documents",
+      "file": "screenshots/after-desktop-documents.webp",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "5ed1db859a764f71e0f12bb12432454de4b7fb9b9f47b2ddcdab4cd42281d946",
+      "sha256": "52500fc6b715d13d327ae91c19ba7ce19d0488ee5870ded391ffe994cdb2607b",
+      "bytes": 168898
+    },
+    {
+      "version": "after",
+      "name": "mobile-desk-drawer",
+      "file": "screenshots/after-mobile-desk-drawer.webp",
+      "width": 390,
+      "height": 844,
+      "pngSha256": "9116216ac4cc4eb4130da69354a1a3bbbfea414d42fcd1b8eb51768103becf44",
+      "sha256": "a7916267e7f7e8f880042486e295e8efde35a6d54a39935e54f8096b22b448cb",
+      "bytes": 52760
+    },
+    {
+      "version": "after",
+      "name": "mobile-drawer-closeup",
+      "file": "screenshots/after-mobile-drawer-closeup.webp",
+      "width": 390,
+      "height": 844,
+      "pngSha256": "c5fe0e07137dc40f7ec0a100cfba12281100c3afa52076a4f92408b4f73ff32b",
+      "sha256": "4426f411d0b790153a6f7e2274cf35ae12ca74787d972e08fe39b85410f5e082",
+      "bytes": 57758
+    },
+    {
+      "version": "after",
+      "name": "mobile-room",
+      "file": "screenshots/after-mobile-room.webp",
+      "width": 390,
+      "height": 844,
+      "pngSha256": "5857e2cc3fb687e2c56099f467b25270299b0c7ff5bce01f45d5fd5accbd5721",
+      "sha256": "a617703f3c2fed8aa3961cd2a5defdfc48e0654ad477155d382d23c5b1be58e9",
+      "bytes": 40072
+    },
+    {
+      "version": "after",
+      "name": "mobile-window",
+      "file": "screenshots/after-mobile-window.webp",
+      "width": 390,
+      "height": 844,
+      "pngSha256": "9ab182be28f86f6e17fe0e7eab9c95e415ba7b817c616997edcedf8f577f3293",
+      "sha256": "d85434a199a0cf562fdd462d7fe9ed3a46cc3c5307dae54c7c87b82a6b47afc7",
+      "bytes": 50696
+    },
+    {
+      "version": "after",
+      "name": "mobile-cabinet-closed",
+      "file": "screenshots/after-mobile-cabinet-closed.webp",
+      "width": 390,
+      "height": 844,
+      "pngSha256": "5cc0131424f1d3da6f1280b8d0a686fef75f1e75735cca274efb96ffd1b1934b",
+      "sha256": "73f5f243dc55662e6eeff99f38d0c7fe2b583fd0c483e73e10d12e7e37df9227",
+      "bytes": 45776
+    },
+    {
+      "version": "after",
+      "name": "mobile-cabinet-half",
+      "file": "screenshots/after-mobile-cabinet-half.webp",
+      "width": 390,
+      "height": 844,
+      "pngSha256": "902ce462e8febd1927458cb214611aaba72329774982924848ec9fa126c36e74",
+      "sha256": "9ad168c492d4e6cdee257a6de1dcd7502e8ebc48b71d9f906d381164fcb5850d",
+      "bytes": 47172
+    },
+    {
+      "version": "after",
+      "name": "mobile-cabinet",
+      "file": "screenshots/after-mobile-cabinet.webp",
+      "width": 390,
+      "height": 844,
+      "pngSha256": "c9ac8f385f07af4f7302743baea24f5f2022bc7e39c343dd3206212825f185c4",
+      "sha256": "e9862989170ea39e6848183ed9d4977aad2b784bc03ac00f03d089ed95201742",
+      "bytes": 43982
+    },
+    {
+      "version": "after",
+      "name": "mobile-education",
+      "file": "screenshots/after-mobile-education.webp",
+      "width": 390,
+      "height": 844,
+      "pngSha256": "4a7653e92f612aa467f8385558336bd7de4ffa8b4f15de49059c90962924b0ee",
+      "sha256": "896f63289e266c8703fb02d07304b72d7dfbfc05db32c198d685520c815daf41",
+      "bytes": 69558
+    },
+    {
+      "version": "after",
+      "name": "mobile-documents",
+      "file": "screenshots/after-mobile-documents.webp",
+      "width": 390,
+      "height": 844,
+      "pngSha256": "9b513d846a09246476852e900fe69d4c4616b6514f5575b5908ffd14528f9705",
+      "sha256": "48300dc6a5a7186e67333edb19601bada61868ea42fffd333762187a67e3715f",
+      "bytes": 49938
+    }
+  ]
+}

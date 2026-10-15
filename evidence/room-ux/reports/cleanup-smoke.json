@@ -1,0 +1,20 @@
+{
+  "checks": [
+    " all phases ready",
+    " physical chair floor gap",
+    "final ru download wording",
+    "final kk download wording",
+    "final en download wording",
+    "native PDF download preserved",
+    " no runtime errors",
+    "&furniture=legacy all phases ready",
+    "&furniture=legacy physical chair floor gap",
+    "legacy chair foot patches follow -0.45m translation",
+    "legacy drawer unavailable",
+    "&furniture=legacy no runtime errors",
+    "&joinery=legacy all phases ready",
+    "&joinery=legacy physical chair floor gap",
+    "&joinery=legacy no runtime errors"
+  ],
+  "passed": true
+}

@@ -1,0 +1,1393 @@
+{
+  "baseline": "16b1e8d70c43e884907706c1c9ed83425b1fa17e",
+  "at": "2026-10-15T17:20:48.602Z",
+  "all17RegressionJobsPassed": true,
+  "jobs": [
+    {
+      "name": "cube",
+      "file": "test-cube-state.mjs",
+      "args": [],
+      "exit": 0,
+      "durationMs": 83,
+      "summary": "{\"passed\":true,\"checks\":3025,\"turns\":2076}\n"
+    },
+    {
+      "name": "asset-history",
+      "file": "qa-asset-history.mjs",
+      "args": [],
+      "exit": 0,
+      "durationMs": 3235,
+      "summary": "PASS asset history: published baseline, repeated builds and bounded retention\n"
+    },
+    {
+      "name": "completion",
+      "file": "qa-room-completion.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "ux-final"
+      ],
+      "exit": 0,
+      "durationMs": 46863,
+      "summary": "{\"passed\":true,\"checks\":148,\"scenarios\":6}\n"
+    },
+    {
+      "name": "sweep",
+      "file": "qa-joinery-sweep.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "ux-final"
+      ],
+      "exit": 0,
+      "durationMs": 7521,
+      "summary": ",\"drawer\":{\"top\":0.7734999948740006,\"apronBottom\":0.7819,\"apronGap\":0.008400005125999477,\"min\":[0.15699999511241913,0.6584999965131283,-1.75200000166893],\"max\":[0.6030000048875809,0.7734999948740006,-1.3104999935626984]},\"entrance\":{\"intersectingTriangles\":0,\"checkedTriangles\":6600},\"education\":{\"min\":[-2.5250000059604645,0.551000012088567,-0.6650000020861625],\"max\":[-1.9749999940395355,0.5725000119209289,-0.43499999791383737],\"tableGap\":0.0010000001676380155},\"readingTable\":0.550000011920929}}\n"
+    },
+    {
+      "name": "refinement",
+      "file": "qa-room-refinement.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "ux-final"
+      ],
+      "exit": 0,
+      "durationMs": 54313,
+      "summary": "{\"passed\":true,\"checks\":84,\"scenarios\":4}\n"
+    },
+    {
+      "name": "furniture",
+      "file": "qa-room-furniture.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "ux-final"
+      ],
+      "exit": 0,
+      "checks": 121
+    },
+    {
+      "name": "showcase",
+      "file": "qa-room-showcase.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "ux-final"
+      ],
+      "exit": 0,
+      "durationMs": 20464,
+      "summary": ""
+    },
+    {
+      "name": "hotspots",
+      "file": "qa-room-hotspots.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "ux-final"
+      ],
+      "exit": 0,
+      "durationMs": 29058,
+      "summary": "{\"pass\":true,\"checks\":27,\"scenarios\":[{\"name\":\"desktop\",\"earlyProgress\":0.46199999999999997,\"doorAngle\":1.5399986423223009,\"markers\":[\"object-case\",\"object-profile\",\"object-lamp\",\"object-drawer\"]},{\"name\":\"mobile\",\"earlyProgress\":0.46199999999999997,\"doorAngle\":1.5399988536583862,\"markers\":[\"object-case\",\"object-profile\",\"object-lamp\",\"object-drawer\"]}]}\n"
+    },
+    {
+      "name": "collection",
+      "file": "qa-room-collection.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "ux-final"
+      ],
+      "exit": 0,
+      "durationMs": 64783,
+      "summary": "{\"passed\":true,\"checks\":102,\"scenarios\":4}\n"
+    },
+    {
+      "name": "collection-edges",
+      "file": "qa-room-collection-edges.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "ux-final"
+      ],
+      "exit": 0,
+      "durationMs": 10332,
+      "summary": "{\"checks\":[\"Cube dialog has no axe violations\",\"Closing during a turn preserves a legal cube\",\"Room rendering settles while object is held\",\"Room context loss releases item renderer\",\"Projects remain accessible after item and room context loss\"],\"passed\":true,\"axe\":[]}\n"
+    },
+    {
+      "name": "context-loss",
+      "file": "qa-room-context-loss.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "ux-final"
+      ],
+      "exit": 0,
+      "durationMs": 8731,
+      "summary": ""
+    },
+    {
+      "name": "case-rain",
+      "file": "qa-room-case-rain.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "ux-final"
+      ],
+      "exit": 0,
+      "durationMs": 35503,
+      "summary": ""
+    },
+    {
+      "name": "pages",
+      "file": "qa-pages.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "ux"
+      ],
+      "exit": 0,
+      "durationMs": 160151,
+      "summary": "\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"ru\",\"theme\":\"light\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"ru\",\"theme\":\"dark\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"kk\",\"theme\":\"light\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"kk\",\"theme\":\"dark\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"en\",\"theme\":\"light\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"en\",\"theme\":\"dark\",\"passed\":true,\"flow\":true}\n{\"scope\":\"ux\",\"passed\":true,\"routes\":132,\"flows\":12,\"edges\":0,\"failed\":[]}\n"
+    },
+    {
+      "name": "pages-edges",
+      "file": "qa-pages-edges.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "ux"
+      ],
+      "exit": 0,
+      "durationMs": 9434,
+      "summary": "     \"disclosureOpen\": true,\n      \"failedScripts\": [\n        \"http://127.0.0.1:4331/after/assets/scene-controls-B-65-GTU.js\"\n      ]\n    },\n    {\n      \"type\": \"renderer-chunk-failure\",\n      \"passed\": true,\n      \"disclosureOpen\": true,\n      \"failedScripts\": [\n        \"http://127.0.0.1:4331/after/assets/scene-By8RsxPN.js\"\n      ]\n    },\n    {\n      \"type\": \"startup-and-webgl-fallback\",\n      \"passed\": true,\n      \"disclosureOpen\": true,\n      \"failedScripts\": []\n    }\n  ],\n  \"passed\": true\n}\n"
+    },
+    {
+      "name": "pages-nojs",
+      "file": "qa-pages.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "ux-nojs",
+        "--edges-only"
+      ],
+      "exit": 0,
+      "durationMs": 3173,
+      "summary": "{\"scope\":\"ux-nojs\",\"passed\":true,\"routes\":0,\"flows\":0,\"edges\":4,\"failed\":[]}\n"
+    },
+    {
+      "name": "rail-focus",
+      "file": "qa-project-rail-focus.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "ux"
+      ],
+      "exit": 0,
+      "durationMs": 69107,
+      "summary": "PASS 12 focus variants\n"
+    },
+    {
+      "name": "menu",
+      "file": "qa-room-menu.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/"
+      ],
+      "exit": 0,
+      "durationMs": 6453,
+      "summary": ""
+    }
+  ],
+  "ux": {
+    "passed": true,
+    "checks": 559,
+    "profiles": 4,
+    "sweep": 101,
+    "documentRays": 90,
+    "minCaseGap": 0.008500000029802335,
+    "minLeafGap": 0.019694295775162463
+  },
+  "shadow": {
+    "passed": true,
+    "checks": 158,
+    "samples": 76,
+    "strictRmseFailures": [],
+    "maxRmse": 0.0393929747782681,
+    "maxControlRmse": 0.039552580191684325
+  },
+  "cold": [
+    {
+      "mobile": false,
+      "route": "ordinary",
+      "before": {
+        "bytes": 421418,
+        "requests": [
+          15,
+          15
+        ],
+        "lcp": 378
+      },
+      "after": {
+        "bytes": 421400,
+        "requests": [
+          15,
+          15
+        ],
+        "lcp": 472
+      },
+      "noErrors": true,
+      "failedRequests": [
+        {
+          "round": 0,
+          "failures": []
+        },
+        {
+          "round": 1,
+          "failures": []
+        },
+        {
+          "round": 0,
+          "failures": []
+        },
+        {
+          "round": 1,
+          "failures": []
+        }
+      ],
+      "fullDocumentsDeferred": true
+    },
+    {
+      "mobile": false,
+      "route": "room",
+      "before": {
+        "bytes": 7870541,
+        "requests": [
+          78,
+          78
+        ],
+        "lcp": 216,
+        "ready": 10672.64999999851
+      },
+      "after": {
+        "bytes": 7929209,
+        "requests": [
+          80,
+          80
+        ],
+        "lcp": 228,
+        "ready": 10178.099999997765
+      },
+      "noErrors": true,
+      "failedRequests": [
+        {
+          "round": 0,
+          "failures": [
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/drawer.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/room-accents/orbit.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/lamp.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/workbench.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/exterior/skyline.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/window/window.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/exterior/tree-trunk.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/room-accents/ceiling-panel.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/door.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/cabinet.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/corridor/profiles.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/selected.bin",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            }
+          ]
+        },
+        {
+          "round": 1,
+          "failures": [
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/window/window.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/chair.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/cabinet.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/exterior/skyline.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/door.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/side-table.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/drawer.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/room-accents/robot.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/lamp.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/room-accents/ceiling-panel.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/workbench.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/corridor/profiles.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/exterior/tree-trunk.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/selected.bin",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            }
+          ]
+        },
+        {
+          "round": 0,
+          "failures": [
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/exterior/skyline.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/lamp.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/room-accents/orbit.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/window/window.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/door.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/exterior/tree-trunk.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/corridor/profiles.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/room-accents/ceiling-panel.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/chair.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/cabinet.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/side-table.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/workbench.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/selected.bin",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            }
+          ]
+        },
+        {
+          "round": 1,
+          "failures": [
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/room-accents/orbit.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/door.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/corridor/profiles.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/lamp.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/drawer.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/room-accents/ceiling-panel.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/chair.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/cabinet.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/side-table.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/exterior/skyline.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/workbench.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/room-accents/robot.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/exterior/tree-trunk.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/selected.bin",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            }
+          ]
+        }
+      ],
+      "fullDocumentsDeferred": true
+    },
+    {
+      "mobile": true,
+      "route": "ordinary",
+      "before": {
+        "bytes": 410578,
+        "requests": [
+          14,
+          14
+        ],
+        "lcp": 476
+      },
+      "after": {
+        "bytes": 410560,
+        "requests": [
+          14,
+          14
+        ],
+        "lcp": 480
+      },
+      "noErrors": true,
+      "failedRequests": [
+        {
+          "round": 0,
+          "failures": []
+        },
+        {
+          "round": 1,
+          "failures": []
+        },
+        {
+          "round": 0,
+          "failures": []
+        },
+        {
+          "round": 1,
+          "failures": []
+        }
+      ],
+      "fullDocumentsDeferred": true
+    },
+    {
+      "mobile": true,
+      "route": "room",
+      "before": {
+        "bytes": 7870541,
+        "requests": [
+          78,
+          78
+        ],
+        "lcp": 196,
+        "ready": 8527.400000002235
+      },
+      "after": {
+        "bytes": 7929209,
+        "requests": [
+          80,
+          80
+        ],
+        "lcp": 200,
+        "ready": 8676.949999999255
+      },
+      "noErrors": true,
+      "failedRequests": [
+        {
+          "round": 0,
+          "failures": [
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/window/window.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/room-accents/ceiling-panel.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/cabinet.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/room-accents/orbit.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/drawer.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/exterior/skyline.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/exterior/tree-trunk.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/workbench.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/lamp.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/chair.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/side-table.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/selected.bin",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            }
+          ]
+        },
+        {
+          "round": 1,
+          "failures": [
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/side-table.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/lamp.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/workbench.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/corridor/profiles.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/door.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/exterior/tree-trunk.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/room-accents/orbit.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/drawer.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/room-accents/ceiling-panel.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/exterior/skyline.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/cabinet.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/chair.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/selected.bin",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            }
+          ]
+        },
+        {
+          "round": 0,
+          "failures": [
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/room-accents/ceiling-panel.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/exterior/skyline.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/window/window.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/room-accents/orbit.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/side-table.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/exterior/tree-trunk.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/cabinet.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/lamp.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/drawer.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/workbench.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/selected.bin",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            }
+          ]
+        },
+        {
+          "round": 1,
+          "failures": [
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/exterior/skyline.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/side-table.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/drawer.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/chair.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/room-accents/orbit.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/room-accents/robot.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/door.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/workbench.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/lamp.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/corridor/profiles.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/window/window.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/cabinet.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/exterior/tree-trunk.glb.gz",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/selected.bin",
+              "error": {
+                "errorText": "net::ERR_ABORTED"
+              }
+            }
+          ]
+        }
+      ],
+      "fullDocumentsDeferred": true
+    }
+  ],
+  "steady": [
+    {
+      "mobile": false,
+      "view": "desk",
+      "before": {
+        "calls": [
+          122,
+          122
+        ],
+        "triangles": [
+          191411,
+          191411
+        ],
+        "textures": [
+          86,
+          86
+        ],
+        "renders": [
+          88,
+          88
+        ],
+        "cpuMedian": 2.150000002235174,
+        "cpuP95": 2.800000000745058,
+        "gapP95": 7.19999999999709,
+        "buffers": [
+          [
+            1440,
+            900
+          ],
+          [
+            1440,
+            900
+          ]
+        ]
+      },
+      "after": {
+        "calls": [
+          135,
+          135
+        ],
+        "triangles": [
+          199191,
+          199191
+        ],
+        "textures": [
+          87,
+          87
+        ],
+        "renders": [
+          90,
+          89
+        ],
+        "cpuMedian": 1.6000000014901161,
+        "cpuP95": 2.0999999940395355,
+        "gapP95": 7.150000000001455,
+        "buffers": [
+          [
+            1440,
+            900
+          ],
+          [
+            1440,
+            900
+          ]
+        ]
+      }
+    },
+    {
+      "mobile": false,
+      "view": "window",
+      "before": {
+        "calls": [
+          78,
+          78
+        ],
+        "triangles": [
+          166444,
+          166444
+        ],
+        "textures": [
+          86,
+          86
+        ],
+        "renders": [
+          88,
+          89
+        ],
+        "cpuMedian": 2.0499999970197678,
+        "cpuP95": 2.650000002235174,
+        "gapP95": 7.100000000002183,
+        "buffers": [
+          [
+            1440,
+            900
+          ],
+          [
+            1440,
+            900
+          ]
+        ]
+      },
+      "after": {
+        "calls": [
+          80,
+          80
+        ],
+        "triangles": [
+          166448,
+          166448
+        ],
+        "textures": [
+          87,
+          87
+        ],
+        "renders": [
+          89,
+          89
+        ],
+        "cpuMedian": 1.5,
+        "cpuP95": 2.25,
+        "gapP95": 7.100000000002183,
+        "buffers": [
+          [
+            1440,
+            900
+          ],
+          [
+            1440,
+            900
+          ]
+        ]
+      }
+    },
+    {
+      "mobile": true,
+      "view": "desk",
+      "before": {
+        "calls": [
+          757,
+          757
+        ],
+        "triangles": [
+          1056493,
+          1056493
+        ],
+        "textures": [
+          86,
+          86
+        ],
+        "renders": [
+          0,
+          0
+        ],
+        "cpuMedian": 0,
+        "cpuP95": 0,
+        "gapP95": 7.100000000002183,
+        "buffers": [
+          [
+            682,
+            1477
+          ],
+          [
+            682,
+            1477
+          ]
+        ]
+      },
+      "after": {
+        "calls": [
+          808,
+          808
+        ],
+        "triangles": [
+          1085549,
+          1085549
+        ],
+        "textures": [
+          87,
+          87
+        ],
+        "renders": [
+          0,
+          0
+        ],
+        "cpuMedian": 0,
+        "cpuP95": 0,
+        "gapP95": 7.100000000001273,
+        "buffers": [
+          [
+            682,
+            1477
+          ],
+          [
+            682,
+            1477
+          ]
+        ]
+      }
+    },
+    {
+      "mobile": true,
+      "view": "window",
+      "before": {
+        "calls": [
+          81,
+          81
+        ],
+        "triangles": [
+          152782,
+          152782
+        ],
+        "textures": [
+          86,
+          86
+        ],
+        "renders": [
+          90,
+          88
+        ],
+        "cpuMedian": 1.949999999254942,
+        "cpuP95": 2.399999998509884,
+        "gapP95": 7.150000000001455,
+        "buffers": [
+          [
+            682,
+            1477
+          ],
+          [
+            682,
+            1477
+          ]
+        ]
+      },
+      "after": {
+        "calls": [
+          77,
+          77
+        ],
+        "triangles": [
+          150890,
+          150890
+        ],
+        "textures": [
+          87,
+          87
+        ],
+        "renders": [
+          88,
+          88
+        ],
+        "cpuMedian": 1.199999999254942,
+        "cpuP95": 1.5,
+        "gapP95": 7.100000000002183,
+        "buffers": [
+          [
+            682,
+            1477
+          ],
+          [
+            682,
+            1477
+          ]
+        ]
+      }
+    }
+  ],
+  "runtime": [
+    {
+      "name": "room/architecture-materials.js",
+      "sha256": "f3edf1d0c44d92e32e80ba793153c7359a5f3a8c90547d266dceff0b4a278702"
+    },
+    {
+      "name": "room/audio-score.js",
+      "sha256": "b142f7f1015bd25234c515ce4e3fd45124587a873f6572862205bc320139abfe"
+    },
+    {
+      "name": "room/audio-worker.js",
+      "sha256": "325d37b5147530dec66ef1c8a7222bf75be8622ef3adcc320d07201afe9ced2e"
+    },
+    {
+      "name": "room/audio.js",
+      "sha256": "cc3f851d434bb46cf137b8de037f71d5d47a972f75a4f8f6419d66dd775390dd"
+    },
+    {
+      "name": "room/boot.js",
+      "sha256": "75432510826a81f93c5f1b57617ce9771e29282741736a2770799d66bf685a4d"
+    },
+    {
+      "name": "room/cabinet-doors.js",
+      "sha256": "a0fab919726e9399cb367932d1f10796323fcc733971c0c9a1c88910997019db"
+    },
+    {
+      "name": "room/cabinet-scene.js",
+      "sha256": "315c5d8fe4c0fa7ee62e55f5b125330790e485ccf2ee01105f9139c9df347b5c"
+    },
+    {
+      "name": "room/collection-models.js",
+      "sha256": "04c28b39d51412cd4d41a813faccdca78658f6245bace3c0c2691c2534479726"
+    },
+    {
+      "name": "room/collection-viewer.js",
+      "sha256": "9e40a1889e781fe4ee1d30ffdbcb85b21bb384c33b7ec0358783bb56be7feede"
+    },
+    {
+      "name": "room/compressed-models.js",
+      "sha256": "fa57407e85b04ef9255c38ba6de0f2d803568793dffba1ca40c5b9a94f8a4ae3"
+    },
+    {
+      "name": "room/CREDITS.txt",
+      "sha256": "f0414de1460902956b4e051a79e643d7369573582e014a8aae90bc299cdf59ac"
+    },
+    {
+      "name": "room/cube-state.js",
+      "sha256": "444aa7795838492cfd2a6539c1d2815f91da42f5598550b8d4c5a11dffe74aa3"
+    },
+    {
+      "name": "room/daylight.js",
+      "sha256": "33041c679daab94b276482bd2ef68ab1b80e42cc44db1dd40dc94f031bd797ba"
+    },
+    {
+      "name": "room/expo.js",
+      "sha256": "00c88d8c68aa864b09157438033dac9969ce51a291d6d420951f081a7b3ca2f6"
+    },
+    {
+      "name": "room/exterior-surfaces.js",
+      "sha256": "ba272c6436633497e42fa7097a473960c86d828bdaf8641eae29d3eea43657a2"
+    },
+    {
+      "name": "room/furniture.js",
+      "sha256": "479f529ce12feb3c41685432694ec751ca0b40d322c460628f12e86f6bd10c3a"
+    },
+    {
+      "name": "room/index.html",
+      "sha256": "23bbe5dd5acc0ed1d448fc09975806e4f10d2aad5b6357c10f0789ff51fedf32"
+    },
+    {
+      "name": "room/main.js",
+      "sha256": "6523647233d11088e5e7a8b63aa15fdd3d322ec16320305e0e21f3f3f8870533"
+    },
+    {
+      "name": "room/profile-data.js",
+      "sha256": "49f847ef7567c077eae7ba403421f1b2fc341251380618eda6c1a6366a1f2c1a"
+    },
+    {
+      "name": "room/projects-data.js",
+      "sha256": "ad46614ca06ab5f23319392170959ba12d1bffa65b44783c214a28429d1022ec"
+    },
+    {
+      "name": "room/room-accents.js",
+      "sha256": "1b15c1c306be8c45257db133288cd899cd9310f7731977aaa5429481d3728791"
+    },
+    {
+      "name": "room/stream-manifest.js",
+      "sha256": "152889fd6007939547ca6c3f428674ee52b8ddc8acfab32c9df45ea79339c12e"
+    },
+    {
+      "name": "room/streaming.js",
+      "sha256": "363b8200e35e7700a0710fcc0b4ef6cd2e968dcd92e7648bdfc7895e50c9dde0"
+    },
+    {
+      "name": "room/ui.js",
+      "sha256": "02b7215a95553414c9f9d1a63f207748ec29338c858f0cbd360bf659cd692aa0"
+    },
+    {
+      "name": "room/vegetation.js",
+      "sha256": "6f18a5c67e7abbe76e5edca7e1a6f0ee5c6fea7c28bef5fe6370c57d0dbbaa56"
+    },
+    {
+      "name": "room/weather.js",
+      "sha256": "2ed6ceeae76a29fd2c09bb05154ececd376b4b9e9436adb2eeb467ec2d21907c"
+    },
+    {
+      "name": "room/window-fragment.js",
+      "sha256": "10d07af549db828e0c68d1d6187d569cdf557fc6ebc24a6a5bb3240f4be4e4d3"
+    },
+    {
+      "name": "room/world.js",
+      "sha256": "8ba02c4645f7b560b1a662e5db1b24e2c85fbdb765b98352fcd33c380e6e44e0"
+    },
+    {
+      "name": "files/resume-preview.webp",
+      "sha256": "f06a7e0d5ff54d00dacf5183fb1783f612d070689f8f4b3d6eb7018580ea9b91"
+    }
+  ],
+  "assets": {
+    "passed": true,
+    "runs": 8
+  },
+  "preserved": {
+    "passed": true,
+    "count": 97
+  },
+  "strictShadowReplay": {
+    "passed": true,
+    "samples": 76,
+    "method": "All recorded final samples independently rechecked against original strict absolute RMSE<=0.05/255, max<=32, changed<0.1%. No control-noise allowance used. Portable source assertion restored to original strict bound; control RMS retained as diagnostic."
+  }
+}

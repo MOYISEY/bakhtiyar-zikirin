@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "samples": 76,
+  "method": "All recorded final samples independently rechecked against original strict absolute RMSE<=0.05/255, max<=32, changed<0.1%. No control-noise allowance used. Portable source assertion restored to original strict bound; control RMS retained as diagnostic."
+}
