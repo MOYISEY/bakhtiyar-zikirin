@@ -1,0 +1,490 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "checks": [
+    "QR-safe public copy exact reviewed pixels",
+    "existing genuine iQADAM document preserved",
+    "desktop-no-preference: no full document during entry",
+    "desktop-no-preference: object-certificates visible 44px named action",
+    "desktop-no-preference: object-cabinet visible 44px named action",
+    "desktop-no-preference: object-cube visible 44px named action",
+    "desktop-no-preference: object-robot visible 44px named action",
+    "desktop-no-preference: object-orbit visible 44px named action",
+    "desktop-no-preference: labels do not cover each other 0/1",
+    "desktop-no-preference: labels do not cover each other 0/2",
+    "desktop-no-preference: labels do not cover each other 0/3",
+    "desktop-no-preference: labels do not cover each other 0/4",
+    "desktop-no-preference: labels do not cover each other 1/2",
+    "desktop-no-preference: labels do not cover each other 1/3",
+    "desktop-no-preference: labels do not cover each other 1/4",
+    "desktop-no-preference: labels do not cover each other 2/3",
+    "desktop-no-preference: labels do not cover each other 2/4",
+    "desktop-no-preference: labels do not cover each other 3/4",
+    "desktop-no-preference: persistent caption has no duplicate hover",
+    "desktop-no-preference: board opens participation document",
+    "desktop-no-preference: ru diploma one active document",
+    "desktop-no-preference: ru hackalem one active document",
+    "desktop-no-preference: ru certificate one active document",
+    "desktop-no-preference: kk diploma one active document",
+    "desktop-no-preference: kk hackalem one active document",
+    "desktop-no-preference: kk certificate one active document",
+    "desktop-no-preference: en diploma one active document",
+    "desktop-no-preference: en hackalem one active document",
+    "desktop-no-preference: en certificate one active document",
+    "desktop-no-preference: real visible coloured face available",
+    "desktop-no-preference: native face drag makes one legal nine-cubie quarter turn",
+    "desktop-no-preference: face gesture does not orbit",
+    "desktop-no-preference: cancellation makes no move",
+    "desktop-no-preference: orbit mode remains independent",
+    "desktop-no-preference: keyboard inverse preserves exact state",
+    "desktop-no-preference: physical diploma resets previous certificate choice",
+    "desktop-no-preference: native diploma paper resets previous certificate choice",
+    "desktop-no-preference: exactly one provided LinkedIn contact",
+    "desktop-no-preference: ordinary has same three actual documents",
+    "desktop-no-preference: one ordinary LinkedIn link",
+    "desktop-no-preference: no runtime errors",
+    "desktop-reduce: no full document during entry",
+    "desktop-reduce: object-certificates visible 44px named action",
+    "desktop-reduce: object-cabinet visible 44px named action",
+    "desktop-reduce: object-cube visible 44px named action",
+    "desktop-reduce: object-robot visible 44px named action",
+    "desktop-reduce: object-orbit visible 44px named action",
+    "desktop-reduce: labels do not cover each other 0/1",
+    "desktop-reduce: labels do not cover each other 0/2",
+    "desktop-reduce: labels do not cover each other 0/3",
+    "desktop-reduce: labels do not cover each other 0/4",
+    "desktop-reduce: labels do not cover each other 1/2",
+    "desktop-reduce: labels do not cover each other 1/3",
+    "desktop-reduce: labels do not cover each other 1/4",
+    "desktop-reduce: labels do not cover each other 2/3",
+    "desktop-reduce: labels do not cover each other 2/4",
+    "desktop-reduce: labels do not cover each other 3/4",
+    "desktop-reduce: persistent caption has no duplicate hover",
+    "desktop-reduce: board opens participation document",
+    "desktop-reduce: ru diploma one active document",
+    "desktop-reduce: ru hackalem one active document",
+    "desktop-reduce: ru certificate one active document",
+    "desktop-reduce: kk diploma one active document",
+    "desktop-reduce: kk hackalem one active document",
+    "desktop-reduce: kk certificate one active document",
+    "desktop-reduce: en diploma one active document",
+    "desktop-reduce: en hackalem one active document",
+    "desktop-reduce: en certificate one active document",
+    "desktop-reduce: real visible coloured face available",
+    "desktop-reduce: native face drag makes one legal nine-cubie quarter turn",
+    "desktop-reduce: face gesture does not orbit",
+    "desktop-reduce: cancellation makes no move",
+    "desktop-reduce: orbit mode remains independent",
+    "desktop-reduce: keyboard inverse preserves exact state",
+    "desktop-reduce: physical diploma resets previous certificate choice",
+    "desktop-reduce: native diploma paper resets previous certificate choice",
+    "desktop-reduce: exactly one provided LinkedIn contact",
+    "desktop-reduce: ordinary has same three actual documents",
+    "desktop-reduce: one ordinary LinkedIn link",
+    "desktop-reduce: no runtime errors",
+    "mobile-no-preference: no full document during entry",
+    "mobile-no-preference: object-certificates visible 44px named action",
+    "mobile-no-preference: object-cabinet visible 44px named action",
+    "mobile-no-preference: object-cube visible 44px named action",
+    "mobile-no-preference: object-robot visible 44px named action",
+    "mobile-no-preference: object-orbit visible 44px named action",
+    "mobile-no-preference: labels do not cover each other 0/1",
+    "mobile-no-preference: labels do not cover each other 0/2",
+    "mobile-no-preference: labels do not cover each other 0/3",
+    "mobile-no-preference: labels do not cover each other 0/4",
+    "mobile-no-preference: labels do not cover each other 1/2",
+    "mobile-no-preference: labels do not cover each other 1/3",
+    "mobile-no-preference: labels do not cover each other 1/4",
+    "mobile-no-preference: labels do not cover each other 2/3",
+    "mobile-no-preference: labels do not cover each other 2/4",
+    "mobile-no-preference: labels do not cover each other 3/4",
+    "mobile-no-preference: persistent caption has no duplicate hover",
+    "mobile-no-preference: board opens participation document",
+    "mobile-no-preference: ru diploma one active document",
+    "mobile-no-preference: ru hackalem one active document",
+    "mobile-no-preference: ru certificate one active document",
+    "mobile-no-preference: kk diploma one active document",
+    "mobile-no-preference: kk hackalem one active document",
+    "mobile-no-preference: kk certificate one active document",
+    "mobile-no-preference: en diploma one active document",
+    "mobile-no-preference: en hackalem one active document",
+    "mobile-no-preference: en certificate one active document",
+    "mobile-no-preference: real visible coloured face available",
+    "mobile-no-preference: native face drag makes one legal nine-cubie quarter turn",
+    "mobile-no-preference: face gesture does not orbit",
+    "mobile-no-preference: cancellation makes no move",
+    "mobile-no-preference: orbit mode remains independent",
+    "mobile-no-preference: keyboard inverse preserves exact state",
+    "mobile-no-preference: physical diploma resets previous certificate choice",
+    "mobile-no-preference: native diploma paper resets previous certificate choice",
+    "mobile-no-preference: exactly one provided LinkedIn contact",
+    "mobile-no-preference: ordinary has same three actual documents",
+    "mobile-no-preference: one ordinary LinkedIn link",
+    "mobile-no-preference: no runtime errors",
+    "mobile-reduce: no full document during entry",
+    "mobile-reduce: object-certificates visible 44px named action",
+    "mobile-reduce: object-cabinet visible 44px named action",
+    "mobile-reduce: object-cube visible 44px named action",
+    "mobile-reduce: object-robot visible 44px named action",
+    "mobile-reduce: object-orbit visible 44px named action",
+    "mobile-reduce: labels do not cover each other 0/1",
+    "mobile-reduce: labels do not cover each other 0/2",
+    "mobile-reduce: labels do not cover each other 0/3",
+    "mobile-reduce: labels do not cover each other 0/4",
+    "mobile-reduce: labels do not cover each other 1/2",
+    "mobile-reduce: labels do not cover each other 1/3",
+    "mobile-reduce: labels do not cover each other 1/4",
+    "mobile-reduce: labels do not cover each other 2/3",
+    "mobile-reduce: labels do not cover each other 2/4",
+    "mobile-reduce: labels do not cover each other 3/4",
+    "mobile-reduce: persistent caption has no duplicate hover",
+    "mobile-reduce: board opens participation document",
+    "mobile-reduce: ru diploma one active document",
+    "mobile-reduce: ru hackalem one active document",
+    "mobile-reduce: ru certificate one active document",
+    "mobile-reduce: kk diploma one active document",
+    "mobile-reduce: kk hackalem one active document",
+    "mobile-reduce: kk certificate one active document",
+    "mobile-reduce: en diploma one active document",
+    "mobile-reduce: en hackalem one active document",
+    "mobile-reduce: en certificate one active document",
+    "mobile-reduce: real visible coloured face available",
+    "mobile-reduce: native face drag makes one legal nine-cubie quarter turn",
+    "mobile-reduce: face gesture does not orbit",
+    "mobile-reduce: cancellation makes no move",
+    "mobile-reduce: orbit mode remains independent",
+    "mobile-reduce: keyboard inverse preserves exact state",
+    "mobile-reduce: physical diploma resets previous certificate choice",
+    "mobile-reduce: native diploma paper resets previous certificate choice",
+    "mobile-reduce: exactly one provided LinkedIn contact",
+    "mobile-reduce: ordinary has same three actual documents",
+    "mobile-reduce: one ordinary LinkedIn link",
+    "mobile-reduce: no runtime errors"
+  ],
+  "scenarios": [
+    {
+      "name": "desktop-no-preference",
+      "rects": [
+        {
+          "id": "object-certificates",
+          "visible": true,
+          "rect": {
+            "x": 487.53125,
+            "y": 199.234375,
+            "width": 124,
+            "height": 44,
+            "top": 199.234375,
+            "right": 611.53125,
+            "bottom": 243.234375,
+            "left": 487.53125
+          },
+          "label": "Сертификаты"
+        },
+        {
+          "id": "object-cabinet",
+          "visible": true,
+          "rect": {
+            "x": 67.375,
+            "y": 490.234375,
+            "width": 44,
+            "height": 44,
+            "top": 490.234375,
+            "right": 111.375,
+            "bottom": 534.234375,
+            "left": 67.375
+          },
+          "label": "Шкаф: потяните ручку или нажмите"
+        },
+        {
+          "id": "object-cube",
+          "visible": true,
+          "rect": {
+            "x": 315.609375,
+            "y": 471.765625,
+            "width": 116,
+            "height": 44,
+            "top": 471.765625,
+            "right": 431.609375,
+            "bottom": 515.765625,
+            "left": 315.609375
+          },
+          "label": "Собрать кубик"
+        },
+        {
+          "id": "object-robot",
+          "visible": true,
+          "rect": {
+            "x": 662,
+            "y": 471.765625,
+            "width": 116,
+            "height": 44,
+            "top": 471.765625,
+            "right": 778,
+            "bottom": 515.765625,
+            "left": 662
+          },
+          "label": "Рассмотреть робота"
+        },
+        {
+          "id": "object-orbit",
+          "visible": true,
+          "rect": {
+            "x": 1107.375,
+            "y": 471.765625,
+            "width": 116,
+            "height": 44,
+            "top": 471.765625,
+            "right": 1223.375,
+            "bottom": 515.765625,
+            "left": 1107.375
+          },
+          "label": "Рассмотреть орбиту"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "desktop-reduce",
+      "rects": [
+        {
+          "id": "object-certificates",
+          "visible": true,
+          "rect": {
+            "x": 487.515625,
+            "y": 199.25,
+            "width": 124,
+            "height": 44,
+            "top": 199.25,
+            "right": 611.515625,
+            "bottom": 243.25,
+            "left": 487.515625
+          },
+          "label": "Сертификаты"
+        },
+        {
+          "id": "object-cabinet",
+          "visible": true,
+          "rect": {
+            "x": 67.359375,
+            "y": 490.234375,
+            "width": 44,
+            "height": 44,
+            "top": 490.234375,
+            "right": 111.359375,
+            "bottom": 534.234375,
+            "left": 67.359375
+          },
+          "label": "Шкаф: потяните ручку или нажмите"
+        },
+        {
+          "id": "object-cube",
+          "visible": true,
+          "rect": {
+            "x": 315.59375,
+            "y": 471.765625,
+            "width": 116,
+            "height": 44,
+            "top": 471.765625,
+            "right": 431.59375,
+            "bottom": 515.765625,
+            "left": 315.59375
+          },
+          "label": "Собрать кубик"
+        },
+        {
+          "id": "object-robot",
+          "visible": true,
+          "rect": {
+            "x": 662,
+            "y": 471.765625,
+            "width": 116,
+            "height": 44,
+            "top": 471.765625,
+            "right": 778,
+            "bottom": 515.765625,
+            "left": 662
+          },
+          "label": "Рассмотреть робота"
+        },
+        {
+          "id": "object-orbit",
+          "visible": true,
+          "rect": {
+            "x": 1107.359375,
+            "y": 471.765625,
+            "width": 116,
+            "height": 44,
+            "top": 471.765625,
+            "right": 1223.359375,
+            "bottom": 515.765625,
+            "left": 1107.359375
+          },
+          "label": "Рассмотреть орбиту"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "mobile-no-preference",
+      "rects": [
+        {
+          "id": "object-certificates",
+          "visible": true,
+          "rect": {
+            "x": 32.28125,
+            "y": 327.03125,
+            "width": 124,
+            "height": 44,
+            "top": 327.03125,
+            "right": 156.28125,
+            "bottom": 371.03125,
+            "left": 32.28125
+          },
+          "label": "Сертификаты"
+        },
+        {
+          "id": "object-cabinet",
+          "visible": true,
+          "rect": {
+            "x": 12,
+            "y": 409.890625,
+            "width": 44,
+            "height": 44,
+            "top": 409.890625,
+            "right": 56,
+            "bottom": 453.890625,
+            "left": 12
+          },
+          "label": "Шкаф: потяните ручку или нажмите"
+        },
+        {
+          "id": "object-cube",
+          "visible": true,
+          "rect": {
+            "x": 14,
+            "y": 461.890625,
+            "width": 116,
+            "height": 44,
+            "top": 461.890625,
+            "right": 130,
+            "bottom": 505.890625,
+            "left": 14
+          },
+          "label": "Собрать кубик"
+        },
+        {
+          "id": "object-robot",
+          "visible": true,
+          "rect": {
+            "x": 138,
+            "y": 461.890625,
+            "width": 116,
+            "height": 44,
+            "top": 461.890625,
+            "right": 254,
+            "bottom": 505.890625,
+            "left": 138
+          },
+          "label": "Рассмотреть робота"
+        },
+        {
+          "id": "object-orbit",
+          "visible": true,
+          "rect": {
+            "x": 262,
+            "y": 461.890625,
+            "width": 116,
+            "height": 44,
+            "top": 461.890625,
+            "right": 378,
+            "bottom": 505.890625,
+            "left": 262
+          },
+          "label": "Рассмотреть орбиту"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "mobile-reduce",
+      "rects": [
+        {
+          "id": "object-certificates",
+          "visible": true,
+          "rect": {
+            "x": 32.28125,
+            "y": 327.03125,
+            "width": 124,
+            "height": 44,
+            "top": 327.03125,
+            "right": 156.28125,
+            "bottom": 371.03125,
+            "left": 32.28125
+          },
+          "label": "Сертификаты"
+        },
+        {
+          "id": "object-cabinet",
+          "visible": true,
+          "rect": {
+            "x": 12,
+            "y": 409.890625,
+            "width": 44,
+            "height": 44,
+            "top": 409.890625,
+            "right": 56,
+            "bottom": 453.890625,
+            "left": 12
+          },
+          "label": "Шкаф: потяните ручку или нажмите"
+        },
+        {
+          "id": "object-cube",
+          "visible": true,
+          "rect": {
+            "x": 14,
+            "y": 461.890625,
+            "width": 116,
+            "height": 44,
+            "top": 461.890625,
+            "right": 130,
+            "bottom": 505.890625,
+            "left": 14
+          },
+          "label": "Собрать кубик"
+        },
+        {
+          "id": "object-robot",
+          "visible": true,
+          "rect": {
+            "x": 138,
+            "y": 461.890625,
+            "width": 116,
+            "height": 44,
+            "top": 461.890625,
+            "right": 254,
+            "bottom": 505.890625,
+            "left": 138
+          },
+          "label": "Рассмотреть робота"
+        },
+        {
+          "id": "object-orbit",
+          "visible": true,
+          "rect": {
+            "x": 262,
+            "y": 461.890625,
+            "width": 116,
+            "height": 44,
+            "top": 461.890625,
+            "right": 378,
+            "bottom": 505.890625,
+            "left": 262
+          },
+          "label": "Рассмотреть орбиту"
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

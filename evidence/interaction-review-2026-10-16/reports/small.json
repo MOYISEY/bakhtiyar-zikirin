@@ -1,0 +1,130 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "checks": [
+    "QR-safe public copy exact reviewed pixels",
+    "existing genuine iQADAM document preserved",
+    "mobile-reduce: no full document during entry",
+    "mobile-reduce: object-certificates visible 44px named action",
+    "mobile-reduce: physically offscreen handle retains explicit cabinet menu",
+    "mobile-reduce: object-cube visible 44px named action",
+    "mobile-reduce: object-robot visible 44px named action",
+    "mobile-reduce: object-orbit visible 44px named action",
+    "mobile-reduce: labels do not cover each other 0/1",
+    "mobile-reduce: labels do not cover each other 0/2",
+    "mobile-reduce: labels do not cover each other 0/3",
+    "mobile-reduce: labels do not cover each other 0/4",
+    "mobile-reduce: labels do not cover each other 1/2",
+    "mobile-reduce: labels do not cover each other 1/3",
+    "mobile-reduce: labels do not cover each other 1/4",
+    "mobile-reduce: labels do not cover each other 2/3",
+    "mobile-reduce: labels do not cover each other 2/4",
+    "mobile-reduce: labels do not cover each other 3/4",
+    "mobile-reduce: persistent caption has no duplicate hover",
+    "mobile-reduce: board opens participation document",
+    "mobile-reduce: ru diploma one active document",
+    "mobile-reduce: ru hackalem one active document",
+    "mobile-reduce: ru certificate one active document",
+    "mobile-reduce: kk diploma one active document",
+    "mobile-reduce: kk hackalem one active document",
+    "mobile-reduce: kk certificate one active document",
+    "mobile-reduce: en diploma one active document",
+    "mobile-reduce: en hackalem one active document",
+    "mobile-reduce: en certificate one active document",
+    "mobile-reduce: real visible coloured face available",
+    "mobile-reduce: native face drag makes one legal nine-cubie quarter turn",
+    "mobile-reduce: face gesture does not orbit",
+    "mobile-reduce: cancellation makes no move",
+    "mobile-reduce: orbit mode remains independent",
+    "mobile-reduce: keyboard inverse preserves exact state",
+    "mobile-reduce: physical diploma resets previous certificate choice",
+    "mobile-reduce: native diploma paper resets previous certificate choice",
+    "mobile-reduce: exactly one provided LinkedIn contact",
+    "mobile-reduce: ordinary has same three actual documents",
+    "mobile-reduce: one ordinary LinkedIn link",
+    "mobile-reduce: no runtime errors"
+  ],
+  "scenarios": [
+    {
+      "name": "mobile-reduce",
+      "rects": [
+        {
+          "id": "object-certificates",
+          "visible": true,
+          "rect": {
+            "x": 115.234375,
+            "y": 263.6875,
+            "width": 124,
+            "height": 44,
+            "top": 263.6875,
+            "right": 239.234375,
+            "bottom": 307.6875,
+            "left": 115.234375
+          },
+          "label": "Сертификаты"
+        },
+        {
+          "id": "object-cabinet",
+          "visible": false,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "label": "Шкаф: потяните ручку или нажмите"
+        },
+        {
+          "id": "object-cube",
+          "visible": true,
+          "rect": {
+            "x": 11.8359375,
+            "y": 432.109375,
+            "width": 93.328125,
+            "height": 44,
+            "top": 432.109375,
+            "right": 105.1640625,
+            "bottom": 476.109375,
+            "left": 11.8359375
+          },
+          "label": "Собрать кубик"
+        },
+        {
+          "id": "object-robot",
+          "visible": true,
+          "rect": {
+            "x": 113.3359375,
+            "y": 432.109375,
+            "width": 93.328125,
+            "height": 44,
+            "top": 432.109375,
+            "right": 206.6640625,
+            "bottom": 476.109375,
+            "left": 113.3359375
+          },
+          "label": "Рассмотреть робота"
+        },
+        {
+          "id": "object-orbit",
+          "visible": true,
+          "rect": {
+            "x": 214.8359375,
+            "y": 432.109375,
+            "width": 93.328125,
+            "height": 44,
+            "top": 432.109375,
+            "right": 308.1640625,
+            "bottom": 476.109375,
+            "left": 214.8359375
+          },
+          "label": "Рассмотреть орбиту"
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

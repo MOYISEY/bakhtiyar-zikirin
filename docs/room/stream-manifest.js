@@ -1,3 +1,4 @@
+import {DOCUMENTS} from './documents-data.js';
 import {refinedAccents,ACCENT_FILES} from './room-accents.js';
 import {authoredFurniture,FURNITURE_FILES,refinedJoinery,JOINERY_FILES} from './furniture.js';
 // Active scene dependencies; the inactive SheenChair_label image is not requested.
@@ -7,6 +8,6 @@ export const STREAM_FILES={...original,decor:[...original.decor,'../files/educat
 
 if(refinedJoinery){STREAM_FILES.room=STREAM_FILES.room.filter(file=>!file.startsWith('assets/modern_wooden_cabinet/')).concat(JOINERY_FILES.slice(0,2));STREAM_FILES.decor=STREAM_FILES.decor.filter(file=>!file.startsWith('assets/side_table_01/')).concat(JOINERY_FILES[2])}
 
-STREAM_FILES.decor.push('../files/education/iqadam-2025-preview.webp','../files/resume-preview.webp');
+STREAM_FILES.decor.push(...DOCUMENTS.filter(d=>d.kind==='certificate').map(d=>'../files/education/'+d.file+'-preview.'+d.extension),'../files/resume-preview.webp');
 
 if(refinedAccents)STREAM_FILES.room.push(...ACCENT_FILES);

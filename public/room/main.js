@@ -1,5 +1,5 @@
 import * as T from 'three';
-import {layoutDocumentActions,hideDocumentLeaders} from './document-actions.js';
+import {layoutDocumentActions,layoutCollectionActions,layoutCertificateAction,hideDocumentLeaders} from './document-actions.js';
 import {createWorld} from './world.js';
 import {RoomAudio} from './audio.js';
 import {$,L,attachApp,openPanel,weatherText} from './ui.js';
@@ -43,7 +43,7 @@ function renderHotspot(){
  const el=$('#object-hint'),guide=$('#object-lamp');
  const id=pointerHotspot||focusHotspot||(!guide.hidden&&guide.classList.contains('cord-guide-visible')?'lamp':null);
  const button=id&&$('#object-'+id),blocked=!window.sliceUsable||window.sliceFatal||api.hold||pointer||!$('#controls').hidden;
- const visible=!!id&&!blocked&&!id.startsWith('drawer-')&&(!button||!button.hidden);
+ const visible=!!id&&!blocked&&!id.startsWith('drawer-')&&(!button||!button.hidden&&!button.classList.contains('persistent-action'))&&canActivateObject(id);
  const next=visible?id:null;if(next!==activeHotspot){activeHotspot=next;world.highlight(next);dirty=true}
  el.hidden=!visible;el.setAttribute('aria-hidden',String(!visible));el.dataset.hotspot=next||'';if(!visible)return;
  el.textContent=button?(!pointerHotspot&&!focusHotspot?guide.querySelector('.cord-guide').textContent:button.ariaLabel):L('Открыть дверь','Есікті ашу','Open door');
@@ -62,7 +62,7 @@ window.addEventListener('room-panel-open',clearHotspots);
 window.addEventListener('room-actions',()=>{if(!$('#controls').hidden)clearHotspots();else renderHotspot()});
 $('#panel').addEventListener('close',renderHotspot);
 canvas.addEventListener('pointerleave',()=>pointHotspot(null));
-for(const id of ['case','profile','lamp','keyform','poslesvet','contacts','drawer','drawer-resume','drawer-education','cabinet','cube','robot','orbit']){
+for(const id of ['case','profile','lamp','keyform','poslesvet','certificates','drawer','drawer-resume','drawer-education','cabinet','cube','robot','orbit']){
  const el=$('#object-'+id);
  el.addEventListener('pointerenter',e=>{if(e.pointerType!=='touch')pointHotspot(id)});
  el.addEventListener('pointerleave',()=>pointHotspot(null));
@@ -95,19 +95,38 @@ function updateCamera(){
  $('#intro').classList.toggle('away',progress>.10);$('#room-note').hidden=progress<.75;
  $('#entrance-button').setAttribute('aria-pressed',String(progress<.5));$('#desk-button').setAttribute('aria-pressed',String(progress>=.5));
 }
+// The same physical access decision backs rays, semantic controls and hints.
+// Four metres covers object inspection; the wall cord keeps its accepted 4.29 m
+// workspace reach (4.5 m). The room-side
+// threshold prevents a visible object through the doorway being a remote target.
+function actionTargets(){return{case:world.objects.find(o=>o.userData.action==='case'),profile:world.objects.find(o=>o.userData.action==='profile'),lamp:world.cordGrip,certificates:world.certificates,keyform:world.gallery[0],poslesvet:world.gallery[1],drawer:world.drawerPull,...world.drawerDocuments,...world.collectionTargets}}
+function actionEligible(action,distance=0){
+ if(!window.sliceUsable||window.sliceFatal||!world.studioReady)return false;
+ if(action==='door')return true;
+ const p=camera.position;if(p.x<=-2.95||p.x>=2.95||p.z<=-2.94||p.z>=1.90||distance>(action==='lamp'?4.5:4))return false;
+ if(action.startsWith('drawer-')&&drawer<.55)return false;
+ if(['cube','robot','orbit'].includes(action)&&!world.collectionReady(action))return false;
+ return true;
+}
+function projectedAction(id,o=actionTargets()[id]){
+ if(!o||!actionEligible(id))return null;
+ const anchor=o.userData.hotspotAnchor&&o.getObjectByName(o.userData.hotspotAnchor),points=[anchor?anchor.getWorldPosition(new T.Vector3()):new T.Box3().setFromObject(o).getCenter(new T.Vector3())];
+ if(id==='cabinet')for(const handle of world.cabinetHandles)if(handle!==o)points.push(new T.Box3().setFromObject(handle).getCenter(new T.Vector3()));
+ if(id.startsWith('drawer-'))o.traverse(page=>{if(page.isMesh&&page.name.endsWith(' preview')&&page!==anchor)points.push(page.getWorldPosition(new T.Vector3()))});
+ for(const point of points){const p=point.project(camera);if(p.z< -1||p.z>1||Math.abs(p.x)>.96||Math.abs(p.y)>.92)continue;const hit=hitAt((p.x+1)*innerWidth/2,(1-p.y)*innerHeight/2);if(hit?.action===id)return{p,hit}}
+ return null;
+}
+function canActivateObject(id){return !api.hold&&(id==='door'?actionEligible(id):!!projectedAction(id))}
+document.addEventListener('click',e=>{const el=e.target.closest?.('.object-action');if(el&&!canActivateObject(el.id.slice(7))){e.preventDefault();e.stopImmediatePropagation();clearHotspots()}},true);
 function updateActions(){
- const documentItems=[];
- const targets={case:world.objects.find(o=>o.userData.action==='case'),profile:world.objects.find(o=>o.userData.action==='profile'),lamp:world.cordGrip,contacts:world.contacts,keyform:world.gallery[0],poslesvet:world.gallery[1],drawer:world.drawerPull,...world.drawerDocuments,...world.collectionTargets};
- for(const [id,o]of Object.entries(targets)){
-  const el=$('#object-'+id);if(!o){el.hidden=el.disabled=true;continue}const anchor=o.userData.hotspotAnchor&&o.getObjectByName(o.userData.hotspotAnchor);let p=(anchor?anchor.getWorldPosition(new T.Vector3()):new T.Box3().setFromObject(o).getCenter(new T.Vector3())).project(camera);
-  // Either real education sheet may emerge first during a partial opening.
-  if(id.startsWith('drawer-')&&hitAt((p.x+1)*innerWidth/2,(1-p.y)*innerHeight/2)?.action!==id){o.traverse(page=>{if(!page.isMesh||!page.name.endsWith(' preview'))return;const q=page.getWorldPosition(new T.Vector3()).project(camera);if(q.z>=-1&&q.z<=1&&Math.abs(q.x)<.96&&Math.abs(q.y)<.92&&hitAt((q.x+1)*innerWidth/2,(1-q.y)*innerHeight/2)?.action===id)p=q})}
-  // Use the same first visible surface as pointer interaction. The physical
-  // door must be clear; progress alone says nothing about what is reachable.
-  const screenX=(p.x+1)*innerWidth/2,screenY=(1-p.y)*innerHeight/2;
-  el.hidden=!window.sliceUsable||window.sliceFatal||!world.studioReady||world.door.rotation.y<doorPassAngle||p.z< -1||p.z>1||Math.abs(p.x)>.96||Math.abs(p.y)>.92||hitAt(screenX,screenY)?.action!==id;
+ const documentItems=[],collectionItems=[];let certificateItem=null;
+ for(const [id,o]of Object.entries(actionTargets())){
+  const el=$('#object-'+id),projection=projectedAction(id,o);el.hidden=el.disabled=!projection;if(!projection)continue;
+  const {p}=projection,screenX=(p.x+1)*innerWidth/2,screenY=(1-p.y)*innerHeight/2;
   if(id.startsWith('drawer-')&&drawer<.55)el.hidden=true;el.disabled=el.hidden;if(el.hidden)continue;
   if(id.startsWith('drawer-')){documentItems.push({id,el,object:o});continue}
+  if(['cube','robot','orbit'].includes(id)){collectionItems.push({id,el,object:o});continue}
+  if(id==='certificates'){certificateItem={id,el,object:o};continue}
   if(id==='lamp'&&!cordGuideShown){cordGuideShown=true;el.classList.add('cord-guide-visible');try{sessionStorage.setItem('office-cord-guide','seen')}catch{}setTimeout(()=>{el.classList.remove('cord-guide-visible');renderHotspot()},8000);}
   let x=screenX,y=screenY;
   if(id==='lamp'){
@@ -117,22 +136,28 @@ function updateActions(){
   const inset=el.offsetWidth/2+12;el.style.left=clamp(x,inset,innerWidth-inset)+'px';el.style.top=clamp(y,90,innerHeight-45)+'px';
  }
  layoutDocumentActions(documentItems,camera,$('#object-drawer'));
+ layoutCollectionActions(collectionItems,camera,$('#object-cabinet'));layoutCertificateAction(certificateItem,camera,collectionItems);
  $('#cabinet-button').setAttribute('aria-pressed',String(cabinetTarget>.5));
  $('#drawer-button').hidden=!world.drawerPull;for(const id of ['#drawer-button','#object-drawer'])$(id).setAttribute('aria-pressed',String(drawer>.5));
  renderHotspot();
 }
-function hitAt(x,y){mouse.set(x/innerWidth*2-1,-y/innerHeight*2+1);ray.setFromCamera(mouse,camera);const hits=ray.intersectObjects(scene.children,true);for(const hit of hits){const material=hit.object.material,m=Array.isArray(material)?material[hit.face?.materialIndex||0]:material;if(!m)continue;let shown=true;for(let parent=hit.object;parent;parent=parent.parent)if(!parent.visible){shown=false;break}if(!shown||(m.transparent&&m.opacity<.45)||hit.object.isLine)continue;let o=hit.object;while(o&&!o.userData.action)o=o.parent;if(o?.userData.action){const action=o.userData.action;if(action.startsWith('drawer-')&&drawer<.55)return null;if(['cube','robot','orbit'].includes(action)&&!world.collectionReady(action))return null;return{...hit,action}};if(m.visible!==false)return null}return null}
+function hitAt(x,y){mouse.set(x/innerWidth*2-1,-y/innerHeight*2+1);ray.setFromCamera(mouse,camera);const hits=ray.intersectObjects(scene.children,true);for(const hit of hits){const material=hit.object.material,m=Array.isArray(material)?material[hit.face?.materialIndex||0]:material;if(!m)continue;let shown=true;for(let parent=hit.object;parent;parent=parent.parent)if(!parent.visible){shown=false;break}if(!shown||(m.transparent&&m.opacity<.45)||hit.object.isLine)continue;let o=hit.object;while(o&&!o.userData.action)o=o.parent;if(o?.userData.action){const action=o.userData.action;if(!actionEligible(action,hit.distance))return null;return{...hit,action}};if(m.visible!==false)return null}return null}
 world.monitor.userData.action='case';
-function hint(hit){pointHotspot(hit?.action||null);canvas.style.cursor=hit?.action==='lamp'||hit?.action==='profile'||hit?.action==='drawer'?'grab':hit?'pointer':'grab'}
+function hint(hit){pointHotspot(hit?.action||null);canvas.style.cursor=hit?.action==='lamp'||hit?.action==='profile'||hit?.action==='drawer'||hit?.action==='cabinet'?'grab':hit?'pointer':'grab'}
 // Canvas and the transparent, cord-aligned semantic button share one gesture.
 // The button supplies a minimum 44px touch target; the visible cord remains the affordance.
 function beginPointer(e){
  if(!window.sliceUsable||api.hold||pointer||e.button!==0)return;
- const direct=e.currentTarget.id.startsWith('object-'),hit=direct?{action:e.currentTarget.id.slice(7)}:hitAt(e.clientX,e.clientY);
+ const direct=e.currentTarget.id.startsWith('object-'),hit=direct?projectedAction(e.currentTarget.id.slice(7))?.hit:hitAt(e.clientX,e.clientY);
+ if(direct&&!hit)return;
+ if(hit?.action&&!canActivateObject(hit.action))return;
  const grip=world.cordGrip.getWorldPosition(new T.Vector3()),a=grip.clone().project(camera),b=grip.clone().add(new T.Vector3(0,-.1,0)).project(camera);
  const drawerPoint=world.drawerPull?new T.Box3().setFromObject(world.drawerPull).getCenter(new T.Vector3()):null,drawerTravel=world.inspectFurniture().drawerTravel||.29,drawerClosed=drawerPoint?.clone().add(new T.Vector3(0,0,-drawerTravel*drawer)),drawerOpen=drawerPoint?.clone().add(new T.Vector3(0,0,drawerTravel*(1-drawer))),drawerA=drawerClosed?.clone().project(camera),drawerB=drawerOpen?.clone().project(camera),drawerVector=drawerA?new T.Vector2((drawerB.x-drawerA.x)*innerWidth/2,(drawerA.y-drawerB.y)*innerHeight/2):new T.Vector2(0,40),drawerW0=drawerClosed?Math.max(.05,-drawerClosed.clone().applyMatrix4(camera.matrixWorldInverse).z):1,drawerW1=drawerOpen?Math.max(.05,-drawerOpen.clone().applyMatrix4(camera.matrixWorldInverse).z):1;
- pointer={drawerStart:drawer,drawerScreenStart:drawer*drawerW1/(drawerW0+drawer*(drawerW1-drawerW0)),drawerW0,drawerW1,drawerAxis:drawerVector.clone().normalize(),drawerPixels:Math.max(16,drawerVector.length()),id:e.pointerId,target:e.currentTarget,x:e.clientX,y:e.clientY,lastX:e.clientX,lastY:e.clientY,kind:hit?.action||'look',type:e.pointerType,folderStart:folder,pixelsPerMetre:Math.max(80,Math.abs(b.y-a.y)*innerHeight/2/.1)};
+ const cabinetGrip=hit?.action==='cabinet'?world.cabinetGrip(hit):null,screen=p=>{const v=new T.Vector3().fromArray(p).project(camera);return{x:(v.x+1)*innerWidth/2,y:(1-v.y)*innerHeight/2}},cabinetCurrent=cabinetGrip&&screen(cabinetGrip.current),cabinetPath=cabinetGrip?.samples.map(s=>({...s,...screen(s.position)}));
+ pointer={cabinetStart:cabinet,cabinetOriginalTarget:cabinetTarget,cabinetPath,cabinetOffset:cabinetCurrent?{x:e.clientX-cabinetCurrent.x,y:e.clientY-cabinetCurrent.y}:null,drawerStart:drawer,drawerScreenStart:drawer*drawerW1/(drawerW0+drawer*(drawerW1-drawerW0)),drawerW0,drawerW1,drawerAxis:drawerVector.clone().normalize(),drawerPixels:Math.max(16,drawerVector.length()),id:e.pointerId,target:e.currentTarget,x:e.clientX,y:e.clientY,lastX:e.clientX,lastY:e.clientY,kind:hit?.action||'look',type:e.pointerType,folderStart:folder,pixelsPerMetre:Math.max(80,Math.abs(b.y-a.y)*innerHeight/2/.1)};
+ if(pointer.kind==='cabinet'){cabinetTarget=cabinet;cabinetVelocity=0}
  dragging=false;pullTriggered=false;pointer.target.setPointerCapture(e.pointerId);pointer.target.focus({preventScroll:true});
+ if(pointer.kind==='cabinet')e.preventDefault();
  if(pointer.kind==='lamp'){$('#object-lamp').classList.remove('cord-guide-visible');$('#object-lamp').classList.add('pulling');pullVelocity=0;e.preventDefault();}
  renderHotspot();if(progress>.7)audio.enter(true);
 }
@@ -141,6 +166,7 @@ function movePointer(e){
  if(!pointer){if(e.currentTarget===canvas&&e.pointerType!=='touch')hint(hitAt(e.clientX,e.clientY),e.clientX,e.clientY);return}
  if(e.pointerId!==pointer.id)return;
  const dx=e.clientX-pointer.lastX,dy=e.clientY-pointer.lastY;pointer.lastX=e.clientX;pointer.lastY=e.clientY;
+ if(!['look','navigate','door'].includes(pointer.kind)&&!canActivateObject(pointer.kind)){release(e,true);return}
  if(progress<.96&&pointer.kind==='look'&&pointer.type==='touch'&&Math.abs(e.clientY-pointer.y)>8&&Math.abs(e.clientY-pointer.y)>Math.abs(e.clientX-pointer.x)*1.3)pointer.kind='navigate';
  if(Math.hypot(e.clientX-pointer.x,e.clientY-pointer.y)>5)dragging=true;
  if(pointer.kind==='lamp'){
@@ -148,6 +174,9 @@ function movePointer(e){
   if(pull>=.065&&!pullTriggered){toggleLight();pullTriggered=true;}
  }else if(pointer.kind==='drawer'){const delta=new T.Vector2(e.clientX-pointer.x,e.clientY-pointer.y).dot(pointer.drawerAxis);const screen=clamp(pointer.drawerScreenStart+delta/pointer.drawerPixels,0,1);drawerTarget=drawer=clamp(screen*pointer.drawerW0/(pointer.drawerW1-screen*(pointer.drawerW1-pointer.drawerW0)),0,1);}
  else if(pointer.kind==='profile')folderTarget=folder=clamp(pointer.folderStart+(pointer.x-e.clientX)*.009,0,1);
+ else if(pointer.kind==='cabinet'){
+  if(dragging&&pointer.cabinetPath){const q={x:e.clientX-pointer.cabinetOffset.x,y:e.clientY-pointer.cabinetOffset.y};let best=Infinity,amount=cabinet;for(let i=1;i<pointer.cabinetPath.length;i++){const a=pointer.cabinetPath[i-1],b=pointer.cabinetPath[i],dx=b.x-a.x,dy=b.y-a.y,t=clamp(((q.x-a.x)*dx+(q.y-a.y)*dy)/(dx*dx+dy*dy||1),0,1),distance=(q.x-a.x-dx*t)**2+(q.y-a.y-dy*t)**2;if(distance<best){best=distance;amount=T.MathUtils.lerp(a.amount,b.amount,t)}}cabinet=cabinetTarget=clamp(amount,0,1);cabinetVelocity=0;world.setCabinet(cabinet)}
+ }
  else if(pointer.kind==='navigate'){target=clamp(target-dy*.003,0,1);audio.setInside(target>.4);}
  else{lookX=clamp(lookX-dx*.004,-1.2,1.2);lookY=clamp(lookY+dy*.003,-.45,.5);}
  dirty=true;renderHotspot();
@@ -155,27 +184,30 @@ function movePointer(e){
 function release(e,cancel=false){
  if(!pointer||e.pointerId!==pointer.id)return;
  const old=pointer;pointer=null;if(old.target.hasPointerCapture(e.pointerId))old.target.releasePointerCapture(e.pointerId);
+ if(!['look','navigate'].includes(old.kind)&&!canActivateObject(old.kind))cancel=true;
+ if(cancel&&old.kind==='cabinet'){cabinetTarget=old.cabinetOriginalTarget;cabinetVelocity=0}
  if(cancel&&old.kind==='drawer'){drawerTarget=old.drawerStart>.5?1:0;if(!drawerTarget&&viewName==='drawer')viewName='desk'}
  if(!cancel){
   if(old.kind==='drawer'){if(!dragging)api.drawer();else{drawerTarget=drawer>.5?1:0;if(drawerTarget)api.view('drawer');else if(viewName==='drawer')viewName='desk';}}
+  else if(old.kind==='cabinet'){cabinetTarget=dragging?(cabinet>.5?1:0):(old.cabinetOriginalTarget>.5?0:1);cabinetVelocity=0}
   else if(old.kind==='profile'){if(!dragging)folderTarget=1;else folderTarget=folder>.5?1:0;if(folderTarget>0)openPanel('profile',old.target);}
-  else if(!dragging){if(['case','keyform','poslesvet','contacts','education','cube','robot','orbit'].includes(old.kind))openPanel(old.kind,old.target);if(old.kind==='drawer-resume')$('#object-drawer-resume').click();if(old.kind==='drawer-education')openPanel('education',old.target);if(old.kind==='cabinet')api.cabinet();if(old.kind==='door')api.go(progress>.7?0:1,true);if(old.kind==='lamp'&&!pullTriggered)api.pull();}
+  else if(!dragging){if(['case','keyform','poslesvet','certificates','education','cube','robot','orbit'].includes(old.kind))openPanel(old.kind,old.target);if(old.kind==='drawer-resume')$('#object-drawer-resume').click();if(old.kind==='drawer-education')openPanel('education',old.target);if(old.kind==='cabinet')api.cabinet();if(old.kind==='door')api.go(progress>.7?0:1,true);if(old.kind==='lamp'&&!pullTriggered)api.pull();}
  }
  if(reduced.matches&&old.kind==='lamp'){pull=pullVelocity=0;}
  pullTriggered=false;$('#object-lamp').classList.remove('pulling');dirty=true;canvas.style.cursor='grab';clearHotspots();
 }
-for(const el of [canvas,$('#object-lamp'),$('#object-profile'),$('#object-drawer')]){
+for(const el of [canvas,$('#object-lamp'),$('#object-profile'),$('#object-drawer'),$('#object-cabinet')]){
  el.addEventListener('pointerdown',beginPointer);el.addEventListener('pointermove',movePointer);
  el.addEventListener('pointerup',e=>release(e));el.addEventListener('pointercancel',e=>release(e,true));
  el.addEventListener('lostpointercapture',e=>{if(pointer)release(e,true)});
 }
-canvas.addEventListener('wheel',e=>{if(!window.sliceUsable){e.preventDefault();return}if(api.hold||pointer?.kind==='lamp'||pointer?.kind==='drawer')return;e.preventDefault();const amount=e.deltaY*(e.deltaMode===1?18:e.deltaMode===2?innerHeight:1);target=clamp(target+clamp(amount,-220,220)*.00105,0,1);if(target>.4)audio.setInside(true);else audio.setInside(false);lookX*=.7;lookY*=.7;dirty=true},{passive:false});
+canvas.addEventListener('wheel',e=>{if(!window.sliceUsable){e.preventDefault();return}if(api.hold||pointer?.kind==='lamp'||pointer?.kind==='drawer'||pointer?.kind==='cabinet')return;e.preventDefault();const amount=e.deltaY*(e.deltaMode===1?18:e.deltaMode===2?innerHeight:1);target=clamp(target+clamp(amount,-220,220)*.00105,0,1);if(target>.4)audio.setInside(true);else audio.setInside(false);lookX*=.7;lookY*=.7;dirty=true},{passive:false});
 canvas.addEventListener('keydown',e=>{if(!window.sliceUsable)return;if(api.hold||e.ctrlKey||e.metaKey||e.altKey)return;let used=true;if(e.key==='Enter')api.go(progress<.5?1:0,true);else if(e.key==='Home')api.go(0,false);else if(e.key==='ArrowUp')lookY=clamp(lookY+.08,-.45,.5);else if(e.key==='ArrowDown')lookY=clamp(lookY-.08,-.45,.5);else if(e.key==='ArrowLeft')lookX=clamp(lookX-.12,-1.2,1.2);else if(e.key==='ArrowRight')lookX=clamp(lookX+.12,-1.2,1.2);else if(e.key.toLowerCase()==='w')moveZ=clamp(moveZ-.12,-.35,.8);else if(e.key.toLowerCase()==='s')moveZ=clamp(moveZ+.12,-.35,.8);else if(e.key.toLowerCase()==='a')moveX=clamp(moveX-.12,-.55,.65);else if(e.key.toLowerCase()==='d')moveX=clamp(moveX+.12,-.55,.65);else used=false;if(used){e.preventDefault();dirty=true}});
 canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();window.sliceFail()});
 function frame(time){const dt=Math.min((time-last)/1000,.04);last=time;cameraDelta=dt;requestAnimationFrame(frame);frameCount++;if(document.hidden||captureFrozen||window.sliceFatal)return;
  if(world.preparingGPU)return;
  if(lastReduced!==reduced.matches){lastReduced=reduced.matches;weatherText();dirty=true}
- const manipulating=!!pointer&&['drawer','lamp','profile'].includes(pointer.kind);
+ const manipulating=!!pointer&&['drawer','lamp','profile','cabinet'].includes(pointer.kind);
  const allowedTarget=!world.studioReady?0:target>progress&&world.door.rotation.y<doorPassAngle?Math.min(target,doorStopProgress):target;
  let moving=Math.abs(progress-allowedTarget)>.0001||Math.abs(brightness-(light?1:0))>.0001||Math.abs(folder-folderTarget)>.0001||Math.abs(drawer-drawerTarget)>.0001||Math.abs(cabinet-cabinetTarget)>.0001||Math.abs(cabinetVelocity)>.0001||pull>.0001||Math.abs(pullVelocity)>.0001||Math.abs(world.door.rotation.y-(doorNear?doorOpenAngle:.04))>.0001;
  if(!api.hold&&!preExit&&!manipulating){const allowed=allowedTarget,next=T.MathUtils.damp(progress,allowed,6.5,dt);progress=reduced.matches?allowed:progress+clamp(next-progress,-.02,.02);if(Math.abs(progress-allowed)<.0001)progress=allowed}
@@ -195,7 +227,7 @@ function frame(time){const dt=Math.min((time-last)/1000,.04);last=time;cameraDel
   scene.updateMatrixWorld();renderer.render(scene,camera);renderCount++;if(renderCount===1){firstFrameAt=performance.now();world.allowAssembly()}dirty=false;
  }
 }
-window.__SLICE__={geometry:()=>world.geometryReport(),inspect:()=>({firstFrameAt,fullSceneAt,shadowUpdates,cachedShadowFrames,cabinetVelocity,doorNear,doorStopProgress,doorOpenAngle,doorPassAngle,window:world.inspectWindow(),lighting:world.inspectLighting(),showcase:world.inspectProject(),weather:{...world.exterior?.weather?.inspect(),paused:rainPaused,reduced:reduced.matches},stream:world.inspectStream(),cameraClear:world.clearance(camera.position),viewName,progress,target,doorAngle:world.door.rotation.y,camera:camera.position.toArray(),look:[lookX,lookY],move:[moveX,moveZ],lamp:light,brightness,pull,folder,drawer,collection:world.inspectCollection(),furniture:world.inspectFurniture(),held:api.hold,pointerKind:pointer?.kind||null,pullThreshold:.065,pullLimit:.12,office:world.office,assets:world.assetInfo,drawCalls:renderer.info.render.calls,textureCount:renderer.info.memory.textures,triangles:renderer.info.render.triangles,frames:frameCount,renders:renderCount,audio:audio.inspect()}),drawerGrip:()=>{if(!world.drawerPull)return null;const p=new T.Box3().setFromObject(world.drawerPull).getCenter(new T.Vector3()),travel=world.inspectFurniture().drawerTravel,project=p=>{p.project(camera);return{x:(p.x+1)*innerWidth/2,y:(1-p.y)*innerHeight/2}};return{current:project(p.clone()),closed:project(p.clone().add(new T.Vector3(0,0,-travel*drawer))),open:project(p.clone().add(new T.Vector3(0,0,travel*(1-drawer))))}},points:()=>Object.fromEntries(world.objects.map(o=>{const p=new T.Box3().setFromObject(o).getCenter(new T.Vector3()).project(camera);return[o.userData.action,{x:(p.x+1)*innerWidth/2,y:(1-p.y)*innerHeight/2}]})),cord:()=>{const project=o=>{const p=o.getWorldPosition(new T.Vector3()).project(camera);return{x:(p.x+1)*innerWidth/2,y:(1-p.y)*innerHeight/2}};return{top:project(world.cordRoot),grip:project(world.cordGrip)}},get ready(){return world.studioReady&&window.sliceUsable}};
+window.__SLICE__={geometry:()=>world.geometryReport(),inspect:()=>({firstFrameAt,fullSceneAt,shadowUpdates,cachedShadowFrames,cabinetVelocity,doorNear,doorStopProgress,doorOpenAngle,doorPassAngle,window:world.inspectWindow(),lighting:world.inspectLighting(),showcase:world.inspectProject(),weather:{...world.exterior?.weather?.inspect(),paused:rainPaused,reduced:reduced.matches},stream:world.inspectStream(),cameraClear:world.clearance(camera.position),viewName,progress,target,doorAngle:world.door.rotation.y,camera:camera.position.toArray(),look:[lookX,lookY],move:[moveX,moveZ],lamp:light,brightness,pull,folder,drawer,collection:world.inspectCollection(),furniture:world.inspectFurniture(),held:api.hold,pointerKind:pointer?.kind||null,pullThreshold:.065,pullLimit:.12,office:world.office,assets:world.assetInfo,drawCalls:renderer.info.render.calls,textureCount:renderer.info.memory.textures,triangles:renderer.info.render.triangles,frames:frameCount,renders:renderCount,audio:audio.inspect()}),cabinetGrip:()=>{const g=world.cabinetGrip();if(!g)return null;const project=p=>{const v=new T.Vector3().fromArray(p).project(camera);return{x:(v.x+1)*innerWidth/2,y:(1-v.y)*innerHeight/2}};return{...g,current:project(g.current),samples:g.samples.map(s=>({...s,...project(s.position)}))}},drawerGrip:()=>{if(!world.drawerPull)return null;const p=new T.Box3().setFromObject(world.drawerPull).getCenter(new T.Vector3()),travel=world.inspectFurniture().drawerTravel,project=p=>{p.project(camera);return{x:(p.x+1)*innerWidth/2,y:(1-p.y)*innerHeight/2}};return{current:project(p.clone()),closed:project(p.clone().add(new T.Vector3(0,0,-travel*drawer))),open:project(p.clone().add(new T.Vector3(0,0,travel*(1-drawer))))}},points:()=>Object.fromEntries(world.objects.map(o=>{const p=new T.Box3().setFromObject(o).getCenter(new T.Vector3()).project(camera);return[o.userData.action,{x:(p.x+1)*innerWidth/2,y:(1-p.y)*innerHeight/2}]})),cord:()=>{const project=o=>{const p=o.getWorldPosition(new T.Vector3()).project(camera);return{x:(p.x+1)*innerWidth/2,y:(1-p.y)*innerHeight/2}};return{top:project(world.cordRoot),grip:project(world.cordGrip)}},get ready(){return world.studioReady&&window.sliceUsable}};
 // Explicit review-only capture mode freezes scene state, not just CSS animation.
 if(captureMode)window.__SLICE__.capture=async({view='corridor',yaw=0,pitch=0,x=0,z=0,assetsReady=true,baked=true,lampOn=true,referenceFraming=false,drawerOpen=false,cabinetOpen=false,drawerAmount=null,cabinetAmount=null,entranceAngle=null,cameraPose=null}={})=>{
  if(view==='education'){view='drawer';drawerOpen=true}

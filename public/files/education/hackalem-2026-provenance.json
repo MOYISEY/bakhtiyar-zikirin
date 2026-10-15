@@ -1,0 +1,37 @@
+{
+  "sourceSha256": "3b3c665af93d6a2385e3b8102aef2ea359bc52f71b20606203101f687b34f0e4",
+  "sourceBytes": 151005,
+  "sourcePages": 1,
+  "kind": "User-provided certificate of participation",
+  "event": "HackAlem AI",
+  "date": "2026-10-14",
+  "place": "Astana, Kazakhstan",
+  "redactions": [
+    {
+      "type": "QR verification identifier",
+      "pdfRect": [
+        86,
+        508,
+        173,
+        595
+      ]
+    }
+  ],
+  "notes": "Original participant name retained with user authorization. No handwritten signature seen. Printed logos do not establish their issuance or endorsement. The source Guinness wording is not independently verified or repeated in portfolio copy. Public outputs are raster derivatives, not a regenerated certificate.",
+  "outputs": [
+    {
+      "file": "hackalem-2026-public.png",
+      "width": 1600,
+      "height": 1236,
+      "bytes": 282427,
+      "sha256": "f0152ea62277efed03af52d85a72bcffc3f21d85c7d2a9ccbf9594d223e0a9aa"
+    },
+    {
+      "file": "hackalem-2026-preview.png",
+      "width": 640,
+      "height": 495,
+      "bytes": 61485,
+      "sha256": "fe324b5c8155e18f83503814317d32a5657b3113069f7fdb71864233549f0a4c"
+    }
+  ]
+}

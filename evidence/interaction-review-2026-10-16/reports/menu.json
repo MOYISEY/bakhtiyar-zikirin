@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "edge case pointer opens",
+    "edge Escape restores focus",
+    "edge profile pointer opens",
+    "edge Escape restores focus",
+    "edge contacts pointer opens",
+    "edge Escape restores focus",
+    "edge menu Escape closes",
+    "edge keyboard leave closes",
+    "edge outside click closes"
+  ],
+  "pass": true
+}

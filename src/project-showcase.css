@@ -1,0 +1,38 @@
+/* The selected project has one preview; every project name stays in view. */
+.home-hero{display:block;padding-top:2.5rem;padding-bottom:2.5rem}
+.home-hero .hero-copy{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);column-gap:9%;align-items:start}
+.home-hero .hero-copy>.eyebrow,.home-hero h1,.home-hero .hero-role,.home-hero .hero-description{grid-column:1}
+.home-hero h1{font-size:clamp(3rem,5.3vw,4.7rem);margin:.9rem 0 1rem}
+.home-hero .hero-description{margin-top:.65rem;max-width:38rem}
+.home-hero .hero-actions{grid-column:2;grid-row:1 / span 4;align-self:center;margin-top:0;width:100%}
+.home-hero .hero-actions .hero-links{margin-top:0}
+.visual-work{padding-top:1.8rem}
+.project-showcase{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(15rem,1fr);gap:2rem;align-items:start}
+.showcase-stage{position:relative;min-width:0;grid-column:1;grid-row:1}
+.showcase-panel{margin:0;min-width:0;background:var(--paper)}
+.showcase-panel[hidden]{display:none}
+.showcase-preview{display:block;position:relative;aspect-ratio:1.6;overflow:hidden;border:1px solid var(--line);background:var(--surface)}
+.showcase-preview img{display:block;width:100%;height:100%;object-fit:contain}
+.showcase-open{position:absolute;right:.85rem;bottom:.85rem;background:var(--paper);color:var(--ink);padding:.65rem .85rem;font-size:.75rem;border:1px solid var(--line)}
+.showcase-caption{display:grid;gap:1rem;padding:1.2rem 0 .25rem}
+.showcase-caption h3{font-size:clamp(1.6rem,2.5vw,2.2rem);font-weight:550;letter-spacing:-.035em}
+.showcase-purpose{font-size:1rem;line-height:1.6;margin:.35rem 0;color:var(--ink)}
+.showcase-stack{font: .72rem/1.7 Consolas,monospace;color:var(--muted)}
+.showcase-links{display:flex;flex-wrap:wrap;gap:.6rem 1.5rem;align-items:center}
+.showcase-links a{display:inline-flex;align-items:center;justify-content:space-between;min-height:44px;gap:1rem;font-size:.85rem;color:var(--teal)}
+.showcase-links .demo-link{background:var(--ink);color:var(--paper);padding:.7rem 1rem}
+.showcase-list{grid-column:2;grid-row:1;display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.showcase-choice{display:grid;grid-template-columns:1.6rem minmax(0,1fr) 1rem;gap:.75rem;align-items:center;min-height:88px;padding:1rem .85rem;border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none}
+.showcase-number{font:.65rem Consolas,monospace;color:var(--muted)}
+.showcase-choice strong{display:block;font-size:1.35rem;font-weight:550;letter-spacing:-.025em;overflow-wrap:anywhere}
+.showcase-choice small{display:block;margin-top:.3rem;font-size:.7rem;line-height:1.5;color:var(--muted)}
+.showcase-choice-arrow{color:var(--muted)}
+.showcase-choice[aria-selected=true]{background:var(--surface);box-shadow:inset 3px 0 var(--teal)}
+.showcase-choice[aria-selected=true] .showcase-choice-arrow{transform:rotate(45deg);color:var(--teal)}
+.showcase-choice:hover{background:var(--hover)}
+.showcase-choice:focus-visible{outline:2px solid var(--teal);outline-offset:-3px}
+.showcase-footer{display:flex;justify-content:flex-end;border-top:1px solid var(--line);margin-top:1.5rem;padding-top:.7rem}
+.showcase-footer a{display:inline-flex;gap:1.5rem;align-items:center;min-height:44px;font-size:.85rem;color:var(--teal)}
+@media(max-width:1000px){.project-showcase{grid-template-columns:minmax(0,1.4fr) minmax(14rem,1fr);gap:1.25rem}.showcase-choice{min-height:76px;padding:.8rem .6rem}.home-hero .hero-copy{column-gap:5%}.home-hero .hero-links>.primary-link{flex-basis:100%;min-height:48px}.home-hero .hero-links>.room-entry{min-height:64px}}
+@media(max-width:760px){.home-hero{padding-top:1.5rem;padding-bottom:1.5rem}.home-hero .hero-copy{display:block}.home-hero h1{font-size:3rem}.home-hero .hero-actions{margin-top:1.5rem}.home-hero .hero-links>.primary-link{flex-basis:10rem}.project-showcase{display:flex;flex-direction:column;gap:1.25rem}.showcase-list{width:100%;order:-1}.showcase-choice{min-height:64px;padding:.65rem .7rem;grid-template-columns:1.5rem minmax(0,1fr) 1rem}.showcase-choice strong{font-size:1.15rem}.showcase-choice small{margin-top:.15rem;font-size:.67rem}.showcase-stage{width:100%}.showcase-caption{padding-top:1rem}.showcase-purpose{font-size:.9rem}.showcase-open{right:.5rem;bottom:.5rem;padding:.5rem;font-size:.65rem}.showcase-footer{justify-content:flex-start}.visual-work{padding-top:1.2rem}}
+@media(max-width:760px) and (max-height:740px){.home-hero{padding-top:.65rem}.home-hero h1{font-size:2.4rem}.home-hero .hero-actions{margin-top:.9rem}}

@@ -26,8 +26,8 @@ async function drag(page,context,from,to,mobile){
    const initial=await p.evaluate(()=>__SLICE__.inspect());ok(name+': authored furniture assembled',initial.furniture.variant==='authored');ok(name+': no unsolicited audio',!initial.audio.armed&&initial.audio.desiredMaster===0);
    ok(name+': chair keeps physical units and floor contact',initial.assets.find(a=>a.id==='chair').nativeScale.every(v=>v===1)&&Math.abs(initial.assets.find(a=>a.id==='chair').floorGap)<.001);
    ok(name+': no drawer marker through the closed door',await p.locator('#object-drawer').isHidden());
-   await p.locator('#scene').hover();await p.mouse.wheel(0,220);await p.waitForFunction(()=>Math.abs(__SLICE__.inspect().progress-__SLICE__.inspect().target)<.0002);await p.mouse.wheel(0,220);await p.waitForFunction(()=>Math.abs(__SLICE__.inspect().progress-__SLICE__.inspect().target)<.0002);await p.waitForTimeout(400);
-   const early=await p.evaluate(()=>__SLICE__.inspect());ok(name+': drawer available before end of entry',early.progress<.6&&await p.locator('#object-drawer').isVisible());
+   await p.locator('#scene').hover();for(let step=0;step<3;step++){await p.mouse.wheel(0,220);await p.waitForFunction(()=>Math.abs(__SLICE__.inspect().progress-__SLICE__.inspect().target)<.0002)}await p.waitForTimeout(400);
+   const early=await p.evaluate(()=>__SLICE__.inspect());ok(name+': drawer available before end of entry',early.progress<.96&&early.camera[2]<1.9&&await p.locator('#object-drawer').isVisible());
    const closed=await pos(p,'#object-drawer');await p.locator('#object-drawer').focus();await p.keyboard.press('Enter');await waitDrawer(p,1);
    ok(name+': keyboard opens a bounded physical drawer',await p.evaluate(()=>Math.abs(__SLICE__.inspect().furniture.drawerOffset-.29)<.0001));
    ok(name+': keyboard keeps drawer focus',await p.evaluate(()=>document.activeElement.id==='object-drawer'));

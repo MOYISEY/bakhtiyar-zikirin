@@ -1,0 +1,607 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "label": "interaction-final",
+  "checks": [
+    "robot: exact asset hash",
+    "robot: matching compressed bytes",
+    "robot: bounded mesh and material budget",
+    "robot: no image texture or external dependency",
+    "orbit: exact asset hash",
+    "orbit: matching compressed bytes",
+    "orbit: bounded mesh and material budget",
+    "orbit: no image texture or external dependency",
+    "ceiling-panel: exact asset hash",
+    "ceiling-panel: matching compressed bytes",
+    "ceiling-panel: bounded mesh and material budget",
+    "ceiling-panel: no image texture or external dependency",
+    "three accent downloads total below 115 kB gzip",
+    "resume source and PDF match build record",
+    "desktop-ru: native resume download matches reviewed PDF",
+    "desktop-ru: room receives selected language",
+    "desktop-ru: corridor end is closed",
+    "desktop-ru: four authored physical ceiling panels are present",
+    "desktop-ru: three fixed corridor lights retain intensity",
+    "desktop-ru: single centred plaque per side door",
+    "desktop-ru: one sun keeps cascade resolution and modest filtering",
+    "desktop-ru: task light alone switches off",
+    "desktop-ru: task light returns to its original intensity",
+    "desktop-ru: 3D resume link serves the same reviewed bytes",
+    "desktop-ru: robot cycle 0 uses the Blender model within budget",
+    "desktop-ru: robot cycle 0 releases viewer and preserves room textures",
+    "desktop-ru: robot cycle 1 uses the Blender model within budget",
+    "desktop-ru: robot cycle 1 releases viewer and preserves room textures",
+    "desktop-ru: orbit cycle 0 uses the Blender model within budget",
+    "desktop-ru: orbit cycle 0 releases viewer and preserves room textures",
+    "desktop-ru: orbit cycle 1 uses the Blender model within budget",
+    "desktop-ru: orbit cycle 1 releases viewer and preserves room textures",
+    "desktop-ru: refined miniatures remain seated inside cabinet",
+    "desktop-ru: regular view returns to actual home",
+    "desktop-ru: regular view preserves language and theme",
+    "desktop-ru: no horizontal overflow",
+    "desktop-kk: native resume download matches reviewed PDF",
+    "desktop-kk: room receives selected language",
+    "desktop-kk: corridor end is closed",
+    "desktop-kk: four authored physical ceiling panels are present",
+    "desktop-kk: three fixed corridor lights retain intensity",
+    "desktop-kk: single centred plaque per side door",
+    "desktop-kk: one sun keeps cascade resolution and modest filtering",
+    "desktop-kk: task light alone switches off",
+    "desktop-kk: task light returns to its original intensity",
+    "desktop-kk: 3D resume link serves the same reviewed bytes",
+    "desktop-kk: robot cycle 0 uses the Blender model within budget",
+    "desktop-kk: robot cycle 0 releases viewer and preserves room textures",
+    "desktop-kk: robot cycle 1 uses the Blender model within budget",
+    "desktop-kk: robot cycle 1 releases viewer and preserves room textures",
+    "desktop-kk: orbit cycle 0 uses the Blender model within budget",
+    "desktop-kk: orbit cycle 0 releases viewer and preserves room textures",
+    "desktop-kk: orbit cycle 1 uses the Blender model within budget",
+    "desktop-kk: orbit cycle 1 releases viewer and preserves room textures",
+    "desktop-kk: refined miniatures remain seated inside cabinet",
+    "desktop-kk: regular view returns to actual home",
+    "desktop-kk: regular view preserves language and theme",
+    "desktop-kk: no horizontal overflow",
+    "desktop-en: native resume download matches reviewed PDF",
+    "desktop-en: room receives selected language",
+    "desktop-en: corridor end is closed",
+    "desktop-en: four authored physical ceiling panels are present",
+    "desktop-en: three fixed corridor lights retain intensity",
+    "desktop-en: single centred plaque per side door",
+    "desktop-en: one sun keeps cascade resolution and modest filtering",
+    "desktop-en: task light alone switches off",
+    "desktop-en: task light returns to its original intensity",
+    "desktop-en: 3D resume link serves the same reviewed bytes",
+    "desktop-en: robot cycle 0 uses the Blender model within budget",
+    "desktop-en: robot cycle 0 releases viewer and preserves room textures",
+    "desktop-en: robot cycle 1 uses the Blender model within budget",
+    "desktop-en: robot cycle 1 releases viewer and preserves room textures",
+    "desktop-en: orbit cycle 0 uses the Blender model within budget",
+    "desktop-en: orbit cycle 0 releases viewer and preserves room textures",
+    "desktop-en: orbit cycle 1 uses the Blender model within budget",
+    "desktop-en: orbit cycle 1 releases viewer and preserves room textures",
+    "desktop-en: refined miniatures remain seated inside cabinet",
+    "desktop-en: regular view returns to actual home",
+    "desktop-en: regular view preserves language and theme",
+    "desktop-en: no horizontal overflow",
+    "desktop: no runtime errors",
+    "mobile-ru: native resume download matches reviewed PDF",
+    "mobile-ru: room receives selected language",
+    "mobile-ru: corridor end is closed",
+    "mobile-ru: four authored physical ceiling panels are present",
+    "mobile-ru: three fixed corridor lights retain intensity",
+    "mobile-ru: single centred plaque per side door",
+    "mobile-ru: one sun keeps cascade resolution and modest filtering",
+    "mobile-ru: task light alone switches off",
+    "mobile-ru: task light returns to its original intensity",
+    "mobile-ru: 3D resume link serves the same reviewed bytes",
+    "mobile-ru: robot cycle 0 uses the Blender model within budget",
+    "mobile-ru: robot cycle 0 releases viewer and preserves room textures",
+    "mobile-ru: robot cycle 1 uses the Blender model within budget",
+    "mobile-ru: robot cycle 1 releases viewer and preserves room textures",
+    "mobile-ru: orbit cycle 0 uses the Blender model within budget",
+    "mobile-ru: orbit cycle 0 releases viewer and preserves room textures",
+    "mobile-ru: orbit cycle 1 uses the Blender model within budget",
+    "mobile-ru: orbit cycle 1 releases viewer and preserves room textures",
+    "mobile-ru: refined miniatures remain seated inside cabinet",
+    "mobile-ru: regular view returns to actual home",
+    "mobile-ru: regular view preserves language and theme",
+    "mobile-ru: no horizontal overflow",
+    "mobile-kk: native resume download matches reviewed PDF",
+    "mobile-kk: room receives selected language",
+    "mobile-kk: corridor end is closed",
+    "mobile-kk: four authored physical ceiling panels are present",
+    "mobile-kk: three fixed corridor lights retain intensity",
+    "mobile-kk: single centred plaque per side door",
+    "mobile-kk: one sun keeps cascade resolution and modest filtering",
+    "mobile-kk: task light alone switches off",
+    "mobile-kk: task light returns to its original intensity",
+    "mobile-kk: 3D resume link serves the same reviewed bytes",
+    "mobile-kk: robot cycle 0 uses the Blender model within budget",
+    "mobile-kk: robot cycle 0 releases viewer and preserves room textures",
+    "mobile-kk: robot cycle 1 uses the Blender model within budget",
+    "mobile-kk: robot cycle 1 releases viewer and preserves room textures",
+    "mobile-kk: orbit cycle 0 uses the Blender model within budget",
+    "mobile-kk: orbit cycle 0 releases viewer and preserves room textures",
+    "mobile-kk: orbit cycle 1 uses the Blender model within budget",
+    "mobile-kk: orbit cycle 1 releases viewer and preserves room textures",
+    "mobile-kk: refined miniatures remain seated inside cabinet",
+    "mobile-kk: regular view returns to actual home",
+    "mobile-kk: regular view preserves language and theme",
+    "mobile-kk: no horizontal overflow",
+    "mobile-en: native resume download matches reviewed PDF",
+    "mobile-en: room receives selected language",
+    "mobile-en: corridor end is closed",
+    "mobile-en: four authored physical ceiling panels are present",
+    "mobile-en: three fixed corridor lights retain intensity",
+    "mobile-en: single centred plaque per side door",
+    "mobile-en: one sun keeps cascade resolution and modest filtering",
+    "mobile-en: task light alone switches off",
+    "mobile-en: task light returns to its original intensity",
+    "mobile-en: 3D resume link serves the same reviewed bytes",
+    "mobile-en: robot cycle 0 uses the Blender model within budget",
+    "mobile-en: robot cycle 0 releases viewer and preserves room textures",
+    "mobile-en: robot cycle 1 uses the Blender model within budget",
+    "mobile-en: robot cycle 1 releases viewer and preserves room textures",
+    "mobile-en: orbit cycle 0 uses the Blender model within budget",
+    "mobile-en: orbit cycle 0 releases viewer and preserves room textures",
+    "mobile-en: orbit cycle 1 uses the Blender model within budget",
+    "mobile-en: orbit cycle 1 releases viewer and preserves room textures",
+    "mobile-en: refined miniatures remain seated inside cabinet",
+    "mobile-en: regular view returns to actual home",
+    "mobile-en: regular view preserves language and theme",
+    "mobile-en: no horizontal overflow",
+    "mobile: no runtime errors"
+  ],
+  "scenarios": [
+    {
+      "name": "desktop-ru",
+      "theme": "light",
+      "passed": true,
+      "lighting": {
+        "closedCorridorEnd": true,
+        "ceilingPanels": 4,
+        "corridorLights": [
+          {
+            "position": [
+              0,
+              2.94,
+              4.5
+            ],
+            "intensity": 20
+          },
+          {
+            "position": [
+              0,
+              2.94,
+              7.9
+            ],
+            "intensity": 20
+          },
+          {
+            "position": [
+              0,
+              2.94,
+              10.5
+            ],
+            "intensity": 20
+          }
+        ],
+        "taskLight": {
+          "position": [
+            1.075,
+            1.4961344953536986,
+            -1.7688409498631954
+          ],
+          "intensity": 14,
+          "shadowBias": -0.0003,
+          "normalBias": 0.01
+        },
+        "environmentIntensity": 0.24,
+        "fill": 0.55,
+        "daylight": {
+          "cascades": 3,
+          "splitsM": [
+            16,
+            135,
+            720
+          ],
+          "mapSize": 2048,
+          "oneSun": true,
+          "filterRadius": 4
+        },
+        "plaques": [
+          {
+            "number": "01",
+            "offsetY": 0,
+            "frontGap": 0.0005000000000000004
+          },
+          {
+            "number": "02",
+            "offsetY": 0,
+            "frontGap": 0.0005000000000000004
+          },
+          {
+            "number": "03",
+            "offsetY": 0,
+            "frontGap": 0.0005000000000000004
+          }
+        ]
+      }
+    },
+    {
+      "name": "desktop-kk",
+      "theme": "light",
+      "passed": true,
+      "lighting": {
+        "closedCorridorEnd": true,
+        "ceilingPanels": 4,
+        "corridorLights": [
+          {
+            "position": [
+              0,
+              2.94,
+              4.5
+            ],
+            "intensity": 20
+          },
+          {
+            "position": [
+              0,
+              2.94,
+              7.9
+            ],
+            "intensity": 20
+          },
+          {
+            "position": [
+              0,
+              2.94,
+              10.5
+            ],
+            "intensity": 20
+          }
+        ],
+        "taskLight": {
+          "position": [
+            1.075,
+            1.4961344953536986,
+            -1.7688409498631954
+          ],
+          "intensity": 14,
+          "shadowBias": -0.0003,
+          "normalBias": 0.01
+        },
+        "environmentIntensity": 0.24,
+        "fill": 0.55,
+        "daylight": {
+          "cascades": 3,
+          "splitsM": [
+            16,
+            135,
+            720
+          ],
+          "mapSize": 2048,
+          "oneSun": true,
+          "filterRadius": 4
+        },
+        "plaques": [
+          {
+            "number": "01",
+            "offsetY": 0,
+            "frontGap": 0.0005000000000000004
+          },
+          {
+            "number": "02",
+            "offsetY": 0,
+            "frontGap": 0.0005000000000000004
+          },
+          {
+            "number": "03",
+            "offsetY": 0,
+            "frontGap": 0.0005000000000000004
+          }
+        ]
+      }
+    },
+    {
+      "name": "desktop-en",
+      "theme": "light",
+      "passed": true,
+      "lighting": {
+        "closedCorridorEnd": true,
+        "ceilingPanels": 4,
+        "corridorLights": [
+          {
+            "position": [
+              0,
+              2.94,
+              4.5
+            ],
+            "intensity": 20
+          },
+          {
+            "position": [
+              0,
+              2.94,
+              7.9
+            ],
+            "intensity": 20
+          },
+          {
+            "position": [
+              0,
+              2.94,
+              10.5
+            ],
+            "intensity": 20
+          }
+        ],
+        "taskLight": {
+          "position": [
+            1.075,
+            1.4961344953536986,
+            -1.7688409498631954
+          ],
+          "intensity": 14,
+          "shadowBias": -0.0003,
+          "normalBias": 0.01
+        },
+        "environmentIntensity": 0.24,
+        "fill": 0.55,
+        "daylight": {
+          "cascades": 3,
+          "splitsM": [
+            16,
+            135,
+            720
+          ],
+          "mapSize": 2048,
+          "oneSun": true,
+          "filterRadius": 4
+        },
+        "plaques": [
+          {
+            "number": "01",
+            "offsetY": 0,
+            "frontGap": 0.0005000000000000004
+          },
+          {
+            "number": "02",
+            "offsetY": 0,
+            "frontGap": 0.0005000000000000004
+          },
+          {
+            "number": "03",
+            "offsetY": 0,
+            "frontGap": 0.0005000000000000004
+          }
+        ]
+      }
+    },
+    {
+      "name": "mobile-ru",
+      "theme": "dark",
+      "passed": true,
+      "lighting": {
+        "closedCorridorEnd": true,
+        "ceilingPanels": 4,
+        "corridorLights": [
+          {
+            "position": [
+              0,
+              2.94,
+              4.5
+            ],
+            "intensity": 20
+          },
+          {
+            "position": [
+              0,
+              2.94,
+              7.9
+            ],
+            "intensity": 20
+          },
+          {
+            "position": [
+              0,
+              2.94,
+              10.5
+            ],
+            "intensity": 20
+          }
+        ],
+        "taskLight": {
+          "position": [
+            1.075,
+            1.4961344953536986,
+            -1.7688409498631954
+          ],
+          "intensity": 14,
+          "shadowBias": -0.0003,
+          "normalBias": 0.01
+        },
+        "environmentIntensity": 0.24,
+        "fill": 0.55,
+        "daylight": {
+          "cascades": 3,
+          "splitsM": [
+            16,
+            135,
+            720
+          ],
+          "mapSize": 2048,
+          "oneSun": true,
+          "filterRadius": 4
+        },
+        "plaques": [
+          {
+            "number": "01",
+            "offsetY": 0,
+            "frontGap": 0.0005000000000000004
+          },
+          {
+            "number": "02",
+            "offsetY": 0,
+            "frontGap": 0.0005000000000000004
+          },
+          {
+            "number": "03",
+            "offsetY": 0,
+            "frontGap": 0.0005000000000000004
+          }
+        ]
+      }
+    },
+    {
+      "name": "mobile-kk",
+      "theme": "dark",
+      "passed": true,
+      "lighting": {
+        "closedCorridorEnd": true,
+        "ceilingPanels": 4,
+        "corridorLights": [
+          {
+            "position": [
+              0,
+              2.94,
+              4.5
+            ],
+            "intensity": 20
+          },
+          {
+            "position": [
+              0,
+              2.94,
+              7.9
+            ],
+            "intensity": 20
+          },
+          {
+            "position": [
+              0,
+              2.94,
+              10.5
+            ],
+            "intensity": 20
+          }
+        ],
+        "taskLight": {
+          "position": [
+            1.075,
+            1.4961344953536986,
+            -1.7688409498631954
+          ],
+          "intensity": 14,
+          "shadowBias": -0.0003,
+          "normalBias": 0.01
+        },
+        "environmentIntensity": 0.24,
+        "fill": 0.55,
+        "daylight": {
+          "cascades": 3,
+          "splitsM": [
+            16,
+            135,
+            720
+          ],
+          "mapSize": 2048,
+          "oneSun": true,
+          "filterRadius": 4
+        },
+        "plaques": [
+          {
+            "number": "01",
+            "offsetY": 0,
+            "frontGap": 0.0005000000000000004
+          },
+          {
+            "number": "02",
+            "offsetY": 0,
+            "frontGap": 0.0005000000000000004
+          },
+          {
+            "number": "03",
+            "offsetY": 0,
+            "frontGap": 0.0005000000000000004
+          }
+        ]
+      }
+    },
+    {
+      "name": "mobile-en",
+      "theme": "dark",
+      "passed": true,
+      "lighting": {
+        "closedCorridorEnd": true,
+        "ceilingPanels": 4,
+        "corridorLights": [
+          {
+            "position": [
+              0,
+              2.94,
+              4.5
+            ],
+            "intensity": 20
+          },
+          {
+            "position": [
+              0,
+              2.94,
+              7.9
+            ],
+            "intensity": 20
+          },
+          {
+            "position": [
+              0,
+              2.94,
+              10.5
+            ],
+            "intensity": 20
+          }
+        ],
+        "taskLight": {
+          "position": [
+            1.075,
+            1.4961344953536986,
+            -1.7688409498631954
+          ],
+          "intensity": 14,
+          "shadowBias": -0.0003,
+          "normalBias": 0.01
+        },
+        "environmentIntensity": 0.24,
+        "fill": 0.55,
+        "daylight": {
+          "cascades": 3,
+          "splitsM": [
+            16,
+            135,
+            720
+          ],
+          "mapSize": 2048,
+          "oneSun": true,
+          "filterRadius": 4
+        },
+        "plaques": [
+          {
+            "number": "01",
+            "offsetY": 0,
+            "frontGap": 0.0005000000000000004
+          },
+          {
+            "number": "02",
+            "offsetY": 0,
+            "frontGap": 0.0005000000000000004
+          },
+          {
+            "number": "03",
+            "offsetY": 0,
+            "frontGap": 0.0005000000000000004
+          }
+        ]
+      }
+    }
+  ],
+  "passed": true
+}

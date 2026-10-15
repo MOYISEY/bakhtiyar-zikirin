@@ -1,0 +1,3524 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "checks": [
+    "320 0: covered documents inaccessible",
+    "320 1: covered documents inaccessible",
+    "320 2: covered documents inaccessible",
+    "320 3: covered documents inaccessible",
+    "320 4: covered documents inaccessible",
+    "320 5: covered documents inaccessible",
+    "320 6: covered documents inaccessible",
+    "320 7: covered documents inaccessible",
+    "320 8: covered documents inaccessible",
+    "320 9: covered documents inaccessible",
+    "320 10: covered documents inaccessible",
+    "320 12 drawer-resume: visible emerging document has a persistent label",
+    "320 12 drawer-education: visible emerging document has a persistent label",
+    "320 12 drawer-resume: real paper ray and 44px target",
+    "320 12 drawer-resume: all paper content clear",
+    "320 12 drawer-education: real paper ray and 44px target",
+    "320 12 drawer-education: all paper content clear",
+    "320 12: labels separate",
+    "320 13 drawer-resume: visible emerging document has a persistent label",
+    "320 13 drawer-education: visible emerging document has a persistent label",
+    "320 13 drawer-resume: real paper ray and 44px target",
+    "320 13 drawer-resume: all paper content clear",
+    "320 13 drawer-education: real paper ray and 44px target",
+    "320 13 drawer-education: all paper content clear",
+    "320 13: labels separate",
+    "320 14 drawer-resume: visible emerging document has a persistent label",
+    "320 14 drawer-education: visible emerging document has a persistent label",
+    "320 14 drawer-resume: real paper ray and 44px target",
+    "320 14 drawer-resume: all paper content clear",
+    "320 14 drawer-education: real paper ray and 44px target",
+    "320 14 drawer-education: all paper content clear",
+    "320 14: labels separate",
+    "320 15 drawer-resume: visible emerging document has a persistent label",
+    "320 15 drawer-education: visible emerging document has a persistent label",
+    "320 15 drawer-resume: real paper ray and 44px target",
+    "320 15 drawer-resume: all paper content clear",
+    "320 15 drawer-education: real paper ray and 44px target",
+    "320 15 drawer-education: all paper content clear",
+    "320 15: labels separate",
+    "320 16 drawer-resume: visible emerging document has a persistent label",
+    "320 16 drawer-education: visible emerging document has a persistent label",
+    "320 16 drawer-resume: real paper ray and 44px target",
+    "320 16 drawer-resume: all paper content clear",
+    "320 16 drawer-education: real paper ray and 44px target",
+    "320 16 drawer-education: all paper content clear",
+    "320 16: labels separate",
+    "320 17 drawer-resume: visible emerging document has a persistent label",
+    "320 17 drawer-education: visible emerging document has a persistent label",
+    "320 17 drawer-resume: real paper ray and 44px target",
+    "320 17 drawer-resume: all paper content clear",
+    "320 17 drawer-education: real paper ray and 44px target",
+    "320 17 drawer-education: all paper content clear",
+    "320 17: labels separate",
+    "320 18 drawer-resume: visible emerging document has a persistent label",
+    "320 18 drawer-education: visible emerging document has a persistent label",
+    "320 18 drawer-resume: real paper ray and 44px target",
+    "320 18 drawer-resume: all paper content clear",
+    "320 18 drawer-education: real paper ray and 44px target",
+    "320 18 drawer-education: all paper content clear",
+    "320 18: labels separate",
+    "320 19 drawer-resume: visible emerging document has a persistent label",
+    "320 19 drawer-education: visible emerging document has a persistent label",
+    "320 19 drawer-resume: real paper ray and 44px target",
+    "320 19 drawer-resume: all paper content clear",
+    "320 19 drawer-education: real paper ray and 44px target",
+    "320 19 drawer-education: all paper content clear",
+    "320 19: labels separate",
+    "320 20 drawer-resume: visible emerging document has a persistent label",
+    "320 20 drawer-education: visible emerging document has a persistent label",
+    "320 20 drawer-resume: real paper ray and 44px target",
+    "320 20 drawer-resume: all paper content clear",
+    "320 20 drawer-education: real paper ray and 44px target",
+    "320 20 drawer-education: all paper content clear",
+    "320 20: labels separate",
+    "320 yaw -0.12 drawer-resume: moved camera retains physical attachment",
+    "320 yaw -0.12 drawer-education: moved camera retains physical attachment",
+    "320 yaw 0.12 drawer-resume: moved camera retains physical attachment",
+    "320 yaw 0.12 drawer-education: moved camera retains physical attachment",
+    "390 0: covered documents inaccessible",
+    "390 1: covered documents inaccessible",
+    "390 2: covered documents inaccessible",
+    "390 3: covered documents inaccessible",
+    "390 4: covered documents inaccessible",
+    "390 5: covered documents inaccessible",
+    "390 6: covered documents inaccessible",
+    "390 7: covered documents inaccessible",
+    "390 8: covered documents inaccessible",
+    "390 9: covered documents inaccessible",
+    "390 10: covered documents inaccessible",
+    "390 12 drawer-resume: visible emerging document has a persistent label",
+    "390 12 drawer-education: visible emerging document has a persistent label",
+    "390 12 drawer-resume: real paper ray and 44px target",
+    "390 12 drawer-resume: all paper content clear",
+    "390 12 drawer-education: real paper ray and 44px target",
+    "390 12 drawer-education: all paper content clear",
+    "390 12: labels separate",
+    "390 13 drawer-resume: visible emerging document has a persistent label",
+    "390 13 drawer-education: visible emerging document has a persistent label",
+    "390 13 drawer-resume: real paper ray and 44px target",
+    "390 13 drawer-resume: all paper content clear",
+    "390 13 drawer-education: real paper ray and 44px target",
+    "390 13 drawer-education: all paper content clear",
+    "390 13: labels separate",
+    "390 14 drawer-resume: visible emerging document has a persistent label",
+    "390 14 drawer-education: visible emerging document has a persistent label",
+    "390 14 drawer-resume: real paper ray and 44px target",
+    "390 14 drawer-resume: all paper content clear",
+    "390 14 drawer-education: real paper ray and 44px target",
+    "390 14 drawer-education: all paper content clear",
+    "390 14: labels separate",
+    "390 15 drawer-resume: visible emerging document has a persistent label",
+    "390 15 drawer-education: visible emerging document has a persistent label",
+    "390 15 drawer-resume: real paper ray and 44px target",
+    "390 15 drawer-resume: all paper content clear",
+    "390 15 drawer-education: real paper ray and 44px target",
+    "390 15 drawer-education: all paper content clear",
+    "390 15: labels separate",
+    "390 16 drawer-resume: visible emerging document has a persistent label",
+    "390 16 drawer-education: visible emerging document has a persistent label",
+    "390 16 drawer-resume: real paper ray and 44px target",
+    "390 16 drawer-resume: all paper content clear",
+    "390 16 drawer-education: real paper ray and 44px target",
+    "390 16 drawer-education: all paper content clear",
+    "390 16: labels separate",
+    "390 17 drawer-resume: visible emerging document has a persistent label",
+    "390 17 drawer-education: visible emerging document has a persistent label",
+    "390 17 drawer-resume: real paper ray and 44px target",
+    "390 17 drawer-resume: all paper content clear",
+    "390 17 drawer-education: real paper ray and 44px target",
+    "390 17 drawer-education: all paper content clear",
+    "390 17: labels separate",
+    "390 18 drawer-resume: visible emerging document has a persistent label",
+    "390 18 drawer-education: visible emerging document has a persistent label",
+    "390 18 drawer-resume: real paper ray and 44px target",
+    "390 18 drawer-resume: all paper content clear",
+    "390 18 drawer-education: real paper ray and 44px target",
+    "390 18 drawer-education: all paper content clear",
+    "390 18: labels separate",
+    "390 19 drawer-resume: visible emerging document has a persistent label",
+    "390 19 drawer-education: visible emerging document has a persistent label",
+    "390 19 drawer-resume: real paper ray and 44px target",
+    "390 19 drawer-resume: all paper content clear",
+    "390 19 drawer-education: real paper ray and 44px target",
+    "390 19 drawer-education: all paper content clear",
+    "390 19: labels separate",
+    "390 20 drawer-resume: visible emerging document has a persistent label",
+    "390 20 drawer-education: visible emerging document has a persistent label",
+    "390 20 drawer-resume: real paper ray and 44px target",
+    "390 20 drawer-resume: all paper content clear",
+    "390 20 drawer-education: real paper ray and 44px target",
+    "390 20 drawer-education: all paper content clear",
+    "390 20: labels separate",
+    "390 yaw -0.12 drawer-resume: moved camera retains physical attachment",
+    "390 yaw -0.12 drawer-education: moved camera retains physical attachment",
+    "390 yaw 0.12 drawer-resume: moved camera retains physical attachment",
+    "390 yaw 0.12 drawer-education: moved camera retains physical attachment"
+  ],
+  "samples": [
+    {
+      "width": 320,
+      "amount": 0,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 70.31083174070851,
+            "right": 144.9012644955852,
+            "top": 238.85650610432367,
+            "bottom": 313.0475481601012
+          },
+          "point": {
+            "x": 109.14397738684204,
+            "y": 274.1633987817132,
+            "z": 0.9196509093068967
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 99.92717913280971,
+            "y": 326.7658998920394,
+            "z": 0.9050859682175794
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 175.411922647352,
+            "right": 247.74972392556293,
+            "top": 256.54070192582645,
+            "bottom": 293.0494855706842
+          },
+          "point": {
+            "x": 210.85602261315796,
+            "y": 274.1633987817132,
+            "z": 0.9196509093068967
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 220.0728208671903,
+            "y": 326.7658998920394,
+            "z": 0.9050859682175794
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "amount": 0.05,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 69.75870421778646,
+            "right": 144.81584831423217,
+            "top": 243.6794774683078,
+            "bottom": 318.7404840566201
+          },
+          "point": {
+            "x": 108.84396276812171,
+            "y": 279.39578296775187,
+            "z": 0.9191768080922278
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 99.5081171545368,
+            "y": 333.32013055071724,
+            "z": 0.9044237411775499
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 175.5009295326144,
+            "right": 248.27816079692994,
+            "top": 261.5666396731621,
+            "bottom": 298.49841871987417
+          },
+          "point": {
+            "x": 211.1560372318783,
+            "y": 279.39578296775187,
+            "z": 0.9191768080922278
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 220.49188284546318,
+            "y": 333.32013055071724,
+            "z": 0.9044237411775499
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "amount": 0.1,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 69.19973678187091,
+            "right": 144.72946020603473,
+            "top": 248.55738618187308,
+            "bottom": 324.50386454466735
+          },
+          "point": {
+            "x": 108.5403873947051,
+            "y": 284.69026824953954,
+            "z": 0.918697079957998
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 99.08316743524287,
+            "y": 339.9664469024691,
+            "z": 0.9037522099736711
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 175.59097045418522,
+            "right": 248.81300081909762,
+            "top": 266.65102930716637,
+            "bottom": 304.01330314636374
+          },
+          "point": {
+            "x": 211.4596126052949,
+            "y": 284.69026824953954,
+            "z": 0.918697079957998
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 220.9168325647571,
+            "y": 339.9664469024691,
+            "z": 0.9037522099736711
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "amount": 0.15,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 68.63380153858068,
+            "right": 144.64208348714675,
+            "top": 253.49117628965112,
+            "bottom": 330.3390052901183
+          },
+          "point": {
+            "x": 108.23318749637949,
+            "y": 290.04796680705573,
+            "z": 0.9182116241306667
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 98.65220501463291,
+            "y": 346.70680335652116,
+            "z": 0.9030711771361403
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 175.68206353670038,
+            "right": 249.35436108341685,
+            "top": 271.79489648927125,
+            "bottom": 309.5953435044467
+          },
+          "point": {
+            "x": 211.7668125036205,
+            "y": 290.04796680705573,
+            "z": 0.9182116241306667
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 221.3477949853671,
+            "y": 346.70680335652116,
+            "z": 0.9030711771361403
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "amount": 0.2,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 68.0607673850024,
+            "right": 144.55370108967045,
+            "top": 258.48181359086203,
+            "bottom": 336.2472549269885
+          },
+          "point": {
+            "x": 107.92229777102375,
+            "y": 295.47001753742273,
+            "z": 0.9177203374158796
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 98.21510137103868,
+            "y": 353.54321002283876,
+            "z": 0.9023804395672572
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 175.7742273308713,
+            "right": 249.9023615536717,
+            "top": 276.99929101860994,
+            "bottom": 315.2457739668091
+          },
+          "point": {
+            "x": 212.07770222897625,
+            "y": 295.47001753742273,
+            "z": 0.9177203374158796
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 221.78489862896132,
+            "y": 353.54321002283876,
+            "z": 0.9023804395672572
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "amount": 0.25,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 67.4804999084384,
+            "right": 144.4642955505417,
+            "top": 263.5302862695876,
+            "bottom": 342.22999609659723
+          },
+          "point": {
+            "x": 107.6076513383304,
+            "y": 300.9575868620124,
+            "z": 0.9172231141253364
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 97.7717242936339,
+            "y": 360.47773471070946,
+            "z": 0.9016797883394918
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 175.86748082607895,
+            "right": 250.45712515470518,
+            "top": 282.2652875462841,
+            "bottom": 320.9658591342395
+          },
+          "point": {
+            "x": 212.3923486616696,
+            "y": 300.9575868620124,
+            "z": 0.9172231141253364
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 222.2282757063661,
+            "y": 360.47773471070946,
+            "z": 0.9016797883394918
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "amount": 0.3,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 66.89286128129608,
+            "right": 144.3738490000269,
+            "top": 268.63760554708404,
+            "bottom": 348.2886465262798
+          },
+          "point": {
+            "x": 107.28917969183995,
+            "y": 306.5118695629889,
+            "z": 0.9167198460009937
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 97.32193774910812,
+            "y": 367.51250501399784,
+            "z": 0.9009690084847932
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 175.9618434634176,
+            "right": 251.01877786434562,
+            "top": 287.5939863151456,
+            "bottom": 326.7568949791852
+          },
+          "point": {
+            "x": 212.71082030816004,
+            "y": 306.5118695629889,
+            "z": 0.9167198460009937
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 222.67806225089188,
+            "y": 367.51250501399784,
+            "z": 0.9009690084847932
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "amount": 0.35,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 66.29771015194594,
+            "right": 144.2823431498159,
+            "top": 273.80480635703833,
+            "bottom": 354.42466014942636
+          },
+          "point": {
+            "x": 106.96681264921492,
+            "y": 312.1340896505496,
+            "z": 0.9162104221364843
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 96.86560174251613,
+            "y": 374.64971048749453,
+            "z": 0.9002478787746968
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 176.05733514920684,
+            "right": 251.58744880877953,
+            "top": 292.9865139261607,
+            "bottom": 332.6202098246423
+          },
+          "point": {
+            "x": 213.03318735078508,
+            "y": 312.1340896505496,
+            "z": 0.9162104221364843
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 223.13439825748387,
+            "y": 374.64971048749453,
+            "z": 0.9002478787746968
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "amount": 0.4,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 65.69490153136691,
+            "right": 144.18975928069398,
+            "top": 279.0329480447176,
+            "bottom": 360.6395282687004
+          },
+          "point": {
+            "x": 106.64047830067827,
+            "y": 317.82550126218234,
+            "z": 0.9156947288956372
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 96.40257217200421,
+            "y": 381.89160491903175,
+            "z": 0.8995161714907529
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 176.15397626899102,
+            "right": 252.16327036152245,
+            "top": 298.44402413248156,
+            "bottom": 338.5571653599283
+          },
+          "point": {
+            "x": 213.35952169932173,
+            "y": 317.82550126218234,
+            "z": 0.9156947288956372
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 223.59742782799577,
+            "y": 381.89160491903175,
+            "z": 0.8995161714907529
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "amount": 0.45,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 65.08428667538779,
+            "right": 144.0960782297756,
+            "top": 284.3231150910004,
+            "bottom": 366.9347807643932
+          },
+          "point": {
+            "x": 106.31010295553608,
+            "y": 323.5873895953321,
+            "z": 0.9151726498279681
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 95.9327006770965,
+            "y": 389.24050870232185,
+            "z": 0.8987736521847797
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 176.2517877020481,
+            "right": 252.74637824614615,
+            "top": 303.9676986623963,
+            "bottom": 344.5691576949669
+          },
+          "point": {
+            "x": 213.68989704446392,
+            "y": 323.5873895953321,
+            "z": 0.9151726498279681
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 224.0672993229035,
+            "y": 389.24050870232185,
+            "z": 0.8987736521847797
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "amount": 0.5,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 64.46571296232408,
+            "right": 144.00128037728155,
+            "top": 289.6764178623325,
+            "bottom": 373.3119873499707
+          },
+          "point": {
+            "x": 105.97561108670149,
+            "y": 329.4210718749285,
+            "z": 0.9146440655810145
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 95.45583448020597,
+            "y": 396.6988113157635,
+            "z": 0.8980200794284096
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 176.35079083642785,
+            "right": 253.33691164293134,
+            "top": 309.5587480723953,
+            "bottom": 350.6576184548074
+          },
+          "point": {
+            "x": 214.0243889132985,
+            "y": 329.4210718749285,
+            "z": 0.9146440655810145
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 224.54416551979403,
+            "y": 396.6988113157635,
+            "z": 0.8980200794284096
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "amount": 0.55,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 63.83902376579886,
+            "right": 143.9053456328402,
+            "top": 295.09399338769396,
+            "bottom": 379.7727588769785
+          },
+          "point": {
+            "x": 105.63692527313165,
+            "y": 335.32789835730887,
+            "z": 0.9141088538093699
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 94.97181622101431,
+            "y": 404.26897391278123,
+            "z": 0.8972552045513669
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 176.45100758454416,
+            "right": 253.93501329961998,
+            "top": 315.2184126316428,
+            "bottom": 356.8240159161703
+          },
+          "point": {
+            "x": 214.36307472686835,
+            "y": 335.32789835730887,
+            "z": 0.9141088538093699
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 225.0281837789857,
+            "y": 404.26897391278123,
+            "z": 0.8972552045513669
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "amount": 0.6,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": false,
+          "disabled": false,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 32,
+            "top": 468.703125,
+            "right": 156,
+            "bottom": 512.703125,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 63.20405832252469,
+            "right": 143.80825342129341,
+            "top": 300.5770061637208,
+            "bottom": 386.3187486915798
+          },
+          "point": {
+            "x": 105.29396614008604,
+            "y": 341.30925337213966,
+            "z": 0.9135668890802766
+          },
+          "visiblePages": 1,
+          "hit": "drawer-resume",
+          "labelAnchor": {
+            "x": 94.48048378334354,
+            "y": 411.9535320295936,
+            "z": 0.8964787713678789
+          },
+          "cssAnchor": [
+            94.48,
+            411.954
+          ],
+          "topElement": "object-drawer-resume"
+        },
+        {
+          "id": "drawer-education",
+          "hidden": false,
+          "disabled": false,
+          "text": "Диплом",
+          "box": {
+            "left": 164,
+            "top": 468.703125,
+            "right": 288,
+            "bottom": 512.703125,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 176.5524603993432,
+            "right": 254.54082964645366,
+            "top": 320.94796323921406,
+            "bottom": 363.06985618792413
+          },
+          "point": {
+            "x": 214.70603385991396,
+            "y": 341.30925337213966,
+            "z": 0.9135668890802766
+          },
+          "visiblePages": 1,
+          "hit": "drawer-education",
+          "labelAnchor": {
+            "x": 225.51951621665643,
+            "y": 411.9535320295936,
+            "z": 0.8964787713678789
+          },
+          "cssAnchor": [
+            225.52,
+            411.954
+          ],
+          "topElement": "object-drawer-education"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "amount": 0.65,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": false,
+          "disabled": false,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 31.96875,
+            "top": 476.390625,
+            "right": 155.96875,
+            "bottom": 520.390625,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 62.56065159481261,
+            "right": 143.70998266798492,
+            "top": 306.1266489891782,
+            "bottom": 392.95165404513097
+          },
+          "point": {
+            "x": 104.9466522971089,
+            "y": 347.3665564040296,
+            "z": 0.9130180427756227
+          },
+          "visiblePages": 1,
+          "hit": "drawer-resume",
+          "labelAnchor": {
+            "x": 93.98167011411931,
+            "y": 419.755098416673,
+            "z": 0.8956905158905911
+          },
+          "cssAnchor": [
+            93.982,
+            419.755
+          ],
+          "topElement": "object-drawer-resume"
+        },
+        {
+          "id": "drawer-education",
+          "hidden": false,
+          "disabled": false,
+          "text": "Диплом",
+          "box": {
+            "left": 164.015625,
+            "top": 476.390625,
+            "right": 288.015625,
+            "bottom": 520.390625,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 176.65517229107436,
+            "right": 255.1545109156927,
+            "top": 326.7487023755215,
+            "bottom": 369.3966844374803
+          },
+          "point": {
+            "x": 215.0533477028911,
+            "y": 347.3665564040296,
+            "z": 0.9130180427756227
+          },
+          "visiblePages": 1,
+          "hit": "drawer-education",
+          "labelAnchor": {
+            "x": 226.0183298858807,
+            "y": 419.755098416673,
+            "z": 0.8956905158905911
+          },
+          "cssAnchor": [
+            226.018,
+            419.755
+          ],
+          "topElement": "object-drawer-education"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "amount": 0.7,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": false,
+          "disabled": false,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 31.46875,
+            "top": 484.1875,
+            "right": 155.46875,
+            "bottom": 528.1875,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 61.90863412756089,
+            "right": 143.61051178351013,
+            "top": 311.7441438300423,
+            "bottom": 399.6732175613189
+          },
+          "point": {
+            "x": 104.59490027363427,
+            "y": 353.50126321560487,
+            "z": 0.9124621829901799
+          },
+          "visiblePages": 1,
+          "hit": "drawer-resume",
+          "labelAnchor": {
+            "x": 93.47520303400114,
+            "y": 427.67636600053333,
+            "z": 0.894890166031314
+          },
+          "cssAnchor": [
+            93.475,
+            427.676
+          ],
+          "topElement": "object-drawer-resume"
+        },
+        {
+          "id": "drawer-education",
+          "hidden": false,
+          "disabled": false,
+          "text": "Диплом",
+          "box": {
+            "left": 164.515625,
+            "top": 484.1875,
+            "right": 288.515625,
+            "bottom": 528.1875,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 176.75916684468916,
+            "right": 255.77621126581982,
+            "top": 332.62196508942714,
+            "bottom": 375.80608616520874
+          },
+          "point": {
+            "x": 215.40509972636573,
+            "y": 353.50126321560487,
+            "z": 0.9124621829901799
+          },
+          "visiblePages": 1,
+          "hit": "drawer-education",
+          "labelAnchor": {
+            "x": 226.52479696599886,
+            "y": 427.67636600053333,
+            "z": 0.894890166031314
+          },
+          "cssAnchor": [
+            226.525,
+            427.676
+          ],
+          "topElement": "object-drawer-education"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "amount": 0.75,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": false,
+          "disabled": false,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 30.953125,
+            "top": 492.109375,
+            "right": 154.953125,
+            "bottom": 536.109375,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 61.247831899463264,
+            "right": 143.50981864790378,
+            "top": 317.4307427165059,
+            "bottom": 406.4852287625252
+          },
+          "point": {
+            "x": 104.23862445210652,
+            "y": 359.7148670139167,
+            "z": 0.9118991744259174
+          },
+          "visiblePages": 1,
+          "hit": "drawer-resume",
+          "labelAnchor": {
+            "x": 92.96090503922848,
+            "y": 435.72011098290477,
+            "z": 0.894077441287888
+          },
+          "cssAnchor": [
+            92.961,
+            435.72
+          ],
+          "topElement": "object-drawer-resume"
+        },
+        {
+          "id": "drawer-education",
+          "hidden": false,
+          "disabled": false,
+          "text": "Диплом",
+          "box": {
+            "left": 165.03125,
+            "top": 492.109375,
+            "right": 289.03125,
+            "bottom": 536.109375,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 176.86446823789606,
+            "right": 256.4060889106457,
+            "top": 338.5691200226106,
+            "bottom": 382.2996885290756
+          },
+          "point": {
+            "x": 215.76137554789346,
+            "y": 359.7148670139167,
+            "z": 0.9118991744259174
+          },
+          "visiblePages": 1,
+          "hit": "drawer-education",
+          "labelAnchor": {
+            "x": 227.03909496077154,
+            "y": 435.72011098290477,
+            "z": 0.894077441287888
+          },
+          "cssAnchor": [
+            227.039,
+            435.72
+          ],
+          "topElement": "object-drawer-education"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "amount": 0.8,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": false,
+          "disabled": false,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 30.4375,
+            "top": 500.140625,
+            "right": 154.4375,
+            "bottom": 544.140625,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 60.57806616816242,
+            "right": 143.40788059424082,
+            "top": 323.1877286732947,
+            "bottom": 413.38952565822666
+          },
+          "point": {
+            "x": 103.87773699850378,
+            "y": 366.0088996621425,
+            "z": 0.9113288782822108
+          },
+          "visiblePages": 1,
+          "hit": "drawer-resume",
+          "labelAnchor": {
+            "x": 92.43859309420401,
+            "y": 443.8891960847836,
+            "z": 0.8932520524164109
+          },
+          "cssAnchor": [
+            92.439,
+            443.889
+          ],
+          "topElement": "object-drawer-resume"
+        },
+        {
+          "id": "drawer-education",
+          "hidden": false,
+          "disabled": false,
+          "text": "Диплом",
+          "box": {
+            "left": 165.546875,
+            "top": 500.140625,
+            "right": 289.546875,
+            "bottom": 544.140625,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 176.97110125990034,
+            "right": 257.04430625354195,
+            "top": 344.59157047284737,
+            "bottom": 388.8791617218376
+          },
+          "point": {
+            "x": 216.1222630014962,
+            "y": 366.0088996621425,
+            "z": 0.9113288782822108
+          },
+          "visiblePages": 1,
+          "hit": "drawer-education",
+          "labelAnchor": {
+            "x": 227.561406905796,
+            "y": 443.8891960847836,
+            "z": 0.8932520524164109
+          },
+          "cssAnchor": [
+            227.561,
+            443.889
+          ],
+          "topElement": "object-drawer-education"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "amount": 0.85,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": false,
+          "disabled": false,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 29.90625,
+            "top": 508.296875,
+            "right": 153.90625,
+            "bottom": 552.296875,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 59.89915330905903,
+            "right": 143.30467439162555,
+            "top": 329.016416684743,
+            "bottom": 420.38799639839056
+          },
+          "point": {
+            "x": 103.51214779014589,
+            "y": 372.38493293864593,
+            "z": 0.9107511521417592
+          },
+          "visiblePages": 1,
+          "hit": "drawer-resume",
+          "labelAnchor": {
+            "x": 91.9080784143043,
+            "y": 452.18657394332246,
+            "z": 0.8924137010880222
+          },
+          "cssAnchor": [
+            91.908,
+            452.187
+          ],
+          "topElement": "object-drawer-resume"
+        },
+        {
+          "id": "drawer-education",
+          "hidden": false,
+          "disabled": false,
+          "text": "Диплом",
+          "box": {
+            "left": 166.078125,
+            "top": 508.296875,
+            "right": 290.078125,
+            "bottom": 552.296875,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 177.0790913308593,
+            "right": 257.69103002704185,
+            "top": 350.6907554979267,
+            "bottom": 395.54622040322937
+          },
+          "point": {
+            "x": 216.4878522098541,
+            "y": 372.38493293864593,
+            "z": 0.9107511521417592
+          },
+          "visiblePages": 1,
+          "hit": "drawer-education",
+          "labelAnchor": {
+            "x": 228.0919215856957,
+            "y": 452.18657394332246,
+            "z": 0.8924137010880222
+          },
+          "cssAnchor": [
+            228.092,
+            452.187
+          ],
+          "topElement": "object-drawer-education"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "amount": 0.9,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": false,
+          "disabled": false,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 29.359375,
+            "top": 516.578125,
+            "right": 153.359375,
+            "bottom": 560.578125,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 59.21090464747125,
+            "right": 143.2001762275417,
+            "top": 334.91815469615506,
+            "bottom": 427.4825809949931
+          },
+          "point": {
+            "x": 103.14176434066219,
+            "y": 378.84457984557037,
+            "z": 0.9101658498520157
+          },
+          "visiblePages": 1,
+          "hit": "drawer-resume",
+          "labelAnchor": {
+            "x": 91.3691662383772,
+            "y": 460.6152906700301,
+            "z": 0.8915620795293905
+          },
+          "cssAnchor": [
+            91.369,
+            460.615
+          ],
+          "topElement": "object-drawer-resume"
+        },
+        {
+          "id": "drawer-education",
+          "hidden": false,
+          "disabled": false,
+          "text": "Диплом",
+          "box": {
+            "left": 166.625,
+            "top": 516.578125,
+            "right": 290.625,
+            "bottom": 560.578125,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 177.1884645220854,
+            "right": 258.3464314380602,
+            "top": 356.86815106204,
+            "bottom": 402.3026251897346
+          },
+          "point": {
+            "x": 216.85823565933782,
+            "y": 378.84457984557037,
+            "z": 0.9101658498520157
+          },
+          "visiblePages": 1,
+          "hit": "drawer-education",
+          "labelAnchor": {
+            "x": 228.6308337616228,
+            "y": 460.6152906700301,
+            "z": 0.8915620795293905
+          },
+          "cssAnchor": [
+            228.631,
+            460.615
+          ],
+          "topElement": "object-drawer-education"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "amount": 0.95,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": false,
+          "disabled": false,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 28.8125,
+            "top": 524.984375,
+            "right": 152.8125,
+            "bottom": 568.984375,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 58.51312628382226,
+            "right": 143.0943616895358,
+            "top": 340.8943246530539,
+            "bottom": 434.67527311495434
+          },
+          "point": {
+            "x": 102.76649172198819,
+            "y": 385.38949596925335,
+            "z": 0.9095728214019213
+          },
+          "visiblePages": 1,
+          "hit": "drawer-resume",
+          "labelAnchor": {
+            "x": 90.82165559034948,
+            "y": 469.17848957928265,
+            "z": 0.8906968701459901
+          },
+          "cssAnchor": [
+            90.822,
+            469.178
+          ],
+          "topElement": "object-drawer-resume"
+        },
+        {
+          "id": "drawer-education",
+          "hidden": false,
+          "disabled": false,
+          "text": "Диплом",
+          "box": {
+            "left": 167.171875,
+            "top": 524.984375,
+            "right": 291.171875,
+            "bottom": 568.984375,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 177.29924757702997,
+            "right": 259.0106863189987,
+            "top": 363.12527122655126,
+            "bottom": 409.1501842046518
+          },
+          "point": {
+            "x": 217.2335082780118,
+            "y": 385.38949596925335,
+            "z": 0.9095728214019213
+          },
+          "visiblePages": 1,
+          "hit": "drawer-education",
+          "labelAnchor": {
+            "x": 229.17834440965052,
+            "y": 469.17848957928265,
+            "z": 0.8906968701459901
+          },
+          "cssAnchor": [
+            229.178,
+            469.178
+          ],
+          "topElement": "object-drawer-education"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "amount": 1,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": false,
+          "disabled": false,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 28.25,
+            "top": 533.515625,
+            "right": 152.25,
+            "bottom": 577.515625,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 57.805618911515495,
+            "right": 142.98720574620344,
+            "top": 346.94634357999973,
+            "bottom": 441.9681219479733
+          },
+          "point": {
+            "x": 102.38623248325229,
+            "y": 392.0213808948727,
+            "z": 0.908971912793725
+          },
+          "visiblePages": 1,
+          "hit": "drawer-resume",
+          "labelAnchor": {
+            "x": 90.26533902933178,
+            "y": 477.8794150967436,
+            "z": 0.8898177451272028
+          },
+          "cssAnchor": [
+            90.265,
+            477.879
+          ],
+          "topElement": "object-drawer-resume"
+        },
+        {
+          "id": "drawer-education",
+          "hidden": false,
+          "disabled": false,
+          "text": "Диплом",
+          "box": {
+            "left": 167.734375,
+            "top": 533.515625,
+            "right": 291.734375,
+            "bottom": 577.515625,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 177.41146793308434,
+            "right": 259.683975285016,
+            "top": 369.4636693871744,
+            "bottom": 416.09075469132637
+          },
+          "point": {
+            "x": 217.6137675167477,
+            "y": 392.0213808948727,
+            "z": 0.908971912793725
+          },
+          "visiblePages": 1,
+          "hit": "drawer-education",
+          "labelAnchor": {
+            "x": 229.73466097066822,
+            "y": 477.8794150967436,
+            "z": 0.8898177451272028
+          },
+          "cssAnchor": [
+            229.735,
+            477.879
+          ],
+          "topElement": "object-drawer-education"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "amount": 0,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 105.31083174070851,
+            "right": 179.90126449558522,
+            "top": 238.85650610432367,
+            "bottom": 313.0475481601012
+          },
+          "point": {
+            "x": 144.14397738684207,
+            "y": 274.1633987817132,
+            "z": 0.9196509093068967
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 134.92717913280973,
+            "y": 326.7658998920394,
+            "z": 0.9050859682175794
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 210.41192264735196,
+            "right": 282.74972392556293,
+            "top": 256.54070192582645,
+            "bottom": 293.0494855706842
+          },
+          "point": {
+            "x": 245.85602261315793,
+            "y": 274.1633987817132,
+            "z": 0.9196509093068967
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 255.0728208671903,
+            "y": 326.7658998920394,
+            "z": 0.9050859682175794
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "amount": 0.05,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 104.75870421778646,
+            "right": 179.81584831423217,
+            "top": 243.6794774683078,
+            "bottom": 318.7404840566201
+          },
+          "point": {
+            "x": 143.84396276812174,
+            "y": 279.39578296775187,
+            "z": 0.9191768080922278
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 134.5081171545368,
+            "y": 333.32013055071724,
+            "z": 0.9044237411775499
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 210.5009295326144,
+            "right": 283.2781607969299,
+            "top": 261.5666396731621,
+            "bottom": 298.49841871987417
+          },
+          "point": {
+            "x": 246.15603723187826,
+            "y": 279.39578296775187,
+            "z": 0.9191768080922278
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 255.49188284546318,
+            "y": 333.32013055071724,
+            "z": 0.9044237411775499
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "amount": 0.1,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 104.1997367818709,
+            "right": 179.72946020603473,
+            "top": 248.55738618187308,
+            "bottom": 324.50386454466735
+          },
+          "point": {
+            "x": 143.5403873947051,
+            "y": 284.69026824953954,
+            "z": 0.918697079957998
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 134.08316743524287,
+            "y": 339.9664469024691,
+            "z": 0.9037522099736711
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 210.59097045418522,
+            "right": 283.8130008190976,
+            "top": 266.65102930716637,
+            "bottom": 304.01330314636374
+          },
+          "point": {
+            "x": 246.45961260529492,
+            "y": 284.69026824953954,
+            "z": 0.918697079957998
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 255.91683256475713,
+            "y": 339.9664469024691,
+            "z": 0.9037522099736711
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "amount": 0.15,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 103.63380153858068,
+            "right": 179.64208348714675,
+            "top": 253.49117628965112,
+            "bottom": 330.3390052901183
+          },
+          "point": {
+            "x": 143.2331874963795,
+            "y": 290.04796680705573,
+            "z": 0.9182116241306667
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 133.65220501463293,
+            "y": 346.70680335652116,
+            "z": 0.9030711771361403
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 210.68206353670038,
+            "right": 284.3543610834168,
+            "top": 271.79489648927125,
+            "bottom": 309.5953435044467
+          },
+          "point": {
+            "x": 246.7668125036205,
+            "y": 290.04796680705573,
+            "z": 0.9182116241306667
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 256.34779498536705,
+            "y": 346.70680335652116,
+            "z": 0.9030711771361403
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "amount": 0.2,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 103.0607673850024,
+            "right": 179.55370108967048,
+            "top": 258.48181359086203,
+            "bottom": 336.2472549269885
+          },
+          "point": {
+            "x": 142.92229777102372,
+            "y": 295.47001753742273,
+            "z": 0.9177203374158796
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 133.21510137103868,
+            "y": 353.54321002283876,
+            "z": 0.9023804395672572
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 210.77422733087133,
+            "right": 284.9023615536717,
+            "top": 276.99929101860994,
+            "bottom": 315.2457739668091
+          },
+          "point": {
+            "x": 247.07770222897628,
+            "y": 295.47001753742273,
+            "z": 0.9177203374158796
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 256.78489862896134,
+            "y": 353.54321002283876,
+            "z": 0.9023804395672572
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "amount": 0.25,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 102.48049990843839,
+            "right": 179.4642955505417,
+            "top": 263.5302862695876,
+            "bottom": 342.22999609659723
+          },
+          "point": {
+            "x": 142.6076513383304,
+            "y": 300.9575868620124,
+            "z": 0.9172231141253364
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 132.7717242936339,
+            "y": 360.47773471070946,
+            "z": 0.9016797883394918
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 210.86748082607895,
+            "right": 285.4571251547052,
+            "top": 282.2652875462841,
+            "bottom": 320.9658591342395
+          },
+          "point": {
+            "x": 247.3923486616696,
+            "y": 300.9575868620124,
+            "z": 0.9172231141253364
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 257.2282757063661,
+            "y": 360.47773471070946,
+            "z": 0.9016797883394918
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "amount": 0.3,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 101.89286128129606,
+            "right": 179.3738490000269,
+            "top": 268.63760554708404,
+            "bottom": 348.2886465262798
+          },
+          "point": {
+            "x": 142.28917969183993,
+            "y": 306.5118695629889,
+            "z": 0.9167198460009937
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 132.3219377491081,
+            "y": 367.51250501399784,
+            "z": 0.9009690084847932
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 210.9618434634176,
+            "right": 286.0187778643456,
+            "top": 287.5939863151456,
+            "bottom": 326.7568949791852
+          },
+          "point": {
+            "x": 247.71082030816007,
+            "y": 306.5118695629889,
+            "z": 0.9167198460009937
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 257.6780622508919,
+            "y": 367.51250501399784,
+            "z": 0.9009690084847932
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "amount": 0.35,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 101.29771015194595,
+            "right": 179.2823431498159,
+            "top": 273.80480635703833,
+            "bottom": 354.42466014942636
+          },
+          "point": {
+            "x": 141.96681264921492,
+            "y": 312.1340896505496,
+            "z": 0.9162104221364843
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 131.86560174251613,
+            "y": 374.64971048749453,
+            "z": 0.9002478787746968
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 211.05733514920684,
+            "right": 286.5874488087795,
+            "top": 292.9865139261607,
+            "bottom": 332.6202098246423
+          },
+          "point": {
+            "x": 248.03318735078508,
+            "y": 312.1340896505496,
+            "z": 0.9162104221364843
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 258.13439825748384,
+            "y": 374.64971048749453,
+            "z": 0.9002478787746968
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "amount": 0.4,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 100.69490153136691,
+            "right": 179.18975928069398,
+            "top": 279.0329480447176,
+            "bottom": 360.6395282687004
+          },
+          "point": {
+            "x": 141.64047830067824,
+            "y": 317.82550126218234,
+            "z": 0.9156947288956372
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 131.4025721720042,
+            "y": 381.89160491903175,
+            "z": 0.8995161714907529
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 211.15397626899104,
+            "right": 287.1632703615224,
+            "top": 298.44402413248156,
+            "bottom": 338.5571653599283
+          },
+          "point": {
+            "x": 248.35952169932176,
+            "y": 317.82550126218234,
+            "z": 0.9156947288956372
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 258.59742782799583,
+            "y": 381.89160491903175,
+            "z": 0.8995161714907529
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "amount": 0.45,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 100.08428667538779,
+            "right": 179.09607822977563,
+            "top": 284.3231150910004,
+            "bottom": 366.9347807643932
+          },
+          "point": {
+            "x": 141.31010295553608,
+            "y": 323.5873895953321,
+            "z": 0.9151726498279681
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 130.9327006770965,
+            "y": 389.24050870232185,
+            "z": 0.8987736521847797
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 211.25178770204806,
+            "right": 287.74637824614615,
+            "top": 303.9676986623963,
+            "bottom": 344.5691576949669
+          },
+          "point": {
+            "x": 248.68989704446395,
+            "y": 323.5873895953321,
+            "z": 0.9151726498279681
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 259.0672993229035,
+            "y": 389.24050870232185,
+            "z": 0.8987736521847797
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "amount": 0.5,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 99.46571296232409,
+            "right": 179.00128037728155,
+            "top": 289.6764178623325,
+            "bottom": 373.3119873499707
+          },
+          "point": {
+            "x": 140.97561108670146,
+            "y": 329.4210718749285,
+            "z": 0.9146440655810145
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 130.45583448020597,
+            "y": 396.6988113157635,
+            "z": 0.8980200794284096
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 211.35079083642788,
+            "right": 288.3369116429314,
+            "top": 309.5587480723953,
+            "bottom": 350.6576184548074
+          },
+          "point": {
+            "x": 249.02438891329854,
+            "y": 329.4210718749285,
+            "z": 0.9146440655810145
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 259.54416551979403,
+            "y": 396.6988113157635,
+            "z": 0.8980200794284096
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "amount": 0.55,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": true,
+          "disabled": true,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 98.83902376579884,
+            "right": 178.9053456328402,
+            "top": 295.09399338769396,
+            "bottom": 379.7727588769785
+          },
+          "point": {
+            "x": 140.63692527313165,
+            "y": 335.32789835730887,
+            "z": 0.9141088538093699
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 129.9718162210143,
+            "y": 404.26897391278123,
+            "z": 0.8972552045513669
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        },
+        {
+          "id": "drawer-education",
+          "hidden": true,
+          "disabled": true,
+          "text": "Диплом",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "paper": {
+            "left": 211.45100758454413,
+            "right": 288.93501329962,
+            "top": 315.2184126316428,
+            "bottom": 356.8240159161703
+          },
+          "point": {
+            "x": 249.36307472686835,
+            "y": 335.32789835730887,
+            "z": 0.9141088538093699
+          },
+          "visiblePages": 0,
+          "hit": null,
+          "labelAnchor": {
+            "x": 260.0281837789857,
+            "y": 404.26897391278123,
+            "z": 0.8972552045513669
+          },
+          "cssAnchor": [
+            null,
+            null
+          ],
+          "topElement": null
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "amount": 0.6,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": false,
+          "disabled": false,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 67,
+            "top": 468.703125,
+            "right": 191,
+            "bottom": 512.703125,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 98.20405832252467,
+            "right": 178.80825342129341,
+            "top": 300.5770061637208,
+            "bottom": 386.3187486915798
+          },
+          "point": {
+            "x": 140.29396614008604,
+            "y": 341.30925337213966,
+            "z": 0.9135668890802766
+          },
+          "visiblePages": 1,
+          "hit": "drawer-resume",
+          "labelAnchor": {
+            "x": 129.48048378334354,
+            "y": 411.9535320295936,
+            "z": 0.8964787713678789
+          },
+          "cssAnchor": [
+            129.48,
+            411.954
+          ],
+          "topElement": "object-drawer-resume"
+        },
+        {
+          "id": "drawer-education",
+          "hidden": false,
+          "disabled": false,
+          "text": "Диплом",
+          "box": {
+            "left": 199,
+            "top": 468.703125,
+            "right": 323,
+            "bottom": 512.703125,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 211.55246039934318,
+            "right": 289.5408296464537,
+            "top": 320.94796323921406,
+            "bottom": 363.06985618792413
+          },
+          "point": {
+            "x": 249.706033859914,
+            "y": 341.30925337213966,
+            "z": 0.9135668890802766
+          },
+          "visiblePages": 1,
+          "hit": "drawer-education",
+          "labelAnchor": {
+            "x": 260.5195162166565,
+            "y": 411.9535320295936,
+            "z": 0.8964787713678789
+          },
+          "cssAnchor": [
+            260.52,
+            411.954
+          ],
+          "topElement": "object-drawer-education"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "amount": 0.65,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": false,
+          "disabled": false,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 66.96875,
+            "top": 476.390625,
+            "right": 190.96875,
+            "bottom": 520.390625,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 97.56065159481261,
+            "right": 178.70998266798492,
+            "top": 306.1266489891782,
+            "bottom": 392.95165404513097
+          },
+          "point": {
+            "x": 139.94665229710887,
+            "y": 347.3665564040296,
+            "z": 0.9130180427756227
+          },
+          "visiblePages": 1,
+          "hit": "drawer-resume",
+          "labelAnchor": {
+            "x": 128.9816701141193,
+            "y": 419.755098416673,
+            "z": 0.8956905158905911
+          },
+          "cssAnchor": [
+            128.982,
+            419.755
+          ],
+          "topElement": "object-drawer-resume"
+        },
+        {
+          "id": "drawer-education",
+          "hidden": false,
+          "disabled": false,
+          "text": "Диплом",
+          "box": {
+            "left": 199.015625,
+            "top": 476.390625,
+            "right": 323.015625,
+            "bottom": 520.390625,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 211.65517229107436,
+            "right": 290.15451091569264,
+            "top": 326.7487023755215,
+            "bottom": 369.3966844374803
+          },
+          "point": {
+            "x": 250.05334770289113,
+            "y": 347.3665564040296,
+            "z": 0.9130180427756227
+          },
+          "visiblePages": 1,
+          "hit": "drawer-education",
+          "labelAnchor": {
+            "x": 261.0183298858807,
+            "y": 419.755098416673,
+            "z": 0.8956905158905911
+          },
+          "cssAnchor": [
+            261.018,
+            419.755
+          ],
+          "topElement": "object-drawer-education"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "amount": 0.7,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": false,
+          "disabled": false,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 66.46875,
+            "top": 484.1875,
+            "right": 190.46875,
+            "bottom": 528.1875,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 96.90863412756089,
+            "right": 178.61051178351013,
+            "top": 311.7441438300423,
+            "bottom": 399.6732175613189
+          },
+          "point": {
+            "x": 139.59490027363427,
+            "y": 353.50126321560487,
+            "z": 0.9124621829901799
+          },
+          "visiblePages": 1,
+          "hit": "drawer-resume",
+          "labelAnchor": {
+            "x": 128.47520303400114,
+            "y": 427.67636600053333,
+            "z": 0.894890166031314
+          },
+          "cssAnchor": [
+            128.475,
+            427.676
+          ],
+          "topElement": "object-drawer-resume"
+        },
+        {
+          "id": "drawer-education",
+          "hidden": false,
+          "disabled": false,
+          "text": "Диплом",
+          "box": {
+            "left": 199.515625,
+            "top": 484.1875,
+            "right": 323.515625,
+            "bottom": 528.1875,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 211.75916684468916,
+            "right": 290.7762112658198,
+            "top": 332.62196508942714,
+            "bottom": 375.80608616520874
+          },
+          "point": {
+            "x": 250.40509972636573,
+            "y": 353.50126321560487,
+            "z": 0.9124621829901799
+          },
+          "visiblePages": 1,
+          "hit": "drawer-education",
+          "labelAnchor": {
+            "x": 261.52479696599886,
+            "y": 427.67636600053333,
+            "z": 0.894890166031314
+          },
+          "cssAnchor": [
+            261.525,
+            427.676
+          ],
+          "topElement": "object-drawer-education"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "amount": 0.75,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": false,
+          "disabled": false,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 65.953125,
+            "top": 492.109375,
+            "right": 189.953125,
+            "bottom": 536.109375,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 96.24783189946325,
+            "right": 178.50981864790376,
+            "top": 317.4307427165059,
+            "bottom": 406.4852287625252
+          },
+          "point": {
+            "x": 139.2386244521065,
+            "y": 359.7148670139167,
+            "z": 0.9118991744259174
+          },
+          "visiblePages": 1,
+          "hit": "drawer-resume",
+          "labelAnchor": {
+            "x": 127.96090503922846,
+            "y": 435.72011098290477,
+            "z": 0.894077441287888
+          },
+          "cssAnchor": [
+            127.961,
+            435.72
+          ],
+          "topElement": "object-drawer-resume"
+        },
+        {
+          "id": "drawer-education",
+          "hidden": false,
+          "disabled": false,
+          "text": "Диплом",
+          "box": {
+            "left": 200.03125,
+            "top": 492.109375,
+            "right": 324.03125,
+            "bottom": 536.109375,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 211.86446823789603,
+            "right": 291.4060889106457,
+            "top": 338.5691200226106,
+            "bottom": 382.2996885290756
+          },
+          "point": {
+            "x": 250.7613755478935,
+            "y": 359.7148670139167,
+            "z": 0.9118991744259174
+          },
+          "visiblePages": 1,
+          "hit": "drawer-education",
+          "labelAnchor": {
+            "x": 262.03909496077154,
+            "y": 435.72011098290477,
+            "z": 0.894077441287888
+          },
+          "cssAnchor": [
+            262.039,
+            435.72
+          ],
+          "topElement": "object-drawer-education"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "amount": 0.8,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": false,
+          "disabled": false,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 65.4375,
+            "top": 500.140625,
+            "right": 189.4375,
+            "bottom": 544.140625,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 95.5780661681624,
+            "right": 178.40788059424082,
+            "top": 323.1877286732947,
+            "bottom": 413.38952565822666
+          },
+          "point": {
+            "x": 138.8777369985038,
+            "y": 366.0088996621425,
+            "z": 0.9113288782822108
+          },
+          "visiblePages": 1,
+          "hit": "drawer-resume",
+          "labelAnchor": {
+            "x": 127.43859309420401,
+            "y": 443.8891960847836,
+            "z": 0.8932520524164109
+          },
+          "cssAnchor": [
+            127.439,
+            443.889
+          ],
+          "topElement": "object-drawer-resume"
+        },
+        {
+          "id": "drawer-education",
+          "hidden": false,
+          "disabled": false,
+          "text": "Диплом",
+          "box": {
+            "left": 200.546875,
+            "top": 500.140625,
+            "right": 324.546875,
+            "bottom": 544.140625,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 211.9711012599003,
+            "right": 292.04430625354195,
+            "top": 344.59157047284737,
+            "bottom": 388.8791617218376
+          },
+          "point": {
+            "x": 251.1222630014962,
+            "y": 366.0088996621425,
+            "z": 0.9113288782822108
+          },
+          "visiblePages": 1,
+          "hit": "drawer-education",
+          "labelAnchor": {
+            "x": 262.561406905796,
+            "y": 443.8891960847836,
+            "z": 0.8932520524164109
+          },
+          "cssAnchor": [
+            262.561,
+            443.889
+          ],
+          "topElement": "object-drawer-education"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "amount": 0.85,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": false,
+          "disabled": false,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 64.90625,
+            "top": 508.296875,
+            "right": 188.90625,
+            "bottom": 552.296875,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 94.89915330905905,
+            "right": 178.30467439162553,
+            "top": 329.016416684743,
+            "bottom": 420.38799639839056
+          },
+          "point": {
+            "x": 138.5121477901459,
+            "y": 372.38493293864593,
+            "z": 0.9107511521417592
+          },
+          "visiblePages": 1,
+          "hit": "drawer-resume",
+          "labelAnchor": {
+            "x": 126.9080784143043,
+            "y": 452.18657394332246,
+            "z": 0.8924137010880222
+          },
+          "cssAnchor": [
+            126.908,
+            452.187
+          ],
+          "topElement": "object-drawer-resume"
+        },
+        {
+          "id": "drawer-education",
+          "hidden": false,
+          "disabled": false,
+          "text": "Диплом",
+          "box": {
+            "left": 201.078125,
+            "top": 508.296875,
+            "right": 325.078125,
+            "bottom": 552.296875,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 212.07909133085934,
+            "right": 292.69103002704185,
+            "top": 350.6907554979267,
+            "bottom": 395.54622040322937
+          },
+          "point": {
+            "x": 251.4878522098541,
+            "y": 372.38493293864593,
+            "z": 0.9107511521417592
+          },
+          "visiblePages": 1,
+          "hit": "drawer-education",
+          "labelAnchor": {
+            "x": 263.09192158569573,
+            "y": 452.18657394332246,
+            "z": 0.8924137010880222
+          },
+          "cssAnchor": [
+            263.092,
+            452.187
+          ],
+          "topElement": "object-drawer-education"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "amount": 0.9,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": false,
+          "disabled": false,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 64.359375,
+            "top": 516.578125,
+            "right": 188.359375,
+            "bottom": 560.578125,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 94.21090464747125,
+            "right": 178.20017622754173,
+            "top": 334.91815469615506,
+            "bottom": 427.4825809949931
+          },
+          "point": {
+            "x": 138.1417643406622,
+            "y": 378.84457984557037,
+            "z": 0.9101658498520157
+          },
+          "visiblePages": 1,
+          "hit": "drawer-resume",
+          "labelAnchor": {
+            "x": 126.36916623837722,
+            "y": 460.6152906700301,
+            "z": 0.8915620795293905
+          },
+          "cssAnchor": [
+            126.369,
+            460.615
+          ],
+          "topElement": "object-drawer-resume"
+        },
+        {
+          "id": "drawer-education",
+          "hidden": false,
+          "disabled": false,
+          "text": "Диплом",
+          "box": {
+            "left": 201.625,
+            "top": 516.578125,
+            "right": 325.625,
+            "bottom": 560.578125,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 212.1884645220854,
+            "right": 293.34643143806016,
+            "top": 356.86815106204,
+            "bottom": 402.3026251897346
+          },
+          "point": {
+            "x": 251.8582356593378,
+            "y": 378.84457984557037,
+            "z": 0.9101658498520157
+          },
+          "visiblePages": 1,
+          "hit": "drawer-education",
+          "labelAnchor": {
+            "x": 263.63083376162274,
+            "y": 460.6152906700301,
+            "z": 0.8915620795293905
+          },
+          "cssAnchor": [
+            263.631,
+            460.615
+          ],
+          "topElement": "object-drawer-education"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "amount": 0.95,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": false,
+          "disabled": false,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 63.8125,
+            "top": 524.984375,
+            "right": 187.8125,
+            "bottom": 568.984375,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 93.51312628382227,
+            "right": 178.09436168953582,
+            "top": 340.8943246530539,
+            "bottom": 434.67527311495434
+          },
+          "point": {
+            "x": 137.7664917219882,
+            "y": 385.38949596925335,
+            "z": 0.9095728214019213
+          },
+          "visiblePages": 1,
+          "hit": "drawer-resume",
+          "labelAnchor": {
+            "x": 125.82165559034948,
+            "y": 469.17848957928265,
+            "z": 0.8906968701459901
+          },
+          "cssAnchor": [
+            125.822,
+            469.178
+          ],
+          "topElement": "object-drawer-resume"
+        },
+        {
+          "id": "drawer-education",
+          "hidden": false,
+          "disabled": false,
+          "text": "Диплом",
+          "box": {
+            "left": 202.171875,
+            "top": 524.984375,
+            "right": 326.171875,
+            "bottom": 568.984375,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 212.29924757702997,
+            "right": 294.01068631899864,
+            "top": 363.12527122655126,
+            "bottom": 409.1501842046518
+          },
+          "point": {
+            "x": 252.2335082780118,
+            "y": 385.38949596925335,
+            "z": 0.9095728214019213
+          },
+          "visiblePages": 1,
+          "hit": "drawer-education",
+          "labelAnchor": {
+            "x": 264.1783444096505,
+            "y": 469.17848957928265,
+            "z": 0.8906968701459901
+          },
+          "cssAnchor": [
+            264.178,
+            469.178
+          ],
+          "topElement": "object-drawer-education"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "amount": 1,
+      "documents": [
+        {
+          "id": "drawer-resume",
+          "hidden": false,
+          "disabled": false,
+          "text": "Резюме PDF",
+          "box": {
+            "left": 63.25,
+            "top": 533.515625,
+            "right": 187.25,
+            "bottom": 577.515625,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 92.80561891151548,
+            "right": 177.98720574620344,
+            "top": 346.94634357999973,
+            "bottom": 441.9681219479733
+          },
+          "point": {
+            "x": 137.3862324832523,
+            "y": 392.0213808948727,
+            "z": 0.908971912793725
+          },
+          "visiblePages": 1,
+          "hit": "drawer-resume",
+          "labelAnchor": {
+            "x": 125.26533902933177,
+            "y": 477.8794150967436,
+            "z": 0.8898177451272028
+          },
+          "cssAnchor": [
+            125.265,
+            477.879
+          ],
+          "topElement": "object-drawer-resume"
+        },
+        {
+          "id": "drawer-education",
+          "hidden": false,
+          "disabled": false,
+          "text": "Диплом",
+          "box": {
+            "left": 202.734375,
+            "top": 533.515625,
+            "right": 326.734375,
+            "bottom": 577.515625,
+            "width": 124,
+            "height": 44
+          },
+          "paper": {
+            "left": 212.41146793308434,
+            "right": 294.68397528501595,
+            "top": 369.4636693871744,
+            "bottom": 416.09075469132637
+          },
+          "point": {
+            "x": 252.6137675167477,
+            "y": 392.0213808948727,
+            "z": 0.908971912793725
+          },
+          "visiblePages": 1,
+          "hit": "drawer-education",
+          "labelAnchor": {
+            "x": 264.73466097066824,
+            "y": 477.8794150967436,
+            "z": 0.8898177451272028
+          },
+          "cssAnchor": [
+            264.735,
+            477.879
+          ],
+          "topElement": "object-drawer-education"
+        }
+      ]
+    }
+  ],
+  "passed": true
+}

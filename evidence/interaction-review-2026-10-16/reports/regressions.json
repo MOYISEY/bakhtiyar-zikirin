@@ -1,0 +1,242 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "at": "2026-10-15T21:05:02.005Z",
+  "jobs": [
+    {
+      "name": "cube",
+      "file": "test-cube-state.mjs",
+      "args": [],
+      "exit": 0,
+      "durationMs": 92,
+      "summary": "{\"passed\":true,\"checks\":3025,\"turns\":2076}\n"
+    },
+    {
+      "name": "asset-history",
+      "file": "qa-asset-history.mjs",
+      "args": [],
+      "exit": 0,
+      "durationMs": 3924,
+      "summary": "PASS asset history: published baseline, repeated builds and bounded retention\n"
+    },
+    {
+      "name": "completion",
+      "file": "qa-room-completion.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "interaction-final"
+      ],
+      "exit": 0,
+      "durationMs": 47110,
+      "summary": "{\"passed\":true,\"checks\":148,\"scenarios\":6}\n"
+    },
+    {
+      "name": "sweep",
+      "file": "qa-joinery-sweep.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "interaction-final"
+      ],
+      "exit": 0,
+      "durationMs": 9055,
+      "summary": "e\":\"Resume sheet\",\"min\":[-0.17749999791383742,0.036799999993480714,-0.09249999910593032],\"max\":[-0.03250000208616255,0.038370000000000015,0.11249999910593034]}]},{\"id\":\"drawer-education\",\"pages\":[{\"name\":\"Diploma sheet\",\"min\":[0.03250000208616255,0.036799999993480714,-0.040119999796152106],\"max\":[0.17749999791383742,0.038370000000000015,0.060119999796152124]}]}],\"readingTable\":0.550000011920929}}\n"
+    },
+    {
+      "name": "refinement",
+      "file": "qa-room-refinement.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "interaction-final"
+      ],
+      "exit": 0,
+      "durationMs": 50862,
+      "summary": "{\"passed\":true,\"checks\":88,\"scenarios\":4}\n"
+    },
+    {
+      "name": "furniture",
+      "file": "qa-room-furniture.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "interaction-final"
+      ],
+      "exit": 0,
+      "durationMs": 81700,
+      "summary": "{\"passed\":true,\"checks\":121,\"scenarios\":4}\n"
+    },
+    {
+      "name": "showcase-room",
+      "file": "qa-room-showcase.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "interaction-final"
+      ],
+      "exit": 0,
+      "durationMs": 23227,
+      "summary": ""
+    },
+    {
+      "name": "hotspots",
+      "file": "qa-room-hotspots.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "interaction-final"
+      ],
+      "exit": 0,
+      "durationMs": 35767,
+      "summary": "{\"pass\":true,\"checks\":29,\"scenarios\":[{\"name\":\"desktop\",\"earlyProgress\":0.693,\"doorAngle\":1.5399999999997265,\"markers\":[\"object-case\",\"object-profile\",\"object-lamp\",\"object-drawer\"]},{\"name\":\"mobile\",\"earlyProgress\":0.693,\"doorAngle\":1.5399999999996765,\"markers\":[\"object-case\",\"object-profile\",\"object-lamp\",\"object-drawer\"]}]}\n"
+    },
+    {
+      "name": "collection",
+      "file": "qa-room-collection.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "interaction-final"
+      ],
+      "exit": 0,
+      "durationMs": 56128,
+      "summary": "{\"passed\":true,\"checks\":102,\"scenarios\":4}\n"
+    },
+    {
+      "name": "collection-edges",
+      "file": "qa-room-collection-edges.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "interaction-final"
+      ],
+      "exit": 0,
+      "durationMs": 10357,
+      "summary": "{\"checks\":[\"Cube dialog has no axe violations\",\"Closing during a turn preserves a legal cube\",\"Room rendering settles while object is held\",\"Room context loss releases item renderer\",\"Projects remain accessible after item and room context loss\"],\"passed\":true,\"axe\":[]}\n"
+    },
+    {
+      "name": "context-loss",
+      "file": "qa-room-context-loss.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "interaction-final"
+      ],
+      "exit": 0,
+      "durationMs": 7933,
+      "summary": ""
+    },
+    {
+      "name": "case-rain",
+      "file": "qa-room-case-rain.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "interaction-final"
+      ],
+      "exit": 0,
+      "durationMs": 35272,
+      "summary": ""
+    },
+    {
+      "name": "pages",
+      "file": "qa-pages.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "interaction-final"
+      ],
+      "exit": 0,
+      "durationMs": 177363,
+      "summary": "heme\":\"dark\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"kk\",\"theme\":\"light\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"kk\",\"theme\":\"dark\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"en\",\"theme\":\"light\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"en\",\"theme\":\"dark\",\"passed\":true,\"flow\":true}\n{\"scope\":\"interaction-final\",\"passed\":true,\"routes\":132,\"flows\":12,\"edges\":0,\"failed\":[]}\n"
+    },
+    {
+      "name": "pages-edges",
+      "file": "qa-pages-edges.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "interaction-final"
+      ],
+      "exit": 0,
+      "durationMs": 4405,
+      "summary": "ene-controls-BFCKUI_M.js\"\n      ]\n    },\n    {\n      \"type\": \"renderer-chunk-failure\",\n      \"passed\": true,\n      \"disclosureOpen\": true,\n      \"failedScripts\": [\n        \"http://127.0.0.1:4331/after/assets/scene-CAd1hERU.js\"\n      ]\n    },\n    {\n      \"type\": \"startup-and-webgl-fallback\",\n      \"passed\": true,\n      \"disclosureOpen\": true,\n      \"failedScripts\": []\n    }\n  ],\n  \"passed\": true\n}\n"
+    },
+    {
+      "name": "pages-nojs",
+      "file": "qa-pages.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "interaction-final-nojs",
+        "--edges-only"
+      ],
+      "exit": 0,
+      "durationMs": 3755,
+      "summary": "{\"scope\":\"interaction-final-nojs\",\"passed\":true,\"routes\":0,\"flows\":0,\"edges\":4,\"failed\":[]}\n"
+    },
+    {
+      "name": "rail-focus-current",
+      "file": "qa-project-rail-focus.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "regression"
+      ],
+      "exit": 0,
+      "durationMs": 86963,
+      "summary": "{\"passed\":true,\"checks\":292,\"cases\":12}\n"
+    },
+    {
+      "name": "menu",
+      "file": "qa-room-menu.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/"
+      ],
+      "exit": 0,
+      "durationMs": 8929,
+      "summary": ""
+    },
+    {
+      "name": "documents",
+      "file": "qa-room-document-details.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "interaction-final"
+      ],
+      "exit": 0,
+      "durationMs": 68744,
+      "summary": "Document sweep 0/100\nDocument sweep 20/100\nDocument sweep 40/100\nDocument sweep 60/100\nDocument sweep 80/100\nDocument sweep 100/100\n{\"passed\":true,\"checks\":917,\"scenarios\":4,\"sweep\":101}\n"
+    },
+    {
+      "name": "ux",
+      "file": "qa-room-ux.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "interaction-final"
+      ],
+      "exit": 0,
+      "durationMs": 103474,
+      "summary": "Physical sweep 0/100\nPhysical sweep 20/100\nPhysical sweep 40/100\nPhysical sweep 60/100\nPhysical sweep 80/100\nPhysical sweep 100/100\n{\"passed\":true,\"checks\":557,\"scenarios\":4,\"sweep\":101}\n"
+    },
+    {
+      "name": "partial-mobile",
+      "file": "qa-room-document-partial-mobile.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "interaction-final"
+      ],
+      "exit": 0,
+      "durationMs": 13014,
+      "summary": "{\"passed\":true,\"checks\":156,\"samples\":42}\n"
+    },
+    {
+      "name": "fallback",
+      "file": "qa-room-document-fallback.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "interaction-final"
+      ],
+      "exit": 0,
+      "durationMs": 5535,
+      "summary": "{\"passed\":true,\"checks\":36,\"scenarios\":6}\n"
+    },
+    {
+      "name": "shadow",
+      "file": "qa-room-shadow-cache.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/"
+      ],
+      "exit": 0,
+      "durationMs": 152840,
+      "summary": "desktop-no-preference shadow invalidation passed\ndesktop-reduce shadow invalidation passed\nmobile-no-preference shadow invalidation passed\nmobile-reduce shadow invalidation passed\n"
+    }
+  ],
+  "resumeAt": "2026-10-15T21:08:46.344Z"
+}

@@ -1,0 +1,292 @@
+{
+  "at": "2026-10-15T21:36:28.445Z",
+  "baseline": "ef768d519efee829bd283e6196ece82a446c202a",
+  "allPassed": true,
+  "regressionJobs": 22,
+  "originalRegressionJobs": 17,
+  "verified": {
+    "access": {
+      "file": "reports/access.json",
+      "passed": true,
+      "checks": 144,
+      "samples": 16
+    },
+    "content": {
+      "file": "reports/content.json",
+      "passed": true,
+      "checks": 158,
+      "scenarios": 4
+    },
+    "small": {
+      "file": "reports/small.json",
+      "passed": true,
+      "checks": 41,
+      "scenarios": 1
+    },
+    "handles": {
+      "file": "reports/handles.json",
+      "passed": true,
+      "checks": 112,
+      "samples": 24
+    },
+    "documents": {
+      "file": "reports/documents.json",
+      "passed": true,
+      "checks": 917,
+      "scenarios": 4
+    },
+    "ux": {
+      "file": "reports/ux.json",
+      "passed": true,
+      "checks": 557,
+      "scenarios": 4
+    },
+    "partial": {
+      "file": "reports/partial.json",
+      "passed": true,
+      "checks": 156,
+      "samples": 42
+    },
+    "fallback": {
+      "file": "reports/fallback.json",
+      "passed": true,
+      "checks": 36,
+      "scenarios": 6
+    },
+    "furniture": {
+      "file": "reports/furniture.json",
+      "passed": true,
+      "checks": 121,
+      "scenarios": 4
+    },
+    "refinement": {
+      "file": "reports/refinement.json",
+      "passed": true,
+      "checks": 88,
+      "scenarios": 4
+    },
+    "completion": {
+      "file": "reports/completion.json",
+      "passed": true,
+      "checks": 148,
+      "scenarios": 6
+    },
+    "showcase": {
+      "file": "reports/showcase.json",
+      "passed": true,
+      "checks": 292,
+      "cases": 12
+    },
+    "assets": {
+      "file": "reports/assets.json",
+      "passed": false,
+      "candidatePassed": true,
+      "caveat": "Baseline desktop has four ERR_ABORTED notifications; all HTTP200 and asset phases parsed. Raw overall passed=false retained."
+    },
+    "preserved": {
+      "file": "reports/preserved.json",
+      "passed": true
+    }
+  },
+  "runtime": [
+    {
+      "name": "room/architecture-materials.js",
+      "sha256": "f3edf1d0c44d92e32e80ba793153c7359a5f3a8c90547d266dceff0b4a278702"
+    },
+    {
+      "name": "room/audio-score.js",
+      "sha256": "b142f7f1015bd25234c515ce4e3fd45124587a873f6572862205bc320139abfe"
+    },
+    {
+      "name": "room/audio-worker.js",
+      "sha256": "325d37b5147530dec66ef1c8a7222bf75be8622ef3adcc320d07201afe9ced2e"
+    },
+    {
+      "name": "room/audio.js",
+      "sha256": "cc3f851d434bb46cf137b8de037f71d5d47a972f75a4f8f6419d66dd775390dd"
+    },
+    {
+      "name": "room/boot.js",
+      "sha256": "41d4ff057d3185d88e7016349cbc4a72b44e33d67a22237375b77f2497ce17f5"
+    },
+    {
+      "name": "room/cabinet-doors.js",
+      "sha256": "338ee6f47d40777e978aab9aae6a6dc38ba0aca24bbe72921abc89b3580eefb6"
+    },
+    {
+      "name": "room/cabinet-scene.js",
+      "sha256": "faba0347aa4e622fd6b682802dfc1425ce829bcf01501856ec7b272918e2d991"
+    },
+    {
+      "name": "room/collection-models.js",
+      "sha256": "04c28b39d51412cd4d41a813faccdca78658f6245bace3c0c2691c2534479726"
+    },
+    {
+      "name": "room/collection-viewer.js",
+      "sha256": "13ae69e049a58bac022b323b6fa4e9702d7d620b08f58620d422ffc24c00deec"
+    },
+    {
+      "name": "room/compressed-models.js",
+      "sha256": "79110c624660661badd9dc2656d88e5a28488209a6b0df0728031e0b34a471e7"
+    },
+    {
+      "name": "room/cube-state.js",
+      "sha256": "444aa7795838492cfd2a6539c1d2815f91da42f5598550b8d4c5a11dffe74aa3"
+    },
+    {
+      "name": "room/daylight.js",
+      "sha256": "33041c679daab94b276482bd2ef68ab1b80e42cc44db1dd40dc94f031bd797ba"
+    },
+    {
+      "name": "room/document-actions.js",
+      "sha256": "5438d1db0111f6c36fb102ef4f53f23b9576f206f7ce5d0bdaed7a322090bde9"
+    },
+    {
+      "name": "room/documents-data.js",
+      "sha256": "88788ad6dffd000b68e81978ce51fab8cb1e9a667ec6680c0d30c90715fee73e"
+    },
+    {
+      "name": "room/expo.js",
+      "sha256": "00c88d8c68aa864b09157438033dac9969ce51a291d6d420951f081a7b3ca2f6"
+    },
+    {
+      "name": "room/exterior-surfaces.js",
+      "sha256": "ba272c6436633497e42fa7097a473960c86d828bdaf8641eae29d3eea43657a2"
+    },
+    {
+      "name": "room/furniture.js",
+      "sha256": "479f529ce12feb3c41685432694ec751ca0b40d322c460628f12e86f6bd10c3a"
+    },
+    {
+      "name": "room/index.html",
+      "sha256": "5c34b1d9c0be9e66d81f225004411f12570c070db86d31e2b8545f7e72292a36"
+    },
+    {
+      "name": "room/joinery-details.js",
+      "sha256": "49cd7244a3922d01a773bf7076940d90c938b5aa196c77982ab568ef87529f98"
+    },
+    {
+      "name": "room/main.js",
+      "sha256": "6b64b18148246897b434e169a531f779d25205711c8273b895279237131488d0"
+    },
+    {
+      "name": "room/profile-data.js",
+      "sha256": "539300192cd920cffe89040ba57c3a93c20b2d93203dcd00922a1ab1cf6b5dc3"
+    },
+    {
+      "name": "room/projects-data.js",
+      "sha256": "ad46614ca06ab5f23319392170959ba12d1bffa65b44783c214a28429d1022ec"
+    },
+    {
+      "name": "room/room-accents.js",
+      "sha256": "1b15c1c306be8c45257db133288cd899cd9310f7731977aaa5429481d3728791"
+    },
+    {
+      "name": "room/stream-manifest.js",
+      "sha256": "ed47bd912a29b49fdc050007961092a1bc4c1d31ec03a113de24f77319df29b2"
+    },
+    {
+      "name": "room/streaming.js",
+      "sha256": "363b8200e35e7700a0710fcc0b4ef6cd2e968dcd92e7648bdfc7895e50c9dde0"
+    },
+    {
+      "name": "room/style.css",
+      "sha256": "d877740913c5efcb00911978ce78245a8a88a87886f1292ade314af08860e234"
+    },
+    {
+      "name": "room/ui.js",
+      "sha256": "5f89b2cb7f9cbc6ab4aa76e8a336bb71a2e49876cd25a63c8e5b0893accc0ec3"
+    },
+    {
+      "name": "room/vegetation.js",
+      "sha256": "6f18a5c67e7abbe76e5edca7e1a6f0ee5c6fea7c28bef5fe6370c57d0dbbaa56"
+    },
+    {
+      "name": "room/weather.js",
+      "sha256": "2ed6ceeae76a29fd2c09bb05154ececd376b4b9e9436adb2eeb467ec2d21907c"
+    },
+    {
+      "name": "room/window-fragment.js",
+      "sha256": "10d07af549db828e0c68d1d6187d569cdf557fc6ebc24a6a5bb3240f4be4e4d3"
+    },
+    {
+      "name": "room/world.js",
+      "sha256": "3a269f5ec1e55070154493a54922238e734b4ca7fbdccd0845331cfbb0539731"
+    },
+    {
+      "name": "files/education/hackalem-2026-public.png",
+      "sha256": "f0152ea62277efed03af52d85a72bcffc3f21d85c7d2a9ccbf9594d223e0a9aa"
+    },
+    {
+      "name": "files/education/hackalem-2026-preview.png",
+      "sha256": "fe324b5c8155e18f83503814317d32a5657b3113069f7fdb71864233549f0a4c"
+    },
+    {
+      "name": "files/education/hackalem-2026-provenance.json",
+      "sha256": "bdc844cd789fdc180aafddb83f97afa47137464832767699af7a62e5fd839670"
+    }
+  ],
+  "ordinary": [
+    {
+      "name": "index.html",
+      "sha256": "76999e40ff1d19c059d5f9023cb51327259655863bd6e47df3bdc9140756946b"
+    },
+    {
+      "name": "projects/index.html",
+      "sha256": "1b42d0ca1ebb6a024dfd613c0eee90aafe2cb879ffbda4738ad2579ac6bfc648"
+    },
+    {
+      "name": "assets/main-BNlxNoS0.js",
+      "sha256": "9112eb265d650fccc6f74ab6630916e0e046bf81736fcdf38452a2e7b1600d84"
+    },
+    {
+      "name": "assets/main-BrEEzRz3.css",
+      "sha256": "b00d10c9fec750e091b957334dcacf7dfa1dc68dec27bdb9a180c4f64eeadd55"
+    },
+    {
+      "name": "assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2",
+      "sha256": "268f03691b3d06e57abcf20f9277e314ea8784298983aab5b40c1b91965027e1"
+    },
+    {
+      "name": "assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+      "sha256": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27"
+    },
+    {
+      "name": "assets/onest-latin-ext-wght-normal-QAhDxQuo.woff2",
+      "sha256": "14e7d3079b75860e2ab50efc6c318c398fdb46ede9b56e625f12ae70a3c5d9a4"
+    },
+    {
+      "name": "assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+      "sha256": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828"
+    },
+    {
+      "name": "assets/onest-math-wght-normal-Bl4ZGkZl.woff2",
+      "sha256": "c74952a8c0c8c558c4f879f83773cf529d11350609f7073f5b2c5999dec46041"
+    },
+    {
+      "name": "assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+      "sha256": "2ec2d45d2ec0770e2c18cba2dba5126cf2dcff181d23ad192e9fffeb4af4b0b6"
+    },
+    {
+      "name": "assets/onest-vietnamese-wght-normal-BBxOatbv.woff2",
+      "sha256": "d852d4d094a3a46d701d16245deb7ca83b16b5bd69e20aa0aba089392ad69474"
+    },
+    {
+      "name": "assets/preferences-CEm29xHT.js",
+      "sha256": "8a844904ef87dc1db3703d63f5aafc35cdb461e74dc35024e8ffe9d63fba4eac"
+    },
+    {
+      "name": "assets/rowline-sample-Dt88s_-X.js",
+      "sha256": "6b68c868d89c1686513fd001b182dd203ac2ee04701bd90e35880438ea583747"
+    },
+    {
+      "name": "assets/scene-CAd1hERU.js",
+      "sha256": "ca49717a9d3d0b334ea0e85a24c93452b3146f5b2dfebbe72478aad74efb1243"
+    },
+    {
+      "name": "assets/scene-controls-BFCKUI_M.js",
+      "sha256": "5d5a1a1a9fbf1793ea7bf160653444ae083b2f4b2894047b331192d69b8672e8"
+    }
+  ],
+  "afterRegressionClarification": "One UI line now resets a new diploma opening to diploma. Certificate tab/language preservation remains explicit. Final content/gesture tests include native paper and semantic reset after a certificate; geometry and shaders are unchanged after the 22-suite run."
+}

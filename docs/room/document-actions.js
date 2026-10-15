@@ -1,7 +1,7 @@
 import * as T from 'three';
 const project=(p,camera)=>{p.project(camera);return{x:(p.x+1)*innerWidth/2,y:(1-p.y)*innerHeight/2}};
 function paperRect(o,camera){const b=new T.Box3().setFromObject(o),a=[];for(const x of [b.min.x,b.max.x])for(const y of [b.min.y,b.max.y])for(const z of [b.min.z,b.max.z])a.push(project(new T.Vector3(x,y,z),camera));return{top:Math.min(...a.map(p=>p.y)),bottom:Math.max(...a.map(p=>p.y))}}
-export function hideDocumentLeaders(){document.querySelector('#document-leaders')?.setAttribute('hidden','')}
+export function hideDocumentLeaders(){document.querySelectorAll('#document-leaders,#collection-leaders,#certificate-leaders').forEach(e=>e.setAttribute('hidden',''))}
 export function layoutDocumentActions(items,camera,drawerButton){
  const svg=document.querySelector('#document-leaders');if(!svg)return;for(const p of svg.querySelectorAll('path'))p.setAttribute('hidden','');const active=items.filter(i=>!i.el.hidden);svg.toggleAttribute('hidden',!active.length);if(!active.length)return;svg.setAttribute('viewBox',`0 0 ${innerWidth} ${innerHeight}`);
  const handle=drawerButton&&!drawerButton.hidden?drawerButton.getBoundingClientRect():null;let top=Math.max(90,...active.map(i=>paperRect(i.object,camera).bottom+8),handle?handle.bottom+8:0);
@@ -10,4 +10,22 @@ export function layoutDocumentActions(items,camera,drawerButton){
  const height=Math.max(...sorted.map(i=>i.h));if(top+height>innerHeight-38)top=Math.min(...active.map(i=>paperRect(i.object,camera).top))-height-12;
  if(top<80){for(const i of sorted)i.el.hidden=i.el.disabled=true;hideDocumentLeaders();return}
  for(const i of sorted){i.x=Math.max(12+i.w/2,Math.min(innerWidth-12-i.w/2,i.x));i.el.style.left=i.x+'px';i.el.style.top=top+'px';const path=svg.querySelector('#document-leader-'+i.id.slice(7));path?.removeAttribute('hidden');path?.setAttribute('d',`M${i.anchor.x.toFixed(2)},${i.anchor.y.toFixed(2)} L${i.x.toFixed(2)},${(top>i.anchor.y?top:top+i.h).toFixed(2)}`);i.el.dataset.anchorX=i.anchor.x.toFixed(3);i.el.dataset.anchorY=i.anchor.y.toFixed(3)}
+}
+function boundsOnScreen(object,camera){const b=new T.Box3().setFromObject(object),p=[];for(const x of [b.min.x,b.max.x])for(const y of [b.min.y,b.max.y])for(const z of [b.min.z,b.max.z])p.push(project(new T.Vector3(x,y,z),camera));return{left:Math.min(...p.map(p=>p.x)),right:Math.max(...p.map(p=>p.x)),top:Math.min(...p.map(p=>p.y)),bottom:Math.max(...p.map(p=>p.y))}}
+const overlaps=(a,b)=>a.left<b.right&&a.right>b.left&&a.top<b.bottom&&a.bottom>b.top;
+function clearLeaders(id){const svg=document.querySelector(id);svg.setAttribute('hidden','');for(const path of svg.querySelectorAll('path'))path.setAttribute('hidden','');return svg}
+export function layoutCollectionActions(items,camera,handleButton){
+ const svg=clearLeaders('#collection-leaders'),active=items.filter(i=>!i.el.hidden);if(!active.length)return;
+ const sorted=active.map(i=>{i.el.style.width=Math.min(116,(innerWidth-40)/3)+'px';const box=new T.Box3().setFromObject(i.object),foot=box.getCenter(new T.Vector3());foot.y=box.min.y;const anchor=project(foot,camera);return{...i,anchor,rect:boundsOnScreen(i.object,camera),w:i.el.offsetWidth,h:i.el.offsetHeight,x:anchor.x}}).sort((a,b)=>a.x-b.x),gap=8;
+ for(let i=1;i<sorted.length;i++)sorted[i].x=Math.max(sorted[i].x,sorted[i-1].x+(sorted[i-1].w+sorted[i].w)/2+gap);
+ const last=sorted.at(-1);if(last.x+last.w/2>innerWidth-12){last.x=innerWidth-12-last.w/2;for(let i=sorted.length-2;i>=0;i--)sorted[i].x=Math.min(sorted[i].x,sorted[i+1].x-(sorted[i].w+sorted[i+1].w)/2-gap)}
+ sorted[0].x=Math.max(sorted[0].x,12+sorted[0].w/2);for(let i=1;i<sorted.length;i++)sorted[i].x=Math.max(sorted[i].x,sorted[i-1].x+(sorted[i-1].w+sorted[i].w)/2+gap);
+ const h=Math.max(...sorted.map(i=>i.h));let top=Math.max(90,...sorted.map(i=>i.rect.bottom+10));if(handleButton&&!handleButton.hidden){const handle=handleButton.getBoundingClientRect();if(sorted.some(i=>overlaps({left:i.x-i.w/2,right:i.x+i.w/2,top,bottom:top+i.h},handle)))top=Math.max(top,handle.bottom+8)}if(top+h>innerHeight-40)top=Math.min(...sorted.map(i=>i.rect.top))-h-10;if(top<80){for(const i of sorted)i.el.hidden=i.el.disabled=true;return}
+ svg.removeAttribute('hidden');svg.setAttribute('viewBox',`0 0 ${innerWidth} ${innerHeight}`);for(const i of sorted){i.el.style.left=i.x+'px';i.el.style.top=top+'px';const line=svg.querySelector('#collection-leader-'+i.id);line.removeAttribute('hidden');line.setAttribute('d',`M${i.anchor.x.toFixed(2)},${i.anchor.y.toFixed(2)} L${i.x.toFixed(2)},${(top>i.anchor.y?top:top+i.h).toFixed(2)}`);i.el.dataset.anchorX=i.anchor.x.toFixed(3);i.el.dataset.anchorY=i.anchor.y.toFixed(3)}
+}
+export function layoutCertificateAction(item,camera,others){
+ const svg=clearLeaders('#certificate-leaders');if(!item||item.el.hidden)return;const b=boundsOnScreen(item.object,camera),w=item.el.offsetWidth,h=item.el.offsetHeight,x=(b.left+b.right)/2,y=(b.top+b.bottom)/2,avoid=others.filter(i=>!i.el.hidden).flatMap(i=>[boundsOnScreen(i.object,camera),i.el.getBoundingClientRect()]);
+ const candidates=[{left:b.left-w-12,top:y-h/2,ax:b.left,ay:y},{left:b.right+12,top:y-h/2,ax:b.right,ay:y},{left:x-w/2,top:b.bottom+10,ax:x,ay:b.bottom},{left:x-w/2,top:b.top-h-10,ax:x,ay:b.top}].map(c=>({...c,right:c.left+w,bottom:c.top+h}));
+ const p=candidates.find(p=>p.left>=12&&p.right<=innerWidth-12&&p.top>=80&&p.bottom<=innerHeight-40&&!avoid.some(b=>overlaps(p,b)));if(!p){item.el.hidden=item.el.disabled=true;return}
+ item.el.style.left=p.left+w/2+'px';item.el.style.top=p.top+'px';svg.removeAttribute('hidden');svg.setAttribute('viewBox',`0 0 ${innerWidth} ${innerHeight}`);const line=svg.querySelector('path');line.removeAttribute('hidden');const tx=p.ax<p.left?p.left:p.ax>p.right?p.right:p.left+w/2,ty=p.ay<p.top?p.top:p.ay>p.bottom?p.bottom:p.top+h/2;line.setAttribute('d',`M${p.ax.toFixed(2)},${p.ay.toFixed(2)} L${tx.toFixed(2)},${ty.toFixed(2)}`)
 }

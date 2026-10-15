@@ -1,0 +1,202 @@
+{
+  "baseline": "ef768d519efee829bd283e6196ece82a446c202a",
+  "files": [
+    {
+      "file": "models/room/studio-furniture.blend",
+      "before": "22abfa2b0b1d678fbfad78f7c09963354dc7daecead21fc82d8189a6160c5360",
+      "after": "22abfa2b0b1d678fbfad78f7c09963354dc7daecead21fc82d8189a6160c5360",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "models/room/assets.json",
+      "before": "3e66bb914000d43b611ce1afd9a0fc49c7b8dbb778720fed5dcd5554f3e841d2",
+      "after": "f869e955bd2b005b7e4ad61753c83590aa4c6949cb695d3f0f4624ee03bea7ed",
+      "textLfNormalized": true,
+      "unchanged": true
+    },
+    {
+      "file": "models/room/accents.json",
+      "before": "5629d0efc2ad7564fa1aa186d844f1e5314e9c098bcb759fac244282d37b2a5e",
+      "after": "5629d0efc2ad7564fa1aa186d844f1e5314e9c098bcb759fac244282d37b2a5e",
+      "textLfNormalized": true,
+      "unchanged": true
+    },
+    {
+      "file": "resume/resume.html",
+      "before": "2e98e370fdc65d360a2a85b359e9ce12b39fb38b6c44865aa31e86811bcc10aa",
+      "after": "2e98e370fdc65d360a2a85b359e9ce12b39fb38b6c44865aa31e86811bcc10aa",
+      "textLfNormalized": true,
+      "unchanged": true
+    },
+    {
+      "file": "resume/build.json",
+      "before": "c9e5a6db74aa1d217bc9728457db76cd263854728790167e896b24bd49683f31",
+      "after": "c9e5a6db74aa1d217bc9728457db76cd263854728790167e896b24bd49683f31",
+      "textLfNormalized": true,
+      "unchanged": true
+    },
+    {
+      "file": "public/files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf",
+      "before": "dee574b43b52d0ff4fa891d889826038117c8275f255e2f5efd597944b502d75",
+      "after": "dee574b43b52d0ff4fa891d889826038117c8275f255e2f5efd597944b502d75",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "public/room/assets/studio-furniture/cabinet.glb",
+      "before": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031",
+      "after": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "public/room/assets/studio-furniture/cabinet.glb.gz",
+      "before": "d09a88387a934905ecffc002cd83e0e6d8f964a61e1b16e85c8389e96c4fe54b",
+      "after": "d09a88387a934905ecffc002cd83e0e6d8f964a61e1b16e85c8389e96c4fe54b",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "public/room/assets/studio-furniture/chair.glb",
+      "before": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f",
+      "after": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "public/room/assets/studio-furniture/chair.glb.gz",
+      "before": "b460d38947d9ae81a279ffae41865da1a64911c64ec817b8db5f2c32b5e853f3",
+      "after": "b460d38947d9ae81a279ffae41865da1a64911c64ec817b8db5f2c32b5e853f3",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "public/room/assets/studio-furniture/door.glb",
+      "before": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e",
+      "after": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "public/room/assets/studio-furniture/door.glb.gz",
+      "before": "dfaa18e8f5071eb92c6e52556acf102aa3e81a308b077a3cf672fa1f85e9d250",
+      "after": "dfaa18e8f5071eb92c6e52556acf102aa3e81a308b077a3cf672fa1f85e9d250",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "public/room/assets/studio-furniture/drawer.glb",
+      "before": "cbd18d8f6d45cf28379742c78c401f266b26262dea9fdbc58cda1292bcd40f97",
+      "after": "cbd18d8f6d45cf28379742c78c401f266b26262dea9fdbc58cda1292bcd40f97",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "public/room/assets/studio-furniture/drawer.glb.gz",
+      "before": "8a949b52af7f079a50085558447f8b15dbc318e74431a09cf85a033be2f3e032",
+      "after": "8a949b52af7f079a50085558447f8b15dbc318e74431a09cf85a033be2f3e032",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "public/room/assets/studio-furniture/lamp.glb",
+      "before": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd",
+      "after": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "public/room/assets/studio-furniture/lamp.glb.gz",
+      "before": "2f17093c4ba0d33a432a0b6e27f9696f55fc45324ee9d2c1e6d45e9e2d9e01d0",
+      "after": "2f17093c4ba0d33a432a0b6e27f9696f55fc45324ee9d2c1e6d45e9e2d9e01d0",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "public/room/assets/studio-furniture/side-table.glb",
+      "before": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06",
+      "after": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "public/room/assets/studio-furniture/side-table.glb.gz",
+      "before": "986f7d410512898b86541abcde6bf2d33fd51fbb7bd5996abf39f70185402491",
+      "after": "986f7d410512898b86541abcde6bf2d33fd51fbb7bd5996abf39f70185402491",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "public/room/assets/studio-furniture/workbench.glb",
+      "before": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4",
+      "after": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "public/room/assets/studio-furniture/workbench.glb.gz",
+      "before": "205ca2d3ae2eaee55792a3039c8e4fdd632c1efa940a1551bca12a5351526949",
+      "after": "205ca2d3ae2eaee55792a3039c8e4fdd632c1efa940a1551bca12a5351526949",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "public/room/assets/room-accents/ceiling-panel.glb",
+      "before": "6dd936a72644c3a88698216b9af3ab1966d96fb2ec825952755870304a9e48e3",
+      "after": "6dd936a72644c3a88698216b9af3ab1966d96fb2ec825952755870304a9e48e3",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "public/room/assets/room-accents/ceiling-panel.glb.gz",
+      "before": "d2c169aba252ca1ac47882ffaafdc41761f2397597cc10657783218c02c90482",
+      "after": "d2c169aba252ca1ac47882ffaafdc41761f2397597cc10657783218c02c90482",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "public/room/assets/room-accents/orbit.glb",
+      "before": "7a011facd879ca516cce2bfe183c867bd3b398434162886ae65237f913cb0121",
+      "after": "7a011facd879ca516cce2bfe183c867bd3b398434162886ae65237f913cb0121",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "public/room/assets/room-accents/orbit.glb.gz",
+      "before": "9a465a361581d374d0ed56c1a794e4722f68dd0d5b9cd26bbd4f039d241a5b65",
+      "after": "9a465a361581d374d0ed56c1a794e4722f68dd0d5b9cd26bbd4f039d241a5b65",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "public/room/assets/room-accents/robot.glb",
+      "before": "a94781e01ab3a2d263f8ed87d81b2b40c21591e740bc4a0ef7f2f425145c8b2e",
+      "after": "a94781e01ab3a2d263f8ed87d81b2b40c21591e740bc4a0ef7f2f425145c8b2e",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "public/room/assets/room-accents/robot.glb.gz",
+      "before": "2e390f4429065070ee4a555e054da5481d4d5b446262089ae100cf3309df7454",
+      "after": "2e390f4429065070ee4a555e054da5481d4d5b446262089ae100cf3309df7454",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "public/files/education/diploma-public.webp",
+      "before": "aeb82b2bc35591a8d6c095ff95adeaf6f6d9bf65da4aa8da62566ccdb811eae6",
+      "after": "aeb82b2bc35591a8d6c095ff95adeaf6f6d9bf65da4aa8da62566ccdb811eae6",
+      "textLfNormalized": false,
+      "unchanged": true
+    },
+    {
+      "file": "public/files/education/iqadam-2025-public.webp",
+      "before": "da3eeced274d0202518c5d25e2316854c621d967ef0165a0e66aaf09a0454a1e",
+      "after": "da3eeced274d0202518c5d25e2316854c621d967ef0165a0e66aaf09a0454a1e",
+      "textLfNormalized": false,
+      "unchanged": true
+    }
+  ],
+  "allUnchanged": true
+}

@@ -3,12 +3,13 @@ import './hierarchy.css';
 import './restoration.css';
 import './pages.css';
 import './project-polish.css';
+import './project-showcase.css';
 import { initPreferences, language, t } from './preferences';
 import { showSceneFallback } from './fallback';
-import { initProjectRail } from './project-rail';
+import { initProjectShowcase } from './project-showcase';
 
 initPreferences();
-initProjectRail();
+initProjectShowcase();
 const copyEmail = document.querySelector<HTMLButtonElement>('#copy-email');
 if (copyEmail) {
   const wrapper = copyEmail.closest<HTMLElement>('.email-copy')!;
@@ -49,7 +50,7 @@ function limitDetailImages() {
 }
 limitDetailImages();
 window.addEventListener('resize', limitDetailImages);
-document.querySelectorAll<HTMLElement>('.project-preview, .gallery-open, .hero-preview > a').forEach(wrapper => {
+document.querySelectorAll<HTMLElement>('.project-preview, .gallery-open, .hero-preview > a, .showcase-preview').forEach(wrapper => {
   const image = wrapper.querySelector<HTMLImageElement>('img');
   if (!image) return;
   const failed = () => {

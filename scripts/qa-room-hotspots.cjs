@@ -12,13 +12,14 @@ const ok=(name,value)=>{assert(value,name);report.checks.push(name)};
    await page.goto(base+'room/?lang=en');await page.waitForFunction(()=>window.__SLICE__?.ready,null,{timeout:90000});
    const visible=()=>page.locator('.object-action:not([hidden])').evaluateAll(nodes=>nodes.map(n=>n.id));
    ok(name+': no markers behind the closed entrance',!(await visible()).length);
-   for(let step=1;step<=2;step++){
+   for(let step=1;step<=3;step++){
     await page.locator('#scene').hover();await page.mouse.wheel(0,220);
     await page.waitForFunction(()=>Math.abs(__SLICE__.inspect().target-__SLICE__.inspect().progress)<.0002);await page.waitForTimeout(150);
     if(step===1)ok(name+': distant closed door blocks room actions',!(await visible()).length);
+    if(step===2)ok(name+': open entrance still blocks actions while camera remains in corridor',await page.evaluate(()=>__SLICE__.inspect().camera[2]>=1.9)&&!(await visible()).length);
    }
    const early=await page.evaluate(()=>__SLICE__.inspect());
-   ok(name+': useful actions appear before the old .96 cutoff',early.progress<.6&&await page.locator('#object-case').isVisible()&&await page.locator('#object-lamp').isVisible());
+   ok(name+': useful actions appear before the old .96 cutoff',early.progress<.96&&early.camera[2]<1.9&&await page.locator('#object-case').isVisible()&&await page.locator('#object-lamp').isVisible());
    ok(name+': entry remains physically clear',early.cameraClear&&early.doorAngle>=early.doorPassAngle);
    const markers=await visible();
    await page.screenshot({path:path.join(out,label+'-'+name+'-early.png')});

@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-15T21:15:54.423Z",
+  "base": "http://127.0.0.1:4331/after/",
+  "scope": "interaction-final",
+  "checks": [
+    {
+      "type": "all fourteen fresh screenshots and seven previews match provenance and production build",
+      "passed": true,
+      "captures": 14,
+      "previewBytes": 258178
+    },
+    {
+      "type": "image-failure",
+      "passed": true
+    },
+    {
+      "type": "controls-chunk-failure",
+      "passed": true,
+      "disclosureOpen": true,
+      "failedScripts": [
+        "http://127.0.0.1:4331/after/assets/scene-controls-BFCKUI_M.js"
+      ]
+    },
+    {
+      "type": "renderer-chunk-failure",
+      "passed": true,
+      "disclosureOpen": true,
+      "failedScripts": [
+        "http://127.0.0.1:4331/after/assets/scene-CAd1hERU.js"
+      ]
+    },
+    {
+      "type": "startup-and-webgl-fallback",
+      "passed": true,
+      "disclosureOpen": true,
+      "failedScripts": []
+    }
+  ],
+  "passed": true
+}

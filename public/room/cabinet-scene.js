@@ -21,9 +21,16 @@ export function installCabinet(cabinet,objects){
  }
  let opening=0;content.visible=true;
  function localBounds(root,inverse){const box=new T.Box3();root.traverse(o=>{if(!o.isMesh)return;const a=o.geometry.attributes.position,m=new T.Matrix4().multiplyMatrices(inverse,o.matrixWorld),p=new T.Vector3();for(let i=0;i<a.count;i++)box.expandByPoint(p.fromBufferAttribute(a,i).applyMatrix4(m))});return box}
+ function set(value){opening=T.MathUtils.clamp(value,0,1);if(bifold)bifold.set(opening);else{left.rotation.y=closed[0]-opening*limit;right.rotation.y=closed[1]+opening*limit}content.visible=true}
+ const handles=bifold?.handles||[anchor];
  return{
-  anchor,items,
-  set(value){opening=T.MathUtils.clamp(value,0,1);if(bifold)bifold.set(opening);else{left.rotation.y=closed[0]-opening*limit;right.rotation.y=closed[1]+opening*limit}content.visible=true},
+  anchor,handles,items,set,
+  grip(hit){
+   cabinet.updateMatrixWorld(true);let object=hit?.object||anchor,belongs=false;for(let o=object;o;o=o.parent)if(o===left||o===right)belongs=true;if(!belongs)object=anchor;
+   const worldPoint=hit?.point&&belongs?hit.point.clone():new T.Box3().setFromObject(object).getCenter(new T.Vector3()),local=object.worldToLocal(worldPoint.clone()),start=opening,samples=[];
+   for(let i=0;i<=32;i++){set(i/32);cabinet.updateMatrixWorld(true);samples.push({amount:i/32,position:object.localToWorld(local.clone()).toArray()})}
+   set(start);cabinet.updateMatrixWorld(true);return{opening:start,current:object.localToWorld(local.clone()).toArray(),samples};
+  },
   inspect(){return{variant:bifold?'authored-bifold-sliding':'legacy-curved-leaves',opening,itemsAccessible:opening>(bifold?.98:.82),leftAngle:left.rotation.y-closed[0],rightAngle:right.rotation.y-closed[1],limit}},
   geometry(){
    cabinet.updateMatrixWorld(true);const inverse=cabinet.matrixWorld.clone().invert(),l=localBounds(left,inverse),r=localBounds(right,inverse);
