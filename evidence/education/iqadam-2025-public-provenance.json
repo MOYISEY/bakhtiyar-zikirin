@@ -1,0 +1,23 @@
+{
+  "document": "iQADAM Systems internship certificate",
+  "basis": "Public redacted certificate supplied by the user. The user separately confirmed a second internship in March–April 2026. Dates 10 November–5 December 2025 are based on the supplied internship report; the certificate itself states November–December 2025 and issue date 5 December 2025. No independent issuer registry verification claimed.",
+  "source": {
+    "sha256": "526232e48f8999bf2b3ed60a45b70490918bdb56e9a461297df9201f03626671",
+    "width": 1254,
+    "height": 938,
+    "redaction": "Signatory details, signature and seal masked before receipt. No unredacted source or PDF added."
+  },
+  "derivatives": [
+    {
+      "file": "public/files/education/iqadam-2025-public.webp",
+      "sha256": "da3eeced274d0202518c5d25e2316854c621d967ef0165a0e66aaf09a0454a1e",
+      "bytes": 151130
+    },
+    {
+      "file": "public/files/education/iqadam-2025-preview.webp",
+      "sha256": "bc4089f8f192381a8b16d9a41aedf5426507017c4f5bfcd72002d9aefdfa4f85",
+      "bytes": 36932
+    }
+  ],
+  "conversion": "Offline Canvas WebP encoding; no generative edits; redaction inspected in final full-size WebP."
+}

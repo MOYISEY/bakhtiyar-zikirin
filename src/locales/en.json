@@ -155,7 +155,7 @@
   "s155": "And checking the result.",
   "s156": "Frontend is my main focus. Testing experience helps me look beyond the first successful click.",
   "s157": "March 2026 — April 2026",
-  "s158": "IQadam Systems",
+  "s158": "iQADAM Systems",
   "s159": "Frontend developer with testing responsibilities",
   "s160": "Developing and integrating modules, application builds and code review. Checking APIs, writing test scenarios, working with SQL and Trello tasks.",
   "s161": "Modules",
@@ -353,7 +353,7 @@
   "v10.keyform": "3D keyboard builder: layouts, exploded view and key tests.",
   "v10.keyformInfo": "An original concept. Internal assembly is schematic; real component compatibility is not claimed.",
   "v10.keyformAlt": "Keyform: a 3D keyboard separated into keycaps, switches, plate, PCB and case.",
-  "v11.hero": "I build web apps with React and TypeScript, connect APIs and test how they work.",
+  "v11.hero": "I build web interfaces with React and TypeScript, integrate APIs, and test user flows.",
   "v11.helio": "Sunlight and shadows on a city map.",
   "v11.keyform": "A 3D keyboard builder with layouts, an exploded view and key testing.",
   "v11.poslesvet": "A turn-based game about a lighthouse, shadows and tides.",
@@ -491,5 +491,13 @@
   "about.iqadamPeriod": "March 2026 — April 2026",
   "education.diploma": "College diploma · 26 June 2026",
   "education.openDiploma": "Open diploma",
-  "education.publicCopy": "Public copy: document numbers and signatures are hidden."
+  "education.publicCopy": "Public copy: document numbers and signatures are hidden.",
+  "about.iqadam2025Period": "10 November — 5 December 2025",
+  "about.iqadam2025Role": "Frontend development internship",
+  "about.iqadam2025Body": "A separate internship at iQADAM Systems. Its completion certificate was issued on 5 December 2025.",
+  "documents.title": "Diploma and certificate",
+  "certificate.title": "iQADAM Systems internship certificate",
+  "certificate.period": "November — December 2025",
+  "certificate.open": "Open certificate",
+  "certificate.note": "Public copy: the signature and signatory details are hidden."
 }

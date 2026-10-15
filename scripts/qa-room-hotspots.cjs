@@ -19,7 +19,7 @@ const ok=(name,value)=>{assert(value,name);report.checks.push(name)};
    }
    const early=await page.evaluate(()=>__SLICE__.inspect());
    ok(name+': useful actions appear before the old .96 cutoff',early.progress<.6&&await page.locator('#object-case').isVisible()&&await page.locator('#object-lamp').isVisible());
-   ok(name+': entry remains physically clear',early.cameraClear&&early.doorAngle>=1.70);
+   ok(name+': entry remains physically clear',early.cameraClear&&early.doorAngle>=early.doorPassAngle);
    const markers=await visible();
    await page.screenshot({path:path.join(out,label+'-'+name+'-early.png')});
    await page.locator('#object-case').focus();await page.keyboard.press('Enter');await page.locator('#panel[open]').waitFor();

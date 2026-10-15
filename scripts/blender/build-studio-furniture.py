@@ -78,6 +78,16 @@ wood_image.pixels.foreach_set(pixels); wood_image.pack()
 wn=walnut.node_tree.nodes.new('ShaderNodeTexImage'); wn.image=wood_image
 walnut.node_tree.links.new(wn.outputs['Color'],walnut.node_tree.nodes.get('Principled BSDF').inputs['Base Color'])
 
+
+# A packed companion grain for pale oak; all source pixels are authored here.
+oak_image=bpy.data.images.new('Authored pale oak grain',width=256,height=256,alpha=False)
+oak_pixels=[]
+for i in range(0,len(pixels),4):
+    oak_pixels.extend((min(1,pixels[i]*1.32),min(1,pixels[i+1]*1.40),min(1,pixels[i+2]*1.45),1))
+oak_image.pixels.foreach_set(oak_pixels); oak_image.pack()
+oak_node=drawer_wood.node_tree.nodes.new('ShaderNodeTexImage'); oak_node.image=oak_image
+drawer_wood.node_tree.links.new(oak_node.outputs['Color'],drawer_wood.node_tree.nodes.get('Principled BSDF').inputs['Base Color'])
+
 def empty(name, parent=None, loc=(0,0,0)):
     o=bpy.data.objects.new(name,None); bpy.context.collection.objects.link(o)
     o.parent=parent; o.location=loc; return o
@@ -203,6 +213,11 @@ back=empty('Reclined back support',chair,(0,.245,.635)); back.rotation_euler.x=m
 box('Walnut back shell',(.70,.028,.36),(0,.033,0),walnut,back,.02,4)
 back_pad=cushion('Shaped back cushion',.70,.365,.11,(0,-.03,.005),sage,back); back_pad.rotation_euler.x=math.pi/2
 curve('Back cushion welt',[(x,-.075,z+.005)for x,z in rounded_rectangle(.68,.345,.055)],.0018,piping,back,True)
+# Exposed joinery and lower bracing, without changing the chair footprint.
+for side in [-1,1]:
+    rod('Lower side stretcher',(side*.35,-.245,.18),(side*.35,.245,.18),.010,walnut,chair)
+    for y in [-.23,.24]:
+        cap=cylinder('Chair joinery cap',.007,.002,(side*.358,y,.35),brass,chair,vertices=16); cap.rotation_euler.y=math.pi/2
 models.append(('chair',scene,collection,chair,(1.4,-2.0,1.25),(0,0,.40),1.55))
 
 scene,collection,lamp=model_scene('StudioTaskLamp')
@@ -236,6 +251,8 @@ rim.hide_render=True
 bpy.data.objects.remove(rim,do_unlink=True)
 cylinder('Warm lamp diffuser',.069,.002,(0,0,-.062),light_mat,shade,vertices=48)
 curve('Flexible power lead',[(-.01,-.013,-.0521),(.008,.015,.025),(.009,.04,.11),(.009,-.068,.40),(.008,.12,.70),(.005,.17,.74)],.0028,rubber,lamp)
+for i in range(7):
+    vent=box('Shade neck cooling flute',(.003,.018,.004),((i-3)*.007,0,.044),metal,shade,.001,2)
 models.append(('lamp',scene,collection,lamp,(1.3,-1.6,1.10),(0,.02,.36),1.25))
 
 scene,collection,door=model_scene('StudioDoorLeaf')
@@ -246,8 +263,8 @@ box('Clear upper glazing',(.753,.012,1.430),(.515,.002,1.522),glass,door,.001,2)
 for x in [.142,.888]: box('Glazing bead',(.018,.10,1.448),(x,0,1.522),powder,door,.003,3)
 for z in [.804,2.24]: box('Glazing bead',(.758,.10,.018),(.515,0,z),powder,door,.003,3)
 for z in [.27,1.13,2.08]:
-    cylinder('Machined hinge knuckle',.021,.123,(.004,0,z),brass,door,vertices=32)
-    for dz in [-.043,0,.043]: cylinder('Hinge collar',.022,.004,(.004,0,z+dz),metal,door,vertices=24)
+    cylinder('Machined hinge knuckle',.021,.123,(0,-.052,z),brass,door,vertices=32)
+    for dz in [-.043,0,.043]: cylinder('Hinge collar',.022,.004,(0,-.052,z+dz),metal,door,vertices=24)
 for side in [-1,1]:
     y=side*.056
     rose=cylinder('Lever rose',.039,.009,(.90,y,1.08),brass,door,vertices=40); rose.rotation_euler.x=math.pi/2
@@ -257,6 +274,11 @@ for side in [-1,1]:
         screw=cylinder('Rose fixing',.003,.002,(.90,side*.062,z),metal,door,vertices=16); screw.rotation_euler.x=math.pi/2
     lock=cylinder('Lock escutcheon',.019,.006,(.90,y,.963),brass,door,vertices=32); lock.rotation_euler.x=math.pi/2
     key=cylinder('Key slot',.003,.002,(.90,side*.061,.963),metal,door,vertices=12); key.rotation_euler.x=math.pi/2
+box('Lower quiet sweep',(.752,.025,.016),(.515,.018,.012),rubber,door,.003,3)
+# The editable Blender root sits on the same pin as the web parent.
+# Preserve every world-space point while moving the root origin to the hinge.
+for child in list(door.children): child.location.y+=.052
+door.location.y=-.052
 models.append(('door',scene,collection,door,(2.6,-3.6,2.05),(.515,0,1.16),2.80))
 
 scene,collection,drawer=model_scene('StudioDeskDrawer')
@@ -274,7 +296,89 @@ handle=rod('DrawerPull',(-.081,-.244,.077),(.081,-.244,.077),.0055,brass,tray,ve
 empty('DrawerPullAnchor',tray,(0,-.248,.077))
 box('Working note paper',(.24,.17,.003),(-.055,.005,.036),paper,tray,.002,2)
 rod('Graphite pencil',(.085,-.11,.044),(.125,.095,.044),.0035,drawer_wood,tray,vertices=12)
+# Rail gaps remain separate through the complete 0.29 m travel.
+for side in [-1,1]:
+    box('Fixed drawer runner',(.006,.38,.020),(side*.220,0,.074),metal,shell,.001,2)
+    box('Moving drawer runner',(.003,.34,.012),(side*.214,0,.075),brass,tray,.001,2)
+    for y in [-.13,.13]: box('Underside mounting hanger',(.028,.045,.050),(side*.225,y,.165),metal,shell,.002,2)
 models.append(('drawer',scene,collection,drawer,(.8,-1.0,.7),(0,0,.06),.8))
+
+
+# All coordinates are metre based. Front is Blender -Y / glTF +Z.
+scene,collection,cabinet=model_scene('StudioCabinet')
+cabinet['collectionShelfHeight']=.409
+cabinet['caseFront']=.260
+cabinet['openingLimit']=1.30
+for x in [-1.2025,1.2025]: box('Cabinet side',(.035,.52,.548),(x,0,.394),walnut,cabinet,.006,3)
+for z,h in [(.1325,.025),(.6675,.025)]: box('Cabinet horizontal', (2.37,.52,h),(0,0,z),walnut,cabinet,.005,3)
+box('Inset cabinet back',(2.37,.018,.51),(0,.245,.395),walnut,cabinet,.003,3)
+box('Continuous upper shelf',(2.37,.493,.018),(0,-.006,.400),walnut,cabinet,.004,3)
+for x in [-.40,.40]: box('Cabinet divider',(.022,.475,.510),(x,.005,.395),walnut,cabinet,.003,3)
+for x in [-1.12,0,1.12]:
+    for y in [-.19,.19]:
+        cylinder('Adjustable cabinet foot',.024,.096,(x,y,.048),metal,cabinet,vertices=20)
+        cylinder('Cabinet foot pad',.026,.008,(x,y,.004),rubber,cabinet,vertices=20)
+        box('Foot mounting block',(.07,.07,.03),(x,y,.108),walnut,cabinet,.004,3)
+for side,name in [(1,'CabinetLeftHinge'),(-1,'CabinetRightHinge')]:
+    hinge=empty(name,cabinet,(-side*1.19,-.283,.395))
+    box('Cabinet leaf panel',(1.152,.024,.478),(side*.592,0,0),walnut,hinge,.004,3)
+    for i in range(17):
+        box('Rounded cabinet flute',(.018,.014,.455),(side*(.048+i*.068),-.018,0),drawer_wood,hinge,.004,3)
+    for z in [-.228,.228]: box('Leaf end rail',(1.15,.018,.025),(side*.592,-.019,z),walnut,hinge,.004,3)
+    for z in [-.17,0,.17]: cylinder('Cabinet hinge barrel',.014,.040,(0,0,z),brass,hinge,vertices=20)
+    for z in [-.035,.035]: rod('Handle stand-off',(side*1.10,-.020,z),(side*1.10,-.052,z),.004,brass,hinge,vertices=16)
+    pull=cylinder('CabinetPull' if side==1 else 'CabinetRightPull',.006,.085,(side*1.10,-.052,0),brass,hinge,vertices=20)
+models.append(('cabinet',scene,collection,cabinet,(3.1,-3.4,1.9),(0,0,.34),3.15))
+
+scene,collection,table=model_scene('StudioReadingTable')
+box('Reading tabletop',(.61,.527,.025),(0,0,.5375),drawer_wood,table,.008,4)
+for x in [-.2575,.2575]:
+    for y in [-.215,.215]:
+        box('Taper-ready table leg',(.045,.045,.517),(x,y,.2665),walnut,table,.005,3)
+        box('Table felt foot',(.046,.046,.008),(x,y,.004),rubber,table,.003,3)
+for y in [-.234,.234]:
+    box('Table upper apron',(.49,.018,.055),(0,y,.4975),drawer_wood,table,.004,3)
+    box('Table lower rail',(.49,.018,.04),(0,y,.105),walnut,table,.003,3)
+for x in [-.276,.276]:
+    box('Table end apron',(.018,.413,.055),(x,0,.4975),drawer_wood,table,.004,3)
+    box('Table lower end rail',(.018,.413,.04),(x,0,.105),walnut,table,.003,3)
+for i in range(7): box('Open shelf slat',(.065,.425,.012),(-.222+i*.074,0,.131),drawer_wood,table,.004,3)
+models.append(('side-table',scene,collection,table,(1.05,-1.3,.95),(0,0,.28),1.1))
+
+scene,collection,bench=model_scene('StudioWorkbench')
+def world_box(name,size,position,mat,bevel=.004):
+    x,y,z=position; w,h,d=size
+    return box(name,(w,d,h),(x,-z,y),mat,bench,bevel,3)
+world_box('Solid oak worktop',(2.3,.0206,.88),(.45,.8322,-2.03),drawer_wood,.006)
+for x in [-.56,1.46]:
+    world_box('Steel trestle web',(.055,.8019,.64),(x,.42095,-2.03),metal,.006)
+    world_box('Trestle floor shoe',(.23,.02,.72),(x,.01,-2.03),rubber,.006)
+world_box('Rear cable channel',(2.05,.085,.035),(.45,.69,-2.36),metal,.004)
+for w,x in [(1.725,.1625),(.485,1.3575)]: world_box('Front oak apron',(w,.04,.025),(x,.8019,-1.6025),drawer_wood,.004)
+for x in [-.69,1.59]: world_box('Workbench end apron',(.022,.04,.82),(x,.8019,-2.03),drawer_wood,.004)
+world_box('Monitor rear case',(1.048,.652,.055),(.18,1.22,-2.18),metal,.018)
+for x in [-.331,.691]: world_box('Monitor side bezel',(.026,.652,.008),(x,1.22,-2.149),rubber,.003)
+for y in [.9014,1.5386]: world_box('Monitor top bottom bezel',(.996,.0148,.008),(.18,y,-2.149),rubber,.003)
+world_box('Monitor stand base',(.36,.025,.23),(.18,.855,-2.12),metal,.012)
+world_box('Monitor stand column',(.075,.255,.055),(.18,.976,-2.19),metal,.006)
+for i in range(15): world_box('Monitor rear ventilation',(.025,.002,.020),(-.19+i*.052,1.48,-2.208),rubber,.001)
+world_box('Keyboard enclosure',(.64,.027,.21),(.05,.856,-1.85),metal,.007)
+labels=['1234567890-=','QWERTYUIOP[]','ASDFGHJKL;\'','ZXCVBNM,./']
+for row in range(4):
+    for col in range(13):
+        if row==3 and 4<=col<=8: continue
+        x=-.226+col*.044; z=-1.922+row*.044
+        world_box('Sculpted keycap',(.035,.012,.035),(x,.876,z),paper,.004)
+        if col<len(labels[row]):
+            data=bpy.data.curves.new('Key legend','FONT'); data.body=labels[row][col]; data.size=.013; data.align_x='CENTER'; data.align_y='CENTER'; data.resolution_u=3
+            glyph=bpy.data.objects.new('Key legend',data); bpy.context.collection.objects.link(glyph); glyph.parent=bench; glyph.location=(x,-z,.8825); data.materials.append(metal)
+world_box('Space bar',(.211,.012,.035),(.038,.876,-1.790),paper,.004)
+bpy.ops.mesh.primitive_uv_sphere_add(segments=32,ring_count=16,location=(.57,1.82,.861))
+mouse=finish(bpy.context.object,'Ergonomic mouse shell',metal,bench); mouse.scale=(.045,.065,.018); bpy.ops.object.transform_apply(location=False,rotation=False,scale=True)
+curve('Mouse button split',[(.57,1.84,.879),(.57,1.86,.878),(.57,1.88,.871)],.001,rubber,bench,resolution=1)
+wheel=cylinder('Mouse scroll wheel',.007,.015,(.57,1.845,.879),rubber,bench,vertices=20); wheel.rotation_euler.y=math.pi/2
+models.append(('workbench',scene,collection,bench,(3,-.5,2.6),(.45,2.03,.80),3.4))
+
 
 def descendants(root): return [root]+list(root.children_recursive)
 def aim(o,target): o.rotation_euler=(Vector(target)-o.location).to_track_quat('-Z','Y').to_euler()
@@ -297,7 +401,7 @@ def export_optimised(root, source_scene, name, dest):
     bpy.context.view_layer.active_layer_collection=bpy.context.view_layer.layer_collection.children[collection.name]
     bpy.context.view_layer.update()
     for obj in list(web.objects):
-        if obj.type not in ['MESH','CURVE']: continue
+        if obj.type not in ['MESH','CURVE','FONT']: continue
         bpy.ops.object.select_all(action='DESELECT'); obj.select_set(True); bpy.context.view_layer.objects.active=obj
         bpy.ops.object.convert(target='MESH')
         if len(obj.data.materials)>1:
@@ -310,7 +414,7 @@ def export_optimised(root, source_scene, name, dest):
         parent=clones[root]
         ancestor=obj.parent
         while ancestor:
-            if ancestor.get('studioNode') in ['DrawerTray','DrawerHousing']:
+            if ancestor.get('studioNode') in ['DrawerTray','DrawerHousing','CabinetLeftHinge','CabinetRightHinge']:
                 parent=ancestor; break
             ancestor=ancestor.parent
         mat=obj.data.materials[obj.data.polygons[0].material_index]
@@ -323,7 +427,7 @@ def export_optimised(root, source_scene, name, dest):
         obj.data.transform(matrix); obj.data.update()
         obj.parent=parent; obj.matrix_parent_inverse=Matrix.Identity(4); obj.matrix_basis=Matrix.Identity(4)
         # Keep the physical pull as a named mesh for raycast and semantic anchor.
-        key=(parent.name,mat.name,'pull' if obj.get('studioNode')=='DrawerPull' else '')
+        key=(parent.name,mat.name,'pull' if obj.get('studioNode') in ['DrawerPull','CabinetPull'] else '')
         groups.setdefault(key,[]).append(obj)
     bpy.context.view_layer.update()
     for key,objects in groups.items():
@@ -357,7 +461,7 @@ for name,scene,collection,root,camera_pos,target,ortho in models:
     triangles=0
     deps=bpy.context.evaluated_depsgraph_get()
     for o in descendants(root):
-        if o.type in ['MESH','CURVE']:
+        if o.type in ['MESH','CURVE','FONT']:
             evaluated=o.evaluated_get(deps); mesh=evaluated.to_mesh(); mesh.calc_loop_triangles(); triangles+=len(mesh.loop_triangles); evaluated.to_mesh_clear()
     doc=json.loads(raw[20:20+int.from_bytes(raw[12:16],'little')])
     primitives=sum(len(m['primitives'])for m in doc.get('meshes',[]))
@@ -377,7 +481,7 @@ for name,scene,collection,root,camera_pos,target,ortho in models:
     bpy.ops.render.render(write_still=True)
 
 notes=bpy.data.texts.new('SOURCE NOTES')
-notes.write('Original studio furniture. Four model scenes share editable bevels, material nodes and packed authored maps. Each scene separates its asset collection from render-only studio lights/floor. Hinge at door origin; DrawerTray moves on glTF +Z by 0.29 m. Lamp luminous surface material contains the light name used by the web runtime. All dimensions are metres. Rebuild with scripts/blender/build-studio-furniture.py.\n')
+notes.write('Original studio furniture. Seven model scenes share editable bevels, material nodes and packed authored maps. Each scene separates its asset collection from render-only studio lights/floor. Hinge at door origin; DrawerTray moves on glTF +Z by 0.29 m. Lamp luminous surface material contains the light name used by the web runtime. All dimensions are metres. Rebuild with scripts/blender/build-studio-furniture.py.\n')
 bpy.context.window.scene=models[0][1]
 bpy.context.preferences.filepaths.save_version=0
 for screen in bpy.data.screens:

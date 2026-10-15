@@ -5,35 +5,59 @@
   "models": [
     {
       "id": "chair",
-      "triangles": 8292,
-      "webPrimitives": 4,
-      "rawBytes": 246360,
-      "gzipBytes": 113612,
-      "sha256": "923e7bf63c55b70b1ad3593f912f6fc4d84ea3b6b2c7f114e753494b6633afaa"
+      "triangles": 9516,
+      "webPrimitives": 5,
+      "rawBytes": 282196,
+      "gzipBytes": 123772,
+      "sha256": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
     },
     {
       "id": "lamp",
-      "triangles": 10824,
+      "triangles": 11580,
       "webPrimitives": 6,
-      "rawBytes": 301684,
-      "gzipBytes": 118385,
-      "sha256": "715c4ba4b8b5f76648d0f6ce8e27d2239e2321393101f65a52b07f5245e80801"
+      "rawBytes": 327732,
+      "gzipBytes": 124840,
+      "sha256": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd"
     },
     {
       "id": "door",
-      "triangles": 9260,
-      "webPrimitives": 4,
-      "rawBytes": 265628,
-      "gzipBytes": 84014,
-      "sha256": "426bc9ce5b3fd0df9f053a96e7520a0b581a1925b382e48f60fd65e48bb4c395"
+      "triangles": 9448,
+      "webPrimitives": 5,
+      "rawBytes": 272364,
+      "gzipBytes": 86154,
+      "sha256": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
     },
     {
       "id": "drawer",
-      "triangles": 2808,
+      "triangles": 3672,
       "webPrimitives": 7,
-      "rawBytes": 112752,
-      "gzipBytes": 56442,
-      "sha256": "1d17b3570ca3513ae3fb875494bbd373060ca97ec9e2614b304e97e62e63b1a6"
+      "rawBytes": 169104,
+      "gzipBytes": 91610,
+      "sha256": "dc040c1f46a3f84257d02e9b6a469618d5992d0c99e6e2aa73a28aed653adcc1"
+    },
+    {
+      "id": "cabinet",
+      "triangles": 15624,
+      "webPrimitives": 10,
+      "rawBytes": 486044,
+      "gzipBytes": 157521,
+      "sha256": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031"
+    },
+    {
+      "id": "side-table",
+      "triangles": 4624,
+      "webPrimitives": 3,
+      "rawBytes": 190204,
+      "gzipBytes": 91304,
+      "sha256": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06"
+    },
+    {
+      "id": "workbench",
+      "triangles": 17081,
+      "webPrimitives": 4,
+      "rawBytes": 552672,
+      "gzipBytes": 165305,
+      "sha256": "bfd836f41f2b7590cb488638f51105bee62305a0a191ae19155f5d3122fc2c39"
     }
   ]
 }

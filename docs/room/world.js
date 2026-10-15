@@ -6,7 +6,7 @@ import {installWindow} from './window-fragment.js';
 import {createStreaming} from './streaming.js';
 import {L} from './ui.js';
 import {PROJECTS} from './projects-data.js';
-import {authoredFurniture,FURNITURE_FILES,installStudioFurniture} from './furniture.js';
+import {authoredFurniture,FURNITURE_FILES,refinedJoinery,JOINERY_FILES,installStudioFurniture} from './furniture.js';
 import {RoundedBoxGeometry} from 'three/addons/geometries/RoundedBoxGeometry.js';
 
 export async function createWorld(renderer,camera){
@@ -21,12 +21,15 @@ export async function createWorld(renderer,camera){
  const plaster=new T.MeshStandardMaterial({map:plasterMap,color:'#f3eee4',roughness:.92,normalScale:new T.Vector2(.25,.25)}),floor=new T.MeshStandardMaterial({map:floorMap,color:'#e3d8c5',roughness:.62,normalScale:new T.Vector2(.25,.25)}),oak=new T.MeshStandardMaterial({map:oakMap,color:'#ede4d5',roughness:.78,normalScale:new T.Vector2(.25,.25)});
  let project=textMap(['HELIO'],{bg:'#345148',color:'#eadcc3'}),chair=null,lamp=null,cabinet=null,sideTable=null,lightSurface=null,exterior=null;
  let previewTexture=null,previewId=null,previewSource='',previewUpdates=0,furniture=null,collection=null,education=null;
- const galleryMaps=[null,null];
+ const galleryMaps=[null,null],workbenchFallback=[];let recordingWorkbench=false;
+ // Share the established room oak texture, preserving its photographic grain.
+ function matchOak(root){root.traverse(o=>{if(!o.isMesh)return;const materials=Array.isArray(o.material)?o.material:[o.material];if(!materials.some(m=>m.name.replaceAll('_',' ').toLowerCase()==='desk oak edge'))return;realUV(o.geometry);const uv=o.geometry.attributes.uv;for(let i=0;i<uv.count;i++)uv.setXY(i,.35+uv.getX(i)*.16,.13+uv.getY(i)*.035);uv.needsUpdate=true;for(const m of materials)if(m.name.replaceAll('_',' ').toLowerCase()==='desk oak edge'){if(m.map!==oak.map)m.map?.dispose();m.map=oak.map;m.color.copy(oak.color);m.roughness=.64;m.needsUpdate=true}})}
+
  plaster.normalScale.set(.16,.16);const green=cloneMaterial(plaster);green.color.set('#345148');green.normalScale.set(.13,.13);
  const joinery=new T.MeshStandardMaterial({color:'#c4c0b3',roughness:.48,metalness:.02});joinery.name='Warm powder coat / matched window finish';
  const cream=new T.MeshStandardMaterial({color:'#d8cfbc',roughness:.73}),dark=new T.MeshStandardMaterial({color:'#202c29',roughness:.5}),black=new T.MeshStandardMaterial({color:'#202321',roughness:.28,metalness:.55}),brass=new T.MeshStandardMaterial({color:'#bd9860',metalness:.82,roughness:.3}),paper=new T.MeshStandardMaterial({color:'#e9e1cb',roughness:.9});
  function realUV(g){const p=g.attributes.position,n=g.attributes.normal,uv=g.attributes.uv;for(let i=0;i<p.count;i++){const x=p.getX(i),y=p.getY(i),z=p.getZ(i),nx=Math.abs(n.getX(i)),ny=Math.abs(n.getY(i)),nz=Math.abs(n.getZ(i));uv.setXY(i,nx>ny&&nx>nz?z:x,ny>nz&&ny>nx?z:y)}uv.needsUpdate=true;return g}
- function box(w,h,d,m,x,y,z,r=.006,parent=scene){const g=r?new RoundedBoxGeometry(w,h,d,2,Math.min(r,w/3,h/3,d/3)):new T.BoxGeometry(w,h,d);realUV(g);if(m===oak){const uv=g.attributes.uv;for(let i=0;i<uv.count;i++)uv.setXY(i,.35+uv.getX(i)*.16,.13+uv.getY(i)*.035)}const o=new T.Mesh(g,m);o.position.set(x,y,z);o.castShadow=o.receiveShadow=true;parent.add(o);if(architecture){g.computeBoundingBox();colliders.push(o)}return o}
+ function box(w,h,d,m,x,y,z,r=.006,parent=scene){const g=r?new RoundedBoxGeometry(w,h,d,2,Math.min(r,w/3,h/3,d/3)):new T.BoxGeometry(w,h,d);realUV(g);if(m===oak){const uv=g.attributes.uv;for(let i=0;i<uv.count;i++)uv.setXY(i,.35+uv.getX(i)*.16,.13+uv.getY(i)*.035)}const o=new T.Mesh(g,m);if(recordingWorkbench)workbenchFallback.push(o);o.position.set(x,y,z);o.castShadow=o.receiveShadow=true;parent.add(o);if(architecture){g.computeBoundingBox();colliders.push(o)}return o}
  function cylinder(radius,height,m,x,y,z,parent=scene){const o=new T.Mesh(new T.CylinderGeometry(radius,radius,height,24),m);o.position.set(x,y,z);o.castShadow=o.receiveShadow=true;parent.add(o);return o}
  function textMap(lines,{w=1024,h=512,bg='#ded5bd',color='#253e34',size=75,align='left'}={}){const c=document.createElement('canvas');c.width=w;c.height=h;const a=c.getContext('2d');a.fillStyle=bg;a.fillRect(0,0,w,h);a.fillStyle=color;a.textAlign=align;for(const [i,line]of lines.entries()){let fontSize=i===0?size:size*.38;const font=()=>`${i===0?'500':'400'} ${fontSize}px ${i===0?'Georgia':'Arial'}`;a.font=font();const measured=a.measureText(line).width,available=align==='center'?w-60:w-100;if(measured>available){fontSize*=available/measured;a.font=font()}a.fillText(line,align==='center'?w/2:70,100+i*100)}const t=new T.CanvasTexture(c);t.colorSpace=T.SRGBColorSpace;t.anisotropy=8;return t}
  function label(lines,w,h,x,y,z,options={},parent=scene){const t=textMap(lines,options),o=new T.Mesh(new T.PlaneGeometry(w,h),new T.MeshStandardMaterial({map:t,roughness:.8}));o.position.set(x,y,z);parent.add(o);return o}
@@ -100,9 +103,14 @@ export async function createWorld(renderer,camera){
  windowFallback.push(box(.3,.075,4.4,joinery,-2.89,.6,-.5,.006));
  // Exterior is assembled only when the approach begins.
  // Door: mortise frame, inset panels, glazing, visible hinges and proper lever hardware.
- for(const x of [-.59,.59]){box(.14,2.5,.32,joinery,x,1.25,2.06,.01);box(.025,2.44,.02,brass,x+(x<0?.07:-.07),1.22,2.235,.003)}
+ // Real mortises on the room-side inner corner leave room for hinge knuckles.
+ box(.12,2.5,.32,joinery,-.60,1.25,2.06,.006);
+ for(const [bottom,top]of [[0,.22],[.37,1.08],[1.23,2.03],[2.18,2.5]])box(.020,top-bottom,.32,joinery,-.530,(bottom+top)/2,2.06,.002);
+ for(const y of [.295,1.155,2.105])box(.020,.150,.295,joinery,-.530,y,2.0725,.002);
+ box(.14,2.5,.32,joinery,.59,1.25,2.06,.01);
+ for(const x of [-.59,.59])box(.025,2.44,.02,brass,x+(x<0?.07:-.07),1.22,2.235,.003);
  box(1.32,.14,.32,joinery,0,2.46,2.06,.01);box(1.05,.016,.33,brass,0,.009,2.06,.003);
- const door=new T.Group();door.position.set(-.515,.025,2.06);scene.add(door);
+ const door=new T.Group();door.position.set(-.515,.025,1.90);scene.add(door);
  const width=1.03,height=2.35;
  for(const x of [.07,width-.07])box(.14,height,.095,joinery,x,height/2,0,.01,door);
  for(const [y,h]of [[.065,.13],[.73,.14],[height-.065,.13]])box(width-.2,h,.095,joinery,width/2,y,0,.008,door);
@@ -124,15 +132,17 @@ export async function createWorld(renderer,camera){
  const slatMaterial=cloneMaterial(floor);slatMaterial.color.set('#ceb187');slatMaterial.roughness=.58;
  const slatGeometry=realUV(new RoundedBoxGeometry(.034,1.62,.027,2,.003));const suv=slatGeometry.attributes.uv;for(let i=0;i<suv.count;i++){const x=suv.getX(i);suv.setX(i,suv.getY(i));suv.setY(i,x)}suv.needsUpdate=true;
  const slats=new T.InstancedMesh(slatGeometry,slatMaterial,47),sm=new T.Matrix4();for(let i=0;i<47;i++){sm.makeTranslation(-.925+i*.061,1.68,-2.865);slats.setMatrixAt(i,sm)}slats.castShadow=slats.receiveShadow=true;scene.add(slats);
+ recordingWorkbench=true;
  // Workbench: solid oak top, restrained black steel trestles and cable channel.
  const deskTop=box(2.3,.0206,.88,oak,.45,.8322,-2.03,.005);
  box(1.725,.04,.025,oak,.1625,.8019,-1.6025,.006);box(.485,.04,.025,oak,1.3575,.8019,-1.6025,.006);for(const x of [-.69,1.59])box(.022,.04,.82,oak,x,.8019,-2.03,.004);
  for(const x of [-.56,1.46]){box(.055,.8219,.64,dark,x,.41095,-2.03,.008);box(.23,.02,.72,black,x,.01,-2.03,.004);contact(x,-2.03,.4,.9,.4)}
  box(2.05,.085,.035,dark,.45,.69,-2.36,.004);
  contact(.45,-2.03,3.1,1.55,.24);
+ recordingWorkbench=false;
  // Monitor carries a real Helio image, never a fictional client mock-up.
  const monitor=new T.Group();monitor.position.set(.18,1.22,-2.18);monitor.scale.setScalar(.80);scene.add(monitor);
- box(1.31,.815,.075,black,0,0,0,.025,monitor);
+ recordingWorkbench=true;box(1.31,.815,.075,black,0,0,0,.025,monitor);recordingWorkbench=false;
  const screen=new T.Mesh(new T.PlaneGeometry(1.245,.778),new T.MeshBasicMaterial({map:project,color:'#e8e4d7',toneMapped:false}));screen.position.set(0,0,.041);screen.userData.action='case';monitor.add(screen);objects.push(screen);
  // Reuse the decoded panel image after selection; no preview fetch during entry.
  // One authored canvas preserves aspect ratio and bounds GPU texture ownership.
@@ -149,12 +159,13 @@ export async function createWorld(renderer,camera){
   screen.material.map=texture;screen.material.needsUpdate=true;localize(projectPlaque);changed();
  }
  const inspectProject=()=>({id:previewId||'helio',source:previewSource||'assets/helio.webp',updates:previewUpdates,dynamicTextures:previewTexture?1:0,width:previewTexture?.image.width||0,height:previewTexture?.image.height||0});
- box(.075,.255,.055,black,.18, .976,-2.19,.008);
+ recordingWorkbench=true;box(.075,.255,.055,black,.18, .976,-2.19,.008);
  box(.36,.025,.23,black,.18,.855,-2.12,.015);
- cylinder(.004,.004,new T.MeshBasicMaterial({color:'#c1e7c0'}),.78,.932,-2.13).rotation.x=Math.PI/2;
+ cylinder(.004,.004,new T.MeshBasicMaterial({color:'#c1e7c0'}),.66,.902,-2.142).rotation.x=Math.PI/2;
  box(.64,.027,.21,dark,.05,.856,-1.85,.009);
  for(let row=0;row<4;row++)for(let col=0;col<13;col++)box(.035,.008,.035,cream,-.226+col*.044,.873,-1.922+row*.044,.003);
  box(.09,.027,.13,black,.57,.856,-1.82,.018);
+ recordingWorkbench=false;
  box(.94,.36,.018,oak,-.1,2.03,-2.832,.005);const projectPlaque=localizedLabel(()=>[previewId?String(PROJECTS.findIndex(p=>p.id===previewId)+1).padStart(2,'0')+' / '+(previewId==='poslesvet'?L('Послесвет','Послесвет','POSLESVET'):PROJECTS.find(p=>p.id===previewId).title.toUpperCase()):'01 / HELIO',previewId?PROJECTS.find(p=>p.id===previewId).stack.slice(0,3).join(' · '):L('СВЕТ · ГОРОД · ВРЕМЯ','ЖАРЫҚ · ҚАЛА · УАҚЫТ','LIGHT · CITY · TIME')],.90,.32,-.1,2.03,-2.82,{w:1024,h:320,bg:'#345148',color:'#eadcc3',size:102});// The wall plaque is decorative; project actions belong to the monitor.
  for(const x of [-.54,.34]){const screw=cylinder(.007,.018,brass,x,2.17,-2.81);screw.rotation.x=Math.PI/2;}
  // The notebook is the single developer/experience object; constrained cover hinge.
@@ -207,9 +218,9 @@ export async function createWorld(renderer,camera){
  function installMaterial(original,maps){const old=original.map;for(const m of [original,...(materialCopies.get(original)||[])]){[m.map,m.normalMap,m.roughnessMap]=maps;m.needsUpdate=true}old?.dispose()}
  const fullMaterial=name=>Promise.all((name==='white_plaster_02'?['painted','nor_gl','rough']:['diff','nor_gl','rough']).map((part,i)=>stream.texture('room',`assets/${name}/${part}.webp`,i===0)));
  function loadRoom(){return stream.run('room',async()=>{
-  const [maps,screenMap,frames,assets,environmentModule,windowAsset,windowIndirect,corridorAsset,corridorIndirect,studioAssets]=await Promise.all([
+  const [maps,screenMap,frames,assets,environmentModule,windowAsset,windowIndirect,corridorAsset,corridorIndirect,studioAssets,workbenchAsset]=await Promise.all([
    Promise.all(['white_plaster_02','laminate_floor_02'].map(fullMaterial)),stream.texture('room','assets/helio.webp',true),Promise.all(['keyform','poslesvet'].map(n=>stream.texture('room','assets/'+n+'.webp',true))),
-   Promise.all([authoredFurniture?FURNITURE_FILES[0]:'assets/sheen_chair/model.gltf',authoredFurniture?FURNITURE_FILES[1]:'assets/desk_lamp_arm_01/model.gltf','assets/modern_wooden_cabinet/model.gltf'].map(url=>stream.model('room',url))),import('three/addons/environments/RoomEnvironment.js'),stream.model('room','assets/window/window.glb'),stream.texture('room','assets/window/indirect.webp',true),stream.model('room','assets/corridor/profiles.glb'),stream.texture('room','assets/corridor/indirect.webp',true),authoredFurniture?Promise.all(FURNITURE_FILES.slice(2).map(url=>stream.model('room',url))):null]);
+   Promise.all([authoredFurniture?FURNITURE_FILES[0]:'assets/sheen_chair/model.gltf',authoredFurniture?FURNITURE_FILES[1]:'assets/desk_lamp_arm_01/model.gltf',refinedJoinery?JOINERY_FILES[0]:'assets/modern_wooden_cabinet/model.gltf'].map(url=>stream.model('room',url))),import('three/addons/environments/RoomEnvironment.js'),stream.model('room','assets/window/window.glb'),stream.texture('room','assets/window/indirect.webp',true),stream.model('room','assets/corridor/profiles.glb'),stream.texture('room','assets/corridor/indirect.webp',true),authoredFurniture?Promise.all(FURNITURE_FILES.slice(2).map(url=>stream.model('room',url))):null,refinedJoinery?stream.model('room',JOINERY_FILES[1]):null]);
   assembly.room=()=>{windowRoot=installWindow(scene,windowAsset.scene,windowIndirect);windowFallback.forEach(o=>o.visible=false);
   const bayRoot=installWindow(scene,corridorAsset.scene,corridorIndirect);bayRoot.name='Authored_corridor_profiles';for(const number of ['01','02','03'])bayFallback.get(number).forEach(o=>o.visible=false);
 
@@ -217,7 +228,7 @@ export async function createWorld(renderer,camera){
   const environment=new environmentModule.RoomEnvironment(),pmrem=new T.PMREMGenerator(renderer);scene.environment=pmrem.fromScene(environment,.03).texture;scene.environmentIntensity=.16;environment.dispose();pmrem.dispose();
   project.dispose();project=screenMap;screen.material.map=project;screen.material.needsUpdate=true;gallery.forEach((g,i)=>{const pic=g.children.find(o=>o.isMesh&&o.geometry.type==='PlaneGeometry');pic.material.map=frames[i];pic.material.needsUpdate=true});
   const [chairAsset,lampAsset,cabinetAsset]=assets;
-  cabinet=cabinetAsset.scene;cabinet.position.set(2.66,0,-.34);cabinet.rotation.y=-Math.PI/2;scene.add(cabinet);cabinet.updateMatrixWorld(true);cabinet.position.y-=new T.Box3().setFromObject(cabinet).min.y;
+  cabinet=cabinetAsset.scene;if(refinedJoinery)matchOak(cabinet);cabinet.position.set(2.66,0,-.34);cabinet.rotation.y=-Math.PI/2;scene.add(cabinet);cabinet.updateMatrixWorld(true);cabinet.position.y-=new T.Box3().setFromObject(cabinet).min.y;
 
   chair=chairAsset.scene;chair.position.set(-1.92,0,-1.15);chair.rotation.y=.72;scene.add(chair);
  let cb=new T.Box3().setFromObject(chair);chair.position.y-=cb.min.y;cb=new T.Box3().setFromObject(chair);contact(-1.92,-1.15,1.02,.9,.18);
@@ -229,26 +240,27 @@ export async function createWorld(renderer,camera){
  const lampBox=new T.Box3().setFromObject(lamp);assetInfo.push({id:'lamp',nativeScale:lamp.scale.toArray(),bounds:lampBox.getSize(new T.Vector3()).toArray(),source:authoredFurniture?'studio-furniture/lamp':'desk_lamp_arm_01'});
 
 
+  if(workbenchAsset){for(const o of workbenchFallback){o.visible=false;o.geometry.dispose()}matchOak(workbenchAsset.scene);scene.add(workbenchAsset.scene);nativeMaterial(workbenchAsset.scene)}
+  contacts.position.y=new T.Box3().setFromObject(cabinet).max.y+.001;
   nativeMaterial(cabinet);collection=installCabinet(cabinet,objects);highlightTargets.cabinet=collection.anchor;for(const [id,item]of Object.entries(collection.items))highlightTargets[id]=item;record('cabinet',cabinet);contact(2.66,-.34,.62,2.5,.32);
   if(lightSurface)lightPos.copy(new T.Box3().setFromObject(lightSurface).getCenter(new T.Vector3()));taskLight.position.copy(lightPos);
   if(studioAssets){furniture=installStudioFurniture({doorAsset:studioAssets[0],drawerAsset:studioAssets[1],scene,door,doorLabel,doorHandle:handle,objects});highlightTargets.drawer=furniture.tray;}
   daylight.prepare();scene.updateMatrixWorld(true);changed();};
  })}
  function loadDecor(){return stream.run('decor',async()=>{
-  const [plantAsset,sideTableAsset,diplomaPreview]=await Promise.all([stream.model('decor','assets/potted_plant_02/selected.gltf'),stream.model('decor','assets/side_table_01/model.gltf'),stream.texture('decor','../files/education/diploma-preview.webp',true)]);
+  const [plantAsset,sideTableAsset,diplomaPreview,certificatePreview]=await Promise.all([stream.model('decor','assets/potted_plant_02/selected.gltf'),stream.model('decor',refinedJoinery?JOINERY_FILES[2]:'assets/side_table_01/model.gltf'),stream.texture('decor','../files/education/diploma-preview.webp',true),stream.texture('decor','../files/education/iqadam-2025-preview.webp',true)]);
   assembly.decor=()=>{const plant=plantAsset.scene;plant.position.set(2.24,0,-2.16);plant.scale.setScalar(.9);scene.add(plant);plant.updateMatrixWorld(true);plant.position.y-=new T.Box3().setFromObject(plant).min.y;plant.traverse(o=>{if(o.isMesh)o.castShadow=o.receiveShadow=true});contact(2.24,-2.16,.63,.63,.60);contact(2.24,-2.16,.32,.32,.70);
 
-  sideTable=sideTableAsset.scene;sideTable.position.set(-2.03,0,.17);sideTable.rotation.y=.15;scene.add(sideTable);sideTable.updateMatrixWorld(true);sideTable.position.y-=new T.Box3().setFromObject(sideTable).min.y;
+  sideTable=sideTableAsset.scene;if(refinedJoinery)matchOak(sideTable);sideTable.position.set(-2.03,0,.17);sideTable.rotation.y=.15;scene.add(sideTable);sideTable.updateMatrixWorld(true);sideTable.position.y-=new T.Box3().setFromObject(sideTable).min.y;
 
   nativeMaterial(sideTable);record('side_table',sideTable);contact(-2.03,.17,.6,.6,.28);
   const sideTop=new T.Box3().setFromObject(sideTable).max.y;
- // A closed education portfolio links to verified study periods, not invented scans.
+ // Two genuine redacted documents rest on one portfolio pad, within the tabletop.
  education=new T.Group();scene.add(education);education.userData.action='education';objects.push(education);highlightTargets.education=education;
- box(.31,.025,.24,green,-2.03,sideTop+.018,.17,.004,education);
- box(.285,.008,.21,paper,-2.025,sideTop+.030,.17,.002,education);
- box(.31,.007,.24,green,-2.03,sideTop+.039,.17,.003,education);
- const study=localizedLabel(()=>[L('ОБРАЗОВАНИЕ','БІЛІМ','EDUCATION'),L('Колледж · AIU','Колледж · AIU','College · AIU')],.26,.18,-2.03,sideTop+.043,.17,{w:800,h:500,bg:'#345148',color:'#e9e1cb',size:74},education);study.rotation.x=-Math.PI/2;
- const diploma=new T.Mesh(new T.PlaneGeometry(.27,.187),new T.MeshStandardMaterial({map:diplomaPreview,roughness:.82}));diploma.rotation.x=-Math.PI/2;diploma.position.set(-2.025,sideTop+.044,.17);education.add(diploma);
+ box(.55,.015,.23,green,-2.03,sideTop+.0085,.17,.004,education);
+ box(.535,.005,.217,paper,-2.03,sideTop+.0185,.17,.002,education);
+ for(const [map,x,w,h]of [[diplomaPreview,-2.17,.245,.16935],[certificatePreview,-1.89,.224,.16755]]){const sheet=new T.Mesh(new T.PlaneGeometry(w,h),new T.MeshStandardMaterial({map,roughness:.82}));sheet.rotation.x=-Math.PI/2;sheet.position.set(x,sideTop+.0219,.17);education.add(sheet)}
+ for(const [x,label]of [[-2.17,()=>[L('ДИПЛОМ · 2026','ДИПЛОМ · 2026','DIPLOMA · 2026')]],[-1.89,()=>['iQADAM · 2025']]]){const tag=localizedLabel(label,.23,.024,x,sideTop+.0225,.266,{w:512,h:128,bg:'#e9e1cb',color:'#345148',size:50},education);tag.rotation.x=-Math.PI/2}
 
   daylight.prepare();scene.updateMatrixWorld(true);changed();};
  })}
@@ -286,5 +298,10 @@ export async function createWorld(renderer,camera){
  function windowBake(enabled=true){windowRoot?.traverse(o=>{if(o.isMesh)for(const m of Array.isArray(o.material)?o.material:[o.material])m.lightMapIntensity=enabled?Math.PI:0})}
  daylight.prepare();
  function inspectWindow(){const meshes=[];windowRoot?.traverse(o=>{if(o.isMesh)meshes.push({uv2:!!o.geometry.attributes.uv1,material:o.material.name,lightmap:o.material.lightMap?.colorSpace,channel:o.material.lightMap?.channel,flipY:o.material.lightMap?.flipY,intensity:o.material.lightMapIntensity,indirectOnly:o.material.userData.indirectOnly})});return {loaded:!!windowRoot,meshes,liveLamp:taskLight.intensity}}
- return {get collectionTargets(){return collection?{cabinet:collection.anchor,...collection.items,education}:{}},setCabinet(value){collection?.set(value)},collectionReady(id){return !!collection?.items[id]&&collection.inspect().itemsAccessible},inspectCollection(){return collection?.inspect()||null},get drawerPull(){return furniture?.pull},setDrawer(value){furniture?.setDrawer(value)},inspectFurniture(){return furniture?.inspect()||{variant:'legacy',drawerTravel:0,drawerOffset:0}},previewProject,inspectProject,allowAssembly,get preparingGPU(){return warming},daylight,windowBake,inspectWindow,prepare,retry,inspectStream,onChange(fn){changed=fn},get studioReady(){return studioReady},clearance,walk,scene,objects,door,cover,cord,cordRoot,cordLine,cordGrip,taskLight,get lightSurface(){return lightSurface},get assetInfo(){return [...assetInfo].sort((a,b)=>['chair','lamp','cabinet','side_table'].indexOf(a.id)-['chair','lamp','cabinet','side_table'].indexOf(b.id))},get project(){return project},get chair(){return chair},get lamp(){return lamp},monitor,folder,lightPos,localize,get exterior(){return exterior},highlight,contacts,gallery,get cabinet(){return cabinet},get sideTable(){return sideTable},office:{doorWidth:width,doorHeight:height,corridorWidth:2.65,sideDoors:doorNumbers,corridorLength:9.47,corridorHeight:3.0,routeLength:8.0},cordHit};
+ return {geometryReport(){
+  scene.updateMatrixWorld(true);const tray=furniture?.tray?new T.Box3().setFromObject(furniture.tray):null,leaf=furniture?.leaf;
+  let entranceIntersections=0,checkedTriangles=0;
+  if(leaf){const walls=colliders.filter(o=>{for(let p=o;p;p=p.parent)if(p===door)return false;return true}).map(o=>new T.Box3().copy(o.geometry.boundingBox).applyMatrix4(o.matrixWorld));leaf.traverse(o=>{if(!o.isMesh)return;const bounds=new T.Box3().setFromObject(o),nearby=walls.filter(b=>b.intersectsBox(bounds));if(!nearby.length)return;const g=o.geometry,a=g.attributes.position,index=g.index,t=new T.Triangle(),vertex=(out,n)=>out.fromBufferAttribute(a,index?index.getX(n):n).applyMatrix4(o.matrixWorld);for(let i=0;i<(index?index.count:a.count);i+=3){vertex(t.a,i);vertex(t.b,i+1);vertex(t.c,i+2);checkedTriangles++;if(nearby.some(b=>b.clone().expandByScalar(-.0005).intersectsTriangle(t)))entranceIntersections++}})}
+  return{cabinet:collection?.geometry(),drawer:tray?{top:tray.max.y,apronBottom:.7819,apronGap:.7819-tray.max.y,min:tray.min.toArray(),max:tray.max.toArray()}:null,entrance:{intersectingTriangles:entranceIntersections,checkedTriangles},education:education?(()=>{const b=new T.Box3().setFromObject(education);return{min:b.min.toArray(),max:b.max.toArray(),tableGap:b.min.y-new T.Box3().setFromObject(sideTable).max.y}})():null,readingTable:sideTable?new T.Box3().setFromObject(sideTable).max.y:null};
+ },get collectionTargets(){return collection?{cabinet:collection.anchor,...collection.items,education}:{}},setCabinet(value){collection?.set(value)},collectionReady(id){return !!collection?.items[id]&&collection.inspect().itemsAccessible},inspectCollection(){return collection?.inspect()||null},get drawerPull(){return furniture?.pull},setDrawer(value){furniture?.setDrawer(value)},inspectFurniture(){return furniture?.inspect()||{variant:'legacy',drawerTravel:0,drawerOffset:0}},previewProject,inspectProject,allowAssembly,get preparingGPU(){return warming},daylight,windowBake,inspectWindow,prepare,retry,inspectStream,onChange(fn){changed=fn},get studioReady(){return studioReady},clearance,walk,scene,objects,door,cover,cord,cordRoot,cordLine,cordGrip,taskLight,get lightSurface(){return lightSurface},get assetInfo(){return [...assetInfo].sort((a,b)=>['chair','lamp','cabinet','side_table'].indexOf(a.id)-['chair','lamp','cabinet','side_table'].indexOf(b.id))},get project(){return project},get chair(){return chair},get lamp(){return lamp},monitor,folder,lightPos,localize,get exterior(){return exterior},highlight,contacts,gallery,get cabinet(){return cabinet},get sideTable(){return sideTable},office:{doorWidth:width,doorHeight:height,corridorWidth:2.65,sideDoors:doorNumbers,corridorLength:9.47,corridorHeight:3.0,routeLength:8.0},cordHit};
 }

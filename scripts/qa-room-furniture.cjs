@@ -11,9 +11,9 @@ async function drag(page,context,from,to,mobile){
  else{await page.mouse.move(from.x,from.y);await page.mouse.down();await page.mouse.move(to.x,to.y,{steps:12});await page.mouse.up()}
 }
 (async()=>{let browser;try{
- for(const id of ['chair','lamp','door','drawer']){
+ for(const model of JSON.parse(fs.readFileSync('models/room/assets.json','utf8')).models){const id=model.id;
   const raw=fs.readFileSync('public/room/assets/studio-furniture/'+id+'.glb'),compressed=fs.readFileSync('public/room/assets/studio-furniture/'+id+'.glb.gz'),j=JSON.parse(raw.subarray(20,20+raw.readUInt32LE(12)).toString());
-  ok(id+': one isolated model scene',j.scenes.length===1);ok(id+': gzip expands to exact GLB',zlib.gunzipSync(compressed).equals(raw));ok(id+': no external texture requests',(j.images||[]).every(i=>i.bufferView!==undefined));
+  ok(id+': metadata hash matches actual GLB',crypto.createHash('sha256').update(raw).digest('hex')===model.sha256);ok(id+': metadata sizes match published files',raw.length===model.rawBytes&&compressed.length===model.gzipBytes);ok(id+': one isolated model scene',j.scenes.length===1);ok(id+': gzip expands to exact GLB',zlib.gunzipSync(compressed).equals(raw));ok(id+': no external texture requests',(j.images||[]).every(i=>i.bufferView!==undefined));
  }
  browser=await chromium.launch({headless:true,executablePath:process.env.ROOM_BROWSER,args:['--mute-audio']});
  for(const mobile of [false,true])for(const motion of ['no-preference','reduce']){

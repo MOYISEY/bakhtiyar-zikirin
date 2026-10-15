@@ -142,3 +142,5 @@ canvas.viewer-canvas:active{cursor:grabbing}
 @media(max-width:420px){#panel.collectible-panel #panel-body{padding:18px}.cube-tools{justify-content:center}.cube-faces{gap:3px}.cube-faces button{min-width:38px;padding:7px}.viewer-help{font-size:11px!important}#object-view{height:31dvh;min-height:190px}#cube-status{width:100%;margin:4px 0 0}}
 
 .viewer-help{color:#526358!important}.cube-tools button,.item-tools button{color:#f4ead6}.cube-faces button[aria-pressed=true]{color:#26372f}#cube-status{color:#526358}.education-regular{color:#315348}.diploma-room{display:grid;gap:10px;margin-top:20px;color:#315348}.diploma-room img{width:100%;height:auto;border:1px solid #d3cebd}.diploma-note{color:#5a655a;font-size:11px}
+
+.document-heading{margin-top:30px}.document-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.document-tabs button{min-height:44px;padding:10px 14px;color:#315348;border:1px solid #aeb9a9;background:#e7e8dc;border-radius:5px;font-size:12px}.document-tabs button[aria-pressed=true]{background:#315348;color:#f3eddd}.document-tabs+.diploma-room{margin-top:0}

@@ -1,0 +1,250 @@
+{
+  "at": "2026-10-15T12:35:14.942Z",
+  "baseline": "71ef84d6b1a747d2d651770a54aef45a7a18fd42",
+  "environment": "Installed Microsoft Edge on this Windows laptop; real WebGL, desktop and touch emulation. No physical phone, Safari or screen reader claim.",
+  "reports": [
+    {
+      "name": "joinery sweep",
+      "passed": true,
+      "checks": 328
+    },
+    {
+      "name": "native refinement",
+      "passed": true,
+      "checks": 84,
+      "cases": 4
+    },
+    {
+      "name": "furniture",
+      "passed": true,
+      "checks": 121,
+      "cases": 4
+    },
+    {
+      "name": "showcase",
+      "passed": true,
+      "checks": 149,
+      "cases": 2
+    },
+    {
+      "name": "hotspots",
+      "passed": true,
+      "checks": 27,
+      "cases": 2
+    },
+    {
+      "name": "context loss",
+      "passed": true,
+      "checks": 9
+    },
+    {
+      "name": "collection",
+      "passed": true,
+      "checks": 102,
+      "cases": 4
+    },
+    {
+      "name": "collection edges",
+      "passed": true,
+      "checks": 5
+    },
+    {
+      "name": "project polish",
+      "passed": true,
+      "checks": 336,
+      "cases": 12
+    }
+  ],
+  "pageMatrix": {
+    "passed": true,
+    "cases": 132,
+    "edges": 4,
+    "flows": 12
+  },
+  "cube": {
+    "checks": 3025,
+    "legalTurns": 2076,
+    "passed": true
+  },
+  "source": {
+    "blender": "4.5.14 LTS",
+    "scenes": [
+      "StudioCabinet",
+      "StudioChair",
+      "StudioDeskDrawer",
+      "StudioDoorLeaf",
+      "StudioReadingTable",
+      "StudioTaskLamp",
+      "StudioWorkbench"
+    ],
+    "bevels": 301,
+    "editableTextObjects": 40,
+    "maps": [
+      {
+        "name": "Authored fine textile weave",
+        "packed": true,
+        "externalPath": ""
+      },
+      {
+        "name": "Authored pale oak grain",
+        "packed": true,
+        "externalPath": ""
+      },
+      {
+        "name": "Authored walnut grain",
+        "packed": true,
+        "externalPath": ""
+      }
+    ],
+    "doorPinLocalXY": [
+      0,
+      0
+    ],
+    "doorPivotOnPin": true,
+    "cabinetHinges": {
+      "CabinetLeftHinge": [
+        -1.190000057220459,
+        -0.28299999237060547,
+        0.39500001072883606
+      ],
+      "CabinetRightHinge": [
+        1.190000057220459,
+        -0.28299999237060547,
+        0.39500001072883606
+      ]
+    }
+  },
+  "models": [
+    {
+      "id": "chair",
+      "triangles": 9516,
+      "webPrimitives": 5,
+      "rawBytes": 282196,
+      "gzipBytes": 123772,
+      "sha256": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+    },
+    {
+      "id": "lamp",
+      "triangles": 11580,
+      "webPrimitives": 6,
+      "rawBytes": 327732,
+      "gzipBytes": 124840,
+      "sha256": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd"
+    },
+    {
+      "id": "door",
+      "triangles": 9448,
+      "webPrimitives": 5,
+      "rawBytes": 272364,
+      "gzipBytes": 86154,
+      "sha256": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+    },
+    {
+      "id": "drawer",
+      "triangles": 3672,
+      "webPrimitives": 7,
+      "rawBytes": 169104,
+      "gzipBytes": 91610,
+      "sha256": "dc040c1f46a3f84257d02e9b6a469618d5992d0c99e6e2aa73a28aed653adcc1"
+    },
+    {
+      "id": "cabinet",
+      "triangles": 15624,
+      "webPrimitives": 10,
+      "rawBytes": 486044,
+      "gzipBytes": 157521,
+      "sha256": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031"
+    },
+    {
+      "id": "side-table",
+      "triangles": 4624,
+      "webPrimitives": 3,
+      "rawBytes": 190204,
+      "gzipBytes": 91304,
+      "sha256": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06"
+    },
+    {
+      "id": "workbench",
+      "triangles": 17081,
+      "webPrimitives": 4,
+      "rawBytes": 552672,
+      "gzipBytes": 165305,
+      "sha256": "bfd836f41f2b7590cb488638f51105bee62305a0a191ae19155f5d3122fc2c39"
+    }
+  ],
+  "clearance": {
+    "positions": 41,
+    "minCabinetCaseGap": 0.008999991635212257,
+    "minBetweenLeaves": 0.04400014877319358,
+    "minDrawerApronGap": 0.008400005125999477,
+    "entranceIntersections": 0,
+    "documentTableGap": 0.0010000001676380155
+  },
+  "performance": {
+    "method": "One isolated sequential local Edge sample, 90 RAF intervals per state; renderer counters at matching named views. Frame timing is a local sample, not an FPS guarantee.",
+    "before": [
+      {
+        "name": "desk-closed-cabinet",
+        "drawCalls": 1088,
+        "triangles": 1147246,
+        "textures": 87,
+        "medianMs": 7,
+        "p95Ms": 7.100000000000364,
+        "collection": {
+          "opening": 0,
+          "itemsAccessible": false,
+          "leftAngle": 0,
+          "rightAngle": 0
+        }
+      },
+      {
+        "name": "cabinet-open",
+        "drawCalls": 966,
+        "triangles": 1004504,
+        "textures": 87,
+        "medianMs": 6.900000000000546,
+        "p95Ms": 7.100000000000364,
+        "collection": {
+          "opening": 1,
+          "itemsAccessible": true,
+          "leftAngle": -1.48,
+          "rightAngle": 1.48
+        }
+      }
+    ],
+    "after": [
+      {
+        "name": "desk",
+        "drawCalls": 838,
+        "triangles": 1110363,
+        "textures": 86,
+        "medianMs": 6.900000000000546,
+        "p95Ms": 7.099999999999909
+      },
+      {
+        "name": "cabinet",
+        "drawCalls": 778,
+        "triangles": 966320,
+        "textures": 86,
+        "medianMs": 7,
+        "p95Ms": 7.100000000000364
+      }
+    ]
+  },
+  "documents": [
+    "diploma-public native full document link",
+    "iqadam-2025-public native full document link",
+    "2025 practice links directly to certificate"
+  ],
+  "referenceUrls": [
+    "https://bruno-simon.com/",
+    "https://jayransijn.com/",
+    "https://samsy.ninja/"
+  ],
+  "sourceSafety": {
+    "checkedAt": "2026-10-15T12:35:15.257Z",
+    "filesChecked": 527,
+    "findings": [],
+    "limitation": "A limited pattern scan of deliverable text files; not a comprehensive secret detector or a scan of Git history."
+  }
+}
