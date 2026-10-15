@@ -88,3 +88,30 @@ body:has(#loading:not([hidden])) header{background:none}body:has(#loading:not([h
 #panel-body .profile-education article > p:last-child { font-size: 14px; line-height: 1.6; margin-bottom: 0; }
 @media(max-width:600px){.profile-education article { padding: 14px; }.profile-education h3 { font-size: 17px; }}
 #panel-body .timeline .date { color: #526357; }
+
+/* A project-sized view, opened on demand; the room stays the quiet background. */
+#panel.showcase-panel { width: min(1200px, calc(100vw - 24px)); }
+.showcase-panel #panel-body { padding: 22px 28px 28px; }
+.project-heading { margin-bottom: 24px; }
+.project-heading .panel-back { margin-left: -6px; }
+.project-heading #panel-title { margin: 8px 0 10px; }
+#panel-body .project-heading .lead { max-width: 850px; margin: 0; }
+.project-showcase { display: grid; grid-template-columns: minmax(0, 1.9fr) minmax(280px, 1fr); gap: 28px; align-items: start; animation: showcase-in .16s ease-out; }
+.project-live-preview { display: block; overflow: hidden; border: 1px solid #70837344; border-radius: 7px; background: #e1e2d8; color: #244d3c; text-decoration: none; }
+#panel-body .project-live-preview .project-hero { width: 100%; max-height: none; height: auto; margin: 0; border-radius: 0; object-fit: contain; background: #e1e2d8; }
+.preview-caption { display: flex; justify-content: space-between; align-items: center; gap: 16px; min-height: 48px; padding: 12px 16px; font-size: 12px; line-height: 1.5; background: #eef0e6; border-top: 1px solid #70837333; }
+.preview-caption > span:first-child { font-weight: 600; }
+.project-live-preview:hover .preview-caption { background: #e1e8d8; }
+.project-story { min-width: 0; }
+#panel-body .project-story > p:first-child { margin-top: 0; }
+.project-story .case-links { margin-top: 18px; gap: 8px; }
+.project-story .case-links a { padding: 10px 13px; }
+#panel-body .preview-error { min-height: 180px; padding: 24px; margin: 0; }
+@keyframes showcase-in { from { opacity: .45; } to { opacity: 1; } }
+@media (max-width: 720px) {
+ .showcase-panel #panel-body { padding: 20px 21px 24px; }
+ .project-heading { margin-bottom: 20px; }
+ .project-showcase { grid-template-columns: minmax(0, 1fr); gap: 22px; }
+ .preview-caption { padding: 11px 13px; gap: 10px; }
+}
+@media (prefers-reduced-motion: reduce) { .project-showcase { animation: none; } }

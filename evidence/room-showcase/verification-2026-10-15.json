@@ -1,0 +1,100 @@
+{
+  "at": "2026-10-15T08:12:05.743Z",
+  "baseRevision": "e074b38c3e1b00d937e4ba85f84cebe3f66888ce",
+  "browser": "Installed Microsoft Edge, headless Playwright; real NVIDIA RTX 3050 WebGL",
+  "build": "Passed static page generation, TypeScript, production Vite",
+  "checks": {
+    "showcase": 149,
+    "contextLoss": 9,
+    "hotspots": 27,
+    "ordinaryRoutes": 132,
+    "ordinaryFlows": 12,
+    "ordinaryEdges": 4,
+    "mediaRoutes": 44,
+    "mediaImages": 268,
+    "mediaEdges": 2,
+    "heroAndDates": 18,
+    "externalLinks": 9
+  },
+  "earlyMarkers": [
+    {
+      "name": "desktop",
+      "earlyProgress": 0.46199999999999997,
+      "doorAngle": 1.769998881003875,
+      "markers": [
+        "object-case",
+        "object-profile",
+        "object-lamp"
+      ]
+    },
+    {
+      "name": "mobile",
+      "earlyProgress": 0.46199999999999997,
+      "doorAngle": 1.7699985603040198,
+      "markers": [
+        "object-case",
+        "object-profile",
+        "object-lamp"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "url": "https://github.com/MOYISEY",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://moyisey.github.io/helio/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://moyisey.github.io/keyform/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://moyisey.github.io/poslesvet/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://moyisey.github.io/framepack/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://moyisey.github.io/shapecheck/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://moyisey.github.io/rowline/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://moyisey.github.io/atyrau-tour-3d/tour_v2/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://github.com/MOYISEY/art_portal",
+      "status": 200,
+      "passed": true
+    }
+  ],
+  "runtime": {
+    "main.js": "f5944efff6828472b1fb2158871f4f9c6f1af3a3073205e67a72904484af46b6",
+    "ui.js": "2d997367952ef8bee9d732ebbbec2bf6539ea4220597b36383f6267c730ad73e",
+    "style.css": "10bafd502973d6fc257e5e5643cc180c52221cbc63dee0dac3dbd2f3dd44657f",
+    "world.js": "8e56c5bd9de13b3cb943cf8ae63f33629fc737c75b3bfd930f17cba858fbf1c8"
+  },
+  "limits": [
+    "Mobile viewport/touch emulation only; no physical phones or native Safari.",
+    "Browser UI helper could not initialize (HRESULT 0x80070003); installed Edge through Playwright remained available.",
+    "Visual judgment used actual Edge screenshots; no human speaker/headphone assessment.",
+    "External links were opened and returned HTTP 200; complete child-app workflows were not audited."
+  ]
+}

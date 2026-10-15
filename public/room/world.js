@@ -4,6 +4,7 @@ import {createDaylight} from './daylight.js';
 import {installWindow} from './window-fragment.js';
 import {createStreaming} from './streaming.js';
 import {L} from './ui.js';
+import {PROJECTS} from './projects-data.js';
 import {RoundedBoxGeometry} from 'three/addons/geometries/RoundedBoxGeometry.js';
 
 export async function createWorld(renderer,camera){
@@ -17,6 +18,7 @@ export async function createWorld(renderer,camera){
  const [plasterMap,floorMap,oakMap]=await Promise.all(['plaster','floor','oak'].map(n=>texture('assets/entry/'+n+'.webp',true)));
  const plaster=new T.MeshStandardMaterial({map:plasterMap,color:'#f3eee4',roughness:.92,normalScale:new T.Vector2(.25,.25)}),floor=new T.MeshStandardMaterial({map:floorMap,color:'#e3d8c5',roughness:.62,normalScale:new T.Vector2(.25,.25)}),oak=new T.MeshStandardMaterial({map:oakMap,color:'#ede4d5',roughness:.78,normalScale:new T.Vector2(.25,.25)});
  let project=textMap(['HELIO'],{bg:'#345148',color:'#eadcc3'}),chair=null,lamp=null,cabinet=null,sideTable=null,lightSurface=null,exterior=null;
+ let previewTexture=null,previewId=null,previewSource='',previewUpdates=0;
  const galleryMaps=[null,null];
  plaster.normalScale.set(.16,.16);const green=cloneMaterial(plaster);green.color.set('#345148');green.normalScale.set(.13,.13);
  const joinery=new T.MeshStandardMaterial({color:'#c4c0b3',roughness:.48,metalness:.02});joinery.name='Warm powder coat / matched window finish';
@@ -130,13 +132,28 @@ export async function createWorld(renderer,camera){
  const monitor=new T.Group();monitor.position.set(.18,1.22,-2.18);monitor.scale.setScalar(.80);scene.add(monitor);
  box(1.31,.815,.075,black,0,0,0,.025,monitor);
  const screen=new T.Mesh(new T.PlaneGeometry(1.245,.778),new T.MeshBasicMaterial({map:project,color:'#e8e4d7',toneMapped:false}));screen.position.set(0,0,.041);screen.userData.action='case';monitor.add(screen);objects.push(screen);
+ // Reuse the decoded panel image after selection; no preview fetch during entry.
+ // One authored canvas preserves aspect ratio and bounds GPU texture ownership.
+ function previewProject(selected,image){
+  if(!studioReady||!image.naturalWidth||!PROJECTS.some(p=>p.id===selected.id))return;
+  const source=image.currentSrc||image.src;if(previewId===selected.id&&previewSource===source)return;
+  const pixels=Number(source.match(/-(\d+)\.webp(?:[?#]|$)/)?.[1])||image.naturalWidth;
+  const canvas=document.createElement('canvas');canvas.width=Math.min(1280,pixels);canvas.height=Math.round(canvas.width/1.6);
+  const ctx=canvas.getContext('2d');ctx.fillStyle='#e1e2d8';ctx.fillRect(0,0,canvas.width,canvas.height);
+  const scale=Math.min(canvas.width/image.naturalWidth,canvas.height/image.naturalHeight),w=image.naturalWidth*scale,h=image.naturalHeight*scale;
+  ctx.drawImage(image,(canvas.width-w)/2,(canvas.height-h)/2,w,h);
+  const texture=new T.CanvasTexture(canvas);texture.colorSpace=T.SRGBColorSpace;texture.anisotropy=4;
+  previewTexture?.dispose();previewTexture=texture;previewId=selected.id;previewSource=source;previewUpdates++;
+  screen.material.map=texture;screen.material.needsUpdate=true;localize(projectPlaque);changed();
+ }
+ const inspectProject=()=>({id:previewId||'helio',source:previewSource||'assets/helio.webp',updates:previewUpdates,dynamicTextures:previewTexture?1:0,width:previewTexture?.image.width||0,height:previewTexture?.image.height||0});
  box(.075,.255,.055,black,.18, .976,-2.19,.008);
  box(.36,.025,.23,black,.18,.855,-2.12,.015);
  cylinder(.004,.004,new T.MeshBasicMaterial({color:'#c1e7c0'}),.78,.932,-2.13).rotation.x=Math.PI/2;
  box(.64,.027,.21,dark,.05,.856,-1.85,.009);
  for(let row=0;row<4;row++)for(let col=0;col<13;col++)box(.035,.008,.035,cream,-.226+col*.044,.873,-1.922+row*.044,.003);
  box(.09,.027,.13,black,.57,.856,-1.82,.018);
- box(.94,.36,.018,oak,-.1,2.03,-2.832,.005);localizedLabel(()=>['01 / HELIO',L('СВЕТ · ГОРОД · ВРЕМЯ','ЖАРЫҚ · ҚАЛА · УАҚЫТ','LIGHT · CITY · TIME')],.90,.32,-.1,2.03,-2.82,{w:1024,h:320,bg:'#345148',color:'#eadcc3',size:102});// The wall plaque is decorative; project actions belong to the monitor.
+ box(.94,.36,.018,oak,-.1,2.03,-2.832,.005);const projectPlaque=localizedLabel(()=>[previewId?String(PROJECTS.findIndex(p=>p.id===previewId)+1).padStart(2,'0')+' / '+(previewId==='poslesvet'?L('Послесвет','Послесвет','POSLESVET'):PROJECTS.find(p=>p.id===previewId).title.toUpperCase()):'01 / HELIO',previewId?PROJECTS.find(p=>p.id===previewId).stack.slice(0,3).join(' · '):L('СВЕТ · ГОРОД · ВРЕМЯ','ЖАРЫҚ · ҚАЛА · УАҚЫТ','LIGHT · CITY · TIME')],.90,.32,-.1,2.03,-2.82,{w:1024,h:320,bg:'#345148',color:'#eadcc3',size:102});// The wall plaque is decorative; project actions belong to the monitor.
  for(const x of [-.54,.34]){const screw=cylinder(.007,.018,brass,x,2.17,-2.81);screw.rotation.x=Math.PI/2;}
  // The notebook is the single developer/experience object; constrained cover hinge.
  const folder=new T.Group();folder.position.set(-.46,.843,-1.80);folder.rotation.y=.14;scene.add(folder);
@@ -165,7 +182,7 @@ export async function createWorld(renderer,camera){
  const cordGrip=cylinder(.017,.072,brass,0,-.434,0,cord);cordGrip.userData.action='lamp';objects.push(cordGrip);
  const cordHit=box(.14,.20,.10,new T.MeshBasicMaterial({visible:false}),0,-.425,0,0,cord);cordHit.userData.action='lamp';objects.push(cordHit);
  localizedLabel(()=>[L('ТЯНИТЕ','ТАРТЫҢЫЗ','PULL'),L('СВЕТ','ЖАРЫҚ','LIGHT')],.18,.12,1.25,1.48,-2.83,{w:512,h:320,bg:'#d9d2bc',color:'#354e43',size:64});
- const localize=()=>{for(const {o,lines,options}of localizedLabels){const next=textMap(lines(),options);o.material.map.image=next.image;o.material.map.needsUpdate=true;next.dispose()}};localize();
+ const localize=(only)=>{for(const {o,lines,options}of localizedLabels){if(only&&o!==only)continue;const next=textMap(lines(),options);o.material.map.image=next.image;o.material.map.needsUpdate=true;next.dispose()}};localize();
  const fill=new T.HemisphereLight('#d2e2e7','#666459',.48);scene.add(fill);
 
  const entryLight=new T.SpotLight('#fff0da',10,6,1.15,.8,2);entryLight.position.set(0,2.93,2.9);entryLight.target.position.set(0,.1,3.6);scene.add(entryLight,entryLight.target);
@@ -262,5 +279,5 @@ export async function createWorld(renderer,camera){
  function windowBake(enabled=true){windowRoot?.traverse(o=>{if(o.isMesh)for(const m of Array.isArray(o.material)?o.material:[o.material])m.lightMapIntensity=enabled?Math.PI:0})}
  daylight.prepare();
  function inspectWindow(){const meshes=[];windowRoot?.traverse(o=>{if(o.isMesh)meshes.push({uv2:!!o.geometry.attributes.uv1,material:o.material.name,lightmap:o.material.lightMap?.colorSpace,channel:o.material.lightMap?.channel,flipY:o.material.lightMap?.flipY,intensity:o.material.lightMapIntensity,indirectOnly:o.material.userData.indirectOnly})});return {loaded:!!windowRoot,meshes,liveLamp:taskLight.intensity}}
- return {allowAssembly,get preparingGPU(){return warming},daylight,windowBake,inspectWindow,prepare,retry,inspectStream,onChange(fn){changed=fn},get studioReady(){return studioReady},clearance,walk,scene,objects,door,cover,cord,cordRoot,cordLine,cordGrip,taskLight,get lightSurface(){return lightSurface},get assetInfo(){return [...assetInfo].sort((a,b)=>['chair','lamp','cabinet','side_table'].indexOf(a.id)-['chair','lamp','cabinet','side_table'].indexOf(b.id))},get project(){return project},get chair(){return chair},get lamp(){return lamp},monitor,folder,lightPos,localize,get exterior(){return exterior},highlight,contacts,gallery,get cabinet(){return cabinet},get sideTable(){return sideTable},office:{doorWidth:width,doorHeight:height,corridorWidth:2.65,sideDoors:doorNumbers,corridorLength:9.47,corridorHeight:3.0,routeLength:8.0},cordHit};
+ return {previewProject,inspectProject,allowAssembly,get preparingGPU(){return warming},daylight,windowBake,inspectWindow,prepare,retry,inspectStream,onChange(fn){changed=fn},get studioReady(){return studioReady},clearance,walk,scene,objects,door,cover,cord,cordRoot,cordLine,cordGrip,taskLight,get lightSurface(){return lightSurface},get assetInfo(){return [...assetInfo].sort((a,b)=>['chair','lamp','cabinet','side_table'].indexOf(a.id)-['chair','lamp','cabinet','side_table'].indexOf(b.id))},get project(){return project},get chair(){return chair},get lamp(){return lamp},monitor,folder,lightPos,localize,get exterior(){return exterior},highlight,contacts,gallery,get cabinet(){return cabinet},get sideTable(){return sideTable},office:{doorWidth:width,doorHeight:height,corridorWidth:2.65,sideDoors:doorNumbers,corridorLength:9.47,corridorHeight:3.0,routeLength:8.0},cordHit};
 }
