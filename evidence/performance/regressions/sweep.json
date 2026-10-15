@@ -1,0 +1,5994 @@
+{
+  "at": "2026-10-15T14:53:20.037Z",
+  "checks": [
+    "cabinet sweep 0: all leaf geometry stays in front of the case",
+    "cabinet sweep 0: leaves remain separate",
+    "cabinet sweep 0: cabinet leaves stay inside room envelope",
+    "drawer sweep 0: moving tray clears desk apron",
+    "entry sweep 0: visible leaf triangles do not penetrate physical architecture",
+    "table 0: real document pad clears tabletop",
+    "cabinet 0: leaves clear desk trestle depth",
+    "shelf 0: all props rest above shelf and below cabinet top",
+    "cabinet sweep 1: all leaf geometry stays in front of the case",
+    "cabinet sweep 1: leaves remain separate",
+    "cabinet sweep 1: cabinet leaves stay inside room envelope",
+    "drawer sweep 1: moving tray clears desk apron",
+    "entry sweep 1: visible leaf triangles do not penetrate physical architecture",
+    "table 1: real document pad clears tabletop",
+    "cabinet 1: leaves clear desk trestle depth",
+    "shelf 1: all props rest above shelf and below cabinet top",
+    "cabinet sweep 2: all leaf geometry stays in front of the case",
+    "cabinet sweep 2: leaves remain separate",
+    "cabinet sweep 2: cabinet leaves stay inside room envelope",
+    "drawer sweep 2: moving tray clears desk apron",
+    "entry sweep 2: visible leaf triangles do not penetrate physical architecture",
+    "table 2: real document pad clears tabletop",
+    "cabinet 2: leaves clear desk trestle depth",
+    "shelf 2: all props rest above shelf and below cabinet top",
+    "cabinet sweep 3: all leaf geometry stays in front of the case",
+    "cabinet sweep 3: leaves remain separate",
+    "cabinet sweep 3: cabinet leaves stay inside room envelope",
+    "drawer sweep 3: moving tray clears desk apron",
+    "entry sweep 3: visible leaf triangles do not penetrate physical architecture",
+    "table 3: real document pad clears tabletop",
+    "cabinet 3: leaves clear desk trestle depth",
+    "shelf 3: all props rest above shelf and below cabinet top",
+    "cabinet sweep 4: all leaf geometry stays in front of the case",
+    "cabinet sweep 4: leaves remain separate",
+    "cabinet sweep 4: cabinet leaves stay inside room envelope",
+    "drawer sweep 4: moving tray clears desk apron",
+    "entry sweep 4: visible leaf triangles do not penetrate physical architecture",
+    "table 4: real document pad clears tabletop",
+    "cabinet 4: leaves clear desk trestle depth",
+    "shelf 4: all props rest above shelf and below cabinet top",
+    "cabinet sweep 5: all leaf geometry stays in front of the case",
+    "cabinet sweep 5: leaves remain separate",
+    "cabinet sweep 5: cabinet leaves stay inside room envelope",
+    "drawer sweep 5: moving tray clears desk apron",
+    "entry sweep 5: visible leaf triangles do not penetrate physical architecture",
+    "table 5: real document pad clears tabletop",
+    "cabinet 5: leaves clear desk trestle depth",
+    "shelf 5: all props rest above shelf and below cabinet top",
+    "cabinet sweep 6: all leaf geometry stays in front of the case",
+    "cabinet sweep 6: leaves remain separate",
+    "cabinet sweep 6: cabinet leaves stay inside room envelope",
+    "drawer sweep 6: moving tray clears desk apron",
+    "entry sweep 6: visible leaf triangles do not penetrate physical architecture",
+    "table 6: real document pad clears tabletop",
+    "cabinet 6: leaves clear desk trestle depth",
+    "shelf 6: all props rest above shelf and below cabinet top",
+    "cabinet sweep 7: all leaf geometry stays in front of the case",
+    "cabinet sweep 7: leaves remain separate",
+    "cabinet sweep 7: cabinet leaves stay inside room envelope",
+    "drawer sweep 7: moving tray clears desk apron",
+    "entry sweep 7: visible leaf triangles do not penetrate physical architecture",
+    "table 7: real document pad clears tabletop",
+    "cabinet 7: leaves clear desk trestle depth",
+    "shelf 7: all props rest above shelf and below cabinet top",
+    "cabinet sweep 8: all leaf geometry stays in front of the case",
+    "cabinet sweep 8: leaves remain separate",
+    "cabinet sweep 8: cabinet leaves stay inside room envelope",
+    "drawer sweep 8: moving tray clears desk apron",
+    "entry sweep 8: visible leaf triangles do not penetrate physical architecture",
+    "table 8: real document pad clears tabletop",
+    "cabinet 8: leaves clear desk trestle depth",
+    "shelf 8: all props rest above shelf and below cabinet top",
+    "cabinet sweep 9: all leaf geometry stays in front of the case",
+    "cabinet sweep 9: leaves remain separate",
+    "cabinet sweep 9: cabinet leaves stay inside room envelope",
+    "drawer sweep 9: moving tray clears desk apron",
+    "entry sweep 9: visible leaf triangles do not penetrate physical architecture",
+    "table 9: real document pad clears tabletop",
+    "cabinet 9: leaves clear desk trestle depth",
+    "shelf 9: all props rest above shelf and below cabinet top",
+    "cabinet sweep 10: all leaf geometry stays in front of the case",
+    "cabinet sweep 10: leaves remain separate",
+    "cabinet sweep 10: cabinet leaves stay inside room envelope",
+    "drawer sweep 10: moving tray clears desk apron",
+    "entry sweep 10: visible leaf triangles do not penetrate physical architecture",
+    "table 10: real document pad clears tabletop",
+    "cabinet 10: leaves clear desk trestle depth",
+    "shelf 10: all props rest above shelf and below cabinet top",
+    "cabinet sweep 11: all leaf geometry stays in front of the case",
+    "cabinet sweep 11: leaves remain separate",
+    "cabinet sweep 11: cabinet leaves stay inside room envelope",
+    "drawer sweep 11: moving tray clears desk apron",
+    "entry sweep 11: visible leaf triangles do not penetrate physical architecture",
+    "table 11: real document pad clears tabletop",
+    "cabinet 11: leaves clear desk trestle depth",
+    "shelf 11: all props rest above shelf and below cabinet top",
+    "cabinet sweep 12: all leaf geometry stays in front of the case",
+    "cabinet sweep 12: leaves remain separate",
+    "cabinet sweep 12: cabinet leaves stay inside room envelope",
+    "drawer sweep 12: moving tray clears desk apron",
+    "entry sweep 12: visible leaf triangles do not penetrate physical architecture",
+    "table 12: real document pad clears tabletop",
+    "cabinet 12: leaves clear desk trestle depth",
+    "shelf 12: all props rest above shelf and below cabinet top",
+    "cabinet sweep 13: all leaf geometry stays in front of the case",
+    "cabinet sweep 13: leaves remain separate",
+    "cabinet sweep 13: cabinet leaves stay inside room envelope",
+    "drawer sweep 13: moving tray clears desk apron",
+    "entry sweep 13: visible leaf triangles do not penetrate physical architecture",
+    "table 13: real document pad clears tabletop",
+    "cabinet 13: leaves clear desk trestle depth",
+    "shelf 13: all props rest above shelf and below cabinet top",
+    "cabinet sweep 14: all leaf geometry stays in front of the case",
+    "cabinet sweep 14: leaves remain separate",
+    "cabinet sweep 14: cabinet leaves stay inside room envelope",
+    "drawer sweep 14: moving tray clears desk apron",
+    "entry sweep 14: visible leaf triangles do not penetrate physical architecture",
+    "table 14: real document pad clears tabletop",
+    "cabinet 14: leaves clear desk trestle depth",
+    "shelf 14: all props rest above shelf and below cabinet top",
+    "cabinet sweep 15: all leaf geometry stays in front of the case",
+    "cabinet sweep 15: leaves remain separate",
+    "cabinet sweep 15: cabinet leaves stay inside room envelope",
+    "drawer sweep 15: moving tray clears desk apron",
+    "entry sweep 15: visible leaf triangles do not penetrate physical architecture",
+    "table 15: real document pad clears tabletop",
+    "cabinet 15: leaves clear desk trestle depth",
+    "shelf 15: all props rest above shelf and below cabinet top",
+    "cabinet sweep 16: all leaf geometry stays in front of the case",
+    "cabinet sweep 16: leaves remain separate",
+    "cabinet sweep 16: cabinet leaves stay inside room envelope",
+    "drawer sweep 16: moving tray clears desk apron",
+    "entry sweep 16: visible leaf triangles do not penetrate physical architecture",
+    "table 16: real document pad clears tabletop",
+    "cabinet 16: leaves clear desk trestle depth",
+    "shelf 16: all props rest above shelf and below cabinet top",
+    "cabinet sweep 17: all leaf geometry stays in front of the case",
+    "cabinet sweep 17: leaves remain separate",
+    "cabinet sweep 17: cabinet leaves stay inside room envelope",
+    "drawer sweep 17: moving tray clears desk apron",
+    "entry sweep 17: visible leaf triangles do not penetrate physical architecture",
+    "table 17: real document pad clears tabletop",
+    "cabinet 17: leaves clear desk trestle depth",
+    "shelf 17: all props rest above shelf and below cabinet top",
+    "cabinet sweep 18: all leaf geometry stays in front of the case",
+    "cabinet sweep 18: leaves remain separate",
+    "cabinet sweep 18: cabinet leaves stay inside room envelope",
+    "drawer sweep 18: moving tray clears desk apron",
+    "entry sweep 18: visible leaf triangles do not penetrate physical architecture",
+    "table 18: real document pad clears tabletop",
+    "cabinet 18: leaves clear desk trestle depth",
+    "shelf 18: all props rest above shelf and below cabinet top",
+    "cabinet sweep 19: all leaf geometry stays in front of the case",
+    "cabinet sweep 19: leaves remain separate",
+    "cabinet sweep 19: cabinet leaves stay inside room envelope",
+    "drawer sweep 19: moving tray clears desk apron",
+    "entry sweep 19: visible leaf triangles do not penetrate physical architecture",
+    "table 19: real document pad clears tabletop",
+    "cabinet 19: leaves clear desk trestle depth",
+    "shelf 19: all props rest above shelf and below cabinet top",
+    "cabinet sweep 20: all leaf geometry stays in front of the case",
+    "cabinet sweep 20: leaves remain separate",
+    "cabinet sweep 20: cabinet leaves stay inside room envelope",
+    "drawer sweep 20: moving tray clears desk apron",
+    "entry sweep 20: visible leaf triangles do not penetrate physical architecture",
+    "table 20: real document pad clears tabletop",
+    "cabinet 20: leaves clear desk trestle depth",
+    "shelf 20: all props rest above shelf and below cabinet top",
+    "cabinet sweep 21: all leaf geometry stays in front of the case",
+    "cabinet sweep 21: leaves remain separate",
+    "cabinet sweep 21: cabinet leaves stay inside room envelope",
+    "drawer sweep 21: moving tray clears desk apron",
+    "entry sweep 21: visible leaf triangles do not penetrate physical architecture",
+    "table 21: real document pad clears tabletop",
+    "cabinet 21: leaves clear desk trestle depth",
+    "shelf 21: all props rest above shelf and below cabinet top",
+    "cabinet sweep 22: all leaf geometry stays in front of the case",
+    "cabinet sweep 22: leaves remain separate",
+    "cabinet sweep 22: cabinet leaves stay inside room envelope",
+    "drawer sweep 22: moving tray clears desk apron",
+    "entry sweep 22: visible leaf triangles do not penetrate physical architecture",
+    "table 22: real document pad clears tabletop",
+    "cabinet 22: leaves clear desk trestle depth",
+    "shelf 22: all props rest above shelf and below cabinet top",
+    "cabinet sweep 23: all leaf geometry stays in front of the case",
+    "cabinet sweep 23: leaves remain separate",
+    "cabinet sweep 23: cabinet leaves stay inside room envelope",
+    "drawer sweep 23: moving tray clears desk apron",
+    "entry sweep 23: visible leaf triangles do not penetrate physical architecture",
+    "table 23: real document pad clears tabletop",
+    "cabinet 23: leaves clear desk trestle depth",
+    "shelf 23: all props rest above shelf and below cabinet top",
+    "cabinet sweep 24: all leaf geometry stays in front of the case",
+    "cabinet sweep 24: leaves remain separate",
+    "cabinet sweep 24: cabinet leaves stay inside room envelope",
+    "drawer sweep 24: moving tray clears desk apron",
+    "entry sweep 24: visible leaf triangles do not penetrate physical architecture",
+    "table 24: real document pad clears tabletop",
+    "cabinet 24: leaves clear desk trestle depth",
+    "shelf 24: all props rest above shelf and below cabinet top",
+    "cabinet sweep 25: all leaf geometry stays in front of the case",
+    "cabinet sweep 25: leaves remain separate",
+    "cabinet sweep 25: cabinet leaves stay inside room envelope",
+    "drawer sweep 25: moving tray clears desk apron",
+    "entry sweep 25: visible leaf triangles do not penetrate physical architecture",
+    "table 25: real document pad clears tabletop",
+    "cabinet 25: leaves clear desk trestle depth",
+    "shelf 25: all props rest above shelf and below cabinet top",
+    "cabinet sweep 26: all leaf geometry stays in front of the case",
+    "cabinet sweep 26: leaves remain separate",
+    "cabinet sweep 26: cabinet leaves stay inside room envelope",
+    "drawer sweep 26: moving tray clears desk apron",
+    "entry sweep 26: visible leaf triangles do not penetrate physical architecture",
+    "table 26: real document pad clears tabletop",
+    "cabinet 26: leaves clear desk trestle depth",
+    "shelf 26: all props rest above shelf and below cabinet top",
+    "cabinet sweep 27: all leaf geometry stays in front of the case",
+    "cabinet sweep 27: leaves remain separate",
+    "cabinet sweep 27: cabinet leaves stay inside room envelope",
+    "drawer sweep 27: moving tray clears desk apron",
+    "entry sweep 27: visible leaf triangles do not penetrate physical architecture",
+    "table 27: real document pad clears tabletop",
+    "cabinet 27: leaves clear desk trestle depth",
+    "shelf 27: all props rest above shelf and below cabinet top",
+    "cabinet sweep 28: all leaf geometry stays in front of the case",
+    "cabinet sweep 28: leaves remain separate",
+    "cabinet sweep 28: cabinet leaves stay inside room envelope",
+    "drawer sweep 28: moving tray clears desk apron",
+    "entry sweep 28: visible leaf triangles do not penetrate physical architecture",
+    "table 28: real document pad clears tabletop",
+    "cabinet 28: leaves clear desk trestle depth",
+    "shelf 28: all props rest above shelf and below cabinet top",
+    "cabinet sweep 29: all leaf geometry stays in front of the case",
+    "cabinet sweep 29: leaves remain separate",
+    "cabinet sweep 29: cabinet leaves stay inside room envelope",
+    "drawer sweep 29: moving tray clears desk apron",
+    "entry sweep 29: visible leaf triangles do not penetrate physical architecture",
+    "table 29: real document pad clears tabletop",
+    "cabinet 29: leaves clear desk trestle depth",
+    "shelf 29: all props rest above shelf and below cabinet top",
+    "cabinet sweep 30: all leaf geometry stays in front of the case",
+    "cabinet sweep 30: leaves remain separate",
+    "cabinet sweep 30: cabinet leaves stay inside room envelope",
+    "drawer sweep 30: moving tray clears desk apron",
+    "entry sweep 30: visible leaf triangles do not penetrate physical architecture",
+    "table 30: real document pad clears tabletop",
+    "cabinet 30: leaves clear desk trestle depth",
+    "shelf 30: all props rest above shelf and below cabinet top",
+    "cabinet sweep 31: all leaf geometry stays in front of the case",
+    "cabinet sweep 31: leaves remain separate",
+    "cabinet sweep 31: cabinet leaves stay inside room envelope",
+    "drawer sweep 31: moving tray clears desk apron",
+    "entry sweep 31: visible leaf triangles do not penetrate physical architecture",
+    "table 31: real document pad clears tabletop",
+    "cabinet 31: leaves clear desk trestle depth",
+    "shelf 31: all props rest above shelf and below cabinet top",
+    "cabinet sweep 32: all leaf geometry stays in front of the case",
+    "cabinet sweep 32: leaves remain separate",
+    "cabinet sweep 32: cabinet leaves stay inside room envelope",
+    "drawer sweep 32: moving tray clears desk apron",
+    "entry sweep 32: visible leaf triangles do not penetrate physical architecture",
+    "table 32: real document pad clears tabletop",
+    "cabinet 32: leaves clear desk trestle depth",
+    "shelf 32: all props rest above shelf and below cabinet top",
+    "cabinet sweep 33: all leaf geometry stays in front of the case",
+    "cabinet sweep 33: leaves remain separate",
+    "cabinet sweep 33: cabinet leaves stay inside room envelope",
+    "drawer sweep 33: moving tray clears desk apron",
+    "entry sweep 33: visible leaf triangles do not penetrate physical architecture",
+    "table 33: real document pad clears tabletop",
+    "cabinet 33: leaves clear desk trestle depth",
+    "shelf 33: all props rest above shelf and below cabinet top",
+    "cabinet sweep 34: all leaf geometry stays in front of the case",
+    "cabinet sweep 34: leaves remain separate",
+    "cabinet sweep 34: cabinet leaves stay inside room envelope",
+    "drawer sweep 34: moving tray clears desk apron",
+    "entry sweep 34: visible leaf triangles do not penetrate physical architecture",
+    "table 34: real document pad clears tabletop",
+    "cabinet 34: leaves clear desk trestle depth",
+    "shelf 34: all props rest above shelf and below cabinet top",
+    "cabinet sweep 35: all leaf geometry stays in front of the case",
+    "cabinet sweep 35: leaves remain separate",
+    "cabinet sweep 35: cabinet leaves stay inside room envelope",
+    "drawer sweep 35: moving tray clears desk apron",
+    "entry sweep 35: visible leaf triangles do not penetrate physical architecture",
+    "table 35: real document pad clears tabletop",
+    "cabinet 35: leaves clear desk trestle depth",
+    "shelf 35: all props rest above shelf and below cabinet top",
+    "cabinet sweep 36: all leaf geometry stays in front of the case",
+    "cabinet sweep 36: leaves remain separate",
+    "cabinet sweep 36: cabinet leaves stay inside room envelope",
+    "drawer sweep 36: moving tray clears desk apron",
+    "entry sweep 36: visible leaf triangles do not penetrate physical architecture",
+    "table 36: real document pad clears tabletop",
+    "cabinet 36: leaves clear desk trestle depth",
+    "shelf 36: all props rest above shelf and below cabinet top",
+    "cabinet sweep 37: all leaf geometry stays in front of the case",
+    "cabinet sweep 37: leaves remain separate",
+    "cabinet sweep 37: cabinet leaves stay inside room envelope",
+    "drawer sweep 37: moving tray clears desk apron",
+    "entry sweep 37: visible leaf triangles do not penetrate physical architecture",
+    "table 37: real document pad clears tabletop",
+    "cabinet 37: leaves clear desk trestle depth",
+    "shelf 37: all props rest above shelf and below cabinet top",
+    "cabinet sweep 38: all leaf geometry stays in front of the case",
+    "cabinet sweep 38: leaves remain separate",
+    "cabinet sweep 38: cabinet leaves stay inside room envelope",
+    "drawer sweep 38: moving tray clears desk apron",
+    "entry sweep 38: visible leaf triangles do not penetrate physical architecture",
+    "table 38: real document pad clears tabletop",
+    "cabinet 38: leaves clear desk trestle depth",
+    "shelf 38: all props rest above shelf and below cabinet top",
+    "cabinet sweep 39: all leaf geometry stays in front of the case",
+    "cabinet sweep 39: leaves remain separate",
+    "cabinet sweep 39: cabinet leaves stay inside room envelope",
+    "drawer sweep 39: moving tray clears desk apron",
+    "entry sweep 39: visible leaf triangles do not penetrate physical architecture",
+    "table 39: real document pad clears tabletop",
+    "cabinet 39: leaves clear desk trestle depth",
+    "shelf 39: all props rest above shelf and below cabinet top",
+    "cabinet sweep 40: all leaf geometry stays in front of the case",
+    "cabinet sweep 40: leaves remain separate",
+    "cabinet sweep 40: cabinet leaves stay inside room envelope",
+    "drawer sweep 40: moving tray clears desk apron",
+    "entry sweep 40: visible leaf triangles do not penetrate physical architecture",
+    "table 40: real document pad clears tabletop",
+    "cabinet 40: leaves clear desk trestle depth",
+    "shelf 40: all props rest above shelf and below cabinet top"
+  ],
+  "samples": [
+    {
+      "amount": 0,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.008999991938471341,
+        "betweenLeaves": 0.04400014877319358,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2040000576525929,
+              0.15450000762939453,
+              0.2689999919384718
+            ],
+            "max": [
+              -0.0220000743865969,
+              0.6355000287294388,
+              0.3409999795258045
+            ]
+          },
+          {
+            "min": [
+              0.02200007438659668,
+              0.15450000762939453,
+              0.26899999193847135
+            ],
+            "max": [
+              1.2040000576525927,
+              0.6355000287294388,
+              0.3409999795258041
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              2.3190000204741956,
+              0.15450000762939453,
+              -1.5440000576525927
+            ],
+            "max": [
+              2.3910000080615283,
+              0.6355000287294388,
+              -0.36200007438659676
+            ]
+          },
+          {
+            "min": [
+              2.3190000204741956,
+              0.15450000762939453,
+              -0.3179999256134034
+            ],
+            "max": [
+              2.391000008061529,
+              0.6355000287294388,
+              0.8640000576525926
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -2.04200000166893
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.6004999935626985
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.025,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009007385037918425,
+        "betweenLeaves": 0.04471383174024823,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2039926645531458,
+              0.15450000762939453,
+              0.2690073850379189
+            ],
+            "max": [
+              -0.022356915870124228,
+              0.6355000287294388,
+              0.37671305859618803
+            ]
+          },
+          {
+            "min": [
+              0.022356915870124006,
+              0.15450000762939453,
+              0.26900738503791843
+            ],
+            "max": [
+              1.2039926645531456,
+              0.6355000287294388,
+              0.3767130585961876
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              2.28309197436661,
+              0.15450000762939453,
+              -1.545682367577506
+            ],
+            "max": [
+              2.3914475348813946,
+              0.6355000287294388,
+              -0.36222693873302725
+            ]
+          },
+          {
+            "min": [
+              2.2830919743666103,
+              0.15450000762939453,
+              -0.3177730612669729
+            ],
+            "max": [
+              2.3914475348813955,
+              0.6355000287294388,
+              0.8658773323147461
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -2.03475000166893
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.5932499935626985
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.05,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009029556527985705,
+        "betweenLeaves": 0.04789394373480049,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2039704930630786,
+              0.15450000762939453,
+              0.26902955652798616
+            ],
+            "max": [
+              -0.023946971867400357,
+              0.6355000287294388,
+              0.41232716195275565
+            ]
+          },
+          {
+            "min": [
+              0.023946971867400135,
+              0.15450000762939453,
+              0.2690295565279857
+            ],
+            "max": [
+              1.2039704930630784,
+              0.6355000287294388,
+              0.4123271619527552
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              2.2472831098886474,
+              0.15450000762939453,
+              -1.547348114520069
+            ],
+            "max": [
+              2.3918798028437696,
+              0.6355000287294388,
+              -0.36368715486947356
+            ]
+          },
+          {
+            "min": [
+              2.247283109888648,
+              0.15450000762939453,
+              -0.3163128451305266
+            ],
+            "max": [
+              2.3918798028437704,
+              0.6355000287294388,
+              0.8677378380811713
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -2.02750000166893
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.5859999935626985
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.075,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009066482992098002,
+        "betweenLeaves": 0.05353712605920813,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.203933566598966,
+              0.15450000762939453,
+              0.26906648299209845
+            ],
+            "max": [
+              -0.026768563029604175,
+              0.6355000287294388,
+              0.44780467550983516
+            ]
+          },
+          {
+            "min": [
+              0.026768563029603953,
+              0.15450000762939453,
+              0.269066482992098
+            ],
+            "max": [
+              1.2039335665989659,
+              0.6355000287294388,
+              0.4478046755098347
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              2.211611246824308,
+              0.15450000762939453,
+              -1.5489955391899362
+            ],
+            "max": [
+              2.3922963554058048,
+              0.6355000287294388,
+              -0.36637918057839713
+            ]
+          },
+          {
+            "min": [
+              2.211611246824308,
+              0.15450000762939453,
+              -0.313620819421603
+            ],
+            "max": [
+              2.3922963554058057,
+              0.6355000287294388,
+              0.8695796099656216
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -2.02025000166893
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.5787499935626985
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.1,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009118125430110702,
+        "betweenLeaves": 0.06163741862677985,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2038819241609535,
+              0.15450000762939453,
+              0.26911812543011115
+            ],
+            "max": [
+              -0.030818709313390036,
+              0.6355000287294388,
+              0.4831081294420312
+            ]
+          },
+          {
+            "min": [
+              0.030818709313389814,
+              0.15450000762939453,
+              0.2691181254301107
+            ],
+            "max": [
+              1.2038819241609533,
+              0.6355000287294388,
+              0.48310812944203074
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              2.1761140602625857,
+              0.15450000762939453,
+              -1.5506229016479591
+            ],
+            "max": [
+              2.3926967526225837,
+              0.6355000287294388,
+              -0.37030017265791626
+            ]
+          },
+          {
+            "min": [
+              2.1761140602625857,
+              0.15450000762939453,
+              -0.3096998273420839
+            ],
+            "max": [
+              2.3926967526225846,
+              0.6355000287294388,
+              0.8714007027677708
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -2.0130000016689302
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.5714999935626985
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.125,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009160686960735687,
+        "betweenLeaves": 0.07218626625656577,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2038393626303285,
+              0.15450000762939453,
+              0.26916068696073614
+            ],
+            "max": [
+              -0.036093133128282995,
+              0.6355000287294388,
+              0.5182104064359797
+            ]
+          },
+          {
+            "min": [
+              0.03609313312828277,
+              0.15450000762939453,
+              0.2691606869607357
+            ],
+            "max": [
+              1.2038393626303283,
+              0.6355000287294388,
+              0.5182104064359793
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              2.1408290408066577,
+              0.15450000762939453,
+              -1.552228483143835
+            ],
+            "max": [
+              2.39308057161177,
+              0.6355000287294388,
+              -0.37544598992467737
+            ]
+          },
+          {
+            "min": [
+              2.140829040806658,
+              0.15450000762939453,
+              -0.3045540100753228
+            ],
+            "max": [
+              2.3930805716117707,
+              0.6355000287294388,
+              0.8731991931276516
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -2.0057500016689302
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.5642499935626986
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.15,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.00909926654834492,
+        "betweenLeaves": 0.08517252770896966,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2039007830427193,
+              0.15450000762939453,
+              0.2690992665483454
+            ],
+            "max": [
+              -0.04258626385448494,
+              0.6355000287294388,
+              0.5531150975161074
+            ]
+          },
+          {
+            "min": [
+              0.04258626385448472,
+              0.15450000762939453,
+              0.26909926654834493
+            ],
+            "max": [
+              1.203900783042719,
+              0.6355000287294388,
+              0.553115097516107
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              2.105793454977921,
+              0.15450000762939453,
+              -1.5538105879313782
+            ],
+            "max": [
+              2.393447407000239,
+              0.6355000287294388,
+              -0.38181119758759174
+            ]
+          },
+          {
+            "min": [
+              2.1057934549779214,
+              0.15450000762939453,
+              -0.2981888024124084
+            ],
+            "max": [
+              2.39344740700024,
+              0.6355000287294388,
+              0.8749731815570246
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.99850000166893
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.5569999935626984
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.175,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009052527485271078,
+        "betweenLeaves": 0.10058248745264797,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2039475221057931,
+              0.15450000762939453,
+              0.26905252748527153
+            ],
+            "max": [
+              -0.0502912437263241,
+              0.6355000287294388,
+              0.587734504628684
+            ]
+          },
+          {
+            "min": [
+              0.050291243726323875,
+              0.15450000762939453,
+              0.2690525274852711
+            ],
+            "max": [
+              1.203947522105793,
+              0.6355000287294388,
+              0.5877345046286836
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              2.071044305856693,
+              0.15450000762939453,
+              -1.5553675450594926
+            ],
+            "max": [
+              2.3937968713522166,
+              0.6355000287294388,
+              -0.3893890729878311
+            ]
+          },
+          {
+            "min": [
+              2.0710443058566934,
+              0.15450000762939453,
+              -0.29061092701216906
+            ],
+            "max": [
+              2.3937968713522175,
+              0.6355000287294388,
+              0.8767207944455369
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.99125000166893
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.5497499935626984
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.2,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009020519135304272,
+        "betweenLeaves": 0.11839987015026687,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.20397953045576,
+              0.15450000762939453,
+              0.2690205191353047
+            ],
+            "max": [
+              -0.05919993507513355,
+              0.6355000287294388,
+              0.6220320642434691
+            ]
+          },
+          {
+            "min": [
+              0.059199935075133325,
+              0.15450000762939453,
+              0.2690205191353043
+            ],
+            "max": [
+              1.2039795304557597,
+              0.6355000287294388,
+              0.6220320642434687
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              2.0366182940011486,
+              0.15450000762939453,
+              -1.55689771013696
+            ],
+            "max": [
+              2.3941285955784704,
+              0.6355000287294388,
+              -0.3981716126990096
+            ]
+          },
+          {
+            "min": [
+              2.0366182940011495,
+              0.15450000762939453,
+              -0.28182838730099036
+            ],
+            "max": [
+              2.3941285955784712,
+              0.6355000287294388,
+              0.8784401860395482
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.98400000166893
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.5424999935626984
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.225,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009003275304288294,
+        "betweenLeaves": 0.1384771881111757,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2039967742867759,
+              0.15450000762939453,
+              0.26900327530428875
+            ],
+            "max": [
+              -0.06923859405558797,
+              0.6355000287294388,
+              0.6559715527517205
+            ]
+          },
+          {
+            "min": [
+              0.06923859405558774,
+              0.15450000762939453,
+              0.2690032753042883
+            ],
+            "max": [
+              1.2039967742867757,
+              0.6355000287294388,
+              0.65597155275172
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              2.0025517786857683,
+              0.15450000762939453,
+              -1.5583994670691754
+            ],
+            "max": [
+              2.394442229326126,
+              0.6355000287294388,
+              -0.4081495409800584
+            ]
+          },
+          {
+            "min": [
+              2.0025517786857687,
+              0.15450000762939453,
+              -0.27185045901994154
+            ],
+            "max": [
+              2.3944422293261267,
+              0.6355000287294388,
+              0.8801295403915371
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.9767500016689301
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.5352499935626984
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.25,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009000814204416618,
+        "betweenLeaves": 0.1609162025800981,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2039992353866475,
+              0.15450000762939453,
+              0.26900081420441707
+            ],
+            "max": [
+              -0.08045810129004916,
+              0.6355000287294388,
+              0.6895171247240122
+            ]
+          },
+          {
+            "min": [
+              0.08045810129004893,
+              0.15450000762939453,
+              0.2690008142044166
+            ],
+            "max": [
+              1.2039992353866473,
+              0.6355000287294388,
+              0.6895171247240117
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.9688807395002326,
+              0.15450000762939453,
+              -1.5598712297649953
+            ],
+            "max": [
+              2.3947374413486955,
+              0.6355000287294388,
+              -0.41931231957186643
+            ]
+          },
+          {
+            "min": [
+              1.968880739500233,
+              0.15450000762939453,
+              -0.2606876804281335
+            ],
+            "max": [
+              2.3947374413486964,
+              0.6355000287294388,
+              0.8817870732780264
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.9695000016689301
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.5279999935626984
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.275,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009013138434997126,
+        "betweenLeaves": 0.18569891812550732,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.203986911156067,
+              0.15450000762939453,
+              0.2690131384349976
+            ],
+            "max": [
+              -0.09284945906275377,
+              0.6355000287294388,
+              0.7226333507686378
+            ]
+          },
+          {
+            "min": [
+              0.09284945906275355,
+              0.15450000762939453,
+              0.26901313843499713
+            ],
+            "max": [
+              1.2039869111560668,
+              0.6355000287294388,
+              0.7226333507686373
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.9356407383493273,
+              0.15450000762939453,
+              -1.5613114438118998
+            ],
+            "max": [
+              2.3950139198559257,
+              0.6355000287294388,
+              -0.43164815882733554
+            ]
+          },
+          {
+            "min": [
+              1.9356407383493277,
+              0.15450000762939453,
+              -0.2483518411726644
+            ],
+            "max": [
+              2.3950139198559266,
+              0.6355000287294388,
+              0.8834110340840035
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.9622500016689302
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.5207499935626985
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.3,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009040234979707074,
+        "betweenLeaves": 0.21279916030812474,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2039598146113573,
+              0.15450000762939453,
+              0.2690402349797075
+            ],
+            "max": [
+              -0.10639958015406248,
+              0.6355000287294388,
+              0.7552852549506113
+            ]
+          },
+          {
+            "min": [
+              0.10639958015406226,
+              0.15450000762939453,
+              0.2690402349797071
+            ],
+            "max": [
+              1.203959814611357,
+              0.6355000287294388,
+              0.7552852549506108
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.9028668818939876,
+              0.15450000762939453,
+              -1.562718588117697
+            ],
+            "max": [
+              2.3952713728430974,
+              0.6355000287294388,
+              -0.4451440301630989
+            ]
+          },
+          {
+            "min": [
+              1.902866881893988,
+              0.15450000762939453,
+              -0.23485596983690105
+            ],
+            "max": [
+              2.3952713728430983,
+              0.6355000287294388,
+              0.8849997076518445
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.9550000016689302
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.5134999935626985
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.325,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009082075220340158,
+        "betweenLeaves": 0.24218830701661997,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.203917974370724,
+              0.15450000762939453,
+              0.2690820752203406
+            ],
+            "max": [
+              -0.1210941535083101,
+              0.6355000287294388,
+              0.7874383517317467
+            ]
+          },
+          {
+            "min": [
+              0.12109415350830988,
+              0.15450000762939453,
+              0.26908207522034017
+            ],
+            "max": [
+              1.2039179743707238,
+              0.6355000287294388,
+              0.7874383517317463
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.8705937844731504,
+              0.15450000762939453,
+              -1.5640911765170342
+            ],
+            "max": [
+              2.395509528399428,
+              0.6355000287294388,
+              -0.4597856798197526
+            ]
+          },
+          {
+            "min": [
+              1.8705937844731508,
+              0.15450000762939453,
+              -0.22021432018024711
+            ],
+            "max": [
+              2.3955095283994288,
+              0.6355000287294388,
+              0.8865514160927905
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.9477500016689302
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.5062499935626985
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.35,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009138614967032166,
+        "betweenLeaves": 0.27383531869705524,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2038614346240322,
+              0.15450000762939453,
+              0.2691386149670326
+            ],
+            "max": [
+              -0.13691765934852773,
+              0.6355000287294388,
+              0.8196437039100204
+            ]
+          },
+          {
+            "min": [
+              0.1369176593485275,
+              0.15450000762939453,
+              0.2691386149670322
+            ],
+            "max": [
+              1.203861434624032,
+              0.6355000287294388,
+              0.81964370391002
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.8385567297752572,
+              0.15450000762939453,
+              -1.5654277593410229
+            ],
+            "max": [
+              2.3957281349952515,
+              0.6355000287294388,
+              -0.47555764391606226
+            ]
+          },
+          {
+            "min": [
+              1.8385567297752576,
+              0.15450000762939453,
+              -0.20444235608393768
+            ],
+            "max": [
+              2.3957281349952524,
+              0.6355000287294388,
+              0.8880645205590612
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.9405000016689302
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.4989999935626985
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.375,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009138571421972608,
+        "betweenLeaves": 0.3077067711355246,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2038614781690915,
+              0.15450000762939453,
+              0.26913857142197306
+            ],
+            "max": [
+              -0.1538533855677624,
+              0.6355000287294388,
+              0.8529724482948696
+            ]
+          },
+          {
+            "min": [
+              0.15385338556776218,
+              0.15450000762939453,
+              0.2691385714219726
+            ],
+            "max": [
+              1.2038614781690913,
+              0.6355000287294388,
+              0.8529724482948692
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.8051489245375945,
+              0.15450000762939453,
+              -1.566726924948315
+            ],
+            "max": [
+              2.395926961747675,
+              0.6355000287294388,
+              -0.4924432647812509
+            ]
+          },
+          {
+            "min": [
+              1.805148924537595,
+              0.15450000762939453,
+              -0.18755673521874905
+            ],
+            "max": [
+              2.395926961747676,
+              0.6355000287294388,
+              0.8895374229747353
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.9332500016689302
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.4917499935626986
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.4,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009082041694998655,
+        "betweenLeaves": 0.34376689075937583,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2039180078960656,
+              0.15450000762939453,
+              0.2690820416949991
+            ],
+            "max": [
+              -0.17188344537968803,
+              0.6355000287294388,
+              0.8856992122627652
+            ]
+          },
+          {
+            "min": [
+              0.1718834453796878,
+              0.15450000762939453,
+              0.26908204169499866
+            ],
+            "max": [
+              1.2039180078960654,
+              0.6355000287294388,
+              0.8856992122627647
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.7723450838421777,
+              0.15450000762939453,
+              -1.56798730121602
+            ],
+            "max": [
+              2.396105798664426,
+              0.6355000287294388,
+              -0.510424708548114
+            ]
+          },
+          {
+            "min": [
+              1.7723450838421781,
+              0.15450000762939453,
+              -0.169575291451886
+            ],
+            "max": [
+              2.396105798664427,
+              0.6355000287294388,
+              0.8909685677235701
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.92600000166893
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.4844999935626984
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.425,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.00904021150949158,
+        "betweenLeaves": 0.38197759241971996,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2039598380815726,
+              0.15450000762939453,
+              0.26904021150949203
+            ],
+            "max": [
+              -0.1909887962098601,
+              0.6355000287294388,
+              0.9177894312118318
+            ]
+          },
+          {
+            "min": [
+              0.19098879620985987,
+              0.15450000762939453,
+              0.2690402115094916
+            ],
+            "max": [
+              1.2039598380815724,
+              0.6355000287294388,
+              0.9177894312118313
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.7401798536960094,
+              0.15450000762939453,
+              -1.5692075569888804
+            ],
+            "max": [
+              2.3962644568656377,
+              0.6355000287294388,
+              -0.529482983988385
+            ]
+          },
+          {
+            "min": [
+              1.7401798536960098,
+              0.15450000762939453,
+              -0.15051701601161493
+            ],
+            "max": [
+              2.3962644568656386,
+              0.6355000287294388,
+              0.8923564432919766
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.91875000166893
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.4772499935626984
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.45,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.00901312504469598,
+        "betweenLeaves": 0.42229851961532927,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2039869245463684,
+              0.15450000762939453,
+              0.26901312504469643
+            ],
+            "max": [
+              -0.21114925980766475,
+              0.6355000287294388,
+              0.9492092128316916
+            ]
+          },
+          {
+            "min": [
+              0.21114925980766452,
+              0.15450000762939453,
+              0.269013125044696
+            ],
+            "max": [
+              1.2039869245463681,
+              0.6355000287294388,
+              0.9492092128316911
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.708687205633071,
+              0.15450000762939453,
+              -1.5703864034851822
+            ],
+            "max": [
+              2.396402768783335,
+              0.6355000287294388,
+              -0.549597962570454
+            ]
+          },
+          {
+            "min": [
+              1.7086872056330715,
+              0.15450000762939453,
+              -0.13040203742954593
+            ],
+            "max": [
+              2.396402768783336,
+              0.6355000287294388,
+              0.8936995838654146
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.91150000166893
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.4699999935626984
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.475,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009000810908172008,
+        "betweenLeaves": 0.4646870871154378,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2039992386828922,
+              0.15450000762939453,
+              0.26900081090817246
+            ],
+            "max": [
+              -0.23234354355771902,
+              0.6355000287294388,
+              0.9799253728990654
+            ]
+          },
+          {
+            "min": [
+              0.2323435435577188,
+              0.15450000762939453,
+              0.269000810908172
+            ],
+            "max": [
+              1.203999238682892,
+              0.6355000287294388,
+              0.979925372899065
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.677900400835048,
+              0.15450000762939453,
+              -1.571522595657909
+            ],
+            "max": [
+              2.3965205883384133,
+              0.6355000287294388,
+              -0.5707483997182574
+            ]
+          },
+          {
+            "min": [
+              1.6779004008350484,
+              0.15450000762939453,
+              -0.10925160028174252
+            ],
+            "max": [
+              2.396520588338414,
+              0.6355000287294388,
+              0.8949965708765233
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.90425000166893
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.4627499935626984
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.5,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.0090032821055816,
+        "betweenLeaves": 0.5090985259364358,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2039967674854826,
+              0.15450000762939453,
+              0.26900328210558205
+            ],
+            "max": [
+              -0.254549262968218,
+              0.6355000287294388,
+              1.0099054703255255
+            ]
+          },
+          {
+            "min": [
+              0.2545492629682178,
+              0.15450000762939453,
+              0.2690032821055816
+            ],
+            "max": [
+              1.2039967674854823,
+              0.6355000287294388,
+              1.009905470325525
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.6478519550022972,
+              0.15450000762939453,
+              -1.5726149335097093
+            ],
+            "max": [
+              2.3966177910949216,
+              0.6355000287294388,
+              -0.5929119572488875
+            ]
+          },
+          {
+            "min": [
+              1.6478519550022974,
+              0.15450000762939453,
+              -0.08708804275111248
+            ],
+            "max": [
+              2.3966177910949225,
+              0.6355000287294388,
+              0.8962460345033517
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.8970000016689301
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.4554999935626984
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.525,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009020536026952186,
+        "betweenLeaves": 0.5554859306249438,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.203979513564112,
+              0.15450000762939453,
+              0.26902053602695264
+            ],
+            "max": [
+              -0.277742965312472,
+              0.6355000287294388,
+              1.0391178414203759
+            ]
+          },
+          {
+            "min": [
+              0.2777429653124718,
+              0.15450000762939453,
+              0.2690205360269522
+            ],
+            "max": [
+              1.2039795135641118,
+              0.6355000287294388,
+              1.0391178414203754
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.6185736040121639,
+              0.15450000762939453,
+              -1.57366226336028
+            ],
+            "max": [
+              2.3966942743914847,
+              0.6355000287294388,
+              -0.6160652269652203
+            ]
+          },
+          {
+            "min": [
+              1.6185736040121643,
+              0.15450000762939453,
+              -0.06393477303477968
+            ],
+            "max": [
+              2.3966942743914856,
+              0.6355000287294388,
+              0.8974466551161049
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.8897500016689301
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.4482499935626985
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.55,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009052554449433425,
+        "betweenLeaves": 0.6038003087973374,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2039474951416307,
+              0.15450000762939453,
+              0.2690525544494339
+            ],
+            "max": [
+              -0.3019001543986688,
+              0.6355000287294388,
+              1.067531633332485
+            ]
+          },
+          {
+            "min": [
+              0.3019001543986686,
+              0.15450000762939453,
+              0.26905255444943343
+            ],
+            "max": [
+              1.2039474951416305,
+              0.6355000287294388,
+              1.0675316333324845
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.5900962704009105,
+              0.15450000762939453,
+              -1.5746634790648353
+            ],
+            "max": [
+              2.3967499574497313,
+              0.6355000287294388,
+              -0.6401837553786478
+            ]
+          },
+          {
+            "min": [
+              1.590096270400911,
+              0.15450000762939453,
+              -0.03981624462135214
+            ],
+            "max": [
+              2.3967499574497326,
+              0.6355000287294388,
+              0.8985971646708808
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.8825000016689302
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.4409999935626985
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.575,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009099303556543314,
+        "betweenLeaves": 0.6539906328833984,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2039007460345208,
+              0.15450000762939453,
+              0.26909930355654377
+            ],
+            "max": [
+              -0.3269953164416993,
+              0.6355000287294388,
+              1.0951168366357398
+            ]
+          },
+          {
+            "min": [
+              0.3269953164416991,
+              0.15450000762939453,
+              0.2690993035565433
+            ],
+            "max": [
+              1.2039007460345206,
+              0.6355000287294388,
+              1.0951168366357393
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.5624500307046623,
+              0.15450000762939453,
+              -1.5756175231823693
+            ],
+            "max": [
+              2.3967847814596084,
+              0.6355000287294388,
+              -0.6652420695358027
+            ]
+          },
+          {
+            "min": [
+              1.562450030704663,
+              0.15450000762939453,
+              -0.014757930464197266
+            ],
+            "max": [
+              2.3967847814596093,
+              0.6355000287294388,
+              0.8996963480489236
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.8752500016689302
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.4337499935626985
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.6,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009160733973883672,
+        "betweenLeaves": 0.706003894019442,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2038393156171805,
+              0.15450000762939453,
+              0.2691607339738841
+            ],
+            "max": [
+              -0.3530019470097211,
+              0.6355000287294388,
+              1.121844317023713
+            ]
+          },
+          {
+            "min": [
+              0.3530019470097209,
+              0.15450000762939453,
+              0.2691607339738837
+            ],
+            "max": [
+              1.2038393156171803,
+              0.6355000287294388,
+              1.1218443170237125
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.535664083693862,
+              0.15450000762939453,
+              -1.576523388092479
+            ],
+            "max": [
+              2.396798709641492,
+              0.6355000287294388,
+              -0.6912137039219961
+            ]
+          },
+          {
+            "min": [
+              1.5356640836938626,
+              0.15450000762939453,
+              0.011213703921996165
+            ],
+            "max": [
+              2.396798709641493,
+              0.6355000287294388,
+              0.9007430443399801
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.8680000016689302
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.4264999935626985
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.625,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.00911808483067511,
+        "betweenLeaves": 0.7596727062754467,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2038819647603891,
+              0.15450000762939453,
+              0.26911808483067556
+            ],
+            "max": [
+              -0.37983635313772346,
+              0.6355000287294388,
+              1.1477420716321687
+            ]
+          },
+          {
+            "min": [
+              0.37983635313772324,
+              0.15450000762939453,
+              0.2691180848306751
+            ],
+            "max": [
+              1.203881964760389,
+              0.6355000287294388,
+              1.1477420716321682
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.509766719534785,
+              0.15450000762939453,
+              -1.57738011705957
+            ],
+            "max": [
+              2.396791727285036,
+              0.6355000287294388,
+              -0.7180712284129572
+            ]
+          },
+          {
+            "min": [
+              1.5097667195347857,
+              0.15450000762939453,
+              0.03807122841295729
+            ],
+            "max": [
+              2.396791727285037,
+              0.6355000287294388,
+              0.9017361480684027
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.8607500016689302
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.4192499935626985
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.65,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009066452428926952,
+        "betweenLeaves": 0.8150303352033283,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2039335971621372,
+              0.15450000762939453,
+              0.2690664524289274
+            ],
+            "max": [
+              -0.4075151676016643,
+              0.6355000287294388,
+              1.1727377721357972
+            ]
+          },
+          {
+            "min": [
+              0.40751516760166406,
+              0.15450000762939453,
+              0.26906645242892696
+            ],
+            "max": [
+              1.203933597162137,
+              0.6355000287294388,
+              1.1727377721357968
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.4847852899106786,
+              0.15450000762939453,
+              -1.5781868052433203
+            ],
+            "max": [
+              2.396763841764705,
+              0.6355000287294388,
+              -0.7457862772453528
+            ]
+          },
+          {
+            "min": [
+              1.4847852899106795,
+              0.15450000762939453,
+              0.06578627724535291
+            ],
+            "max": [
+              2.396763841764706,
+              0.6355000287294388,
+              0.902674610360706
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.8535000016689303
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.4119999935626986
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.675,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.00902953603335871,
+        "betweenLeaves": 0.8720408179672736,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2039705135577055,
+              0.15450000762939453,
+              0.26902953603335916
+            ],
+            "max": [
+              -0.4360204089836369,
+              0.6355000287294388,
+              1.1967937698273419
+            ]
+          },
+          {
+            "min": [
+              0.4360204089836367,
+              0.15450000762939453,
+              0.2690295360333587
+            ],
+            "max": [
+              1.2039705135577052,
+              0.6355000287294388,
+              1.1967937698273414
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.4607461791340923,
+              0.15450000762939453,
+              -1.5789426006543321
+            ],
+            "max": [
+              2.396715082531987,
+              0.6355000287294388,
+              -0.774329578975486
+            ]
+          },
+          {
+            "min": [
+              1.460746179134093,
+              0.15450000762939453,
+              0.09432957897548644
+            ],
+            "max": [
+              2.3967150825319874,
+              0.6355000287294388,
+              0.9035574400533413
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.84625000166893
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.4047499935626984
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.7,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009007374633481002,
+        "betweenLeaves": 0.9306439425450557,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.203992674957583,
+              0.15450000762939453,
+              0.26900737463348146
+            ],
+            "max": [
+              -0.46532197127252795,
+              0.6355000287294388,
+              1.2198846577956965
+            ]
+          },
+          {
+            "min": [
+              0.4653219712725277,
+              0.15450000762939453,
+              0.269007374633481
+            ],
+            "max": [
+              1.2039926749575829,
+              0.6355000287294388,
+              1.219884657795696
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.4376747762808972,
+              0.15450000762939453,
+              -1.5796467050539682
+            ],
+            "max": [
+              2.396645501084288,
+              0.6355000287294388,
+              -0.8036709873945398
+            ]
+          },
+          {
+            "min": [
+              1.437674776280898,
+              0.15450000762939453,
+              0.12367098739454019
+            ],
+            "max": [
+              2.396645501084289,
+              0.6355000287294388,
+              0.9043837047395212
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.83900000166893
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.3974999935626984
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.725,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.008999991635212257,
+        "betweenLeaves": 0.990777814834598,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2040000579558519,
+              0.15450000762939453,
+              0.2689999916352127
+            ],
+            "max": [
+              -0.49538890741729913,
+              0.6355000287294388,
+              1.2419860484371752
+            ]
+          },
+          {
+            "min": [
+              0.4953889074172989,
+              0.15450000762939453,
+              0.26899999163521227
+            ],
+            "max": [
+              1.2040000579558516,
+              0.6355000287294388,
+              1.2419860484371747
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.4155954483754385,
+              0.15450000762939453,
+              -1.580298374797416
+            ],
+            "max": [
+              2.3965551709105446,
+              0.6355000287294388,
+              -0.8337795133677048
+            ]
+          },
+          {
+            "min": [
+              1.4155954483754392,
+              0.15450000762939453,
+              0.15377951336770523
+            ],
+            "max": [
+              2.3965551709105455,
+              0.6355000287294388,
+              0.9051525317539879
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.83175000166893
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.3902499935626984
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.75,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009007394836157923,
+        "betweenLeaves": 1.0523789240238637,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2039926547549062,
+              0.15450000762939453,
+              0.2690073948361584
+            ],
+            "max": [
+              -0.526189462011932,
+              0.6355000287294388,
+              1.263074599212651
+            ]
+          },
+          {
+            "min": [
+              0.5261894620119317,
+              0.15450000762939453,
+              0.26900739483615793
+            ],
+            "max": [
+              1.203992654754906,
+              0.6355000287294388,
+              1.2630745992126506
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.394531514655129,
+              0.15450000762939453,
+              -1.580896921619094
+            ],
+            "max": [
+              2.396444187413604,
+              0.6355000287294388,
+              -0.864623357563573
+            ]
+          },
+          {
+            "min": [
+              1.3945315146551298,
+              0.15450000762939453,
+              0.1846233575635733
+            ],
+            "max": [
+              2.396444187413605,
+              0.6355000287294388,
+              0.9058631090946843
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.8245000016689301
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.3829999935626984
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.775,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.00902957641737534,
+        "betweenLeaves": 1.1153822096682486,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2039704731736889,
+              0.15450000762939453,
+              0.2690295764173758
+            ],
+            "max": [
+              -0.5576911048341244,
+              0.6355000287294388,
+              1.2831280373009435
+            ]
+          },
+          {
+            "min": [
+              0.5576911048341242,
+              0.15450000762939453,
+              0.26902957641737535
+            ],
+            "max": [
+              1.2039704731736887,
+              0.6355000287294388,
+              1.283128037300943
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.3745052219416738,
+              0.15450000762939453,
+              -1.5814417133595677
+            ],
+            "max": [
+              2.3963126678094673,
+              0.6355000287294388,
+              -0.8961699440392258
+            ]
+          },
+          {
+            "min": [
+              1.3745052219416745,
+              0.15450000762939453,
+              0.21616994403922618
+            ],
+            "max": [
+              2.396312667809468,
+              0.6355000287294388,
+              0.9065146862803555
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.8172500016689301
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.3757499935626984
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.8,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009066512951631467,
+        "betweenLeaves": 1.1797211304046273,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2040669741004573,
+              0.15450000762939453,
+              0.2690665129516319
+            ],
+            "max": [
+              -0.5898605652023138,
+              0.6355000287294388,
+              1.302125183122414
+            ]
+          },
+          {
+            "min": [
+              0.5898605652023136,
+              0.15450000762939453,
+              0.2690665129516315
+            ],
+            "max": [
+              1.204066974100457,
+              0.6355000287294388,
+              1.3021251831224137
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.3555377211449322,
+              0.15450000762939453,
+              -1.5819321746332102
+            ],
+            "max": [
+              2.396160751003489,
+              0.6355000287294388,
+              -0.9283859546455445
+            ]
+          },
+          {
+            "min": [
+              1.3555377211449329,
+              0.15450000762939453,
+              0.24838595464554492
+            ],
+            "max": [
+              2.3961607510034897,
+              0.6355000287294388,
+              0.9071065751431756
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.8100000016689302
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.3684999935626985
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.825,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009118165428145975,
+        "betweenLeaves": 1.2453277342294786,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2050438505095469,
+              0.15450000762939453,
+              0.2691181654281464
+            ],
+            "max": [
+              -0.6226638671147394,
+              0.6355000287294388,
+              1.32004597270793
+            ]
+          },
+          {
+            "min": [
+              0.6226638671147392,
+              0.15450000762939453,
+              0.269118165428146
+            ],
+            "max": [
+              1.2050438505095467,
+              0.6355000287294388,
+              1.3200459727079294
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.3376490449242364,
+              0.15450000762939453,
+              -1.5823677874358983
+            ],
+            "max": [
+              2.395988597443671,
+              0.6355000287294388,
+              -0.9612373642164077
+            ]
+          },
+          {
+            "min": [
+              1.337649044924237,
+              0.15450000762939453,
+              0.2812373642164081
+            ],
+            "max": [
+              2.395988597443672,
+              0.6355000287294388,
+              0.9076381505555604
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.8027500016689302
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.3612499935626985
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.85,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.00916063996054961,
+        "betweenLeaves": 1.3121327302668768,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2060048383105773,
+              0.15450000762939453,
+              0.26916063996055006
+            ],
+            "max": [
+              -0.6560663651334385,
+              0.6355000287294388,
+              1.3368714788895641
+            ]
+          },
+          {
+            "min": [
+              0.6560663651334383,
+              0.15450000762939453,
+              0.2691606399605496
+            ],
+            "max": [
+              1.206004838310577,
+              0.6355000287294388,
+              1.3368714788895637
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.3208580865307569,
+              0.15450000762939453,
+              -1.5827480916921082
+            ],
+            "max": [
+              2.3957963889512075,
+              0.6355000287294388,
+              -0.9946894765046101
+            ]
+          },
+          {
+            "min": [
+              1.3208580865307575,
+              0.15450000762939453,
+              0.31468947650461054
+            ],
+            "max": [
+              2.3957963889512084,
+              0.6355000287294388,
+              0.9081088510904005
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.7955000016689302
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.3539999935626985
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.875,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009099229566583322,
+        "betweenLeaves": 1.3800655619505313,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2069489225495251,
+              0.15450000762939453,
+              0.2690992295665838
+            ],
+            "max": [
+              -0.6900327809752658,
+              0.6355000287294388,
+              1.3525839312906578
+            ]
+          },
+          {
+            "min": [
+              0.6900327809752655,
+              0.15450000762939453,
+              0.26909922956658333
+            ],
+            "max": [
+              1.206948922549525,
+              0.6355000287294388,
+              1.3525839312906573
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.305182579853263,
+              0.15450000762939453,
+              -1.583072685740825
+            ],
+            "max": [
+              2.3955843285284484,
+              0.6355000287294388,
+              -1.0287069608265476
+            ]
+          },
+          {
+            "min": [
+              1.3051825798532637,
+              0.15450000762939453,
+              0.34870696082654795
+            ],
+            "max": [
+              2.3955843285284493,
+              0.6355000287294388,
+              0.9085181796140163
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.7882500016689302
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.3467499935626985
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.9,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009052500560992494,
+        "betweenLeaves": 1.4490544815426076,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.207875106125184,
+              0.15450000762939453,
+              0.26905250056099295
+            ],
+            "max": [
+              -0.7245272407713039,
+              0.6355000287294388,
+              1.3671667350941306
+            ]
+          },
+          {
+            "min": [
+              0.7245272407713037,
+              0.15450000762939453,
+              0.2690525005609925
+            ],
+            "max": [
+              1.2078751061251838,
+              0.6355000287294388,
+              1.3671667350941301
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.2906390806883503,
+              0.15450000762939453,
+              -1.5833412267597624
+            ],
+            "max": [
+              2.3953526401445004,
+              0.6355000287294388,
+              -1.0632538893769683
+            ]
+          },
+          {
+            "min": [
+              1.290639080688351,
+              0.15450000762939453,
+              0.38325388937696864
+            ],
+            "max": [
+              2.3953526401445013,
+              0.6355000287294388,
+              0.9088657038112096
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.78100000166893
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.3394999935626983
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.925,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009020502296944899,
+        "betweenLeaves": 1.5190266259105971,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2087824108422578,
+              0.15450000762939453,
+              0.26902050229694535
+            ],
+            "max": [
+              -0.7595133129552987,
+              0.6355000287294388,
+              1.3806044885692086
+            ]
+          },
+          {
+            "min": [
+              0.7595133129552984,
+              0.15450000762939453,
+              0.2690205022969449
+            ],
+            "max": [
+              1.2087824108422576,
+              0.6355000287294388,
+              1.3806044885692081
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.277242949254921,
+              0.15450000762939453,
+              -1.5835534311274346
+            ],
+            "max": [
+              2.395101568498679,
+              0.6355000287294388,
+              -1.0982937751743738
+            ]
+          },
+          {
+            "min": [
+              1.2772429492549218,
+              0.15450000762939453,
+              0.41829377517437416
+            ],
+            "max": [
+              2.39510156849868,
+              0.6355000287294388,
+              0.9091510566418558
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.77375000166893
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.3322499935626984
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.95,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009003268569632183,
+        "betweenLeaves": 1.5899080934822327,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2096698784444901,
+              0.15450000762939453,
+              0.26900326856963264
+            ],
+            "max": [
+              -0.7949540467411165,
+              0.6355000287294388,
+              1.3928829993380745
+            ]
+          },
+          {
+            "min": [
+              0.7949540467411162,
+              0.15450000762939453,
+              0.2690032685696322
+            ],
+            "max": [
+              1.20966987844449,
+              0.6355000287294388,
+              1.392882999338074
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.2650083339713813,
+              0.15450000762939453,
+              -1.5837090747227067
+            ],
+            "max": [
+              2.394831378762069,
+              0.6355000287294388,
+              -1.1337896105970047
+            ]
+          },
+          {
+            "min": [
+              1.265008333971382,
+              0.15450000762939453,
+              0.45378961059700507
+            ],
+            "max": [
+              2.39483137876207,
+              0.6355000287294388,
+              0.9093739367285566
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.76650000166893
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.3249999935626984
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 0.975,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009000817580576581,
+        "betweenLeaves": 1.661624022297154,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.210536571626733,
+              0.15450000762939453,
+              0.26900081758057703
+            ],
+            "max": [
+              -0.8308120111485771,
+              0.6355000287294388,
+              1.403989299365247
+            ]
+          },
+          {
+            "min": [
+              0.8308120111485768,
+              0.15450000762939453,
+              0.2690008175805766
+            ],
+            "max": [
+              1.2105365716267327,
+              0.6355000287294388,
+              1.4039892993652465
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.2539481565126869,
+              0.15450000762939453,
+              -1.5838079931615017
+            ],
+            "max": [
+              2.39454235629746,
+              0.6355000287294388,
+              -1.1697039064686994
+            ]
+          },
+          {
+            "min": [
+              1.2539481565126875,
+              0.15450000762939453,
+              0.4897039064686999
+            ],
+            "max": [
+              2.394542356297461,
+              0.6355000287294388,
+              0.9095341086749413
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.75925000166893
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.3177499935626984
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    },
+    {
+      "amount": 1,
+      "cabinet": {
+        "variant": "authored",
+        "leafCaseGap": 0.009013151918407403,
+        "betweenLeaves": 1.734098669072887,
+        "leafFloor": 0.15450000762939453,
+        "leaves": [
+          {
+            "min": [
+              -1.2113815750248877,
+              0.15450000762939453,
+              0.26901315191840786
+            ],
+            "max": [
+              -0.8670493345364436,
+              0.6355000287294388,
+              1.4139116586538605
+            ]
+          },
+          {
+            "min": [
+              0.8670493345364434,
+              0.15450000762939453,
+              0.2690131519184074
+            ],
+            "max": [
+              1.2113815750248875,
+              0.6355000287294388,
+              1.41391165865386
+            ]
+          }
+        ],
+        "worldLeaves": [
+          {
+            "min": [
+              1.244074098163028,
+              0.15450000762939453,
+              -1.5838500819704142
+            ],
+            "max": [
+              2.3942348063579604,
+              0.6355000287294388,
+              -1.2059987316533491
+            ]
+          },
+          {
+            "min": [
+              1.2440740981630287,
+              0.15450000762939453,
+              0.5259987316533495
+            ],
+            "max": [
+              2.3942348063579613,
+              0.6355000287294388,
+              0.9096314033142825
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "cube",
+            "min": [
+              -0.7948000013828277,
+              0.4105,
+              -0.03980000138282805
+            ],
+            "max": [
+              -0.6051999986171722,
+              0.6001000027656554,
+              0.14980000138282748
+            ],
+            "shelfGap": 0.0015000000000000013
+          },
+          {
+            "id": "robot",
+            "min": [
+              -0.07740000128746038,
+              0.41049999999999986,
+              -0.02240000128746017
+            ],
+            "max": [
+              0.07740000128746027,
+              0.6292000060081481,
+              0.1324000012874605
+            ],
+            "shelfGap": 0.0014999999999998903
+          },
+          {
+            "id": "orbit",
+            "min": [
+              0.8225999987125396,
+              0.41049999999999986,
+              -0.022400001287460614
+            ],
+            "max": [
+              0.9774000012874604,
+              0.6112000017166136,
+              0.13240000128746005
+            ],
+            "shelfGap": 0.0014999999999998903
+          }
+        ]
+      },
+      "drawer": {
+        "top": 0.7734999948740006,
+        "apronBottom": 0.7819,
+        "apronGap": 0.008400005125999477,
+        "min": [
+          0.15699999511241913,
+          0.6584999965131283,
+          -1.75200000166893
+        ],
+        "max": [
+          0.6030000048875809,
+          0.7734999948740006,
+          -1.3104999935626984
+        ]
+      },
+      "entrance": {
+        "intersectingTriangles": 0,
+        "checkedTriangles": 6600
+      },
+      "education": {
+        "min": [
+          -2.3050000059604643,
+          0.551000012088567,
+          0.054999997913837445
+        ],
+        "max": [
+          -1.7549999940395353,
+          0.5725000119209289,
+          0.2850000020861626
+        ],
+        "tableGap": 0.0010000001676380155
+      },
+      "readingTable": 0.550000011920929
+    }
+  ],
+  "passed": true
+}

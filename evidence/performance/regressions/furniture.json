@@ -1,0 +1,391 @@
+{
+  "at": "2026-10-15T14:54:23.430Z",
+  "base": "http://127.0.0.1:4331/after/",
+  "label": "optimization",
+  "checks": [
+    "chair: metadata hash matches actual GLB",
+    "chair: metadata sizes match published files",
+    "chair: one isolated model scene",
+    "chair: gzip expands to exact GLB",
+    "chair: no external texture requests",
+    "lamp: metadata hash matches actual GLB",
+    "lamp: metadata sizes match published files",
+    "lamp: one isolated model scene",
+    "lamp: gzip expands to exact GLB",
+    "lamp: no external texture requests",
+    "door: metadata hash matches actual GLB",
+    "door: metadata sizes match published files",
+    "door: one isolated model scene",
+    "door: gzip expands to exact GLB",
+    "door: no external texture requests",
+    "drawer: metadata hash matches actual GLB",
+    "drawer: metadata sizes match published files",
+    "drawer: one isolated model scene",
+    "drawer: gzip expands to exact GLB",
+    "drawer: no external texture requests",
+    "cabinet: metadata hash matches actual GLB",
+    "cabinet: metadata sizes match published files",
+    "cabinet: one isolated model scene",
+    "cabinet: gzip expands to exact GLB",
+    "cabinet: no external texture requests",
+    "side-table: metadata hash matches actual GLB",
+    "side-table: metadata sizes match published files",
+    "side-table: one isolated model scene",
+    "side-table: gzip expands to exact GLB",
+    "side-table: no external texture requests",
+    "workbench: metadata hash matches actual GLB",
+    "workbench: metadata sizes match published files",
+    "workbench: one isolated model scene",
+    "workbench: gzip expands to exact GLB",
+    "workbench: no external texture requests",
+    "desktop-no-preference: authored furniture assembled",
+    "desktop-no-preference: no unsolicited audio",
+    "desktop-no-preference: chair keeps physical units and floor contact",
+    "desktop-no-preference: no drawer marker through the closed door",
+    "desktop-no-preference: drawer available before end of entry",
+    "desktop-no-preference: keyboard opens a bounded physical drawer",
+    "desktop-no-preference: keyboard keeps drawer focus",
+    "desktop-no-preference: native drag closes drawer",
+    "desktop-no-preference: pointer tap opens drawer",
+    "desktop-no-preference: repeated mechanics allocate no textures",
+    "desktop-no-preference: ru language accessible with book open",
+    "desktop-no-preference: kk language accessible with book open",
+    "desktop-no-preference: en language accessible with book open",
+    "desktop-no-preference: book preserves drawer state",
+    "desktop-no-preference: keyboard controls authored lamp",
+    "desktop-no-preference: real cord drag returns to its travel limit",
+    "desktop-no-preference: window view hides occluded desk actions",
+    "desktop-no-preference: exit preserves physical camera clearance",
+    "desktop-no-preference: no unavailable markers at entrance",
+    "desktop-no-preference: no runtime errors",
+    "desktop-reduce: authored furniture assembled",
+    "desktop-reduce: no unsolicited audio",
+    "desktop-reduce: chair keeps physical units and floor contact",
+    "desktop-reduce: no drawer marker through the closed door",
+    "desktop-reduce: drawer available before end of entry",
+    "desktop-reduce: keyboard opens a bounded physical drawer",
+    "desktop-reduce: keyboard keeps drawer focus",
+    "desktop-reduce: native drag closes drawer",
+    "desktop-reduce: pointer tap opens drawer",
+    "desktop-reduce: repeated mechanics allocate no textures",
+    "desktop-reduce: ru language accessible with book open",
+    "desktop-reduce: kk language accessible with book open",
+    "desktop-reduce: en language accessible with book open",
+    "desktop-reduce: book preserves drawer state",
+    "desktop-reduce: keyboard controls authored lamp",
+    "desktop-reduce: real cord drag returns to its travel limit",
+    "desktop-reduce: window view hides occluded desk actions",
+    "desktop-reduce: exit preserves physical camera clearance",
+    "desktop-reduce: no unavailable markers at entrance",
+    "desktop-reduce: no runtime errors",
+    "mobile-no-preference: authored furniture assembled",
+    "mobile-no-preference: no unsolicited audio",
+    "mobile-no-preference: chair keeps physical units and floor contact",
+    "mobile-no-preference: no drawer marker through the closed door",
+    "mobile-no-preference: drawer available before end of entry",
+    "mobile-no-preference: keyboard opens a bounded physical drawer",
+    "mobile-no-preference: keyboard keeps drawer focus",
+    "mobile-no-preference: native drag closes drawer",
+    "mobile-no-preference: pointer tap opens drawer",
+    "mobile-no-preference: repeated mechanics allocate no textures",
+    "mobile-no-preference: ru language accessible with book open",
+    "mobile-no-preference: kk language accessible with book open",
+    "mobile-no-preference: en language accessible with book open",
+    "mobile-no-preference: book preserves drawer state",
+    "mobile-no-preference: keyboard controls authored lamp",
+    "mobile-no-preference: real cord drag returns to its travel limit",
+    "mobile-no-preference: window view hides occluded desk actions",
+    "mobile-no-preference: exit preserves physical camera clearance",
+    "mobile-no-preference: no unavailable markers at entrance",
+    "mobile-no-preference: no runtime errors",
+    "mobile-reduce: authored furniture assembled",
+    "mobile-reduce: no unsolicited audio",
+    "mobile-reduce: chair keeps physical units and floor contact",
+    "mobile-reduce: no drawer marker through the closed door",
+    "mobile-reduce: drawer available before end of entry",
+    "mobile-reduce: keyboard opens a bounded physical drawer",
+    "mobile-reduce: keyboard keeps drawer focus",
+    "mobile-reduce: native drag closes drawer",
+    "mobile-reduce: pointer tap opens drawer",
+    "mobile-reduce: repeated mechanics allocate no textures",
+    "mobile-reduce: ru language accessible with book open",
+    "mobile-reduce: kk language accessible with book open",
+    "mobile-reduce: en language accessible with book open",
+    "mobile-reduce: book preserves drawer state",
+    "mobile-reduce: keyboard controls authored lamp",
+    "mobile-reduce: real cord drag returns to its travel limit",
+    "mobile-reduce: window view hides occluded desk actions",
+    "mobile-reduce: exit preserves physical camera clearance",
+    "mobile-reduce: no unavailable markers at entrance",
+    "mobile-reduce: no runtime errors",
+    "load: raw GLB recovers when compressed asset fails",
+    "fallback: physical drawer action is unavailable",
+    "fallback: six real projects remain accessible",
+    "small viewport: room menu fits the visible height",
+    "small viewport: last action can be reached",
+    "small viewport: drawer label is translated"
+  ],
+  "scenarios": [
+    {
+      "name": "desktop-no-preference",
+      "earlyProgress": 0.46199999999999997,
+      "textures": 86,
+      "assets": [
+        {
+          "id": "chair",
+          "nativeScale": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            1.0704697634276144,
+            0.826019287109375,
+            1.053371867630922
+          ],
+          "floorGap": 0,
+          "source": "studio-furniture/chair"
+        },
+        {
+          "id": "lamp",
+          "nativeScale": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            0.20000000298023224,
+            0.8564311042428016,
+            0.387474462389946
+          ],
+          "source": "studio-furniture/lamp"
+        },
+        {
+          "id": "cabinet",
+          "nativeScale": [
+            1,
+            1,
+            1
+          ],
+          "floorGap": 0,
+          "bounds": [
+            0.6009999699890618,
+            0.6800000071525574,
+            2.440000057220459
+          ]
+        },
+        {
+          "id": "side_table",
+          "nativeScale": [
+            1,
+            1,
+            1
+          ],
+          "floorGap": 0,
+          "bounds": [
+            0.6819042689954671,
+            0.550000011920929,
+            0.6122396309200581
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "desktop-reduce",
+      "earlyProgress": 0.46199999999999997,
+      "textures": 86,
+      "assets": [
+        {
+          "id": "chair",
+          "nativeScale": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            1.0704697634276144,
+            0.826019287109375,
+            1.053371867630922
+          ],
+          "floorGap": 0,
+          "source": "studio-furniture/chair"
+        },
+        {
+          "id": "lamp",
+          "nativeScale": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            0.20000000298023224,
+            0.8564311042428016,
+            0.387474462389946
+          ],
+          "source": "studio-furniture/lamp"
+        },
+        {
+          "id": "cabinet",
+          "nativeScale": [
+            1,
+            1,
+            1
+          ],
+          "floorGap": 0,
+          "bounds": [
+            0.6009999699890618,
+            0.6800000071525574,
+            2.440000057220459
+          ]
+        },
+        {
+          "id": "side_table",
+          "nativeScale": [
+            1,
+            1,
+            1
+          ],
+          "floorGap": 0,
+          "bounds": [
+            0.6819042689954671,
+            0.550000011920929,
+            0.6122396309200581
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "mobile-no-preference",
+      "earlyProgress": 0.46199999999999997,
+      "textures": 86,
+      "assets": [
+        {
+          "id": "chair",
+          "nativeScale": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            1.0704697634276144,
+            0.826019287109375,
+            1.053371867630922
+          ],
+          "floorGap": 0,
+          "source": "studio-furniture/chair"
+        },
+        {
+          "id": "lamp",
+          "nativeScale": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            0.20000000298023224,
+            0.8564311042428016,
+            0.387474462389946
+          ],
+          "source": "studio-furniture/lamp"
+        },
+        {
+          "id": "cabinet",
+          "nativeScale": [
+            1,
+            1,
+            1
+          ],
+          "floorGap": 0,
+          "bounds": [
+            0.6009999699890618,
+            0.6800000071525574,
+            2.440000057220459
+          ]
+        },
+        {
+          "id": "side_table",
+          "nativeScale": [
+            1,
+            1,
+            1
+          ],
+          "floorGap": 0,
+          "bounds": [
+            0.6819042689954671,
+            0.550000011920929,
+            0.6122396309200581
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "mobile-reduce",
+      "earlyProgress": 0.46199999999999997,
+      "textures": 86,
+      "assets": [
+        {
+          "id": "chair",
+          "nativeScale": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            1.0704697634276144,
+            0.826019287109375,
+            1.053371867630922
+          ],
+          "floorGap": 0,
+          "source": "studio-furniture/chair"
+        },
+        {
+          "id": "lamp",
+          "nativeScale": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            0.20000000298023224,
+            0.8564311042428016,
+            0.387474462389946
+          ],
+          "source": "studio-furniture/lamp"
+        },
+        {
+          "id": "cabinet",
+          "nativeScale": [
+            1,
+            1,
+            1
+          ],
+          "floorGap": 0,
+          "bounds": [
+            0.6009999699890618,
+            0.6800000071525574,
+            2.440000057220459
+          ]
+        },
+        {
+          "id": "side_table",
+          "nativeScale": [
+            1,
+            1,
+            1
+          ],
+          "floorGap": 0,
+          "bounds": [
+            0.6819042689954671,
+            0.550000011920929,
+            0.6122396309200581
+          ]
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

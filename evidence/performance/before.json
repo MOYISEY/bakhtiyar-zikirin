@@ -1,0 +1,4270 @@
+{
+  "version": "before",
+  "base": "http://127.0.0.1:4331/before/",
+  "at": "2026-10-15T14:43:04.063Z",
+  "method": "Installed headless Edge; fresh context + disabled HTTP cache per route; desktop 1440x900 DPR1, touch emulation 390x844 DPR1.75; CDP 40ms latency/10Mbps down/2Mbps up, CPU1x. Serial runs, audio muted. Frame gaps and synchronous RAF callback duration measured during 4s continuous rain at settled desk/window; CPU duration is not GPU time. Capture mode used only for matched screenshots.",
+  "runs": [
+    {
+      "round": 0,
+      "mobile": false,
+      "route": "ordinary",
+      "errors": [],
+      "failures": [],
+      "lcp": 336,
+      "longTasks": [],
+      "resources": [
+        {
+          "path": "/assets/preferences-38aKeYz_.js",
+          "bytes": 34064,
+          "encoded": 33764,
+          "duration": 185.60000000149012
+        },
+        {
+          "path": "/assets/main-CaBIUae1.js",
+          "bytes": 4558,
+          "encoded": 4258,
+          "duration": 61.79999999701977
+        },
+        {
+          "path": "/assets/main-DAKF_UFa.css",
+          "bytes": 14408,
+          "encoded": 14108,
+          "duration": 101.69999999925494
+        },
+        {
+          "path": "/projects/media/helio-hero-800.webp",
+          "bytes": 86912,
+          "encoded": 86612,
+          "duration": 372.0999999977648
+        },
+        {
+          "path": "/projects/media/keyform-card-800.webp",
+          "bytes": 35504,
+          "encoded": 35204,
+          "duration": 216
+        },
+        {
+          "path": "/projects/media/helio-card-800.webp",
+          "bytes": 86912,
+          "encoded": 86612,
+          "duration": 380.30000000074506
+        },
+        {
+          "path": "/projects/media/poslesvet-card-800.webp",
+          "bytes": 41704,
+          "encoded": 41404,
+          "duration": 277.80000000074506
+        },
+        {
+          "path": "/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+          "bytes": 34060,
+          "encoded": 33760,
+          "duration": 185
+        },
+        {
+          "path": "/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+          "bytes": 18468,
+          "encoded": 18168,
+          "duration": 192.5
+        },
+        {
+          "path": "/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+          "bytes": 16160,
+          "encoded": 15860,
+          "duration": 193.80000000074506
+        },
+        {
+          "path": "/projects/media/framepack-card-800.webp",
+          "bytes": 25456,
+          "encoded": 25156,
+          "duration": 174.80000000074506
+        },
+        {
+          "path": "/assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2",
+          "bytes": 10840,
+          "encoded": 10540,
+          "duration": 113.80000000074506
+        },
+        {
+          "path": "/assets/scene-controls-B-65-GTU.js",
+          "bytes": 1392,
+          "encoded": 1092,
+          "duration": 104.80000000074506
+        },
+        {
+          "path": "/favicon.svg",
+          "bytes": 577,
+          "encoded": 277,
+          "duration": 60.19999999925494
+        }
+      ],
+      "navigation": [
+        {
+          "bytes": 10403,
+          "load": 458.69999999925494,
+          "dom": 297.8999999985099
+        }
+      ],
+      "bytes": 421418,
+      "requests": 15,
+      "documentEager": []
+    },
+    {
+      "round": 0,
+      "mobile": false,
+      "route": "room",
+      "errors": [],
+      "failures": [
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/skyline.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/chair.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/workbench.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/robot.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/cabinet.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/lamp.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/window/window.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/drawer.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/side-table.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/orbit.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/tree-trunk.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        }
+      ],
+      "lcp": 220,
+      "longTasks": [
+        248,
+        328,
+        2123,
+        145,
+        56,
+        69,
+        80,
+        203
+      ],
+      "readyMs": 11898.199999999255,
+      "firstFrameMs": 2018.300000000745,
+      "resources": [
+        {
+          "path": "/room/style.css",
+          "bytes": 6984,
+          "encoded": 6684,
+          "duration": 80.89999999850988
+        },
+        {
+          "path": "/room/main.js",
+          "bytes": 9446,
+          "encoded": 9146,
+          "duration": 81.09999999776483
+        },
+        {
+          "path": "/room/vendor/addons/loaders/GLTFLoader.js",
+          "bytes": 26297,
+          "encoded": 25997,
+          "duration": 97.09999999776483
+        },
+        {
+          "path": "/room/boot.js",
+          "bytes": 3205,
+          "encoded": 2905,
+          "duration": 67
+        },
+        {
+          "path": "/room/ui.js",
+          "bytes": 7151,
+          "encoded": 6851,
+          "duration": 60.5
+        },
+        {
+          "path": "/room/collection-viewer.js",
+          "bytes": 4578,
+          "encoded": 4278,
+          "duration": 61.899999998509884
+        },
+        {
+          "path": "/room/profile-data.js",
+          "bytes": 2493,
+          "encoded": 2193,
+          "duration": 61.399999998509884
+        },
+        {
+          "path": "/room/projects-data.js",
+          "bytes": 5273,
+          "encoded": 4973,
+          "duration": 61.599999997764826
+        },
+        {
+          "path": "/room/cube-state.js",
+          "bytes": 1215,
+          "encoded": 915,
+          "duration": 60.30000000074506
+        },
+        {
+          "path": "/room/vendor/three.module.js",
+          "bytes": 89355,
+          "encoded": 89055,
+          "duration": 154.69999999925494
+        },
+        {
+          "path": "/room/collection-models.js",
+          "bytes": 1897,
+          "encoded": 1597,
+          "duration": 60.399999998509884
+        },
+        {
+          "path": "/room/vendor/addons/utils/BufferGeometryUtils.js",
+          "bytes": 9002,
+          "encoded": 8702,
+          "duration": 77.5
+        },
+        {
+          "path": "/room/vendor/addons/geometries/RoundedBoxGeometry.js",
+          "bytes": 2264,
+          "encoded": 1964,
+          "duration": 61.899999998509884
+        },
+        {
+          "path": "/room/vendor/three.core.js",
+          "bytes": 103523,
+          "encoded": 103223,
+          "duration": 136.69999999925494
+        },
+        {
+          "path": "/room/audio.js",
+          "bytes": 3402,
+          "encoded": 3102,
+          "duration": 69.30000000074506
+        },
+        {
+          "path": "/room/world.js",
+          "bytes": 14789,
+          "encoded": 14489,
+          "duration": 83.80000000074506
+        },
+        {
+          "path": "/room/audio-score.js",
+          "bytes": 2006,
+          "encoded": 1706,
+          "duration": 60
+        },
+        {
+          "path": "/room/room-accents.js",
+          "bytes": 478,
+          "encoded": 178,
+          "duration": 47.69999999925494
+        },
+        {
+          "path": "/room/cabinet-scene.js",
+          "bytes": 1618,
+          "encoded": 1318,
+          "duration": 52.599999997764826
+        },
+        {
+          "path": "/room/architecture-materials.js",
+          "bytes": 1238,
+          "encoded": 938,
+          "duration": 50
+        },
+        {
+          "path": "/room/daylight.js",
+          "bytes": 1233,
+          "encoded": 933,
+          "duration": 50.30000000074506
+        },
+        {
+          "path": "/room/window-fragment.js",
+          "bytes": 1171,
+          "encoded": 871,
+          "duration": 52.70000000298023
+        },
+        {
+          "path": "/room/streaming.js",
+          "bytes": 1936,
+          "encoded": 1636,
+          "duration": 107.80000000074506
+        },
+        {
+          "path": "/room/furniture.js",
+          "bytes": 1381,
+          "encoded": 1081,
+          "duration": 107.60000000149012
+        },
+        {
+          "path": "/room/vendor/addons/csm/CSM.js",
+          "bytes": 4072,
+          "encoded": 3772,
+          "duration": 58.80000000074506
+        },
+        {
+          "path": "/room/stream-manifest.js",
+          "bytes": 1145,
+          "encoded": 845,
+          "duration": 61.399999998509884
+        },
+        {
+          "path": "/room/compressed-models.js",
+          "bytes": 1311,
+          "encoded": 1011,
+          "duration": 61.70000000298023
+        },
+        {
+          "path": "/room/vendor/addons/csm/CSMFrustum.js",
+          "bytes": 1930,
+          "encoded": 1630,
+          "duration": 60.19999999925494
+        },
+        {
+          "path": "/room/vendor/addons/csm/CSMShader.js",
+          "bytes": 2680,
+          "encoded": 2380,
+          "duration": 59.900000002235174
+        },
+        {
+          "path": "/room/assets/entry/plaster.webp",
+          "bytes": 3036,
+          "encoded": 2736,
+          "duration": 68.70000000298023
+        },
+        {
+          "path": "/room/assets/entry/oak.webp",
+          "bytes": 40488,
+          "encoded": 40188,
+          "duration": 130.39999999850988
+        },
+        {
+          "path": "/room/assets/entry/floor.webp",
+          "bytes": 48646,
+          "encoded": 48346,
+          "duration": 145.5
+        },
+        {
+          "path": "/room/vendor/addons/environments/RoomEnvironment.js",
+          "bytes": 1981,
+          "encoded": 1681,
+          "duration": 87.79999999701977
+        },
+        {
+          "path": "/room/expo.js",
+          "bytes": 5141,
+          "encoded": 4841,
+          "duration": 97.19999999925494
+        },
+        {
+          "path": "/room/assets/white_plaster_02/painted.webp",
+          "bytes": 49260,
+          "encoded": 48960,
+          "duration": 236.29999999701977
+        },
+        {
+          "path": "/room/assets/white_plaster_02/nor_gl.webp",
+          "bytes": 304550,
+          "encoded": 304250,
+          "duration": 1422.800000000745
+        },
+        {
+          "path": "/room/assets/white_plaster_02/rough.webp",
+          "bytes": 187988,
+          "encoded": 187688,
+          "duration": 904
+        },
+        {
+          "path": "/room/assets/laminate_floor_02/diff.webp",
+          "bytes": 991142,
+          "encoded": 990842,
+          "duration": 4563
+        },
+        {
+          "path": "/room/assets/laminate_floor_02/nor_gl.webp",
+          "bytes": 192174,
+          "encoded": 191874,
+          "duration": 830
+        },
+        {
+          "path": "/room/assets/laminate_floor_02/rough.webp",
+          "bytes": 177904,
+          "encoded": 177604,
+          "duration": 912
+        },
+        {
+          "path": "/room/assets/helio.webp",
+          "bytes": 257878,
+          "encoded": 257578,
+          "duration": 4452.39999999851
+        },
+        {
+          "path": "/room/assets/keyform.webp",
+          "bytes": 35504,
+          "encoded": 35204,
+          "duration": 3454
+        },
+        {
+          "path": "/room/assets/poslesvet.webp",
+          "bytes": 41704,
+          "encoded": 41404,
+          "duration": 3691
+        },
+        {
+          "path": "/room/assets/window/indirect.webp",
+          "bytes": 499552,
+          "encoded": 499252,
+          "duration": 5362.599999997765
+        },
+        {
+          "path": "/files/education/diploma-preview.webp",
+          "bytes": 64118,
+          "encoded": 63818,
+          "duration": 4275.60000000149
+        },
+        {
+          "path": "/room/assets/corridor/indirect.webp",
+          "bytes": 485076,
+          "encoded": 484776,
+          "duration": 5370.60000000149
+        },
+        {
+          "path": "/files/education/iqadam-2025-preview.webp",
+          "bytes": 37232,
+          "encoded": 36932,
+          "duration": 4487.800000000745
+        },
+        {
+          "path": "/room/assets/urban_facade/sky.webp",
+          "bytes": 146402,
+          "encoded": 146102,
+          "duration": 4860.60000000149
+        },
+        {
+          "path": "/room/assets/exterior/tree-atlas.webp",
+          "bytes": 1211556,
+          "encoded": 1211256,
+          "duration": 6095.39999999851
+        },
+        {
+          "path": "/room/vendor/addons/utils/SkeletonUtils.js",
+          "bytes": 3501,
+          "encoded": 3201,
+          "duration": 281.9000000022352
+        },
+        {
+          "path": "/room/weather.js",
+          "bytes": 2569,
+          "encoded": 2269,
+          "duration": 315.19999999925494
+        },
+        {
+          "path": "/room/vegetation.js",
+          "bytes": 1666,
+          "encoded": 1366,
+          "duration": 377.20000000298023
+        },
+        {
+          "path": "/room/exterior-surfaces.js",
+          "bytes": 2187,
+          "encoded": 1887,
+          "duration": 439.30000000074506
+        },
+        {
+          "path": "/room/audio-worker.js",
+          "bytes": 538,
+          "encoded": 238,
+          "duration": -107.80000000074506
+        },
+        {
+          "path": "/room/audio-score.js",
+          "bytes": 2006,
+          "encoded": 1706,
+          "duration": 241.79999999701977
+        },
+        {
+          "path": "/room/assets/room-accents/ceiling-panel.glb.gz",
+          "bytes": 14283,
+          "encoded": 13983,
+          "duration": 370.29999999701977
+        },
+        {
+          "path": "/room/assets/potted_plant_02/selected.gltf",
+          "bytes": 1300,
+          "encoded": 1000,
+          "duration": 416.5999999977648
+        },
+        {
+          "path": "/room/assets/studio-furniture/workbench.glb.gz",
+          "bytes": 166444,
+          "encoded": 166144,
+          "duration": 1209.5999999977648
+        },
+        {
+          "path": "/room/assets/studio-furniture/chair.glb.gz",
+          "bytes": 124072,
+          "encoded": 123772,
+          "duration": 1145.9000000022352
+        },
+        {
+          "path": "/room/assets/corridor/profiles.glb.gz",
+          "bytes": 191651,
+          "encoded": 191351,
+          "duration": 1526.699999999255
+        },
+        {
+          "path": "/room/assets/exterior/skyline.glb.gz",
+          "bytes": 13907,
+          "encoded": 13607,
+          "duration": 723.3000000007451
+        },
+        {
+          "path": "/room/assets/studio-furniture/cabinet.glb.gz",
+          "bytes": 157821,
+          "encoded": 157521,
+          "duration": 1502.0999999977648
+        },
+        {
+          "path": "/room/assets/studio-furniture/lamp.glb.gz",
+          "bytes": 125140,
+          "encoded": 124840,
+          "duration": 1721.300000000745
+        },
+        {
+          "path": "/room/assets/room-accents/robot.glb.gz",
+          "bytes": 54095,
+          "encoded": 53795,
+          "duration": 1438.300000000745
+        },
+        {
+          "path": "/room/assets/exterior/tree-trunk.glb.gz",
+          "bytes": 216472,
+          "encoded": 216172,
+          "duration": 2206.699999999255
+        },
+        {
+          "path": "/room/assets/window/window.glb.gz",
+          "bytes": 98684,
+          "encoded": 98384,
+          "duration": 1937.800000000745
+        },
+        {
+          "path": "/room/assets/studio-furniture/drawer.glb.gz",
+          "bytes": 91910,
+          "encoded": 91610,
+          "duration": 1977.5999999977648
+        },
+        {
+          "path": "/room/assets/studio-furniture/side-table.glb.gz",
+          "bytes": 91604,
+          "encoded": 91304,
+          "duration": 1989.8999999985099
+        },
+        {
+          "path": "/room/assets/studio-furniture/door.glb.gz",
+          "bytes": 86454,
+          "encoded": 86154,
+          "duration": 2155.099999997765
+        },
+        {
+          "path": "/room/assets/room-accents/orbit.glb.gz",
+          "bytes": 41336,
+          "encoded": 41036,
+          "duration": 2160
+        },
+        {
+          "path": "/room/assets/potted_plant_02/selected.bin",
+          "bytes": 421572,
+          "encoded": 421272,
+          "duration": 3472.900000002235
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_diff_1k.webp",
+          "bytes": 134728,
+          "encoded": 134428,
+          "duration": 2163.5
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "bytes": 134696,
+          "encoded": 134396,
+          "duration": 2349.10000000149
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "bytes": 153786,
+          "encoded": 153486,
+          "duration": 2427.10000000149
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "bytes": 147106,
+          "encoded": 146806,
+          "duration": 2443.099999997765
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "bytes": 131624,
+          "encoded": 131324,
+          "duration": 2814.699999999255
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "bytes": 161898,
+          "encoded": 161598,
+          "duration": 3124.89999999851
+        }
+      ],
+      "navigation": [
+        {
+          "bytes": 2624,
+          "load": 170.40000000223517,
+          "dom": 149
+        }
+      ],
+      "bytes": 7870079,
+      "requests": 78,
+      "documentEager": [],
+      "views": {
+        "desk": {
+          "gapMs": {
+            "n": 486,
+            "median": 7,
+            "p95": 13.900000000001455,
+            "max": 20.900000000001455
+          },
+          "cpuMs": {
+            "n": 89,
+            "median": 16.699999999254942,
+            "p95": 19.400000002235174,
+            "max": 20.5
+          },
+          "renders": 89,
+          "drawCalls": 879,
+          "triangles": 1141371,
+          "textures": 86,
+          "buffer": [
+            1440,
+            900
+          ],
+          "camera": [
+            0.649999999998987,
+            1.599999999999595,
+            1.499999999998582
+          ]
+        },
+        "window": {
+          "gapMs": {
+            "n": 576,
+            "median": 6.900000000001455,
+            "p95": 7.100000000002183,
+            "max": 7.799999999999272
+          },
+          "cpuMs": {
+            "n": 88,
+            "median": 7.5,
+            "p95": 9.300000000745058,
+            "max": 10.599999997764826
+          },
+          "renders": 88,
+          "drawCalls": 859,
+          "triangles": 1122012,
+          "textures": 86,
+          "buffer": [
+            1440,
+            900
+          ],
+          "camera": [
+            -0.17999989635866268,
+            1.5999999999999988,
+            0.8000000874083567
+          ]
+        }
+      }
+    },
+    {
+      "round": 0,
+      "mobile": true,
+      "route": "ordinary",
+      "errors": [],
+      "failures": [],
+      "lcp": 468,
+      "longTasks": [],
+      "resources": [
+        {
+          "path": "/assets/preferences-38aKeYz_.js",
+          "bytes": 34064,
+          "encoded": 33764,
+          "duration": 192.09999999776483
+        },
+        {
+          "path": "/assets/main-CaBIUae1.js",
+          "bytes": 4558,
+          "encoded": 4258,
+          "duration": 82.89999999850988
+        },
+        {
+          "path": "/assets/main-DAKF_UFa.css",
+          "bytes": 14408,
+          "encoded": 14108,
+          "duration": 114.19999999925494
+        },
+        {
+          "path": "/projects/media/helio-hero-800.webp",
+          "bytes": 86912,
+          "encoded": 86612,
+          "duration": 363.19999999925494
+        },
+        {
+          "path": "/projects/media/helio-card-800.webp",
+          "bytes": 86912,
+          "encoded": 86612,
+          "duration": 363.3999999985099
+        },
+        {
+          "path": "/projects/media/keyform-card-800.webp",
+          "bytes": 35504,
+          "encoded": 35204,
+          "duration": 206.40000000223517
+        },
+        {
+          "path": "/projects/media/poslesvet-card-800.webp",
+          "bytes": 41704,
+          "encoded": 41404,
+          "duration": 314.1000000014901
+        },
+        {
+          "path": "/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+          "bytes": 34060,
+          "encoded": 33760,
+          "duration": 209.70000000298023
+        },
+        {
+          "path": "/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+          "bytes": 18468,
+          "encoded": 18168,
+          "duration": 203.79999999701977
+        },
+        {
+          "path": "/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+          "bytes": 16160,
+          "encoded": 15860,
+          "duration": 194.69999999925494
+        },
+        {
+          "path": "/projects/media/framepack-card-800.webp",
+          "bytes": 25456,
+          "encoded": 25156,
+          "duration": 173.69999999925494
+        },
+        {
+          "path": "/assets/scene-controls-B-65-GTU.js",
+          "bytes": 1392,
+          "encoded": 1092,
+          "duration": 139.69999999925494
+        },
+        {
+          "path": "/favicon.svg",
+          "bytes": 577,
+          "encoded": 277,
+          "duration": 65.19999999925494
+        }
+      ],
+      "navigation": [
+        {
+          "bytes": 10403,
+          "load": 450.70000000298023,
+          "dom": 317.20000000298023
+        }
+      ],
+      "bytes": 410578,
+      "requests": 14,
+      "documentEager": []
+    },
+    {
+      "round": 0,
+      "mobile": true,
+      "route": "room",
+      "errors": [],
+      "failures": [
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/ceiling-panel.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/cabinet.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/tree-trunk.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/skyline.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/orbit.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/drawer.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/robot.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/workbench.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/corridor/profiles.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        }
+      ],
+      "lcp": 196,
+      "longTasks": [
+        219,
+        299,
+        631,
+        77,
+        58,
+        152
+      ],
+      "readyMs": 8994.79999999702,
+      "firstFrameMs": 1612.3999999985099,
+      "resources": [
+        {
+          "path": "/room/style.css",
+          "bytes": 6984,
+          "encoded": 6684,
+          "duration": 83
+        },
+        {
+          "path": "/room/main.js",
+          "bytes": 9446,
+          "encoded": 9146,
+          "duration": 83
+        },
+        {
+          "path": "/room/vendor/addons/loaders/GLTFLoader.js",
+          "bytes": 26297,
+          "encoded": 25997,
+          "duration": 98.30000000074506
+        },
+        {
+          "path": "/room/boot.js",
+          "bytes": 3205,
+          "encoded": 2905,
+          "duration": 67.40000000223517
+        },
+        {
+          "path": "/room/ui.js",
+          "bytes": 7151,
+          "encoded": 6851,
+          "duration": 59.69999999925494
+        },
+        {
+          "path": "/room/collection-viewer.js",
+          "bytes": 4578,
+          "encoded": 4278,
+          "duration": 62.400000002235174
+        },
+        {
+          "path": "/room/profile-data.js",
+          "bytes": 2493,
+          "encoded": 2193,
+          "duration": 62
+        },
+        {
+          "path": "/room/projects-data.js",
+          "bytes": 5273,
+          "encoded": 4973,
+          "duration": 62.099999997764826
+        },
+        {
+          "path": "/room/vendor/three.module.js",
+          "bytes": 89355,
+          "encoded": 89055,
+          "duration": 154.19999999925494
+        },
+        {
+          "path": "/room/cube-state.js",
+          "bytes": 1215,
+          "encoded": 915,
+          "duration": 60.600000001490116
+        },
+        {
+          "path": "/room/collection-models.js",
+          "bytes": 1897,
+          "encoded": 1597,
+          "duration": 60.69999999925494
+        },
+        {
+          "path": "/room/vendor/addons/geometries/RoundedBoxGeometry.js",
+          "bytes": 2264,
+          "encoded": 1964,
+          "duration": 60.600000001490116
+        },
+        {
+          "path": "/room/vendor/addons/utils/BufferGeometryUtils.js",
+          "bytes": 9002,
+          "encoded": 8702,
+          "duration": 75.89999999850988
+        },
+        {
+          "path": "/room/vendor/three.core.js",
+          "bytes": 103523,
+          "encoded": 103223,
+          "duration": 137.60000000149012
+        },
+        {
+          "path": "/room/audio.js",
+          "bytes": 3402,
+          "encoded": 3102,
+          "duration": 66.5
+        },
+        {
+          "path": "/room/world.js",
+          "bytes": 14789,
+          "encoded": 14489,
+          "duration": 71
+        },
+        {
+          "path": "/room/audio-score.js",
+          "bytes": 2006,
+          "encoded": 1706,
+          "duration": 59.5
+        },
+        {
+          "path": "/room/room-accents.js",
+          "bytes": 478,
+          "encoded": 178,
+          "duration": 57.69999999925494
+        },
+        {
+          "path": "/room/architecture-materials.js",
+          "bytes": 1238,
+          "encoded": 938,
+          "duration": 59.30000000074506
+        },
+        {
+          "path": "/room/cabinet-scene.js",
+          "bytes": 1618,
+          "encoded": 1318,
+          "duration": 71.60000000149012
+        },
+        {
+          "path": "/room/window-fragment.js",
+          "bytes": 1171,
+          "encoded": 871,
+          "duration": 71.80000000074506
+        },
+        {
+          "path": "/room/daylight.js",
+          "bytes": 1233,
+          "encoded": 933,
+          "duration": 71.89999999850988
+        },
+        {
+          "path": "/room/streaming.js",
+          "bytes": 1936,
+          "encoded": 1636,
+          "duration": 118.10000000149012
+        },
+        {
+          "path": "/room/furniture.js",
+          "bytes": 1381,
+          "encoded": 1081,
+          "duration": 118
+        },
+        {
+          "path": "/room/vendor/addons/csm/CSM.js",
+          "bytes": 4072,
+          "encoded": 3772,
+          "duration": 49.29999999701977
+        },
+        {
+          "path": "/room/stream-manifest.js",
+          "bytes": 1145,
+          "encoded": 845,
+          "duration": 62.30000000074506
+        },
+        {
+          "path": "/room/compressed-models.js",
+          "bytes": 1311,
+          "encoded": 1011,
+          "duration": 62.30000000074506
+        },
+        {
+          "path": "/room/vendor/addons/csm/CSMFrustum.js",
+          "bytes": 1930,
+          "encoded": 1630,
+          "duration": 58.5
+        },
+        {
+          "path": "/room/vendor/addons/csm/CSMShader.js",
+          "bytes": 2680,
+          "encoded": 2380,
+          "duration": 58.599999997764826
+        },
+        {
+          "path": "/room/assets/entry/plaster.webp",
+          "bytes": 3036,
+          "encoded": 2736,
+          "duration": 69.90000000223517
+        },
+        {
+          "path": "/room/assets/entry/oak.webp",
+          "bytes": 40488,
+          "encoded": 40188,
+          "duration": 131.19999999925494
+        },
+        {
+          "path": "/room/assets/entry/floor.webp",
+          "bytes": 48646,
+          "encoded": 48346,
+          "duration": 146.59999999776483
+        },
+        {
+          "path": "/room/vendor/addons/environments/RoomEnvironment.js",
+          "bytes": 1981,
+          "encoded": 1681,
+          "duration": 62.30000000074506
+        },
+        {
+          "path": "/room/expo.js",
+          "bytes": 5141,
+          "encoded": 4841,
+          "duration": 62.100000001490116
+        },
+        {
+          "path": "/room/assets/white_plaster_02/painted.webp",
+          "bytes": 49260,
+          "encoded": 48960,
+          "duration": 218.29999999701977
+        },
+        {
+          "path": "/room/assets/white_plaster_02/rough.webp",
+          "bytes": 187988,
+          "encoded": 187688,
+          "duration": 873.3999999985099
+        },
+        {
+          "path": "/room/assets/white_plaster_02/nor_gl.webp",
+          "bytes": 304550,
+          "encoded": 304250,
+          "duration": 1402.199999999255
+        },
+        {
+          "path": "/room/assets/laminate_floor_02/diff.webp",
+          "bytes": 991142,
+          "encoded": 990842,
+          "duration": 4497.199999999255
+        },
+        {
+          "path": "/room/assets/laminate_floor_02/nor_gl.webp",
+          "bytes": 192174,
+          "encoded": 191874,
+          "duration": 948
+        },
+        {
+          "path": "/room/assets/laminate_floor_02/rough.webp",
+          "bytes": 177904,
+          "encoded": 177604,
+          "duration": 1155
+        },
+        {
+          "path": "/room/assets/helio.webp",
+          "bytes": 257878,
+          "encoded": 257578,
+          "duration": 1525.6000000014901
+        },
+        {
+          "path": "/room/assets/keyform.webp",
+          "bytes": 35504,
+          "encoded": 35204,
+          "duration": 3870.39999999851
+        },
+        {
+          "path": "/room/assets/poslesvet.webp",
+          "bytes": 41704,
+          "encoded": 41404,
+          "duration": 3970.10000000149
+        },
+        {
+          "path": "/room/assets/window/indirect.webp",
+          "bytes": 499552,
+          "encoded": 499252,
+          "duration": 5397.79999999702
+        },
+        {
+          "path": "/room/assets/corridor/indirect.webp",
+          "bytes": 485076,
+          "encoded": 484776,
+          "duration": 5413.39999999851
+        },
+        {
+          "path": "/files/education/diploma-preview.webp",
+          "bytes": 64118,
+          "encoded": 63818,
+          "duration": 4304.60000000149
+        },
+        {
+          "path": "/files/education/iqadam-2025-preview.webp",
+          "bytes": 37232,
+          "encoded": 36932,
+          "duration": 4335.10000000149
+        },
+        {
+          "path": "/room/assets/urban_facade/sky.webp",
+          "bytes": 146402,
+          "encoded": 146102,
+          "duration": 4759.60000000149
+        },
+        {
+          "path": "/room/assets/exterior/tree-atlas.webp",
+          "bytes": 1211556,
+          "encoded": 1211256,
+          "duration": 6096.599999997765
+        },
+        {
+          "path": "/room/vendor/addons/utils/SkeletonUtils.js",
+          "bytes": 3501,
+          "encoded": 3201,
+          "duration": 88.5
+        },
+        {
+          "path": "/room/weather.js",
+          "bytes": 2569,
+          "encoded": 2269,
+          "duration": 76.5
+        },
+        {
+          "path": "/room/vegetation.js",
+          "bytes": 1666,
+          "encoded": 1366,
+          "duration": 138
+        },
+        {
+          "path": "/room/exterior-surfaces.js",
+          "bytes": 2187,
+          "encoded": 1887,
+          "duration": 200.5
+        },
+        {
+          "path": "/room/audio-worker.js",
+          "bytes": 538,
+          "encoded": 238,
+          "duration": -49.19999999925494
+        },
+        {
+          "path": "/room/audio-score.js",
+          "bytes": 2006,
+          "encoded": 1706,
+          "duration": 196.69999999925494
+        },
+        {
+          "path": "/room/assets/exterior/tree-trunk.glb.gz",
+          "bytes": 216472,
+          "encoded": 216172,
+          "duration": 1494.199999999255
+        },
+        {
+          "path": "/room/assets/room-accents/ceiling-panel.glb.gz",
+          "bytes": 14283,
+          "encoded": 13983,
+          "duration": 669
+        },
+        {
+          "path": "/room/assets/studio-furniture/cabinet.glb.gz",
+          "bytes": 157821,
+          "encoded": 157521,
+          "duration": 1449.1000000014901
+        },
+        {
+          "path": "/room/assets/studio-furniture/lamp.glb.gz",
+          "bytes": 125140,
+          "encoded": 124840,
+          "duration": 1372.7999999970198
+        },
+        {
+          "path": "/room/assets/potted_plant_02/selected.gltf",
+          "bytes": 1300,
+          "encoded": 1000,
+          "duration": 1046.2000000029802
+        },
+        {
+          "path": "/room/assets/window/window.glb.gz",
+          "bytes": 98684,
+          "encoded": 98384,
+          "duration": 1534.4000000022352
+        },
+        {
+          "path": "/room/assets/studio-furniture/chair.glb.gz",
+          "bytes": 124072,
+          "encoded": 123772,
+          "duration": 1730.699999999255
+        },
+        {
+          "path": "/room/assets/studio-furniture/drawer.glb.gz",
+          "bytes": 91910,
+          "encoded": 91610,
+          "duration": 1808.5
+        },
+        {
+          "path": "/room/assets/exterior/skyline.glb.gz",
+          "bytes": 13907,
+          "encoded": 13607,
+          "duration": 1552.300000000745
+        },
+        {
+          "path": "/room/assets/room-accents/orbit.glb.gz",
+          "bytes": 41336,
+          "encoded": 41036,
+          "duration": 1714.699999999255
+        },
+        {
+          "path": "/room/assets/room-accents/robot.glb.gz",
+          "bytes": 54095,
+          "encoded": 53795,
+          "duration": 1808.0999999977648
+        },
+        {
+          "path": "/room/assets/studio-furniture/side-table.glb.gz",
+          "bytes": 91604,
+          "encoded": 91304,
+          "duration": 2002.5
+        },
+        {
+          "path": "/room/assets/studio-furniture/workbench.glb.gz",
+          "bytes": 166444,
+          "encoded": 166144,
+          "duration": 2508.400000002235
+        },
+        {
+          "path": "/room/assets/corridor/profiles.glb.gz",
+          "bytes": 191651,
+          "encoded": 191351,
+          "duration": 2648.199999999255
+        },
+        {
+          "path": "/room/assets/studio-furniture/door.glb.gz",
+          "bytes": 86454,
+          "encoded": 86154,
+          "duration": 2265.10000000149
+        },
+        {
+          "path": "/room/assets/potted_plant_02/selected.bin",
+          "bytes": 421572,
+          "encoded": 421272,
+          "duration": 2722.2000000029802
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_diff_1k.webp",
+          "bytes": 134728,
+          "encoded": 134428,
+          "duration": 1620
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "bytes": 134696,
+          "encoded": 134396,
+          "duration": 1882.4000000022352
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "bytes": 153786,
+          "encoded": 153486,
+          "duration": 2207.89999999851
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "bytes": 147106,
+          "encoded": 146806,
+          "duration": 2321.5
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "bytes": 131624,
+          "encoded": 131324,
+          "duration": 2283.10000000149
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "bytes": 161898,
+          "encoded": 161598,
+          "duration": 2659.800000000745
+        }
+      ],
+      "navigation": [
+        {
+          "bytes": 2624,
+          "load": 184.5,
+          "dom": 159.39999999850988
+        }
+      ],
+      "bytes": 7870079,
+      "requests": 78,
+      "documentEager": [],
+      "views": {
+        "desk": {
+          "gapMs": {
+            "n": 575,
+            "median": 6.900000000001455,
+            "p95": 7.100000000000364,
+            "max": 7.5
+          },
+          "cpuMs": {
+            "n": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "renders": 0,
+          "drawCalls": 801,
+          "triangles": 1056493,
+          "textures": 86,
+          "buffer": [
+            682,
+            1477
+          ],
+          "camera": [
+            0.5600000323214912,
+            1.4800000430953324,
+            1.250000089781936
+          ]
+        },
+        "window": {
+          "gapMs": {
+            "n": 574,
+            "median": 6.900000000001455,
+            "p95": 7.099999999998545,
+            "max": 20.80000000000291
+          },
+          "cpuMs": {
+            "n": 89,
+            "median": 10.5,
+            "p95": 12,
+            "max": 12.899999998509884
+          },
+          "renders": 89,
+          "drawCalls": 855,
+          "triangles": 1106898,
+          "textures": 86,
+          "buffer": [
+            682,
+            1477
+          ],
+          "camera": [
+            -0.17999999292080077,
+            1.5999999988520224,
+            0.800000004304919
+          ]
+        }
+      }
+    },
+    {
+      "round": 1,
+      "mobile": false,
+      "route": "ordinary",
+      "errors": [],
+      "failures": [],
+      "lcp": 516,
+      "longTasks": [],
+      "resources": [
+        {
+          "path": "/assets/preferences-38aKeYz_.js",
+          "bytes": 34064,
+          "encoded": 33764,
+          "duration": 198.20000000298023
+        },
+        {
+          "path": "/assets/main-CaBIUae1.js",
+          "bytes": 4558,
+          "encoded": 4258,
+          "duration": 73.5
+        },
+        {
+          "path": "/assets/main-DAKF_UFa.css",
+          "bytes": 14408,
+          "encoded": 14108,
+          "duration": 119.29999999701977
+        },
+        {
+          "path": "/projects/media/helio-hero-800.webp",
+          "bytes": 86912,
+          "encoded": 86612,
+          "duration": 383.80000000074506
+        },
+        {
+          "path": "/projects/media/keyform-card-800.webp",
+          "bytes": 35504,
+          "encoded": 35204,
+          "duration": 213.19999999925494
+        },
+        {
+          "path": "/projects/media/poslesvet-card-800.webp",
+          "bytes": 41704,
+          "encoded": 41404,
+          "duration": 290
+        },
+        {
+          "path": "/projects/media/helio-card-800.webp",
+          "bytes": 86912,
+          "encoded": 86612,
+          "duration": 383.80000000074506
+        },
+        {
+          "path": "/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+          "bytes": 34060,
+          "encoded": 33760,
+          "duration": 193.5
+        },
+        {
+          "path": "/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+          "bytes": 18468,
+          "encoded": 18168,
+          "duration": 187.90000000223517
+        },
+        {
+          "path": "/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+          "bytes": 16160,
+          "encoded": 15860,
+          "duration": 192.30000000074506
+        },
+        {
+          "path": "/projects/media/framepack-card-800.webp",
+          "bytes": 25456,
+          "encoded": 25156,
+          "duration": 172
+        },
+        {
+          "path": "/assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2",
+          "bytes": 10840,
+          "encoded": 10540,
+          "duration": 118.30000000074506
+        },
+        {
+          "path": "/assets/scene-controls-B-65-GTU.js",
+          "bytes": 1392,
+          "encoded": 1092,
+          "duration": 126.10000000149012
+        },
+        {
+          "path": "/favicon.svg",
+          "bytes": 577,
+          "encoded": 277,
+          "duration": 72.89999999850988
+        }
+      ],
+      "navigation": [
+        {
+          "bytes": 10403,
+          "load": 492.20000000298023,
+          "dom": 338.6000000014901
+        }
+      ],
+      "bytes": 421418,
+      "requests": 15,
+      "documentEager": []
+    },
+    {
+      "round": 1,
+      "mobile": false,
+      "route": "room",
+      "errors": [],
+      "failures": [
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/skyline.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/ceiling-panel.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/lamp.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/drawer.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/robot.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/door.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/window/window.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/orbit.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/cabinet.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/workbench.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/tree-trunk.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        }
+      ],
+      "lcp": 208,
+      "longTasks": [
+        246,
+        323,
+        660,
+        89,
+        50,
+        69,
+        336
+      ],
+      "readyMs": 9364,
+      "firstFrameMs": 1651.199999999255,
+      "resources": [
+        {
+          "path": "/room/style.css",
+          "bytes": 6984,
+          "encoded": 6684,
+          "duration": 81.80000000074506
+        },
+        {
+          "path": "/room/main.js",
+          "bytes": 9446,
+          "encoded": 9146,
+          "duration": 81.80000000074506
+        },
+        {
+          "path": "/room/vendor/addons/loaders/GLTFLoader.js",
+          "bytes": 26297,
+          "encoded": 25997,
+          "duration": 97.09999999776483
+        },
+        {
+          "path": "/room/boot.js",
+          "bytes": 3205,
+          "encoded": 2905,
+          "duration": 66.30000000074506
+        },
+        {
+          "path": "/room/ui.js",
+          "bytes": 7151,
+          "encoded": 6851,
+          "duration": 59.19999999925494
+        },
+        {
+          "path": "/room/collection-viewer.js",
+          "bytes": 4578,
+          "encoded": 4278,
+          "duration": 61.400000002235174
+        },
+        {
+          "path": "/room/profile-data.js",
+          "bytes": 2493,
+          "encoded": 2193,
+          "duration": 61.099999997764826
+        },
+        {
+          "path": "/room/projects-data.js",
+          "bytes": 5273,
+          "encoded": 4973,
+          "duration": 61.399999998509884
+        },
+        {
+          "path": "/room/vendor/three.module.js",
+          "bytes": 89355,
+          "encoded": 89055,
+          "duration": 153.89999999850988
+        },
+        {
+          "path": "/room/cube-state.js",
+          "bytes": 1215,
+          "encoded": 915,
+          "duration": 59.69999999925494
+        },
+        {
+          "path": "/room/collection-models.js",
+          "bytes": 1897,
+          "encoded": 1597,
+          "duration": 60.099999997764826
+        },
+        {
+          "path": "/room/vendor/addons/geometries/RoundedBoxGeometry.js",
+          "bytes": 2264,
+          "encoded": 1964,
+          "duration": 59.600000001490116
+        },
+        {
+          "path": "/room/vendor/addons/utils/BufferGeometryUtils.js",
+          "bytes": 9002,
+          "encoded": 8702,
+          "duration": 75.60000000149012
+        },
+        {
+          "path": "/room/vendor/three.core.js",
+          "bytes": 103523,
+          "encoded": 103223,
+          "duration": 138.40000000223517
+        },
+        {
+          "path": "/room/world.js",
+          "bytes": 14789,
+          "encoded": 14489,
+          "duration": 73.39999999850988
+        },
+        {
+          "path": "/room/audio.js",
+          "bytes": 3402,
+          "encoded": 3102,
+          "duration": 70.10000000149012
+        },
+        {
+          "path": "/room/audio-score.js",
+          "bytes": 2006,
+          "encoded": 1706,
+          "duration": 59.5
+        },
+        {
+          "path": "/room/room-accents.js",
+          "bytes": 478,
+          "encoded": 178,
+          "duration": 56.600000001490116
+        },
+        {
+          "path": "/room/architecture-materials.js",
+          "bytes": 1238,
+          "encoded": 938,
+          "duration": 58.599999997764826
+        },
+        {
+          "path": "/room/daylight.js",
+          "bytes": 1233,
+          "encoded": 933,
+          "duration": 60.5
+        },
+        {
+          "path": "/room/cabinet-scene.js",
+          "bytes": 1618,
+          "encoded": 1318,
+          "duration": 63
+        },
+        {
+          "path": "/room/window-fragment.js",
+          "bytes": 1171,
+          "encoded": 871,
+          "duration": 60.900000002235174
+        },
+        {
+          "path": "/room/streaming.js",
+          "bytes": 1936,
+          "encoded": 1636,
+          "duration": 119.60000000149012
+        },
+        {
+          "path": "/room/furniture.js",
+          "bytes": 1381,
+          "encoded": 1081,
+          "duration": 119.30000000074506
+        },
+        {
+          "path": "/room/vendor/addons/csm/CSM.js",
+          "bytes": 4072,
+          "encoded": 3772,
+          "duration": 57.899999998509884
+        },
+        {
+          "path": "/room/compressed-models.js",
+          "bytes": 1311,
+          "encoded": 1011,
+          "duration": 60.599999997764826
+        },
+        {
+          "path": "/room/stream-manifest.js",
+          "bytes": 1145,
+          "encoded": 845,
+          "duration": 60.69999999925494
+        },
+        {
+          "path": "/room/vendor/addons/csm/CSMFrustum.js",
+          "bytes": 1930,
+          "encoded": 1630,
+          "duration": 60.600000001490116
+        },
+        {
+          "path": "/room/vendor/addons/csm/CSMShader.js",
+          "bytes": 2680,
+          "encoded": 2380,
+          "duration": 60.599999997764826
+        },
+        {
+          "path": "/room/assets/entry/plaster.webp",
+          "bytes": 3036,
+          "encoded": 2736,
+          "duration": 60
+        },
+        {
+          "path": "/room/assets/entry/floor.webp",
+          "bytes": 48646,
+          "encoded": 48346,
+          "duration": 137.80000000074506
+        },
+        {
+          "path": "/room/assets/entry/oak.webp",
+          "bytes": 40488,
+          "encoded": 40188,
+          "duration": 122.60000000149012
+        },
+        {
+          "path": "/room/vendor/addons/environments/RoomEnvironment.js",
+          "bytes": 1981,
+          "encoded": 1681,
+          "duration": 44.099999997764826
+        },
+        {
+          "path": "/room/expo.js",
+          "bytes": 5141,
+          "encoded": 4841,
+          "duration": 47.30000000074506
+        },
+        {
+          "path": "/room/assets/white_plaster_02/painted.webp",
+          "bytes": 49260,
+          "encoded": 48960,
+          "duration": 272.3999999985099
+        },
+        {
+          "path": "/room/assets/white_plaster_02/rough.webp",
+          "bytes": 187988,
+          "encoded": 187688,
+          "duration": 942
+        },
+        {
+          "path": "/room/assets/white_plaster_02/nor_gl.webp",
+          "bytes": 304550,
+          "encoded": 304250,
+          "duration": 1425.7000000029802
+        },
+        {
+          "path": "/room/assets/laminate_floor_02/nor_gl.webp",
+          "bytes": 192174,
+          "encoded": 191874,
+          "duration": 972.5
+        },
+        {
+          "path": "/room/assets/laminate_floor_02/diff.webp",
+          "bytes": 991142,
+          "encoded": 990842,
+          "duration": 4469.89999999851
+        },
+        {
+          "path": "/room/assets/laminate_floor_02/rough.webp",
+          "bytes": 177904,
+          "encoded": 177604,
+          "duration": 1022.8999999985099
+        },
+        {
+          "path": "/room/assets/helio.webp",
+          "bytes": 257878,
+          "encoded": 257578,
+          "duration": 1487.3999999985099
+        },
+        {
+          "path": "/room/assets/keyform.webp",
+          "bytes": 35504,
+          "encoded": 35204,
+          "duration": 2729
+        },
+        {
+          "path": "/room/assets/poslesvet.webp",
+          "bytes": 41704,
+          "encoded": 41404,
+          "duration": 3750.199999999255
+        },
+        {
+          "path": "/room/assets/window/indirect.webp",
+          "bytes": 499552,
+          "encoded": 499252,
+          "duration": 5336
+        },
+        {
+          "path": "/files/education/diploma-preview.webp",
+          "bytes": 64118,
+          "encoded": 63818,
+          "duration": 4371.60000000149
+        },
+        {
+          "path": "/room/assets/corridor/indirect.webp",
+          "bytes": 485076,
+          "encoded": 484776,
+          "duration": 5403.60000000149
+        },
+        {
+          "path": "/files/education/iqadam-2025-preview.webp",
+          "bytes": 37232,
+          "encoded": 36932,
+          "duration": 4399.89999999851
+        },
+        {
+          "path": "/room/assets/urban_facade/sky.webp",
+          "bytes": 146402,
+          "encoded": 146102,
+          "duration": 4929.800000000745
+        },
+        {
+          "path": "/room/assets/exterior/tree-atlas.webp",
+          "bytes": 1211556,
+          "encoded": 1211256,
+          "duration": 6127.400000002235
+        },
+        {
+          "path": "/room/vendor/addons/utils/SkeletonUtils.js",
+          "bytes": 3501,
+          "encoded": 3201,
+          "duration": 75.40000000223517
+        },
+        {
+          "path": "/room/audio-worker.js",
+          "bytes": 538,
+          "encoded": 238,
+          "duration": -68.89999999850988
+        },
+        {
+          "path": "/room/audio-score.js",
+          "bytes": 2006,
+          "encoded": 1706,
+          "duration": 75
+        },
+        {
+          "path": "/room/weather.js",
+          "bytes": 2569,
+          "encoded": 2269,
+          "duration": 607.7000000029802
+        },
+        {
+          "path": "/room/vegetation.js",
+          "bytes": 1666,
+          "encoded": 1366,
+          "duration": 627.3000000007451
+        },
+        {
+          "path": "/room/exterior-surfaces.js",
+          "bytes": 2187,
+          "encoded": 1887,
+          "duration": 670.1999999992549
+        },
+        {
+          "path": "/room/assets/corridor/profiles.glb.gz",
+          "bytes": 191651,
+          "encoded": 191351,
+          "duration": 1513.800000000745
+        },
+        {
+          "path": "/room/assets/studio-furniture/side-table.glb.gz",
+          "bytes": 91604,
+          "encoded": 91304,
+          "duration": 1075.8999999985099
+        },
+        {
+          "path": "/room/assets/exterior/skyline.glb.gz",
+          "bytes": 13907,
+          "encoded": 13607,
+          "duration": 779.9000000022352
+        },
+        {
+          "path": "/room/assets/studio-furniture/lamp.glb.gz",
+          "bytes": 125140,
+          "encoded": 124840,
+          "duration": 1389.5999999977648
+        },
+        {
+          "path": "/room/assets/room-accents/ceiling-panel.glb.gz",
+          "bytes": 14283,
+          "encoded": 13983,
+          "duration": 1201.3999999985099
+        },
+        {
+          "path": "/room/assets/studio-furniture/drawer.glb.gz",
+          "bytes": 91910,
+          "encoded": 91610,
+          "duration": 1463.0999999977648
+        },
+        {
+          "path": "/room/assets/studio-furniture/door.glb.gz",
+          "bytes": 86454,
+          "encoded": 86154,
+          "duration": 1513.5
+        },
+        {
+          "path": "/room/assets/room-accents/robot.glb.gz",
+          "bytes": 54095,
+          "encoded": 53795,
+          "duration": 1497.1000000014901
+        },
+        {
+          "path": "/room/assets/exterior/tree-trunk.glb.gz",
+          "bytes": 216472,
+          "encoded": 216172,
+          "duration": 2356.39999999851
+        },
+        {
+          "path": "/room/assets/studio-furniture/chair.glb.gz",
+          "bytes": 124072,
+          "encoded": 123772,
+          "duration": 2066.60000000149
+        },
+        {
+          "path": "/room/assets/studio-furniture/workbench.glb.gz",
+          "bytes": 166444,
+          "encoded": 166144,
+          "duration": 2308.5
+        },
+        {
+          "path": "/room/assets/studio-furniture/cabinet.glb.gz",
+          "bytes": 157821,
+          "encoded": 157521,
+          "duration": 2292.300000000745
+        },
+        {
+          "path": "/room/assets/window/window.glb.gz",
+          "bytes": 98684,
+          "encoded": 98384,
+          "duration": 2042.6000000014901
+        },
+        {
+          "path": "/room/assets/room-accents/orbit.glb.gz",
+          "bytes": 41336,
+          "encoded": 41036,
+          "duration": 2275.800000000745
+        },
+        {
+          "path": "/room/assets/potted_plant_02/selected.gltf",
+          "bytes": 1300,
+          "encoded": 1000,
+          "duration": 2118.300000000745
+        },
+        {
+          "path": "/room/assets/potted_plant_02/selected.bin",
+          "bytes": 421572,
+          "encoded": 421272,
+          "duration": 2055
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_diff_1k.webp",
+          "bytes": 134728,
+          "encoded": 134428,
+          "duration": 818.0999999977648
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "bytes": 134696,
+          "encoded": 134396,
+          "duration": 849.3999999985099
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "bytes": 153786,
+          "encoded": 153486,
+          "duration": 943
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "bytes": 147106,
+          "encoded": 146806,
+          "duration": 943.9000000022352
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "bytes": 131624,
+          "encoded": 131324,
+          "duration": 1462.0999999977648
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "bytes": 161898,
+          "encoded": 161598,
+          "duration": 1618.5999999977648
+        }
+      ],
+      "navigation": [
+        {
+          "bytes": 2624,
+          "load": 195.5,
+          "dom": 170.69999999925494
+        }
+      ],
+      "bytes": 7870079,
+      "requests": 78,
+      "documentEager": [],
+      "views": {
+        "desk": {
+          "gapMs": {
+            "n": 490,
+            "median": 7,
+            "p95": 13.899999999999636,
+            "max": 14.299999999999272
+          },
+          "cpuMs": {
+            "n": 89,
+            "median": 15.399999998509884,
+            "p95": 17.699999999254942,
+            "max": 18.199999999254942
+          },
+          "renders": 89,
+          "drawCalls": 879,
+          "triangles": 1141371,
+          "textures": 86,
+          "buffer": [
+            1440,
+            900
+          ],
+          "camera": [
+            0.6499999999991761,
+            1.599999999999671,
+            1.4999999999988465
+          ]
+        },
+        "window": {
+          "gapMs": {
+            "n": 577,
+            "median": 6.900000000001455,
+            "p95": 7.100000000002183,
+            "max": 7.899999999997817
+          },
+          "cpuMs": {
+            "n": 90,
+            "median": 7.5,
+            "p95": 8.700000002980232,
+            "max": 9.199999999254942
+          },
+          "renders": 90,
+          "drawCalls": 859,
+          "triangles": 1122012,
+          "textures": 86,
+          "buffer": [
+            1440,
+            900
+          ],
+          "camera": [
+            -0.17999994073989822,
+            1.5999999999999992,
+            0.8000000499783991
+          ]
+        }
+      }
+    },
+    {
+      "round": 1,
+      "mobile": true,
+      "route": "ordinary",
+      "errors": [],
+      "failures": [],
+      "lcp": 484,
+      "longTasks": [],
+      "resources": [
+        {
+          "path": "/assets/preferences-38aKeYz_.js",
+          "bytes": 34064,
+          "encoded": 33764,
+          "duration": 137.5
+        },
+        {
+          "path": "/assets/main-CaBIUae1.js",
+          "bytes": 4558,
+          "encoded": 4258,
+          "duration": 76.40000000223517
+        },
+        {
+          "path": "/assets/main-DAKF_UFa.css",
+          "bytes": 14408,
+          "encoded": 14108,
+          "duration": 121
+        },
+        {
+          "path": "/projects/media/helio-hero-800.webp",
+          "bytes": 86912,
+          "encoded": 86612,
+          "duration": 371.69999999925494
+        },
+        {
+          "path": "/projects/media/helio-card-800.webp",
+          "bytes": 86912,
+          "encoded": 86612,
+          "duration": 371.9000000022352
+        },
+        {
+          "path": "/projects/media/keyform-card-800.webp",
+          "bytes": 35504,
+          "encoded": 35204,
+          "duration": 200.5
+        },
+        {
+          "path": "/projects/media/poslesvet-card-800.webp",
+          "bytes": 41704,
+          "encoded": 41404,
+          "duration": 293.1000000014901
+        },
+        {
+          "path": "/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+          "bytes": 34060,
+          "encoded": 33760,
+          "duration": 179.80000000074506
+        },
+        {
+          "path": "/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+          "bytes": 18468,
+          "encoded": 18168,
+          "duration": 137.5
+        },
+        {
+          "path": "/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+          "bytes": 16160,
+          "encoded": 15860,
+          "duration": 146
+        },
+        {
+          "path": "/projects/media/framepack-card-800.webp",
+          "bytes": 25456,
+          "encoded": 25156,
+          "duration": 94
+        },
+        {
+          "path": "/assets/scene-controls-B-65-GTU.js",
+          "bytes": 1392,
+          "encoded": 1092,
+          "duration": 58.19999999925494
+        },
+        {
+          "path": "/favicon.svg",
+          "bytes": 577,
+          "encoded": 277,
+          "duration": 66.90000000223517
+        }
+      ],
+      "navigation": [
+        {
+          "bytes": 10403,
+          "load": 472,
+          "dom": 397.5999999977648
+        }
+      ],
+      "bytes": 410578,
+      "requests": 14,
+      "documentEager": []
+    },
+    {
+      "round": 1,
+      "mobile": true,
+      "route": "room",
+      "errors": [],
+      "failures": [
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/ceiling-panel.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/drawer.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/robot.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/window/window.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/chair.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/door.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/workbench.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/tree-trunk.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/side-table.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/selected.bin",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        }
+      ],
+      "lcp": 240,
+      "longTasks": [
+        319,
+        361,
+        988,
+        116,
+        79,
+        52,
+        282,
+        74,
+        898
+      ],
+      "readyMs": 11081.199999999255,
+      "firstFrameMs": 1822.4000000022352,
+      "resources": [
+        {
+          "path": "/room/style.css",
+          "bytes": 6984,
+          "encoded": 6684,
+          "duration": 85.80000000074506
+        },
+        {
+          "path": "/room/main.js",
+          "bytes": 9446,
+          "encoded": 9146,
+          "duration": 108.80000000074506
+        },
+        {
+          "path": "/room/vendor/addons/loaders/GLTFLoader.js",
+          "bytes": 26297,
+          "encoded": 25997,
+          "duration": 124.10000000149012
+        },
+        {
+          "path": "/room/boot.js",
+          "bytes": 3205,
+          "encoded": 2905,
+          "duration": 108.30000000074506
+        },
+        {
+          "path": "/room/ui.js",
+          "bytes": 7151,
+          "encoded": 6851,
+          "duration": 58.099999997764826
+        },
+        {
+          "path": "/room/collection-viewer.js",
+          "bytes": 4578,
+          "encoded": 4278,
+          "duration": 61.600000001490116
+        },
+        {
+          "path": "/room/profile-data.js",
+          "bytes": 2493,
+          "encoded": 2193,
+          "duration": 60.900000002235174
+        },
+        {
+          "path": "/room/projects-data.js",
+          "bytes": 5273,
+          "encoded": 4973,
+          "duration": 61.19999999925494
+        },
+        {
+          "path": "/room/vendor/three.module.js",
+          "bytes": 89355,
+          "encoded": 89055,
+          "duration": 153.09999999776483
+        },
+        {
+          "path": "/room/cube-state.js",
+          "bytes": 1215,
+          "encoded": 915,
+          "duration": 60
+        },
+        {
+          "path": "/room/collection-models.js",
+          "bytes": 1897,
+          "encoded": 1597,
+          "duration": 60.100000001490116
+        },
+        {
+          "path": "/room/vendor/addons/utils/BufferGeometryUtils.js",
+          "bytes": 9002,
+          "encoded": 8702,
+          "duration": 76
+        },
+        {
+          "path": "/room/vendor/addons/geometries/RoundedBoxGeometry.js",
+          "bytes": 2264,
+          "encoded": 1964,
+          "duration": 60
+        },
+        {
+          "path": "/room/vendor/three.core.js",
+          "bytes": 103523,
+          "encoded": 103223,
+          "duration": 134.60000000149012
+        },
+        {
+          "path": "/room/world.js",
+          "bytes": 14789,
+          "encoded": 14489,
+          "duration": 72.30000000074506
+        },
+        {
+          "path": "/room/audio.js",
+          "bytes": 3402,
+          "encoded": 3102,
+          "duration": 69.30000000074506
+        },
+        {
+          "path": "/room/audio-score.js",
+          "bytes": 2006,
+          "encoded": 1706,
+          "duration": 60.19999999925494
+        },
+        {
+          "path": "/room/room-accents.js",
+          "bytes": 478,
+          "encoded": 178,
+          "duration": 56.70000000298023
+        },
+        {
+          "path": "/room/cabinet-scene.js",
+          "bytes": 1618,
+          "encoded": 1318,
+          "duration": 64.19999999925494
+        },
+        {
+          "path": "/room/architecture-materials.js",
+          "bytes": 1238,
+          "encoded": 938,
+          "duration": 58.400000002235174
+        },
+        {
+          "path": "/room/daylight.js",
+          "bytes": 1233,
+          "encoded": 933,
+          "duration": 61
+        },
+        {
+          "path": "/room/window-fragment.js",
+          "bytes": 1171,
+          "encoded": 871,
+          "duration": 61
+        },
+        {
+          "path": "/room/streaming.js",
+          "bytes": 1936,
+          "encoded": 1636,
+          "duration": 118
+        },
+        {
+          "path": "/room/furniture.js",
+          "bytes": 1381,
+          "encoded": 1081,
+          "duration": 117.5
+        },
+        {
+          "path": "/room/vendor/addons/csm/CSM.js",
+          "bytes": 4072,
+          "encoded": 3772,
+          "duration": 58.600000001490116
+        },
+        {
+          "path": "/room/stream-manifest.js",
+          "bytes": 1145,
+          "encoded": 845,
+          "duration": 59.600000001490116
+        },
+        {
+          "path": "/room/compressed-models.js",
+          "bytes": 1311,
+          "encoded": 1011,
+          "duration": 59
+        },
+        {
+          "path": "/room/vendor/addons/csm/CSMFrustum.js",
+          "bytes": 1930,
+          "encoded": 1630,
+          "duration": 71.69999999925494
+        },
+        {
+          "path": "/room/vendor/addons/csm/CSMShader.js",
+          "bytes": 2680,
+          "encoded": 2380,
+          "duration": 71.80000000074506
+        },
+        {
+          "path": "/room/assets/entry/plaster.webp",
+          "bytes": 3036,
+          "encoded": 2736,
+          "duration": 58.400000002235174
+        },
+        {
+          "path": "/room/assets/entry/floor.webp",
+          "bytes": 48646,
+          "encoded": 48346,
+          "duration": 120.19999999925494
+        },
+        {
+          "path": "/room/assets/entry/oak.webp",
+          "bytes": 40488,
+          "encoded": 40188,
+          "duration": 134.60000000149012
+        },
+        {
+          "path": "/room/vendor/addons/environments/RoomEnvironment.js",
+          "bytes": 1981,
+          "encoded": 1681,
+          "duration": 53.400000002235174
+        },
+        {
+          "path": "/room/expo.js",
+          "bytes": 5141,
+          "encoded": 4841,
+          "duration": 55.20000000298023
+        },
+        {
+          "path": "/room/assets/white_plaster_02/painted.webp",
+          "bytes": 49260,
+          "encoded": 48960,
+          "duration": 300.69999999925494
+        },
+        {
+          "path": "/room/assets/white_plaster_02/nor_gl.webp",
+          "bytes": 304550,
+          "encoded": 304250,
+          "duration": 1387
+        },
+        {
+          "path": "/room/assets/white_plaster_02/rough.webp",
+          "bytes": 187988,
+          "encoded": 187688,
+          "duration": 907.5999999977648
+        },
+        {
+          "path": "/room/assets/laminate_floor_02/diff.webp",
+          "bytes": 991142,
+          "encoded": 990842,
+          "duration": 4471.5
+        },
+        {
+          "path": "/room/assets/laminate_floor_02/nor_gl.webp",
+          "bytes": 192174,
+          "encoded": 191874,
+          "duration": 922
+        },
+        {
+          "path": "/room/assets/laminate_floor_02/rough.webp",
+          "bytes": 177904,
+          "encoded": 177604,
+          "duration": 860.5999999977648
+        },
+        {
+          "path": "/room/assets/helio.webp",
+          "bytes": 257878,
+          "encoded": 257578,
+          "duration": 4439.39999999851
+        },
+        {
+          "path": "/room/assets/keyform.webp",
+          "bytes": 35504,
+          "encoded": 35204,
+          "duration": 3620
+        },
+        {
+          "path": "/room/assets/poslesvet.webp",
+          "bytes": 41704,
+          "encoded": 41404,
+          "duration": 3856.60000000149
+        },
+        {
+          "path": "/room/assets/window/indirect.webp",
+          "bytes": 499552,
+          "encoded": 499252,
+          "duration": 5343.300000000745
+        },
+        {
+          "path": "/files/education/diploma-preview.webp",
+          "bytes": 64118,
+          "encoded": 63818,
+          "duration": 4254.5
+        },
+        {
+          "path": "/files/education/iqadam-2025-preview.webp",
+          "bytes": 37232,
+          "encoded": 36932,
+          "duration": 4393.29999999702
+        },
+        {
+          "path": "/room/assets/corridor/indirect.webp",
+          "bytes": 485076,
+          "encoded": 484776,
+          "duration": 5402.599999997765
+        },
+        {
+          "path": "/room/assets/urban_facade/sky.webp",
+          "bytes": 146402,
+          "encoded": 146102,
+          "duration": 4835.699999999255
+        },
+        {
+          "path": "/room/assets/exterior/tree-atlas.webp",
+          "bytes": 1211556,
+          "encoded": 1211256,
+          "duration": 6118.599999997765
+        },
+        {
+          "path": "/room/vendor/addons/utils/SkeletonUtils.js",
+          "bytes": 3501,
+          "encoded": 3201,
+          "duration": 352.9000000022352
+        },
+        {
+          "path": "/room/weather.js",
+          "bytes": 2569,
+          "encoded": 2269,
+          "duration": 408.70000000298023
+        },
+        {
+          "path": "/room/vegetation.js",
+          "bytes": 1666,
+          "encoded": 1366,
+          "duration": 460
+        },
+        {
+          "path": "/room/exterior-surfaces.js",
+          "bytes": 2187,
+          "encoded": 1887,
+          "duration": 513
+        },
+        {
+          "path": "/room/audio-worker.js",
+          "bytes": 538,
+          "encoded": 238,
+          "duration": -17.199999999254942
+        },
+        {
+          "path": "/room/audio-score.js",
+          "bytes": 2006,
+          "encoded": 1706,
+          "duration": 568.5999999977648
+        },
+        {
+          "path": "/room/assets/room-accents/ceiling-panel.glb.gz",
+          "bytes": 14283,
+          "encoded": 13983,
+          "duration": 258.1000000014901
+        },
+        {
+          "path": "/room/assets/studio-furniture/drawer.glb.gz",
+          "bytes": 91910,
+          "encoded": 91610,
+          "duration": 709
+        },
+        {
+          "path": "/room/assets/studio-furniture/chair.glb.gz",
+          "bytes": 124072,
+          "encoded": 123772,
+          "duration": 975.1999999992549
+        },
+        {
+          "path": "/room/assets/room-accents/robot.glb.gz",
+          "bytes": 54095,
+          "encoded": 53795,
+          "duration": 755.7000000029802
+        },
+        {
+          "path": "/room/assets/window/window.glb.gz",
+          "bytes": 98684,
+          "encoded": 98384,
+          "duration": 957.0999999977648
+        },
+        {
+          "path": "/room/assets/potted_plant_02/selected.gltf",
+          "bytes": 1300,
+          "encoded": 1000,
+          "duration": 818.2999999970198
+        },
+        {
+          "path": "/room/assets/corridor/profiles.glb.gz",
+          "bytes": 191651,
+          "encoded": 191351,
+          "duration": 1662.699999999255
+        },
+        {
+          "path": "/room/assets/studio-furniture/door.glb.gz",
+          "bytes": 86454,
+          "encoded": 86154,
+          "duration": 1236.6000000014901
+        },
+        {
+          "path": "/room/assets/exterior/tree-trunk.glb.gz",
+          "bytes": 216472,
+          "encoded": 216172,
+          "duration": 1963.1000000014901
+        },
+        {
+          "path": "/room/assets/studio-furniture/workbench.glb.gz",
+          "bytes": 166444,
+          "encoded": 166144,
+          "duration": 1772.7999999970198
+        },
+        {
+          "path": "/room/assets/exterior/skyline.glb.gz",
+          "bytes": 13907,
+          "encoded": 13607,
+          "duration": 1086.5
+        },
+        {
+          "path": "/room/assets/studio-furniture/lamp.glb.gz",
+          "bytes": 125140,
+          "encoded": 124840,
+          "duration": 1724.300000000745
+        },
+        {
+          "path": "/room/assets/studio-furniture/cabinet.glb.gz",
+          "bytes": 157821,
+          "encoded": 157521,
+          "duration": 2006.5
+        },
+        {
+          "path": "/room/assets/room-accents/orbit.glb.gz",
+          "bytes": 41336,
+          "encoded": 41036,
+          "duration": 1889
+        },
+        {
+          "path": "/room/assets/studio-furniture/side-table.glb.gz",
+          "bytes": 91604,
+          "encoded": 91304,
+          "duration": 2169.7999999970198
+        },
+        {
+          "path": "/room/assets/potted_plant_02/selected.bin",
+          "bytes": 421572,
+          "encoded": 421272,
+          "duration": 2891.39999999851
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_diff_1k.webp",
+          "bytes": 134728,
+          "encoded": 134428,
+          "duration": 1706.9000000022352
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "bytes": 134696,
+          "encoded": 134396,
+          "duration": 1846.300000000745
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "bytes": 153786,
+          "encoded": 153486,
+          "duration": 1944.3999999985099
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "bytes": 147106,
+          "encoded": 146806,
+          "duration": 2067.89999999851
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "bytes": 131624,
+          "encoded": 131324,
+          "duration": 2348.60000000149
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "bytes": 161898,
+          "encoded": 161598,
+          "duration": 2623.89999999851
+        }
+      ],
+      "navigation": [
+        {
+          "bytes": 2624,
+          "load": 214,
+          "dom": 210.5
+        }
+      ],
+      "bytes": 7870079,
+      "requests": 78,
+      "documentEager": [],
+      "views": {
+        "desk": {
+          "gapMs": {
+            "n": 576,
+            "median": 6.900000000001455,
+            "p95": 7.100000000002183,
+            "max": 7.899999999997817
+          },
+          "cpuMs": {
+            "n": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "renders": 0,
+          "drawCalls": 801,
+          "triangles": 1056493,
+          "textures": 86,
+          "buffer": [
+            682,
+            1477
+          ],
+          "camera": [
+            0.5600000311624916,
+            1.4800000415499985,
+            1.2500000865624912
+          ]
+        },
+        "window": {
+          "gapMs": {
+            "n": 567,
+            "median": 6.900000000001455,
+            "p95": 7.099999999998545,
+            "max": 55.5
+          },
+          "cpuMs": {
+            "n": 88,
+            "median": 11.5,
+            "p95": 13,
+            "max": 60.30000000074506
+          },
+          "renders": 88,
+          "drawCalls": 855,
+          "triangles": 1106898,
+          "textures": 86,
+          "buffer": [
+            682,
+            1477
+          ],
+          "camera": [
+            -0.17999999876735676,
+            1.5999999998001124,
+            0.8000000007495804
+          ]
+        }
+      }
+    },
+    {
+      "round": 2,
+      "mobile": false,
+      "route": "ordinary",
+      "errors": [],
+      "failures": [],
+      "lcp": 420,
+      "longTasks": [
+        62
+      ],
+      "resources": [
+        {
+          "path": "/assets/preferences-38aKeYz_.js",
+          "bytes": 34064,
+          "encoded": 33764,
+          "duration": 196.09999999776483
+        },
+        {
+          "path": "/assets/main-CaBIUae1.js",
+          "bytes": 4558,
+          "encoded": 4258,
+          "duration": 102.5
+        },
+        {
+          "path": "/assets/main-DAKF_UFa.css",
+          "bytes": 14408,
+          "encoded": 14108,
+          "duration": 132.90000000223517
+        },
+        {
+          "path": "/projects/media/helio-hero-800.webp",
+          "bytes": 86912,
+          "encoded": 86612,
+          "duration": 408.69999999925494
+        },
+        {
+          "path": "/projects/media/keyform-card-800.webp",
+          "bytes": 35504,
+          "encoded": 35204,
+          "duration": 241.80000000074506
+        },
+        {
+          "path": "/projects/media/poslesvet-card-800.webp",
+          "bytes": 41704,
+          "encoded": 41404,
+          "duration": 314.20000000298023
+        },
+        {
+          "path": "/projects/media/helio-card-800.webp",
+          "bytes": 86912,
+          "encoded": 86612,
+          "duration": 408.80000000074506
+        },
+        {
+          "path": "/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+          "bytes": 34060,
+          "encoded": 33760,
+          "duration": 192.30000000074506
+        },
+        {
+          "path": "/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+          "bytes": 18468,
+          "encoded": 18168,
+          "duration": 163.39999999850988
+        },
+        {
+          "path": "/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+          "bytes": 16160,
+          "encoded": 15860,
+          "duration": 181.80000000074506
+        },
+        {
+          "path": "/projects/media/framepack-card-800.webp",
+          "bytes": 25456,
+          "encoded": 25156,
+          "duration": 130
+        },
+        {
+          "path": "/assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2",
+          "bytes": 10840,
+          "encoded": 10540,
+          "duration": 91.80000000074506
+        },
+        {
+          "path": "/assets/scene-controls-B-65-GTU.js",
+          "bytes": 1392,
+          "encoded": 1092,
+          "duration": 55.19999999925494
+        },
+        {
+          "path": "/favicon.svg",
+          "bytes": 577,
+          "encoded": 277,
+          "duration": 57.19999999925494
+        }
+      ],
+      "navigation": [
+        {
+          "bytes": 10403,
+          "load": 513,
+          "dom": 410.69999999925494
+        }
+      ],
+      "bytes": 421418,
+      "requests": 15,
+      "documentEager": []
+    },
+    {
+      "round": 2,
+      "mobile": false,
+      "route": "room",
+      "errors": [],
+      "failures": [
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/robot.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/ceiling-panel.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/door.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/skyline.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/orbit.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/lamp.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/tree-trunk.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/corridor/profiles.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/selected.bin",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        }
+      ],
+      "lcp": 212,
+      "longTasks": [
+        281,
+        340,
+        683,
+        93,
+        66,
+        55,
+        69,
+        174
+      ],
+      "readyMs": 9278,
+      "firstFrameMs": 1753.4000000022352,
+      "resources": [
+        {
+          "path": "/room/style.css",
+          "bytes": 6984,
+          "encoded": 6684,
+          "duration": 83.5
+        },
+        {
+          "path": "/room/main.js",
+          "bytes": 9446,
+          "encoded": 9146,
+          "duration": 83.5
+        },
+        {
+          "path": "/room/boot.js",
+          "bytes": 3205,
+          "encoded": 2905,
+          "duration": 67.89999999850988
+        },
+        {
+          "path": "/room/vendor/addons/loaders/GLTFLoader.js",
+          "bytes": 26297,
+          "encoded": 25997,
+          "duration": 98.79999999701977
+        },
+        {
+          "path": "/room/ui.js",
+          "bytes": 7151,
+          "encoded": 6851,
+          "duration": 89.09999999776483
+        },
+        {
+          "path": "/room/collection-viewer.js",
+          "bytes": 4578,
+          "encoded": 4278,
+          "duration": 57.5
+        },
+        {
+          "path": "/room/profile-data.js",
+          "bytes": 2493,
+          "encoded": 2193,
+          "duration": 57.19999999925494
+        },
+        {
+          "path": "/room/projects-data.js",
+          "bytes": 5273,
+          "encoded": 4973,
+          "duration": 59.399999998509884
+        },
+        {
+          "path": "/room/vendor/three.module.js",
+          "bytes": 89355,
+          "encoded": 89055,
+          "duration": 159.19999999925494
+        },
+        {
+          "path": "/room/cube-state.js",
+          "bytes": 1215,
+          "encoded": 915,
+          "duration": 65.90000000223517
+        },
+        {
+          "path": "/room/collection-models.js",
+          "bytes": 1897,
+          "encoded": 1597,
+          "duration": 66.10000000149012
+        },
+        {
+          "path": "/room/vendor/addons/utils/BufferGeometryUtils.js",
+          "bytes": 9002,
+          "encoded": 8702,
+          "duration": 75.80000000074506
+        },
+        {
+          "path": "/room/vendor/addons/geometries/RoundedBoxGeometry.js",
+          "bytes": 2264,
+          "encoded": 1964,
+          "duration": 60.600000001490116
+        },
+        {
+          "path": "/room/vendor/three.core.js",
+          "bytes": 103523,
+          "encoded": 103223,
+          "duration": 136.69999999925494
+        },
+        {
+          "path": "/room/audio.js",
+          "bytes": 3402,
+          "encoded": 3102,
+          "duration": 65.69999999925494
+        },
+        {
+          "path": "/room/world.js",
+          "bytes": 14789,
+          "encoded": 14489,
+          "duration": 81.19999999925494
+        },
+        {
+          "path": "/room/audio-score.js",
+          "bytes": 2006,
+          "encoded": 1706,
+          "duration": 63.099999997764826
+        },
+        {
+          "path": "/room/room-accents.js",
+          "bytes": 478,
+          "encoded": 178,
+          "duration": 46.80000000074506
+        },
+        {
+          "path": "/room/cabinet-scene.js",
+          "bytes": 1618,
+          "encoded": 1318,
+          "duration": 52.899999998509884
+        },
+        {
+          "path": "/room/architecture-materials.js",
+          "bytes": 1238,
+          "encoded": 938,
+          "duration": 49.899999998509884
+        },
+        {
+          "path": "/room/daylight.js",
+          "bytes": 1233,
+          "encoded": 933,
+          "duration": 50.100000001490116
+        },
+        {
+          "path": "/room/window-fragment.js",
+          "bytes": 1171,
+          "encoded": 871,
+          "duration": 51.19999999925494
+        },
+        {
+          "path": "/room/streaming.js",
+          "bytes": 1936,
+          "encoded": 1636,
+          "duration": 107.90000000223517
+        },
+        {
+          "path": "/room/furniture.js",
+          "bytes": 1381,
+          "encoded": 1081,
+          "duration": 107.59999999776483
+        },
+        {
+          "path": "/room/vendor/addons/csm/CSM.js",
+          "bytes": 4072,
+          "encoded": 3772,
+          "duration": 59
+        },
+        {
+          "path": "/room/stream-manifest.js",
+          "bytes": 1145,
+          "encoded": 845,
+          "duration": 60.099999997764826
+        },
+        {
+          "path": "/room/compressed-models.js",
+          "bytes": 1311,
+          "encoded": 1011,
+          "duration": 59.69999999925494
+        },
+        {
+          "path": "/room/vendor/addons/csm/CSMFrustum.js",
+          "bytes": 1930,
+          "encoded": 1630,
+          "duration": 72.70000000298023
+        },
+        {
+          "path": "/room/vendor/addons/csm/CSMShader.js",
+          "bytes": 2680,
+          "encoded": 2380,
+          "duration": 72.39999999850988
+        },
+        {
+          "path": "/room/assets/entry/plaster.webp",
+          "bytes": 3036,
+          "encoded": 2736,
+          "duration": 67.70000000298023
+        },
+        {
+          "path": "/room/assets/entry/floor.webp",
+          "bytes": 48646,
+          "encoded": 48346,
+          "duration": 145.90000000223517
+        },
+        {
+          "path": "/room/assets/entry/oak.webp",
+          "bytes": 40488,
+          "encoded": 40188,
+          "duration": 129.69999999925494
+        },
+        {
+          "path": "/room/vendor/addons/environments/RoomEnvironment.js",
+          "bytes": 1981,
+          "encoded": 1681,
+          "duration": 54.599999997764826
+        },
+        {
+          "path": "/room/expo.js",
+          "bytes": 5141,
+          "encoded": 4841,
+          "duration": 56.5
+        },
+        {
+          "path": "/room/assets/white_plaster_02/painted.webp",
+          "bytes": 49260,
+          "encoded": 48960,
+          "duration": 281.6000000014901
+        },
+        {
+          "path": "/room/assets/white_plaster_02/rough.webp",
+          "bytes": 187988,
+          "encoded": 187688,
+          "duration": 907
+        },
+        {
+          "path": "/room/assets/white_plaster_02/nor_gl.webp",
+          "bytes": 304550,
+          "encoded": 304250,
+          "duration": 1393.1000000014901
+        },
+        {
+          "path": "/room/assets/laminate_floor_02/rough.webp",
+          "bytes": 177904,
+          "encoded": 177604,
+          "duration": 876.1999999992549
+        },
+        {
+          "path": "/room/assets/laminate_floor_02/nor_gl.webp",
+          "bytes": 192174,
+          "encoded": 191874,
+          "duration": 922.6999999992549
+        },
+        {
+          "path": "/room/assets/laminate_floor_02/diff.webp",
+          "bytes": 991142,
+          "encoded": 990842,
+          "duration": 4515.199999999255
+        },
+        {
+          "path": "/room/assets/helio.webp",
+          "bytes": 257878,
+          "encoded": 257578,
+          "duration": 4602.699999999255
+        },
+        {
+          "path": "/room/assets/keyform.webp",
+          "bytes": 35504,
+          "encoded": 35204,
+          "duration": 3737.800000000745
+        },
+        {
+          "path": "/room/assets/poslesvet.webp",
+          "bytes": 41704,
+          "encoded": 41404,
+          "duration": 3843.800000000745
+        },
+        {
+          "path": "/files/education/iqadam-2025-preview.webp",
+          "bytes": 37232,
+          "encoded": 36932,
+          "duration": 4108.599999997765
+        },
+        {
+          "path": "/files/education/diploma-preview.webp",
+          "bytes": 64118,
+          "encoded": 63818,
+          "duration": 4217.199999999255
+        },
+        {
+          "path": "/room/assets/window/indirect.webp",
+          "bytes": 499552,
+          "encoded": 499252,
+          "duration": 5414.300000000745
+        },
+        {
+          "path": "/room/assets/corridor/indirect.webp",
+          "bytes": 485076,
+          "encoded": 484776,
+          "duration": 5430.300000000745
+        },
+        {
+          "path": "/room/assets/urban_facade/sky.webp",
+          "bytes": 146402,
+          "encoded": 146102,
+          "duration": 4760
+        },
+        {
+          "path": "/room/assets/exterior/tree-atlas.webp",
+          "bytes": 1211556,
+          "encoded": 1211256,
+          "duration": 6094.199999999255
+        },
+        {
+          "path": "/room/vendor/addons/utils/SkeletonUtils.js",
+          "bytes": 3501,
+          "encoded": 3201,
+          "duration": 330.30000000074506
+        },
+        {
+          "path": "/room/weather.js",
+          "bytes": 2569,
+          "encoded": 2269,
+          "duration": 341.80000000074506
+        },
+        {
+          "path": "/room/vegetation.js",
+          "bytes": 1666,
+          "encoded": 1366,
+          "duration": 405.80000000074506
+        },
+        {
+          "path": "/room/exterior-surfaces.js",
+          "bytes": 2187,
+          "encoded": 1887,
+          "duration": 464.80000000074506
+        },
+        {
+          "path": "/room/audio-worker.js",
+          "bytes": 538,
+          "encoded": 238,
+          "duration": -62.899999998509884
+        },
+        {
+          "path": "/room/audio-score.js",
+          "bytes": 2006,
+          "encoded": 1706,
+          "duration": 526.3000000007451
+        },
+        {
+          "path": "/room/assets/studio-furniture/cabinet.glb.gz",
+          "bytes": 157821,
+          "encoded": 157521,
+          "duration": 918.1000000014901
+        },
+        {
+          "path": "/room/assets/room-accents/robot.glb.gz",
+          "bytes": 54095,
+          "encoded": 53795,
+          "duration": 736.9000000022352
+        },
+        {
+          "path": "/room/assets/studio-furniture/drawer.glb.gz",
+          "bytes": 91910,
+          "encoded": 91610,
+          "duration": 943.4000000022352
+        },
+        {
+          "path": "/room/assets/potted_plant_02/selected.gltf",
+          "bytes": 1300,
+          "encoded": 1000,
+          "duration": 547.3999999985099
+        },
+        {
+          "path": "/room/assets/studio-furniture/door.glb.gz",
+          "bytes": 86454,
+          "encoded": 86154,
+          "duration": 978.3999999985099
+        },
+        {
+          "path": "/room/assets/room-accents/ceiling-panel.glb.gz",
+          "bytes": 14283,
+          "encoded": 13983,
+          "duration": 859.9000000022352
+        },
+        {
+          "path": "/room/assets/studio-furniture/chair.glb.gz",
+          "bytes": 124072,
+          "encoded": 123772,
+          "duration": 1434.5
+        },
+        {
+          "path": "/room/assets/exterior/skyline.glb.gz",
+          "bytes": 13907,
+          "encoded": 13607,
+          "duration": 1004.6999999992549
+        },
+        {
+          "path": "/room/assets/studio-furniture/side-table.glb.gz",
+          "bytes": 91604,
+          "encoded": 91304,
+          "duration": 1395.3999999985099
+        },
+        {
+          "path": "/room/assets/exterior/tree-trunk.glb.gz",
+          "bytes": 216472,
+          "encoded": 216172,
+          "duration": 2008.0999999977648
+        },
+        {
+          "path": "/room/assets/window/window.glb.gz",
+          "bytes": 98684,
+          "encoded": 98384,
+          "duration": 1471.800000000745
+        },
+        {
+          "path": "/room/assets/room-accents/orbit.glb.gz",
+          "bytes": 41336,
+          "encoded": 41036,
+          "duration": 1246.1000000014901
+        },
+        {
+          "path": "/room/assets/studio-furniture/lamp.glb.gz",
+          "bytes": 125140,
+          "encoded": 124840,
+          "duration": 1866.9000000022352
+        },
+        {
+          "path": "/room/assets/studio-furniture/workbench.glb.gz",
+          "bytes": 166444,
+          "encoded": 166144,
+          "duration": 2203.7000000029802
+        },
+        {
+          "path": "/room/assets/corridor/profiles.glb.gz",
+          "bytes": 191651,
+          "encoded": 191351,
+          "duration": 2365.5
+        },
+        {
+          "path": "/room/assets/potted_plant_02/selected.bin",
+          "bytes": 421572,
+          "encoded": 421272,
+          "duration": 2884.900000002235
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_diff_1k.webp",
+          "bytes": 134728,
+          "encoded": 134428,
+          "duration": 1973.8999999985099
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "bytes": 134696,
+          "encoded": 134396,
+          "duration": 2114.300000000745
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "bytes": 153786,
+          "encoded": 153486,
+          "duration": 2407.300000000745
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "bytes": 147106,
+          "encoded": 146806,
+          "duration": 2532.60000000149
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "bytes": 131624,
+          "encoded": 131324,
+          "duration": 2617.800000000745
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "bytes": 161898,
+          "encoded": 161598,
+          "duration": 2893.89999999851
+        }
+      ],
+      "navigation": [
+        {
+          "bytes": 2624,
+          "load": 197.19999999925494,
+          "dom": 168.30000000074506
+        }
+      ],
+      "bytes": 7870079,
+      "requests": 78,
+      "documentEager": [],
+      "views": {
+        "desk": {
+          "gapMs": {
+            "n": 488,
+            "median": 7,
+            "p95": 13.899999999997817,
+            "max": 14
+          },
+          "cpuMs": {
+            "n": 89,
+            "median": 16.5,
+            "p95": 18.699999999254942,
+            "max": 19.200000002980232
+          },
+          "renders": 89,
+          "drawCalls": 879,
+          "triangles": 1141371,
+          "textures": 86,
+          "buffer": [
+            1440,
+            900
+          ],
+          "camera": [
+            0.6499999999988822,
+            1.599999999999553,
+            1.4999999999984353
+          ]
+        },
+        "window": {
+          "gapMs": {
+            "n": 576,
+            "median": 6.900000000001455,
+            "p95": 7.100000000002183,
+            "max": 7.399999999997817
+          },
+          "cpuMs": {
+            "n": 89,
+            "median": 7.400000002235174,
+            "p95": 8.599999997764826,
+            "max": 9
+          },
+          "renders": 89,
+          "drawCalls": 859,
+          "triangles": 1122012,
+          "textures": 86,
+          "buffer": [
+            1440,
+            900
+          ],
+          "camera": [
+            -0.17999994889224438,
+            1.5999999999999992,
+            0.8000000431029265
+          ]
+        }
+      }
+    },
+    {
+      "round": 2,
+      "mobile": true,
+      "route": "ordinary",
+      "errors": [],
+      "failures": [],
+      "lcp": 588,
+      "longTasks": [
+        87
+      ],
+      "resources": [
+        {
+          "path": "/assets/preferences-38aKeYz_.js",
+          "bytes": 34064,
+          "encoded": 33764,
+          "duration": 211.90000000223517
+        },
+        {
+          "path": "/assets/main-CaBIUae1.js",
+          "bytes": 4558,
+          "encoded": 4258,
+          "duration": 73.80000000074506
+        },
+        {
+          "path": "/assets/main-DAKF_UFa.css",
+          "bytes": 14408,
+          "encoded": 14108,
+          "duration": 119
+        },
+        {
+          "path": "/projects/media/helio-hero-800.webp",
+          "bytes": 86912,
+          "encoded": 86612,
+          "duration": 386.1000000014901
+        },
+        {
+          "path": "/projects/media/helio-card-800.webp",
+          "bytes": 86912,
+          "encoded": 86612,
+          "duration": 377.29999999701977
+        },
+        {
+          "path": "/projects/media/keyform-card-800.webp",
+          "bytes": 35504,
+          "encoded": 35204,
+          "duration": 227
+        },
+        {
+          "path": "/projects/media/poslesvet-card-800.webp",
+          "bytes": 41704,
+          "encoded": 41404,
+          "duration": 289.80000000074506
+        },
+        {
+          "path": "/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+          "bytes": 34060,
+          "encoded": 33760,
+          "duration": 185.69999999925494
+        },
+        {
+          "path": "/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+          "bytes": 18468,
+          "encoded": 18168,
+          "duration": 154.5
+        },
+        {
+          "path": "/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+          "bytes": 16160,
+          "encoded": 15860,
+          "duration": 144.69999999925494
+        },
+        {
+          "path": "/projects/media/framepack-card-800.webp",
+          "bytes": 25456,
+          "encoded": 25156,
+          "duration": 110.19999999925494
+        },
+        {
+          "path": "/assets/scene-controls-B-65-GTU.js",
+          "bytes": 1392,
+          "encoded": 1092,
+          "duration": 65.10000000149012
+        },
+        {
+          "path": "/favicon.svg",
+          "bytes": 577,
+          "encoded": 277,
+          "duration": 57.599999997764826
+        }
+      ],
+      "navigation": [
+        {
+          "bytes": 10403,
+          "load": 576.4000000022352,
+          "dom": 479.69999999925494
+        }
+      ],
+      "bytes": 410578,
+      "requests": 14,
+      "documentEager": []
+    },
+    {
+      "round": 2,
+      "mobile": true,
+      "route": "room",
+      "errors": [],
+      "failures": [
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/cabinet.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/door.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/robot.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/skyline.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/workbench.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/tree-trunk.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/selected.bin",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        }
+      ],
+      "lcp": 200,
+      "longTasks": [
+        252,
+        334,
+        696,
+        106,
+        57,
+        71,
+        147
+      ],
+      "readyMs": 9234.89999999851,
+      "firstFrameMs": 1672.199999999255,
+      "resources": [
+        {
+          "path": "/room/style.css",
+          "bytes": 6984,
+          "encoded": 6684,
+          "duration": 80.60000000149012
+        },
+        {
+          "path": "/room/main.js",
+          "bytes": 9446,
+          "encoded": 9146,
+          "duration": 80.60000000149012
+        },
+        {
+          "path": "/room/boot.js",
+          "bytes": 3205,
+          "encoded": 2905,
+          "duration": 65
+        },
+        {
+          "path": "/room/vendor/addons/loaders/GLTFLoader.js",
+          "bytes": 26297,
+          "encoded": 25997,
+          "duration": 95.69999999925494
+        },
+        {
+          "path": "/room/ui.js",
+          "bytes": 7151,
+          "encoded": 6851,
+          "duration": 59.100000001490116
+        },
+        {
+          "path": "/room/profile-data.js",
+          "bytes": 2493,
+          "encoded": 2193,
+          "duration": 61.599999997764826
+        },
+        {
+          "path": "/room/collection-viewer.js",
+          "bytes": 4578,
+          "encoded": 4278,
+          "duration": 61.69999999925494
+        },
+        {
+          "path": "/room/projects-data.js",
+          "bytes": 5273,
+          "encoded": 4973,
+          "duration": 61.80000000074506
+        },
+        {
+          "path": "/room/cube-state.js",
+          "bytes": 1215,
+          "encoded": 915,
+          "duration": 61.5
+        },
+        {
+          "path": "/room/collection-models.js",
+          "bytes": 1897,
+          "encoded": 1597,
+          "duration": 61.80000000074506
+        },
+        {
+          "path": "/room/vendor/three.module.js",
+          "bytes": 89355,
+          "encoded": 89055,
+          "duration": 154.39999999850988
+        },
+        {
+          "path": "/room/vendor/addons/geometries/RoundedBoxGeometry.js",
+          "bytes": 2264,
+          "encoded": 1964,
+          "duration": 59.399999998509884
+        },
+        {
+          "path": "/room/vendor/addons/utils/BufferGeometryUtils.js",
+          "bytes": 9002,
+          "encoded": 8702,
+          "duration": 74.89999999850988
+        },
+        {
+          "path": "/room/vendor/three.core.js",
+          "bytes": 103523,
+          "encoded": 103223,
+          "duration": 138.10000000149012
+        },
+        {
+          "path": "/room/world.js",
+          "bytes": 14789,
+          "encoded": 14489,
+          "duration": 69.89999999850988
+        },
+        {
+          "path": "/room/audio.js",
+          "bytes": 3402,
+          "encoded": 3102,
+          "duration": 65.60000000149012
+        },
+        {
+          "path": "/room/audio-score.js",
+          "bytes": 2006,
+          "encoded": 1706,
+          "duration": 60.600000001490116
+        },
+        {
+          "path": "/room/room-accents.js",
+          "bytes": 478,
+          "encoded": 178,
+          "duration": 57
+        },
+        {
+          "path": "/room/cabinet-scene.js",
+          "bytes": 1618,
+          "encoded": 1318,
+          "duration": 62
+        },
+        {
+          "path": "/room/architecture-materials.js",
+          "bytes": 1238,
+          "encoded": 938,
+          "duration": 59.5
+        },
+        {
+          "path": "/room/daylight.js",
+          "bytes": 1233,
+          "encoded": 933,
+          "duration": 59.69999999925494
+        },
+        {
+          "path": "/room/window-fragment.js",
+          "bytes": 1171,
+          "encoded": 871,
+          "duration": 61.900000002235174
+        },
+        {
+          "path": "/room/furniture.js",
+          "bytes": 1381,
+          "encoded": 1081,
+          "duration": 119.20000000298023
+        },
+        {
+          "path": "/room/streaming.js",
+          "bytes": 1936,
+          "encoded": 1636,
+          "duration": 119.5
+        },
+        {
+          "path": "/room/vendor/addons/csm/CSM.js",
+          "bytes": 4072,
+          "encoded": 3772,
+          "duration": 59.19999999925494
+        },
+        {
+          "path": "/room/stream-manifest.js",
+          "bytes": 1145,
+          "encoded": 845,
+          "duration": 60.19999999925494
+        },
+        {
+          "path": "/room/compressed-models.js",
+          "bytes": 1311,
+          "encoded": 1011,
+          "duration": 60.19999999925494
+        },
+        {
+          "path": "/room/vendor/addons/csm/CSMFrustum.js",
+          "bytes": 1930,
+          "encoded": 1630,
+          "duration": 60.400000002235174
+        },
+        {
+          "path": "/room/vendor/addons/csm/CSMShader.js",
+          "bytes": 2680,
+          "encoded": 2380,
+          "duration": 60.100000001490116
+        },
+        {
+          "path": "/room/assets/entry/plaster.webp",
+          "bytes": 3036,
+          "encoded": 2736,
+          "duration": 65.59999999776483
+        },
+        {
+          "path": "/room/assets/entry/oak.webp",
+          "bytes": 40488,
+          "encoded": 40188,
+          "duration": 126.10000000149012
+        },
+        {
+          "path": "/room/assets/entry/floor.webp",
+          "bytes": 48646,
+          "encoded": 48346,
+          "duration": 142
+        },
+        {
+          "path": "/room/vendor/addons/environments/RoomEnvironment.js",
+          "bytes": 1981,
+          "encoded": 1681,
+          "duration": 48.600000001490116
+        },
+        {
+          "path": "/room/expo.js",
+          "bytes": 5141,
+          "encoded": 4841,
+          "duration": 50.899999998509884
+        },
+        {
+          "path": "/room/assets/white_plaster_02/painted.webp",
+          "bytes": 49260,
+          "encoded": 48960,
+          "duration": 266.19999999925494
+        },
+        {
+          "path": "/room/assets/white_plaster_02/nor_gl.webp",
+          "bytes": 304550,
+          "encoded": 304250,
+          "duration": 1404.5999999977648
+        },
+        {
+          "path": "/room/assets/white_plaster_02/rough.webp",
+          "bytes": 187988,
+          "encoded": 187688,
+          "duration": 919.6000000014901
+        },
+        {
+          "path": "/room/assets/laminate_floor_02/diff.webp",
+          "bytes": 991142,
+          "encoded": 990842,
+          "duration": 4485
+        },
+        {
+          "path": "/room/assets/laminate_floor_02/nor_gl.webp",
+          "bytes": 192174,
+          "encoded": 191874,
+          "duration": 965.5
+        },
+        {
+          "path": "/room/assets/laminate_floor_02/rough.webp",
+          "bytes": 177904,
+          "encoded": 177604,
+          "duration": 1012.1000000014901
+        },
+        {
+          "path": "/room/assets/helio.webp",
+          "bytes": 257878,
+          "encoded": 257578,
+          "duration": 1467.800000000745
+        },
+        {
+          "path": "/room/assets/keyform.webp",
+          "bytes": 35504,
+          "encoded": 35204,
+          "duration": 3780.099999997765
+        },
+        {
+          "path": "/room/assets/poslesvet.webp",
+          "bytes": 41704,
+          "encoded": 41404,
+          "duration": 3923.199999999255
+        },
+        {
+          "path": "/files/education/diploma-preview.webp",
+          "bytes": 64118,
+          "encoded": 63818,
+          "duration": 4266
+        },
+        {
+          "path": "/room/assets/corridor/indirect.webp",
+          "bytes": 485076,
+          "encoded": 484776,
+          "duration": 5391
+        },
+        {
+          "path": "/room/assets/window/indirect.webp",
+          "bytes": 499552,
+          "encoded": 499252,
+          "duration": 5401.10000000149
+        },
+        {
+          "path": "/files/education/iqadam-2025-preview.webp",
+          "bytes": 37232,
+          "encoded": 36932,
+          "duration": 4458.599999997765
+        },
+        {
+          "path": "/room/assets/urban_facade/sky.webp",
+          "bytes": 146402,
+          "encoded": 146102,
+          "duration": 4836.599999997765
+        },
+        {
+          "path": "/room/assets/exterior/tree-atlas.webp",
+          "bytes": 1211556,
+          "encoded": 1211256,
+          "duration": 6088.199999999255
+        },
+        {
+          "path": "/room/vendor/addons/utils/SkeletonUtils.js",
+          "bytes": 3501,
+          "encoded": 3201,
+          "duration": 67.60000000149012
+        },
+        {
+          "path": "/room/audio-worker.js",
+          "bytes": 538,
+          "encoded": 238,
+          "duration": -67.19999999925494
+        },
+        {
+          "path": "/room/audio-score.js",
+          "bytes": 2006,
+          "encoded": 1706,
+          "duration": 71.10000000149012
+        },
+        {
+          "path": "/room/weather.js",
+          "bytes": 2569,
+          "encoded": 2269,
+          "duration": 577.6999999992549
+        },
+        {
+          "path": "/room/vegetation.js",
+          "bytes": 1666,
+          "encoded": 1366,
+          "duration": 624.5
+        },
+        {
+          "path": "/room/exterior-surfaces.js",
+          "bytes": 2187,
+          "encoded": 1887,
+          "duration": 640.5999999977648
+        },
+        {
+          "path": "/room/assets/studio-furniture/cabinet.glb.gz",
+          "bytes": 157821,
+          "encoded": 157521,
+          "duration": 1356.9000000022352
+        },
+        {
+          "path": "/room/assets/potted_plant_02/selected.gltf",
+          "bytes": 1300,
+          "encoded": 1000,
+          "duration": 655.8999999985099
+        },
+        {
+          "path": "/room/assets/studio-furniture/drawer.glb.gz",
+          "bytes": 91910,
+          "encoded": 91610,
+          "duration": 1091.300000000745
+        },
+        {
+          "path": "/room/assets/corridor/profiles.glb.gz",
+          "bytes": 191651,
+          "encoded": 191351,
+          "duration": 1582.199999999255
+        },
+        {
+          "path": "/room/assets/studio-furniture/chair.glb.gz",
+          "bytes": 124072,
+          "encoded": 123772,
+          "duration": 1591
+        },
+        {
+          "path": "/room/assets/studio-furniture/side-table.glb.gz",
+          "bytes": 91604,
+          "encoded": 91304,
+          "duration": 1519.6000000014901
+        },
+        {
+          "path": "/room/assets/studio-furniture/lamp.glb.gz",
+          "bytes": 125140,
+          "encoded": 124840,
+          "duration": 1702.0999999977648
+        },
+        {
+          "path": "/room/assets/studio-furniture/door.glb.gz",
+          "bytes": 86454,
+          "encoded": 86154,
+          "duration": 1779.800000000745
+        },
+        {
+          "path": "/room/assets/room-accents/robot.glb.gz",
+          "bytes": 54095,
+          "encoded": 53795,
+          "duration": 1793.5
+        },
+        {
+          "path": "/room/assets/studio-furniture/workbench.glb.gz",
+          "bytes": 166444,
+          "encoded": 166144,
+          "duration": 2371
+        },
+        {
+          "path": "/room/assets/exterior/tree-trunk.glb.gz",
+          "bytes": 216472,
+          "encoded": 216172,
+          "duration": 2606.199999999255
+        },
+        {
+          "path": "/room/assets/room-accents/orbit.glb.gz",
+          "bytes": 41336,
+          "encoded": 41036,
+          "duration": 1919.199999999255
+        },
+        {
+          "path": "/room/assets/room-accents/ceiling-panel.glb.gz",
+          "bytes": 14283,
+          "encoded": 13983,
+          "duration": 1888.5
+        },
+        {
+          "path": "/room/assets/exterior/skyline.glb.gz",
+          "bytes": 13907,
+          "encoded": 13607,
+          "duration": 1904
+        },
+        {
+          "path": "/room/assets/window/window.glb.gz",
+          "bytes": 98684,
+          "encoded": 98384,
+          "duration": 2391.5
+        },
+        {
+          "path": "/room/assets/potted_plant_02/selected.bin",
+          "bytes": 421572,
+          "encoded": 421272,
+          "duration": 3204.60000000149
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_diff_1k.webp",
+          "bytes": 134728,
+          "encoded": 134428,
+          "duration": 1922.5999999977648
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "bytes": 134696,
+          "encoded": 134396,
+          "duration": 2376.699999999255
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "bytes": 153786,
+          "encoded": 153486,
+          "duration": 2486.099999997765
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "bytes": 147106,
+          "encoded": 146806,
+          "duration": 2648.099999997765
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "bytes": 131624,
+          "encoded": 131324,
+          "duration": 2602.89999999851
+        },
+        {
+          "path": "/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "bytes": 161898,
+          "encoded": 161598,
+          "duration": 3158.800000000745
+        }
+      ],
+      "navigation": [
+        {
+          "bytes": 2624,
+          "load": 190.89999999850988,
+          "dom": 164.09999999776483
+        }
+      ],
+      "bytes": 7870079,
+      "requests": 78,
+      "documentEager": [],
+      "views": {
+        "desk": {
+          "gapMs": {
+            "n": 576,
+            "median": 6.900000000001455,
+            "p95": 7.100000000000364,
+            "max": 7.799999999999272
+          },
+          "cpuMs": {
+            "n": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "renders": 0,
+          "drawCalls": 801,
+          "triangles": 1056493,
+          "textures": 86,
+          "buffer": [
+            682,
+            1477
+          ],
+          "camera": [
+            0.5600000353051986,
+            1.480000047073611,
+            1.250000098070015
+          ]
+        },
+        "window": {
+          "gapMs": {
+            "n": 576,
+            "median": 6.900000000001455,
+            "p95": 7.100000000002183,
+            "max": 14
+          },
+          "cpuMs": {
+            "n": 89,
+            "median": 10.199999999254942,
+            "p95": 12,
+            "max": 14.699999999254942
+          },
+          "renders": 89,
+          "drawCalls": 855,
+          "triangles": 1106898,
+          "textures": 86,
+          "buffer": [
+            682,
+            1477
+          ],
+          "camera": [
+            -0.17999998484757182,
+            1.599999997542851,
+            0.800000009214316
+          ]
+        }
+      }
+    }
+  ],
+  "browser": "155.0.4283.45"
+}

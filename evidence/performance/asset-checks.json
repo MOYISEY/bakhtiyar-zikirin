@@ -1,0 +1,3806 @@
+{
+  "runs": [
+    {
+      "version": "before",
+      "mobile": false,
+      "route": "ordinary",
+      "failed": [],
+      "responses": [
+        {
+          "url": "http://127.0.0.1:4331/before/",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/main-DAKF_UFa.css",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/projects/media/helio-hero-800.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/projects/media/helio-card-800.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/projects/media/keyform-card-800.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/projects/media/poslesvet-card-800.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/preferences-38aKeYz_.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/main-CaBIUae1.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/scene-controls-B-65-GTU.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/projects/media/framepack-card-800.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/favicon.svg",
+          "status": 200
+        }
+      ],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4331/before/assets/preferences-38aKeYz_.js",
+          "encoded": 33764,
+          "decoded": 112482
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/main-CaBIUae1.js",
+          "encoded": 4258,
+          "decoded": 11809
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/main-DAKF_UFa.css",
+          "encoded": 14108,
+          "decoded": 69055
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/projects/media/helio-hero-800.webp",
+          "encoded": 86612,
+          "decoded": 86612
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/projects/media/helio-card-800.webp",
+          "encoded": 86612,
+          "decoded": 86612
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/projects/media/keyform-card-800.webp",
+          "encoded": 35204,
+          "decoded": 35204
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/projects/media/poslesvet-card-800.webp",
+          "encoded": 41404,
+          "decoded": 41404
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+          "encoded": 33760,
+          "decoded": 33760
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+          "encoded": 18168,
+          "decoded": 18168
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+          "encoded": 15860,
+          "decoded": 15860
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2",
+          "encoded": 10540,
+          "decoded": 10540
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/scene-controls-B-65-GTU.js",
+          "encoded": 1092,
+          "decoded": 2688
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/projects/media/framepack-card-800.webp",
+          "encoded": 25156,
+          "decoded": 25156
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/favicon.svg",
+          "encoded": 277,
+          "decoded": 388
+        }
+      ],
+      "buffer": [
+        300,
+        150
+      ]
+    },
+    {
+      "version": "before",
+      "mobile": false,
+      "route": "room",
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/chair.glb.gz",
+          "failure": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        }
+      ],
+      "responses": [
+        {
+          "url": "http://127.0.0.1:4331/before/room/?lang=ru",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/style.css",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/main.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/loaders/GLTFLoader.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/boot.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/ui.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/collection-viewer.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/profile-data.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/projects-data.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/cube-state.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/collection-models.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/utils/BufferGeometryUtils.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/geometries/RoundedBoxGeometry.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/three.module.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/three.core.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/world.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/audio.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/room-accents.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/cabinet-scene.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/architecture-materials.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/daylight.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/streaming.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/window-fragment.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/furniture.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/audio-score.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/csm/CSM.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/compressed-models.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/stream-manifest.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/csm/CSMFrustum.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/csm/CSMShader.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/entry/plaster.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/entry/floor.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/entry/oak.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/white_plaster_02/painted.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/white_plaster_02/nor_gl.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/environments/RoomEnvironment.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/expo.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/audio-worker.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/white_plaster_02/rough.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/laminate_floor_02/diff.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/laminate_floor_02/nor_gl.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/laminate_floor_02/rough.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/helio.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/utils/SkeletonUtils.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/weather.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vegetation.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/exterior-surfaces.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/audio-score.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/keyform.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/poslesvet.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/window/indirect.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/workbench.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/cabinet.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/16cdf630-0dfb-4fa0-b1c0-b21fce58847e",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/robot.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/a2766649-b029-4180-b196-304deac8d1a8",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/b0fa89ad-201c-415f-a687-366c334ffcd2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/chair.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/side-table.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/window/window.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/854d368a-a882-45f3-be19-70846fabb6b8",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/7048ceb2-62f4-4afa-8a4e-89ff7ce08bd0",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/skyline.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/drawer.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/orbit.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/selected.gltf",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/0bd7aafb-6763-46e7-a0ea-df79ee6b9a0b",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/ad9482fc-3985-4534-ab3f-3745d920a541",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/627b2c9b-ec02-4824-8ff0-d4c1b2c782fd",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/7980122c-fc04-4f59-872d-8fe2a6cbc8b5",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/tree-trunk.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/5252b961-9784-4777-aa74-a1874989540a",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/corridor/indirect.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/files/education/diploma-preview.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/files/education/iqadam-2025-preview.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/urban_facade/sky.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/tree-atlas.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/corridor/profiles.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/lamp.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/300ae637-ca14-4d77-94bf-af131824ce10",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/7cf446f2-f8ca-43f1-a031-af71dd7acdd6",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/ceiling-panel.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/door.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/selected.bin",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/885b14e2-2911-484f-b130-b880cfdefa09",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/d36cb0a2-1784-4128-905d-4f7750fc1199",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/32dff758-9bcf-4863-a505-522320b980af",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_pot_diff_1k.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "status": 200
+        }
+      ],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "stream": {
+        "ready": true,
+        "warming": false,
+        "warmError": null,
+        "skyFallback": false,
+        "phases": {
+          "room": {
+            "status": "ready",
+            "completed": 22,
+            "total": 22,
+            "failed": [],
+            "error": null
+          },
+          "decor": {
+            "status": "ready",
+            "completed": 11,
+            "total": 11,
+            "failed": [],
+            "error": null
+          },
+          "expo": {
+            "status": "ready",
+            "completed": 4,
+            "total": 4,
+            "failed": [],
+            "error": null
+          }
+        }
+      },
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4331/before/room/style.css",
+          "encoded": 6684,
+          "decoded": 23539
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/main.js",
+          "encoded": 9146,
+          "decoded": 27181
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/loaders/GLTFLoader.js",
+          "encoded": 25997,
+          "decoded": 117570
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/boot.js",
+          "encoded": 2905,
+          "decoded": 6885
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/ui.js",
+          "encoded": 6851,
+          "decoded": 19887
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/collection-viewer.js",
+          "encoded": 4278,
+          "decoded": 9883
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/profile-data.js",
+          "encoded": 2193,
+          "decoded": 6196
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/projects-data.js",
+          "encoded": 4973,
+          "decoded": 12684
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/three.module.js",
+          "encoded": 89055,
+          "decoded": 376660
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/cube-state.js",
+          "encoded": 915,
+          "decoded": 1806
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/collection-models.js",
+          "encoded": 1597,
+          "decoded": 3743
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/utils/BufferGeometryUtils.js",
+          "encoded": 8702,
+          "decoded": 37712
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/geometries/RoundedBoxGeometry.js",
+          "encoded": 1964,
+          "decoded": 6470
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/three.core.js",
+          "encoded": 103223,
+          "decoded": 402617
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/world.js",
+          "encoded": 14489,
+          "decoded": 41745
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/audio.js",
+          "encoded": 3102,
+          "decoded": 9564
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/room-accents.js",
+          "encoded": 178,
+          "decoded": 195
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/cabinet-scene.js",
+          "encoded": 1318,
+          "decoded": 2901
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/architecture-materials.js",
+          "encoded": 938,
+          "decoded": 1811
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/daylight.js",
+          "encoded": 933,
+          "decoded": 1729
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/window-fragment.js",
+          "encoded": 871,
+          "decoded": 1622
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/streaming.js",
+          "encoded": 1636,
+          "decoded": 3707
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/furniture.js",
+          "encoded": 1081,
+          "decoded": 2175
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/audio-score.js",
+          "encoded": 1706,
+          "decoded": 3745
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/csm/CSM.js",
+          "encoded": 3772,
+          "decoded": 13863
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/stream-manifest.js",
+          "encoded": 845,
+          "decoded": 3067
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/compressed-models.js",
+          "encoded": 1011,
+          "decoded": 2748
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/csm/CSMFrustum.js",
+          "encoded": 1630,
+          "decoded": 5281
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/csm/CSMShader.js",
+          "encoded": 2380,
+          "decoded": 11034
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/entry/plaster.webp",
+          "encoded": 2736,
+          "decoded": 2736
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/entry/floor.webp",
+          "encoded": 48346,
+          "decoded": 48346
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/entry/oak.webp",
+          "encoded": 40188,
+          "decoded": 40188
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/environments/RoomEnvironment.js",
+          "encoded": 1681,
+          "decoded": 4960
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/expo.js",
+          "encoded": 4841,
+          "decoded": 12200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/white_plaster_02/painted.webp",
+          "encoded": 48960,
+          "decoded": 48960
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/white_plaster_02/nor_gl.webp",
+          "encoded": 304250,
+          "decoded": 304250
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/white_plaster_02/rough.webp",
+          "encoded": 187688,
+          "decoded": 187688
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/laminate_floor_02/diff.webp",
+          "encoded": 990842,
+          "decoded": 990842
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/laminate_floor_02/nor_gl.webp",
+          "encoded": 191874,
+          "decoded": 191874
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/laminate_floor_02/rough.webp",
+          "encoded": 177604,
+          "decoded": 177604
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/helio.webp",
+          "encoded": 257578,
+          "decoded": 257578
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/keyform.webp",
+          "encoded": 35204,
+          "decoded": 35204
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/poslesvet.webp",
+          "encoded": 41404,
+          "decoded": 41404
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/window/indirect.webp",
+          "encoded": 499252,
+          "decoded": 499252
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/corridor/indirect.webp",
+          "encoded": 484776,
+          "decoded": 484776
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/files/education/diploma-preview.webp",
+          "encoded": 63818,
+          "decoded": 63818
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/files/education/iqadam-2025-preview.webp",
+          "encoded": 36932,
+          "decoded": 36932
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/urban_facade/sky.webp",
+          "encoded": 146102,
+          "decoded": 146102
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/tree-atlas.webp",
+          "encoded": 1211256,
+          "decoded": 1211256
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/utils/SkeletonUtils.js",
+          "encoded": 3201,
+          "decoded": 11535
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/weather.js",
+          "encoded": 2269,
+          "decoded": 4893
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vegetation.js",
+          "encoded": 1366,
+          "decoded": 2790
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/exterior-surfaces.js",
+          "encoded": 1887,
+          "decoded": 4128
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/audio-worker.js",
+          "encoded": 238,
+          "decoded": 341
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/audio-score.js",
+          "encoded": 1706,
+          "decoded": 3745
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/workbench.glb.gz",
+          "encoded": 166144,
+          "decoded": 166144
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/cabinet.glb.gz",
+          "encoded": 157521,
+          "decoded": 157521
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/robot.glb.gz",
+          "encoded": 53795,
+          "decoded": 53795
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/chair.glb.gz",
+          "encoded": 123772,
+          "decoded": 123772
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/side-table.glb.gz",
+          "encoded": 91304,
+          "decoded": 91304
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/window/window.glb.gz",
+          "encoded": 98384,
+          "decoded": 98384
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/orbit.glb.gz",
+          "encoded": 41036,
+          "decoded": 41036
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/selected.gltf",
+          "encoded": 1000,
+          "decoded": 3468
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/skyline.glb.gz",
+          "encoded": 13607,
+          "decoded": 13607
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/drawer.glb.gz",
+          "encoded": 91610,
+          "decoded": 91610
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/tree-trunk.glb.gz",
+          "encoded": 216172,
+          "decoded": 216172
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/corridor/profiles.glb.gz",
+          "encoded": 191351,
+          "decoded": 191351
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/lamp.glb.gz",
+          "encoded": 124840,
+          "decoded": 124840
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/ceiling-panel.glb.gz",
+          "encoded": 13983,
+          "decoded": 13983
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/door.glb.gz",
+          "encoded": 86154,
+          "decoded": 86154
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/selected.bin",
+          "encoded": 421272,
+          "decoded": 421272
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_pot_diff_1k.webp",
+          "encoded": 134428,
+          "decoded": 134428
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "encoded": 134396,
+          "decoded": 134396
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "encoded": 153486,
+          "decoded": 153486
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "encoded": 146806,
+          "decoded": 146806
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "encoded": 131324,
+          "decoded": 131324
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "encoded": 161598,
+          "decoded": 161598
+        }
+      ],
+      "buffer": [
+        1440,
+        900
+      ]
+    },
+    {
+      "version": "before",
+      "mobile": true,
+      "route": "ordinary",
+      "failed": [],
+      "responses": [
+        {
+          "url": "http://127.0.0.1:4331/before/",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/main-DAKF_UFa.css",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/preferences-38aKeYz_.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/projects/media/helio-hero-800.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/projects/media/helio-card-480.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/projects/media/keyform-card-480.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/projects/media/poslesvet-card-480.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/main-CaBIUae1.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/projects/media/framepack-card-480.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/scene-controls-B-65-GTU.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/favicon.svg",
+          "status": 200
+        }
+      ],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4331/before/assets/preferences-38aKeYz_.js",
+          "encoded": 33764,
+          "decoded": 112482
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/main-DAKF_UFa.css",
+          "encoded": 14108,
+          "decoded": 69055
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/main-CaBIUae1.js",
+          "encoded": 4258,
+          "decoded": 11809
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/projects/media/helio-hero-800.webp",
+          "encoded": 86612,
+          "decoded": 86612
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/projects/media/helio-card-480.webp",
+          "encoded": 39228,
+          "decoded": 39228
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/projects/media/keyform-card-480.webp",
+          "encoded": 18622,
+          "decoded": 18622
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/projects/media/poslesvet-card-480.webp",
+          "encoded": 18076,
+          "decoded": 18076
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+          "encoded": 33760,
+          "decoded": 33760
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+          "encoded": 18168,
+          "decoded": 18168
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+          "encoded": 15860,
+          "decoded": 15860
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/projects/media/framepack-card-480.webp",
+          "encoded": 10582,
+          "decoded": 10582
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/assets/scene-controls-B-65-GTU.js",
+          "encoded": 1092,
+          "decoded": 2688
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/favicon.svg",
+          "encoded": 277,
+          "decoded": 388
+        }
+      ],
+      "buffer": [
+        300,
+        150
+      ]
+    },
+    {
+      "version": "before",
+      "mobile": true,
+      "route": "room",
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/workbench.glb.gz",
+          "failure": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        }
+      ],
+      "responses": [
+        {
+          "url": "http://127.0.0.1:4331/before/room/?lang=ru",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/style.css",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/main.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/boot.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/loaders/GLTFLoader.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/ui.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/collection-viewer.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/profile-data.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/projects-data.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/cube-state.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/collection-models.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/three.module.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/utils/BufferGeometryUtils.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/geometries/RoundedBoxGeometry.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/three.core.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/world.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/audio.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/room-accents.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/architecture-materials.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/cabinet-scene.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/daylight.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/window-fragment.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/streaming.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/furniture.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/audio-score.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/csm/CSM.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/stream-manifest.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/compressed-models.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/csm/CSMFrustum.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/csm/CSMShader.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/entry/plaster.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/entry/floor.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/entry/oak.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/white_plaster_02/painted.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/white_plaster_02/nor_gl.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/white_plaster_02/rough.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/environments/RoomEnvironment.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/expo.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/laminate_floor_02/diff.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/audio-worker.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/laminate_floor_02/nor_gl.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/helio.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/keyform.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/poslesvet.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/laminate_floor_02/rough.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/utils/SkeletonUtils.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/window/indirect.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/audio-score.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/corridor/indirect.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/files/education/diploma-preview.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vegetation.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/weather.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/exterior-surfaces.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/files/education/iqadam-2025-preview.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/chair.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/window/window.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/drawer.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/door.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/robot.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/selected.gltf",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/34439393-0b46-4581-9d77-5ec5709b5291",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/eceac809-d32e-487c-a4f7-6f91858c7823",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/workbench.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/ceiling-panel.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/orbit.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/tree-trunk.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/urban_facade/sky.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/tree-atlas.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/lamp.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/skyline.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/side-table.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/cabinet.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/c21284ae-e759-45b4-8cc2-70543aa5258b",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/98c1c815-8694-449b-8567-98a18aa7fd98",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/corridor/profiles.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/selected.bin",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_pot_diff_1k.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/7b012878-c07c-4bab-9daa-bddee271fd18",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/7d2219fe-1eb4-416a-9fe6-f2d1404ad9a0",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/88275f99-8c2a-4d58-b7e6-ac023aa23c67",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/64ceb984-74fc-48cc-bac8-a8fe53b48dd7",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/79c20b0a-fff5-4d3e-a665-bef909341c7b",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/6a22cecb-3f77-4f08-b39f-476114a756b5",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/87ee3f3e-e482-4ffa-b6fd-a6e0511ac05e",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/66227014-a0c4-4223-8af8-140e1e4a8639",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/0cbc13a5-5cac-4025-87d7-f4589fca3644",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/46e53c3c-556f-4cc7-9a8b-cecb0d02cd92",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/ccf632c2-3a8f-4eed-b81a-e0c01f03a078",
+          "status": 200
+        }
+      ],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "stream": {
+        "ready": true,
+        "warming": false,
+        "warmError": null,
+        "skyFallback": false,
+        "phases": {
+          "room": {
+            "status": "ready",
+            "completed": 22,
+            "total": 22,
+            "failed": [],
+            "error": null
+          },
+          "decor": {
+            "status": "ready",
+            "completed": 11,
+            "total": 11,
+            "failed": [],
+            "error": null
+          },
+          "expo": {
+            "status": "ready",
+            "completed": 4,
+            "total": 4,
+            "failed": [],
+            "error": null
+          }
+        }
+      },
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4331/before/room/style.css",
+          "encoded": 6684,
+          "decoded": 23539
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/main.js",
+          "encoded": 9146,
+          "decoded": 27181
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/loaders/GLTFLoader.js",
+          "encoded": 25997,
+          "decoded": 117570
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/boot.js",
+          "encoded": 2905,
+          "decoded": 6885
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/ui.js",
+          "encoded": 6851,
+          "decoded": 19887
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/collection-viewer.js",
+          "encoded": 4278,
+          "decoded": 9883
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/profile-data.js",
+          "encoded": 2193,
+          "decoded": 6196
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/projects-data.js",
+          "encoded": 4973,
+          "decoded": 12684
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/cube-state.js",
+          "encoded": 915,
+          "decoded": 1806
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/three.module.js",
+          "encoded": 89055,
+          "decoded": 376660
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/collection-models.js",
+          "encoded": 1597,
+          "decoded": 3743
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/utils/BufferGeometryUtils.js",
+          "encoded": 8702,
+          "decoded": 37712
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/geometries/RoundedBoxGeometry.js",
+          "encoded": 1964,
+          "decoded": 6470
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/three.core.js",
+          "encoded": 103223,
+          "decoded": 402617
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/world.js",
+          "encoded": 14489,
+          "decoded": 41745
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/audio.js",
+          "encoded": 3102,
+          "decoded": 9564
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/room-accents.js",
+          "encoded": 178,
+          "decoded": 195
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/cabinet-scene.js",
+          "encoded": 1318,
+          "decoded": 2901
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/architecture-materials.js",
+          "encoded": 938,
+          "decoded": 1811
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/daylight.js",
+          "encoded": 933,
+          "decoded": 1729
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/window-fragment.js",
+          "encoded": 871,
+          "decoded": 1622
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/streaming.js",
+          "encoded": 1636,
+          "decoded": 3707
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/furniture.js",
+          "encoded": 1081,
+          "decoded": 2175
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/audio-score.js",
+          "encoded": 1706,
+          "decoded": 3745
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/csm/CSM.js",
+          "encoded": 3772,
+          "decoded": 13863
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/stream-manifest.js",
+          "encoded": 845,
+          "decoded": 3067
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/compressed-models.js",
+          "encoded": 1011,
+          "decoded": 2748
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/csm/CSMFrustum.js",
+          "encoded": 1630,
+          "decoded": 5281
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/csm/CSMShader.js",
+          "encoded": 2380,
+          "decoded": 11034
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/entry/plaster.webp",
+          "encoded": 2736,
+          "decoded": 2736
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/entry/floor.webp",
+          "encoded": 48346,
+          "decoded": 48346
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/entry/oak.webp",
+          "encoded": 40188,
+          "decoded": 40188
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/environments/RoomEnvironment.js",
+          "encoded": 1681,
+          "decoded": 4960
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/expo.js",
+          "encoded": 4841,
+          "decoded": 12200
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/white_plaster_02/painted.webp",
+          "encoded": 48960,
+          "decoded": 48960
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/white_plaster_02/nor_gl.webp",
+          "encoded": 304250,
+          "decoded": 304250
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/white_plaster_02/rough.webp",
+          "encoded": 187688,
+          "decoded": 187688
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/laminate_floor_02/diff.webp",
+          "encoded": 990842,
+          "decoded": 990842
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/laminate_floor_02/nor_gl.webp",
+          "encoded": 191874,
+          "decoded": 191874
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/laminate_floor_02/rough.webp",
+          "encoded": 177604,
+          "decoded": 177604
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/helio.webp",
+          "encoded": 257578,
+          "decoded": 257578
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/keyform.webp",
+          "encoded": 35204,
+          "decoded": 35204
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/poslesvet.webp",
+          "encoded": 41404,
+          "decoded": 41404
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/window/indirect.webp",
+          "encoded": 499252,
+          "decoded": 499252
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/corridor/indirect.webp",
+          "encoded": 484776,
+          "decoded": 484776
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/files/education/diploma-preview.webp",
+          "encoded": 63818,
+          "decoded": 63818
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/files/education/iqadam-2025-preview.webp",
+          "encoded": 36932,
+          "decoded": 36932
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/urban_facade/sky.webp",
+          "encoded": 146102,
+          "decoded": 146102
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/tree-atlas.webp",
+          "encoded": 1211256,
+          "decoded": 1211256
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vendor/addons/utils/SkeletonUtils.js",
+          "encoded": 3201,
+          "decoded": 11535
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/audio-worker.js",
+          "encoded": 238,
+          "decoded": 341
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/audio-score.js",
+          "encoded": 1706,
+          "decoded": 3745
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/weather.js",
+          "encoded": 2269,
+          "decoded": 4893
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/vegetation.js",
+          "encoded": 1366,
+          "decoded": 2790
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/exterior-surfaces.js",
+          "encoded": 1887,
+          "decoded": 4128
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/chair.glb.gz",
+          "encoded": 123772,
+          "decoded": 123772
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/window/window.glb.gz",
+          "encoded": 98384,
+          "decoded": 98384
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/drawer.glb.gz",
+          "encoded": 91610,
+          "decoded": 91610
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/door.glb.gz",
+          "encoded": 86154,
+          "decoded": 86154
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/robot.glb.gz",
+          "encoded": 53795,
+          "decoded": 53795
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/selected.gltf",
+          "encoded": 1000,
+          "decoded": 3468
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/workbench.glb.gz",
+          "encoded": 166144,
+          "decoded": 166144
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/ceiling-panel.glb.gz",
+          "encoded": 13983,
+          "decoded": 13983
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/orbit.glb.gz",
+          "encoded": 41036,
+          "decoded": 41036
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/tree-trunk.glb.gz",
+          "encoded": 216172,
+          "decoded": 216172
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/lamp.glb.gz",
+          "encoded": 124840,
+          "decoded": 124840
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/exterior/skyline.glb.gz",
+          "encoded": 13607,
+          "decoded": 13607
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/side-table.glb.gz",
+          "encoded": 91304,
+          "decoded": 91304
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/cabinet.glb.gz",
+          "encoded": 157521,
+          "decoded": 157521
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/corridor/profiles.glb.gz",
+          "encoded": 191351,
+          "decoded": 191351
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/selected.bin",
+          "encoded": 421272,
+          "decoded": 421272
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_pot_diff_1k.webp",
+          "encoded": 134428,
+          "decoded": 134428
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "encoded": 134396,
+          "decoded": 134396
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "encoded": 153486,
+          "decoded": 153486
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "encoded": 146806,
+          "decoded": 146806
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "encoded": 131324,
+          "decoded": 131324
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "encoded": 161598,
+          "decoded": 161598
+        }
+      ],
+      "buffer": [
+        390,
+        844
+      ]
+    },
+    {
+      "version": "after",
+      "mobile": false,
+      "route": "ordinary",
+      "failed": [],
+      "responses": [
+        {
+          "url": "http://127.0.0.1:4331/after/",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/preferences-38aKeYz_.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/main-DAKF_UFa.css",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/projects/media/helio-hero-800.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/projects/media/helio-card-800.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/projects/media/keyform-card-800.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/projects/media/poslesvet-card-800.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/main-CaBIUae1.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/projects/media/framepack-card-800.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/scene-controls-B-65-GTU.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/favicon.svg",
+          "status": 200
+        }
+      ],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4331/after/assets/preferences-38aKeYz_.js",
+          "encoded": 33764,
+          "decoded": 112482
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/main-CaBIUae1.js",
+          "encoded": 4255,
+          "decoded": 11808
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/main-DAKF_UFa.css",
+          "encoded": 14104,
+          "decoded": 69054
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/projects/media/helio-hero-800.webp",
+          "encoded": 86612,
+          "decoded": 86612
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/projects/media/helio-card-800.webp",
+          "encoded": 86612,
+          "decoded": 86612
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/projects/media/keyform-card-800.webp",
+          "encoded": 35204,
+          "decoded": 35204
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/projects/media/poslesvet-card-800.webp",
+          "encoded": 41404,
+          "decoded": 41404
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+          "encoded": 33760,
+          "decoded": 33760
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+          "encoded": 18168,
+          "decoded": 18168
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+          "encoded": 15860,
+          "decoded": 15860
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/projects/media/framepack-card-800.webp",
+          "encoded": 25156,
+          "decoded": 25156
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2",
+          "encoded": 10540,
+          "decoded": 10540
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/scene-controls-B-65-GTU.js",
+          "encoded": 1089,
+          "decoded": 2687
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/favicon.svg",
+          "encoded": 277,
+          "decoded": 388
+        }
+      ],
+      "buffer": [
+        300,
+        150
+      ]
+    },
+    {
+      "version": "after",
+      "mobile": false,
+      "route": "room",
+      "failed": [],
+      "responses": [
+        {
+          "url": "http://127.0.0.1:4331/after/room/?lang=ru",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/style.css",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/main.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/boot.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/loaders/GLTFLoader.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/ui.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/collection-viewer.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/profile-data.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/projects-data.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/cube-state.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/collection-models.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/three.module.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/utils/BufferGeometryUtils.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/geometries/RoundedBoxGeometry.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/three.core.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/world.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/audio.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/room-accents.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/cabinet-scene.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/architecture-materials.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/daylight.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/window-fragment.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/streaming.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/furniture.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/audio-score.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/csm/CSM.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/stream-manifest.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/compressed-models.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/csm/CSMFrustum.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/csm/CSMShader.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/entry/plaster.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/entry/floor.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/entry/oak.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/white_plaster_02/painted.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/white_plaster_02/nor_gl.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/white_plaster_02/rough.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/laminate_floor_02/diff.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/environments/RoomEnvironment.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/expo.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/audio-worker.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/laminate_floor_02/nor_gl.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/helio.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/keyform.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/poslesvet.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/laminate_floor_02/rough.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/utils/SkeletonUtils.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/window/indirect.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/audio-score.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/corridor/indirect.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/files/education/diploma-preview.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/weather.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vegetation.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/exterior-surfaces.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/room-accents/robot.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/workbench.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/door.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/side-table.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/chair.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/cabinet.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/exterior/skyline.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/lamp.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/e9345b60-9011-4241-a9ea-ddc70ba9dd07",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/exterior/tree-trunk.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/room-accents/orbit.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/files/education/iqadam-2025-preview.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/drawer.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/urban_facade/sky.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/exterior/tree-atlas.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/selected.gltf",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/corridor/profiles.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/room-accents/ceiling-panel.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/7ed5ce25-151d-49db-85a5-efbcc9ad16a5",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/bdaabe9d-4b1d-4e19-89c7-7b9420313bcd",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/window/window.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/9199929a-991b-4244-865c-54a058e63e60",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/6f7cd6d3-89de-4f9c-b9cf-1b9c7881135d",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/a6fe6c42-a875-4f76-beb3-c2aad0d7b193",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/6b15eed9-8617-4f38-b460-e146e65b1980",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/5a3f0f32-9c16-4ba0-86dc-0a066d584283",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/7a5eb12a-7803-40ae-8ef1-89f33c1873e7",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/494c89a2-a6b3-4307-a252-5ba232040a6f",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/4f8d59df-3153-4033-afd5-7c4fa1aa3998",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/732846ea-160b-4ebf-91b2-41deefda6b60",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/5fb79908-a406-41e3-8174-68eb3f2109ce",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/9a3a62f7-5a0f-451a-97c5-f20d76056ddc",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/c95985f4-bfe4-4008-b823-cef8cb1b9e9f",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/selected.bin",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_pot_diff_1k.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "status": 200
+        }
+      ],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "stream": {
+        "ready": true,
+        "warming": false,
+        "warmError": null,
+        "skyFallback": false,
+        "phases": {
+          "room": {
+            "status": "ready",
+            "completed": 22,
+            "total": 22,
+            "failed": [],
+            "error": null
+          },
+          "decor": {
+            "status": "ready",
+            "completed": 11,
+            "total": 11,
+            "failed": [],
+            "error": null
+          },
+          "expo": {
+            "status": "ready",
+            "completed": 4,
+            "total": 4,
+            "failed": [],
+            "error": null
+          }
+        }
+      },
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4331/after/room/style.css",
+          "encoded": 6684,
+          "decoded": 23539
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/main.js",
+          "encoded": 9369,
+          "decoded": 27750
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/loaders/GLTFLoader.js",
+          "encoded": 25997,
+          "decoded": 117570
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/boot.js",
+          "encoded": 2905,
+          "decoded": 6885
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/ui.js",
+          "encoded": 6851,
+          "decoded": 19887
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/collection-viewer.js",
+          "encoded": 4278,
+          "decoded": 9883
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/profile-data.js",
+          "encoded": 2193,
+          "decoded": 6196
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/projects-data.js",
+          "encoded": 4973,
+          "decoded": 12684
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/three.module.js",
+          "encoded": 89055,
+          "decoded": 376660
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/cube-state.js",
+          "encoded": 915,
+          "decoded": 1806
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/collection-models.js",
+          "encoded": 1597,
+          "decoded": 3743
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/utils/BufferGeometryUtils.js",
+          "encoded": 8702,
+          "decoded": 37712
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/geometries/RoundedBoxGeometry.js",
+          "encoded": 1964,
+          "decoded": 6470
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/three.core.js",
+          "encoded": 103223,
+          "decoded": 402617
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/world.js",
+          "encoded": 14728,
+          "decoded": 42443
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/audio.js",
+          "encoded": 3102,
+          "decoded": 9564
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/room-accents.js",
+          "encoded": 178,
+          "decoded": 195
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/cabinet-scene.js",
+          "encoded": 1318,
+          "decoded": 2901
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/architecture-materials.js",
+          "encoded": 938,
+          "decoded": 1811
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/daylight.js",
+          "encoded": 933,
+          "decoded": 1729
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/window-fragment.js",
+          "encoded": 871,
+          "decoded": 1622
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/streaming.js",
+          "encoded": 1636,
+          "decoded": 3707
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/furniture.js",
+          "encoded": 1081,
+          "decoded": 2175
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/audio-score.js",
+          "encoded": 1706,
+          "decoded": 3745
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/csm/CSM.js",
+          "encoded": 3772,
+          "decoded": 13863
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/stream-manifest.js",
+          "encoded": 845,
+          "decoded": 3067
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/compressed-models.js",
+          "encoded": 1011,
+          "decoded": 2748
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/csm/CSMFrustum.js",
+          "encoded": 1630,
+          "decoded": 5281
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/csm/CSMShader.js",
+          "encoded": 2380,
+          "decoded": 11034
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/entry/plaster.webp",
+          "encoded": 2736,
+          "decoded": 2736
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/entry/floor.webp",
+          "encoded": 48346,
+          "decoded": 48346
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/entry/oak.webp",
+          "encoded": 40188,
+          "decoded": 40188
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/environments/RoomEnvironment.js",
+          "encoded": 1681,
+          "decoded": 4960
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/expo.js",
+          "encoded": 4841,
+          "decoded": 12200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/white_plaster_02/painted.webp",
+          "encoded": 48960,
+          "decoded": 48960
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/white_plaster_02/nor_gl.webp",
+          "encoded": 304250,
+          "decoded": 304250
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/white_plaster_02/rough.webp",
+          "encoded": 187688,
+          "decoded": 187688
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/laminate_floor_02/nor_gl.webp",
+          "encoded": 191874,
+          "decoded": 191874
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/laminate_floor_02/diff.webp",
+          "encoded": 990842,
+          "decoded": 990842
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/helio.webp",
+          "encoded": 257578,
+          "decoded": 257578
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/keyform.webp",
+          "encoded": 35204,
+          "decoded": 35204
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/laminate_floor_02/rough.webp",
+          "encoded": 177604,
+          "decoded": 177604
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/poslesvet.webp",
+          "encoded": 41404,
+          "decoded": 41404
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/window/indirect.webp",
+          "encoded": 499252,
+          "decoded": 499252
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/corridor/indirect.webp",
+          "encoded": 484776,
+          "decoded": 484776
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/files/education/diploma-preview.webp",
+          "encoded": 63818,
+          "decoded": 63818
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/files/education/iqadam-2025-preview.webp",
+          "encoded": 36932,
+          "decoded": 36932
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/urban_facade/sky.webp",
+          "encoded": 146102,
+          "decoded": 146102
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/exterior/tree-atlas.webp",
+          "encoded": 1211256,
+          "decoded": 1211256
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/utils/SkeletonUtils.js",
+          "encoded": 3201,
+          "decoded": 11535
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/weather.js",
+          "encoded": 2269,
+          "decoded": 4893
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vegetation.js",
+          "encoded": 1366,
+          "decoded": 2790
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/exterior-surfaces.js",
+          "encoded": 1887,
+          "decoded": 4128
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/audio-worker.js",
+          "encoded": 238,
+          "decoded": 341
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/audio-score.js",
+          "encoded": 1706,
+          "decoded": 3745
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/room-accents/robot.glb.gz",
+          "encoded": 53795,
+          "decoded": 53795
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/workbench.glb.gz",
+          "encoded": 166144,
+          "decoded": 166144
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/door.glb.gz",
+          "encoded": 86154,
+          "decoded": 86154
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/side-table.glb.gz",
+          "encoded": 91304,
+          "decoded": 91304
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/chair.glb.gz",
+          "encoded": 123772,
+          "decoded": 123772
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/cabinet.glb.gz",
+          "encoded": 157521,
+          "decoded": 157521
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/exterior/skyline.glb.gz",
+          "encoded": 13607,
+          "decoded": 13607
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/lamp.glb.gz",
+          "encoded": 124840,
+          "decoded": 124840
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/exterior/tree-trunk.glb.gz",
+          "encoded": 216172,
+          "decoded": 216172
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/room-accents/orbit.glb.gz",
+          "encoded": 41036,
+          "decoded": 41036
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/drawer.glb.gz",
+          "encoded": 91610,
+          "decoded": 91610
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/selected.gltf",
+          "encoded": 1000,
+          "decoded": 3468
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/corridor/profiles.glb.gz",
+          "encoded": 191351,
+          "decoded": 191351
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/room-accents/ceiling-panel.glb.gz",
+          "encoded": 13983,
+          "decoded": 13983
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/window/window.glb.gz",
+          "encoded": 98384,
+          "decoded": 98384
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/selected.bin",
+          "encoded": 421272,
+          "decoded": 421272
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_pot_diff_1k.webp",
+          "encoded": 134428,
+          "decoded": 134428
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "encoded": 134396,
+          "decoded": 134396
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "encoded": 153486,
+          "decoded": 153486
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "encoded": 146806,
+          "decoded": 146806
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "encoded": 131324,
+          "decoded": 131324
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "encoded": 161598,
+          "decoded": 161598
+        }
+      ],
+      "buffer": [
+        1440,
+        900
+      ]
+    },
+    {
+      "version": "after",
+      "mobile": true,
+      "route": "ordinary",
+      "failed": [],
+      "responses": [
+        {
+          "url": "http://127.0.0.1:4331/after/",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/main-DAKF_UFa.css",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/preferences-38aKeYz_.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/main-CaBIUae1.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/projects/media/helio-hero-800.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/projects/media/helio-card-480.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/projects/media/keyform-card-480.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/projects/media/poslesvet-card-480.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/scene-controls-B-65-GTU.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/projects/media/framepack-card-480.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/favicon.svg",
+          "status": 200
+        }
+      ],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4331/after/assets/preferences-38aKeYz_.js",
+          "encoded": 33764,
+          "decoded": 112482
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/main-CaBIUae1.js",
+          "encoded": 4255,
+          "decoded": 11808
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/main-DAKF_UFa.css",
+          "encoded": 14104,
+          "decoded": 69054
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/projects/media/helio-hero-800.webp",
+          "encoded": 86612,
+          "decoded": 86612
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/projects/media/helio-card-480.webp",
+          "encoded": 39228,
+          "decoded": 39228
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/projects/media/keyform-card-480.webp",
+          "encoded": 18622,
+          "decoded": 18622
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/projects/media/poslesvet-card-480.webp",
+          "encoded": 18076,
+          "decoded": 18076
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+          "encoded": 33760,
+          "decoded": 33760
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+          "encoded": 18168,
+          "decoded": 18168
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+          "encoded": 15860,
+          "decoded": 15860
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/assets/scene-controls-B-65-GTU.js",
+          "encoded": 1089,
+          "decoded": 2687
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/projects/media/framepack-card-480.webp",
+          "encoded": 10582,
+          "decoded": 10582
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/favicon.svg",
+          "encoded": 277,
+          "decoded": 388
+        }
+      ],
+      "buffer": [
+        300,
+        150
+      ]
+    },
+    {
+      "version": "after",
+      "mobile": true,
+      "route": "room",
+      "failed": [],
+      "responses": [
+        {
+          "url": "http://127.0.0.1:4331/after/room/?lang=ru",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/style.css",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/main.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/boot.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/loaders/GLTFLoader.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/ui.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/collection-viewer.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/profile-data.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/projects-data.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/collection-models.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/cube-state.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/three.module.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/utils/BufferGeometryUtils.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/geometries/RoundedBoxGeometry.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/three.core.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/world.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/audio.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/room-accents.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/cabinet-scene.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/architecture-materials.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/daylight.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/window-fragment.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/streaming.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/furniture.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/audio-score.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/csm/CSM.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/stream-manifest.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/compressed-models.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/csm/CSMFrustum.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/csm/CSMShader.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/entry/plaster.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/entry/floor.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/entry/oak.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/white_plaster_02/painted.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/white_plaster_02/nor_gl.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/white_plaster_02/rough.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/laminate_floor_02/diff.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/environments/RoomEnvironment.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/expo.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/audio-worker.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/laminate_floor_02/nor_gl.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/helio.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/keyform.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/laminate_floor_02/rough.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/audio-score.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/utils/SkeletonUtils.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/poslesvet.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/window/indirect.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/corridor/indirect.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/files/education/diploma-preview.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/files/education/iqadam-2025-preview.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/urban_facade/sky.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/exterior/tree-atlas.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/exterior-surfaces.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vegetation.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/weather.js",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/chair.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/window/window.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/drawer.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/door.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/room-accents/robot.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/selected.gltf",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/workbench.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/room-accents/ceiling-panel.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/room-accents/orbit.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/9d702444-9c78-4d80-b72a-f73c65bcf0e8",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/df83abb5-6d6c-4939-8428-21a7eea41a33",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/exterior/tree-trunk.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/lamp.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/exterior/skyline.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/side-table.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/0b8ea947-1d25-419d-97b6-5c2b43818f93",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/c5c90b37-7a02-46f8-90fb-1531a131a144",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/cabinet.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/corridor/profiles.glb.gz",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/selected.bin",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_pot_diff_1k.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/e95b061a-62bd-4ca0-a225-e383a967b934",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/23396215-dad4-4708-ac40-cb8ddc96572e",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/2ca28584-cdcc-4c10-ac02-02eb9f256f6f",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/274bbf85-ea34-4c17-ae67-e8660fb75709",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/e7ae1bf2-3883-4df6-a08d-f92d3292cbac",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/50dd88e1-ee6d-428e-8b3d-5afb6328adcf",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/4e4d0ec5-ae65-4e41-b78c-e2b0b775b32b",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/a2b1fbe4-1728-46b2-85dd-62fb5244fdfa",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/de3470c6-9ee0-4239-a84c-cab451d2b4b1",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/8a67b8e5-2055-4074-b3fc-28236d4bfb00",
+          "status": 200
+        },
+        {
+          "url": "blob:http://127.0.0.1:4331/275fbf1e-0635-4d1a-acfc-53021660c77b",
+          "status": 200
+        }
+      ],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "stream": {
+        "ready": true,
+        "warming": false,
+        "warmError": null,
+        "skyFallback": false,
+        "phases": {
+          "room": {
+            "status": "ready",
+            "completed": 22,
+            "total": 22,
+            "failed": [],
+            "error": null
+          },
+          "decor": {
+            "status": "ready",
+            "completed": 11,
+            "total": 11,
+            "failed": [],
+            "error": null
+          },
+          "expo": {
+            "status": "ready",
+            "completed": 4,
+            "total": 4,
+            "failed": [],
+            "error": null
+          }
+        }
+      },
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4331/after/room/style.css",
+          "encoded": 6684,
+          "decoded": 23539
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/main.js",
+          "encoded": 9369,
+          "decoded": 27750
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/loaders/GLTFLoader.js",
+          "encoded": 25997,
+          "decoded": 117570
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/boot.js",
+          "encoded": 2905,
+          "decoded": 6885
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/ui.js",
+          "encoded": 6851,
+          "decoded": 19887
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/collection-viewer.js",
+          "encoded": 4278,
+          "decoded": 9883
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/profile-data.js",
+          "encoded": 2193,
+          "decoded": 6196
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/projects-data.js",
+          "encoded": 4973,
+          "decoded": 12684
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/three.module.js",
+          "encoded": 89055,
+          "decoded": 376660
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/collection-models.js",
+          "encoded": 1597,
+          "decoded": 3743
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/cube-state.js",
+          "encoded": 915,
+          "decoded": 1806
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/utils/BufferGeometryUtils.js",
+          "encoded": 8702,
+          "decoded": 37712
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/geometries/RoundedBoxGeometry.js",
+          "encoded": 1964,
+          "decoded": 6470
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/three.core.js",
+          "encoded": 103223,
+          "decoded": 402617
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/world.js",
+          "encoded": 14728,
+          "decoded": 42443
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/audio.js",
+          "encoded": 3102,
+          "decoded": 9564
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/room-accents.js",
+          "encoded": 178,
+          "decoded": 195
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/cabinet-scene.js",
+          "encoded": 1318,
+          "decoded": 2901
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/architecture-materials.js",
+          "encoded": 938,
+          "decoded": 1811
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/daylight.js",
+          "encoded": 933,
+          "decoded": 1729
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/window-fragment.js",
+          "encoded": 871,
+          "decoded": 1622
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/streaming.js",
+          "encoded": 1636,
+          "decoded": 3707
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/furniture.js",
+          "encoded": 1081,
+          "decoded": 2175
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/audio-score.js",
+          "encoded": 1706,
+          "decoded": 3745
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/csm/CSM.js",
+          "encoded": 3772,
+          "decoded": 13863
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/stream-manifest.js",
+          "encoded": 845,
+          "decoded": 3067
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/compressed-models.js",
+          "encoded": 1011,
+          "decoded": 2748
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/csm/CSMFrustum.js",
+          "encoded": 1630,
+          "decoded": 5281
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/csm/CSMShader.js",
+          "encoded": 2380,
+          "decoded": 11034
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/entry/plaster.webp",
+          "encoded": 2736,
+          "decoded": 2736
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/entry/floor.webp",
+          "encoded": 48346,
+          "decoded": 48346
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/entry/oak.webp",
+          "encoded": 40188,
+          "decoded": 40188
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/environments/RoomEnvironment.js",
+          "encoded": 1681,
+          "decoded": 4960
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/expo.js",
+          "encoded": 4841,
+          "decoded": 12200
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/white_plaster_02/painted.webp",
+          "encoded": 48960,
+          "decoded": 48960
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/white_plaster_02/nor_gl.webp",
+          "encoded": 304250,
+          "decoded": 304250
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/white_plaster_02/rough.webp",
+          "encoded": 187688,
+          "decoded": 187688
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/laminate_floor_02/rough.webp",
+          "encoded": 177604,
+          "decoded": 177604
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/laminate_floor_02/nor_gl.webp",
+          "encoded": 191874,
+          "decoded": 191874
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/laminate_floor_02/diff.webp",
+          "encoded": 990842,
+          "decoded": 990842
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/helio.webp",
+          "encoded": 257578,
+          "decoded": 257578
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/keyform.webp",
+          "encoded": 35204,
+          "decoded": 35204
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/poslesvet.webp",
+          "encoded": 41404,
+          "decoded": 41404
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/window/indirect.webp",
+          "encoded": 499252,
+          "decoded": 499252
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/corridor/indirect.webp",
+          "encoded": 484776,
+          "decoded": 484776
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/files/education/diploma-preview.webp",
+          "encoded": 63818,
+          "decoded": 63818
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/files/education/iqadam-2025-preview.webp",
+          "encoded": 36932,
+          "decoded": 36932
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/urban_facade/sky.webp",
+          "encoded": 146102,
+          "decoded": 146102
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/exterior/tree-atlas.webp",
+          "encoded": 1211256,
+          "decoded": 1211256
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vendor/addons/utils/SkeletonUtils.js",
+          "encoded": 3201,
+          "decoded": 11535
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/audio-worker.js",
+          "encoded": 238,
+          "decoded": 341
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/audio-score.js",
+          "encoded": 1706,
+          "decoded": 3745
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/vegetation.js",
+          "encoded": 1366,
+          "decoded": 2790
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/weather.js",
+          "encoded": 2269,
+          "decoded": 4893
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/exterior-surfaces.js",
+          "encoded": 1887,
+          "decoded": 4128
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/chair.glb.gz",
+          "encoded": 123772,
+          "decoded": 123772
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/window/window.glb.gz",
+          "encoded": 98384,
+          "decoded": 98384
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/drawer.glb.gz",
+          "encoded": 91610,
+          "decoded": 91610
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/door.glb.gz",
+          "encoded": 86154,
+          "decoded": 86154
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/room-accents/robot.glb.gz",
+          "encoded": 53795,
+          "decoded": 53795
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/selected.gltf",
+          "encoded": 1000,
+          "decoded": 3468
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/workbench.glb.gz",
+          "encoded": 166144,
+          "decoded": 166144
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/room-accents/ceiling-panel.glb.gz",
+          "encoded": 13983,
+          "decoded": 13983
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/room-accents/orbit.glb.gz",
+          "encoded": 41036,
+          "decoded": 41036
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/exterior/tree-trunk.glb.gz",
+          "encoded": 216172,
+          "decoded": 216172
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/lamp.glb.gz",
+          "encoded": 124840,
+          "decoded": 124840
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/exterior/skyline.glb.gz",
+          "encoded": 13607,
+          "decoded": 13607
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/side-table.glb.gz",
+          "encoded": 91304,
+          "decoded": 91304
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/cabinet.glb.gz",
+          "encoded": 157521,
+          "decoded": 157521
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/corridor/profiles.glb.gz",
+          "encoded": 191351,
+          "decoded": 191351
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/selected.bin",
+          "encoded": 421272,
+          "decoded": 421272
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_pot_diff_1k.webp",
+          "encoded": 134428,
+          "decoded": 134428
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "encoded": 134396,
+          "decoded": 134396
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "encoded": 153486,
+          "decoded": 153486
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "encoded": 146806,
+          "decoded": 146806
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "encoded": 131324,
+          "decoded": 131324
+        },
+        {
+          "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "encoded": 161598,
+          "decoded": 161598
+        }
+      ],
+      "buffer": [
+        390,
+        844
+      ]
+    }
+  ],
+  "passed": false,
+  "strictAllRunsNetworkClean": false,
+  "candidatePassed": true,
+  "allScenesReady": true,
+  "abortPayloadChecks": [
+    {
+      "version": "before",
+      "mobile": false,
+      "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/chair.glb.gz",
+      "reportedDecodedBytes": 123772,
+      "expectedFileBytes": 123772,
+      "completeTimingBytesMatchDisk": true
+    },
+    {
+      "version": "before",
+      "mobile": true,
+      "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/workbench.glb.gz",
+      "reportedDecodedBytes": 166144,
+      "expectedFileBytes": 166144,
+      "completeTimingBytesMatchDisk": true
+    }
+  ]
+}

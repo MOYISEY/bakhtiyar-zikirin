@@ -9,6 +9,7 @@ import {createStreaming} from './streaming.js';
 import {L} from './ui.js';
 import {PROJECTS} from './projects-data.js';
 import {authoredFurniture,FURNITURE_FILES,refinedJoinery,JOINERY_FILES,installStudioFurniture} from './furniture.js';
+import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
 import {RoundedBoxGeometry} from 'three/addons/geometries/RoundedBoxGeometry.js';
 
 export async function createWorld(renderer,camera){
@@ -90,7 +91,13 @@ export async function createWorld(renderer,camera){
  box(.028,2.38,1.52,dark,-1.345,1.41,7.05,.004);
  const acousticWood=cloneMaterial(floor);acousticWood.color.set('#dfc496');acousticWood.normalScale.set(.08,.08);acousticWood.roughness=.7;
  acousticWood.onBeforeCompile=shader=>{shader.fragmentShader=shader.fragmentShader.replace('#include <map_fragment>','#include <map_fragment>\ndiffuseColor.rgb=mix(diffuse*vec3(.35,.30,.24),diffuseColor.rgb,.35);')};acousticWood.customProgramCacheKey=()=> 'corridor-grain-v1';
- for(let z=6.32;z<7.8;z+=.065){const slat=box(.045,2.36,.038,acousticWood,-1.315,1.41,z,.005),uv=slat.geometry.attributes.uv;for(let i=0;i<uv.count;i++)uv.setXY(i,.35+uv.getY(i)*.16,.13+uv.getX(i)*.035+(z-6.32)*.07)}
+ const corridorSlats=[];
+ for(let z=6.32;z<7.8;z+=.065){const slat=box(.045,2.36,.038,acousticWood,-1.315,1.41,z,.005),uv=slat.geometry.attributes.uv;for(let i=0;i<uv.count;i++)uv.setXY(i,.35+uv.getY(i)*.16,.13+uv.getX(i)*.035+(z-6.32)*.07);corridorSlats.push(slat)}
+ // One static draw retains every authored vertex, grain UV and shadow. Physical
+ // collider meshes remain separate; moving joinery never enters this batch.
+ const slatParts=corridorSlats.map(o=>{o.updateMatrix();return o.geometry.clone().applyMatrix4(o.matrix)});
+ const corridorBatch=new T.Mesh(mergeGeometries(slatParts,false),acousticWood);corridorBatch.name='Static corridor acoustic battens';corridorBatch.castShadow=corridorBatch.receiveShadow=true;
+ slatParts.forEach(g=>g.dispose());corridorSlats.forEach(o=>o.removeFromParent());scene.add(corridorBatch);
  // Recessed base, upper cap and ceiling shadow gap establish construction scale.
  for(const side of [-1,1]){box(.012,.014,9.42,dark,side*1.334,.083,6.9,.002);box(.075,.035,9.42,cream,side*1.33,2.94,6.9,.006);}
 

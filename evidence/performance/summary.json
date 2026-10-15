@@ -1,0 +1,215 @@
+{
+  "baseline": "4b342abb836f817dcabc76e2d99f265c15945c4c",
+  "method": "Installed headless Edge; fresh context + disabled HTTP cache per route; desktop 1440x900 DPR1, touch emulation 390x844 DPR1.75; CDP 40ms latency/10Mbps down/2Mbps up, CPU1x. Serial runs, audio muted. Frame gaps and synchronous RAF callback duration measured during 4s continuous rain at settled desk/window; CPU duration is not GPU time. Capture mode used only for matched screenshots.",
+  "browser": "155.0.4283.45",
+  "groups": [
+    {
+      "mobile": false,
+      "route": "ordinary",
+      "before": {
+        "n": 3,
+        "lcpMs": 420,
+        "readyMs": null,
+        "bytes": 421418,
+        "requests": 15
+      },
+      "after": {
+        "n": 3,
+        "lcpMs": 352,
+        "readyMs": null,
+        "bytes": 421400,
+        "requests": 15
+      }
+    },
+    {
+      "mobile": false,
+      "route": "room",
+      "before": {
+        "n": 3,
+        "lcpMs": 212,
+        "readyMs": 9364,
+        "bytes": 7870079,
+        "requests": 78,
+        "views": {
+          "desk": {
+            "drawCalls": 879,
+            "triangles": 1141371,
+            "renderCpuMedianMs": 16.5,
+            "renderCpuP95Ms": 18.699999999254942,
+            "rafGapP95Ms": 13.899999999999636,
+            "renders": [
+              89,
+              89,
+              89
+            ],
+            "buffer": [
+              1440,
+              900
+            ]
+          },
+          "window": {
+            "drawCalls": 859,
+            "triangles": 1122012,
+            "renderCpuMedianMs": 7.5,
+            "renderCpuP95Ms": 8.700000002980232,
+            "rafGapP95Ms": 7.100000000002183,
+            "renders": [
+              88,
+              90,
+              89
+            ],
+            "buffer": [
+              1440,
+              900
+            ]
+          }
+        }
+      },
+      "after": {
+        "n": 3,
+        "lcpMs": 216,
+        "readyMs": 9253.89999999851,
+        "bytes": 7870541,
+        "requests": 78,
+        "views": {
+          "desk": {
+            "drawCalls": 122,
+            "triangles": 191411,
+            "renderCpuMedianMs": 2.800000000745058,
+            "renderCpuP95Ms": 3.5,
+            "rafGapP95Ms": 7.100000000000364,
+            "renders": [
+              89,
+              88,
+              89
+            ],
+            "buffer": [
+              1440,
+              900
+            ]
+          },
+          "window": {
+            "drawCalls": 78,
+            "triangles": 166444,
+            "renderCpuMedianMs": 2.199999999254942,
+            "renderCpuP95Ms": 2.800000000745058,
+            "rafGapP95Ms": 7.100000000002183,
+            "renders": [
+              89,
+              88,
+              89
+            ],
+            "buffer": [
+              1440,
+              900
+            ]
+          }
+        }
+      }
+    },
+    {
+      "mobile": true,
+      "route": "ordinary",
+      "before": {
+        "n": 3,
+        "lcpMs": 484,
+        "readyMs": null,
+        "bytes": 410578,
+        "requests": 14
+      },
+      "after": {
+        "n": 3,
+        "lcpMs": 492,
+        "readyMs": null,
+        "bytes": 410560,
+        "requests": 14
+      }
+    },
+    {
+      "mobile": true,
+      "route": "room",
+      "before": {
+        "n": 3,
+        "lcpMs": 200,
+        "readyMs": 9234.89999999851,
+        "bytes": 7870079,
+        "requests": 78,
+        "views": {
+          "desk": {
+            "drawCalls": 801,
+            "triangles": 1056493,
+            "renderCpuMedianMs": 0,
+            "renderCpuP95Ms": 0,
+            "rafGapP95Ms": 7.100000000000364,
+            "renders": [
+              0,
+              0,
+              0
+            ],
+            "buffer": [
+              682,
+              1477
+            ]
+          },
+          "window": {
+            "drawCalls": 855,
+            "triangles": 1106898,
+            "renderCpuMedianMs": 10.5,
+            "renderCpuP95Ms": 12,
+            "rafGapP95Ms": 7.099999999998545,
+            "renders": [
+              89,
+              88,
+              89
+            ],
+            "buffer": [
+              682,
+              1477
+            ]
+          }
+        }
+      },
+      "after": {
+        "n": 3,
+        "lcpMs": 212,
+        "readyMs": 9119.39999999851,
+        "bytes": 7870541,
+        "requests": 78,
+        "views": {
+          "desk": {
+            "drawCalls": 757,
+            "triangles": 1056493,
+            "renderCpuMedianMs": 0,
+            "renderCpuP95Ms": 0,
+            "rafGapP95Ms": 7.099999999998545,
+            "renders": [
+              0,
+              0,
+              0
+            ],
+            "buffer": [
+              682,
+              1477
+            ]
+          },
+          "window": {
+            "drawCalls": 81,
+            "triangles": 152782,
+            "renderCpuMedianMs": 2.399999998509884,
+            "renderCpuP95Ms": 2.900000002235174,
+            "rafGapP95Ms": 7.099999999998545,
+            "renders": [
+              88,
+              88,
+              89
+            ],
+            "buffer": [
+              682,
+              1477
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

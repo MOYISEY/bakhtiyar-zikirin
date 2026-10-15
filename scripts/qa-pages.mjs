@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
 import AxeBuilder from '@axe-core/playwright';
 import {openBrowser} from './browser-config.mjs';
+const edgesOnly=process.argv.includes('--edges-only');
 const base=process.argv[2]??'http://127.0.0.1:5202/',scope=process.argv[3]??'local';
 const version=process.env.QA_EVIDENCE_VERSION??'v12';
 const out=`evidence/${version}/${scope}-pages.json`,shots=`qa-private/${version}/${scope}`;mkdirSync(shots,{recursive:true});mkdirSync(`evidence/${version}/screenshots`,{recursive:true});
@@ -11,7 +12,7 @@ let b;const save=()=>writeFileSync(out,JSON.stringify(report,null,2));
 async function decodeImages(page){return page.locator('img[src]').evaluateAll(async nodes=>{const errors=[];for(const n of nodes){try{n.loading='eager';await Promise.race([n.decode(),new Promise((_,reject)=>setTimeout(()=>reject(Error('Image decode timeout')),10000))]);if(!n.naturalWidth)errors.push(n.src);}catch{errors.push(n.src);}}return errors;});}
 async function shot(page,name,publish=false){await page.screenshot({path:shots+'/'+name+'.png'});if(publish)await page.screenshot({path:`evidence/${version}/screenshots/`+scope+'-'+name+'.png'});}
 try {
-for(const width of [1366,390])for(const lang of ['ru','kk','en'])for(const theme of ['light','dark']) {
+for(const width of edgesOnly?[]:[1366,390])for(const lang of ['ru','kk','en'])for(const theme of ['light','dark']) {
  if(['live','smoke'].includes(scope)&&theme!==(width===1366?'light':'dark'))continue;
  b=await openBrowser();const context=await b.newContext({viewport:{width,height:width===1366?768:844},hasTouch:width===390,reducedMotion:'reduce',colorScheme:theme,acceptDownloads:true});
  await context.addInitScript(p=>localStorage.setItem('portfolio.preferences.v1',JSON.stringify(p)),{language:lang,theme});
@@ -75,7 +76,7 @@ for(const width of [1366,390])for(const lang of ['ru','kk','en'])for(const theme
  }finally{await context.close();await b.close();}
  console.log(JSON.stringify({width,lang,theme,passed:report.cases.filter(c=>c.width===width&&c.lang===lang&&c.theme===theme).every(c=>c.passed),flow:report.interactions.at(-1).passed}));
 }
-if(scope==='local') {
+if(scope==='local'||edgesOnly) {
  b=await openBrowser();
  for(const path of ['', 'projects/','projects/keyform.html']) {
   const context=await b.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}}),page=await context.newPage(),edge={type:'no-js',path,passed:false};

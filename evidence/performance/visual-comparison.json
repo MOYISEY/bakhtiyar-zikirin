@@ -1,0 +1,1577 @@
+{
+  "method": "52 native PNG frame pairs, identical camera matrices/projection, no rescaling or retouch; per-channel pixel comparison on decoded PNGs. >8 threshold is reported, not used to waive visual review.",
+  "frames": [
+    {
+      "filename": "desktop-corridor.png",
+      "pose": {},
+      "identicalCamera": true,
+      "before": {
+        "calls": 1044,
+        "triangles": 1198265,
+        "hash": "14b0c46fcce0327d1144f51129e1dfb65764069c11115bb71239cebb4bd1b849"
+      },
+      "after": {
+        "calls": 956,
+        "triangles": 1198265,
+        "hash": "9990abfe6d699f332fd245505486be7247a156138a092bc4a58bd1ad05e33f6a"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 309,
+      "above8Pixels": 3,
+      "above8Fraction": 0.0000023148148148148148,
+      "rmse": 0.02724960829559527,
+      "max": 26
+    },
+    {
+      "filename": "desktop-side-door-01.png",
+      "pose": {
+        "cameraPose": {
+          "position": [
+            0,
+            1.6,
+            5.1
+          ],
+          "target": [
+            -1.375,
+            1.4,
+            5.1
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 886,
+        "triangles": 1095134,
+        "hash": "74c5bb69dfb83647333e62771e939c1e07d8c080abef924fb3a3a79033432bf9"
+      },
+      "after": {
+        "calls": 800,
+        "triangles": 1095734,
+        "hash": "74c5bb69dfb83647333e62771e939c1e07d8c080abef924fb3a3a79033432bf9"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "desktop-side-door-02.png",
+      "pose": {
+        "cameraPose": {
+          "position": [
+            0,
+            1.6,
+            3.9
+          ],
+          "target": [
+            1.375,
+            1.4,
+            3.9
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 820,
+        "triangles": 990726,
+        "hash": "a353ca59c6c1ed352f898afe61fd9e12321ec407669f87f7233b596b37855d0a"
+      },
+      "after": {
+        "calls": 754,
+        "triangles": 990726,
+        "hash": "a353ca59c6c1ed352f898afe61fd9e12321ec407669f87f7233b596b37855d0a"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "desktop-side-door-03.png",
+      "pose": {
+        "cameraPose": {
+          "position": [
+            0,
+            1.6,
+            8.2
+          ],
+          "target": [
+            1.375,
+            1.4,
+            8.2
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 813,
+        "triangles": 988626,
+        "hash": "4b9875f8b8acabd753b0832d575cdabad4894a23493afc76605b217a74f0ba86"
+      },
+      "after": {
+        "calls": 747,
+        "triangles": 988626,
+        "hash": "4b9875f8b8acabd753b0832d575cdabad4894a23493afc76605b217a74f0ba86"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "desktop-overhead.png",
+      "pose": {
+        "cameraPose": {
+          "position": [
+            0,
+            1.6,
+            7
+          ],
+          "target": [
+            0,
+            3,
+            7.9
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 769,
+        "triangles": 913843,
+        "hash": "253e9d09637a305b48227b0563e45d93e971f0d09c0f4d4c25f947fd87399c82"
+      },
+      "after": {
+        "calls": 690,
+        "triangles": 916543,
+        "hash": "253e9d09637a305b48227b0563e45d93e971f0d09c0f4d4c25f947fd87399c82"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "desktop-entry-front-0.25.png",
+      "pose": {
+        "entranceAngle": 0.415,
+        "cameraPose": {
+          "position": [
+            0,
+            1.6,
+            3.3
+          ],
+          "target": [
+            0,
+            1.3,
+            2
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 957,
+        "triangles": 1182561,
+        "hash": "45b648b3e2087aa5b9925ee69b547fec5d623e2e4428b80ed5af457bf08c6ad9"
+      },
+      "after": {
+        "calls": 891,
+        "triangles": 1182561,
+        "hash": "45b648b3e2087aa5b9925ee69b547fec5d623e2e4428b80ed5af457bf08c6ad9"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "desktop-entry-back-0.25.png",
+      "pose": {
+        "view": "desk",
+        "entranceAngle": 0.415,
+        "cameraPose": {
+          "position": [
+            0.65,
+            1.6,
+            1.2
+          ],
+          "target": [
+            0,
+            1.3,
+            2.1
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 911,
+        "triangles": 1054756,
+        "hash": "f7bf8da1e75f966248fe40c448d9aa4758e9a3e91e4ecc16ee454f474e2d11a6"
+      },
+      "after": {
+        "calls": 823,
+        "triangles": 1054756,
+        "hash": "43aea9ab592742a94c82310031ad07dc83a5a3db96b7eb86608a6ddcb17907e7"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 113,
+      "above8Pixels": 1,
+      "above8Fraction": 7.716049382716049e-7,
+      "rmse": 0.014442663707897648,
+      "max": 18
+    },
+    {
+      "filename": "desktop-entry-front-0.5.png",
+      "pose": {
+        "entranceAngle": 0.79,
+        "cameraPose": {
+          "position": [
+            0,
+            1.6,
+            3.3
+          ],
+          "target": [
+            0,
+            1.3,
+            2
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 958,
+        "triangles": 1182749,
+        "hash": "404fd74c670b3b96b0ed25219990ec9cd3b22e64aad52bb3fc071a6eef9e221d"
+      },
+      "after": {
+        "calls": 892,
+        "triangles": 1182749,
+        "hash": "404fd74c670b3b96b0ed25219990ec9cd3b22e64aad52bb3fc071a6eef9e221d"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "desktop-entry-back-0.5.png",
+      "pose": {
+        "view": "desk",
+        "entranceAngle": 0.79,
+        "cameraPose": {
+          "position": [
+            0.65,
+            1.6,
+            1.2
+          ],
+          "target": [
+            0,
+            1.3,
+            2.1
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 912,
+        "triangles": 1054944,
+        "hash": "0648179b63b5e8dd2532ee2013e72d592487070605c82ca1bba9d245e9c39b2d"
+      },
+      "after": {
+        "calls": 824,
+        "triangles": 1054944,
+        "hash": "a52f9b264e71203b3d8b4a32258f25f621565983b5d5fb30439811431f0b34ff"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 157,
+      "above8Pixels": 1,
+      "above8Fraction": 7.716049382716049e-7,
+      "rmse": 0.015053061157311537,
+      "max": 18
+    },
+    {
+      "filename": "desktop-entry-front-1.png",
+      "pose": {
+        "entranceAngle": 1.54,
+        "cameraPose": {
+          "position": [
+            0,
+            1.6,
+            3.3
+          ],
+          "target": [
+            0,
+            1.3,
+            2
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 958,
+        "triangles": 1182749,
+        "hash": "566b9d5eca36b8b3611165c3a8e0a961408ca13c5894fd1a095f90bbeb4ddb52"
+      },
+      "after": {
+        "calls": 892,
+        "triangles": 1182749,
+        "hash": "5dbdd9cf32cdfd812531587ec41a22a30b10cb01464b0c02cc699b93300f9184"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 23,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0.0033640559489972128,
+      "max": 1
+    },
+    {
+      "filename": "desktop-entry-back-1.png",
+      "pose": {
+        "view": "desk",
+        "entranceAngle": 1.54,
+        "cameraPose": {
+          "position": [
+            0.65,
+            1.6,
+            1.2
+          ],
+          "target": [
+            0,
+            1.3,
+            2.1
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 912,
+        "triangles": 1054944,
+        "hash": "c4901a0b6f0ba54f4f2a35177a719efebf9bd4d8460bbd3b38e07298c0cb2654"
+      },
+      "after": {
+        "calls": 824,
+        "triangles": 1054944,
+        "hash": "94f2985bdb49aeaf26c585fe192b778def07325bd1332605fb5698601282d518"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 105,
+      "above8Pixels": 1,
+      "above8Fraction": 7.716049382716049e-7,
+      "rmse": 0.014371253313844956,
+      "max": 18
+    },
+    {
+      "filename": "desktop-desk-on.png",
+      "pose": {
+        "view": "desk"
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 879,
+        "triangles": 1141371,
+        "hash": "533cdb47d294427492f4cce33c317ec19d03f0888cfcd5cbfffef78455767c8a"
+      },
+      "after": {
+        "calls": 818,
+        "triangles": 1142871,
+        "hash": "533cdb47d294427492f4cce33c317ec19d03f0888cfcd5cbfffef78455767c8a"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "desktop-desk-off.png",
+      "pose": {
+        "view": "desk",
+        "lampOn": false
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 879,
+        "triangles": 1141371,
+        "hash": "eb960d53f28f6a11f06d7e66f5c7a941e858d4d0f32419433f951e00a3fae5d2"
+      },
+      "after": {
+        "calls": 818,
+        "triangles": 1142871,
+        "hash": "270f73e31087174c7c7332bffe4fe2bf019cfd9bb7bbbd28b0414287a8d71860"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 10,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0.0018285571905677315,
+      "max": 1
+    },
+    {
+      "filename": "desktop-room-on.png",
+      "pose": {
+        "view": "room"
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 934,
+        "triangles": 1165665,
+        "hash": "163aebec49d9afb817cf15aadd85e46307b722a50e04f61011cdb94b94a0e415"
+      },
+      "after": {
+        "calls": 868,
+        "triangles": 1165665,
+        "hash": "163aebec49d9afb817cf15aadd85e46307b722a50e04f61011cdb94b94a0e415"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "desktop-room-off.png",
+      "pose": {
+        "view": "room",
+        "lampOn": false
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 934,
+        "triangles": 1165665,
+        "hash": "784181113f6f0d0175ee66d6c470a616a61ca8fb57aa90793687ff346122e214"
+      },
+      "after": {
+        "calls": 868,
+        "triangles": 1165665,
+        "hash": "c87b0aa53b8449f11bf85b71f13e153426f5ab6b2c531ea9a49496d1766b7964"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 23,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0.0037267799624996494,
+      "max": 2
+    },
+    {
+      "filename": "desktop-window.png",
+      "pose": {
+        "view": "window"
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 859,
+        "triangles": 1122012,
+        "hash": "8f0da2fb6b4b037a7191c33eaf165898352d6b5f0655eeb2a92d53d8b5f2283b"
+      },
+      "after": {
+        "calls": 793,
+        "triangles": 1122012,
+        "hash": "26ac6794555b016d6730c905787287cf08a6cca6f63dd4910a93a7a0cabc3311"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 10,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0.0016037507477489605,
+      "max": 1
+    },
+    {
+      "filename": "desktop-cabinet-0.png",
+      "pose": {
+        "view": "cabinet",
+        "cabinetAmount": 0
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 821,
+        "triangles": 999504,
+        "hash": "aeea67e18e3c0d270c8bfd7e2311f03a10e0a7a40422a116b821d38af52f16df"
+      },
+      "after": {
+        "calls": 755,
+        "triangles": 999504,
+        "hash": "aeea67e18e3c0d270c8bfd7e2311f03a10e0a7a40422a116b821d38af52f16df"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "desktop-cabinet-0.25.png",
+      "pose": {
+        "view": "cabinet",
+        "cabinetAmount": 0.25
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 821,
+        "triangles": 999504,
+        "hash": "a1972b3c6251bb3a5ec60871c039442583d8c52d96a9e16e3ffc9afead930440"
+      },
+      "after": {
+        "calls": 755,
+        "triangles": 999504,
+        "hash": "a1972b3c6251bb3a5ec60871c039442583d8c52d96a9e16e3ffc9afead930440"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "desktop-cabinet-0.5.png",
+      "pose": {
+        "view": "cabinet",
+        "cabinetAmount": 0.5
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 821,
+        "triangles": 999504,
+        "hash": "f1df241a16c57f68ef6186f4c9433fdcb9a73596c0c722167bd3ccbb6351a7c2"
+      },
+      "after": {
+        "calls": 755,
+        "triangles": 999504,
+        "hash": "f1df241a16c57f68ef6186f4c9433fdcb9a73596c0c722167bd3ccbb6351a7c2"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "desktop-cabinet-1.png",
+      "pose": {
+        "view": "cabinet",
+        "cabinetAmount": 1
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 821,
+        "triangles": 999504,
+        "hash": "4b9ecde07db907ae0b4e18483e580406fe65d491f9f9b197db7ea476c16fd7d9"
+      },
+      "after": {
+        "calls": 755,
+        "triangles": 999504,
+        "hash": "4b9ecde07db907ae0b4e18483e580406fe65d491f9f9b197db7ea476c16fd7d9"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "desktop-drawer-0.png",
+      "pose": {
+        "view": "desk",
+        "drawerAmount": 0
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 879,
+        "triangles": 1141371,
+        "hash": "83e3c4faa7179bbcf06c57e1696f2614207578cf182d38479577125fb17e9de2"
+      },
+      "after": {
+        "calls": 818,
+        "triangles": 1142871,
+        "hash": "533cdb47d294427492f4cce33c317ec19d03f0888cfcd5cbfffef78455767c8a"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 10,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0.0018285571905677315,
+      "max": 1
+    },
+    {
+      "filename": "desktop-drawer-0.5.png",
+      "pose": {
+        "view": "desk",
+        "drawerAmount": 0.5
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 879,
+        "triangles": 1141371,
+        "hash": "bdb7cf246bda8364e11401b707d5df9e9d668def7a438a6dde006acf163665f6"
+      },
+      "after": {
+        "calls": 818,
+        "triangles": 1142871,
+        "hash": "bdb7cf246bda8364e11401b707d5df9e9d668def7a438a6dde006acf163665f6"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "desktop-drawer-1.png",
+      "pose": {
+        "view": "desk",
+        "drawerAmount": 1
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 879,
+        "triangles": 1141371,
+        "hash": "0805e4a793dcf859332d7425f1a899a7bcda0b73069e69879cd1637b3612e36b"
+      },
+      "after": {
+        "calls": 818,
+        "triangles": 1142871,
+        "hash": "44337f07590865543c185d0cd922a2b24f7a970f5407dbac47673c8403615b65"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 21,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0.002777777777777778,
+      "max": 1
+    },
+    {
+      "filename": "desktop-floor-shadow.png",
+      "pose": {
+        "view": "desk",
+        "cameraPose": {
+          "position": [
+            0.65,
+            1.6,
+            1.4
+          ],
+          "target": [
+            0.2,
+            0,
+            -1.7
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 863,
+        "triangles": 1138381,
+        "hash": "5b76a8a21d8d1b78a177878550d04e6d0c76b88cd601c1fb8223fdd4cb09dde9"
+      },
+      "after": {
+        "calls": 806,
+        "triangles": 1141081,
+        "hash": "5b76a8a21d8d1b78a177878550d04e6d0c76b88cd601c1fb8223fdd4cb09dde9"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "desktop-documents.png",
+      "pose": {
+        "view": "room",
+        "cameraPose": {
+          "position": [
+            -1,
+            1.5,
+            0.8
+          ],
+          "target": [
+            -2.03,
+            0.4,
+            0.17
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 880,
+        "triangles": 1114698,
+        "hash": "78ab74db2c527f97bfeeec32c85e0270e8e1ff07e016c55939a534e486f27713"
+      },
+      "after": {
+        "calls": 814,
+        "triangles": 1114698,
+        "hash": "e1b3d8f248847d9dcd998dd70d73cf4b2fe8c49bd938f3ecbd8ed4310ee071a8"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 2,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0.0007172191381865587,
+      "max": 1
+    },
+    {
+      "filename": "desktop-plant.png",
+      "pose": {
+        "view": "desk",
+        "cameraPose": {
+          "position": [
+            0.8,
+            1.6,
+            0.5
+          ],
+          "target": [
+            2.24,
+            1.1,
+            -2.16
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 818,
+        "triangles": 1081679,
+        "hash": "0ad5fe7af6ff237ad2897fc8c3123539720558ae487028e47062d0e7edc833b2"
+      },
+      "after": {
+        "calls": 774,
+        "triangles": 1081679,
+        "hash": "86a94c936c230b0b8b072d579946932fd1d88120b77f88b0def076ab13958864"
+      },
+      "width": 1440,
+      "height": 900,
+      "changedPixels": 7,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0.0013417941431656888,
+      "max": 1
+    },
+    {
+      "filename": "mobile-corridor.png",
+      "pose": {},
+      "identicalCamera": true,
+      "before": {
+        "calls": 1031,
+        "triangles": 1178903,
+        "hash": "e4df4a2aae0ab63b63ad3c855806cd45a61ff0eaecc2bc9b3a1a3325a731e66a"
+      },
+      "after": {
+        "calls": 943,
+        "triangles": 1178903,
+        "hash": "035a5f936386e53c6fa039e700beb3a3d263153e35ffecf806ecb2a75327e953"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 37,
+      "above8Pixels": 4,
+      "above8Fraction": 0.000012152144853566655,
+      "rmse": 0.031902070959205886,
+      "max": 9
+    },
+    {
+      "filename": "mobile-side-door-01.png",
+      "pose": {
+        "cameraPose": {
+          "position": [
+            0,
+            1.6,
+            5.1
+          ],
+          "target": [
+            -1.375,
+            1.4,
+            5.1
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 858,
+        "triangles": 1079570,
+        "hash": "decd66fe845f5e794609f79959858c56304f012cf383606f280d15f9eb7cb8d3"
+      },
+      "after": {
+        "calls": 785,
+        "triangles": 1077470,
+        "hash": "decd66fe845f5e794609f79959858c56304f012cf383606f280d15f9eb7cb8d3"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "mobile-side-door-02.png",
+      "pose": {
+        "cameraPose": {
+          "position": [
+            0,
+            1.6,
+            3.9
+          ],
+          "target": [
+            1.375,
+            1.4,
+            3.9
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 801,
+        "triangles": 970038,
+        "hash": "c5eceee488a764702fe680f4a4cb1819372e847f93d6bb9ca69cba4343f73045"
+      },
+      "after": {
+        "calls": 735,
+        "triangles": 970038,
+        "hash": "c5eceee488a764702fe680f4a4cb1819372e847f93d6bb9ca69cba4343f73045"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "mobile-side-door-03.png",
+      "pose": {
+        "cameraPose": {
+          "position": [
+            0,
+            1.6,
+            8.2
+          ],
+          "target": [
+            1.375,
+            1.4,
+            8.2
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 800,
+        "triangles": 969738,
+        "hash": "055704d0060a9e430fca0856d63fa2e93479a9e2c922c50adec17d5181f46da3"
+      },
+      "after": {
+        "calls": 734,
+        "triangles": 969738,
+        "hash": "055704d0060a9e430fca0856d63fa2e93479a9e2c922c50adec17d5181f46da3"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "mobile-overhead.png",
+      "pose": {
+        "cameraPose": {
+          "position": [
+            0,
+            1.6,
+            7
+          ],
+          "target": [
+            0,
+            3,
+            7.9
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 711,
+        "triangles": 870727,
+        "hash": "a8c7e0a1dccd6573d0dfa37a9b8bd4923bbd6ae53bb66cdb40a9d31e8b205796"
+      },
+      "after": {
+        "calls": 645,
+        "triangles": 877327,
+        "hash": "a8c7e0a1dccd6573d0dfa37a9b8bd4923bbd6ae53bb66cdb40a9d31e8b205796"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "mobile-entry-front-0.25.png",
+      "pose": {
+        "entranceAngle": 0.415,
+        "cameraPose": {
+          "position": [
+            0,
+            1.6,
+            3.3
+          ],
+          "target": [
+            0,
+            1.3,
+            2
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 881,
+        "triangles": 1114003,
+        "hash": "6612d5d6a50059543580462c7aefbef94a62ecfaec8944ec736075411ffeb675"
+      },
+      "after": {
+        "calls": 819,
+        "triangles": 1115203,
+        "hash": "6612d5d6a50059543580462c7aefbef94a62ecfaec8944ec736075411ffeb675"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "mobile-entry-back-0.25.png",
+      "pose": {
+        "view": "desk",
+        "entranceAngle": 0.415,
+        "cameraPose": {
+          "position": [
+            0.65,
+            1.6,
+            1.2
+          ],
+          "target": [
+            0,
+            1.3,
+            2.1
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 871,
+        "triangles": 1036352,
+        "hash": "6c309a81abe3066e94cc808a98a4a66352392c753e0f0190ecee8e678de23b69"
+      },
+      "after": {
+        "calls": 783,
+        "triangles": 1036352,
+        "hash": "c81ad3a195e36e405ce747971415c01e9834dc34d4a29e9ab083c0a4e05fe72d"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 34,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0.007115752728268533,
+      "max": 2
+    },
+    {
+      "filename": "mobile-entry-front-0.5.png",
+      "pose": {
+        "entranceAngle": 0.79,
+        "cameraPose": {
+          "position": [
+            0,
+            1.6,
+            3.3
+          ],
+          "target": [
+            0,
+            1.3,
+            2
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 882,
+        "triangles": 1114191,
+        "hash": "2392d39bcd216a1937e402610c8a1f41c6010944ae58ed2a9a4a2f071c37ec1c"
+      },
+      "after": {
+        "calls": 820,
+        "triangles": 1115391,
+        "hash": "61f5a59f689a3ddb92a85a402520bd457a11773810cc64b584f09cf9eefd1e1c"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 3,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0.0017429963320075186,
+      "max": 1
+    },
+    {
+      "filename": "mobile-entry-back-0.5.png",
+      "pose": {
+        "view": "desk",
+        "entranceAngle": 0.79,
+        "cameraPose": {
+          "position": [
+            0.65,
+            1.6,
+            1.2
+          ],
+          "target": [
+            0,
+            1.3,
+            2.1
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 871,
+        "triangles": 1036538,
+        "hash": "7adcc2e8fa078df2dff2bdb7275ae27a3afe49a01d82315b994bf897f656d418"
+      },
+      "after": {
+        "calls": 783,
+        "triangles": 1036538,
+        "hash": "daed7c8d0d8fff5d89855a4d4a9562ed75f50129a5fe60c78cc95d059348b690"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 47,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0.00853890327392224,
+      "max": 2
+    },
+    {
+      "filename": "mobile-entry-front-1.png",
+      "pose": {
+        "entranceAngle": 1.54,
+        "cameraPose": {
+          "position": [
+            0,
+            1.6,
+            3.3
+          ],
+          "target": [
+            0,
+            1.3,
+            2
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 882,
+        "triangles": 1114191,
+        "hash": "d67ad71fa45031aca929db6ac612e808302cc56af1946479586b0f0dcdc0371d"
+      },
+      "after": {
+        "calls": 820,
+        "triangles": 1115391,
+        "hash": "d67ad71fa45031aca929db6ac612e808302cc56af1946479586b0f0dcdc0371d"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "mobile-entry-back-1.png",
+      "pose": {
+        "view": "desk",
+        "entranceAngle": 1.54,
+        "cameraPose": {
+          "position": [
+            0.65,
+            1.6,
+            1.2
+          ],
+          "target": [
+            0,
+            1.3,
+            2.1
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 871,
+        "triangles": 1036538,
+        "hash": "7adcc2e8fa078df2dff2bdb7275ae27a3afe49a01d82315b994bf897f656d418"
+      },
+      "after": {
+        "calls": 783,
+        "triangles": 1036538,
+        "hash": "d096dcea3079277aed8e1856e21239c2ae130cc829d81ac6075ac44c3f4aee48"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 32,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0.006675167747935458,
+      "max": 2
+    },
+    {
+      "filename": "mobile-desk-on.png",
+      "pose": {
+        "view": "desk"
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 801,
+        "triangles": 1056493,
+        "hash": "7ecaf7dfee393d94c39c96cde60634d6e2d4e1095c2e7bd8843088d294110021"
+      },
+      "after": {
+        "calls": 757,
+        "triangles": 1056493,
+        "hash": "7ecaf7dfee393d94c39c96cde60634d6e2d4e1095c2e7bd8843088d294110021"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "mobile-desk-off.png",
+      "pose": {
+        "view": "desk",
+        "lampOn": false
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 801,
+        "triangles": 1056493,
+        "hash": "a98ac5aa901b5ad24a36817ee7edb26aa5863a49b6c09a2998ce456969ff3bca"
+      },
+      "after": {
+        "calls": 757,
+        "triangles": 1056493,
+        "hash": "a98ac5aa901b5ad24a36817ee7edb26aa5863a49b6c09a2998ce456969ff3bca"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "mobile-room-on.png",
+      "pose": {
+        "view": "room"
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 825,
+        "triangles": 1018958,
+        "hash": "f79943e6a16d5dc4338535b42f0624a0bd80f6e98af5763307045bc2cb0f9503"
+      },
+      "after": {
+        "calls": 759,
+        "triangles": 1018958,
+        "hash": "f79943e6a16d5dc4338535b42f0624a0bd80f6e98af5763307045bc2cb0f9503"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "mobile-room-off.png",
+      "pose": {
+        "view": "room",
+        "lampOn": false
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 825,
+        "triangles": 1018958,
+        "hash": "f79943e6a16d5dc4338535b42f0624a0bd80f6e98af5763307045bc2cb0f9503"
+      },
+      "after": {
+        "calls": 759,
+        "triangles": 1018958,
+        "hash": "f79943e6a16d5dc4338535b42f0624a0bd80f6e98af5763307045bc2cb0f9503"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "mobile-window.png",
+      "pose": {
+        "view": "window"
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 855,
+        "triangles": 1106898,
+        "hash": "2b6d37e7d35b16ab1d571d7c2368da4d61ad66b1eab9026c87642902f27a54cb"
+      },
+      "after": {
+        "calls": 789,
+        "triangles": 1106898,
+        "hash": "2b6d37e7d35b16ab1d571d7c2368da4d61ad66b1eab9026c87642902f27a54cb"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "mobile-cabinet-0.png",
+      "pose": {
+        "view": "cabinet",
+        "cabinetAmount": 0
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 829,
+        "triangles": 1020842,
+        "hash": "ec77f533d4e97c04b1ee009c0dae94e94837b03660b0ab6839cbd1b4ce0f212d"
+      },
+      "after": {
+        "calls": 763,
+        "triangles": 1020842,
+        "hash": "ec77f533d4e97c04b1ee009c0dae94e94837b03660b0ab6839cbd1b4ce0f212d"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "mobile-cabinet-0.25.png",
+      "pose": {
+        "view": "cabinet",
+        "cabinetAmount": 0.25
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 829,
+        "triangles": 1020842,
+        "hash": "c407ba555251dd82b48e2813b916dbcf091ca8fc22be23508ed27e97f9289fbb"
+      },
+      "after": {
+        "calls": 763,
+        "triangles": 1020842,
+        "hash": "c407ba555251dd82b48e2813b916dbcf091ca8fc22be23508ed27e97f9289fbb"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "mobile-cabinet-0.5.png",
+      "pose": {
+        "view": "cabinet",
+        "cabinetAmount": 0.5
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 829,
+        "triangles": 1020842,
+        "hash": "906d6fb1ced9eea3f29d5e3236723e40804155bd7dc74cbc6fff87bbd7d17455"
+      },
+      "after": {
+        "calls": 763,
+        "triangles": 1020842,
+        "hash": "906d6fb1ced9eea3f29d5e3236723e40804155bd7dc74cbc6fff87bbd7d17455"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "mobile-cabinet-1.png",
+      "pose": {
+        "view": "cabinet",
+        "cabinetAmount": 1
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 829,
+        "triangles": 1020842,
+        "hash": "99b2e8f2d40964d2df225a9704cf940ffd1c7a31f2d2522a7184c54ef829ca70"
+      },
+      "after": {
+        "calls": 763,
+        "triangles": 1020842,
+        "hash": "99b2e8f2d40964d2df225a9704cf940ffd1c7a31f2d2522a7184c54ef829ca70"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "mobile-drawer-0.png",
+      "pose": {
+        "view": "desk",
+        "drawerAmount": 0
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 801,
+        "triangles": 1056493,
+        "hash": "7ecaf7dfee393d94c39c96cde60634d6e2d4e1095c2e7bd8843088d294110021"
+      },
+      "after": {
+        "calls": 757,
+        "triangles": 1056493,
+        "hash": "7ecaf7dfee393d94c39c96cde60634d6e2d4e1095c2e7bd8843088d294110021"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "mobile-drawer-0.5.png",
+      "pose": {
+        "view": "desk",
+        "drawerAmount": 0.5
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 801,
+        "triangles": 1056493,
+        "hash": "b96b26055c8ba05879201b8d41824fda097d2382f4dc41bcc3aa37b32ae0d755"
+      },
+      "after": {
+        "calls": 757,
+        "triangles": 1056493,
+        "hash": "b96b26055c8ba05879201b8d41824fda097d2382f4dc41bcc3aa37b32ae0d755"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "mobile-drawer-1.png",
+      "pose": {
+        "view": "desk",
+        "drawerAmount": 1
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 801,
+        "triangles": 1056493,
+        "hash": "9116216ac4cc4eb4130da69354a1a3bbbfea414d42fcd1b8eb51768103becf44"
+      },
+      "after": {
+        "calls": 757,
+        "triangles": 1056493,
+        "hash": "9116216ac4cc4eb4130da69354a1a3bbbfea414d42fcd1b8eb51768103becf44"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "mobile-floor-shadow.png",
+      "pose": {
+        "view": "desk",
+        "cameraPose": {
+          "position": [
+            0.65,
+            1.6,
+            1.4
+          ],
+          "target": [
+            0.2,
+            0,
+            -1.7
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 801,
+        "triangles": 1089157,
+        "hash": "d3390d4d5f4b6824807e91426825e065ec8ff955cf827cb9790ff4916fa30bdb"
+      },
+      "after": {
+        "calls": 757,
+        "triangles": 1089157,
+        "hash": "d3390d4d5f4b6824807e91426825e065ec8ff955cf827cb9790ff4916fa30bdb"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "mobile-documents.png",
+      "pose": {
+        "view": "room",
+        "cameraPose": {
+          "position": [
+            -1,
+            1.5,
+            0.8
+          ],
+          "target": [
+            -2.03,
+            0.4,
+            0.17
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 858,
+        "triangles": 1092678,
+        "hash": "504337ce5b4f22c5456960f1cf36011a310fb04e3acb479a258e87ae61f1ecda"
+      },
+      "after": {
+        "calls": 792,
+        "triangles": 1092678,
+        "hash": "504337ce5b4f22c5456960f1cf36011a310fb04e3acb479a258e87ae61f1ecda"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    },
+    {
+      "filename": "mobile-plant.png",
+      "pose": {
+        "view": "desk",
+        "cameraPose": {
+          "position": [
+            0.8,
+            1.6,
+            0.5
+          ],
+          "target": [
+            2.24,
+            1.1,
+            -2.16
+          ]
+        }
+      },
+      "identicalCamera": true,
+      "before": {
+        "calls": 765,
+        "triangles": 1060423,
+        "hash": "647e4aa2a89ca842e3bc22f14a0b252f123e1ea13d7c9d42dc3c61ce37cab8bd"
+      },
+      "after": {
+        "calls": 721,
+        "triangles": 1060423,
+        "hash": "647e4aa2a89ca842e3bc22f14a0b252f123e1ea13d7c9d42dc3c61ce37cab8bd"
+      },
+      "width": 390,
+      "height": 844,
+      "changedPixels": 0,
+      "above8Pixels": 0,
+      "above8Fraction": 0,
+      "rmse": 0,
+      "max": 0
+    }
+  ]
+}

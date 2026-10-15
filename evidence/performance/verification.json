@@ -1,0 +1,83 @@
+{
+  "baseline": "4b342abb836f817dcabc76e2d99f265c15945c4c",
+  "at": "2026-10-15T15:09:14.935Z",
+  "build": "npm run build passed (TypeScript + Vite), application bytes unchanged after this build",
+  "regressionJobs": 17,
+  "allRegressionJobsPassed": true,
+  "reports": {
+    "case-rain.json": {
+      "passed": true,
+      "checks": 94,
+      "scenarios": 2
+    },
+    "collection-edges.json": {
+      "passed": true,
+      "checks": 5
+    },
+    "collection.json": {
+      "passed": true,
+      "checks": 102,
+      "scenarios": 4
+    },
+    "completion.json": {
+      "passed": true,
+      "checks": 148,
+      "scenarios": 6
+    },
+    "context-loss.json": {
+      "passed": true,
+      "checks": 9
+    },
+    "furniture.json": {
+      "passed": true,
+      "checks": 121,
+      "scenarios": 4
+    },
+    "hotspots.json": {
+      "passed": true,
+      "checks": 27,
+      "scenarios": 2
+    },
+    "refinement.json": {
+      "passed": true,
+      "checks": 84,
+      "scenarios": 4
+    },
+    "showcase.json": {
+      "passed": true,
+      "checks": 149,
+      "scenarios": 2
+    },
+    "sweep.json": {
+      "passed": true,
+      "checks": 328
+    }
+  },
+  "ordinary": {
+    "routes": 132,
+    "flows": 12,
+    "noJsAndDeepLinkEdges": 4,
+    "faults": 5,
+    "menu": 9
+  },
+  "shadows": {
+    "passed": true,
+    "checks": 158,
+    "samples": 76,
+    "maxDifference": 13,
+    "maxRmse": 0.044729959440842265,
+    "freshControlMaxDifference": 12
+  },
+  "coldAssets": {
+    "candidatePassed": true,
+    "allScenesReady": true,
+    "strictAllRunsNetworkClean": false,
+    "baselineAborts": 2,
+    "allAbortTimingsMatchFullFile": true
+  },
+  "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "images": {
+    "pairs": 52,
+    "exactPixels": 35
+  }
+}

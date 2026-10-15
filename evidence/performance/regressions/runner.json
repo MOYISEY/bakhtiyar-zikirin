@@ -1,0 +1,186 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "at": "2026-10-15T14:52:18.486Z",
+  "jobs": [
+    {
+      "name": "cube",
+      "file": "test-cube-state.mjs",
+      "args": [],
+      "exit": 0,
+      "durationMs": 136,
+      "summary": "{\"passed\":true,\"checks\":3025,\"turns\":2076}\n"
+    },
+    {
+      "name": "asset-history",
+      "file": "qa-asset-history.mjs",
+      "args": [],
+      "exit": 0,
+      "durationMs": 5673,
+      "summary": "PASS asset history: published baseline, repeated builds and bounded retention\n"
+    },
+    {
+      "name": "completion",
+      "file": "qa-room-completion.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "optimization"
+      ],
+      "exit": 0,
+      "durationMs": 54826,
+      "summary": "{\"passed\":true,\"checks\":148,\"scenarios\":6}\n"
+    },
+    {
+      "name": "sweep",
+      "file": "qa-joinery-sweep.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "optimization"
+      ],
+      "exit": 0,
+      "durationMs": 10176,
+      "summary": "},\"drawer\":{\"top\":0.7734999948740006,\"apronBottom\":0.7819,\"apronGap\":0.008400005125999477,\"min\":[0.15699999511241913,0.6584999965131283,-1.75200000166893],\"max\":[0.6030000048875809,0.7734999948740006,-1.3104999935626984]},\"entrance\":{\"intersectingTriangles\":0,\"checkedTriangles\":6600},\"education\":{\"min\":[-2.3050000059604643,0.551000012088567,0.054999997913837445],\"max\":[-1.7549999940395353,0.5725000119209289,0.2850000020861626],\"tableGap\":0.0010000001676380155},\"readingTable\":0.550000011920929}}\n"
+    },
+    {
+      "name": "refinement",
+      "file": "qa-room-refinement.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "optimization"
+      ],
+      "exit": 0,
+      "durationMs": 53768,
+      "summary": "{\"passed\":true,\"checks\":84,\"scenarios\":4}\n"
+    },
+    {
+      "name": "furniture",
+      "file": "qa-room-furniture.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "optimization"
+      ],
+      "exit": 0,
+      "durationMs": 76049,
+      "summary": "{\"passed\":true,\"checks\":121,\"scenarios\":4}\n"
+    },
+    {
+      "name": "showcase",
+      "file": "qa-room-showcase.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "optimization"
+      ],
+      "exit": 0,
+      "durationMs": 25229,
+      "summary": ""
+    },
+    {
+      "name": "hotspots",
+      "file": "qa-room-hotspots.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "optimization"
+      ],
+      "exit": 0,
+      "durationMs": 32386,
+      "summary": "{\"pass\":true,\"checks\":27,\"scenarios\":[{\"name\":\"desktop\",\"earlyProgress\":0.46199999999999997,\"doorAngle\":1.5399987547009948,\"markers\":[\"object-case\",\"object-profile\",\"object-lamp\",\"object-drawer\"]},{\"name\":\"mobile\",\"earlyProgress\":0.46199999999999997,\"doorAngle\":1.5399986455768202,\"markers\":[\"object-case\",\"object-profile\",\"object-lamp\",\"object-drawer\"]}]}\n"
+    },
+    {
+      "name": "collection",
+      "file": "qa-room-collection.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "optimization"
+      ],
+      "exit": 0,
+      "durationMs": 65647,
+      "summary": "{\"passed\":true,\"checks\":102,\"scenarios\":4}\n"
+    },
+    {
+      "name": "collection-edges",
+      "file": "qa-room-collection-edges.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "optimization"
+      ],
+      "exit": 0,
+      "durationMs": 13185,
+      "summary": "{\"checks\":[\"Cube dialog has no axe violations\",\"Closing during a turn preserves a legal cube\",\"Room rendering settles while object is held\",\"Room context loss releases item renderer\",\"Projects remain accessible after item and room context loss\"],\"passed\":true,\"axe\":[]}\n"
+    },
+    {
+      "name": "context-loss",
+      "file": "qa-room-context-loss.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "optimization"
+      ],
+      "exit": 0,
+      "durationMs": 11605,
+      "summary": ""
+    },
+    {
+      "name": "case-rain",
+      "file": "qa-room-case-rain.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "optimization"
+      ],
+      "exit": 0,
+      "durationMs": 43911,
+      "summary": ""
+    },
+    {
+      "name": "pages",
+      "file": "qa-pages.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "optimization"
+      ],
+      "exit": 0,
+      "durationMs": 195700,
+      "summary": "ow\":true}\n{\"width\":390,\"lang\":\"ru\",\"theme\":\"light\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"ru\",\"theme\":\"dark\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"kk\",\"theme\":\"light\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"kk\",\"theme\":\"dark\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"en\",\"theme\":\"light\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"en\",\"theme\":\"dark\",\"passed\":true,\"flow\":true}\n{\"scope\":\"optimization\",\"passed\":true,\"routes\":132,\"flows\":12,\"edges\":0,\"failed\":[]}\n"
+    },
+    {
+      "name": "pages-edges",
+      "file": "qa-pages-edges.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "optimization"
+      ],
+      "exit": 0,
+      "durationMs": 4605,
+      "summary": "     \"disclosureOpen\": true,\n      \"failedScripts\": [\n        \"http://127.0.0.1:4331/after/assets/scene-controls-B-65-GTU.js\"\n      ]\n    },\n    {\n      \"type\": \"renderer-chunk-failure\",\n      \"passed\": true,\n      \"disclosureOpen\": true,\n      \"failedScripts\": [\n        \"http://127.0.0.1:4331/after/assets/scene-By8RsxPN.js\"\n      ]\n    },\n    {\n      \"type\": \"startup-and-webgl-fallback\",\n      \"passed\": true,\n      \"disclosureOpen\": true,\n      \"failedScripts\": []\n    }\n  ],\n  \"passed\": true\n}\n"
+    },
+    {
+      "name": "rail-focus",
+      "file": "qa-project-rail-focus.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "optimization"
+      ],
+      "exit": 0,
+      "durationMs": 71345,
+      "summary": "PASS 12 focus variants\n"
+    },
+    {
+      "name": "pages-nojs",
+      "file": "qa-pages.mjs",
+      "args": [
+        "optimization-nojs",
+        "--edges-only"
+      ],
+      "exit": 0,
+      "checks": 4,
+      "supplemental": true
+    },
+    {
+      "name": "menu",
+      "file": "qa-room-menu.cjs",
+      "environment": {
+        "ROOM_ENGINES": "edge"
+      },
+      "exit": 0,
+      "checks": 9,
+      "supplemental": true
+    }
+  ]
+}
