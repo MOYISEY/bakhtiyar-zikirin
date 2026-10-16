@@ -1,0 +1,336 @@
+{
+  "baseline": "eac80055fd9d7856df22e5edcd78b91ae4b47a28",
+  "files": [
+    {
+      "path": "docs/asset-history.json",
+      "sha256": "bb55824ba1bbcd6327fb384dc64fa77c67f907f177ec2e069e9a68de69bfae7d",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/main-BNlxNoS0.js",
+      "sha256": "9112eb265d650fccc6f74ab6630916e0e046bf81736fcdf38452a2e7b1600d84",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/main-BrEEzRz3.css",
+      "sha256": "b00d10c9fec750e091b957334dcacf7dfa1dc68dec27bdb9a180c4f64eeadd55",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/main-CaBIUae1.js",
+      "sha256": "a1f57e09266004d3cbaf968b6cb5c9bd78bdf1b8d34dc71cc180125c1aca8a69",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/main-DAKF_UFa.css",
+      "sha256": "8ed64d3e70e33a283248d80a8f976c91f03cf8d3299c377c4ed7c193fcaa0a53",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/preferences-38aKeYz_.js",
+      "sha256": "9e54ecd929a83ef4edcd3e4dda9bfbd6a80a060afbacb0559d2b7d70d9b6a474",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/preferences-CEm29xHT.js",
+      "sha256": "8a844904ef87dc1db3703d63f5aafc35cdb461e74dc35024e8ffe9d63fba4eac",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/rowline-sample-CWdwryYP.js",
+      "sha256": "3e8f766a826600a3267130cc7f2b0aff80b4e28c5fd49320d7db83b186194a18",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/rowline-sample-Dt88s_-X.js",
+      "sha256": "6b68c868d89c1686513fd001b182dd203ac2ee04701bd90e35880438ea583747",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/scene-By8RsxPN.js",
+      "sha256": "1efebc055801fbd0958947d2d5783c6221899824a9eaacfdfda4abe35a1a23af",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/scene-CAd1hERU.js",
+      "sha256": "ca49717a9d3d0b334ea0e85a24c93452b3146f5b2dfebbe72478aad74efb1243",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/scene-controls-B-65-GTU.js",
+      "sha256": "18fec177b3109d1285cbfb5c860f9a6ee8e5bf13f5d2e0c9d2c79f8c8d3e38d0",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/scene-controls-BFCKUI_M.js",
+      "sha256": "5d5a1a1a9fbf1793ea7bf160653444ae083b2f4b2894047b331192d69b8672e8",
+      "matches": true
+    },
+    {
+      "path": "docs/files/education/hackalem-2026-provenance.json",
+      "sha256": "bdc844cd789fdc180aafddb83f97afa47137464832767699af7a62e5fd839670",
+      "matches": false
+    },
+    {
+      "path": "docs/index.html",
+      "sha256": "76999e40ff1d19c059d5f9023cb51327259655863bd6e47df3bdc9140756946b",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/artportal.html",
+      "sha256": "68b0596fc5a4b937ab1e59adf4f7780ffa3f11241a27d248af0f3ca5316f55ca",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/atyrau.html",
+      "sha256": "a6dc18c5bd750164d6aa80107f5dc76a982bf02eb10d7c1cab3f2a5b7116c230",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/framepack.html",
+      "sha256": "1a43fe915d9ad111e6056c832b6621547055c13853c4d159c9d4ac5fff8b2c8c",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/helio.html",
+      "sha256": "c0c4e99fb44740c6c3e8aed82069643d398c892c887f79bff5e30d2d9af8e85c",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/index.html",
+      "sha256": "1b42d0ca1ebb6a024dfd613c0eee90aafe2cb879ffbda4738ad2579ac6bfc648",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/keyform.html",
+      "sha256": "6cb45219e118548d716cd611178442865220f91e029dc16daf1cd35a744de291",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/neuralbrief.html",
+      "sha256": "721a36fb8950367a2ce5f33d64389a7cf608a79f42c1aab25f51d29c9cc98da5",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/poslesvet.html",
+      "sha256": "bc786fce67bc59c9e429301462de586fc81f776216d078ab21f4b68d8facd574",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/rowline.html",
+      "sha256": "8c4c7073b585f93088dea030523bc28b596a756ba6524440b2f4da88daac5d1f",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/shapecheck.html",
+      "sha256": "24b1b61f2ffc75add9ebb72328abeb35d7956af2ed10df838aeff19bfed128bf",
+      "matches": true
+    },
+    {
+      "path": "docs/room/architecture-materials.js",
+      "sha256": "f3edf1d0c44d92e32e80ba793153c7359a5f3a8c90547d266dceff0b4a278702",
+      "matches": true
+    },
+    {
+      "path": "docs/room/audio-score.js",
+      "sha256": "b142f7f1015bd25234c515ce4e3fd45124587a873f6572862205bc320139abfe",
+      "matches": true
+    },
+    {
+      "path": "docs/room/audio-worker.js",
+      "sha256": "325d37b5147530dec66ef1c8a7222bf75be8622ef3adcc320d07201afe9ced2e",
+      "matches": true
+    },
+    {
+      "path": "docs/room/audio.js",
+      "sha256": "cc3f851d434bb46cf137b8de037f71d5d47a972f75a4f8f6419d66dd775390dd",
+      "matches": true
+    },
+    {
+      "path": "docs/room/boot.js",
+      "sha256": "41d4ff057d3185d88e7016349cbc4a72b44e33d67a22237375b77f2497ce17f5",
+      "matches": true
+    },
+    {
+      "path": "docs/room/cabinet-doors.js",
+      "sha256": "338ee6f47d40777e978aab9aae6a6dc38ba0aca24bbe72921abc89b3580eefb6",
+      "matches": true
+    },
+    {
+      "path": "docs/room/cabinet-scene.js",
+      "sha256": "faba0347aa4e622fd6b682802dfc1425ce829bcf01501856ec7b272918e2d991",
+      "matches": true
+    },
+    {
+      "path": "docs/room/collection-models.js",
+      "sha256": "04c28b39d51412cd4d41a813faccdca78658f6245bace3c0c2691c2534479726",
+      "matches": true
+    },
+    {
+      "path": "docs/room/collection-viewer.js",
+      "sha256": "13ae69e049a58bac022b323b6fa4e9702d7d620b08f58620d422ffc24c00deec",
+      "matches": true
+    },
+    {
+      "path": "docs/room/compressed-models.js",
+      "sha256": "79110c624660661badd9dc2656d88e5a28488209a6b0df0728031e0b34a471e7",
+      "matches": true
+    },
+    {
+      "path": "docs/room/cube-state.js",
+      "sha256": "444aa7795838492cfd2a6539c1d2815f91da42f5598550b8d4c5a11dffe74aa3",
+      "matches": true
+    },
+    {
+      "path": "docs/room/daylight.js",
+      "sha256": "33041c679daab94b276482bd2ef68ab1b80e42cc44db1dd40dc94f031bd797ba",
+      "matches": true
+    },
+    {
+      "path": "docs/room/document-actions.js",
+      "sha256": "5438d1db0111f6c36fb102ef4f53f23b9576f206f7ce5d0bdaed7a322090bde9",
+      "matches": true
+    },
+    {
+      "path": "docs/room/documents-data.js",
+      "sha256": "88788ad6dffd000b68e81978ce51fab8cb1e9a667ec6680c0d30c90715fee73e",
+      "matches": true
+    },
+    {
+      "path": "docs/room/expo.js",
+      "sha256": "00c88d8c68aa864b09157438033dac9969ce51a291d6d420951f081a7b3ca2f6",
+      "matches": true
+    },
+    {
+      "path": "docs/room/exterior-surfaces.js",
+      "sha256": "ba272c6436633497e42fa7097a473960c86d828bdaf8641eae29d3eea43657a2",
+      "matches": true
+    },
+    {
+      "path": "docs/room/furniture.js",
+      "sha256": "479f529ce12feb3c41685432694ec751ca0b40d322c460628f12e86f6bd10c3a",
+      "matches": true
+    },
+    {
+      "path": "docs/room/index.html",
+      "sha256": "e89fd29119cfb9f30124b52cfc61adba4806d522e4bb7ada0e2f132857992e45",
+      "matches": true
+    },
+    {
+      "path": "docs/room/joinery-details.js",
+      "sha256": "49cd7244a3922d01a773bf7076940d90c938b5aa196c77982ab568ef87529f98",
+      "matches": true
+    },
+    {
+      "path": "docs/room/main.js",
+      "sha256": "f2a9d46c3ce7e8aede591ff28a094d893fcf33cd5be323a6ae2637bcad6d56ae",
+      "matches": true
+    },
+    {
+      "path": "docs/room/profile-data.js",
+      "sha256": "539300192cd920cffe89040ba57c3a93c20b2d93203dcd00922a1ab1cf6b5dc3",
+      "matches": true
+    },
+    {
+      "path": "docs/room/projects-data.js",
+      "sha256": "ad46614ca06ab5f23319392170959ba12d1bffa65b44783c214a28429d1022ec",
+      "matches": true
+    },
+    {
+      "path": "docs/room/room-accents.js",
+      "sha256": "1b15c1c306be8c45257db133288cd899cd9310f7731977aaa5429481d3728791",
+      "matches": true
+    },
+    {
+      "path": "docs/room/stream-manifest.js",
+      "sha256": "45d3b3d77fcaea8d4ba0fb05b66d0143ba6f8fdac39b752fdbc03e13c5ca8a37",
+      "matches": true
+    },
+    {
+      "path": "docs/room/streaming.js",
+      "sha256": "363b8200e35e7700a0710fcc0b4ef6cd2e968dcd92e7648bdfc7895e50c9dde0",
+      "matches": true
+    },
+    {
+      "path": "docs/room/style.css",
+      "sha256": "9add8ea122189bf27dc12befcabc051adf94f0e153dd0b341308dd27eaef433f",
+      "matches": true
+    },
+    {
+      "path": "docs/room/ui.js",
+      "sha256": "904d2fd63b515bfc993c2df648cf6da831122b91e8f8ee0a455dee426ecc559f",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vegetation.js",
+      "sha256": "6f18a5c67e7abbe76e5edca7e1a6f0ee5c6fea7c28bef5fe6370c57d0dbbaa56",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vendor/addons/csm/CSM.js",
+      "sha256": "ad3364f5e9201083d303872ddb7bcbc56096283be6d46a222da83a1629338d22",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vendor/addons/csm/CSMFrustum.js",
+      "sha256": "3a86e523921a69159c2a5b6aa0269527d7b99875ceea9a2a6b71ac8e0fbdd408",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vendor/addons/csm/CSMShader.js",
+      "sha256": "9dfe9b052f75607919afb05f0109cdb1cba54138552cbec574052be26105bae2",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vendor/addons/environments/RoomEnvironment.js",
+      "sha256": "55f466192cc84298755a424c5e040345006b2ee1455589b3b54126c2ea4123f4",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vendor/addons/geometries/RoundedBoxGeometry.js",
+      "sha256": "c5feab96123858ed8823c889b238dc8734adab7e760e3cfd21e7f3f2f3e348e3",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vendor/addons/loaders/GLTFLoader.js",
+      "sha256": "131c0f78c01d19368ae495caa65b3adaa10487810a36a05bb5901b769a35ac16",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vendor/addons/utils/BufferGeometryUtils.js",
+      "sha256": "9fb63427ce6641fa14fd0baff9cc4d1b5f9c3d85fd084bf2e90e803c44ec1797",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vendor/addons/utils/SkeletonUtils.js",
+      "sha256": "b1632a703206c3d830de9fcbe515696770d04b71a15ee6b50afa6d2c3298c86f",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vendor/three.core.js",
+      "sha256": "0814550d776d724e97d42efa2fa456cb08b12a95adcffff7bfafaf778ca57ff7",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vendor/three.module.js",
+      "sha256": "ce36afc4c426fceb714c415df8192ceb98c432b0d02e4a97532f3730ecefb161",
+      "matches": true
+    },
+    {
+      "path": "docs/room/weather.js",
+      "sha256": "2ed6ceeae76a29fd2c09bb05154ececd376b4b9e9436adb2eeb467ec2d21907c",
+      "matches": true
+    },
+    {
+      "path": "docs/room/window-fragment.js",
+      "sha256": "10d07af549db828e0c68d1d6187d569cdf557fc6ebc24a6a5bb3240f4be4e4d3",
+      "matches": true
+    },
+    {
+      "path": "docs/room/world.js",
+      "sha256": "4df199f5c7704ce2282cd9a999943ccc8a1f6f0cca024dc1675f0ba303c415f8",
+      "matches": true
+    }
+  ],
+  "passed": false
+}

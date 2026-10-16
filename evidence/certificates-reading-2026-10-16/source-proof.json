@@ -1,0 +1,87 @@
+{
+  "baseline": "eac80055fd9d7856df22e5edcd78b91ae4b47a28",
+  "unchanged": [
+    {
+      "path": "public/room/main.js",
+      "sha256": "f2a9d46c3ce7e8aede591ff28a094d893fcf33cd5be323a6ae2637bcad6d56ae"
+    },
+    {
+      "path": "public/room/world.js",
+      "sha256": "4df199f5c7704ce2282cd9a999943ccc8a1f6f0cca024dc1675f0ba303c415f8"
+    },
+    {
+      "path": "public/room/streaming.js",
+      "sha256": "363b8200e35e7700a0710fcc0b4ef6cd2e968dcd92e7648bdfc7895e50c9dde0"
+    },
+    {
+      "path": "public/room/stream-manifest.js",
+      "sha256": "45d3b3d77fcaea8d4ba0fb05b66d0143ba6f8fdac39b752fdbc03e13c5ca8a37"
+    },
+    {
+      "path": "public/room/joinery-details.js",
+      "sha256": "49cd7244a3922d01a773bf7076940d90c938b5aa196c77982ab568ef87529f98"
+    },
+    {
+      "path": "public/room/furniture.js",
+      "sha256": "479f529ce12feb3c41685432694ec751ca0b40d322c460628f12e86f6bd10c3a"
+    },
+    {
+      "path": "public/room/cabinet-doors.js",
+      "sha256": "338ee6f47d40777e978aab9aae6a6dc38ba0aca24bbe72921abc89b3580eefb6"
+    },
+    {
+      "path": "public/room/cube-state.js",
+      "sha256": "444aa7795838492cfd2a6539c1d2815f91da42f5598550b8d4c5a11dffe74aa3"
+    },
+    {
+      "path": "public/room/compressed-models.js",
+      "sha256": "79110c624660661badd9dc2656d88e5a28488209a6b0df0728031e0b34a471e7"
+    },
+    {
+      "path": "public/files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf",
+      "sha256": "dee574b43b52d0ff4fa891d889826038117c8275f255e2f5efd597944b502d75"
+    },
+    {
+      "path": "public/files/education/diploma-public.webp",
+      "sha256": "aeb82b2bc35591a8d6c095ff95adeaf6f6d9bf65da4aa8da62566ccdb811eae6"
+    },
+    {
+      "path": "public/files/education/hackalem-2026-public.png",
+      "sha256": "f0152ea62277efed03af52d85a72bcffc3f21d85c7d2a9ccbf9594d223e0a9aa"
+    },
+    {
+      "path": "public/files/education/iqadam-2025-public.webp",
+      "sha256": "da3eeced274d0202518c5d25e2316854c621d967ef0165a0e66aaf09a0454a1e"
+    },
+    {
+      "path": "src/content/projects.json",
+      "sha256": "fb7cc1e0332d5727bc82d8ce53ae11e3c9122c7f80ecbd669882a913ad66f55b"
+    },
+    {
+      "path": "src/content/documents.json",
+      "sha256": "d3c6d070c34b84fbe0abbe718eb35729a4cd411ed8c033c53ff0159d7921e384"
+    }
+  ],
+  "localeAdditions": {
+    "ru": [
+      "contribution.geometry",
+      "contribution.solar",
+      "contribution.title",
+      "documents.diplomaShort"
+    ],
+    "kk": [
+      "contribution.geometry",
+      "contribution.solar",
+      "contribution.title",
+      "documents.diplomaShort"
+    ],
+    "en": [
+      "contribution.geometry",
+      "contribution.solar",
+      "contribution.title",
+      "documents.diplomaShort"
+    ]
+  },
+  "profileFactsUnchanged": true,
+  "passed": true
+}

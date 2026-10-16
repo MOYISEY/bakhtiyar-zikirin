@@ -162,3 +162,29 @@ canvas.viewer-canvas:active{cursor:grabbing}
  .object-action.document-action .document-label{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
 }
 @media(hover:none){#object-drawer-resume>span[aria-hidden]{display:none}}
+
+/* Ease the reading hierarchy without changing scene rendering or gestures. */
+#panel{color:#394d42}
+#panel-title{font-size:32px;line-height:1.2;font-weight:400}
+#panel-body>p,#panel-body .lead{line-height:1.65}
+#panel-body .timeline h2{font-size:18px;font-weight:500;line-height:1.4}
+.profile-education h3{font-weight:500;line-height:1.45}
+.project-card strong{font-weight:500}
+#panel .contribution-notes{bottom:42px}
+#panel .contribution-points>p{margin:0;font-size:14px;line-height:1.45}
+@media(max-width:600px){#panel-title{font-size:27px}.profile-education h3{font-size:17px}}
+
+/* Two factual annotations are an explicit, native disclosure on the Helio preview. */
+.annotated-preview{position:relative;min-width:0}
+.contribution-notes{position:absolute;inset:0;z-index:2;pointer-events:none;border:0;margin:0;padding:0}
+.contribution-notes>summary{position:absolute;top:6px;left:6px;display:inline-flex;align-items:center;min-height:44px;padding:0;list-style:none;pointer-events:auto;cursor:pointer;font-size:14px;line-height:1.45;color:var(--ink,#394c42)}
+.contribution-notes>summary::-webkit-details-marker{display:none}
+.contribution-notes>summary::marker{content:''}
+.contribution-notes>summary>span{padding:4px 8px;background:var(--paper,#f5f0e6);border:1px solid var(--line,#b4bdab);border-radius:2px;font-weight:400}
+.contribution-notes>summary>span::after{content:' +';color:var(--muted,#5b6b5f)}
+.contribution-notes[open]>summary>span::after{content:' −'}
+.contribution-points{position:absolute;inset:0;pointer-events:none}
+.contribution-points>p{position:absolute;pointer-events:auto;cursor:text;margin:0;padding:8px 10px;background:var(--paper,#f5f0e6);color:var(--ink,#394c42);border:1px solid var(--line,#b4bdab);font-family:inherit;font-size:14px;font-weight:400;line-height:1.45;text-wrap:pretty}
+.contribution-points>.geometry-note{left:44%;top:30%;width:50%;max-width:14rem}
+.contribution-points>.solar-note{left:4%;bottom:13%;width:37%;max-width:12rem}
+.contribution-points>p::after{content:'';position:absolute;left:14px;top:100%;height:12px;border-left:1px solid var(--teal,#416e5b)}

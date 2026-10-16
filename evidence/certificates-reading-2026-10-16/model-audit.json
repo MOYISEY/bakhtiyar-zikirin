@@ -1,0 +1,2436 @@
+{
+  "cases": [
+    {
+      "version": "before",
+      "mobile": false,
+      "requested": [
+        "http://127.0.0.1:4331/before/room/?lang=ru",
+        "http://127.0.0.1:4331/before/room/style.css",
+        "http://127.0.0.1:4331/before/room/main.js",
+        "http://127.0.0.1:4331/before/room/vendor/addons/loaders/GLTFLoader.js",
+        "http://127.0.0.1:4331/before/room/boot.js",
+        "http://127.0.0.1:4331/before/room/ui.js",
+        "http://127.0.0.1:4331/before/room/collection-viewer.js",
+        "http://127.0.0.1:4331/before/room/profile-data.js",
+        "http://127.0.0.1:4331/before/room/documents-data.js",
+        "http://127.0.0.1:4331/before/room/projects-data.js",
+        "http://127.0.0.1:4331/before/room/vendor/three.module.js",
+        "http://127.0.0.1:4331/before/room/cube-state.js",
+        "http://127.0.0.1:4331/before/room/collection-models.js",
+        "http://127.0.0.1:4331/before/room/vendor/addons/utils/BufferGeometryUtils.js",
+        "http://127.0.0.1:4331/before/room/vendor/addons/geometries/RoundedBoxGeometry.js",
+        "http://127.0.0.1:4331/before/room/vendor/three.core.js",
+        "http://127.0.0.1:4331/before/room/document-actions.js",
+        "http://127.0.0.1:4331/before/room/world.js",
+        "http://127.0.0.1:4331/before/room/audio.js",
+        "http://127.0.0.1:4331/before/room/audio-score.js",
+        "http://127.0.0.1:4331/before/room/room-accents.js",
+        "http://127.0.0.1:4331/before/room/joinery-details.js",
+        "http://127.0.0.1:4331/before/room/cabinet-scene.js",
+        "http://127.0.0.1:4331/before/room/architecture-materials.js",
+        "http://127.0.0.1:4331/before/room/daylight.js",
+        "http://127.0.0.1:4331/before/room/window-fragment.js",
+        "http://127.0.0.1:4331/before/room/streaming.js",
+        "http://127.0.0.1:4331/before/room/furniture.js",
+        "http://127.0.0.1:4331/before/room/cabinet-doors.js",
+        "http://127.0.0.1:4331/before/room/stream-manifest.js",
+        "http://127.0.0.1:4331/before/room/compressed-models.js",
+        "http://127.0.0.1:4331/before/room/vendor/addons/csm/CSM.js",
+        "http://127.0.0.1:4331/before/room/vendor/addons/csm/CSMFrustum.js",
+        "http://127.0.0.1:4331/before/room/vendor/addons/csm/CSMShader.js",
+        "http://127.0.0.1:4331/before/room/assets/entry/plaster.webp",
+        "http://127.0.0.1:4331/before/room/assets/entry/floor.webp",
+        "http://127.0.0.1:4331/before/room/assets/entry/oak.webp",
+        "http://127.0.0.1:4331/before/room/audio-worker.js",
+        "http://127.0.0.1:4331/before/room/vendor/addons/environments/RoomEnvironment.js",
+        "http://127.0.0.1:4331/before/room/expo.js",
+        "http://127.0.0.1:4331/before/room/assets/white_plaster_02/painted.webp",
+        "http://127.0.0.1:4331/before/room/assets/white_plaster_02/nor_gl.webp",
+        "http://127.0.0.1:4331/before/room/assets/white_plaster_02/rough.webp",
+        "http://127.0.0.1:4331/before/room/assets/laminate_floor_02/diff.webp",
+        "http://127.0.0.1:4331/before/room/assets/laminate_floor_02/nor_gl.webp",
+        "http://127.0.0.1:4331/before/room/assets/laminate_floor_02/rough.webp",
+        "http://127.0.0.1:4331/before/room/assets/helio.webp",
+        "http://127.0.0.1:4331/before/room/assets/window/indirect.webp",
+        "http://127.0.0.1:4331/before/room/assets/corridor/indirect.webp",
+        "http://127.0.0.1:4331/before/files/resume-preview.webp",
+        "http://127.0.0.1:4331/before/files/education/diploma-preview.webp",
+        "http://127.0.0.1:4331/before/files/education/hackalem-2026-preview.png",
+        "http://127.0.0.1:4331/before/files/education/iqadam-2025-preview.webp",
+        "http://127.0.0.1:4331/before/room/assets/urban_facade/sky.webp",
+        "http://127.0.0.1:4331/before/room/assets/exterior/tree-atlas.webp",
+        "http://127.0.0.1:4331/before/room/vendor/addons/utils/SkeletonUtils.js",
+        "http://127.0.0.1:4331/before/room/audio-score.js",
+        "http://127.0.0.1:4331/before/room/weather.js",
+        "http://127.0.0.1:4331/before/room/vegetation.js",
+        "http://127.0.0.1:4331/before/room/exterior-surfaces.js",
+        "http://127.0.0.1:4331/before/room/assets/room-accents/ceiling-panel.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/studio-furniture/chair.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/studio-furniture/workbench.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/exterior/tree-trunk.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/corridor/profiles.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/studio-furniture/cabinet.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/room-accents/orbit.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/potted_plant_02/selected.gltf",
+        "http://127.0.0.1:4331/before/room/assets/studio-furniture/drawer.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/window/window.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/studio-furniture/door.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/studio-furniture/lamp.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/room-accents/robot.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/studio-furniture/side-table.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/exterior/skyline.glb.gz",
+        "blob:http://127.0.0.1:4331/cbd931c7-166b-46f5-bfbd-96813876e007",
+        "blob:http://127.0.0.1:4331/1dc20303-7eba-4011-b0db-bca23cf0ada0",
+        "blob:http://127.0.0.1:4331/2932e50a-a871-49af-9cfe-3699e112d45f",
+        "blob:http://127.0.0.1:4331/ba3f0cda-ae56-4f7e-a44e-02a68fa8b3b8",
+        "blob:http://127.0.0.1:4331/aeca93a3-7345-4b42-9d56-0438886787da",
+        "blob:http://127.0.0.1:4331/2e672988-fd4a-439a-b306-4e310792867b",
+        "blob:http://127.0.0.1:4331/3367d660-e977-4a02-a18a-1842b79c85a4",
+        "blob:http://127.0.0.1:4331/b0fc803d-991d-4184-9e6f-0a30d7bf3931",
+        "http://127.0.0.1:4331/before/room/assets/potted_plant_02/selected.bin",
+        "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_pot_diff_1k.webp",
+        "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+        "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+        "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+        "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+        "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+        "blob:http://127.0.0.1:4331/77b07b9b-fde5-45a1-8603-da2d65d63478",
+        "blob:http://127.0.0.1:4331/d3824f39-b53f-49b2-91bd-a0c3a420d9e4",
+        "blob:http://127.0.0.1:4331/6d2e7dcc-ec81-4bbb-bde9-1e3ffe2e8f40",
+        "blob:http://127.0.0.1:4331/0cfd7cc7-2fde-499c-8909-cfe0b5a3c859",
+        "blob:http://127.0.0.1:4331/1cee87ed-ae09-4540-9762-facea1f3aa15",
+        "blob:http://127.0.0.1:4331/821d59c7-658a-47a6-ba07-f3950c2f4acd",
+        "blob:http://127.0.0.1:4331/e47ae20e-792a-4289-a5ef-0684d844286b"
+      ],
+      "expected": [
+        {
+          "path": "assets/window/window.glb.gz",
+          "bytes": 501648,
+          "sha256": "57b8d49eefed3b565f85109806b2a6ec97622670f8b44a81ab919fd910483601"
+        },
+        {
+          "path": "assets/corridor/profiles.glb.gz",
+          "bytes": 994124,
+          "sha256": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "path": "assets/exterior/tree-trunk.glb.gz",
+          "bytes": 240324,
+          "sha256": "a7b748fab52bb1fc46772aaae697e3f3f3a43b8e72b9b1c5947485e7a7e78a85"
+        },
+        {
+          "path": "assets/exterior/skyline.glb.gz",
+          "bytes": 52724,
+          "sha256": "32e6a922e715e2f75717981ada986733734566d15b486c1b8482f01cd6d62eaf"
+        },
+        {
+          "path": "assets/studio-furniture/chair.glb.gz",
+          "bytes": 282196,
+          "sha256": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "path": "assets/studio-furniture/lamp.glb.gz",
+          "bytes": 327732,
+          "sha256": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd"
+        },
+        {
+          "path": "assets/studio-furniture/door.glb.gz",
+          "bytes": 272364,
+          "sha256": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "path": "assets/studio-furniture/drawer.glb.gz",
+          "bytes": 209788,
+          "sha256": "cbd18d8f6d45cf28379742c78c401f266b26262dea9fdbc58cda1292bcd40f97"
+        },
+        {
+          "path": "assets/studio-furniture/cabinet.glb.gz",
+          "bytes": 486044,
+          "sha256": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031"
+        },
+        {
+          "path": "assets/studio-furniture/side-table.glb.gz",
+          "bytes": 190204,
+          "sha256": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06"
+        },
+        {
+          "path": "assets/studio-furniture/workbench.glb.gz",
+          "bytes": 553800,
+          "sha256": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "path": "assets/room-accents/robot.glb.gz",
+          "bytes": 252712,
+          "sha256": "a94781e01ab3a2d263f8ed87d81b2b40c21591e740bc4a0ef7f2f425145c8b2e"
+        },
+        {
+          "path": "assets/room-accents/orbit.glb.gz",
+          "bytes": 100668,
+          "sha256": "7a011facd879ca516cce2bfe183c867bd3b398434162886ae65237f913cb0121"
+        },
+        {
+          "path": "assets/room-accents/ceiling-panel.glb.gz",
+          "bytes": 83060,
+          "sha256": "6dd936a72644c3a88698216b9af3ab1966d96fb2ec825952755870304a9e48e3"
+        }
+      ],
+      "observed": [
+        {
+          "bytes": 83060,
+          "sha256": "6dd936a72644c3a88698216b9af3ab1966d96fb2ec825952755870304a9e48e3"
+        },
+        {
+          "bytes": 282196,
+          "sha256": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "bytes": 553800,
+          "sha256": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "bytes": 240324,
+          "sha256": "a7b748fab52bb1fc46772aaae697e3f3f3a43b8e72b9b1c5947485e7a7e78a85"
+        },
+        {
+          "bytes": 994124,
+          "sha256": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "bytes": 486044,
+          "sha256": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031"
+        },
+        {
+          "bytes": 100668,
+          "sha256": "7a011facd879ca516cce2bfe183c867bd3b398434162886ae65237f913cb0121"
+        },
+        {
+          "bytes": 209788,
+          "sha256": "cbd18d8f6d45cf28379742c78c401f266b26262dea9fdbc58cda1292bcd40f97"
+        },
+        {
+          "bytes": 501648,
+          "sha256": "57b8d49eefed3b565f85109806b2a6ec97622670f8b44a81ab919fd910483601"
+        },
+        {
+          "bytes": 272364,
+          "sha256": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "bytes": 327732,
+          "sha256": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd"
+        },
+        {
+          "bytes": 252712,
+          "sha256": "a94781e01ab3a2d263f8ed87d81b2b40c21591e740bc4a0ef7f2f425145c8b2e"
+        },
+        {
+          "bytes": 190204,
+          "sha256": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06"
+        },
+        {
+          "bytes": 52724,
+          "sha256": "32e6a922e715e2f75717981ada986733734566d15b486c1b8482f01cd6d62eaf"
+        }
+      ],
+      "state": {
+        "firstFrameAt": 1148.5,
+        "fullSceneAt": 4592.9000000003725,
+        "shadowUpdates": 2,
+        "cachedShadowFrames": 0,
+        "cabinetVelocity": 0,
+        "doorNear": false,
+        "doorStopProgress": 0.4383676052093506,
+        "doorOpenAngle": 1.54,
+        "doorPassAngle": 1.48,
+        "window": {
+          "loaded": true,
+          "meshes": [
+            {
+              "uv2": true,
+              "material": "Powder_coat_warm_ivory",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "EPDM_seal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Brushed_handle",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Honed_limestone_sill",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Painted_wall_fern",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Warm_lime_reveal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            }
+          ],
+          "liveLamp": 14
+        },
+        "lighting": {
+          "closedCorridorEnd": true,
+          "ceilingPanels": 4,
+          "corridorLights": [
+            {
+              "position": [
+                0,
+                2.94,
+                4.5
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                7.9
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                10.5
+              ],
+              "intensity": 20
+            }
+          ],
+          "taskLight": {
+            "position": [
+              1.075,
+              1.4961344953536986,
+              -1.7688409498631954
+            ],
+            "intensity": 14,
+            "shadowBias": -0.0003,
+            "normalBias": 0.01
+          },
+          "environmentIntensity": 0.24,
+          "fill": 0.55,
+          "daylight": {
+            "cascades": 3,
+            "splitsM": [
+              16,
+              135,
+              720
+            ],
+            "mapSize": 2048,
+            "oneSun": true,
+            "filterRadius": 4
+          },
+          "plaques": [
+            {
+              "number": "01",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "02",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "03",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            }
+          ]
+        },
+        "showcase": {
+          "id": "helio",
+          "source": "assets/helio.webp",
+          "updates": 0,
+          "dynamicTextures": 0,
+          "width": 0,
+          "height": 0
+        },
+        "weather": {
+          "fogNear": 115,
+          "fogFar": 620,
+          "rainCount": 760,
+          "glassBeads": 95,
+          "animatedFrames": 0,
+          "time": 0,
+          "windowVisible": true,
+          "maxRainFPS": 24,
+          "extraDrawCalls": 3,
+          "audioChanged": false,
+          "paused": false,
+          "reduced": false
+        },
+        "stream": {
+          "ready": true,
+          "warming": false,
+          "warmError": null,
+          "skyFallback": false,
+          "phases": {
+            "room": {
+              "status": "ready",
+              "completed": 20,
+              "total": 20,
+              "failed": [],
+              "error": null
+            },
+            "decor": {
+              "status": "ready",
+              "completed": 13,
+              "total": 13,
+              "failed": [],
+              "error": null
+            },
+            "expo": {
+              "status": "ready",
+              "completed": 4,
+              "total": 4,
+              "failed": [],
+              "error": null
+            }
+          }
+        },
+        "cameraClear": true,
+        "viewName": "desk",
+        "progress": 0,
+        "target": 0,
+        "doorAngle": 0.011139339076132647,
+        "camera": [
+          0,
+          1.6,
+          9.55
+        ],
+        "look": [
+          0,
+          0
+        ],
+        "move": [
+          0,
+          0
+        ],
+        "lamp": true,
+        "brightness": 1,
+        "pull": 0,
+        "folder": 0,
+        "drawer": 0,
+        "collection": {
+          "variant": "authored-bifold-sliding",
+          "opening": 0,
+          "itemsAccessible": false,
+          "leftAngle": 0,
+          "rightAngle": 0,
+          "limit": 1.5707963267948966
+        },
+        "furniture": {
+          "variant": "authored",
+          "drawerTravel": 0.29,
+          "drawerOffset": 0,
+          "doorHinge": [
+            -0.515,
+            0.025,
+            1.9
+          ]
+        },
+        "held": false,
+        "pointerKind": null,
+        "pullThreshold": 0.065,
+        "pullLimit": 0.12,
+        "office": {
+          "doorWidth": 1.03,
+          "doorHeight": 2.35,
+          "corridorWidth": 2.65,
+          "sideDoors": [
+            "01",
+            "02",
+            "03"
+          ],
+          "corridorLength": 9.47,
+          "corridorHeight": 3,
+          "routeLength": 8
+        },
+        "assets": [
+          {
+            "id": "chair",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              1.0704697634276144,
+              0.826019287109375,
+              1.053371867630922
+            ],
+            "floorGap": 0,
+            "source": "studio-furniture/chair"
+          },
+          {
+            "id": "lamp",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              0.20000000298023224,
+              0.8564311042428016,
+              0.387474462389946
+            ],
+            "source": "studio-furniture/lamp"
+          },
+          {
+            "id": "cabinet",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6179999905154117,
+              0.6800000071525574,
+              2.440000057220459
+            ]
+          },
+          {
+            "id": "side_table",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6819042689954671,
+              0.550000011920929,
+              0.6122396309200582
+            ]
+          }
+        ],
+        "drawCalls": 962,
+        "textureCount": 84,
+        "triangles": 1257665,
+        "frames": 204,
+        "renders": 2,
+        "audio": {
+          "armed": false,
+          "inside": false,
+          "state": "suspended",
+          "needsGesture": false,
+          "resumePending": false,
+          "resumeAttempts": 0,
+          "musicReady": true,
+          "preparationMode": "worker",
+          "musicDuration": 64,
+          "sourceStarts": {
+            "music": 0,
+            "rain": 0,
+            "effects": 0
+          },
+          "desiredMaster": 0,
+          "levels": {
+            "master": {
+              "rms": 0,
+              "peak": 0
+            },
+            "music": {
+              "rms": 0,
+              "peak": 0
+            },
+            "rain": {
+              "rms": 0,
+              "peak": 0
+            }
+          },
+          "preferences": {
+            "muted": false,
+            "music": {
+              "muted": false,
+              "volume": 0.45
+            },
+            "rain": {
+              "muted": false,
+              "volume": 0.18
+            },
+            "effects": {
+              "muted": false,
+              "volume": 0.25
+            }
+          },
+          "savedPreferences": false,
+          "raining": true,
+          "error": null,
+          "score": "Window Notes"
+        }
+      },
+      "errors": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/ceiling-panel.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/chair.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        }
+      ],
+      "exact": true,
+      "assetsComplete": true
+    },
+    {
+      "version": "before",
+      "mobile": true,
+      "requested": [
+        "http://127.0.0.1:4331/before/room/?lang=ru",
+        "http://127.0.0.1:4331/before/room/style.css",
+        "http://127.0.0.1:4331/before/room/main.js",
+        "http://127.0.0.1:4331/before/room/vendor/addons/loaders/GLTFLoader.js",
+        "http://127.0.0.1:4331/before/room/boot.js",
+        "http://127.0.0.1:4331/before/room/ui.js",
+        "http://127.0.0.1:4331/before/room/collection-viewer.js",
+        "http://127.0.0.1:4331/before/room/profile-data.js",
+        "http://127.0.0.1:4331/before/room/documents-data.js",
+        "http://127.0.0.1:4331/before/room/projects-data.js",
+        "http://127.0.0.1:4331/before/room/vendor/three.module.js",
+        "http://127.0.0.1:4331/before/room/cube-state.js",
+        "http://127.0.0.1:4331/before/room/collection-models.js",
+        "http://127.0.0.1:4331/before/room/vendor/addons/utils/BufferGeometryUtils.js",
+        "http://127.0.0.1:4331/before/room/vendor/addons/geometries/RoundedBoxGeometry.js",
+        "http://127.0.0.1:4331/before/room/vendor/three.core.js",
+        "http://127.0.0.1:4331/before/room/document-actions.js",
+        "http://127.0.0.1:4331/before/room/world.js",
+        "http://127.0.0.1:4331/before/room/audio.js",
+        "http://127.0.0.1:4331/before/room/room-accents.js",
+        "http://127.0.0.1:4331/before/room/joinery-details.js",
+        "http://127.0.0.1:4331/before/room/cabinet-scene.js",
+        "http://127.0.0.1:4331/before/room/architecture-materials.js",
+        "http://127.0.0.1:4331/before/room/daylight.js",
+        "http://127.0.0.1:4331/before/room/window-fragment.js",
+        "http://127.0.0.1:4331/before/room/streaming.js",
+        "http://127.0.0.1:4331/before/room/furniture.js",
+        "http://127.0.0.1:4331/before/room/audio-score.js",
+        "http://127.0.0.1:4331/before/room/vendor/addons/csm/CSM.js",
+        "http://127.0.0.1:4331/before/room/cabinet-doors.js",
+        "http://127.0.0.1:4331/before/room/stream-manifest.js",
+        "http://127.0.0.1:4331/before/room/compressed-models.js",
+        "http://127.0.0.1:4331/before/room/vendor/addons/csm/CSMFrustum.js",
+        "http://127.0.0.1:4331/before/room/vendor/addons/csm/CSMShader.js",
+        "http://127.0.0.1:4331/before/room/assets/entry/plaster.webp",
+        "http://127.0.0.1:4331/before/room/assets/entry/floor.webp",
+        "http://127.0.0.1:4331/before/room/assets/entry/oak.webp",
+        "http://127.0.0.1:4331/before/room/audio-worker.js",
+        "http://127.0.0.1:4331/before/room/vendor/addons/environments/RoomEnvironment.js",
+        "http://127.0.0.1:4331/before/room/expo.js",
+        "http://127.0.0.1:4331/before/room/assets/white_plaster_02/painted.webp",
+        "http://127.0.0.1:4331/before/room/assets/white_plaster_02/nor_gl.webp",
+        "http://127.0.0.1:4331/before/room/assets/white_plaster_02/rough.webp",
+        "http://127.0.0.1:4331/before/room/assets/laminate_floor_02/diff.webp",
+        "http://127.0.0.1:4331/before/room/assets/laminate_floor_02/nor_gl.webp",
+        "http://127.0.0.1:4331/before/room/assets/laminate_floor_02/rough.webp",
+        "http://127.0.0.1:4331/before/room/assets/helio.webp",
+        "http://127.0.0.1:4331/before/room/assets/window/indirect.webp",
+        "http://127.0.0.1:4331/before/room/assets/corridor/indirect.webp",
+        "http://127.0.0.1:4331/before/files/resume-preview.webp",
+        "http://127.0.0.1:4331/before/files/education/diploma-preview.webp",
+        "http://127.0.0.1:4331/before/files/education/hackalem-2026-preview.png",
+        "http://127.0.0.1:4331/before/files/education/iqadam-2025-preview.webp",
+        "http://127.0.0.1:4331/before/room/assets/urban_facade/sky.webp",
+        "http://127.0.0.1:4331/before/room/assets/exterior/tree-atlas.webp",
+        "http://127.0.0.1:4331/before/room/vendor/addons/utils/SkeletonUtils.js",
+        "http://127.0.0.1:4331/before/room/audio-score.js",
+        "http://127.0.0.1:4331/before/room/weather.js",
+        "http://127.0.0.1:4331/before/room/vegetation.js",
+        "http://127.0.0.1:4331/before/room/exterior-surfaces.js",
+        "http://127.0.0.1:4331/before/room/assets/studio-furniture/drawer.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/studio-furniture/side-table.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/studio-furniture/cabinet.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/studio-furniture/door.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/studio-furniture/chair.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/room-accents/robot.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/exterior/tree-trunk.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/room-accents/orbit.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/window/window.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/exterior/skyline.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/potted_plant_02/selected.gltf",
+        "http://127.0.0.1:4331/before/room/assets/corridor/profiles.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/studio-furniture/workbench.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/studio-furniture/lamp.glb.gz",
+        "http://127.0.0.1:4331/before/room/assets/room-accents/ceiling-panel.glb.gz",
+        "blob:http://127.0.0.1:4331/d981cf3d-bcc0-4b4a-a356-7c825f6cae65",
+        "blob:http://127.0.0.1:4331/f87336c7-3af6-4614-8aa1-a80e311d3c38",
+        "blob:http://127.0.0.1:4331/c2f286db-b71e-4d25-a6ba-b00d8d6f0d2d",
+        "blob:http://127.0.0.1:4331/b6e62a78-f7e2-4b6b-b944-f150760e0fef",
+        "blob:http://127.0.0.1:4331/e5d8fc9e-e4be-41be-a992-eff941079ecf",
+        "blob:http://127.0.0.1:4331/26bc16fe-f900-4cac-af70-d910f1320fba",
+        "blob:http://127.0.0.1:4331/a2f1ad37-3ca4-4426-b1c6-4cc36fa62e4d",
+        "blob:http://127.0.0.1:4331/fe1177af-0d35-4258-b13a-f462b3a46f49",
+        "blob:http://127.0.0.1:4331/86be01ed-d972-4e0b-b853-07dac4aad778",
+        "blob:http://127.0.0.1:4331/eaa8209f-c0c7-4ebb-995a-e3e6d45021f3",
+        "blob:http://127.0.0.1:4331/be6ebf23-b8ba-4f77-85d2-fd31a181b10f",
+        "blob:http://127.0.0.1:4331/c3d94cfc-ef9d-4612-81f6-8184ccd8bc53",
+        "blob:http://127.0.0.1:4331/f20efc50-4f84-4f5e-9665-fe4e8f4cb774",
+        "blob:http://127.0.0.1:4331/a2a1af3a-f451-46d0-bed7-13a1fee3312b",
+        "http://127.0.0.1:4331/before/room/assets/potted_plant_02/selected.bin",
+        "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_pot_diff_1k.webp",
+        "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+        "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+        "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+        "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+        "http://127.0.0.1:4331/before/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+        "blob:http://127.0.0.1:4331/85bed018-370e-4edb-91ec-3b2f39cfe4b2"
+      ],
+      "expected": [
+        {
+          "path": "assets/window/window.glb.gz",
+          "bytes": 501648,
+          "sha256": "57b8d49eefed3b565f85109806b2a6ec97622670f8b44a81ab919fd910483601"
+        },
+        {
+          "path": "assets/corridor/profiles.glb.gz",
+          "bytes": 994124,
+          "sha256": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "path": "assets/exterior/tree-trunk.glb.gz",
+          "bytes": 240324,
+          "sha256": "a7b748fab52bb1fc46772aaae697e3f3f3a43b8e72b9b1c5947485e7a7e78a85"
+        },
+        {
+          "path": "assets/exterior/skyline.glb.gz",
+          "bytes": 52724,
+          "sha256": "32e6a922e715e2f75717981ada986733734566d15b486c1b8482f01cd6d62eaf"
+        },
+        {
+          "path": "assets/studio-furniture/chair.glb.gz",
+          "bytes": 282196,
+          "sha256": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "path": "assets/studio-furniture/lamp.glb.gz",
+          "bytes": 327732,
+          "sha256": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd"
+        },
+        {
+          "path": "assets/studio-furniture/door.glb.gz",
+          "bytes": 272364,
+          "sha256": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "path": "assets/studio-furniture/drawer.glb.gz",
+          "bytes": 209788,
+          "sha256": "cbd18d8f6d45cf28379742c78c401f266b26262dea9fdbc58cda1292bcd40f97"
+        },
+        {
+          "path": "assets/studio-furniture/cabinet.glb.gz",
+          "bytes": 486044,
+          "sha256": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031"
+        },
+        {
+          "path": "assets/studio-furniture/side-table.glb.gz",
+          "bytes": 190204,
+          "sha256": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06"
+        },
+        {
+          "path": "assets/studio-furniture/workbench.glb.gz",
+          "bytes": 553800,
+          "sha256": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "path": "assets/room-accents/robot.glb.gz",
+          "bytes": 252712,
+          "sha256": "a94781e01ab3a2d263f8ed87d81b2b40c21591e740bc4a0ef7f2f425145c8b2e"
+        },
+        {
+          "path": "assets/room-accents/orbit.glb.gz",
+          "bytes": 100668,
+          "sha256": "7a011facd879ca516cce2bfe183c867bd3b398434162886ae65237f913cb0121"
+        },
+        {
+          "path": "assets/room-accents/ceiling-panel.glb.gz",
+          "bytes": 83060,
+          "sha256": "6dd936a72644c3a88698216b9af3ab1966d96fb2ec825952755870304a9e48e3"
+        }
+      ],
+      "observed": [
+        {
+          "bytes": 209788,
+          "sha256": "cbd18d8f6d45cf28379742c78c401f266b26262dea9fdbc58cda1292bcd40f97"
+        },
+        {
+          "bytes": 190204,
+          "sha256": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06"
+        },
+        {
+          "bytes": 486044,
+          "sha256": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031"
+        },
+        {
+          "bytes": 272364,
+          "sha256": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "bytes": 282196,
+          "sha256": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "bytes": 252712,
+          "sha256": "a94781e01ab3a2d263f8ed87d81b2b40c21591e740bc4a0ef7f2f425145c8b2e"
+        },
+        {
+          "bytes": 240324,
+          "sha256": "a7b748fab52bb1fc46772aaae697e3f3f3a43b8e72b9b1c5947485e7a7e78a85"
+        },
+        {
+          "bytes": 100668,
+          "sha256": "7a011facd879ca516cce2bfe183c867bd3b398434162886ae65237f913cb0121"
+        },
+        {
+          "bytes": 501648,
+          "sha256": "57b8d49eefed3b565f85109806b2a6ec97622670f8b44a81ab919fd910483601"
+        },
+        {
+          "bytes": 52724,
+          "sha256": "32e6a922e715e2f75717981ada986733734566d15b486c1b8482f01cd6d62eaf"
+        },
+        {
+          "bytes": 327732,
+          "sha256": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd"
+        },
+        {
+          "bytes": 553800,
+          "sha256": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "bytes": 83060,
+          "sha256": "6dd936a72644c3a88698216b9af3ab1966d96fb2ec825952755870304a9e48e3"
+        },
+        {
+          "bytes": 994124,
+          "sha256": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        }
+      ],
+      "state": {
+        "firstFrameAt": 718.3000000007451,
+        "fullSceneAt": 2111.7000000011176,
+        "shadowUpdates": 10,
+        "cachedShadowFrames": 0,
+        "cabinetVelocity": 0,
+        "doorNear": false,
+        "doorStopProgress": 0.4383676052093506,
+        "doorOpenAngle": 1.54,
+        "doorPassAngle": 1.48,
+        "window": {
+          "loaded": true,
+          "meshes": [
+            {
+              "uv2": true,
+              "material": "Powder_coat_warm_ivory",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "EPDM_seal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Brushed_handle",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Honed_limestone_sill",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Painted_wall_fern",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Warm_lime_reveal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            }
+          ],
+          "liveLamp": 14
+        },
+        "lighting": {
+          "closedCorridorEnd": true,
+          "ceilingPanels": 4,
+          "corridorLights": [
+            {
+              "position": [
+                0,
+                2.94,
+                4.5
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                7.9
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                10.5
+              ],
+              "intensity": 20
+            }
+          ],
+          "taskLight": {
+            "position": [
+              1.075,
+              1.4961344953536986,
+              -1.7688409498631954
+            ],
+            "intensity": 14,
+            "shadowBias": -0.0003,
+            "normalBias": 0.01
+          },
+          "environmentIntensity": 0.24,
+          "fill": 0.55,
+          "daylight": {
+            "cascades": 3,
+            "splitsM": [
+              16,
+              135,
+              720
+            ],
+            "mapSize": 2048,
+            "oneSun": true,
+            "filterRadius": 4
+          },
+          "plaques": [
+            {
+              "number": "01",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "02",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "03",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            }
+          ]
+        },
+        "showcase": {
+          "id": "helio",
+          "source": "assets/helio.webp",
+          "updates": 0,
+          "dynamicTextures": 0,
+          "width": 0,
+          "height": 0
+        },
+        "weather": {
+          "fogNear": 115,
+          "fogFar": 620,
+          "rainCount": 760,
+          "glassBeads": 95,
+          "animatedFrames": 0,
+          "time": 0,
+          "windowVisible": true,
+          "maxRainFPS": 24,
+          "extraDrawCalls": 3,
+          "audioChanged": false,
+          "paused": false,
+          "reduced": false
+        },
+        "stream": {
+          "ready": true,
+          "warming": false,
+          "warmError": null,
+          "skyFallback": false,
+          "phases": {
+            "room": {
+              "status": "ready",
+              "completed": 20,
+              "total": 20,
+              "failed": [],
+              "error": null
+            },
+            "decor": {
+              "status": "ready",
+              "completed": 13,
+              "total": 13,
+              "failed": [],
+              "error": null
+            },
+            "expo": {
+              "status": "ready",
+              "completed": 4,
+              "total": 4,
+              "failed": [],
+              "error": null
+            }
+          }
+        },
+        "cameraClear": true,
+        "viewName": "desk",
+        "progress": 0,
+        "target": 0,
+        "doorAngle": 0.03218785593680237,
+        "camera": [
+          0,
+          1.6,
+          9.55
+        ],
+        "look": [
+          0,
+          0
+        ],
+        "move": [
+          0,
+          0
+        ],
+        "lamp": true,
+        "brightness": 1,
+        "pull": 0,
+        "folder": 0,
+        "drawer": 0,
+        "collection": {
+          "variant": "authored-bifold-sliding",
+          "opening": 0,
+          "itemsAccessible": false,
+          "leftAngle": 0,
+          "rightAngle": 0,
+          "limit": 1.5707963267948966
+        },
+        "furniture": {
+          "variant": "authored",
+          "drawerTravel": 0.29,
+          "drawerOffset": 0,
+          "doorHinge": [
+            -0.515,
+            0.025,
+            1.9
+          ]
+        },
+        "held": false,
+        "pointerKind": null,
+        "pullThreshold": 0.065,
+        "pullLimit": 0.12,
+        "office": {
+          "doorWidth": 1.03,
+          "doorHeight": 2.35,
+          "corridorWidth": 2.65,
+          "sideDoors": [
+            "01",
+            "02",
+            "03"
+          ],
+          "corridorLength": 9.47,
+          "corridorHeight": 3,
+          "routeLength": 8
+        },
+        "assets": [
+          {
+            "id": "chair",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              1.0704697634276144,
+              0.826019287109375,
+              1.053371867630922
+            ],
+            "floorGap": 0,
+            "source": "studio-furniture/chair"
+          },
+          {
+            "id": "lamp",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              0.20000000298023224,
+              0.8564311042428016,
+              0.387474462389946
+            ],
+            "source": "studio-furniture/lamp"
+          },
+          {
+            "id": "cabinet",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6179999905154117,
+              0.6800000071525574,
+              2.440000057220459
+            ]
+          },
+          {
+            "id": "side_table",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6819042689954671,
+              0.550000011920929,
+              0.6122396309200582
+            ]
+          }
+        ],
+        "drawCalls": 952,
+        "textureCount": 84,
+        "triangles": 1238795,
+        "frames": 69,
+        "renders": 10,
+        "audio": {
+          "armed": false,
+          "inside": false,
+          "state": "suspended",
+          "needsGesture": false,
+          "resumePending": false,
+          "resumeAttempts": 0,
+          "musicReady": true,
+          "preparationMode": "worker",
+          "musicDuration": 64,
+          "sourceStarts": {
+            "music": 0,
+            "rain": 0,
+            "effects": 0
+          },
+          "desiredMaster": 0,
+          "levels": {
+            "master": {
+              "rms": 0,
+              "peak": 0
+            },
+            "music": {
+              "rms": 0,
+              "peak": 0
+            },
+            "rain": {
+              "rms": 0,
+              "peak": 0
+            }
+          },
+          "preferences": {
+            "muted": false,
+            "music": {
+              "muted": false,
+              "volume": 0.45
+            },
+            "rain": {
+              "muted": false,
+              "volume": 0.18
+            },
+            "effects": {
+              "muted": false,
+              "volume": 0.25
+            }
+          },
+          "savedPreferences": false,
+          "raining": true,
+          "error": null,
+          "score": "Window Notes"
+        }
+      },
+      "errors": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/workbench.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/corridor/profiles.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        }
+      ],
+      "exact": true,
+      "assetsComplete": true
+    },
+    {
+      "version": "after",
+      "mobile": false,
+      "requested": [
+        "http://127.0.0.1:4331/after/room/?lang=ru",
+        "http://127.0.0.1:4331/after/room/style.css",
+        "http://127.0.0.1:4331/after/room/main.js",
+        "http://127.0.0.1:4331/after/room/vendor/addons/loaders/GLTFLoader.js",
+        "http://127.0.0.1:4331/after/room/boot.js",
+        "http://127.0.0.1:4331/after/room/ui.js",
+        "http://127.0.0.1:4331/after/room/collection-viewer.js",
+        "http://127.0.0.1:4331/after/room/profile-data.js",
+        "http://127.0.0.1:4331/after/room/documents-data.js",
+        "http://127.0.0.1:4331/after/room/projects-data.js",
+        "http://127.0.0.1:4331/after/room/vendor/three.module.js",
+        "http://127.0.0.1:4331/after/room/cube-state.js",
+        "http://127.0.0.1:4331/after/room/collection-models.js",
+        "http://127.0.0.1:4331/after/room/vendor/addons/utils/BufferGeometryUtils.js",
+        "http://127.0.0.1:4331/after/room/vendor/addons/geometries/RoundedBoxGeometry.js",
+        "http://127.0.0.1:4331/after/room/vendor/three.core.js",
+        "http://127.0.0.1:4331/after/room/document-actions.js",
+        "http://127.0.0.1:4331/after/room/world.js",
+        "http://127.0.0.1:4331/after/room/audio.js",
+        "http://127.0.0.1:4331/after/room/audio-score.js",
+        "http://127.0.0.1:4331/after/room/room-accents.js",
+        "http://127.0.0.1:4331/after/room/joinery-details.js",
+        "http://127.0.0.1:4331/after/room/cabinet-scene.js",
+        "http://127.0.0.1:4331/after/room/architecture-materials.js",
+        "http://127.0.0.1:4331/after/room/daylight.js",
+        "http://127.0.0.1:4331/after/room/window-fragment.js",
+        "http://127.0.0.1:4331/after/room/streaming.js",
+        "http://127.0.0.1:4331/after/room/furniture.js",
+        "http://127.0.0.1:4331/after/room/cabinet-doors.js",
+        "http://127.0.0.1:4331/after/room/vendor/addons/csm/CSM.js",
+        "http://127.0.0.1:4331/after/room/stream-manifest.js",
+        "http://127.0.0.1:4331/after/room/compressed-models.js",
+        "http://127.0.0.1:4331/after/room/vendor/addons/csm/CSMFrustum.js",
+        "http://127.0.0.1:4331/after/room/vendor/addons/csm/CSMShader.js",
+        "http://127.0.0.1:4331/after/room/assets/entry/plaster.webp",
+        "http://127.0.0.1:4331/after/room/assets/entry/floor.webp",
+        "http://127.0.0.1:4331/after/room/assets/entry/oak.webp",
+        "http://127.0.0.1:4331/after/room/audio-worker.js",
+        "http://127.0.0.1:4331/after/room/vendor/addons/environments/RoomEnvironment.js",
+        "http://127.0.0.1:4331/after/room/expo.js",
+        "http://127.0.0.1:4331/after/room/assets/white_plaster_02/painted.webp",
+        "http://127.0.0.1:4331/after/room/assets/white_plaster_02/nor_gl.webp",
+        "http://127.0.0.1:4331/after/room/assets/white_plaster_02/rough.webp",
+        "http://127.0.0.1:4331/after/room/assets/laminate_floor_02/diff.webp",
+        "http://127.0.0.1:4331/after/room/assets/laminate_floor_02/nor_gl.webp",
+        "http://127.0.0.1:4331/after/room/assets/laminate_floor_02/rough.webp",
+        "http://127.0.0.1:4331/after/room/assets/helio.webp",
+        "http://127.0.0.1:4331/after/room/assets/window/indirect.webp",
+        "http://127.0.0.1:4331/after/room/assets/corridor/indirect.webp",
+        "http://127.0.0.1:4331/after/files/resume-preview.webp",
+        "http://127.0.0.1:4331/after/files/education/diploma-preview.webp",
+        "http://127.0.0.1:4331/after/files/education/hackalem-2026-preview.png",
+        "http://127.0.0.1:4331/after/files/education/iqadam-2025-preview.webp",
+        "http://127.0.0.1:4331/after/room/assets/urban_facade/sky.webp",
+        "http://127.0.0.1:4331/after/room/assets/exterior/tree-atlas.webp",
+        "http://127.0.0.1:4331/after/room/vendor/addons/utils/SkeletonUtils.js",
+        "http://127.0.0.1:4331/after/room/weather.js",
+        "http://127.0.0.1:4331/after/room/vegetation.js",
+        "http://127.0.0.1:4331/after/room/exterior-surfaces.js",
+        "http://127.0.0.1:4331/after/room/audio-score.js",
+        "http://127.0.0.1:4331/after/room/assets/corridor/profiles.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/studio-furniture/door.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/room-accents/robot.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/exterior/skyline.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/studio-furniture/lamp.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/studio-furniture/side-table.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/studio-furniture/drawer.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/exterior/tree-trunk.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/room-accents/ceiling-panel.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/room-accents/orbit.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/studio-furniture/workbench.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/window/window.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/studio-furniture/chair.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/potted_plant_02/selected.gltf",
+        "http://127.0.0.1:4331/after/room/assets/studio-furniture/cabinet.glb.gz",
+        "blob:http://127.0.0.1:4331/3d391908-c62e-45cb-9c3a-27f1c554270f",
+        "blob:http://127.0.0.1:4331/568b803d-51ca-4110-856c-e8d24e1f89cf",
+        "blob:http://127.0.0.1:4331/297b6ab8-8ead-469c-ae62-da96e451e530",
+        "blob:http://127.0.0.1:4331/c1dfaaf1-fdeb-4b87-89b9-a08784eed415",
+        "blob:http://127.0.0.1:4331/4de32049-430f-4bff-9ea1-975f35a5c772",
+        "blob:http://127.0.0.1:4331/5898d2df-1c19-48c4-9361-51a19ea54846",
+        "blob:http://127.0.0.1:4331/4587043a-e464-4c8a-b641-d538ceaa31e6",
+        "blob:http://127.0.0.1:4331/772e25a2-103d-45b2-94d5-e0561a1873ca",
+        "blob:http://127.0.0.1:4331/11947b43-d44d-4810-a4b6-45c813ecdc71",
+        "blob:http://127.0.0.1:4331/d4dec8f9-0de8-424d-b61d-3c5611eada86",
+        "blob:http://127.0.0.1:4331/5d3f1e9e-4af2-48c1-9abb-3af944425ffa",
+        "blob:http://127.0.0.1:4331/d3812989-7fac-450e-84eb-43b0bd88ff1b",
+        "blob:http://127.0.0.1:4331/bf694cda-8c89-4311-bbc6-df1d8cd6e848",
+        "http://127.0.0.1:4331/after/room/assets/potted_plant_02/selected.bin",
+        "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_pot_diff_1k.webp",
+        "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+        "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+        "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+        "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+        "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+        "blob:http://127.0.0.1:4331/f95c5e8a-b131-43ed-9b84-af64478be09f",
+        "blob:http://127.0.0.1:4331/f3b74e67-a1ba-4610-ae6e-508a59d8f853"
+      ],
+      "expected": [
+        {
+          "path": "assets/window/window.glb.gz",
+          "bytes": 501648,
+          "sha256": "57b8d49eefed3b565f85109806b2a6ec97622670f8b44a81ab919fd910483601"
+        },
+        {
+          "path": "assets/corridor/profiles.glb.gz",
+          "bytes": 994124,
+          "sha256": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "path": "assets/exterior/tree-trunk.glb.gz",
+          "bytes": 240324,
+          "sha256": "a7b748fab52bb1fc46772aaae697e3f3f3a43b8e72b9b1c5947485e7a7e78a85"
+        },
+        {
+          "path": "assets/exterior/skyline.glb.gz",
+          "bytes": 52724,
+          "sha256": "32e6a922e715e2f75717981ada986733734566d15b486c1b8482f01cd6d62eaf"
+        },
+        {
+          "path": "assets/studio-furniture/chair.glb.gz",
+          "bytes": 282196,
+          "sha256": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "path": "assets/studio-furniture/lamp.glb.gz",
+          "bytes": 327732,
+          "sha256": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd"
+        },
+        {
+          "path": "assets/studio-furniture/door.glb.gz",
+          "bytes": 272364,
+          "sha256": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "path": "assets/studio-furniture/drawer.glb.gz",
+          "bytes": 209788,
+          "sha256": "cbd18d8f6d45cf28379742c78c401f266b26262dea9fdbc58cda1292bcd40f97"
+        },
+        {
+          "path": "assets/studio-furniture/cabinet.glb.gz",
+          "bytes": 486044,
+          "sha256": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031"
+        },
+        {
+          "path": "assets/studio-furniture/side-table.glb.gz",
+          "bytes": 190204,
+          "sha256": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06"
+        },
+        {
+          "path": "assets/studio-furniture/workbench.glb.gz",
+          "bytes": 553800,
+          "sha256": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "path": "assets/room-accents/robot.glb.gz",
+          "bytes": 252712,
+          "sha256": "a94781e01ab3a2d263f8ed87d81b2b40c21591e740bc4a0ef7f2f425145c8b2e"
+        },
+        {
+          "path": "assets/room-accents/orbit.glb.gz",
+          "bytes": 100668,
+          "sha256": "7a011facd879ca516cce2bfe183c867bd3b398434162886ae65237f913cb0121"
+        },
+        {
+          "path": "assets/room-accents/ceiling-panel.glb.gz",
+          "bytes": 83060,
+          "sha256": "6dd936a72644c3a88698216b9af3ab1966d96fb2ec825952755870304a9e48e3"
+        }
+      ],
+      "observed": [
+        {
+          "bytes": 994124,
+          "sha256": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "bytes": 272364,
+          "sha256": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "bytes": 252712,
+          "sha256": "a94781e01ab3a2d263f8ed87d81b2b40c21591e740bc4a0ef7f2f425145c8b2e"
+        },
+        {
+          "bytes": 52724,
+          "sha256": "32e6a922e715e2f75717981ada986733734566d15b486c1b8482f01cd6d62eaf"
+        },
+        {
+          "bytes": 327732,
+          "sha256": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd"
+        },
+        {
+          "bytes": 190204,
+          "sha256": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06"
+        },
+        {
+          "bytes": 209788,
+          "sha256": "cbd18d8f6d45cf28379742c78c401f266b26262dea9fdbc58cda1292bcd40f97"
+        },
+        {
+          "bytes": 240324,
+          "sha256": "a7b748fab52bb1fc46772aaae697e3f3f3a43b8e72b9b1c5947485e7a7e78a85"
+        },
+        {
+          "bytes": 83060,
+          "sha256": "6dd936a72644c3a88698216b9af3ab1966d96fb2ec825952755870304a9e48e3"
+        },
+        {
+          "bytes": 100668,
+          "sha256": "7a011facd879ca516cce2bfe183c867bd3b398434162886ae65237f913cb0121"
+        },
+        {
+          "bytes": 553800,
+          "sha256": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "bytes": 501648,
+          "sha256": "57b8d49eefed3b565f85109806b2a6ec97622670f8b44a81ab919fd910483601"
+        },
+        {
+          "bytes": 282196,
+          "sha256": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "bytes": 486044,
+          "sha256": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031"
+        }
+      ],
+      "state": {
+        "firstFrameAt": 766.6999999992549,
+        "fullSceneAt": 2153.5999999996275,
+        "shadowUpdates": 10,
+        "cachedShadowFrames": 0,
+        "cabinetVelocity": 0,
+        "doorNear": false,
+        "doorStopProgress": 0.4383676052093506,
+        "doorOpenAngle": 1.54,
+        "doorPassAngle": 1.48,
+        "window": {
+          "loaded": true,
+          "meshes": [
+            {
+              "uv2": true,
+              "material": "Powder_coat_warm_ivory",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "EPDM_seal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Brushed_handle",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Honed_limestone_sill",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Painted_wall_fern",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Warm_lime_reveal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            }
+          ],
+          "liveLamp": 14
+        },
+        "lighting": {
+          "closedCorridorEnd": true,
+          "ceilingPanels": 4,
+          "corridorLights": [
+            {
+              "position": [
+                0,
+                2.94,
+                4.5
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                7.9
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                10.5
+              ],
+              "intensity": 20
+            }
+          ],
+          "taskLight": {
+            "position": [
+              1.075,
+              1.4961344953536986,
+              -1.7688409498631954
+            ],
+            "intensity": 14,
+            "shadowBias": -0.0003,
+            "normalBias": 0.01
+          },
+          "environmentIntensity": 0.24,
+          "fill": 0.55,
+          "daylight": {
+            "cascades": 3,
+            "splitsM": [
+              16,
+              135,
+              720
+            ],
+            "mapSize": 2048,
+            "oneSun": true,
+            "filterRadius": 4
+          },
+          "plaques": [
+            {
+              "number": "01",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "02",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "03",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            }
+          ]
+        },
+        "showcase": {
+          "id": "helio",
+          "source": "assets/helio.webp",
+          "updates": 0,
+          "dynamicTextures": 0,
+          "width": 0,
+          "height": 0
+        },
+        "weather": {
+          "fogNear": 115,
+          "fogFar": 620,
+          "rainCount": 760,
+          "glassBeads": 95,
+          "animatedFrames": 0,
+          "time": 0,
+          "windowVisible": true,
+          "maxRainFPS": 24,
+          "extraDrawCalls": 3,
+          "audioChanged": false,
+          "paused": false,
+          "reduced": false
+        },
+        "stream": {
+          "ready": true,
+          "warming": false,
+          "warmError": null,
+          "skyFallback": false,
+          "phases": {
+            "room": {
+              "status": "ready",
+              "completed": 20,
+              "total": 20,
+              "failed": [],
+              "error": null
+            },
+            "decor": {
+              "status": "ready",
+              "completed": 13,
+              "total": 13,
+              "failed": [],
+              "error": null
+            },
+            "expo": {
+              "status": "ready",
+              "completed": 4,
+              "total": 4,
+              "failed": [],
+              "error": null
+            }
+          }
+        },
+        "cameraClear": true,
+        "viewName": "desk",
+        "progress": 0,
+        "target": 0,
+        "doorAngle": 0.03006881849742719,
+        "camera": [
+          0,
+          1.6,
+          9.55
+        ],
+        "look": [
+          0,
+          0
+        ],
+        "move": [
+          0,
+          0
+        ],
+        "lamp": true,
+        "brightness": 1,
+        "pull": 0,
+        "folder": 0,
+        "drawer": 0,
+        "collection": {
+          "variant": "authored-bifold-sliding",
+          "opening": 0,
+          "itemsAccessible": false,
+          "leftAngle": 0,
+          "rightAngle": 0,
+          "limit": 1.5707963267948966
+        },
+        "furniture": {
+          "variant": "authored",
+          "drawerTravel": 0.29,
+          "drawerOffset": 0,
+          "doorHinge": [
+            -0.515,
+            0.025,
+            1.9
+          ]
+        },
+        "held": false,
+        "pointerKind": null,
+        "pullThreshold": 0.065,
+        "pullLimit": 0.12,
+        "office": {
+          "doorWidth": 1.03,
+          "doorHeight": 2.35,
+          "corridorWidth": 2.65,
+          "sideDoors": [
+            "01",
+            "02",
+            "03"
+          ],
+          "corridorLength": 9.47,
+          "corridorHeight": 3,
+          "routeLength": 8
+        },
+        "assets": [
+          {
+            "id": "chair",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              1.0704697634276144,
+              0.826019287109375,
+              1.053371867630922
+            ],
+            "floorGap": 0,
+            "source": "studio-furniture/chair"
+          },
+          {
+            "id": "lamp",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              0.20000000298023224,
+              0.8564311042428016,
+              0.387474462389946
+            ],
+            "source": "studio-furniture/lamp"
+          },
+          {
+            "id": "cabinet",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6179999905154117,
+              0.6800000071525574,
+              2.440000057220459
+            ]
+          },
+          {
+            "id": "side_table",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6819042689954671,
+              0.550000011920929,
+              0.6122396309200582
+            ]
+          }
+        ],
+        "drawCalls": 962,
+        "textureCount": 84,
+        "triangles": 1257665,
+        "frames": 67,
+        "renders": 10,
+        "audio": {
+          "armed": false,
+          "inside": false,
+          "state": "suspended",
+          "needsGesture": false,
+          "resumePending": false,
+          "resumeAttempts": 0,
+          "musicReady": true,
+          "preparationMode": "worker",
+          "musicDuration": 64,
+          "sourceStarts": {
+            "music": 0,
+            "rain": 0,
+            "effects": 0
+          },
+          "desiredMaster": 0,
+          "levels": {
+            "master": {
+              "rms": 0,
+              "peak": 0
+            },
+            "music": {
+              "rms": 0,
+              "peak": 0
+            },
+            "rain": {
+              "rms": 0,
+              "peak": 0
+            }
+          },
+          "preferences": {
+            "muted": false,
+            "music": {
+              "muted": false,
+              "volume": 0.45
+            },
+            "rain": {
+              "muted": false,
+              "volume": 0.18
+            },
+            "effects": {
+              "muted": false,
+              "volume": 0.25
+            }
+          },
+          "savedPreferences": false,
+          "raining": true,
+          "error": null,
+          "score": "Window Notes"
+        }
+      },
+      "errors": [],
+      "failed": [],
+      "exact": true,
+      "assetsComplete": true
+    },
+    {
+      "version": "after",
+      "mobile": true,
+      "requested": [
+        "http://127.0.0.1:4331/after/room/?lang=ru",
+        "http://127.0.0.1:4331/after/room/style.css",
+        "http://127.0.0.1:4331/after/room/main.js",
+        "http://127.0.0.1:4331/after/room/vendor/addons/loaders/GLTFLoader.js",
+        "http://127.0.0.1:4331/after/room/boot.js",
+        "http://127.0.0.1:4331/after/room/ui.js",
+        "http://127.0.0.1:4331/after/room/collection-viewer.js",
+        "http://127.0.0.1:4331/after/room/profile-data.js",
+        "http://127.0.0.1:4331/after/room/documents-data.js",
+        "http://127.0.0.1:4331/after/room/projects-data.js",
+        "http://127.0.0.1:4331/after/room/vendor/three.module.js",
+        "http://127.0.0.1:4331/after/room/cube-state.js",
+        "http://127.0.0.1:4331/after/room/collection-models.js",
+        "http://127.0.0.1:4331/after/room/vendor/addons/utils/BufferGeometryUtils.js",
+        "http://127.0.0.1:4331/after/room/vendor/addons/geometries/RoundedBoxGeometry.js",
+        "http://127.0.0.1:4331/after/room/vendor/three.core.js",
+        "http://127.0.0.1:4331/after/room/document-actions.js",
+        "http://127.0.0.1:4331/after/room/world.js",
+        "http://127.0.0.1:4331/after/room/audio.js",
+        "http://127.0.0.1:4331/after/room/room-accents.js",
+        "http://127.0.0.1:4331/after/room/joinery-details.js",
+        "http://127.0.0.1:4331/after/room/cabinet-scene.js",
+        "http://127.0.0.1:4331/after/room/architecture-materials.js",
+        "http://127.0.0.1:4331/after/room/daylight.js",
+        "http://127.0.0.1:4331/after/room/window-fragment.js",
+        "http://127.0.0.1:4331/after/room/streaming.js",
+        "http://127.0.0.1:4331/after/room/furniture.js",
+        "http://127.0.0.1:4331/after/room/audio-score.js",
+        "http://127.0.0.1:4331/after/room/cabinet-doors.js",
+        "http://127.0.0.1:4331/after/room/vendor/addons/csm/CSM.js",
+        "http://127.0.0.1:4331/after/room/stream-manifest.js",
+        "http://127.0.0.1:4331/after/room/compressed-models.js",
+        "http://127.0.0.1:4331/after/room/vendor/addons/csm/CSMFrustum.js",
+        "http://127.0.0.1:4331/after/room/vendor/addons/csm/CSMShader.js",
+        "http://127.0.0.1:4331/after/room/assets/entry/plaster.webp",
+        "http://127.0.0.1:4331/after/room/assets/entry/floor.webp",
+        "http://127.0.0.1:4331/after/room/assets/entry/oak.webp",
+        "http://127.0.0.1:4331/after/room/audio-worker.js",
+        "http://127.0.0.1:4331/after/room/vendor/addons/environments/RoomEnvironment.js",
+        "http://127.0.0.1:4331/after/room/expo.js",
+        "http://127.0.0.1:4331/after/room/assets/white_plaster_02/painted.webp",
+        "http://127.0.0.1:4331/after/room/assets/white_plaster_02/nor_gl.webp",
+        "http://127.0.0.1:4331/after/room/assets/white_plaster_02/rough.webp",
+        "http://127.0.0.1:4331/after/room/assets/laminate_floor_02/diff.webp",
+        "http://127.0.0.1:4331/after/room/assets/laminate_floor_02/nor_gl.webp",
+        "http://127.0.0.1:4331/after/room/assets/laminate_floor_02/rough.webp",
+        "http://127.0.0.1:4331/after/room/assets/helio.webp",
+        "http://127.0.0.1:4331/after/room/assets/window/indirect.webp",
+        "http://127.0.0.1:4331/after/room/assets/corridor/indirect.webp",
+        "http://127.0.0.1:4331/after/files/resume-preview.webp",
+        "http://127.0.0.1:4331/after/files/education/diploma-preview.webp",
+        "http://127.0.0.1:4331/after/files/education/hackalem-2026-preview.png",
+        "http://127.0.0.1:4331/after/files/education/iqadam-2025-preview.webp",
+        "http://127.0.0.1:4331/after/room/assets/urban_facade/sky.webp",
+        "http://127.0.0.1:4331/after/room/assets/exterior/tree-atlas.webp",
+        "http://127.0.0.1:4331/after/room/vendor/addons/utils/SkeletonUtils.js",
+        "http://127.0.0.1:4331/after/room/weather.js",
+        "http://127.0.0.1:4331/after/room/vegetation.js",
+        "http://127.0.0.1:4331/after/room/exterior-surfaces.js",
+        "http://127.0.0.1:4331/after/room/audio-score.js",
+        "http://127.0.0.1:4331/after/room/assets/studio-furniture/cabinet.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/room-accents/orbit.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/potted_plant_02/selected.gltf",
+        "http://127.0.0.1:4331/after/room/assets/exterior/tree-trunk.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/studio-furniture/drawer.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/corridor/profiles.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/exterior/skyline.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/studio-furniture/chair.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/room-accents/robot.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/room-accents/ceiling-panel.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/studio-furniture/side-table.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/studio-furniture/workbench.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/studio-furniture/door.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/window/window.glb.gz",
+        "http://127.0.0.1:4331/after/room/assets/studio-furniture/lamp.glb.gz",
+        "blob:http://127.0.0.1:4331/c4127e37-c41c-4a3b-b1b5-5ace04e68086",
+        "blob:http://127.0.0.1:4331/38989fd5-6ab9-4cbc-8edc-8ec27b177c5b",
+        "http://127.0.0.1:4331/after/room/assets/potted_plant_02/selected.bin",
+        "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_pot_diff_1k.webp",
+        "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+        "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+        "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+        "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+        "http://127.0.0.1:4331/after/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+        "blob:http://127.0.0.1:4331/f147711e-e56b-44d0-9ca0-5eeeb528fd81",
+        "blob:http://127.0.0.1:4331/b3669db2-08fb-49a4-b34f-1bc15b906272",
+        "blob:http://127.0.0.1:4331/123f1011-99b0-4f06-92db-2e7ea8787521",
+        "blob:http://127.0.0.1:4331/c12ff594-17fb-47d2-a88e-6e5c1507201f",
+        "blob:http://127.0.0.1:4331/9fba45f6-4613-4fcc-8f33-29e3a4dbfbfb",
+        "blob:http://127.0.0.1:4331/22c0b382-6178-42fe-bc6c-3951c65ad737",
+        "blob:http://127.0.0.1:4331/5208821e-854c-44b9-a4d2-e9e58ada4bdc",
+        "blob:http://127.0.0.1:4331/07405e38-f647-413e-9cd7-e98b173687ce",
+        "blob:http://127.0.0.1:4331/b513e118-0e8f-408e-bd85-13caf829ad6b",
+        "blob:http://127.0.0.1:4331/dbee50ae-b9e6-4ad0-a1ab-035426dc30a8",
+        "blob:http://127.0.0.1:4331/647f7693-82e0-40a7-92c2-4e88b36af242",
+        "blob:http://127.0.0.1:4331/d7da3138-e9a6-4d44-b7cb-9f19fa7e3792",
+        "blob:http://127.0.0.1:4331/98182f9e-013c-4b50-a296-4a9fd8cb1056"
+      ],
+      "expected": [
+        {
+          "path": "assets/window/window.glb.gz",
+          "bytes": 501648,
+          "sha256": "57b8d49eefed3b565f85109806b2a6ec97622670f8b44a81ab919fd910483601"
+        },
+        {
+          "path": "assets/corridor/profiles.glb.gz",
+          "bytes": 994124,
+          "sha256": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "path": "assets/exterior/tree-trunk.glb.gz",
+          "bytes": 240324,
+          "sha256": "a7b748fab52bb1fc46772aaae697e3f3f3a43b8e72b9b1c5947485e7a7e78a85"
+        },
+        {
+          "path": "assets/exterior/skyline.glb.gz",
+          "bytes": 52724,
+          "sha256": "32e6a922e715e2f75717981ada986733734566d15b486c1b8482f01cd6d62eaf"
+        },
+        {
+          "path": "assets/studio-furniture/chair.glb.gz",
+          "bytes": 282196,
+          "sha256": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "path": "assets/studio-furniture/lamp.glb.gz",
+          "bytes": 327732,
+          "sha256": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd"
+        },
+        {
+          "path": "assets/studio-furniture/door.glb.gz",
+          "bytes": 272364,
+          "sha256": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "path": "assets/studio-furniture/drawer.glb.gz",
+          "bytes": 209788,
+          "sha256": "cbd18d8f6d45cf28379742c78c401f266b26262dea9fdbc58cda1292bcd40f97"
+        },
+        {
+          "path": "assets/studio-furniture/cabinet.glb.gz",
+          "bytes": 486044,
+          "sha256": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031"
+        },
+        {
+          "path": "assets/studio-furniture/side-table.glb.gz",
+          "bytes": 190204,
+          "sha256": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06"
+        },
+        {
+          "path": "assets/studio-furniture/workbench.glb.gz",
+          "bytes": 553800,
+          "sha256": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "path": "assets/room-accents/robot.glb.gz",
+          "bytes": 252712,
+          "sha256": "a94781e01ab3a2d263f8ed87d81b2b40c21591e740bc4a0ef7f2f425145c8b2e"
+        },
+        {
+          "path": "assets/room-accents/orbit.glb.gz",
+          "bytes": 100668,
+          "sha256": "7a011facd879ca516cce2bfe183c867bd3b398434162886ae65237f913cb0121"
+        },
+        {
+          "path": "assets/room-accents/ceiling-panel.glb.gz",
+          "bytes": 83060,
+          "sha256": "6dd936a72644c3a88698216b9af3ab1966d96fb2ec825952755870304a9e48e3"
+        }
+      ],
+      "observed": [
+        {
+          "bytes": 486044,
+          "sha256": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031"
+        },
+        {
+          "bytes": 100668,
+          "sha256": "7a011facd879ca516cce2bfe183c867bd3b398434162886ae65237f913cb0121"
+        },
+        {
+          "bytes": 240324,
+          "sha256": "a7b748fab52bb1fc46772aaae697e3f3f3a43b8e72b9b1c5947485e7a7e78a85"
+        },
+        {
+          "bytes": 209788,
+          "sha256": "cbd18d8f6d45cf28379742c78c401f266b26262dea9fdbc58cda1292bcd40f97"
+        },
+        {
+          "bytes": 994124,
+          "sha256": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "bytes": 52724,
+          "sha256": "32e6a922e715e2f75717981ada986733734566d15b486c1b8482f01cd6d62eaf"
+        },
+        {
+          "bytes": 282196,
+          "sha256": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "bytes": 252712,
+          "sha256": "a94781e01ab3a2d263f8ed87d81b2b40c21591e740bc4a0ef7f2f425145c8b2e"
+        },
+        {
+          "bytes": 83060,
+          "sha256": "6dd936a72644c3a88698216b9af3ab1966d96fb2ec825952755870304a9e48e3"
+        },
+        {
+          "bytes": 190204,
+          "sha256": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06"
+        },
+        {
+          "bytes": 553800,
+          "sha256": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "bytes": 272364,
+          "sha256": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "bytes": 501648,
+          "sha256": "57b8d49eefed3b565f85109806b2a6ec97622670f8b44a81ab919fd910483601"
+        },
+        {
+          "bytes": 327732,
+          "sha256": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd"
+        }
+      ],
+      "state": {
+        "firstFrameAt": 758,
+        "fullSceneAt": 2095.2000000011176,
+        "shadowUpdates": 11,
+        "cachedShadowFrames": 0,
+        "cabinetVelocity": 0,
+        "doorNear": false,
+        "doorStopProgress": 0.4383676052093506,
+        "doorOpenAngle": 1.54,
+        "doorPassAngle": 1.48,
+        "window": {
+          "loaded": true,
+          "meshes": [
+            {
+              "uv2": true,
+              "material": "Powder_coat_warm_ivory",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "EPDM_seal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Brushed_handle",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Honed_limestone_sill",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Painted_wall_fern",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Warm_lime_reveal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            }
+          ],
+          "liveLamp": 14
+        },
+        "lighting": {
+          "closedCorridorEnd": true,
+          "ceilingPanels": 4,
+          "corridorLights": [
+            {
+              "position": [
+                0,
+                2.94,
+                4.5
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                7.9
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                10.5
+              ],
+              "intensity": 20
+            }
+          ],
+          "taskLight": {
+            "position": [
+              1.075,
+              1.4961344953536986,
+              -1.7688409498631954
+            ],
+            "intensity": 14,
+            "shadowBias": -0.0003,
+            "normalBias": 0.01
+          },
+          "environmentIntensity": 0.24,
+          "fill": 0.55,
+          "daylight": {
+            "cascades": 3,
+            "splitsM": [
+              16,
+              135,
+              720
+            ],
+            "mapSize": 2048,
+            "oneSun": true,
+            "filterRadius": 4
+          },
+          "plaques": [
+            {
+              "number": "01",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "02",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "03",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            }
+          ]
+        },
+        "showcase": {
+          "id": "helio",
+          "source": "assets/helio.webp",
+          "updates": 0,
+          "dynamicTextures": 0,
+          "width": 0,
+          "height": 0
+        },
+        "weather": {
+          "fogNear": 115,
+          "fogFar": 620,
+          "rainCount": 760,
+          "glassBeads": 95,
+          "animatedFrames": 0,
+          "time": 0,
+          "windowVisible": true,
+          "maxRainFPS": 24,
+          "extraDrawCalls": 3,
+          "audioChanged": false,
+          "paused": false,
+          "reduced": false
+        },
+        "stream": {
+          "ready": true,
+          "warming": false,
+          "warmError": null,
+          "skyFallback": false,
+          "phases": {
+            "room": {
+              "status": "ready",
+              "completed": 20,
+              "total": 20,
+              "failed": [],
+              "error": null
+            },
+            "decor": {
+              "status": "ready",
+              "completed": 13,
+              "total": 13,
+              "failed": [],
+              "error": null
+            },
+            "expo": {
+              "status": "ready",
+              "completed": 4,
+              "total": 4,
+              "failed": [],
+              "error": null
+            }
+          }
+        },
+        "cameraClear": true,
+        "viewName": "desk",
+        "progress": 0,
+        "target": 0,
+        "doorAngle": 0.0335603161060967,
+        "camera": [
+          0,
+          1.6,
+          9.55
+        ],
+        "look": [
+          0,
+          0
+        ],
+        "move": [
+          0,
+          0
+        ],
+        "lamp": true,
+        "brightness": 1,
+        "pull": 0,
+        "folder": 0,
+        "drawer": 0,
+        "collection": {
+          "variant": "authored-bifold-sliding",
+          "opening": 0,
+          "itemsAccessible": false,
+          "leftAngle": 0,
+          "rightAngle": 0,
+          "limit": 1.5707963267948966
+        },
+        "furniture": {
+          "variant": "authored",
+          "drawerTravel": 0.29,
+          "drawerOffset": 0,
+          "doorHinge": [
+            -0.515,
+            0.025,
+            1.9
+          ]
+        },
+        "held": false,
+        "pointerKind": null,
+        "pullThreshold": 0.065,
+        "pullLimit": 0.12,
+        "office": {
+          "doorWidth": 1.03,
+          "doorHeight": 2.35,
+          "corridorWidth": 2.65,
+          "sideDoors": [
+            "01",
+            "02",
+            "03"
+          ],
+          "corridorLength": 9.47,
+          "corridorHeight": 3,
+          "routeLength": 8
+        },
+        "assets": [
+          {
+            "id": "chair",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              1.0704697634276144,
+              0.826019287109375,
+              1.053371867630922
+            ],
+            "floorGap": 0,
+            "source": "studio-furniture/chair"
+          },
+          {
+            "id": "lamp",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              0.20000000298023224,
+              0.8564311042428016,
+              0.387474462389946
+            ],
+            "source": "studio-furniture/lamp"
+          },
+          {
+            "id": "cabinet",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6179999905154117,
+              0.6800000071525574,
+              2.440000057220459
+            ]
+          },
+          {
+            "id": "side_table",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6819042689954671,
+              0.550000011920929,
+              0.6122396309200582
+            ]
+          }
+        ],
+        "drawCalls": 952,
+        "textureCount": 84,
+        "triangles": 1238795,
+        "frames": 72,
+        "renders": 11,
+        "audio": {
+          "armed": false,
+          "inside": false,
+          "state": "suspended",
+          "needsGesture": false,
+          "resumePending": false,
+          "resumeAttempts": 0,
+          "musicReady": true,
+          "preparationMode": "worker",
+          "musicDuration": 64,
+          "sourceStarts": {
+            "music": 0,
+            "rain": 0,
+            "effects": 0
+          },
+          "desiredMaster": 0,
+          "levels": {
+            "master": {
+              "rms": 0,
+              "peak": 0
+            },
+            "music": {
+              "rms": 0,
+              "peak": 0
+            },
+            "rain": {
+              "rms": 0,
+              "peak": 0
+            }
+          },
+          "preferences": {
+            "muted": false,
+            "music": {
+              "muted": false,
+              "volume": 0.45
+            },
+            "rain": {
+              "muted": false,
+              "volume": 0.18
+            },
+            "effects": {
+              "muted": false,
+              "volume": 0.25
+            }
+          },
+          "savedPreferences": false,
+          "raining": true,
+          "error": null,
+          "score": "Window Notes"
+        }
+      },
+      "errors": [],
+      "failed": [],
+      "exact": true,
+      "assetsComplete": true
+    }
+  ],
+  "passed": true,
+  "method": "Read-only observer of decompressed Response.arrayBuffer GLB bytes in actual native room startup; original promise result returned unchanged. All fetched packed model hashes checked against committed manifest."
+}

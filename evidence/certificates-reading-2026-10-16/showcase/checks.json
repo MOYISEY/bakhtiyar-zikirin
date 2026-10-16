@@ -1,0 +1,852 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "checks": [
+    "320-light-no-preference: retired rail and duplicate hero absent",
+    "320-light-no-preference: one selected project and five names",
+    "320-light-no-preference: all five titles fully visible without horizontal scrolling",
+    "320-light-no-preference: ru helio complete preview and real links",
+    "320-light-no-preference: ru keyform complete preview and real links",
+    "320-light-no-preference: ru poslesvet complete preview and real links",
+    "320-light-no-preference: ru framepack complete preview and real links",
+    "320-light-no-preference: ru rowline complete preview and real links",
+    "320-light-no-preference: kk helio complete preview and real links",
+    "320-light-no-preference: kk keyform complete preview and real links",
+    "320-light-no-preference: kk poslesvet complete preview and real links",
+    "320-light-no-preference: kk framepack complete preview and real links",
+    "320-light-no-preference: kk rowline complete preview and real links",
+    "320-light-no-preference: en helio complete preview and real links",
+    "320-light-no-preference: en keyform complete preview and real links",
+    "320-light-no-preference: en poslesvet complete preview and real links",
+    "320-light-no-preference: en framepack complete preview and real links",
+    "320-light-no-preference: en rowline complete preview and real links",
+    "320-light-no-preference: keyboard End selects and retains visible focus",
+    "320-light-no-preference: keyboard arrows select adjacent project",
+    "320-light-no-preference: Tab reaches selected preview",
+    "320-light-no-preference: no autoplay",
+    "320-light-no-preference: supplementary horizontal touch selects once without opening demo",
+    "320-light-no-preference: native vertical touch scroll remains available",
+    "320-light-no-preference: all nine catalog projects retained",
+    "320-light-no-preference: no runtime errors or page overflow",
+    "320-light-reduce: retired rail and duplicate hero absent",
+    "320-light-reduce: one selected project and five names",
+    "320-light-reduce: all five titles fully visible without horizontal scrolling",
+    "320-light-reduce: ru helio complete preview and real links",
+    "320-light-reduce: ru keyform complete preview and real links",
+    "320-light-reduce: ru poslesvet complete preview and real links",
+    "320-light-reduce: ru framepack complete preview and real links",
+    "320-light-reduce: ru rowline complete preview and real links",
+    "320-light-reduce: kk helio complete preview and real links",
+    "320-light-reduce: kk keyform complete preview and real links",
+    "320-light-reduce: kk poslesvet complete preview and real links",
+    "320-light-reduce: kk framepack complete preview and real links",
+    "320-light-reduce: kk rowline complete preview and real links",
+    "320-light-reduce: en helio complete preview and real links",
+    "320-light-reduce: en keyform complete preview and real links",
+    "320-light-reduce: en poslesvet complete preview and real links",
+    "320-light-reduce: en framepack complete preview and real links",
+    "320-light-reduce: en rowline complete preview and real links",
+    "320-light-reduce: keyboard End selects and retains visible focus",
+    "320-light-reduce: keyboard arrows select adjacent project",
+    "320-light-reduce: Tab reaches selected preview",
+    "320-light-reduce: no autoplay",
+    "320-light-reduce: all nine catalog projects retained",
+    "320-light-reduce: no runtime errors or page overflow",
+    "320-dark-no-preference: retired rail and duplicate hero absent",
+    "320-dark-no-preference: one selected project and five names",
+    "320-dark-no-preference: all five titles fully visible without horizontal scrolling",
+    "320-dark-no-preference: ru helio complete preview and real links",
+    "320-dark-no-preference: ru keyform complete preview and real links",
+    "320-dark-no-preference: ru poslesvet complete preview and real links",
+    "320-dark-no-preference: ru framepack complete preview and real links",
+    "320-dark-no-preference: ru rowline complete preview and real links",
+    "320-dark-no-preference: kk helio complete preview and real links",
+    "320-dark-no-preference: kk keyform complete preview and real links",
+    "320-dark-no-preference: kk poslesvet complete preview and real links",
+    "320-dark-no-preference: kk framepack complete preview and real links",
+    "320-dark-no-preference: kk rowline complete preview and real links",
+    "320-dark-no-preference: en helio complete preview and real links",
+    "320-dark-no-preference: en keyform complete preview and real links",
+    "320-dark-no-preference: en poslesvet complete preview and real links",
+    "320-dark-no-preference: en framepack complete preview and real links",
+    "320-dark-no-preference: en rowline complete preview and real links",
+    "320-dark-no-preference: keyboard End selects and retains visible focus",
+    "320-dark-no-preference: keyboard arrows select adjacent project",
+    "320-dark-no-preference: Tab reaches selected preview",
+    "320-dark-no-preference: no autoplay",
+    "320-dark-no-preference: all nine catalog projects retained",
+    "320-dark-no-preference: no runtime errors or page overflow",
+    "320-dark-reduce: retired rail and duplicate hero absent",
+    "320-dark-reduce: one selected project and five names",
+    "320-dark-reduce: all five titles fully visible without horizontal scrolling",
+    "320-dark-reduce: ru helio complete preview and real links",
+    "320-dark-reduce: ru keyform complete preview and real links",
+    "320-dark-reduce: ru poslesvet complete preview and real links",
+    "320-dark-reduce: ru framepack complete preview and real links",
+    "320-dark-reduce: ru rowline complete preview and real links",
+    "320-dark-reduce: kk helio complete preview and real links",
+    "320-dark-reduce: kk keyform complete preview and real links",
+    "320-dark-reduce: kk poslesvet complete preview and real links",
+    "320-dark-reduce: kk framepack complete preview and real links",
+    "320-dark-reduce: kk rowline complete preview and real links",
+    "320-dark-reduce: en helio complete preview and real links",
+    "320-dark-reduce: en keyform complete preview and real links",
+    "320-dark-reduce: en poslesvet complete preview and real links",
+    "320-dark-reduce: en framepack complete preview and real links",
+    "320-dark-reduce: en rowline complete preview and real links",
+    "320-dark-reduce: keyboard End selects and retains visible focus",
+    "320-dark-reduce: keyboard arrows select adjacent project",
+    "320-dark-reduce: Tab reaches selected preview",
+    "320-dark-reduce: no autoplay",
+    "320-dark-reduce: all nine catalog projects retained",
+    "320-dark-reduce: no runtime errors or page overflow",
+    "390-light-no-preference: retired rail and duplicate hero absent",
+    "390-light-no-preference: one selected project and five names",
+    "390-light-no-preference: all five titles fully visible without horizontal scrolling",
+    "390-light-no-preference: ru helio complete preview and real links",
+    "390-light-no-preference: ru keyform complete preview and real links",
+    "390-light-no-preference: ru poslesvet complete preview and real links",
+    "390-light-no-preference: ru framepack complete preview and real links",
+    "390-light-no-preference: ru rowline complete preview and real links",
+    "390-light-no-preference: kk helio complete preview and real links",
+    "390-light-no-preference: kk keyform complete preview and real links",
+    "390-light-no-preference: kk poslesvet complete preview and real links",
+    "390-light-no-preference: kk framepack complete preview and real links",
+    "390-light-no-preference: kk rowline complete preview and real links",
+    "390-light-no-preference: en helio complete preview and real links",
+    "390-light-no-preference: en keyform complete preview and real links",
+    "390-light-no-preference: en poslesvet complete preview and real links",
+    "390-light-no-preference: en framepack complete preview and real links",
+    "390-light-no-preference: en rowline complete preview and real links",
+    "390-light-no-preference: keyboard End selects and retains visible focus",
+    "390-light-no-preference: keyboard arrows select adjacent project",
+    "390-light-no-preference: Tab reaches selected preview",
+    "390-light-no-preference: no autoplay",
+    "390-light-no-preference: supplementary horizontal touch selects once without opening demo",
+    "390-light-no-preference: native vertical touch scroll remains available",
+    "390-light-no-preference: all nine catalog projects retained",
+    "390-light-no-preference: no runtime errors or page overflow",
+    "390-light-reduce: retired rail and duplicate hero absent",
+    "390-light-reduce: one selected project and five names",
+    "390-light-reduce: all five titles fully visible without horizontal scrolling",
+    "390-light-reduce: ru helio complete preview and real links",
+    "390-light-reduce: ru keyform complete preview and real links",
+    "390-light-reduce: ru poslesvet complete preview and real links",
+    "390-light-reduce: ru framepack complete preview and real links",
+    "390-light-reduce: ru rowline complete preview and real links",
+    "390-light-reduce: kk helio complete preview and real links",
+    "390-light-reduce: kk keyform complete preview and real links",
+    "390-light-reduce: kk poslesvet complete preview and real links",
+    "390-light-reduce: kk framepack complete preview and real links",
+    "390-light-reduce: kk rowline complete preview and real links",
+    "390-light-reduce: en helio complete preview and real links",
+    "390-light-reduce: en keyform complete preview and real links",
+    "390-light-reduce: en poslesvet complete preview and real links",
+    "390-light-reduce: en framepack complete preview and real links",
+    "390-light-reduce: en rowline complete preview and real links",
+    "390-light-reduce: keyboard End selects and retains visible focus",
+    "390-light-reduce: keyboard arrows select adjacent project",
+    "390-light-reduce: Tab reaches selected preview",
+    "390-light-reduce: no autoplay",
+    "390-light-reduce: all nine catalog projects retained",
+    "390-light-reduce: no runtime errors or page overflow",
+    "390-dark-no-preference: retired rail and duplicate hero absent",
+    "390-dark-no-preference: one selected project and five names",
+    "390-dark-no-preference: all five titles fully visible without horizontal scrolling",
+    "390-dark-no-preference: ru helio complete preview and real links",
+    "390-dark-no-preference: ru keyform complete preview and real links",
+    "390-dark-no-preference: ru poslesvet complete preview and real links",
+    "390-dark-no-preference: ru framepack complete preview and real links",
+    "390-dark-no-preference: ru rowline complete preview and real links",
+    "390-dark-no-preference: kk helio complete preview and real links",
+    "390-dark-no-preference: kk keyform complete preview and real links",
+    "390-dark-no-preference: kk poslesvet complete preview and real links",
+    "390-dark-no-preference: kk framepack complete preview and real links",
+    "390-dark-no-preference: kk rowline complete preview and real links",
+    "390-dark-no-preference: en helio complete preview and real links",
+    "390-dark-no-preference: en keyform complete preview and real links",
+    "390-dark-no-preference: en poslesvet complete preview and real links",
+    "390-dark-no-preference: en framepack complete preview and real links",
+    "390-dark-no-preference: en rowline complete preview and real links",
+    "390-dark-no-preference: keyboard End selects and retains visible focus",
+    "390-dark-no-preference: keyboard arrows select adjacent project",
+    "390-dark-no-preference: Tab reaches selected preview",
+    "390-dark-no-preference: no autoplay",
+    "390-dark-no-preference: all nine catalog projects retained",
+    "390-dark-no-preference: no runtime errors or page overflow",
+    "390-dark-reduce: retired rail and duplicate hero absent",
+    "390-dark-reduce: one selected project and five names",
+    "390-dark-reduce: all five titles fully visible without horizontal scrolling",
+    "390-dark-reduce: ru helio complete preview and real links",
+    "390-dark-reduce: ru keyform complete preview and real links",
+    "390-dark-reduce: ru poslesvet complete preview and real links",
+    "390-dark-reduce: ru framepack complete preview and real links",
+    "390-dark-reduce: ru rowline complete preview and real links",
+    "390-dark-reduce: kk helio complete preview and real links",
+    "390-dark-reduce: kk keyform complete preview and real links",
+    "390-dark-reduce: kk poslesvet complete preview and real links",
+    "390-dark-reduce: kk framepack complete preview and real links",
+    "390-dark-reduce: kk rowline complete preview and real links",
+    "390-dark-reduce: en helio complete preview and real links",
+    "390-dark-reduce: en keyform complete preview and real links",
+    "390-dark-reduce: en poslesvet complete preview and real links",
+    "390-dark-reduce: en framepack complete preview and real links",
+    "390-dark-reduce: en rowline complete preview and real links",
+    "390-dark-reduce: keyboard End selects and retains visible focus",
+    "390-dark-reduce: keyboard arrows select adjacent project",
+    "390-dark-reduce: Tab reaches selected preview",
+    "390-dark-reduce: no autoplay",
+    "390-dark-reduce: all nine catalog projects retained",
+    "390-dark-reduce: no runtime errors or page overflow",
+    "1600-light-no-preference: retired rail and duplicate hero absent",
+    "1600-light-no-preference: one selected project and five names",
+    "1600-light-no-preference: all five titles fully visible without horizontal scrolling",
+    "1600-light-no-preference: ru helio complete preview and real links",
+    "1600-light-no-preference: ru keyform complete preview and real links",
+    "1600-light-no-preference: ru poslesvet complete preview and real links",
+    "1600-light-no-preference: ru framepack complete preview and real links",
+    "1600-light-no-preference: ru rowline complete preview and real links",
+    "1600-light-no-preference: kk helio complete preview and real links",
+    "1600-light-no-preference: kk keyform complete preview and real links",
+    "1600-light-no-preference: kk poslesvet complete preview and real links",
+    "1600-light-no-preference: kk framepack complete preview and real links",
+    "1600-light-no-preference: kk rowline complete preview and real links",
+    "1600-light-no-preference: en helio complete preview and real links",
+    "1600-light-no-preference: en keyform complete preview and real links",
+    "1600-light-no-preference: en poslesvet complete preview and real links",
+    "1600-light-no-preference: en framepack complete preview and real links",
+    "1600-light-no-preference: en rowline complete preview and real links",
+    "1600-light-no-preference: keyboard End selects and retains visible focus",
+    "1600-light-no-preference: keyboard arrows select adjacent project",
+    "1600-light-no-preference: Tab reaches selected preview",
+    "1600-light-no-preference: no autoplay",
+    "1600-light-no-preference: all nine catalog projects retained",
+    "1600-light-no-preference: no runtime errors or page overflow",
+    "1600-light-reduce: retired rail and duplicate hero absent",
+    "1600-light-reduce: one selected project and five names",
+    "1600-light-reduce: all five titles fully visible without horizontal scrolling",
+    "1600-light-reduce: ru helio complete preview and real links",
+    "1600-light-reduce: ru keyform complete preview and real links",
+    "1600-light-reduce: ru poslesvet complete preview and real links",
+    "1600-light-reduce: ru framepack complete preview and real links",
+    "1600-light-reduce: ru rowline complete preview and real links",
+    "1600-light-reduce: kk helio complete preview and real links",
+    "1600-light-reduce: kk keyform complete preview and real links",
+    "1600-light-reduce: kk poslesvet complete preview and real links",
+    "1600-light-reduce: kk framepack complete preview and real links",
+    "1600-light-reduce: kk rowline complete preview and real links",
+    "1600-light-reduce: en helio complete preview and real links",
+    "1600-light-reduce: en keyform complete preview and real links",
+    "1600-light-reduce: en poslesvet complete preview and real links",
+    "1600-light-reduce: en framepack complete preview and real links",
+    "1600-light-reduce: en rowline complete preview and real links",
+    "1600-light-reduce: keyboard End selects and retains visible focus",
+    "1600-light-reduce: keyboard arrows select adjacent project",
+    "1600-light-reduce: Tab reaches selected preview",
+    "1600-light-reduce: no autoplay",
+    "1600-light-reduce: all nine catalog projects retained",
+    "1600-light-reduce: no runtime errors or page overflow",
+    "1600-dark-no-preference: retired rail and duplicate hero absent",
+    "1600-dark-no-preference: one selected project and five names",
+    "1600-dark-no-preference: all five titles fully visible without horizontal scrolling",
+    "1600-dark-no-preference: ru helio complete preview and real links",
+    "1600-dark-no-preference: ru keyform complete preview and real links",
+    "1600-dark-no-preference: ru poslesvet complete preview and real links",
+    "1600-dark-no-preference: ru framepack complete preview and real links",
+    "1600-dark-no-preference: ru rowline complete preview and real links",
+    "1600-dark-no-preference: kk helio complete preview and real links",
+    "1600-dark-no-preference: kk keyform complete preview and real links",
+    "1600-dark-no-preference: kk poslesvet complete preview and real links",
+    "1600-dark-no-preference: kk framepack complete preview and real links",
+    "1600-dark-no-preference: kk rowline complete preview and real links",
+    "1600-dark-no-preference: en helio complete preview and real links",
+    "1600-dark-no-preference: en keyform complete preview and real links",
+    "1600-dark-no-preference: en poslesvet complete preview and real links",
+    "1600-dark-no-preference: en framepack complete preview and real links",
+    "1600-dark-no-preference: en rowline complete preview and real links",
+    "1600-dark-no-preference: keyboard End selects and retains visible focus",
+    "1600-dark-no-preference: keyboard arrows select adjacent project",
+    "1600-dark-no-preference: Tab reaches selected preview",
+    "1600-dark-no-preference: no autoplay",
+    "1600-dark-no-preference: all nine catalog projects retained",
+    "1600-dark-no-preference: no runtime errors or page overflow",
+    "1600-dark-reduce: retired rail and duplicate hero absent",
+    "1600-dark-reduce: one selected project and five names",
+    "1600-dark-reduce: all five titles fully visible without horizontal scrolling",
+    "1600-dark-reduce: ru helio complete preview and real links",
+    "1600-dark-reduce: ru keyform complete preview and real links",
+    "1600-dark-reduce: ru poslesvet complete preview and real links",
+    "1600-dark-reduce: ru framepack complete preview and real links",
+    "1600-dark-reduce: ru rowline complete preview and real links",
+    "1600-dark-reduce: kk helio complete preview and real links",
+    "1600-dark-reduce: kk keyform complete preview and real links",
+    "1600-dark-reduce: kk poslesvet complete preview and real links",
+    "1600-dark-reduce: kk framepack complete preview and real links",
+    "1600-dark-reduce: kk rowline complete preview and real links",
+    "1600-dark-reduce: en helio complete preview and real links",
+    "1600-dark-reduce: en keyform complete preview and real links",
+    "1600-dark-reduce: en poslesvet complete preview and real links",
+    "1600-dark-reduce: en framepack complete preview and real links",
+    "1600-dark-reduce: en rowline complete preview and real links",
+    "1600-dark-reduce: keyboard End selects and retains visible focus",
+    "1600-dark-reduce: keyboard arrows select adjacent project",
+    "1600-dark-reduce: Tab reaches selected preview",
+    "1600-dark-reduce: no autoplay",
+    "1600-dark-reduce: all nine catalog projects retained",
+    "1600-dark-reduce: no runtime errors or page overflow"
+  ],
+  "cases": [
+    {
+      "name": "320-light-no-preference",
+      "bounds": [
+        {
+          "left": 16,
+          "right": 304,
+          "top": 131.78778076171875,
+          "bottom": 196.037841796875,
+          "width": 288,
+          "height": 64.25006103515625
+        },
+        {
+          "left": 16,
+          "right": 304,
+          "top": 196.037841796875,
+          "bottom": 260.287841796875,
+          "width": 288,
+          "height": 64.25
+        },
+        {
+          "left": 16,
+          "right": 304,
+          "top": 260.287841796875,
+          "bottom": 324.537841796875,
+          "width": 288,
+          "height": 64.25
+        },
+        {
+          "left": 16,
+          "right": 304,
+          "top": 324.537841796875,
+          "bottom": 388.787841796875,
+          "width": 288,
+          "height": 64.25
+        },
+        {
+          "left": 16,
+          "right": 304,
+          "top": 388.787841796875,
+          "bottom": 453.037841796875,
+          "width": 288,
+          "height": 64.25
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "320-light-reduce",
+      "bounds": [
+        {
+          "left": 16,
+          "right": 304,
+          "top": 131.03125,
+          "bottom": 195.28125,
+          "width": 288,
+          "height": 64.25
+        },
+        {
+          "left": 16,
+          "right": 304,
+          "top": 195.28125,
+          "bottom": 259.53125,
+          "width": 288,
+          "height": 64.25
+        },
+        {
+          "left": 16,
+          "right": 304,
+          "top": 259.53125,
+          "bottom": 323.78125,
+          "width": 288,
+          "height": 64.25
+        },
+        {
+          "left": 16,
+          "right": 304,
+          "top": 323.78125,
+          "bottom": 388.03125,
+          "width": 288,
+          "height": 64.25
+        },
+        {
+          "left": 16,
+          "right": 304,
+          "top": 388.03125,
+          "bottom": 452.28125,
+          "width": 288,
+          "height": 64.25
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "320-dark-no-preference",
+      "bounds": [
+        {
+          "left": 16,
+          "right": 304,
+          "top": 130.8343505859375,
+          "bottom": 195.0843505859375,
+          "width": 288,
+          "height": 64.25
+        },
+        {
+          "left": 16,
+          "right": 304,
+          "top": 195.0843505859375,
+          "bottom": 259.3343505859375,
+          "width": 288,
+          "height": 64.25
+        },
+        {
+          "left": 16,
+          "right": 304,
+          "top": 259.3343505859375,
+          "bottom": 323.5843505859375,
+          "width": 288,
+          "height": 64.25
+        },
+        {
+          "left": 16,
+          "right": 304,
+          "top": 323.5843505859375,
+          "bottom": 387.8343505859375,
+          "width": 288,
+          "height": 64.25
+        },
+        {
+          "left": 16,
+          "right": 304,
+          "top": 387.8343505859375,
+          "bottom": 452.0843505859375,
+          "width": 288,
+          "height": 64.25
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "320-dark-reduce",
+      "bounds": [
+        {
+          "left": 16,
+          "right": 304,
+          "top": 131.03125,
+          "bottom": 195.28125,
+          "width": 288,
+          "height": 64.25
+        },
+        {
+          "left": 16,
+          "right": 304,
+          "top": 195.28125,
+          "bottom": 259.53125,
+          "width": 288,
+          "height": 64.25
+        },
+        {
+          "left": 16,
+          "right": 304,
+          "top": 259.53125,
+          "bottom": 323.78125,
+          "width": 288,
+          "height": 64.25
+        },
+        {
+          "left": 16,
+          "right": 304,
+          "top": 323.78125,
+          "bottom": 388.03125,
+          "width": 288,
+          "height": 64.25
+        },
+        {
+          "left": 16,
+          "right": 304,
+          "top": 388.03125,
+          "bottom": 452.28125,
+          "width": 288,
+          "height": 64.25
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "390-light-no-preference",
+      "bounds": [
+        {
+          "left": 19.5,
+          "right": 370.5,
+          "top": 131.44671630859375,
+          "bottom": 195.69671630859375,
+          "width": 351,
+          "height": 64.25
+        },
+        {
+          "left": 19.5,
+          "right": 370.5,
+          "top": 195.69671630859375,
+          "bottom": 259.94677734375,
+          "width": 351,
+          "height": 64.25006103515625
+        },
+        {
+          "left": 19.5,
+          "right": 370.5,
+          "top": 259.94677734375,
+          "bottom": 324.19677734375,
+          "width": 351,
+          "height": 64.25
+        },
+        {
+          "left": 19.5,
+          "right": 370.5,
+          "top": 324.19677734375,
+          "bottom": 388.44677734375,
+          "width": 351,
+          "height": 64.25
+        },
+        {
+          "left": 19.5,
+          "right": 370.5,
+          "top": 388.44677734375,
+          "bottom": 452.69677734375,
+          "width": 351,
+          "height": 64.25
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "390-light-reduce",
+      "bounds": [
+        {
+          "left": 19.5,
+          "right": 370.5,
+          "top": 130.96875,
+          "bottom": 195.21875,
+          "width": 351,
+          "height": 64.25
+        },
+        {
+          "left": 19.5,
+          "right": 370.5,
+          "top": 195.21875,
+          "bottom": 259.46875,
+          "width": 351,
+          "height": 64.25
+        },
+        {
+          "left": 19.5,
+          "right": 370.5,
+          "top": 259.46875,
+          "bottom": 323.71875,
+          "width": 351,
+          "height": 64.25
+        },
+        {
+          "left": 19.5,
+          "right": 370.5,
+          "top": 323.71875,
+          "bottom": 387.96875,
+          "width": 351,
+          "height": 64.25
+        },
+        {
+          "left": 19.5,
+          "right": 370.5,
+          "top": 387.96875,
+          "bottom": 452.21875,
+          "width": 351,
+          "height": 64.25
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "390-dark-no-preference",
+      "bounds": [
+        {
+          "left": 19.5,
+          "right": 370.5,
+          "top": 131.77496337890625,
+          "bottom": 196.02496337890625,
+          "width": 351,
+          "height": 64.25
+        },
+        {
+          "left": 19.5,
+          "right": 370.5,
+          "top": 196.02496337890625,
+          "bottom": 260.27490234375,
+          "width": 351,
+          "height": 64.24993896484375
+        },
+        {
+          "left": 19.5,
+          "right": 370.5,
+          "top": 260.27490234375,
+          "bottom": 324.52490234375,
+          "width": 351,
+          "height": 64.25
+        },
+        {
+          "left": 19.5,
+          "right": 370.5,
+          "top": 324.52490234375,
+          "bottom": 388.77490234375,
+          "width": 351,
+          "height": 64.25
+        },
+        {
+          "left": 19.5,
+          "right": 370.5,
+          "top": 388.77490234375,
+          "bottom": 453.02490234375,
+          "width": 351,
+          "height": 64.25
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "390-dark-reduce",
+      "bounds": [
+        {
+          "left": 19.5,
+          "right": 370.5,
+          "top": 130.96875,
+          "bottom": 195.21875,
+          "width": 351,
+          "height": 64.25
+        },
+        {
+          "left": 19.5,
+          "right": 370.5,
+          "top": 195.21875,
+          "bottom": 259.46875,
+          "width": 351,
+          "height": 64.25
+        },
+        {
+          "left": 19.5,
+          "right": 370.5,
+          "top": 259.46875,
+          "bottom": 323.71875,
+          "width": 351,
+          "height": 64.25
+        },
+        {
+          "left": 19.5,
+          "right": 370.5,
+          "top": 323.71875,
+          "bottom": 387.96875,
+          "width": 351,
+          "height": 64.25
+        },
+        {
+          "left": 19.5,
+          "right": 370.5,
+          "top": 387.96875,
+          "bottom": 452.21875,
+          "width": 351,
+          "height": 64.25
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "1600-light-no-preference",
+      "bounds": [
+        {
+          "left": 980.296875,
+          "right": 1471.171875,
+          "top": 232.759033203125,
+          "bottom": 320.759033203125,
+          "width": 490.875,
+          "height": 88
+        },
+        {
+          "left": 980.296875,
+          "right": 1471.171875,
+          "top": 320.759033203125,
+          "bottom": 408.759033203125,
+          "width": 490.875,
+          "height": 88
+        },
+        {
+          "left": 980.296875,
+          "right": 1471.171875,
+          "top": 408.759033203125,
+          "bottom": 496.759033203125,
+          "width": 490.875,
+          "height": 88
+        },
+        {
+          "left": 980.296875,
+          "right": 1471.171875,
+          "top": 496.759033203125,
+          "bottom": 584.759033203125,
+          "width": 490.875,
+          "height": 88
+        },
+        {
+          "left": 980.296875,
+          "right": 1471.171875,
+          "top": 584.759033203125,
+          "bottom": 672.759033203125,
+          "width": 490.875,
+          "height": 88
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "1600-light-reduce",
+      "bounds": [
+        {
+          "left": 980.296875,
+          "right": 1471.171875,
+          "top": 232.28125,
+          "bottom": 320.28125,
+          "width": 490.875,
+          "height": 88
+        },
+        {
+          "left": 980.296875,
+          "right": 1471.171875,
+          "top": 320.28125,
+          "bottom": 408.28125,
+          "width": 490.875,
+          "height": 88
+        },
+        {
+          "left": 980.296875,
+          "right": 1471.171875,
+          "top": 408.28125,
+          "bottom": 496.28125,
+          "width": 490.875,
+          "height": 88
+        },
+        {
+          "left": 980.296875,
+          "right": 1471.171875,
+          "top": 496.28125,
+          "bottom": 584.28125,
+          "width": 490.875,
+          "height": 88
+        },
+        {
+          "left": 980.296875,
+          "right": 1471.171875,
+          "top": 584.28125,
+          "bottom": 672.28125,
+          "width": 490.875,
+          "height": 88
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "1600-dark-no-preference",
+      "bounds": [
+        {
+          "left": 980.296875,
+          "right": 1471.171875,
+          "top": 232.6015625,
+          "bottom": 320.6015625,
+          "width": 490.875,
+          "height": 88
+        },
+        {
+          "left": 980.296875,
+          "right": 1471.171875,
+          "top": 320.6015625,
+          "bottom": 408.6015625,
+          "width": 490.875,
+          "height": 88
+        },
+        {
+          "left": 980.296875,
+          "right": 1471.171875,
+          "top": 408.6015625,
+          "bottom": 496.6015625,
+          "width": 490.875,
+          "height": 88
+        },
+        {
+          "left": 980.296875,
+          "right": 1471.171875,
+          "top": 496.6015625,
+          "bottom": 584.6015625,
+          "width": 490.875,
+          "height": 88
+        },
+        {
+          "left": 980.296875,
+          "right": 1471.171875,
+          "top": 584.6015625,
+          "bottom": 672.6015625,
+          "width": 490.875,
+          "height": 88
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "1600-dark-reduce",
+      "bounds": [
+        {
+          "left": 980.296875,
+          "right": 1471.171875,
+          "top": 232.28125,
+          "bottom": 320.28125,
+          "width": 490.875,
+          "height": 88
+        },
+        {
+          "left": 980.296875,
+          "right": 1471.171875,
+          "top": 320.28125,
+          "bottom": 408.28125,
+          "width": 490.875,
+          "height": 88
+        },
+        {
+          "left": 980.296875,
+          "right": 1471.171875,
+          "top": 408.28125,
+          "bottom": 496.28125,
+          "width": 490.875,
+          "height": 88
+        },
+        {
+          "left": 980.296875,
+          "right": 1471.171875,
+          "top": 496.28125,
+          "bottom": 584.28125,
+          "width": 490.875,
+          "height": 88
+        },
+        {
+          "left": 980.296875,
+          "right": 1471.171875,
+          "top": 584.28125,
+          "bottom": 672.28125,
+          "width": 490.875,
+          "height": 88
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

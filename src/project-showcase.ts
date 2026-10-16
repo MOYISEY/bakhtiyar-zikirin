@@ -14,6 +14,7 @@ export function initProjectShowcase() {
     const serial = ++revision;
     animations.splice(0).forEach(a => a.cancel());
     const old = panels[current], next = panels[index];
+    if(old!==next)old.querySelectorAll<HTMLDetailsElement>('.contribution-notes[open]').forEach(d=>d.open=false);
     panels.forEach(p => { p.hidden = p !== old; p.style.position = ''; p.style.inset = ''; p.inert = p !== old; });
     choices.forEach((c, i) => { c.setAttribute('aria-selected', String(i === index)); c.tabIndex = i === index ? 0 : -1; });
     current = index;
@@ -44,7 +45,7 @@ export function initProjectShowcase() {
   // preview supplements the visible project names and never captures a pointer.
   let swipe: { id: number; x: number; y: number } | null = null, suppressUntil = 0;
   stage.style.touchAction = 'pan-y pinch-zoom';
-  stage.addEventListener('pointerdown', e => { if (e.pointerType === 'touch') swipe = { id: e.pointerId, x: e.clientX, y: e.clientY }; });
+  stage.addEventListener('pointerdown', e => { if (e.pointerType === 'touch' && !(e.target as Element).closest('.contribution-notes')) swipe = { id: e.pointerId, x: e.clientX, y: e.clientY }; });
   stage.addEventListener('pointerup', e => {
     if (!swipe || swipe.id !== e.pointerId) return;
     const dx = e.clientX - swipe.x, dy = e.clientY - swipe.y; swipe = null;
@@ -55,5 +56,6 @@ export function initProjectShowcase() {
   function fromHash() { const index = choices.findIndex(c => '#' + c.dataset.showcaseSelect === location.hash); if (index >= 0) select(index, false, false); }
   window.addEventListener('hashchange', fromHash);
   window.addEventListener('portfolio:preferences', () => { stage.setAttribute('aria-label', t('showcase.swipe')); });
+  host.querySelectorAll<HTMLDetailsElement>('.contribution-notes').forEach(d=>d.addEventListener('keydown',e=>{if(e.key==='Escape'&&d.open){e.preventDefault();e.stopPropagation();d.open=false;d.querySelector('summary')?.focus();}}));
   select(0, false, false); fromHash();
 }

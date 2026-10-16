@@ -4,12 +4,25 @@ import './restoration.css';
 import './pages.css';
 import './project-polish.css';
 import './project-showcase.css';
+import './reading.css';
 import { initPreferences, language, t } from './preferences';
 import { showSceneFallback } from './fallback';
 import { initProjectShowcase } from './project-showcase';
 
 initPreferences();
 initProjectShowcase();
+
+// The document strip keeps whole cards in view; native anchors also work without JS.
+const documentStrip=document.querySelector<HTMLElement>('#document-strip');
+const documentTabs=[...document.querySelectorAll<HTMLAnchorElement>('.document-tabs a')];
+if(documentStrip&&documentTabs.length){
+ const cards=[...documentStrip.querySelectorAll<HTMLElement>('.document-card')];
+ let selected=-1;
+ const update=()=>{const step=cards.length>1?cards[1].offsetLeft-cards[0].offsetLeft:documentStrip.clientWidth,index=Math.max(0,Math.min(cards.length-1,Math.round(documentStrip.scrollLeft/(step||1))));if(index===selected)return;selected=index;documentTabs.forEach((a,i)=>{if(i===index)a.setAttribute('aria-current','true');else a.removeAttribute('aria-current')})};
+ documentTabs.forEach((a,i)=>a.addEventListener('click',e=>{if(e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;e.preventDefault();cards[i].scrollIntoView({block:'nearest',inline:'start',behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth'})}));
+ documentStrip.addEventListener('scroll',update,{passive:true});window.addEventListener('resize',update);update();
+}
+
 const copyEmail = document.querySelector<HTMLButtonElement>('#copy-email');
 if (copyEmail) {
   const wrapper = copyEmail.closest<HTMLElement>('.email-copy')!;

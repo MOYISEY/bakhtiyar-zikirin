@@ -1,0 +1,285 @@
+{
+  "cases": [
+    {
+      "name": "desktop-light",
+      "pageWidth": 1440,
+      "scrollWidth": 1425,
+      "documentsHeight": 873.75,
+      "cards": [
+        {
+          "x": 64.125,
+          "y": 130.609375,
+          "width": 378,
+          "height": 400.78125
+        },
+        {
+          "x": 466.125,
+          "y": 130.609375,
+          "width": 378,
+          "height": 400.78125
+        },
+        {
+          "x": 64.125,
+          "y": 555.390625,
+          "width": 378,
+          "height": 379.78125
+        }
+      ],
+      "type": [
+        {
+          "sel": ".home-hero h1",
+          "size": "75.2px",
+          "weight": "550",
+          "color": "rgb(23, 34, 35)",
+          "line": "72.944px"
+        },
+        {
+          "sel": ".visual-heading h2",
+          "size": "48px",
+          "weight": "550",
+          "color": "rgb(23, 34, 35)",
+          "line": "normal"
+        },
+        {
+          "sel": ".education-section>h2",
+          "size": "48px",
+          "weight": "550",
+          "color": "rgb(23, 34, 35)",
+          "line": "normal"
+        },
+        {
+          "sel": ".document-card strong",
+          "size": "14.4px",
+          "weight": "550",
+          "color": "rgb(23, 34, 35)",
+          "line": "21.6px"
+        },
+        {
+          "sel": ".document-card p",
+          "size": "16px",
+          "weight": "400",
+          "color": "rgb(23, 34, 35)",
+          "line": "normal"
+        },
+        {
+          "sel": ".document-card small",
+          "size": "11.2px",
+          "weight": "400",
+          "color": "rgb(89, 103, 95)",
+          "line": "17.92px"
+        }
+      ]
+    },
+    {
+      "name": "desktop-dark",
+      "pageWidth": 1440,
+      "scrollWidth": 1425,
+      "documentsHeight": 873.75,
+      "cards": [
+        {
+          "x": 64.125,
+          "y": 130.609375,
+          "width": 378,
+          "height": 400.78125
+        },
+        {
+          "x": 466.125,
+          "y": 130.609375,
+          "width": 378,
+          "height": 400.78125
+        },
+        {
+          "x": 64.125,
+          "y": 555.390625,
+          "width": 378,
+          "height": 379.78125
+        }
+      ],
+      "type": [
+        {
+          "sel": ".home-hero h1",
+          "size": "75.2px",
+          "weight": "550",
+          "color": "rgb(237, 241, 232)",
+          "line": "72.944px"
+        },
+        {
+          "sel": ".visual-heading h2",
+          "size": "48px",
+          "weight": "550",
+          "color": "rgb(237, 241, 232)",
+          "line": "normal"
+        },
+        {
+          "sel": ".education-section>h2",
+          "size": "48px",
+          "weight": "550",
+          "color": "rgb(237, 241, 232)",
+          "line": "normal"
+        },
+        {
+          "sel": ".document-card strong",
+          "size": "14.4px",
+          "weight": "550",
+          "color": "rgb(237, 241, 232)",
+          "line": "21.6px"
+        },
+        {
+          "sel": ".document-card p",
+          "size": "16px",
+          "weight": "400",
+          "color": "rgb(237, 241, 232)",
+          "line": "normal"
+        },
+        {
+          "sel": ".document-card small",
+          "size": "11.2px",
+          "weight": "400",
+          "color": "rgb(174, 191, 179)",
+          "line": "17.92px"
+        }
+      ]
+    },
+    {
+      "name": "touch-light",
+      "pageWidth": 390,
+      "scrollWidth": 390,
+      "documentsHeight": 1200.28125,
+      "cards": [
+        {
+          "x": 19.5,
+          "y": 175.171875,
+          "width": 351,
+          "height": 340.03125
+        },
+        {
+          "x": 19.5,
+          "y": 539.203125,
+          "width": 351,
+          "height": 382.03125
+        },
+        {
+          "x": 19.5,
+          "y": 945.234375,
+          "width": 351,
+          "height": 361.03125
+        }
+      ],
+      "type": [
+        {
+          "sel": ".home-hero h1",
+          "size": "48px",
+          "weight": "550",
+          "color": "rgb(23, 34, 35)",
+          "line": "46.56px"
+        },
+        {
+          "sel": ".visual-heading h2",
+          "size": "32px",
+          "weight": "550",
+          "color": "rgb(23, 34, 35)",
+          "line": "normal"
+        },
+        {
+          "sel": ".education-section>h2",
+          "size": "32px",
+          "weight": "550",
+          "color": "rgb(23, 34, 35)",
+          "line": "normal"
+        },
+        {
+          "sel": ".document-card strong",
+          "size": "14.4px",
+          "weight": "550",
+          "color": "rgb(23, 34, 35)",
+          "line": "21.6px"
+        },
+        {
+          "sel": ".document-card p",
+          "size": "16px",
+          "weight": "400",
+          "color": "rgb(23, 34, 35)",
+          "line": "normal"
+        },
+        {
+          "sel": ".document-card small",
+          "size": "11.2px",
+          "weight": "400",
+          "color": "rgb(89, 103, 95)",
+          "line": "17.92px"
+        }
+      ]
+    },
+    {
+      "name": "touch-dark",
+      "pageWidth": 390,
+      "scrollWidth": 390,
+      "documentsHeight": 1200.28125,
+      "cards": [
+        {
+          "x": 19.5,
+          "y": 175.171875,
+          "width": 351,
+          "height": 340.03125
+        },
+        {
+          "x": 19.5,
+          "y": 539.203125,
+          "width": 351,
+          "height": 382.03125
+        },
+        {
+          "x": 19.5,
+          "y": 945.234375,
+          "width": 351,
+          "height": 361.03125
+        }
+      ],
+      "type": [
+        {
+          "sel": ".home-hero h1",
+          "size": "48px",
+          "weight": "550",
+          "color": "rgb(237, 241, 232)",
+          "line": "46.56px"
+        },
+        {
+          "sel": ".visual-heading h2",
+          "size": "32px",
+          "weight": "550",
+          "color": "rgb(237, 241, 232)",
+          "line": "normal"
+        },
+        {
+          "sel": ".education-section>h2",
+          "size": "32px",
+          "weight": "550",
+          "color": "rgb(237, 241, 232)",
+          "line": "normal"
+        },
+        {
+          "sel": ".document-card strong",
+          "size": "14.4px",
+          "weight": "550",
+          "color": "rgb(237, 241, 232)",
+          "line": "21.6px"
+        },
+        {
+          "sel": ".document-card p",
+          "size": "16px",
+          "weight": "400",
+          "color": "rgb(237, 241, 232)",
+          "line": "normal"
+        },
+        {
+          "sel": ".document-card small",
+          "size": "11.2px",
+          "weight": "400",
+          "color": "rgb(174, 191, 179)",
+          "line": "17.92px"
+        }
+      ]
+    }
+  ],
+  "passed": true
+}

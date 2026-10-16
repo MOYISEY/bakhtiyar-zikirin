@@ -1,0 +1,62 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "checks": [
+    "desktop: native content opened before entry finished",
+    "desktop: paused entry does not repeatedly render unchanged room",
+    "desktop: closing resumes safe physical entry",
+    "desktop: no runtime errors",
+    "touch: native content opened before entry finished",
+    "touch: paused entry does not repeatedly render unchanged room",
+    "touch: closing resumes safe physical entry",
+    "touch: no runtime errors"
+  ],
+  "cases": [
+    {
+      "name": "desktop",
+      "progress": 0.9063721581508838,
+      "target": 1,
+      "heldCamera": [
+        0.6256068869316229,
+        1.589549722119164,
+        1.4624416357690901
+      ],
+      "camera": [
+        0.6256068869316229,
+        1.589549722119164,
+        1.4624416357690901
+      ],
+      "endCamera": [
+        0.6256068869316229,
+        1.589549722119164,
+        1.4624416357690901
+      ],
+      "heldRenders": 0,
+      "heldShadowUpdates": 0,
+      "errors": []
+    },
+    {
+      "name": "touch",
+      "progress": 0.910427090890596,
+      "target": 1,
+      "heldCamera": [
+        0.5763259567738626,
+        1.506677246860344,
+        1.3021072404721523
+      ],
+      "camera": [
+        0.5763259567738626,
+        1.506677246860344,
+        1.3021072404721523
+      ],
+      "endCamera": [
+        0.5763259567738626,
+        1.506677246860344,
+        1.3021072404721523
+      ],
+      "heldRenders": 0,
+      "heldShadowUpdates": 0,
+      "errors": []
+    }
+  ],
+  "passed": true
+}

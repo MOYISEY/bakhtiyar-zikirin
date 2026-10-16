@@ -9,3 +9,6 @@ models/room/*.blend -text
 
 # Preserve measured source snapshot bytes for independent QA downloads.
 evidence/object-roles-2026-10-16/source/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve original screenshots, reports and executed QA source bytes.
+evidence/certificates-reading-2026-10-16/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

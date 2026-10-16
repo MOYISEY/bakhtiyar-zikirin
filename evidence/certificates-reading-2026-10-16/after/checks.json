@@ -1,0 +1,3432 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "browser": "155.0.4283.45",
+  "checks": [
+    "desktop-ru-light: notes closed by default",
+    "desktop-ru-light: deliberate disclosure opens without navigation",
+    "desktop-ru-light: two concise notes",
+    "desktop-ru-light: reading an annotation does not open the demo or navigate",
+    "desktop-ru-light: note stays inside full preview",
+    "desktop-ru-light: note stays inside full preview",
+    "desktop-ru-light: annotations do not overlap",
+    "desktop-ru-light: note text readable and contrast compliant",
+    "desktop-ru-light: Escape closes notes and preserves focus",
+    "desktop-ru-light: keyboard opens notes",
+    "desktop-ru-light: notes localized from one approved source",
+    "desktop-ru-light: changing project closes previous annotations",
+    "desktop-ru-light: all3documents stay in one row",
+    "desktop-ru-light: no page horizontal overflow",
+    "desktop-ru-light: compact document section",
+    "desktop-ru-light: genuine preview fully contained",
+    "desktop-ru-light: genuine preview fully contained",
+    "desktop-ru-light: genuine preview fully contained",
+    "desktop-ru-light: readable card metadata and accessible contrast",
+    "desktop-ru-light: desktop shows all3complete cards at once",
+    "desktop-ru-light: exact approved full document 0",
+    "desktop-ru-light: native full-document action 0",
+    "desktop-ru-light: exact approved full document 1",
+    "desktop-ru-light: native full-document action 1",
+    "desktop-ru-light: exact approved full document 2",
+    "desktop-ru-light: native full-document action 2",
+    "desktop-ru-light: bothlanguage andtheme retained",
+    "desktop-ru-light: no runtime errors",
+    "desktop-ru-dark: notes closed by default",
+    "desktop-ru-dark: deliberate disclosure opens without navigation",
+    "desktop-ru-dark: two concise notes",
+    "desktop-ru-dark: reading an annotation does not open the demo or navigate",
+    "desktop-ru-dark: note stays inside full preview",
+    "desktop-ru-dark: note stays inside full preview",
+    "desktop-ru-dark: annotations do not overlap",
+    "desktop-ru-dark: note text readable and contrast compliant",
+    "desktop-ru-dark: Escape closes notes and preserves focus",
+    "desktop-ru-dark: keyboard opens notes",
+    "desktop-ru-dark: notes localized from one approved source",
+    "desktop-ru-dark: changing project closes previous annotations",
+    "desktop-ru-dark: all3documents stay in one row",
+    "desktop-ru-dark: no page horizontal overflow",
+    "desktop-ru-dark: compact document section",
+    "desktop-ru-dark: genuine preview fully contained",
+    "desktop-ru-dark: genuine preview fully contained",
+    "desktop-ru-dark: genuine preview fully contained",
+    "desktop-ru-dark: readable card metadata and accessible contrast",
+    "desktop-ru-dark: desktop shows all3complete cards at once",
+    "desktop-ru-dark: exact approved full document 0",
+    "desktop-ru-dark: exact approved full document 1",
+    "desktop-ru-dark: exact approved full document 2",
+    "desktop-ru-dark: bothlanguage andtheme retained",
+    "desktop-ru-dark: no runtime errors",
+    "desktop-kk-light: notes closed by default",
+    "desktop-kk-light: deliberate disclosure opens without navigation",
+    "desktop-kk-light: two concise notes",
+    "desktop-kk-light: reading an annotation does not open the demo or navigate",
+    "desktop-kk-light: note stays inside full preview",
+    "desktop-kk-light: note stays inside full preview",
+    "desktop-kk-light: annotations do not overlap",
+    "desktop-kk-light: note text readable and contrast compliant",
+    "desktop-kk-light: Escape closes notes and preserves focus",
+    "desktop-kk-light: keyboard opens notes",
+    "desktop-kk-light: notes localized from one approved source",
+    "desktop-kk-light: changing project closes previous annotations",
+    "desktop-kk-light: all3documents stay in one row",
+    "desktop-kk-light: no page horizontal overflow",
+    "desktop-kk-light: compact document section",
+    "desktop-kk-light: genuine preview fully contained",
+    "desktop-kk-light: genuine preview fully contained",
+    "desktop-kk-light: genuine preview fully contained",
+    "desktop-kk-light: readable card metadata and accessible contrast",
+    "desktop-kk-light: desktop shows all3complete cards at once",
+    "desktop-kk-light: exact approved full document 0",
+    "desktop-kk-light: exact approved full document 1",
+    "desktop-kk-light: exact approved full document 2",
+    "desktop-kk-light: bothlanguage andtheme retained",
+    "desktop-kk-light: no runtime errors",
+    "desktop-kk-dark: notes closed by default",
+    "desktop-kk-dark: deliberate disclosure opens without navigation",
+    "desktop-kk-dark: two concise notes",
+    "desktop-kk-dark: reading an annotation does not open the demo or navigate",
+    "desktop-kk-dark: note stays inside full preview",
+    "desktop-kk-dark: note stays inside full preview",
+    "desktop-kk-dark: annotations do not overlap",
+    "desktop-kk-dark: note text readable and contrast compliant",
+    "desktop-kk-dark: Escape closes notes and preserves focus",
+    "desktop-kk-dark: keyboard opens notes",
+    "desktop-kk-dark: notes localized from one approved source",
+    "desktop-kk-dark: changing project closes previous annotations",
+    "desktop-kk-dark: all3documents stay in one row",
+    "desktop-kk-dark: no page horizontal overflow",
+    "desktop-kk-dark: compact document section",
+    "desktop-kk-dark: genuine preview fully contained",
+    "desktop-kk-dark: genuine preview fully contained",
+    "desktop-kk-dark: genuine preview fully contained",
+    "desktop-kk-dark: readable card metadata and accessible contrast",
+    "desktop-kk-dark: desktop shows all3complete cards at once",
+    "desktop-kk-dark: exact approved full document 0",
+    "desktop-kk-dark: exact approved full document 1",
+    "desktop-kk-dark: exact approved full document 2",
+    "desktop-kk-dark: bothlanguage andtheme retained",
+    "desktop-kk-dark: no runtime errors",
+    "desktop-en-light: notes closed by default",
+    "desktop-en-light: deliberate disclosure opens without navigation",
+    "desktop-en-light: two concise notes",
+    "desktop-en-light: reading an annotation does not open the demo or navigate",
+    "desktop-en-light: note stays inside full preview",
+    "desktop-en-light: note stays inside full preview",
+    "desktop-en-light: annotations do not overlap",
+    "desktop-en-light: note text readable and contrast compliant",
+    "desktop-en-light: Escape closes notes and preserves focus",
+    "desktop-en-light: keyboard opens notes",
+    "desktop-en-light: notes localized from one approved source",
+    "desktop-en-light: changing project closes previous annotations",
+    "desktop-en-light: all3documents stay in one row",
+    "desktop-en-light: no page horizontal overflow",
+    "desktop-en-light: compact document section",
+    "desktop-en-light: genuine preview fully contained",
+    "desktop-en-light: genuine preview fully contained",
+    "desktop-en-light: genuine preview fully contained",
+    "desktop-en-light: readable card metadata and accessible contrast",
+    "desktop-en-light: desktop shows all3complete cards at once",
+    "desktop-en-light: exact approved full document 0",
+    "desktop-en-light: exact approved full document 1",
+    "desktop-en-light: exact approved full document 2",
+    "desktop-en-light: bothlanguage andtheme retained",
+    "desktop-en-light: no runtime errors",
+    "desktop-en-dark: notes closed by default",
+    "desktop-en-dark: deliberate disclosure opens without navigation",
+    "desktop-en-dark: two concise notes",
+    "desktop-en-dark: reading an annotation does not open the demo or navigate",
+    "desktop-en-dark: note stays inside full preview",
+    "desktop-en-dark: note stays inside full preview",
+    "desktop-en-dark: annotations do not overlap",
+    "desktop-en-dark: note text readable and contrast compliant",
+    "desktop-en-dark: Escape closes notes and preserves focus",
+    "desktop-en-dark: keyboard opens notes",
+    "desktop-en-dark: notes localized from one approved source",
+    "desktop-en-dark: changing project closes previous annotations",
+    "desktop-en-dark: all3documents stay in one row",
+    "desktop-en-dark: no page horizontal overflow",
+    "desktop-en-dark: compact document section",
+    "desktop-en-dark: genuine preview fully contained",
+    "desktop-en-dark: genuine preview fully contained",
+    "desktop-en-dark: genuine preview fully contained",
+    "desktop-en-dark: readable card metadata and accessible contrast",
+    "desktop-en-dark: desktop shows all3complete cards at once",
+    "desktop-en-dark: exact approved full document 0",
+    "desktop-en-dark: exact approved full document 1",
+    "desktop-en-dark: exact approved full document 2",
+    "desktop-en-dark: bothlanguage andtheme retained",
+    "desktop-en-dark: no runtime errors",
+    "touch-ru-light: notes closed by default",
+    "touch-ru-light: deliberate disclosure opens without navigation",
+    "touch-ru-light: two concise notes",
+    "touch-ru-light: reading an annotation does not open the demo or navigate",
+    "touch-ru-light: note stays inside full preview",
+    "touch-ru-light: note stays inside full preview",
+    "touch-ru-light: annotations do not overlap",
+    "touch-ru-light: note text readable and contrast compliant",
+    "touch-ru-light: Escape closes notes and preserves focus",
+    "touch-ru-light: keyboard opens notes",
+    "touch-ru-light: notes localized from one approved source",
+    "touch-ru-light: changing project closes previous annotations",
+    "touch-ru-light: all3documents stay in one row",
+    "touch-ru-light: no page horizontal overflow",
+    "touch-ru-light: compact document section",
+    "touch-ru-light: genuine preview fully contained",
+    "touch-ru-light: genuine preview fully contained",
+    "touch-ru-light: genuine preview fully contained",
+    "touch-ru-light: readable card metadata and accessible contrast",
+    "touch-ru-light: only component scrolls and compact document navigation is visible",
+    "touch-ru-light: selected card fits without clipping",
+    "touch-ru-light: selected card fits without clipping",
+    "touch-ru-light: selected card fits without clipping",
+    "touch-ru-light: exact approved full document 0",
+    "touch-ru-light: native full-document action 0",
+    "touch-ru-light: exact approved full document 1",
+    "touch-ru-light: native full-document action 1",
+    "touch-ru-light: exact approved full document 2",
+    "touch-ru-light: native full-document action 2",
+    "touch-ru-light: bothlanguage andtheme retained",
+    "touch-ru-light: no runtime errors",
+    "touch-ru-dark: notes closed by default",
+    "touch-ru-dark: deliberate disclosure opens without navigation",
+    "touch-ru-dark: two concise notes",
+    "touch-ru-dark: reading an annotation does not open the demo or navigate",
+    "touch-ru-dark: note stays inside full preview",
+    "touch-ru-dark: note stays inside full preview",
+    "touch-ru-dark: annotations do not overlap",
+    "touch-ru-dark: note text readable and contrast compliant",
+    "touch-ru-dark: Escape closes notes and preserves focus",
+    "touch-ru-dark: keyboard opens notes",
+    "touch-ru-dark: notes localized from one approved source",
+    "touch-ru-dark: changing project closes previous annotations",
+    "touch-ru-dark: all3documents stay in one row",
+    "touch-ru-dark: no page horizontal overflow",
+    "touch-ru-dark: compact document section",
+    "touch-ru-dark: genuine preview fully contained",
+    "touch-ru-dark: genuine preview fully contained",
+    "touch-ru-dark: genuine preview fully contained",
+    "touch-ru-dark: readable card metadata and accessible contrast",
+    "touch-ru-dark: only component scrolls and compact document navigation is visible",
+    "touch-ru-dark: selected card fits without clipping",
+    "touch-ru-dark: selected card fits without clipping",
+    "touch-ru-dark: selected card fits without clipping",
+    "touch-ru-dark: exact approved full document 0",
+    "touch-ru-dark: exact approved full document 1",
+    "touch-ru-dark: exact approved full document 2",
+    "touch-ru-dark: bothlanguage andtheme retained",
+    "touch-ru-dark: no runtime errors",
+    "touch-kk-light: notes closed by default",
+    "touch-kk-light: deliberate disclosure opens without navigation",
+    "touch-kk-light: two concise notes",
+    "touch-kk-light: reading an annotation does not open the demo or navigate",
+    "touch-kk-light: note stays inside full preview",
+    "touch-kk-light: note stays inside full preview",
+    "touch-kk-light: annotations do not overlap",
+    "touch-kk-light: note text readable and contrast compliant",
+    "touch-kk-light: Escape closes notes and preserves focus",
+    "touch-kk-light: keyboard opens notes",
+    "touch-kk-light: notes localized from one approved source",
+    "touch-kk-light: changing project closes previous annotations",
+    "touch-kk-light: all3documents stay in one row",
+    "touch-kk-light: no page horizontal overflow",
+    "touch-kk-light: compact document section",
+    "touch-kk-light: genuine preview fully contained",
+    "touch-kk-light: genuine preview fully contained",
+    "touch-kk-light: genuine preview fully contained",
+    "touch-kk-light: readable card metadata and accessible contrast",
+    "touch-kk-light: only component scrolls and compact document navigation is visible",
+    "touch-kk-light: selected card fits without clipping",
+    "touch-kk-light: selected card fits without clipping",
+    "touch-kk-light: selected card fits without clipping",
+    "touch-kk-light: exact approved full document 0",
+    "touch-kk-light: exact approved full document 1",
+    "touch-kk-light: exact approved full document 2",
+    "touch-kk-light: bothlanguage andtheme retained",
+    "touch-kk-light: no runtime errors",
+    "touch-kk-dark: notes closed by default",
+    "touch-kk-dark: deliberate disclosure opens without navigation",
+    "touch-kk-dark: two concise notes",
+    "touch-kk-dark: reading an annotation does not open the demo or navigate",
+    "touch-kk-dark: note stays inside full preview",
+    "touch-kk-dark: note stays inside full preview",
+    "touch-kk-dark: annotations do not overlap",
+    "touch-kk-dark: note text readable and contrast compliant",
+    "touch-kk-dark: Escape closes notes and preserves focus",
+    "touch-kk-dark: keyboard opens notes",
+    "touch-kk-dark: notes localized from one approved source",
+    "touch-kk-dark: changing project closes previous annotations",
+    "touch-kk-dark: all3documents stay in one row",
+    "touch-kk-dark: no page horizontal overflow",
+    "touch-kk-dark: compact document section",
+    "touch-kk-dark: genuine preview fully contained",
+    "touch-kk-dark: genuine preview fully contained",
+    "touch-kk-dark: genuine preview fully contained",
+    "touch-kk-dark: readable card metadata and accessible contrast",
+    "touch-kk-dark: only component scrolls and compact document navigation is visible",
+    "touch-kk-dark: selected card fits without clipping",
+    "touch-kk-dark: selected card fits without clipping",
+    "touch-kk-dark: selected card fits without clipping",
+    "touch-kk-dark: exact approved full document 0",
+    "touch-kk-dark: exact approved full document 1",
+    "touch-kk-dark: exact approved full document 2",
+    "touch-kk-dark: bothlanguage andtheme retained",
+    "touch-kk-dark: no runtime errors",
+    "touch-en-light: notes closed by default",
+    "touch-en-light: deliberate disclosure opens without navigation",
+    "touch-en-light: two concise notes",
+    "touch-en-light: reading an annotation does not open the demo or navigate",
+    "touch-en-light: note stays inside full preview",
+    "touch-en-light: note stays inside full preview",
+    "touch-en-light: annotations do not overlap",
+    "touch-en-light: note text readable and contrast compliant",
+    "touch-en-light: Escape closes notes and preserves focus",
+    "touch-en-light: keyboard opens notes",
+    "touch-en-light: notes localized from one approved source",
+    "touch-en-light: changing project closes previous annotations",
+    "touch-en-light: all3documents stay in one row",
+    "touch-en-light: no page horizontal overflow",
+    "touch-en-light: compact document section",
+    "touch-en-light: genuine preview fully contained",
+    "touch-en-light: genuine preview fully contained",
+    "touch-en-light: genuine preview fully contained",
+    "touch-en-light: readable card metadata and accessible contrast",
+    "touch-en-light: only component scrolls and compact document navigation is visible",
+    "touch-en-light: selected card fits without clipping",
+    "touch-en-light: selected card fits without clipping",
+    "touch-en-light: selected card fits without clipping",
+    "touch-en-light: exact approved full document 0",
+    "touch-en-light: exact approved full document 1",
+    "touch-en-light: exact approved full document 2",
+    "touch-en-light: bothlanguage andtheme retained",
+    "touch-en-light: no runtime errors",
+    "touch-en-dark: notes closed by default",
+    "touch-en-dark: deliberate disclosure opens without navigation",
+    "touch-en-dark: two concise notes",
+    "touch-en-dark: reading an annotation does not open the demo or navigate",
+    "touch-en-dark: note stays inside full preview",
+    "touch-en-dark: note stays inside full preview",
+    "touch-en-dark: annotations do not overlap",
+    "touch-en-dark: note text readable and contrast compliant",
+    "touch-en-dark: Escape closes notes and preserves focus",
+    "touch-en-dark: keyboard opens notes",
+    "touch-en-dark: notes localized from one approved source",
+    "touch-en-dark: changing project closes previous annotations",
+    "touch-en-dark: all3documents stay in one row",
+    "touch-en-dark: no page horizontal overflow",
+    "touch-en-dark: compact document section",
+    "touch-en-dark: genuine preview fully contained",
+    "touch-en-dark: genuine preview fully contained",
+    "touch-en-dark: genuine preview fully contained",
+    "touch-en-dark: readable card metadata and accessible contrast",
+    "touch-en-dark: only component scrolls and compact document navigation is visible",
+    "touch-en-dark: selected card fits without clipping",
+    "touch-en-dark: selected card fits without clipping",
+    "touch-en-dark: selected card fits without clipping",
+    "touch-en-dark: exact approved full document 0",
+    "touch-en-dark: exact approved full document 1",
+    "touch-en-dark: exact approved full document 2",
+    "touch-en-dark: bothlanguage andtheme retained",
+    "touch-en-dark: no runtime errors",
+    "room-desktop-ru: notes closed by default",
+    "room-desktop-ru: deliberate disclosure opens without navigation",
+    "room-desktop-ru: two concise notes",
+    "room-desktop-ru: reading an annotation does not open the demo or navigate",
+    "room-desktop-ru: note stays inside full preview",
+    "room-desktop-ru: note stays inside full preview",
+    "room-desktop-ru: annotations do not overlap",
+    "room-desktop-ru: note text readable and contrast compliant",
+    "room-desktop-ru: Escape closes notes and preserves focus",
+    "room-desktop-ru: keyboard opens notes",
+    "room-desktop-ru: notes Escape leaves parent modal open",
+    "room-desktop-ru: HTML notes add no background scene renders",
+    "room-desktop-ru: language switch preserves disclosure",
+    "room-desktop-ru: room notes language updates",
+    "room-desktop-ru: actual full room document diploma",
+    "room-desktop-ru: actual full room document hackalem",
+    "room-desktop-ru: actual full room document certificate",
+    "room-desktop-ru: native3experience records preserved",
+    "room-desktop-ru: no runtime errors",
+    "room-desktop-kk: notes closed by default",
+    "room-desktop-kk: deliberate disclosure opens without navigation",
+    "room-desktop-kk: two concise notes",
+    "room-desktop-kk: reading an annotation does not open the demo or navigate",
+    "room-desktop-kk: note stays inside full preview",
+    "room-desktop-kk: note stays inside full preview",
+    "room-desktop-kk: annotations do not overlap",
+    "room-desktop-kk: note text readable and contrast compliant",
+    "room-desktop-kk: Escape closes notes and preserves focus",
+    "room-desktop-kk: keyboard opens notes",
+    "room-desktop-kk: notes Escape leaves parent modal open",
+    "room-desktop-kk: HTML notes add no background scene renders",
+    "room-desktop-kk: language switch preserves disclosure",
+    "room-desktop-kk: room notes language updates",
+    "room-desktop-kk: actual full room document diploma",
+    "room-desktop-kk: actual full room document hackalem",
+    "room-desktop-kk: actual full room document certificate",
+    "room-desktop-kk: native3experience records preserved",
+    "room-desktop-kk: no runtime errors",
+    "room-desktop-en: notes closed by default",
+    "room-desktop-en: deliberate disclosure opens without navigation",
+    "room-desktop-en: two concise notes",
+    "room-desktop-en: reading an annotation does not open the demo or navigate",
+    "room-desktop-en: note stays inside full preview",
+    "room-desktop-en: note stays inside full preview",
+    "room-desktop-en: annotations do not overlap",
+    "room-desktop-en: note text readable and contrast compliant",
+    "room-desktop-en: Escape closes notes and preserves focus",
+    "room-desktop-en: keyboard opens notes",
+    "room-desktop-en: notes Escape leaves parent modal open",
+    "room-desktop-en: HTML notes add no background scene renders",
+    "room-desktop-en: language switch preserves disclosure",
+    "room-desktop-en: room notes language updates",
+    "room-desktop-en: actual full room document diploma",
+    "room-desktop-en: actual full room document hackalem",
+    "room-desktop-en: actual full room document certificate",
+    "room-desktop-en: native3experience records preserved",
+    "room-desktop-en: no runtime errors",
+    "room-touch-ru: notes closed by default",
+    "room-touch-ru: deliberate disclosure opens without navigation",
+    "room-touch-ru: two concise notes",
+    "room-touch-ru: reading an annotation does not open the demo or navigate",
+    "room-touch-ru: note stays inside full preview",
+    "room-touch-ru: note stays inside full preview",
+    "room-touch-ru: annotations do not overlap",
+    "room-touch-ru: note text readable and contrast compliant",
+    "room-touch-ru: Escape closes notes and preserves focus",
+    "room-touch-ru: keyboard opens notes",
+    "room-touch-ru: notes Escape leaves parent modal open",
+    "room-touch-ru: HTML notes add no background scene renders",
+    "room-touch-ru: language switch preserves disclosure",
+    "room-touch-ru: room notes language updates",
+    "room-touch-ru: actual full room document diploma",
+    "room-touch-ru: actual full room document hackalem",
+    "room-touch-ru: actual full room document certificate",
+    "room-touch-ru: native3experience records preserved",
+    "room-touch-ru: no runtime errors",
+    "room-touch-kk: notes closed by default",
+    "room-touch-kk: deliberate disclosure opens without navigation",
+    "room-touch-kk: two concise notes",
+    "room-touch-kk: reading an annotation does not open the demo or navigate",
+    "room-touch-kk: note stays inside full preview",
+    "room-touch-kk: note stays inside full preview",
+    "room-touch-kk: annotations do not overlap",
+    "room-touch-kk: note text readable and contrast compliant",
+    "room-touch-kk: Escape closes notes and preserves focus",
+    "room-touch-kk: keyboard opens notes",
+    "room-touch-kk: notes Escape leaves parent modal open",
+    "room-touch-kk: HTML notes add no background scene renders",
+    "room-touch-kk: language switch preserves disclosure",
+    "room-touch-kk: room notes language updates",
+    "room-touch-kk: actual full room document diploma",
+    "room-touch-kk: actual full room document hackalem",
+    "room-touch-kk: actual full room document certificate",
+    "room-touch-kk: native3experience records preserved",
+    "room-touch-kk: no runtime errors",
+    "room-touch-en: notes closed by default",
+    "room-touch-en: deliberate disclosure opens without navigation",
+    "room-touch-en: two concise notes",
+    "room-touch-en: reading an annotation does not open the demo or navigate",
+    "room-touch-en: note stays inside full preview",
+    "room-touch-en: note stays inside full preview",
+    "room-touch-en: annotations do not overlap",
+    "room-touch-en: note text readable and contrast compliant",
+    "room-touch-en: Escape closes notes and preserves focus",
+    "room-touch-en: keyboard opens notes",
+    "room-touch-en: notes Escape leaves parent modal open",
+    "room-touch-en: HTML notes add no background scene renders",
+    "room-touch-en: language switch preserves disclosure",
+    "room-touch-en: room notes language updates",
+    "room-touch-en: actual full room document diploma",
+    "room-touch-en: actual full room document hackalem",
+    "room-touch-en: actual full room document certificate",
+    "room-touch-en: native3experience records preserved",
+    "room-touch-en: no runtime errors"
+  ],
+  "ordinary": [
+    {
+      "name": "desktop-ru-light",
+      "height": 392.921875,
+      "gridWidth": 1297,
+      "gridScrollWidth": 1297,
+      "fonts": [
+        {
+          "sel": ".home-hero h1",
+          "size": "63.36px",
+          "weight": "475",
+          "color": "rgb(47, 64, 57)"
+        },
+        {
+          "sel": ".visual-heading h2",
+          "size": "40px",
+          "weight": "475",
+          "color": "rgb(47, 64, 57)"
+        },
+        {
+          "sel": ".education-section>h2",
+          "size": "40px",
+          "weight": "475",
+          "color": "rgb(47, 64, 57)"
+        }
+      ],
+      "colors": [
+        {
+          "selector": ".document-card strong",
+          "text": "Диплом колледжа · 26 июня 2026",
+          "ratio": 9.213789688684741,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "HackAlem AI — сертификат участника",
+          "ratio": 9.213789688684741,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "Сертификат практики iQADAM Systems",
+          "ratio": 9.213789688684741,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Открыть диплом ↗",
+          "ratio": 6.0117169653285005,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Открыть сертификат участия ↗",
+          "ratio": 6.0117169653285005,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Открыть сертификат ↗",
+          "ratio": 6.0117169653285005,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Астана · 14 октября 2026",
+          "ratio": 9.213789688684741,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Участие в хакатоне по агентному ИИ",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Ноябрь — декабрь 2025",
+          "ratio": 9.213789688684741,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Публичная копия: номера и подписи скрыты.",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Публичная копия: QR-код скрыт.",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Публичная копия: подпись и данные подписанта скрыты.",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".education-documents>h3",
+          "text": "Диплом и сертификаты",
+          "ratio": 9.63787191416736,
+          "size": 17.6,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".home-hero h1",
+          "text": "БахтиярЗикирин",
+          "ratio": 9.63787191416736,
+          "size": 63.36,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Бахтияр",
+          "ratio": 9.63787191416736,
+          "size": 63.36,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Зикирин",
+          "ratio": 6.288417692799962,
+          "size": 63.36,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".visual-heading h2",
+          "text": "Выбранные проекты.",
+          "ratio": 9.63787191416736,
+          "size": 40,
+          "weight": 475,
+          "minimum": 3
+        }
+      ],
+      "notes": {
+        "samples": [
+          {
+            "selector": ".contribution-notes>summary>span",
+            "text": "Мой вклад",
+            "ratio": 9.63787191416736,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Контуры зданий → 3D. Высоты оценочные.",
+            "ratio": 9.63787191416736,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Солнечные расчёты выполняются локально.",
+            "ratio": 9.63787191416736,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          }
+        ],
+        "boxes": [
+          {
+            "x": 414.5,
+            "y": 752.203125,
+            "width": 224,
+            "height": 58.59375,
+            "right": 638.5,
+            "bottom": 810.796875
+          },
+          {
+            "x": 95.96875,
+            "y": 977.3125,
+            "width": 192,
+            "height": 58.59375,
+            "right": 287.96875,
+            "bottom": 1035.90625
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "name": "desktop-ru-dark",
+      "height": 392.921875,
+      "gridWidth": 1297,
+      "gridScrollWidth": 1297,
+      "fonts": [
+        {
+          "sel": ".home-hero h1",
+          "size": "63.36px",
+          "weight": "475",
+          "color": "rgb(210, 220, 210)"
+        },
+        {
+          "sel": ".visual-heading h2",
+          "size": "40px",
+          "weight": "475",
+          "color": "rgb(210, 220, 210)"
+        },
+        {
+          "sel": ".education-section>h2",
+          "size": "40px",
+          "weight": "475",
+          "color": "rgb(210, 220, 210)"
+        }
+      ],
+      "colors": [
+        {
+          "selector": ".document-card strong",
+          "text": "Диплом колледжа · 26 июня 2026",
+          "ratio": 10.83767144482326,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "HackAlem AI — сертификат участника",
+          "ratio": 10.83767144482326,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "Сертификат практики iQADAM Systems",
+          "ratio": 10.83767144482326,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Открыть диплом ↗",
+          "ratio": 8.998603417717803,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Открыть сертификат участия ↗",
+          "ratio": 8.998603417717803,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Открыть сертификат ↗",
+          "ratio": 8.998603417717803,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Астана · 14 октября 2026",
+          "ratio": 10.83767144482326,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Участие в хакатоне по агентному ИИ",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Ноябрь — декабрь 2025",
+          "ratio": 10.83767144482326,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Публичная копия: номера и подписи скрыты.",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Публичная копия: QR-код скрыт.",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Публичная копия: подпись и данные подписанта скрыты.",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".education-documents>h3",
+          "text": "Диплом и сертификаты",
+          "ratio": 12.450411692964044,
+          "size": 17.6,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".home-hero h1",
+          "text": "БахтиярЗикирин",
+          "ratio": 12.450411692964044,
+          "size": 63.36,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Бахтияр",
+          "ratio": 12.450411692964044,
+          "size": 63.36,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Зикирин",
+          "ratio": 10.337674267272183,
+          "size": 63.36,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".visual-heading h2",
+          "text": "Выбранные проекты.",
+          "ratio": 12.450411692964044,
+          "size": 40,
+          "weight": 475,
+          "minimum": 3
+        }
+      ],
+      "notes": {
+        "samples": [
+          {
+            "selector": ".contribution-notes>summary>span",
+            "text": "Мой вклад",
+            "ratio": 12.450411692964044,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Контуры зданий → 3D. Высоты оценочные.",
+            "ratio": 12.450411692964044,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Солнечные расчёты выполняются локально.",
+            "ratio": 12.450411692964044,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          }
+        ],
+        "boxes": [
+          {
+            "x": 414.5,
+            "y": 752.203125,
+            "width": 224,
+            "height": 58.59375,
+            "right": 638.5,
+            "bottom": 810.796875
+          },
+          {
+            "x": 95.96875,
+            "y": 977.3125,
+            "width": 192,
+            "height": 58.59375,
+            "right": 287.96875,
+            "bottom": 1035.90625
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "name": "desktop-kk-light",
+      "height": 392.921875,
+      "gridWidth": 1297,
+      "gridScrollWidth": 1297,
+      "fonts": [
+        {
+          "sel": ".home-hero h1",
+          "size": "63.36px",
+          "weight": "475",
+          "color": "rgb(47, 64, 57)"
+        },
+        {
+          "sel": ".visual-heading h2",
+          "size": "40px",
+          "weight": "475",
+          "color": "rgb(47, 64, 57)"
+        },
+        {
+          "sel": ".education-section>h2",
+          "size": "40px",
+          "weight": "475",
+          "color": "rgb(47, 64, 57)"
+        }
+      ],
+      "colors": [
+        {
+          "selector": ".document-card strong",
+          "text": "Колледж дипломы · 26 маусым 2026",
+          "ratio": 9.213789688684741,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "HackAlem AI — қатысушы сертификаты",
+          "ratio": 9.213789688684741,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "iQADAM Systems практика сертификаты",
+          "ratio": 9.213789688684741,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Дипломды ашу ↗",
+          "ratio": 6.0117169653285005,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Қатысу сертификатын ашу ↗",
+          "ratio": 6.0117169653285005,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Сертификатты ашу ↗",
+          "ratio": 6.0117169653285005,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Астана · 2026 жылғы 14 қазан",
+          "ratio": 9.213789688684741,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Агенттік ЖИ хакатонына қатысу",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Қараша — желтоқсан 2025",
+          "ratio": 9.213789688684741,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Жария көшірме: нөмірлер мен қолтаңбалар жасырылған.",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Жария көшірме: QR-код жасырылған.",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Жария көшірме: қолтаңба мен қол қоюшы деректері жасырылған.",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".education-documents>h3",
+          "text": "Диплом және сертификаттар",
+          "ratio": 9.63787191416736,
+          "size": 17.6,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".home-hero h1",
+          "text": "БахтиярЗикирин",
+          "ratio": 9.63787191416736,
+          "size": 63.36,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Бахтияр",
+          "ratio": 9.63787191416736,
+          "size": 63.36,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Зикирин",
+          "ratio": 6.288417692799962,
+          "size": 63.36,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".visual-heading h2",
+          "text": "Таңдалған жобалар.",
+          "ratio": 9.63787191416736,
+          "size": 40,
+          "weight": 475,
+          "minimum": 3
+        }
+      ],
+      "notes": {
+        "samples": [
+          {
+            "selector": ".contribution-notes>summary>span",
+            "text": "Менің үлесім",
+            "ratio": 9.63787191416736,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Ғимарат контурлары → 3D. Биіктік — бағалау.",
+            "ratio": 9.63787191416736,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Күн есептері осы браузерде орындалады.",
+            "ratio": 9.63787191416736,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          }
+        ],
+        "boxes": [
+          {
+            "x": 414.5,
+            "y": 752.203125,
+            "width": 224,
+            "height": 58.59375,
+            "right": 638.5,
+            "bottom": 810.796875
+          },
+          {
+            "x": 95.96875,
+            "y": 977.3125,
+            "width": 192,
+            "height": 58.59375,
+            "right": 287.96875,
+            "bottom": 1035.90625
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "name": "desktop-kk-dark",
+      "height": 392.921875,
+      "gridWidth": 1297,
+      "gridScrollWidth": 1297,
+      "fonts": [
+        {
+          "sel": ".home-hero h1",
+          "size": "63.36px",
+          "weight": "475",
+          "color": "rgb(210, 220, 210)"
+        },
+        {
+          "sel": ".visual-heading h2",
+          "size": "40px",
+          "weight": "475",
+          "color": "rgb(210, 220, 210)"
+        },
+        {
+          "sel": ".education-section>h2",
+          "size": "40px",
+          "weight": "475",
+          "color": "rgb(210, 220, 210)"
+        }
+      ],
+      "colors": [
+        {
+          "selector": ".document-card strong",
+          "text": "Колледж дипломы · 26 маусым 2026",
+          "ratio": 10.83767144482326,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "HackAlem AI — қатысушы сертификаты",
+          "ratio": 10.83767144482326,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "iQADAM Systems практика сертификаты",
+          "ratio": 10.83767144482326,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Дипломды ашу ↗",
+          "ratio": 8.998603417717803,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Қатысу сертификатын ашу ↗",
+          "ratio": 8.998603417717803,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Сертификатты ашу ↗",
+          "ratio": 8.998603417717803,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Астана · 2026 жылғы 14 қазан",
+          "ratio": 10.83767144482326,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Агенттік ЖИ хакатонына қатысу",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Қараша — желтоқсан 2025",
+          "ratio": 10.83767144482326,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Жария көшірме: нөмірлер мен қолтаңбалар жасырылған.",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Жария көшірме: QR-код жасырылған.",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Жария көшірме: қолтаңба мен қол қоюшы деректері жасырылған.",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".education-documents>h3",
+          "text": "Диплом және сертификаттар",
+          "ratio": 12.450411692964044,
+          "size": 17.6,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".home-hero h1",
+          "text": "БахтиярЗикирин",
+          "ratio": 12.450411692964044,
+          "size": 63.36,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Бахтияр",
+          "ratio": 12.450411692964044,
+          "size": 63.36,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Зикирин",
+          "ratio": 10.337674267272183,
+          "size": 63.36,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".visual-heading h2",
+          "text": "Таңдалған жобалар.",
+          "ratio": 12.450411692964044,
+          "size": 40,
+          "weight": 475,
+          "minimum": 3
+        }
+      ],
+      "notes": {
+        "samples": [
+          {
+            "selector": ".contribution-notes>summary>span",
+            "text": "Менің үлесім",
+            "ratio": 12.450411692964044,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Ғимарат контурлары → 3D. Биіктік — бағалау.",
+            "ratio": 12.450411692964044,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Күн есептері осы браузерде орындалады.",
+            "ratio": 12.450411692964044,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          }
+        ],
+        "boxes": [
+          {
+            "x": 414.5,
+            "y": 752.203125,
+            "width": 224,
+            "height": 58.59375,
+            "right": 638.5,
+            "bottom": 810.796875
+          },
+          {
+            "x": 95.96875,
+            "y": 977.3125,
+            "width": 192,
+            "height": 58.59375,
+            "right": 287.96875,
+            "bottom": 1035.90625
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "name": "desktop-en-light",
+      "height": 392.921875,
+      "gridWidth": 1297,
+      "gridScrollWidth": 1297,
+      "fonts": [
+        {
+          "sel": ".home-hero h1",
+          "size": "63.36px",
+          "weight": "475",
+          "color": "rgb(47, 64, 57)"
+        },
+        {
+          "sel": ".visual-heading h2",
+          "size": "40px",
+          "weight": "475",
+          "color": "rgb(47, 64, 57)"
+        },
+        {
+          "sel": ".education-section>h2",
+          "size": "40px",
+          "weight": "475",
+          "color": "rgb(47, 64, 57)"
+        }
+      ],
+      "colors": [
+        {
+          "selector": ".document-card strong",
+          "text": "College diploma · 26 June 2026",
+          "ratio": 9.213789688684741,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "HackAlem AI — certificate of participation",
+          "ratio": 9.213789688684741,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "iQADAM Systems internship certificate",
+          "ratio": 9.213789688684741,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Open diploma ↗",
+          "ratio": 6.0117169653285005,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Open participation certificate ↗",
+          "ratio": 6.0117169653285005,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Open certificate ↗",
+          "ratio": 6.0117169653285005,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Astana · 14 October 2026",
+          "ratio": 9.213789688684741,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Participation in an agentic AI hackathon",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "November — December 2025",
+          "ratio": 9.213789688684741,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Public copy: document numbers and signatures are hidden.",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Public copy: QR code hidden.",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Public copy: the signature and signatory details are hidden.",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".education-documents>h3",
+          "text": "Diploma and certificates",
+          "ratio": 9.63787191416736,
+          "size": 17.6,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".home-hero h1",
+          "text": "BakhtiyarZikirin",
+          "ratio": 9.63787191416736,
+          "size": 63.36,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Bakhtiyar",
+          "ratio": 9.63787191416736,
+          "size": 63.36,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Zikirin",
+          "ratio": 6.288417692799962,
+          "size": 63.36,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".visual-heading h2",
+          "text": "Selected projects.",
+          "ratio": 9.63787191416736,
+          "size": 40,
+          "weight": 475,
+          "minimum": 3
+        }
+      ],
+      "notes": {
+        "samples": [
+          {
+            "selector": ".contribution-notes>summary>span",
+            "text": "My contribution",
+            "ratio": 9.63787191416736,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Building outlines → 3D. Heights are estimates.",
+            "ratio": 9.63787191416736,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Solar calculations run locally.",
+            "ratio": 9.63787191416736,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          }
+        ],
+        "boxes": [
+          {
+            "x": 414.5,
+            "y": 752.203125,
+            "width": 224,
+            "height": 58.59375,
+            "right": 638.5,
+            "bottom": 810.796875
+          },
+          {
+            "x": 95.96875,
+            "y": 977.3125,
+            "width": 192,
+            "height": 58.59375,
+            "right": 287.96875,
+            "bottom": 1035.90625
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "name": "desktop-en-dark",
+      "height": 392.921875,
+      "gridWidth": 1297,
+      "gridScrollWidth": 1297,
+      "fonts": [
+        {
+          "sel": ".home-hero h1",
+          "size": "63.36px",
+          "weight": "475",
+          "color": "rgb(210, 220, 210)"
+        },
+        {
+          "sel": ".visual-heading h2",
+          "size": "40px",
+          "weight": "475",
+          "color": "rgb(210, 220, 210)"
+        },
+        {
+          "sel": ".education-section>h2",
+          "size": "40px",
+          "weight": "475",
+          "color": "rgb(210, 220, 210)"
+        }
+      ],
+      "colors": [
+        {
+          "selector": ".document-card strong",
+          "text": "College diploma · 26 June 2026",
+          "ratio": 10.83767144482326,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "HackAlem AI — certificate of participation",
+          "ratio": 10.83767144482326,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "iQADAM Systems internship certificate",
+          "ratio": 10.83767144482326,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Open diploma ↗",
+          "ratio": 8.998603417717803,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Open participation certificate ↗",
+          "ratio": 8.998603417717803,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Open certificate ↗",
+          "ratio": 8.998603417717803,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Astana · 14 October 2026",
+          "ratio": 10.83767144482326,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Participation in an agentic AI hackathon",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "November — December 2025",
+          "ratio": 10.83767144482326,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Public copy: document numbers and signatures are hidden.",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Public copy: QR code hidden.",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Public copy: the signature and signatory details are hidden.",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".education-documents>h3",
+          "text": "Diploma and certificates",
+          "ratio": 12.450411692964044,
+          "size": 17.6,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".home-hero h1",
+          "text": "BakhtiyarZikirin",
+          "ratio": 12.450411692964044,
+          "size": 63.36,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Bakhtiyar",
+          "ratio": 12.450411692964044,
+          "size": 63.36,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Zikirin",
+          "ratio": 10.337674267272183,
+          "size": 63.36,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".visual-heading h2",
+          "text": "Selected projects.",
+          "ratio": 12.450411692964044,
+          "size": 40,
+          "weight": 475,
+          "minimum": 3
+        }
+      ],
+      "notes": {
+        "samples": [
+          {
+            "selector": ".contribution-notes>summary>span",
+            "text": "My contribution",
+            "ratio": 12.450411692964044,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Building outlines → 3D. Heights are estimates.",
+            "ratio": 12.450411692964044,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Solar calculations run locally.",
+            "ratio": 12.450411692964044,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          }
+        ],
+        "boxes": [
+          {
+            "x": 414.5,
+            "y": 752.203125,
+            "width": 224,
+            "height": 58.59375,
+            "right": 638.5,
+            "bottom": 810.796875
+          },
+          {
+            "x": 95.96875,
+            "y": 977.3125,
+            "width": 192,
+            "height": 58.59375,
+            "right": 287.96875,
+            "bottom": 1035.90625
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "name": "touch-ru-light",
+      "height": 441.515625,
+      "gridWidth": 351,
+      "gridScrollWidth": 1077,
+      "fonts": [
+        {
+          "sel": ".home-hero h1",
+          "size": "41.6px",
+          "weight": "475",
+          "color": "rgb(47, 64, 57)"
+        },
+        {
+          "sel": ".visual-heading h2",
+          "size": "28.8px",
+          "weight": "475",
+          "color": "rgb(47, 64, 57)"
+        },
+        {
+          "sel": ".education-section>h2",
+          "size": "28.8px",
+          "weight": "475",
+          "color": "rgb(47, 64, 57)"
+        }
+      ],
+      "colors": [
+        {
+          "selector": ".document-card strong",
+          "text": "Диплом колледжа · 26 июня 2026",
+          "ratio": 9.213789688684741,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "HackAlem AI — сертификат участника",
+          "ratio": 9.213789688684741,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "Сертификат практики iQADAM Systems",
+          "ratio": 9.213789688684741,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Открыть диплом ↗",
+          "ratio": 6.0117169653285005,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Открыть сертификат участия ↗",
+          "ratio": 6.0117169653285005,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Открыть сертификат ↗",
+          "ratio": 6.0117169653285005,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Астана · 14 октября 2026",
+          "ratio": 9.213789688684741,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Участие в хакатоне по агентному ИИ",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Ноябрь — декабрь 2025",
+          "ratio": 9.213789688684741,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Публичная копия: номера и подписи скрыты.",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Публичная копия: QR-код скрыт.",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Публичная копия: подпись и данные подписанта скрыты.",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".education-documents>h3",
+          "text": "Диплом и сертификаты",
+          "ratio": 9.63787191416736,
+          "size": 17.6,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".home-hero h1",
+          "text": "БахтиярЗикирин",
+          "ratio": 9.63787191416736,
+          "size": 41.6,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Бахтияр",
+          "ratio": 9.63787191416736,
+          "size": 41.6,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Зикирин",
+          "ratio": 6.288417692799962,
+          "size": 41.6,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".visual-heading h2",
+          "text": "Выбранные проекты.",
+          "ratio": 9.63787191416736,
+          "size": 28.8,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".document-tabs a",
+          "text": "Диплом",
+          "ratio": 6.288417692799962,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-tabs a",
+          "text": "HackAlem",
+          "ratio": 4.993227885958874,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-tabs a",
+          "text": "iQADAM",
+          "ratio": 4.993227885958874,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        }
+      ],
+      "notes": {
+        "samples": [
+          {
+            "selector": ".contribution-notes>summary>span",
+            "text": "Мой вклад",
+            "ratio": 9.63787191416736,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Контуры зданий → 3D. Высоты оценочные.",
+            "ratio": 9.63787191416736,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Солнечные расчёты выполняются локально.",
+            "ratio": 9.63787191416736,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          }
+        ],
+        "boxes": [
+          {
+            "x": 173.9375,
+            "y": 470.03125,
+            "width": 175.5,
+            "height": 58.59375,
+            "right": 349.4375,
+            "bottom": 528.625
+          },
+          {
+            "x": 33.53125,
+            "y": 495.890625,
+            "width": 129.859375,
+            "height": 99.1875,
+            "right": 163.390625,
+            "bottom": 595.078125
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "name": "touch-ru-dark",
+      "height": 441.515625,
+      "gridWidth": 351,
+      "gridScrollWidth": 1077,
+      "fonts": [
+        {
+          "sel": ".home-hero h1",
+          "size": "41.6px",
+          "weight": "475",
+          "color": "rgb(210, 220, 210)"
+        },
+        {
+          "sel": ".visual-heading h2",
+          "size": "28.8px",
+          "weight": "475",
+          "color": "rgb(210, 220, 210)"
+        },
+        {
+          "sel": ".education-section>h2",
+          "size": "28.8px",
+          "weight": "475",
+          "color": "rgb(210, 220, 210)"
+        }
+      ],
+      "colors": [
+        {
+          "selector": ".document-card strong",
+          "text": "Диплом колледжа · 26 июня 2026",
+          "ratio": 10.83767144482326,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "HackAlem AI — сертификат участника",
+          "ratio": 10.83767144482326,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "Сертификат практики iQADAM Systems",
+          "ratio": 10.83767144482326,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Открыть диплом ↗",
+          "ratio": 8.998603417717803,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Открыть сертификат участия ↗",
+          "ratio": 8.998603417717803,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Открыть сертификат ↗",
+          "ratio": 8.998603417717803,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Астана · 14 октября 2026",
+          "ratio": 10.83767144482326,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Участие в хакатоне по агентному ИИ",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Ноябрь — декабрь 2025",
+          "ratio": 10.83767144482326,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Публичная копия: номера и подписи скрыты.",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Публичная копия: QR-код скрыт.",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Публичная копия: подпись и данные подписанта скрыты.",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".education-documents>h3",
+          "text": "Диплом и сертификаты",
+          "ratio": 12.450411692964044,
+          "size": 17.6,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".home-hero h1",
+          "text": "БахтиярЗикирин",
+          "ratio": 12.450411692964044,
+          "size": 41.6,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Бахтияр",
+          "ratio": 12.450411692964044,
+          "size": 41.6,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Зикирин",
+          "ratio": 10.337674267272183,
+          "size": 41.6,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".visual-heading h2",
+          "text": "Выбранные проекты.",
+          "ratio": 12.450411692964044,
+          "size": 28.8,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".document-tabs a",
+          "text": "Диплом",
+          "ratio": 10.337674267272183,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-tabs a",
+          "text": "HackAlem",
+          "ratio": 7.832252857719548,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-tabs a",
+          "text": "iQADAM",
+          "ratio": 7.832252857719548,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        }
+      ],
+      "notes": {
+        "samples": [
+          {
+            "selector": ".contribution-notes>summary>span",
+            "text": "Мой вклад",
+            "ratio": 12.450411692964044,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Контуры зданий → 3D. Высоты оценочные.",
+            "ratio": 12.450411692964044,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Солнечные расчёты выполняются локально.",
+            "ratio": 12.450411692964044,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          }
+        ],
+        "boxes": [
+          {
+            "x": 173.9375,
+            "y": 470.03125,
+            "width": 175.5,
+            "height": 58.59375,
+            "right": 349.4375,
+            "bottom": 528.625
+          },
+          {
+            "x": 33.53125,
+            "y": 495.890625,
+            "width": 129.859375,
+            "height": 99.1875,
+            "right": 163.390625,
+            "bottom": 595.078125
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "name": "touch-kk-light",
+      "height": 441.515625,
+      "gridWidth": 351,
+      "gridScrollWidth": 1077,
+      "fonts": [
+        {
+          "sel": ".home-hero h1",
+          "size": "41.6px",
+          "weight": "475",
+          "color": "rgb(47, 64, 57)"
+        },
+        {
+          "sel": ".visual-heading h2",
+          "size": "28.8px",
+          "weight": "475",
+          "color": "rgb(47, 64, 57)"
+        },
+        {
+          "sel": ".education-section>h2",
+          "size": "28.8px",
+          "weight": "475",
+          "color": "rgb(47, 64, 57)"
+        }
+      ],
+      "colors": [
+        {
+          "selector": ".document-card strong",
+          "text": "Колледж дипломы · 26 маусым 2026",
+          "ratio": 9.213789688684741,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "HackAlem AI — қатысушы сертификаты",
+          "ratio": 9.213789688684741,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "iQADAM Systems практика сертификаты",
+          "ratio": 9.213789688684741,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Дипломды ашу ↗",
+          "ratio": 6.0117169653285005,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Қатысу сертификатын ашу ↗",
+          "ratio": 6.0117169653285005,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Сертификатты ашу ↗",
+          "ratio": 6.0117169653285005,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Астана · 2026 жылғы 14 қазан",
+          "ratio": 9.213789688684741,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Агенттік ЖИ хакатонына қатысу",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Қараша — желтоқсан 2025",
+          "ratio": 9.213789688684741,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Жария көшірме: нөмірлер мен қолтаңбалар жасырылған.",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Жария көшірме: QR-код жасырылған.",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Жария көшірме: қолтаңба мен қол қоюшы деректері жасырылған.",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".education-documents>h3",
+          "text": "Диплом және сертификаттар",
+          "ratio": 9.63787191416736,
+          "size": 17.6,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".home-hero h1",
+          "text": "БахтиярЗикирин",
+          "ratio": 9.63787191416736,
+          "size": 41.6,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Бахтияр",
+          "ratio": 9.63787191416736,
+          "size": 41.6,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Зикирин",
+          "ratio": 6.288417692799962,
+          "size": 41.6,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".visual-heading h2",
+          "text": "Таңдалған жобалар.",
+          "ratio": 9.63787191416736,
+          "size": 28.8,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".document-tabs a",
+          "text": "Диплом",
+          "ratio": 6.288417692799962,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-tabs a",
+          "text": "HackAlem",
+          "ratio": 4.993227885958874,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-tabs a",
+          "text": "iQADAM",
+          "ratio": 4.993227885958874,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        }
+      ],
+      "notes": {
+        "samples": [
+          {
+            "selector": ".contribution-notes>summary>span",
+            "text": "Менің үлесім",
+            "ratio": 9.63787191416736,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Ғимарат контурлары → 3D. Биіктік — бағалау.",
+            "ratio": 9.63787191416736,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Күн есептері осы браузерде орындалады.",
+            "ratio": 9.63787191416736,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          }
+        ],
+        "boxes": [
+          {
+            "x": 173.9375,
+            "y": 470.03125,
+            "width": 175.5,
+            "height": 78.890625,
+            "right": 349.4375,
+            "bottom": 548.921875
+          },
+          {
+            "x": 33.53125,
+            "y": 516.1875,
+            "width": 129.859375,
+            "height": 78.890625,
+            "right": 163.390625,
+            "bottom": 595.078125
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "name": "touch-kk-dark",
+      "height": 441.515625,
+      "gridWidth": 351,
+      "gridScrollWidth": 1077,
+      "fonts": [
+        {
+          "sel": ".home-hero h1",
+          "size": "41.6px",
+          "weight": "475",
+          "color": "rgb(210, 220, 210)"
+        },
+        {
+          "sel": ".visual-heading h2",
+          "size": "28.8px",
+          "weight": "475",
+          "color": "rgb(210, 220, 210)"
+        },
+        {
+          "sel": ".education-section>h2",
+          "size": "28.8px",
+          "weight": "475",
+          "color": "rgb(210, 220, 210)"
+        }
+      ],
+      "colors": [
+        {
+          "selector": ".document-card strong",
+          "text": "Колледж дипломы · 26 маусым 2026",
+          "ratio": 10.83767144482326,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "HackAlem AI — қатысушы сертификаты",
+          "ratio": 10.83767144482326,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "iQADAM Systems практика сертификаты",
+          "ratio": 10.83767144482326,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Дипломды ашу ↗",
+          "ratio": 8.998603417717803,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Қатысу сертификатын ашу ↗",
+          "ratio": 8.998603417717803,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Сертификатты ашу ↗",
+          "ratio": 8.998603417717803,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Астана · 2026 жылғы 14 қазан",
+          "ratio": 10.83767144482326,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Агенттік ЖИ хакатонына қатысу",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Қараша — желтоқсан 2025",
+          "ratio": 10.83767144482326,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Жария көшірме: нөмірлер мен қолтаңбалар жасырылған.",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Жария көшірме: QR-код жасырылған.",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Жария көшірме: қолтаңба мен қол қоюшы деректері жасырылған.",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".education-documents>h3",
+          "text": "Диплом және сертификаттар",
+          "ratio": 12.450411692964044,
+          "size": 17.6,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".home-hero h1",
+          "text": "БахтиярЗикирин",
+          "ratio": 12.450411692964044,
+          "size": 41.6,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Бахтияр",
+          "ratio": 12.450411692964044,
+          "size": 41.6,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Зикирин",
+          "ratio": 10.337674267272183,
+          "size": 41.6,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".visual-heading h2",
+          "text": "Таңдалған жобалар.",
+          "ratio": 12.450411692964044,
+          "size": 28.8,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".document-tabs a",
+          "text": "Диплом",
+          "ratio": 10.337674267272183,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-tabs a",
+          "text": "HackAlem",
+          "ratio": 7.832252857719548,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-tabs a",
+          "text": "iQADAM",
+          "ratio": 7.832252857719548,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        }
+      ],
+      "notes": {
+        "samples": [
+          {
+            "selector": ".contribution-notes>summary>span",
+            "text": "Менің үлесім",
+            "ratio": 12.450411692964044,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Ғимарат контурлары → 3D. Биіктік — бағалау.",
+            "ratio": 12.450411692964044,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Күн есептері осы браузерде орындалады.",
+            "ratio": 12.450411692964044,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          }
+        ],
+        "boxes": [
+          {
+            "x": 173.9375,
+            "y": 470.03125,
+            "width": 175.5,
+            "height": 78.890625,
+            "right": 349.4375,
+            "bottom": 548.921875
+          },
+          {
+            "x": 33.53125,
+            "y": 516.1875,
+            "width": 129.859375,
+            "height": 78.890625,
+            "right": 163.390625,
+            "bottom": 595.078125
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "name": "touch-en-light",
+      "height": 441.515625,
+      "gridWidth": 351,
+      "gridScrollWidth": 1077,
+      "fonts": [
+        {
+          "sel": ".home-hero h1",
+          "size": "41.6px",
+          "weight": "475",
+          "color": "rgb(47, 64, 57)"
+        },
+        {
+          "sel": ".visual-heading h2",
+          "size": "28.8px",
+          "weight": "475",
+          "color": "rgb(47, 64, 57)"
+        },
+        {
+          "sel": ".education-section>h2",
+          "size": "28.8px",
+          "weight": "475",
+          "color": "rgb(47, 64, 57)"
+        }
+      ],
+      "colors": [
+        {
+          "selector": ".document-card strong",
+          "text": "College diploma · 26 June 2026",
+          "ratio": 9.213789688684741,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "HackAlem AI — certificate of participation",
+          "ratio": 9.213789688684741,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "iQADAM Systems internship certificate",
+          "ratio": 9.213789688684741,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Open diploma ↗",
+          "ratio": 6.0117169653285005,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Open participation certificate ↗",
+          "ratio": 6.0117169653285005,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Open certificate ↗",
+          "ratio": 6.0117169653285005,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Astana · 14 October 2026",
+          "ratio": 9.213789688684741,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Participation in an agentic AI hackathon",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "November — December 2025",
+          "ratio": 9.213789688684741,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Public copy: document numbers and signatures are hidden.",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Public copy: QR code hidden.",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Public copy: the signature and signatory details are hidden.",
+          "ratio": 4.77351764151097,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".education-documents>h3",
+          "text": "Diploma and certificates",
+          "ratio": 9.63787191416736,
+          "size": 17.6,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".home-hero h1",
+          "text": "BakhtiyarZikirin",
+          "ratio": 9.63787191416736,
+          "size": 41.6,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Bakhtiyar",
+          "ratio": 9.63787191416736,
+          "size": 41.6,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Zikirin",
+          "ratio": 6.288417692799962,
+          "size": 41.6,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".visual-heading h2",
+          "text": "Selected projects.",
+          "ratio": 9.63787191416736,
+          "size": 28.8,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".document-tabs a",
+          "text": "Diploma",
+          "ratio": 6.288417692799962,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-tabs a",
+          "text": "HackAlem",
+          "ratio": 4.993227885958874,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-tabs a",
+          "text": "iQADAM",
+          "ratio": 4.993227885958874,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        }
+      ],
+      "notes": {
+        "samples": [
+          {
+            "selector": ".contribution-notes>summary>span",
+            "text": "My contribution",
+            "ratio": 9.63787191416736,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Building outlines → 3D. Heights are estimates.",
+            "ratio": 9.63787191416736,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Solar calculations run locally.",
+            "ratio": 9.63787191416736,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          }
+        ],
+        "boxes": [
+          {
+            "x": 173.9375,
+            "y": 469.953125,
+            "width": 175.5,
+            "height": 58.59375,
+            "right": 349.4375,
+            "bottom": 528.546875
+          },
+          {
+            "x": 33.53125,
+            "y": 516.109375,
+            "width": 129.859375,
+            "height": 78.890625,
+            "right": 163.390625,
+            "bottom": 595
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "name": "touch-en-dark",
+      "height": 441.515625,
+      "gridWidth": 351,
+      "gridScrollWidth": 1077,
+      "fonts": [
+        {
+          "sel": ".home-hero h1",
+          "size": "41.6px",
+          "weight": "475",
+          "color": "rgb(210, 220, 210)"
+        },
+        {
+          "sel": ".visual-heading h2",
+          "size": "28.8px",
+          "weight": "475",
+          "color": "rgb(210, 220, 210)"
+        },
+        {
+          "sel": ".education-section>h2",
+          "size": "28.8px",
+          "weight": "475",
+          "color": "rgb(210, 220, 210)"
+        }
+      ],
+      "colors": [
+        {
+          "selector": ".document-card strong",
+          "text": "College diploma · 26 June 2026",
+          "ratio": 10.83767144482326,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "HackAlem AI — certificate of participation",
+          "ratio": 10.83767144482326,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card strong",
+          "text": "iQADAM Systems internship certificate",
+          "ratio": 10.83767144482326,
+          "size": 15,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Open diploma ↗",
+          "ratio": 8.998603417717803,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Open participation certificate ↗",
+          "ratio": 8.998603417717803,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>a>span",
+          "text": "Open certificate ↗",
+          "ratio": 8.998603417717803,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Astana · 14 October 2026",
+          "ratio": 10.83767144482326,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "Participation in an agentic AI hackathon",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card>p",
+          "text": "November — December 2025",
+          "ratio": 10.83767144482326,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Public copy: document numbers and signatures are hidden.",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Public copy: QR code hidden.",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-card small",
+          "text": "Public copy: the signature and signatory details are hidden.",
+          "ratio": 6.817716974990608,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".education-documents>h3",
+          "text": "Diploma and certificates",
+          "ratio": 12.450411692964044,
+          "size": 17.6,
+          "weight": 500,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".home-hero h1",
+          "text": "BakhtiyarZikirin",
+          "ratio": 12.450411692964044,
+          "size": 41.6,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Bakhtiyar",
+          "ratio": 12.450411692964044,
+          "size": 41.6,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".home-hero h1>span",
+          "text": "Zikirin",
+          "ratio": 10.337674267272183,
+          "size": 41.6,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".visual-heading h2",
+          "text": "Selected projects.",
+          "ratio": 12.450411692964044,
+          "size": 28.8,
+          "weight": 475,
+          "minimum": 3
+        },
+        {
+          "selector": ".document-tabs a",
+          "text": "Diploma",
+          "ratio": 10.337674267272183,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-tabs a",
+          "text": "HackAlem",
+          "ratio": 7.832252857719548,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".document-tabs a",
+          "text": "iQADAM",
+          "ratio": 7.832252857719548,
+          "size": 14,
+          "weight": 400,
+          "minimum": 4.5
+        }
+      ],
+      "notes": {
+        "samples": [
+          {
+            "selector": ".contribution-notes>summary>span",
+            "text": "My contribution",
+            "ratio": 12.450411692964044,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Building outlines → 3D. Heights are estimates.",
+            "ratio": 12.450411692964044,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Solar calculations run locally.",
+            "ratio": 12.450411692964044,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          }
+        ],
+        "boxes": [
+          {
+            "x": 173.9375,
+            "y": 469.953125,
+            "width": 175.5,
+            "height": 58.59375,
+            "right": 349.4375,
+            "bottom": 528.546875
+          },
+          {
+            "x": 33.53125,
+            "y": 516.109375,
+            "width": 129.859375,
+            "height": 78.890625,
+            "right": 163.390625,
+            "bottom": 595
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "room": [
+    {
+      "name": "room-desktop-ru",
+      "notes": {
+        "samples": [
+          {
+            "selector": ".contribution-notes>summary>span",
+            "text": "Мой вклад",
+            "ratio": 8.086521844128258,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Контуры зданий → 3D. Высоты оценочные.",
+            "ratio": 8.086521844128258,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Солнечные расчёты выполняются локально.",
+            "ratio": 8.086521844128258,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          }
+        ],
+        "boxes": [
+          {
+            "x": 470.125,
+            "y": 432.46875,
+            "width": 224,
+            "height": 58.59375,
+            "right": 694.125,
+            "bottom": 491.0625
+          },
+          {
+            "x": 178.1875,
+            "y": 660.21875,
+            "width": 192,
+            "height": 58.59375,
+            "right": 370.1875,
+            "bottom": 718.8125
+          }
+        ]
+      },
+      "heldRenders": 0,
+      "errors": []
+    },
+    {
+      "name": "room-desktop-kk",
+      "notes": {
+        "samples": [
+          {
+            "selector": ".contribution-notes>summary>span",
+            "text": "Менің үлесім",
+            "ratio": 8.086521844128258,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Ғимарат контурлары → 3D. Биіктік — бағалау.",
+            "ratio": 8.086521844128258,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Күн есептері осы браузерде орындалады.",
+            "ratio": 8.086521844128258,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          }
+        ],
+        "boxes": [
+          {
+            "x": 470.125,
+            "y": 432.46875,
+            "width": 224,
+            "height": 58.59375,
+            "right": 694.125,
+            "bottom": 491.0625
+          },
+          {
+            "x": 178.1875,
+            "y": 660.21875,
+            "width": 192,
+            "height": 58.59375,
+            "right": 370.1875,
+            "bottom": 718.8125
+          }
+        ]
+      },
+      "heldRenders": 0,
+      "errors": []
+    },
+    {
+      "name": "room-desktop-en",
+      "notes": {
+        "samples": [
+          {
+            "selector": ".contribution-notes>summary>span",
+            "text": "My contribution",
+            "ratio": 8.086521844128258,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Building outlines → 3D. Heights are estimates.",
+            "ratio": 8.086521844128258,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Solar calculations run locally.",
+            "ratio": 8.086521844128258,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          }
+        ],
+        "boxes": [
+          {
+            "x": 470.125,
+            "y": 432.46875,
+            "width": 224,
+            "height": 58.59375,
+            "right": 694.125,
+            "bottom": 491.0625
+          },
+          {
+            "x": 178.1875,
+            "y": 660.21875,
+            "width": 192,
+            "height": 58.59375,
+            "right": 370.1875,
+            "bottom": 718.8125
+          }
+        ]
+      },
+      "heldRenders": 0,
+      "errors": []
+    },
+    {
+      "name": "room-touch-ru",
+      "notes": {
+        "samples": [
+          {
+            "selector": ".contribution-notes>summary>span",
+            "text": "Мой вклад",
+            "ratio": 8.086521844128258,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Контуры зданий → 3D. Высоты оценочные.",
+            "ratio": 8.086521844128258,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Солнечные расчёты выполняются локально.",
+            "ratio": 8.086521844128258,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          }
+        ],
+        "boxes": [
+          {
+            "x": 176.515625,
+            "y": 336.15625,
+            "width": 154,
+            "height": 78.890625,
+            "right": 330.515625,
+            "bottom": 415.046875
+          },
+          {
+            "x": 53.3125,
+            "y": 360,
+            "width": 113.953125,
+            "height": 99.1875,
+            "right": 167.265625,
+            "bottom": 459.1875
+          }
+        ]
+      },
+      "heldRenders": 0,
+      "errors": []
+    },
+    {
+      "name": "room-touch-kk",
+      "notes": {
+        "samples": [
+          {
+            "selector": ".contribution-notes>summary>span",
+            "text": "Менің үлесім",
+            "ratio": 8.086521844128258,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Ғимарат контурлары → 3D. Биіктік — бағалау.",
+            "ratio": 8.086521844128258,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Күн есептері осы браузерде орындалады.",
+            "ratio": 8.086521844128258,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          }
+        ],
+        "boxes": [
+          {
+            "x": 176.515625,
+            "y": 336.15625,
+            "width": 154,
+            "height": 78.890625,
+            "right": 330.515625,
+            "bottom": 415.046875
+          },
+          {
+            "x": 53.3125,
+            "y": 360,
+            "width": 113.953125,
+            "height": 99.1875,
+            "right": 167.265625,
+            "bottom": 459.1875
+          }
+        ]
+      },
+      "heldRenders": 0,
+      "errors": []
+    },
+    {
+      "name": "room-touch-en",
+      "notes": {
+        "samples": [
+          {
+            "selector": ".contribution-notes>summary>span",
+            "text": "My contribution",
+            "ratio": 8.086521844128258,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Building outlines → 3D. Heights are estimates.",
+            "ratio": 8.086521844128258,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          },
+          {
+            "selector": ".contribution-points>p",
+            "text": "Solar calculations run locally.",
+            "ratio": 8.086521844128258,
+            "size": 14,
+            "weight": 400,
+            "minimum": 4.5
+          }
+        ],
+        "boxes": [
+          {
+            "x": 176.515625,
+            "y": 336.15625,
+            "width": 154,
+            "height": 78.890625,
+            "right": 330.515625,
+            "bottom": 415.046875
+          },
+          {
+            "x": 53.3125,
+            "y": 380.296875,
+            "width": 113.953125,
+            "height": 78.890625,
+            "right": 167.265625,
+            "bottom": 459.1875
+          }
+        ]
+      },
+      "heldRenders": 0,
+      "errors": []
+    }
+  ],
+  "extra": [],
+  "passed": true
+}

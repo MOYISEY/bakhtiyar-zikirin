@@ -1,0 +1,81 @@
+{
+  "method": "Original PNG pixels opened using view_image; no image edits. Review by implementing agent; independent reviewer has all originals. Library reference pixels unavailable, so authorized current-site fallback used.",
+  "frames": [
+    {
+      "path": "before/desktop-dark-documents.png",
+      "sha256": "de7d0eb45833e69164b0cbd0f3072fdc9fc20f9239781b19fb165b2fb03463a2"
+    },
+    {
+      "path": "before/touch-light-documents.png",
+      "sha256": "e9cbb6d360d536d4bf6c66aad2764af76380c1862441cb24ac9169988b32a3ca"
+    },
+    {
+      "path": "before/desktop-light-hero.png",
+      "sha256": "f52b935f88f9498de9c7f770d7f5df9383fd3aaedaaaa2583af4b2c12c961596"
+    },
+    {
+      "path": "before/touch-light-room-book.png",
+      "sha256": "e50f6190b25cfda6cb0ca871b1fc544efb7cd89a9ecdf118819bf66a62005125"
+    },
+    {
+      "path": "before/touch-light-hero.png",
+      "sha256": "db79a0b16b052efed6a9d5fe9e8304c750194dc995eabb5c4bdaba9abe05da94"
+    },
+    {
+      "path": "after/touch-ru-light-documents.png",
+      "sha256": "59206bf9222a340c6f40347e094a7904ac326d0fb473bc0d0d58194663d7bf56"
+    },
+    {
+      "path": "after/desktop-ru-dark-documents.png",
+      "sha256": "23a07320c2a0b01caea0097d5402465d8b07f4ff37b5541a42e95b27be3ee74e"
+    },
+    {
+      "path": "after/touch-kk-light-notes.png",
+      "sha256": "37f19945b5708149f272555b7998f85673f6fa8a0992d4a9430ba0425fd8b084"
+    },
+    {
+      "path": "after/room-desktop-en-notes.png",
+      "sha256": "1c0096939cf7ec5985367f0dc620f0733302f0d6e11818f8237fcd57021592f8"
+    },
+    {
+      "path": "after/desktop-ru-light-hero.png",
+      "sha256": "61b55c9162ee93f170fe0e22b735c61573a2e425dc4ad223e1a91d45d5938c1b"
+    },
+    {
+      "path": "after/touch-en-dark-hero.png",
+      "sha256": "b944763a4b436fc58df5061d0d76a8dbee71a9eae5215eea082d83ff85eb85d4"
+    },
+    {
+      "path": "after/room-touch-ru-notes.png",
+      "sha256": "6d66b636b58b8d19294f4e3c5d04eb025d8a0e35e8b2f04950ae4f015dee9ad5"
+    },
+    {
+      "path": "after/room-desktop-kk-book.png",
+      "sha256": "f3f16ad86b270f6c4ad089f9b73e0bf6fbee4001bb2fd941ec1c80ed65850c98"
+    },
+    {
+      "path": "after/touch-ru-light-hero.png",
+      "sha256": "26ffc0d651112dc96b4c217c9a4eeab33de2add2e870af6441307b1bef256df9"
+    },
+    {
+      "path": "after/desktop-ru-light-documents.png",
+      "sha256": "15dbf2215842711205d2fe83af087257ed83ed5d8da7923e58f58497199ae244"
+    },
+    {
+      "path": "after/touch-ru-dark-documents.png",
+      "sha256": "a3d36cfb1b42bee4877241f086636f6026bd2c5d1b08b282d5654d30bb17aa86"
+    },
+    {
+      "path": "edges/320-ru-dark-no-preference.png",
+      "sha256": "2328fa51edac71a1c040b6832a47f69af3049f6932a85298084168b364837cfd"
+    },
+    {
+      "path": "edges/390-ru-light-nojs.png",
+      "sha256": "75efcc1a49c90012ff3ad3a59cd1f91a2243457ad563d1110a585f01bb11cc9c"
+    },
+    {
+      "path": "edges/760-en-dark-no-preference.png",
+      "sha256": "084c9dbc31cb01fbca6d48031a42e0686668273d62216c1b0873d037a3c8faa7"
+    }
+  ]
+}

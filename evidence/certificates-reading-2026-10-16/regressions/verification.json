@@ -1,0 +1,182 @@
+{
+  "runtime": {
+    "docs/index.html": "ebf0ace6f4d57ae9a10b5834d230a21cae88466b18bcdb4e5b9324adcb1e571b",
+    "docs/asset-history.json": "a12f66d6aa885908fd8b44d33b3565be92008518596558cf7555d00c0a08e407",
+    "docs/assets/main-3tdpkXWC.css": "14e4db939b5cedaead605d6b44322cb6afe8d826d3b804dde44c8473202343a5",
+    "docs/assets/main-unXHqBXH.js": "1a19ec6069e8b46ccb068e91e5629cc55fe56187393df238eb7f442009353d07",
+    "docs/assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2": "268f03691b3d06e57abcf20f9277e314ea8784298983aab5b40c1b91965027e1",
+    "docs/assets/onest-cyrillic-wght-normal-DayYxulF.woff2": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27",
+    "docs/assets/onest-latin-ext-wght-normal-QAhDxQuo.woff2": "14e7d3079b75860e2ab50efc6c318c398fdb46ede9b56e625f12ae70a3c5d9a4",
+    "docs/assets/onest-latin-wght-normal-Dun_Rd-l.woff2": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828",
+    "docs/assets/onest-math-wght-normal-Bl4ZGkZl.woff2": "c74952a8c0c8c558c4f879f83773cf529d11350609f7073f5b2c5999dec46041",
+    "docs/assets/onest-symbols-wght-normal-DxQzqQfC.woff2": "2ec2d45d2ec0770e2c18cba2dba5126cf2dcff181d23ad192e9fffeb4af4b0b6",
+    "docs/assets/onest-vietnamese-wght-normal-BBxOatbv.woff2": "d852d4d094a3a46d701d16245deb7ca83b16b5bd69e20aa0aba089392ad69474",
+    "docs/assets/preferences-CHq1VbOY.js": "3a2436e7d6293da91c41c9d578b78432bc03ff496f8b86530279c90104d2c166",
+    "docs/assets/rowline-sample-DEtWqDir.js": "8a1d015e2ef25637edd5317aa4aaaa113deb857e39d084ce160468232912271e",
+    "docs/assets/scene-B37fPkwm.js": "89451698aa1b2948dc421faaa7ac424aa67db4622431d6f5242b8ea1a9087035",
+    "docs/assets/scene-controls-CcVcg95J.js": "cd08b3074c58db152c856c735dcf5574148f96deb515c2a5f0e83b3584c0289a",
+    "docs/room/ui.js": "ff4c40283d491390db4f1932608dea4dcfdaf5839bc37ac2eadf683860c33334",
+    "docs/room/style.css": "af75f4cc45a7c8d66f73f74f58f22e09bdf54f2bf92fefa6ff1684f16dca6026",
+    "docs/room/profile-data.js": "9ee884666d957776c0e12e58a662ab815accfc35b2905956b27338dd3c38e8b1",
+    "docs/room/main.js": "f2a9d46c3ce7e8aede591ff28a094d893fcf33cd5be323a6ae2637bcad6d56ae",
+    "docs/room/world.js": "4df199f5c7704ce2282cd9a999943ccc8a1f6f0cca024dc1675f0ba303c415f8"
+  },
+  "at": "2026-10-16T17:25:02.020Z",
+  "jobs": [
+    {
+      "name": "components",
+      "script": "qa-certificates-reading.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "release"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 59577,
+      "scriptSha": "4c752a8eca207d9583a38841d100f0b40505c78a08640a3cf52f31107e8493bd",
+      "log": "components-1.log"
+    },
+    {
+      "name": "edges",
+      "script": "qa-document-strip-edges.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "release"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 17783,
+      "scriptSha": "678ef3bb3b5224adbecd71df908dc1f061cbb2b6b7cca20464263789049d718a",
+      "log": "edges-1.log"
+    },
+    {
+      "name": "pages",
+      "script": "qa-pages.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "cert-reading"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 164700,
+      "scriptSha": "eb273ddba6c1f8374f5ebf9b86d2f11fd80dd9adb9dcd49110b15673e6a13291",
+      "log": "pages-1.log"
+    },
+    {
+      "name": "pages-edges",
+      "script": "qa-pages-edges.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "cert-reading"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 9984,
+      "scriptSha": "dde01fc63c7af0d72d0e602472c0f5dedaa92c667a90d401bea659df2751b86c",
+      "log": "pages-edges-1.log"
+    },
+    {
+      "name": "pages-faults",
+      "script": "qa-pages.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "cert-reading-faults",
+        "--edges-only"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 3444,
+      "scriptSha": "eb273ddba6c1f8374f5ebf9b86d2f11fd80dd9adb9dcd49110b15673e6a13291",
+      "log": "pages-faults-1.log"
+    },
+    {
+      "name": "showcase",
+      "script": "qa-project-rail-focus.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "cert-reading"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 82866,
+      "scriptSha": "6d39b206ed8199272cd96886895504860b37c52f11cea3162bb10f0dfc063e67",
+      "log": "showcase-1.log"
+    },
+    {
+      "name": "content",
+      "script": "qa-portfolio-content-matrix.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "cert-reading"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 41472,
+      "scriptSha": "d750071058e9cf101a60a3d1912999f8f196d38ff5aaa879833daf5a35ec11c1",
+      "log": "content-1.log"
+    },
+    {
+      "name": "native",
+      "script": "qa-room-object-roles.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "cert-reading"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 186701,
+      "scriptSha": "0d32caf1e9b54c8349e3766a15752882637438b415f5c4a47c2ec3b37beb2835",
+      "log": "native-1.log"
+    },
+    {
+      "name": "cv",
+      "script": "qa-room-cv-actions.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "cert-reading"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 55135,
+      "scriptSha": "f8ef3820d94b7ce193602d8dae8fa9c2b65fb5309d21e3483465512ddedb7122",
+      "log": "cv-1.log"
+    },
+    {
+      "name": "modal",
+      "script": "qa-room-modal-camera.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "cert-reading"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 62237,
+      "scriptSha": "99115e59476ecbd127098f111c222f8de2dbc223a38bd182271df5e1e787b04d",
+      "log": "modal-1.log"
+    },
+    {
+      "name": "entry",
+      "script": "qa-room-entry-modal.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "cert-reading"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 15164,
+      "scriptSha": "91a6328c50572c4849ee9245deafca33ceeee0efe2f46bf862d8921d3578fc4f",
+      "log": "entry-1.log"
+    },
+    {
+      "name": "asset-history",
+      "script": "qa-asset-history.mjs",
+      "args": [],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 3999,
+      "scriptSha": "9accebb033da8106b8926ba28bb0e1a0ab56fa8ec6ea226b6ef89946d44cad90",
+      "log": "asset-history-1.log"
+    }
+  ],
+  "passed": true
+}
