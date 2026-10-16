@@ -1,0 +1,617 @@
+{
+  "sha": "1037b89b2833b511fded5e95076c9b683d76344b",
+  "root": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "at": "2026-10-16T15:21:39.600Z",
+  "expected": {
+    "index.html": "76999e40ff1d19c059d5f9023cb51327259655863bd6e47df3bdc9140756946b",
+    "projects/index.html": "1b42d0ca1ebb6a024dfd613c0eee90aafe2cb879ffbda4738ad2579ac6bfc648",
+    "room/index.html": "e89fd29119cfb9f30124b52cfc61adba4806d522e4bb7ada0e2f132857992e45",
+    "room/main.js": "f2a9d46c3ce7e8aede591ff28a094d893fcf33cd5be323a6ae2637bcad6d56ae",
+    "room/world.js": "4df199f5c7704ce2282cd9a999943ccc8a1f6f0cca024dc1675f0ba303c415f8",
+    "room/ui.js": "904d2fd63b515bfc993c2df648cf6da831122b91e8f8ee0a455dee426ecc559f",
+    "room/boot.js": "41d4ff057d3185d88e7016349cbc4a72b44e33d67a22237375b77f2497ce17f5",
+    "room/style.css": "9add8ea122189bf27dc12befcabc051adf94f0e153dd0b341308dd27eaef433f",
+    "room/document-actions.js": "5438d1db0111f6c36fb102ef4f53f23b9576f206f7ce5d0bdaed7a322090bde9",
+    "room/documents-data.js": "88788ad6dffd000b68e81978ce51fab8cb1e9a667ec6680c0d30c90715fee73e",
+    "room/profile-data.js": "539300192cd920cffe89040ba57c3a93c20b2d93203dcd00922a1ab1cf6b5dc3",
+    "room/collection-viewer.js": "13ae69e049a58bac022b323b6fa4e9702d7d620b08f58620d422ffc24c00deec",
+    "room/cabinet-scene.js": "faba0347aa4e622fd6b682802dfc1425ce829bcf01501856ec7b272918e2d991",
+    "room/cabinet-doors.js": "338ee6f47d40777e978aab9aae6a6dc38ba0aca24bbe72921abc89b3580eefb6",
+    "room/stream-manifest.js": "45d3b3d77fcaea8d4ba0fb05b66d0143ba6f8fdac39b752fdbc03e13c5ca8a37",
+    "files/education/hackalem-2026-public.png": "f0152ea62277efed03af52d85a72bcffc3f21d85c7d2a9ccbf9594d223e0a9aa",
+    "files/education/hackalem-2026-preview.png": "fe324b5c8155e18f83503814317d32a5657b3113069f7fdb71864233549f0a4c",
+    "files/education/hackalem-2026-provenance.json": "c37d8c8dfbb9393782baa5f2e1f613f15ad81c139a3de6f8d88fbe0b04cccc9c",
+    "files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf": "dee574b43b52d0ff4fa891d889826038117c8275f255e2f5efd597944b502d75",
+    "asset-history.json": "bb55824ba1bbcd6327fb384dc64fa77c67f907f177ec2e069e9a68de69bfae7d",
+    "assets/main-BNlxNoS0.js": "9112eb265d650fccc6f74ab6630916e0e046bf81736fcdf38452a2e7b1600d84",
+    "assets/main-BrEEzRz3.css": "b00d10c9fec750e091b957334dcacf7dfa1dc68dec27bdb9a180c4f64eeadd55",
+    "assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2": "268f03691b3d06e57abcf20f9277e314ea8784298983aab5b40c1b91965027e1",
+    "assets/onest-cyrillic-wght-normal-DayYxulF.woff2": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27",
+    "assets/onest-latin-ext-wght-normal-QAhDxQuo.woff2": "14e7d3079b75860e2ab50efc6c318c398fdb46ede9b56e625f12ae70a3c5d9a4",
+    "assets/onest-latin-wght-normal-Dun_Rd-l.woff2": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828",
+    "assets/onest-math-wght-normal-Bl4ZGkZl.woff2": "c74952a8c0c8c558c4f879f83773cf529d11350609f7073f5b2c5999dec46041",
+    "assets/onest-symbols-wght-normal-DxQzqQfC.woff2": "2ec2d45d2ec0770e2c18cba2dba5126cf2dcff181d23ad192e9fffeb4af4b0b6",
+    "assets/onest-vietnamese-wght-normal-BBxOatbv.woff2": "d852d4d094a3a46d701d16245deb7ca83b16b5bd69e20aa0aba089392ad69474",
+    "assets/preferences-CEm29xHT.js": "8a844904ef87dc1db3703d63f5aafc35cdb461e74dc35024e8ffe9d63fba4eac",
+    "assets/rowline-sample-Dt88s_-X.js": "6b68c868d89c1686513fd001b182dd203ac2ee04701bd90e35880438ea583747",
+    "assets/scene-CAd1hERU.js": "ca49717a9d3d0b334ea0e85a24c93452b3146f5b2dfebbe72478aad74efb1243",
+    "assets/scene-controls-BFCKUI_M.js": "5d5a1a1a9fbf1793ea7bf160653444ae083b2f4b2894047b331192d69b8672e8"
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "at": "2026-10-16T15:21:42.032Z",
+      "apiStatus": 200,
+      "run": {
+        "id": 38923225590,
+        "sha": "1037b89b2833b511fded5e95076c9b683d76344b",
+        "status": "in_progress",
+        "conclusion": null,
+        "url": "https://github.com/MOYISEY/bakhtiyar-zikirin/actions/runs/38923225590"
+      }
+    },
+    {
+      "attempt": 2,
+      "at": "2026-10-16T15:22:12.392Z",
+      "apiStatus": 200,
+      "run": {
+        "id": 38923225590,
+        "sha": "1037b89b2833b511fded5e95076c9b683d76344b",
+        "status": "in_progress",
+        "conclusion": null,
+        "url": "https://github.com/MOYISEY/bakhtiyar-zikirin/actions/runs/38923225590"
+      }
+    },
+    {
+      "attempt": 3,
+      "at": "2026-10-16T15:22:42.748Z",
+      "apiStatus": 200,
+      "run": {
+        "id": 38923225590,
+        "sha": "1037b89b2833b511fded5e95076c9b683d76344b",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/MOYISEY/bakhtiyar-zikirin/actions/runs/38923225590"
+      }
+    }
+  ],
+  "passed": true,
+  "run": {
+    "id": 38923225590,
+    "sha": "1037b89b2833b511fded5e95076c9b683d76344b",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/MOYISEY/bakhtiyar-zikirin/actions/runs/38923225590"
+  },
+  "files": [
+    {
+      "name": "index.html",
+      "suffix": "",
+      "status": 200,
+      "expected": "76999e40ff1d19c059d5f9023cb51327259655863bd6e47df3bdc9140756946b",
+      "actual": "76999e40ff1d19c059d5f9023cb51327259655863bd6e47df3bdc9140756946b",
+      "matches": true
+    },
+    {
+      "name": "index.html",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "76999e40ff1d19c059d5f9023cb51327259655863bd6e47df3bdc9140756946b",
+      "actual": "76999e40ff1d19c059d5f9023cb51327259655863bd6e47df3bdc9140756946b",
+      "matches": true
+    },
+    {
+      "name": "projects/index.html",
+      "suffix": "",
+      "status": 200,
+      "expected": "1b42d0ca1ebb6a024dfd613c0eee90aafe2cb879ffbda4738ad2579ac6bfc648",
+      "actual": "1b42d0ca1ebb6a024dfd613c0eee90aafe2cb879ffbda4738ad2579ac6bfc648",
+      "matches": true
+    },
+    {
+      "name": "projects/index.html",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "1b42d0ca1ebb6a024dfd613c0eee90aafe2cb879ffbda4738ad2579ac6bfc648",
+      "actual": "1b42d0ca1ebb6a024dfd613c0eee90aafe2cb879ffbda4738ad2579ac6bfc648",
+      "matches": true
+    },
+    {
+      "name": "room/index.html",
+      "suffix": "",
+      "status": 200,
+      "expected": "e89fd29119cfb9f30124b52cfc61adba4806d522e4bb7ada0e2f132857992e45",
+      "actual": "e89fd29119cfb9f30124b52cfc61adba4806d522e4bb7ada0e2f132857992e45",
+      "matches": true
+    },
+    {
+      "name": "room/index.html",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "e89fd29119cfb9f30124b52cfc61adba4806d522e4bb7ada0e2f132857992e45",
+      "actual": "e89fd29119cfb9f30124b52cfc61adba4806d522e4bb7ada0e2f132857992e45",
+      "matches": true
+    },
+    {
+      "name": "room/main.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "f2a9d46c3ce7e8aede591ff28a094d893fcf33cd5be323a6ae2637bcad6d56ae",
+      "actual": "f2a9d46c3ce7e8aede591ff28a094d893fcf33cd5be323a6ae2637bcad6d56ae",
+      "matches": true
+    },
+    {
+      "name": "room/main.js",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "f2a9d46c3ce7e8aede591ff28a094d893fcf33cd5be323a6ae2637bcad6d56ae",
+      "actual": "f2a9d46c3ce7e8aede591ff28a094d893fcf33cd5be323a6ae2637bcad6d56ae",
+      "matches": true
+    },
+    {
+      "name": "room/world.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "4df199f5c7704ce2282cd9a999943ccc8a1f6f0cca024dc1675f0ba303c415f8",
+      "actual": "4df199f5c7704ce2282cd9a999943ccc8a1f6f0cca024dc1675f0ba303c415f8",
+      "matches": true
+    },
+    {
+      "name": "room/world.js",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "4df199f5c7704ce2282cd9a999943ccc8a1f6f0cca024dc1675f0ba303c415f8",
+      "actual": "4df199f5c7704ce2282cd9a999943ccc8a1f6f0cca024dc1675f0ba303c415f8",
+      "matches": true
+    },
+    {
+      "name": "room/ui.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "904d2fd63b515bfc993c2df648cf6da831122b91e8f8ee0a455dee426ecc559f",
+      "actual": "904d2fd63b515bfc993c2df648cf6da831122b91e8f8ee0a455dee426ecc559f",
+      "matches": true
+    },
+    {
+      "name": "room/ui.js",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "904d2fd63b515bfc993c2df648cf6da831122b91e8f8ee0a455dee426ecc559f",
+      "actual": "904d2fd63b515bfc993c2df648cf6da831122b91e8f8ee0a455dee426ecc559f",
+      "matches": true
+    },
+    {
+      "name": "room/boot.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "41d4ff057d3185d88e7016349cbc4a72b44e33d67a22237375b77f2497ce17f5",
+      "actual": "41d4ff057d3185d88e7016349cbc4a72b44e33d67a22237375b77f2497ce17f5",
+      "matches": true
+    },
+    {
+      "name": "room/boot.js",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "41d4ff057d3185d88e7016349cbc4a72b44e33d67a22237375b77f2497ce17f5",
+      "actual": "41d4ff057d3185d88e7016349cbc4a72b44e33d67a22237375b77f2497ce17f5",
+      "matches": true
+    },
+    {
+      "name": "room/style.css",
+      "suffix": "",
+      "status": 200,
+      "expected": "9add8ea122189bf27dc12befcabc051adf94f0e153dd0b341308dd27eaef433f",
+      "actual": "9add8ea122189bf27dc12befcabc051adf94f0e153dd0b341308dd27eaef433f",
+      "matches": true
+    },
+    {
+      "name": "room/style.css",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "9add8ea122189bf27dc12befcabc051adf94f0e153dd0b341308dd27eaef433f",
+      "actual": "9add8ea122189bf27dc12befcabc051adf94f0e153dd0b341308dd27eaef433f",
+      "matches": true
+    },
+    {
+      "name": "room/document-actions.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "5438d1db0111f6c36fb102ef4f53f23b9576f206f7ce5d0bdaed7a322090bde9",
+      "actual": "5438d1db0111f6c36fb102ef4f53f23b9576f206f7ce5d0bdaed7a322090bde9",
+      "matches": true
+    },
+    {
+      "name": "room/document-actions.js",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "5438d1db0111f6c36fb102ef4f53f23b9576f206f7ce5d0bdaed7a322090bde9",
+      "actual": "5438d1db0111f6c36fb102ef4f53f23b9576f206f7ce5d0bdaed7a322090bde9",
+      "matches": true
+    },
+    {
+      "name": "room/documents-data.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "88788ad6dffd000b68e81978ce51fab8cb1e9a667ec6680c0d30c90715fee73e",
+      "actual": "88788ad6dffd000b68e81978ce51fab8cb1e9a667ec6680c0d30c90715fee73e",
+      "matches": true
+    },
+    {
+      "name": "room/documents-data.js",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "88788ad6dffd000b68e81978ce51fab8cb1e9a667ec6680c0d30c90715fee73e",
+      "actual": "88788ad6dffd000b68e81978ce51fab8cb1e9a667ec6680c0d30c90715fee73e",
+      "matches": true
+    },
+    {
+      "name": "room/profile-data.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "539300192cd920cffe89040ba57c3a93c20b2d93203dcd00922a1ab1cf6b5dc3",
+      "actual": "539300192cd920cffe89040ba57c3a93c20b2d93203dcd00922a1ab1cf6b5dc3",
+      "matches": true
+    },
+    {
+      "name": "room/profile-data.js",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "539300192cd920cffe89040ba57c3a93c20b2d93203dcd00922a1ab1cf6b5dc3",
+      "actual": "539300192cd920cffe89040ba57c3a93c20b2d93203dcd00922a1ab1cf6b5dc3",
+      "matches": true
+    },
+    {
+      "name": "room/collection-viewer.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "13ae69e049a58bac022b323b6fa4e9702d7d620b08f58620d422ffc24c00deec",
+      "actual": "13ae69e049a58bac022b323b6fa4e9702d7d620b08f58620d422ffc24c00deec",
+      "matches": true
+    },
+    {
+      "name": "room/collection-viewer.js",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "13ae69e049a58bac022b323b6fa4e9702d7d620b08f58620d422ffc24c00deec",
+      "actual": "13ae69e049a58bac022b323b6fa4e9702d7d620b08f58620d422ffc24c00deec",
+      "matches": true
+    },
+    {
+      "name": "room/cabinet-scene.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "faba0347aa4e622fd6b682802dfc1425ce829bcf01501856ec7b272918e2d991",
+      "actual": "faba0347aa4e622fd6b682802dfc1425ce829bcf01501856ec7b272918e2d991",
+      "matches": true
+    },
+    {
+      "name": "room/cabinet-scene.js",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "faba0347aa4e622fd6b682802dfc1425ce829bcf01501856ec7b272918e2d991",
+      "actual": "faba0347aa4e622fd6b682802dfc1425ce829bcf01501856ec7b272918e2d991",
+      "matches": true
+    },
+    {
+      "name": "room/cabinet-doors.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "338ee6f47d40777e978aab9aae6a6dc38ba0aca24bbe72921abc89b3580eefb6",
+      "actual": "338ee6f47d40777e978aab9aae6a6dc38ba0aca24bbe72921abc89b3580eefb6",
+      "matches": true
+    },
+    {
+      "name": "room/cabinet-doors.js",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "338ee6f47d40777e978aab9aae6a6dc38ba0aca24bbe72921abc89b3580eefb6",
+      "actual": "338ee6f47d40777e978aab9aae6a6dc38ba0aca24bbe72921abc89b3580eefb6",
+      "matches": true
+    },
+    {
+      "name": "room/stream-manifest.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "45d3b3d77fcaea8d4ba0fb05b66d0143ba6f8fdac39b752fdbc03e13c5ca8a37",
+      "actual": "45d3b3d77fcaea8d4ba0fb05b66d0143ba6f8fdac39b752fdbc03e13c5ca8a37",
+      "matches": true
+    },
+    {
+      "name": "room/stream-manifest.js",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "45d3b3d77fcaea8d4ba0fb05b66d0143ba6f8fdac39b752fdbc03e13c5ca8a37",
+      "actual": "45d3b3d77fcaea8d4ba0fb05b66d0143ba6f8fdac39b752fdbc03e13c5ca8a37",
+      "matches": true
+    },
+    {
+      "name": "files/education/hackalem-2026-public.png",
+      "suffix": "",
+      "status": 200,
+      "expected": "f0152ea62277efed03af52d85a72bcffc3f21d85c7d2a9ccbf9594d223e0a9aa",
+      "actual": "f0152ea62277efed03af52d85a72bcffc3f21d85c7d2a9ccbf9594d223e0a9aa",
+      "matches": true
+    },
+    {
+      "name": "files/education/hackalem-2026-public.png",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "f0152ea62277efed03af52d85a72bcffc3f21d85c7d2a9ccbf9594d223e0a9aa",
+      "actual": "f0152ea62277efed03af52d85a72bcffc3f21d85c7d2a9ccbf9594d223e0a9aa",
+      "matches": true
+    },
+    {
+      "name": "files/education/hackalem-2026-preview.png",
+      "suffix": "",
+      "status": 200,
+      "expected": "fe324b5c8155e18f83503814317d32a5657b3113069f7fdb71864233549f0a4c",
+      "actual": "fe324b5c8155e18f83503814317d32a5657b3113069f7fdb71864233549f0a4c",
+      "matches": true
+    },
+    {
+      "name": "files/education/hackalem-2026-preview.png",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "fe324b5c8155e18f83503814317d32a5657b3113069f7fdb71864233549f0a4c",
+      "actual": "fe324b5c8155e18f83503814317d32a5657b3113069f7fdb71864233549f0a4c",
+      "matches": true
+    },
+    {
+      "name": "files/education/hackalem-2026-provenance.json",
+      "suffix": "",
+      "status": 200,
+      "expected": "c37d8c8dfbb9393782baa5f2e1f613f15ad81c139a3de6f8d88fbe0b04cccc9c",
+      "actual": "c37d8c8dfbb9393782baa5f2e1f613f15ad81c139a3de6f8d88fbe0b04cccc9c",
+      "matches": true
+    },
+    {
+      "name": "files/education/hackalem-2026-provenance.json",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "c37d8c8dfbb9393782baa5f2e1f613f15ad81c139a3de6f8d88fbe0b04cccc9c",
+      "actual": "c37d8c8dfbb9393782baa5f2e1f613f15ad81c139a3de6f8d88fbe0b04cccc9c",
+      "matches": true
+    },
+    {
+      "name": "files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf",
+      "suffix": "",
+      "status": 200,
+      "expected": "dee574b43b52d0ff4fa891d889826038117c8275f255e2f5efd597944b502d75",
+      "actual": "dee574b43b52d0ff4fa891d889826038117c8275f255e2f5efd597944b502d75",
+      "matches": true
+    },
+    {
+      "name": "files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "dee574b43b52d0ff4fa891d889826038117c8275f255e2f5efd597944b502d75",
+      "actual": "dee574b43b52d0ff4fa891d889826038117c8275f255e2f5efd597944b502d75",
+      "matches": true
+    },
+    {
+      "name": "asset-history.json",
+      "suffix": "",
+      "status": 200,
+      "expected": "bb55824ba1bbcd6327fb384dc64fa77c67f907f177ec2e069e9a68de69bfae7d",
+      "actual": "bb55824ba1bbcd6327fb384dc64fa77c67f907f177ec2e069e9a68de69bfae7d",
+      "matches": true
+    },
+    {
+      "name": "asset-history.json",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "bb55824ba1bbcd6327fb384dc64fa77c67f907f177ec2e069e9a68de69bfae7d",
+      "actual": "bb55824ba1bbcd6327fb384dc64fa77c67f907f177ec2e069e9a68de69bfae7d",
+      "matches": true
+    },
+    {
+      "name": "assets/main-BNlxNoS0.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "9112eb265d650fccc6f74ab6630916e0e046bf81736fcdf38452a2e7b1600d84",
+      "actual": "9112eb265d650fccc6f74ab6630916e0e046bf81736fcdf38452a2e7b1600d84",
+      "matches": true
+    },
+    {
+      "name": "assets/main-BNlxNoS0.js",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "9112eb265d650fccc6f74ab6630916e0e046bf81736fcdf38452a2e7b1600d84",
+      "actual": "9112eb265d650fccc6f74ab6630916e0e046bf81736fcdf38452a2e7b1600d84",
+      "matches": true
+    },
+    {
+      "name": "assets/main-BrEEzRz3.css",
+      "suffix": "",
+      "status": 200,
+      "expected": "b00d10c9fec750e091b957334dcacf7dfa1dc68dec27bdb9a180c4f64eeadd55",
+      "actual": "b00d10c9fec750e091b957334dcacf7dfa1dc68dec27bdb9a180c4f64eeadd55",
+      "matches": true
+    },
+    {
+      "name": "assets/main-BrEEzRz3.css",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "b00d10c9fec750e091b957334dcacf7dfa1dc68dec27bdb9a180c4f64eeadd55",
+      "actual": "b00d10c9fec750e091b957334dcacf7dfa1dc68dec27bdb9a180c4f64eeadd55",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2",
+      "suffix": "",
+      "status": 200,
+      "expected": "268f03691b3d06e57abcf20f9277e314ea8784298983aab5b40c1b91965027e1",
+      "actual": "268f03691b3d06e57abcf20f9277e314ea8784298983aab5b40c1b91965027e1",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "268f03691b3d06e57abcf20f9277e314ea8784298983aab5b40c1b91965027e1",
+      "actual": "268f03691b3d06e57abcf20f9277e314ea8784298983aab5b40c1b91965027e1",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+      "suffix": "",
+      "status": 200,
+      "expected": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27",
+      "actual": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27",
+      "actual": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-latin-ext-wght-normal-QAhDxQuo.woff2",
+      "suffix": "",
+      "status": 200,
+      "expected": "14e7d3079b75860e2ab50efc6c318c398fdb46ede9b56e625f12ae70a3c5d9a4",
+      "actual": "14e7d3079b75860e2ab50efc6c318c398fdb46ede9b56e625f12ae70a3c5d9a4",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-latin-ext-wght-normal-QAhDxQuo.woff2",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "14e7d3079b75860e2ab50efc6c318c398fdb46ede9b56e625f12ae70a3c5d9a4",
+      "actual": "14e7d3079b75860e2ab50efc6c318c398fdb46ede9b56e625f12ae70a3c5d9a4",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+      "suffix": "",
+      "status": 200,
+      "expected": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828",
+      "actual": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828",
+      "actual": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-math-wght-normal-Bl4ZGkZl.woff2",
+      "suffix": "",
+      "status": 200,
+      "expected": "c74952a8c0c8c558c4f879f83773cf529d11350609f7073f5b2c5999dec46041",
+      "actual": "c74952a8c0c8c558c4f879f83773cf529d11350609f7073f5b2c5999dec46041",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-math-wght-normal-Bl4ZGkZl.woff2",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "c74952a8c0c8c558c4f879f83773cf529d11350609f7073f5b2c5999dec46041",
+      "actual": "c74952a8c0c8c558c4f879f83773cf529d11350609f7073f5b2c5999dec46041",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+      "suffix": "",
+      "status": 200,
+      "expected": "2ec2d45d2ec0770e2c18cba2dba5126cf2dcff181d23ad192e9fffeb4af4b0b6",
+      "actual": "2ec2d45d2ec0770e2c18cba2dba5126cf2dcff181d23ad192e9fffeb4af4b0b6",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "2ec2d45d2ec0770e2c18cba2dba5126cf2dcff181d23ad192e9fffeb4af4b0b6",
+      "actual": "2ec2d45d2ec0770e2c18cba2dba5126cf2dcff181d23ad192e9fffeb4af4b0b6",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-vietnamese-wght-normal-BBxOatbv.woff2",
+      "suffix": "",
+      "status": 200,
+      "expected": "d852d4d094a3a46d701d16245deb7ca83b16b5bd69e20aa0aba089392ad69474",
+      "actual": "d852d4d094a3a46d701d16245deb7ca83b16b5bd69e20aa0aba089392ad69474",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-vietnamese-wght-normal-BBxOatbv.woff2",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "d852d4d094a3a46d701d16245deb7ca83b16b5bd69e20aa0aba089392ad69474",
+      "actual": "d852d4d094a3a46d701d16245deb7ca83b16b5bd69e20aa0aba089392ad69474",
+      "matches": true
+    },
+    {
+      "name": "assets/preferences-CEm29xHT.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "8a844904ef87dc1db3703d63f5aafc35cdb461e74dc35024e8ffe9d63fba4eac",
+      "actual": "8a844904ef87dc1db3703d63f5aafc35cdb461e74dc35024e8ffe9d63fba4eac",
+      "matches": true
+    },
+    {
+      "name": "assets/preferences-CEm29xHT.js",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "8a844904ef87dc1db3703d63f5aafc35cdb461e74dc35024e8ffe9d63fba4eac",
+      "actual": "8a844904ef87dc1db3703d63f5aafc35cdb461e74dc35024e8ffe9d63fba4eac",
+      "matches": true
+    },
+    {
+      "name": "assets/rowline-sample-Dt88s_-X.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "6b68c868d89c1686513fd001b182dd203ac2ee04701bd90e35880438ea583747",
+      "actual": "6b68c868d89c1686513fd001b182dd203ac2ee04701bd90e35880438ea583747",
+      "matches": true
+    },
+    {
+      "name": "assets/rowline-sample-Dt88s_-X.js",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "6b68c868d89c1686513fd001b182dd203ac2ee04701bd90e35880438ea583747",
+      "actual": "6b68c868d89c1686513fd001b182dd203ac2ee04701bd90e35880438ea583747",
+      "matches": true
+    },
+    {
+      "name": "assets/scene-CAd1hERU.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "ca49717a9d3d0b334ea0e85a24c93452b3146f5b2dfebbe72478aad74efb1243",
+      "actual": "ca49717a9d3d0b334ea0e85a24c93452b3146f5b2dfebbe72478aad74efb1243",
+      "matches": true
+    },
+    {
+      "name": "assets/scene-CAd1hERU.js",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "ca49717a9d3d0b334ea0e85a24c93452b3146f5b2dfebbe72478aad74efb1243",
+      "actual": "ca49717a9d3d0b334ea0e85a24c93452b3146f5b2dfebbe72478aad74efb1243",
+      "matches": true
+    },
+    {
+      "name": "assets/scene-controls-BFCKUI_M.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "5d5a1a1a9fbf1793ea7bf160653444ae083b2f4b2894047b331192d69b8672e8",
+      "actual": "5d5a1a1a9fbf1793ea7bf160653444ae083b2f4b2894047b331192d69b8672e8",
+      "matches": true
+    },
+    {
+      "name": "assets/scene-controls-BFCKUI_M.js",
+      "suffix": "?release=1037b89b2833b511fded5e95076c9b683d76344b",
+      "status": 200,
+      "expected": "5d5a1a1a9fbf1793ea7bf160653444ae083b2f4b2894047b331192d69b8672e8",
+      "actual": "5d5a1a1a9fbf1793ea7bf160653444ae083b2f4b2894047b331192d69b8672e8",
+      "matches": true
+    }
+  ],
+  "remote": "1037b89b2833b511fded5e95076c9b683d76344b"
+}

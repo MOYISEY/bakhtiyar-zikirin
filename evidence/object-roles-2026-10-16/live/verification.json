@@ -1,0 +1,58 @@
+{
+  "sha": "1037b89b2833b511fded5e95076c9b683d76344b",
+  "base": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "at": "2026-10-16T15:23:35.953Z",
+  "passed": true,
+  "pathNormalization": "Compact job receipt omits local executor paths; original remains in qa-private.",
+  "jobs": [
+    {
+      "name": "native",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 256784,
+      "log": "native-1.log"
+    },
+    {
+      "name": "cv",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 99297,
+      "log": "cv-1.log"
+    },
+    {
+      "name": "entry",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 25637,
+      "log": "entry-1.log"
+    },
+    {
+      "name": "modal",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 77158,
+      "log": "modal-1.log"
+    },
+    {
+      "name": "asset-audit",
+      "attempt": 1,
+      "exit": 1,
+      "durationMs": 21953,
+      "log": "asset-audit-1.log"
+    },
+    {
+      "name": "asset-audit",
+      "attempt": 2,
+      "exit": 0,
+      "durationMs": 18472,
+      "log": "asset-audit-2.log"
+    },
+    {
+      "name": "cold",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 47333,
+      "log": "cold-1.log"
+    }
+  ]
+}

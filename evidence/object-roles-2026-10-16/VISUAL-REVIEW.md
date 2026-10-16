@@ -25,3 +25,7 @@ Baseline d53 → финальный candidate, одинаковые buffer/camer
 - [Обычные реальные документы KK touch](content-matrix/touch-kk-ordinary-documents.png). Остальные языки/кадры находятся рядом; overflow проверен автоматикой.
 
 Полные автоматические результаты, ограничения и точные счётчики — [QA.md](QA.md). Визуальные выводы: рамки сохраняют mitred rails и пропорции настоящих документов, мебель/пол/свет без новых видимых пересечений; принятый большой daylight shadow сохранён. Cabinet/detail и узкий touch частично кадрируют боковые документы — нативные действия открывают их целиком; это не потеря или обрезка исходного изображения. Факты опыта и оригинальные публичные документы не менялись.
+
+## Live
+
+[Обычный desktop](live/desktop-ordinary.png), [обычный touch](live/mobile-ordinary.png), [окно desktop](live/desktop-window.png), [окно touch](live/mobile-window.png), [шкаф desktop](live/desktop-cabinet.png), [документы touch](live/touch-wall-documents.png). Реальные live-PNG просмотрены, изменения изображения не применялись.

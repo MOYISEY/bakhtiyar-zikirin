@@ -1,0 +1,26 @@
+{
+  "functionalCommit": "1037b89b2833b511fded5e95076c9b683d76344b",
+  "productionTrees": {
+    "docs": "a7052f03adc125f1cd12c43cce45b4cd9b7835bc",
+    "public": "22fa9e211f89ddd55eb04ba977c27d34dbe4ee23"
+  },
+  "checks": {
+    "native": 932,
+    "cv": 72,
+    "entry": 8,
+    "modal": 14
+  },
+  "pages": {
+    "id": 38923225590,
+    "sha": "1037b89b2833b511fded5e95076c9b683d76344b",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/MOYISEY/bakhtiyar-zikirin/actions/runs/38923225590"
+  },
+  "livePassed": true,
+  "coldRuns": 4,
+  "coldStrictPassed": true,
+  "modelHashCases": 2,
+  "modelsPerCase": 14,
+  "metadataCorrection": "Final QA-only commit preserves CRLF in two source snapshots so GitHub blob SHA match the manifest. It also fixes the QA audit expected case count: one live target x two profiles=2, while before/after x two profiles=4. First false count failure retained; repeated only corrected audit. docs/public trees remain identical to the live-tested functional commit."
+}
