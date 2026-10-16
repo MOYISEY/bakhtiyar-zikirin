@@ -1,0 +1,15 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "checks": [],
+  "cases": [
+    {
+      "motion": "no-preference",
+      "lang": "ru",
+      "id": "cube",
+      "expected": "Собрать кубик",
+      "text": "Потяни вниз · ещё раз — открыть",
+      "open": false
+    }
+  ],
+  "passed": false
+}

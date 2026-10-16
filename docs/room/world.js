@@ -2,7 +2,6 @@ import {refinedAccents,ACCENT_FILES} from './room-accents.js';
 import {setFigureTemplates} from './collection-models.js';
 import * as T from 'three';
 import {DOCUMENTS} from './documents-data.js';
-const certificateDocuments=DOCUMENTS.filter(d=>d.kind==='certificate');
 import {addGalleryFrame,addCorridorDetails,batchStaticDetails} from './joinery-details.js';
 import {installCabinet} from './cabinet-scene.js';
 import {architecturalMaterial} from './architecture-materials.js';
@@ -27,7 +26,7 @@ export async function createWorld(renderer,camera){
  const plaster=new T.MeshStandardMaterial({map:plasterMap,color:'#f3eee4',roughness:.92,normalScale:new T.Vector2(.25,.25)}),floor=new T.MeshStandardMaterial({map:floorMap,color:'#e3d8c5',roughness:.62,normalScale:new T.Vector2(.25,.25)}),oak=new T.MeshStandardMaterial({map:oakMap,color:'#ede4d5',roughness:.78,normalScale:new T.Vector2(.25,.25)});
  let project=textMap(['HELIO'],{bg:'#345148',color:'#eadcc3'}),chair=null,lamp=null,cabinet=null,sideTable=null,lightSurface=null,exterior=null;
  let previewTexture=null,previewId=null,previewSource='',previewUpdates=0,furniture=null,collection=null;
- const galleryMaps=[null,null],workbenchFallback=[];let recordingWorkbench=false;
+ const workbenchFallback=[];let recordingWorkbench=false;
  // Share the established room oak texture, preserving its photographic grain.
  function matchOak(root){root.traverse(o=>{if(!o.isMesh)return;const materials=Array.isArray(o.material)?o.material:[o.material];if(!materials.some(m=>m.name.replaceAll('_',' ').toLowerCase()==='desk oak edge'))return;realUV(o.geometry);const uv=o.geometry.attributes.uv;for(let i=0;i<uv.count;i++)uv.setXY(i,.35+uv.getX(i)*.16,.13+uv.getY(i)*.035);uv.needsUpdate=true;for(const m of materials)if(m.name.replaceAll('_',' ').toLowerCase()==='desk oak edge'){if(m.map!==oak.map)m.map?.dispose();m.map=oak.map;m.color.copy(oak.color);m.roughness=.64;m.needsUpdate=true}})}
 
@@ -181,7 +180,7 @@ export async function createWorld(renderer,camera){
  for(let row=0;row<4;row++)for(let col=0;col<13;col++)box(.035,.008,.035,cream,-.226+col*.044,.873,-1.922+row*.044,.003);
  box(.09,.027,.13,black,.57,.856,-1.82,.018);
  recordingWorkbench=false;
- box(.94,.36,.018,oak,-.1,2.03,-2.832,.005);const projectPlaque=localizedLabel(()=>[previewId?String(PROJECTS.findIndex(p=>p.id===previewId)+1).padStart(2,'0')+' / '+(previewId==='poslesvet'?L('Послесвет','Послесвет','POSLESVET'):PROJECTS.find(p=>p.id===previewId).title.toUpperCase()):'01 / HELIO',previewId?PROJECTS.find(p=>p.id===previewId).stack.slice(0,3).join(' · '):L('СВЕТ · ГОРОД · ВРЕМЯ','ЖАРЫҚ · ҚАЛА · УАҚЫТ','LIGHT · CITY · TIME')],.90,.32,-.1,2.03,-2.82,{w:1024,h:320,bg:'#345148',color:'#eadcc3',size:102});// The wall plaque is decorative; project actions belong to the monitor.
+ box(.94,.36,.018,oak,-.1,2.03,-2.832,.005);const projectPlaque=localizedLabel(()=>[L('БАХТИЯР','БАҚТИЯР','BAKHTIYAR'),'FRONTEND · '+L('АСТАНА','АСТАНА','ASTANA')],.90,.32,-.1,2.03,-2.82,{w:1024,h:320,bg:'#345148',color:'#eadcc3',size:102});// The wall plaque is decorative; project actions belong to the monitor.
  for(const x of [-.54,.34]){const screw=cylinder(.007,.018,brass,x,2.17,-2.81);screw.rotation.x=Math.PI/2;}
  // The notebook is the single developer/experience object; constrained cover hinge.
  const folder=new T.Group();folder.position.set(-.46,.843,-1.80);folder.rotation.y=.14;scene.add(folder);
@@ -191,11 +190,9 @@ export async function createWorld(renderer,camera){
  const cover=new T.Group();cover.position.set(-.16,.046,0);folder.add(cover);
  const lid=box(.32,.01,.26,leather,.16,0,0,.003,cover);lid.userData.action='profile';objects.push(lid);
  const coverText=localizedLabel(()=>[L('ЗАМЕТКИ','ЖАЗБАЛАР','FIELD NOTES'),L('БАХТИЯР ЗИКИРИН','БАҚТИЯР ЗИКИРИН','BAKHTIYAR ZIKIRIN')],.25,.19,.16,.007,0,{w:800,h:500,bg:'#526252',color:'#ddd2b6',size:68},cover);coverText.rotation.x=-Math.PI/2;coverText.userData.action='profile';objects.push(coverText);
- const certificates=new T.Group();certificates.name='Verified certificate display';certificates.position.set(2.53,.687,-.24);certificates.rotation.y=-Math.PI/2;certificates.userData.action='certificates';scene.add(certificates);
- box(.51,.018,.20,dark,0,.009,0,.008,certificates);box(.48,.35,.027,cream,0,.19,-.018,.008,certificates);
- const certificatePlanes=certificateDocuments.map((d,i)=>{const slot=(.44-(certificateDocuments.length-1)*.012)/certificateDocuments.length,ratio=d.fullWidth/d.fullHeight,w=Math.min(slot,.25*ratio),h=w/ratio,o=new T.Mesh(new T.PlaneGeometry(w,h),new T.MeshStandardMaterial({roughness:.86}));o.name=d.id+' certificate print';o.position.set((i-(certificateDocuments.length-1)/2)*(slot+.012),.20,0);o.receiveShadow=true;certificates.add(o);return o});objects.push(certificates);
  const gallery=[];
- for(let i=0;i<2;i++){const g=new T.Group();g.position.set(2.94,1.66,-1.02+i*1.25);g.rotation.y=-Math.PI/2;g.userData.action=i?'poslesvet':'keyform';scene.add(g);addGalleryFrame(g,{wood:oak,board:paper,mount:dark});const pic=new T.Mesh(new T.PlaneGeometry(.80,.50024),new T.MeshBasicMaterial({map:galleryMaps[i],toneMapped:false}));pic.name='Printed project image';pic.position.set(0,.039,-.0023);g.add(pic);localizedLabel(()=>[i?L('ПОСЛЕСВЕТ','ПОСЛЕСВЕТ','POSLESVET'):'KEYFORM'],.80,.068,0,-.253,-.0022,{w:1024,h:180,bg:'#b49165',color:'#1e362e',size:100},g);objects.push(g);gallery.push(g);}
+ for(const [i,d]of DOCUMENTS.entries()){const g=new T.Group();g.name='Verified wall document '+d.id;g.position.set(2.94,1.66,-1.45+i*1.08);g.rotation.y=-Math.PI/2;g.userData.action='wall-'+d.id;scene.add(g);addGalleryFrame(g,{wood:oak,board:paper,mount:dark});const ratio=d.fullWidth/d.fullHeight,w=Math.min(.80,.50*ratio),pic=new T.Mesh(new T.PlaneGeometry(w,w/ratio),new T.MeshBasicMaterial({toneMapped:false}));pic.name='Verified '+d.id+' print';pic.position.set(0,.039,-.0023);g.add(pic);localizedLabel(()=>[d.id==='diploma'?L('ДИПЛОМ','ДИПЛОМ','DIPLOMA'):d.id==='hackalem'?'HACKALEM · 2026':'iQADAM · 2025'],.80,.068,0,-.253,-.0022,{w:1024,h:180,bg:'#b49165',color:'#1e362e',size:100},g);objects.push(g);gallery.push(g);}
+ const documentTargets=Object.fromEntries(gallery.map(g=>[g.userData.action,g]));
  const lightPos=new T.Vector3(1.32,1.51,-1.94);
  const taskLight=new T.SpotLight('#ffcf8a',14,3.5,.68,.55,1.7);taskLight.position.copy(lightPos);taskLight.target.position.set(.84,.81,-1.64);taskLight.castShadow=true;taskLight.shadow.mapSize.set(1024,1024);taskLight.shadow.bias=-.0003;taskLight.shadow.normalBias=.01;scene.add(taskLight,taskLight.target);
  // Separate wired pull switch: porcelain body, brass mechanism, cord exit and bounded travel.
@@ -218,7 +215,7 @@ export async function createWorld(renderer,camera){
  const roomArea=new T.PointLight('#c6e0ee',9,7,2);roomArea.position.set(-2.9,1.8,-.5);roomArea.lookAt(0,1,-1);scene.add(roomArea);
  // Thin power cable behind monitor, fixed to the cable channel.
  cable([[.18,1.03,-2.23],[.19,.91,-2.31],[.3,.67,-2.35],[1.0,.67,-2.35]],.006,black);
- const highlightTargets={case:monitor,profile:folder,lamp:cord,certificates,keyform:gallery[0],poslesvet:gallery[1]};let highlighted=null,restores=[];
+ const highlightTargets={case:monitor,profile:folder,lamp:cord,...documentTargets};let highlighted=null,restores=[];
  function highlight(action){
   if(action===highlighted)return;
   for(const [o,m,temporary]of restores){o.material=m;temporary.dispose();}restores=[];highlighted=action;
@@ -233,15 +230,15 @@ export async function createWorld(renderer,camera){
  function installMaterial(original,maps){const old=original.map;for(const m of [original,...(materialCopies.get(original)||[])]){[m.map,m.normalMap,m.roughnessMap]=maps;m.needsUpdate=true}old?.dispose()}
  const fullMaterial=name=>Promise.all((name==='white_plaster_02'?['painted','nor_gl','rough']:['diff','nor_gl','rough']).map((part,i)=>stream.texture('room',`assets/${name}/${part}.webp`,i===0)));
  function loadRoom(){return stream.run('room',async()=>{
-  const [maps,screenMap,frames,assets,environmentModule,windowAsset,windowIndirect,corridorAsset,corridorIndirect,studioAssets,workbenchAsset,accentAssets]=await Promise.all([
-   Promise.all(['white_plaster_02','laminate_floor_02'].map(fullMaterial)),stream.texture('room','assets/helio.webp',true),Promise.all(['keyform','poslesvet'].map(n=>stream.texture('room','assets/'+n+'.webp',true))),
+  const [maps,screenMap,assets,environmentModule,windowAsset,windowIndirect,corridorAsset,corridorIndirect,studioAssets,workbenchAsset,accentAssets]=await Promise.all([
+   Promise.all(['white_plaster_02','laminate_floor_02'].map(fullMaterial)),stream.texture('room','assets/helio.webp',true),
    Promise.all([authoredFurniture?FURNITURE_FILES[0]:'assets/sheen_chair/model.gltf',authoredFurniture?FURNITURE_FILES[1]:'assets/desk_lamp_arm_01/model.gltf',refinedJoinery?JOINERY_FILES[0]:'assets/modern_wooden_cabinet/model.gltf'].map(url=>stream.model('room',url))),import('three/addons/environments/RoomEnvironment.js'),stream.model('room','assets/window/window.glb'),stream.texture('room','assets/window/indirect.webp',true),stream.model('room','assets/corridor/profiles.glb'),stream.texture('room','assets/corridor/indirect.webp',true),authoredFurniture?Promise.all(FURNITURE_FILES.slice(2).map(url=>stream.model('room',url))):null,refinedJoinery?stream.model('room',JOINERY_FILES[1]):null,refinedAccents?Promise.all(ACCENT_FILES.map(url=>stream.model('room',url))):null]);
   assembly.room=()=>{if(accentAssets){setFigureTemplates({robot:accentAssets[0].scene,orbit:accentAssets[1].scene});ceilingFallback.forEach(o=>o.visible=false);for(const z of [2.9,4.5,7.9,10.5]){const panel=accentAssets[2].scene.clone(true);panel.name='Authored ceiling diffuser '+z;panel.position.set(0,3,z);nativeMaterial(panel);scene.add(panel)}}windowRoot=installWindow(scene,windowAsset.scene,windowIndirect);windowFallback.forEach(o=>o.visible=false);
   const bayRoot=installWindow(scene,corridorAsset.scene,corridorIndirect);bayRoot.name='Authored_corridor_profiles';for(const number of ['01','02','03'])bayFallback.get(number).forEach(o=>o.visible=false);
 
   [plaster,floor].forEach((m,i)=>installMaterial(m,maps[i]));installMaterial(oak,maps[1]);oak.color.set('#e1c797');oak.roughness=.58;oak.normalScale.set(.1,.1);
   const environment=new environmentModule.RoomEnvironment(),pmrem=new T.PMREMGenerator(renderer);scene.environment=pmrem.fromScene(environment,.03).texture;scene.environmentIntensity=.24;environment.dispose();pmrem.dispose();
-  project.dispose();project=screenMap;screen.material.map=project;screen.material.needsUpdate=true;gallery.forEach((g,i)=>{const pic=g.children.find(o=>o.isMesh&&o.geometry.type==='PlaneGeometry');pic.material.map=frames[i];pic.material.needsUpdate=true});
+  project.dispose();project=screenMap;screen.material.map=project;screen.material.needsUpdate=true;
   const [chairAsset,lampAsset,cabinetAsset]=assets;
   cabinet=cabinetAsset.scene;if(refinedJoinery)matchOak(cabinet);cabinet.position.set(2.66,0,-.34);cabinet.rotation.y=-Math.PI/2;scene.add(cabinet);cabinet.updateMatrixWorld(true);cabinet.position.y-=new T.Box3().setFromObject(cabinet).min.y;
 
@@ -256,14 +253,13 @@ export async function createWorld(renderer,camera){
 
 
   if(workbenchAsset){for(const o of workbenchFallback){o.visible=false;o.geometry.dispose()}matchOak(workbenchAsset.scene);scene.add(workbenchAsset.scene);nativeMaterial(workbenchAsset.scene)}
-  certificates.position.y=new T.Box3().setFromObject(cabinet).max.y+.001;
   nativeMaterial(cabinet);collection=installCabinet(cabinet,objects);highlightTargets.cabinet=collection.anchor;for(const [id,item]of Object.entries(collection.items))highlightTargets[id]=item;record('cabinet',cabinet);contact(2.66,-.34,.62,2.5,.32);
   if(lightSurface)lightPos.copy(new T.Box3().setFromObject(lightSurface).getCenter(new T.Vector3()));taskLight.position.copy(lightPos);
   if(studioAssets){furniture=installStudioFurniture({doorAsset:studioAssets[0],drawerAsset:studioAssets[1],scene,door,doorLabel,doorHandle:handle,objects});highlightTargets.drawer=furniture.tray;}
   daylight.prepare();scene.updateMatrixWorld(true);changed();};
  })}
  function loadDecor(){return stream.run('decor',async()=>{
-  const [plantAsset,sideTableAsset,diplomaPreview,resumePreview,...certificatePreviews]=await Promise.all([stream.model('decor','assets/potted_plant_02/selected.gltf'),stream.model('decor',refinedJoinery?JOINERY_FILES[2]:'assets/side_table_01/model.gltf'),stream.texture('decor','../files/education/diploma-preview.webp',true),stream.texture('decor','../files/resume-preview.webp',true),...certificateDocuments.map(d=>stream.texture('decor','../files/education/'+d.file+'-preview.'+d.extension,true))]);
+  const [plantAsset,sideTableAsset,resumePreview,...documentPreviews]=await Promise.all([stream.model('decor','assets/potted_plant_02/selected.gltf'),stream.model('decor',refinedJoinery?JOINERY_FILES[2]:'assets/side_table_01/model.gltf'),stream.texture('decor','../files/resume-preview.webp',true),...DOCUMENTS.map(d=>stream.texture('decor','../files/education/'+d.file+'-preview.'+d.extension,true))]);
   assembly.decor=()=>{const plant=plantAsset.scene;plant.position.set(2.24,0,-2.16);plant.scale.setScalar(.9);scene.add(plant);plant.updateMatrixWorld(true);plant.position.y-=new T.Box3().setFromObject(plant).min.y;plant.traverse(o=>{if(o.isMesh)o.castShadow=o.receiveShadow=true});contact(2.24,-2.16,.63,.63,.60);contact(2.24,-2.16,.32,.32,.70);
 
   sideTable=sideTableAsset.scene;if(refinedJoinery)matchOak(sideTable);sideTable.position.set(-2.25,0,-.55);sideTable.rotation.y=.15;scene.add(sideTable);sideTable.updateMatrixWorld(true);sideTable.position.y-=new T.Box3().setFromObject(sideTable).min.y;
@@ -273,13 +269,12 @@ export async function createWorld(renderer,camera){
   if(furniture){const tray=furniture.tray;
    const document=(id,x)=>{const root=new T.Group();root.name=id;root.userData.action=id;root.position.set(x,.03755,.01);tray.add(root);objects.push(root);const label=new T.Object3D();label.name=id+' label anchor';label.position.set(0,.09595,.216);root.add(label);root.userData.labelAnchor=label.name;return root};
    const sheet=(root,name,map,w,d,z)=>{const page=new T.Group();page.name=name+' sheet';page.userData.documentSheet=true;page.position.z=z;root.add(page);const stock=new T.Mesh(new T.BoxGeometry(w,.0015,d),paper);stock.name=name+' stock';stock.castShadow=stock.receiveShadow=true;page.add(stock);const image=new T.Mesh(new T.PlaneGeometry(w-.001,d-.001),new T.MeshStandardMaterial({map,roughness:.86}));image.name=name+' preview';image.rotation.x=-Math.PI/2;image.position.y=.00082;image.receiveShadow=true;page.add(image);return image};
-   const cv=document('drawer-resume',-.105),education=document('drawer-education',.105);
+   const cv=document('drawer-resume',-.105);
    cv.userData.hotspotAnchor=sheet(cv,'Resume',resumePreview,.145,.205,0).name;
-   education.userData.hotspotAnchor=sheet(education,'Diploma',diplomaPreview,.145,.10024,0).name;
 
-   furniture.documents={'drawer-resume':cv,'drawer-education':education};
+   furniture.documents={'drawer-resume':cv};
   }
-  certificatePlanes.forEach((o,i)=>{o.material.map=certificatePreviews[i];o.material.needsUpdate=true});
+  gallery.forEach((g,i)=>{const o=g.children.find(o=>o.name==='Verified '+DOCUMENTS[i].id+' print');o.material.map=documentPreviews[i];o.material.needsUpdate=true});
   daylight.prepare();scene.updateMatrixWorld(true);changed();};
  })}
  function fallbackSky(){const c=document.createElement('canvas');c.width=512;c.height=256;const a=c.getContext('2d'),g=a.createLinearGradient(0,0,0,256);g.addColorStop(0,'#789bb7');g.addColorStop(.5,'#d7e3e6');g.addColorStop(.55,'#b2b4ac');g.addColorStop(1,'#7c8780');a.fillStyle=g;a.fillRect(0,0,512,256);const t=new T.CanvasTexture(c);t.colorSpace=T.SRGBColorSpace;return t}
@@ -321,5 +316,5 @@ export async function createWorld(renderer,camera){
   let entranceIntersections=0,checkedTriangles=0;
   if(leaf){const walls=colliders.filter(o=>{for(let p=o;p;p=p.parent)if(p===door)return false;return true}).map(o=>new T.Box3().copy(o.geometry.boundingBox).applyMatrix4(o.matrixWorld));leaf.traverse(o=>{if(!o.isMesh)return;const bounds=new T.Box3().setFromObject(o),nearby=walls.filter(b=>b.intersectsBox(bounds));if(!nearby.length)return;const g=o.geometry,a=g.attributes.position,index=g.index,t=new T.Triangle(),vertex=(out,n)=>out.fromBufferAttribute(a,index?index.getX(n):n).applyMatrix4(o.matrixWorld);for(let i=0;i<(index?index.count:a.count);i+=3){vertex(t.a,i);vertex(t.b,i+1);vertex(t.c,i+2);checkedTriangles++;if(nearby.some(b=>b.clone().expandByScalar(-.0005).intersectsTriangle(t)))entranceIntersections++}})}
   return{cabinet:collection?.geometry(),drawer:tray?{top:tray.max.y,apronBottom:.7819,apronGap:.7819-tray.max.y,min:tray.min.toArray(),max:tray.max.toArray()}:null,entrance:{intersectingTriangles:entranceIntersections,checkedTriangles},education:null,documents:Object.entries(furniture?.documents||{}).map(([id,o])=>({id,pages:o.children.filter(p=>p.userData.documentSheet).map(p=>{const b=new T.Box3().setFromObject(p).applyMatrix4(furniture.tray.matrixWorld.clone().invert());return{name:p.name,min:b.min.toArray(),max:b.max.toArray()}})})),readingTable:sideTable?new T.Box3().setFromObject(sideTable).max.y:null};
- },get collectionTargets(){return collection?{cabinet:collection.anchor,...collection.items}:{}},setCabinet(value){collection?.set(value)},collectionReady(id){return !!collection?.items[id]&&collection.inspect().itemsAccessible},inspectCollection(){return collection?.inspect()||null},get cabinetHandles(){return collection?.handles||[]},cabinetGrip(hit){return collection?.grip(hit)||null},get drawerPull(){return furniture?.pull},get drawerDocuments(){return furniture?.documents||{}},setDrawer(value){furniture?.setDrawer(value)},inspectFurniture(){return furniture?.inspect()||{variant:'legacy',drawerTravel:0,drawerOffset:0}},previewProject,inspectProject,allowAssembly,get preparingGPU(){return warming},daylight,windowBake,inspectWindow,prepare,retry,inspectStream,onChange(fn){changed=fn},get studioReady(){return studioReady},clearance,walk,scene,objects,door,cover,cord,cordRoot,cordLine,cordGrip,taskLight,get lightSurface(){return lightSurface},get assetInfo(){return [...assetInfo].sort((a,b)=>['chair','lamp','cabinet','side_table'].indexOf(a.id)-['chair','lamp','cabinet','side_table'].indexOf(b.id))},get project(){return project},get chair(){return chair},get lamp(){return lamp},monitor,folder,lightPos,localize,get exterior(){return exterior},highlight,certificates,gallery,get cabinet(){return cabinet},get sideTable(){return sideTable},office:{doorWidth:width,doorHeight:height,corridorWidth:2.65,sideDoors:doorNumbers,corridorLength:9.47,corridorHeight:3.0,routeLength:8.0},cordHit};
+ },get collectionTargets(){return collection?{cabinet:collection.anchor,...collection.items}:{}},setCabinet(value){collection?.set(value)},collectionReady(id){return !!collection?.items[id]&&collection.inspect().itemsAccessible},inspectCollection(){return collection?.inspect()||null},get cabinetHandles(){return collection?.handles||[]},cabinetGrip(hit){return collection?.grip(hit)||null},get drawerPull(){return furniture?.pull},get drawerDocuments(){return furniture?.documents||{}},setDrawer(value){furniture?.setDrawer(value)},inspectFurniture(){return furniture?.inspect()||{variant:'legacy',drawerTravel:0,drawerOffset:0}},previewProject,inspectProject,allowAssembly,get preparingGPU(){return warming},daylight,windowBake,inspectWindow,prepare,retry,inspectStream,onChange(fn){changed=fn},get studioReady(){return studioReady},clearance,walk,scene,objects,door,cover,cord,cordRoot,cordLine,cordGrip,taskLight,get lightSurface(){return lightSurface},get assetInfo(){return [...assetInfo].sort((a,b)=>['chair','lamp','cabinet','side_table'].indexOf(a.id)-['chair','lamp','cabinet','side_table'].indexOf(b.id))},get project(){return project},get chair(){return chair},get lamp(){return lamp},monitor,folder,lightPos,localize,get exterior(){return exterior},highlight,documentTargets,gallery,get cabinet(){return cabinet},get sideTable(){return sideTable},office:{doorWidth:width,doorHeight:height,corridorWidth:2.65,sideDoors:doorNumbers,corridorLength:9.47,corridorHeight:3.0,routeLength:8.0},cordHit};
 }

@@ -1,0 +1,138 @@
+{
+  "runtime": {
+    "main.js": "98875fca677dfeb5f9531c933d0f8353a7981ec6004072a3d4c0373a01e30487",
+    "ui.js": "904d2fd63b515bfc993c2df648cf6da831122b91e8f8ee0a455dee426ecc559f",
+    "world.js": "4df199f5c7704ce2282cd9a999943ccc8a1f6f0cca024dc1675f0ba303c415f8",
+    "index.html": "e89fd29119cfb9f30124b52cfc61adba4806d522e4bb7ada0e2f132857992e45",
+    "style.css": "9add8ea122189bf27dc12befcabc051adf94f0e153dd0b341308dd27eaef433f",
+    "stream-manifest.js": "45d3b3d77fcaea8d4ba0fb05b66d0143ba6f8fdac39b752fdbc03e13c5ca8a37"
+  },
+  "jobs": [
+    {
+      "name": "entry",
+      "script": "qa-room-entry-modal.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "final"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 23738,
+      "log": "entry-1.log",
+      "scriptSha": "91a6328c50572c4849ee9245deafca33ceeee0efe2f46bf862d8921d3578fc4f",
+      "summary": "y finished\",\"desktop: paused entry does not repeatedly render unchanged room\",\"desktop: closing resumes safe physical entry\",\"desktop: no runtime errors\",\"touch: native content opened before entry finished\",\"touch: paused entry does not repeatedly render unchanged room\",\"touch: closing resumes safe physical entry\",\"touch: no runtime errors\"],\"cases\":[{\"name\":\"desktop\",\"progress\":0.9625054566168191,\"target\":1,\"heldCamera\":[0.6458959090655273,1.5983373310009492,1.494150844214933],\"camera\":[0.6458959090655273,1.5983373310009492,1.494150844214933],\"endCamera\":[0.6458959090655273,1.5983373310009492,1.494150844214933],\"heldRenders\":0,\"heldShadowUpdates\":0,\"errors\":[]},{\"name\":\"touch\",\"progress\":0.9716284363673366,\"target\":1,\"heldCamera\":[0.562516905430387,1.4834191081594381,1.257084054834953],\"camera\":[0.562516905430387,1.4834191081594381,1.257084054834953],\"endCamera\":[0.562516905430387,1.4834191081594381,1.257084054834953],\"heldRenders\":0,\"heldShadowUpdates\":0,\"errors\":[]}],\"passed\":true}\n"
+    },
+    {
+      "name": "modal",
+      "script": "qa-room-modal-camera.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "postfix-final"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 68570,
+      "log": "modal-1.log",
+      "scriptSha": "99115e59476ecbd127098f111c222f8de2dbc223a38bd182271df5e1e787b04d",
+      "summary": "\"reference\":[-0.1799997150085351,1.5999999999999959,0.8000002403542417],\"held\":[-0.1459638750957803,1.5999999999999999,0.828705165581872],\"resumed\":[-0.17930272649515075,1.5999999999999999,0.8005880619920416],\"remainingDistance\":0.0009117714985979162,\"heldRenders\":0,\"errors\":[],\"resize\":{\"reference\":[-0.5489044817757159,1.0499921748698868,-0.3399999999998755],\"resumed\":[-0.5499985052743479,1.049999989323388,-0.33999999999999997],\"remainingDistance\":0.001094051407038287,\"heldRenders\":0}},{\"name\":\"touch\",\"reference\":[-0.179999727242694,1.5999999557691051,0.8000001658659578],\"held\":[-0.1756610009209377,1.5992963785277194,0.8026385805210514],\"resumed\":[-0.17997627809284894,1.599996153204246,0.8000144254840784],\"remainingDistance\":0.00002770665690607187,\"heldRenders\":0,\"errors\":[],\"resize\":{\"reference\":[0.8499985052143859,1.0400000106770402,-0.3399999999999999],\"resumed\":[0.849997572206885,1.0400000173413793,-0.33999999999999997],\"remainingDistance\":9.330313018317318e-7,\"heldRenders\":0}}]}\n"
+    },
+    {
+      "name": "native",
+      "script": "qa-room-object-roles.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "postfix-final"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 190654,
+      "log": "native-1.log",
+      "scriptSha": "0b4624f7bd477c79b86125608bc3bb199f65b1c8281ff1d5be90990762c5fbcd",
+      "summary": "PASS desktop-no-preference\nPASS desktop-reduce\nPASS touch-no-preference\nPASS touch-reduce\n{\"passed\":true,\"checks\":874,\"scenarios\":4}\n"
+    },
+    {
+      "name": "item-edges",
+      "script": "qa-room-collection-edges.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "postfix-final"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 15915,
+      "log": "item-edges-1.log",
+      "scriptSha": "3f4446d0f8359fb04562832e7a539c9d721fa422b8df796c3b201f9081fff476",
+      "summary": "{\"checks\":[\"Cube dialog has no axe violations\",\"Closing during a turn preserves a legal cube\",\"Room rendering settles while object is held\",\"Room context loss releases item renderer\",\"Projects remain accessible after item and room context loss\"],\"passed\":true,\"axe\":[]}\n"
+    },
+    {
+      "name": "context",
+      "script": "qa-room-context-loss.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "postfix-final"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 11861,
+      "log": "context-1.log",
+      "scriptSha": "a355d4e5587b15a37294f7be0d5913a8aa3ac98694a2e3db08aebcc5c9fddb52",
+      "summary": ""
+    },
+    {
+      "name": "case-rain",
+      "script": "qa-room-case-rain.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "postfix-final"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 57963,
+      "log": "case-rain-1.log",
+      "scriptSha": "46da0745576ab859abcc841271c685403e19107dfd788fe082b07ce9d728f20c",
+      "summary": ""
+    },
+    {
+      "name": "shadow",
+      "script": "qa-room-shadow-cache.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 173240,
+      "log": "shadow-1.log",
+      "scriptSha": "cc80d89d6280d7316c9f31dceba0ab6b7371616dc1d6a2d46f3c8c7494edc48e",
+      "summary": "desktop-no-preference shadow invalidation passed\ndesktop-reduce shadow invalidation passed\nmobile-no-preference shadow invalidation passed\nmobile-reduce shadow invalidation passed\n"
+    },
+    {
+      "name": "matrix",
+      "script": "qa-portfolio-content-matrix.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "final"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 66405,
+      "log": "matrix-1.log",
+      "scriptSha": "d750071058e9cf101a60a3d1912999f8f196d38ff5aaa879833daf5a35ec11c1",
+      "summary": "PASS MATRIX desktop-ru\nPASS MATRIX desktop-kk\nPASS MATRIX desktop-en\nPASS MATRIX touch-ru\nPASS MATRIX touch-kk\nPASS MATRIX touch-en\n{\"passed\":true,\"checks\":240,\"cases\":6}\n"
+    },
+    {
+      "name": "comparison",
+      "script": "qa-room-object-role-comparison.cjs",
+      "args": [
+        "qa-private/object-roles/comparison"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 101429,
+      "log": "comparison-1.log",
+      "scriptSha": "a7972c9aac23fd111c609eea75e5dfed161de71316963d9f897630f2a069a8da",
+      "summary": "p ordinary 255056 bytes 11 requests\nCOLD before desktop room 7996347 bytes 98 requests\nCOLD before touch ordinary 244321 bytes 10 requests\nCOLD before touch room 7996347 bytes 98 requests\nFRAME before desktop desk 836/1192749\nFRAME before desktop overview 896/1223793\nFRAME before desktop cabinet 779/1054442\nFRAME before desktop drawer 770/1141637\nFRAME before desktop window 793/1165488\nFRAME after desktop desk 833/1192627\nFRAME after desktop overview 889/1223067\nFRAME after desktop cabinet 777/1054310\nFRAME after desktop drawer 767/1141515\nFRAME after desktop window 792/1165380\nFRAME before touch desk 773/1100385\nFRAME before touch overview 772/1068422\nFRAME before touch cabinet 787/1075780\nFRAME before touch drawer 719/1069653\nFRAME before touch window 786/1148322\nFRAME after touch desk 770/1100263\nFRAME after touch overview 772/1068294\nFRAME after touch cabinet 787/1075652\nFRAME after touch drawer 716/1069531\nFRAME after touch window 785/1148214\n{\"passed\":true,\"cold\":16,\"frames\":20}\n"
+    }
+  ],
+  "at": "2026-10-16T14:22:05.978Z",
+  "passed": true
+}

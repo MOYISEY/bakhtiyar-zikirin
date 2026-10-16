@@ -68,7 +68,7 @@ async function drag(page,context,from,to,mobile){
   const p=await small.newPage();await p.goto(sceneUrl('kk'));await p.waitForFunction(()=>window.__SLICE__?.ready,null,{timeout:90000});await openActions(p,true);
   ok('small viewport: room menu fits the visible height',await p.locator('#controls').evaluate(e=>e.getBoundingClientRect().bottom<=innerHeight-10));
   await p.locator('#rain-motion-button').scrollIntoViewIfNeeded();ok('small viewport: last action can be reached',await p.locator('#rain-motion-button').isVisible());
-  ok('small viewport: drawer label is translated',await p.locator('#drawer-button').textContent()==='Түйіндеме мен құжаттар · тартпа');
+  ok('small viewport: drawer label is translated',await p.locator('#drawer-button').textContent()==='Түйіндеме · тартпа');
  }finally{await small.close()}
  report.passed=true;
 }finally{await browser?.close();fs.writeFileSync(out+'/checks.json',JSON.stringify(report,null,2));console.log(JSON.stringify({passed:report.passed,checks:report.checks.length,scenarios:report.scenarios.length}))}})().catch(e=>{console.error(e);process.exitCode=1});

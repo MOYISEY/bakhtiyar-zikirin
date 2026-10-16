@@ -1,0 +1,77 @@
+{
+  "runtime": {
+    "main.js": "f2a9d46c3ce7e8aede591ff28a094d893fcf33cd5be323a6ae2637bcad6d56ae",
+    "ui.js": "904d2fd63b515bfc993c2df648cf6da831122b91e8f8ee0a455dee426ecc559f",
+    "world.js": "4df199f5c7704ce2282cd9a999943ccc8a1f6f0cca024dc1675f0ba303c415f8",
+    "index.html": "e89fd29119cfb9f30124b52cfc61adba4806d522e4bb7ada0e2f132857992e45",
+    "style.css": "9add8ea122189bf27dc12befcabc051adf94f0e153dd0b341308dd27eaef433f",
+    "stream-manifest.js": "45d3b3d77fcaea8d4ba0fb05b66d0143ba6f8fdac39b752fdbc03e13c5ca8a37"
+  },
+  "jobs": [
+    {
+      "name": "touch-names",
+      "script": "qa-room-touch-context.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "final"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 46520,
+      "scriptSha": "8dad9078f2fd306bef4a23849cb4b889bdb8abdf3f0884186646b967d8a3ec43",
+      "log": "touch-names-1.log"
+    },
+    {
+      "name": "native",
+      "script": "qa-room-object-roles.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "final-validation"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 247477,
+      "scriptSha": "0d32caf1e9b54c8349e3766a15752882637438b415f5c4a47c2ec3b37beb2835",
+      "log": "native-1.log"
+    },
+    {
+      "name": "cv",
+      "script": "qa-room-cv-actions.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "final-validation"
+      ],
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 76764,
+      "scriptSha": "f8ef3820d94b7ce193602d8dae8fa9c2b65fb5309d21e3483465512ddedb7122",
+      "log": "cv-1.log"
+    },
+    {
+      "name": "comparison",
+      "script": "qa-room-object-role-comparison.cjs",
+      "args": [
+        "qa-private/object-roles/comparison-final"
+      ],
+      "attempt": 1,
+      "exit": 1,
+      "durationMs": 91129,
+      "scriptSha": "a7972c9aac23fd111c609eea75e5dfed161de71316963d9f897630f2a069a8da",
+      "log": "comparison-1.log"
+    },
+    {
+      "name": "comparison",
+      "script": "qa-room-object-role-comparison.cjs",
+      "args": [
+        "qa-private/object-roles/comparison-final"
+      ],
+      "attempt": 2,
+      "exit": 1,
+      "durationMs": 93265,
+      "scriptSha": "973162dcf6090f48f1420287c122a63ce161ad0626716c6b93120b47a62dd0f8",
+      "log": "comparison-2.log"
+    }
+  ],
+  "at": "2026-10-16T14:53:30.491Z",
+  "passed": false
+}

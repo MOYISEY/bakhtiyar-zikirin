@@ -1,0 +1,14 @@
+desktop-no-preference shadow invalidation passed
+desktop-reduce shadow invalidation passed
+mobile-no-preference shadow invalidation passed
+AssertionError [ERR_ASSERTION]: mobile-reduce exit-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels
+    at ok (C:\Users\aldia\Documents\Codex\2026-10-13\task\portfolio\scripts\qa-room-shadow-cache.cjs:2:200)
+    at compare (C:\Users\aldia\Documents\Codex\2026-10-13\task\portfolio\scripts\qa-room-shadow-cache.cjs:5:159)
+    at async C:\Users\aldia\Documents\Codex\2026-10-13\task\portfolio\scripts\qa-room-shadow-cache.cjs:7:889 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}

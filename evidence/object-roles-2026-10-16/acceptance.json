@@ -1,0 +1,394 @@
+{
+  "at": "2026-10-16T15:17:32.342Z",
+  "status": "completed_with_observation_limit",
+  "releaseReady": true,
+  "functionalChecksPassed": true,
+  "strictColdCdpPassed": false,
+  "strictColdRequestObservation": [
+    {
+      "version": "before",
+      "profile": "desktop",
+      "path": "assets/studio-furniture/workbench.glb.gz",
+      "error": "net::ERR_ABORTED",
+      "httpStatus": 200,
+      "completeEncodedBytes": 166144,
+      "expectedGzipBytes": 166144,
+      "noRawFallback": true
+    },
+    {
+      "version": "after",
+      "profile": "touch",
+      "path": "assets/studio-furniture/side-table.glb.gz",
+      "error": "net::ERR_ABORTED",
+      "httpStatus": 200,
+      "completeEncodedBytes": 91304,
+      "expectedGzipBytes": 91304,
+      "noRawFallback": true
+    }
+  ],
+  "decision": "Publish scoped functional fixes: all required interaction, content, geometry, fallback and strict shadow checks passed; every cold scene is complete and actual decompressed GLB SHA match. The inherited Edge cancellation observation occurs on baseline/candidate and remains a strict network FAIL. No zero-request-error or FPS-speedup claim; no further retries to select green. No production loader changes.",
+  "runtime": {
+    "main.js": "f2a9d46c3ce7e8aede591ff28a094d893fcf33cd5be323a6ae2637bcad6d56ae",
+    "ui.js": "904d2fd63b515bfc993c2df648cf6da831122b91e8f8ee0a455dee426ecc559f",
+    "world.js": "4df199f5c7704ce2282cd9a999943ccc8a1f6f0cca024dc1675f0ba303c415f8",
+    "index.html": "e89fd29119cfb9f30124b52cfc61adba4806d522e4bb7ada0e2f132857992e45",
+    "style.css": "9add8ea122189bf27dc12befcabc051adf94f0e153dd0b341308dd27eaef433f",
+    "stream-manifest.js": "45d3b3d77fcaea8d4ba0fb05b66d0143ba6f8fdac39b752fdbc03e13c5ca8a37"
+  },
+  "coldPayloadMethod": "ResourceTiming encodedBodySize + navigation encodedBodySize, excludes headers; CDP loadingFinished totals are incomplete in canceled-but-fully-consumed responses and are not used for payload claims.",
+  "coldPayload": [
+    {
+      "version": "before",
+      "profile": "desktop",
+      "route": "ordinary",
+      "encodedBodyBytes": 252753,
+      "requests": 11,
+      "observedReadyMs": 441.70000000018626
+    },
+    {
+      "version": "before",
+      "profile": "desktop",
+      "route": "room",
+      "encodedBodyBytes": 7980918,
+      "requests": 98,
+      "observedReadyMs": 9206
+    },
+    {
+      "version": "before",
+      "profile": "touch",
+      "route": "ordinary",
+      "encodedBodyBytes": 242213,
+      "requests": 10,
+      "observedReadyMs": 481.59999999962747
+    },
+    {
+      "version": "before",
+      "profile": "touch",
+      "route": "room",
+      "encodedBodyBytes": 7980918,
+      "requests": 98,
+      "observedReadyMs": 3823.6999999997206
+    },
+    {
+      "version": "after",
+      "profile": "desktop",
+      "route": "ordinary",
+      "encodedBodyBytes": 252753,
+      "requests": 11,
+      "observedReadyMs": 482.70000000018626
+    },
+    {
+      "version": "after",
+      "profile": "desktop",
+      "route": "room",
+      "encodedBodyBytes": 7904867,
+      "requests": 96,
+      "observedReadyMs": 3463.1999999997206
+    },
+    {
+      "version": "after",
+      "profile": "touch",
+      "route": "ordinary",
+      "encodedBodyBytes": 242213,
+      "requests": 10,
+      "observedReadyMs": 345.29999999981374
+    },
+    {
+      "version": "after",
+      "profile": "touch",
+      "route": "room",
+      "encodedBodyBytes": 7904867,
+      "requests": 96,
+      "observedReadyMs": 3406.6999999997206
+    },
+    {
+      "version": "after",
+      "profile": "desktop",
+      "route": "ordinary",
+      "encodedBodyBytes": 252753,
+      "requests": 11,
+      "observedReadyMs": 357.10000000009313
+    },
+    {
+      "version": "after",
+      "profile": "desktop",
+      "route": "room",
+      "encodedBodyBytes": 7904867,
+      "requests": 96,
+      "observedReadyMs": 3561.3000000002794
+    },
+    {
+      "version": "after",
+      "profile": "touch",
+      "route": "ordinary",
+      "encodedBodyBytes": 242213,
+      "requests": 10,
+      "observedReadyMs": 352.5
+    },
+    {
+      "version": "after",
+      "profile": "touch",
+      "route": "room",
+      "encodedBodyBytes": 7904867,
+      "requests": 96,
+      "observedReadyMs": 3479.5
+    },
+    {
+      "version": "before",
+      "profile": "desktop",
+      "route": "ordinary",
+      "encodedBodyBytes": 252753,
+      "requests": 11,
+      "observedReadyMs": 339.5
+    },
+    {
+      "version": "before",
+      "profile": "desktop",
+      "route": "room",
+      "encodedBodyBytes": 7980918,
+      "requests": 98,
+      "observedReadyMs": 3533.5
+    },
+    {
+      "version": "before",
+      "profile": "touch",
+      "route": "ordinary",
+      "encodedBodyBytes": 242213,
+      "requests": 10,
+      "observedReadyMs": 350.79999999981374
+    },
+    {
+      "version": "before",
+      "profile": "touch",
+      "route": "room",
+      "encodedBodyBytes": 7980918,
+      "requests": 98,
+      "observedReadyMs": 3457.7999999998137
+    }
+  ],
+  "frameReceipt": {
+    "method": "Independent real RAF collection; cold CDP cancellation limitation retained separately. This receipt does not relabel a network FAIL.",
+    "jobs": [
+      {
+        "version": "before",
+        "exit": 0,
+        "durationMs": 67331,
+        "runs": 4,
+        "runtimeErrors": [],
+        "requestFailures": [
+          {
+            "url": "http://127.0.0.1:4331/before/room/assets/exterior/skyline.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/door.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/drawer.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/before/room/assets/room-accents/ceiling-panel.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/before/room/assets/room-accents/orbit.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/cabinet.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/chair.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/lamp.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/before/room/assets/corridor/profiles.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/before/room/assets/potted_plant_02/selected.bin",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/door.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/chair.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/lamp.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/before/room/assets/exterior/skyline.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/before/room/assets/room-accents/orbit.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/workbench.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/before/room/assets/corridor/profiles.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/drawer.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/before/room/assets/exterior/tree-trunk.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          }
+        ],
+        "framesComplete": true,
+        "staticViews": [
+          {
+            "mobile": true,
+            "view": "desk"
+          }
+        ]
+      },
+      {
+        "version": "after",
+        "exit": 0,
+        "durationMs": 66983,
+        "runs": 4,
+        "runtimeErrors": [],
+        "requestFailures": [
+          {
+            "url": "http://127.0.0.1:4331/after/room/assets/room-accents/ceiling-panel.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/side-table.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/lamp.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/workbench.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/cabinet.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/after/room/assets/room-accents/robot.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/chair.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/after/room/assets/room-accents/orbit.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/after/room/assets/room-accents/ceiling-panel.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/cabinet.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/after/room/assets/studio-furniture/lamp.glb.gz",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:4331/after/room/assets/potted_plant_02/selected.bin",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          }
+        ],
+        "framesComplete": true,
+        "staticViews": [
+          {
+            "mobile": true,
+            "view": "desk"
+          }
+        ]
+      }
+    ],
+    "completed": true,
+    "receiptCorrection": "Initial completeness rule incorrectly required a drawn frame in a deliberately static, settled touch desk. Existing samples have 575+ RAF callbacks and exactly zero renders/zero CPU draw samples in both variants; retained as static, not rerun or treated as zero-ms rendering. Network failures retained."
+  }
+}

@@ -1,0 +1,1010 @@
+{
+  "conditions": "Same .glb.gz bytes and decompression; only Content-Length versus chunked HTTP framing changes. No product code modified.",
+  "modes": [
+    {
+      "mode": "chunked",
+      "samples": [
+        {
+          "name": "studio-furniture/chair",
+          "round": 0,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 0,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 0,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 0,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 1,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 1,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 1,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 1,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 2,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 2,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 2,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 2,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 3,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 3,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 3,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 3,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 4,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 4,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 4,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 4,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 5,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 5,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 5,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 5,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 6,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 6,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 6,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 6,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 7,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 7,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 7,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 7,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 8,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 8,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 8,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 8,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 9,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 9,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 9,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 9,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 10,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 10,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 10,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 10,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 11,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 11,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 11,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 11,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 12,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 12,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 12,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 12,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 13,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 13,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 13,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 13,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 14,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 14,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 14,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 14,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 15,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 15,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 15,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 15,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 16,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 16,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 16,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 16,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 17,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 17,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 17,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 17,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 18,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 18,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 18,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 18,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 19,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 19,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 19,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 19,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        }
+      ],
+      "events": [
+        {
+          "url": "http://127.0.0.1:4332/asset?name=corridor/profiles&mode=chunked&round=2",
+          "phase": "loading",
+          "error": "net::ERR_ABORTED",
+          "canceled": true,
+          "timestamp": 2454.703125
+        },
+        {
+          "url": "http://127.0.0.1:4332/asset?name=corridor/profiles&mode=chunked&round=9",
+          "phase": "loading",
+          "error": "net::ERR_ABORTED",
+          "canceled": true,
+          "timestamp": 2454.932767
+        },
+        {
+          "url": "http://127.0.0.1:4332/asset?name=studio-furniture/workbench&mode=chunked&round=16",
+          "phase": "loading",
+          "error": "net::ERR_ABORTED",
+          "canceled": true,
+          "timestamp": 2455.10131
+        },
+        {
+          "url": "http://127.0.0.1:4332/asset?name=corridor/profiles&mode=chunked&round=19",
+          "phase": "loading",
+          "error": "net::ERR_ABORTED",
+          "canceled": true,
+          "timestamp": 2455.164224
+        }
+      ],
+      "beforeClose": 4,
+      "exact": true
+    },
+    {
+      "mode": "length",
+      "samples": [
+        {
+          "name": "studio-furniture/chair",
+          "round": 0,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 0,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 0,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 0,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 1,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 1,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 1,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 1,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 2,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 2,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 2,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 2,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 3,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 3,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 3,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 3,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 4,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 4,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 4,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 4,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 5,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 5,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 5,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 5,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 6,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 6,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 6,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 6,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 7,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 7,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 7,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 7,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 8,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 8,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 8,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 8,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 9,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 9,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 9,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 9,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 10,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 10,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 10,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 10,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 11,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 11,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 11,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 11,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 12,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 12,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 12,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 12,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 13,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 13,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 13,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 13,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 14,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 14,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 14,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 14,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 15,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 15,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 15,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 15,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 16,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 16,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 16,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 16,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 17,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 17,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 17,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 17,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 18,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 18,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 18,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 18,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "name": "studio-furniture/chair",
+          "round": 19,
+          "size": 282196,
+          "sha": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "name": "studio-furniture/door",
+          "round": 19,
+          "size": 272364,
+          "sha": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "name": "corridor/profiles",
+          "round": 19,
+          "size": 994124,
+          "sha": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "name": "studio-furniture/workbench",
+          "round": 19,
+          "size": 553800,
+          "sha": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        }
+      ],
+      "events": [],
+      "beforeClose": 0,
+      "exact": true
+    }
+  ]
+}

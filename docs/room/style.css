@@ -145,11 +145,20 @@ canvas.viewer-canvas:active{cursor:grabbing}
 
 .document-heading{margin-top:30px}.document-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.document-tabs button{min-height:44px;padding:10px 14px;color:#315348;border:1px solid #aeb9a9;background:#e7e8dc;border-radius:5px;font-size:12px}.document-tabs button[aria-pressed=true]{background:#315348;color:#f3eddd}.document-tabs+.diploma-room{margin-top:0}
 
-/* Persistent document actions remain readable for touch and keyboard. */
+/* Physical actions use quiet markers; text is shown by the shared hover/focus/context hint. */
 .document-action{width:124px;min-height:44px;height:auto;padding:6px 8px;border:1px solid #e4d7b7b3;border-radius:7px;background:#f4ecdcf2;color:#233a31;font-size:12px;line-height:15px;text-align:center;text-decoration:none;transform:translate(-50%,0);box-shadow:0 2px 8px #11221c24}.document-action:hover,.document-action:focus-visible{background:#fff8e8;color:#173a2e}.document-action .document-label{font-size:12px;color:inherit}#document-leaders{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:2;overflow:visible}#document-leaders path{stroke:#eee2c6b3;stroke-width:1;fill:none}
-.collection-action{width:min(116px,calc((100vw - 40px)/3));cursor:pointer}.certificate-action{width:124px}.persistent-action .document-label{display:block;opacity:1;transform:none}#collection-leaders,#certificate-leaders{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:2;overflow:visible}#collection-leaders path,#certificate-leaders path{stroke:#eee2c6b3;stroke-width:1;fill:none}
+.collection-action{cursor:pointer}
 #object-cabinet{touch-action:none;cursor:grab}#object-cabinet:active{cursor:grabbing}
 
 .cube-drag-mode{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.8rem}.cube-drag-mode button{min-height:44px;padding:.6rem .8rem;border:1px solid #31524666;border-radius:4px;background:#243b33;color:#f4ead6}.cube-drag-mode [aria-pressed="true"]{background:#eee4cb;color:#26372f;outline:1px solid #31524666}.cube-gesture-help{font-size:12px!important;line-height:1.6!important;color:#526358;max-width:56ch}
 
 .cabinet-command{position:fixed;z-index:2;width:124px;min-height:44px;cursor:pointer;touch-action:manipulation}.cabinet-command:disabled{cursor:default;opacity:.7}
+
+/* Mouse users get the same quiet physical CV marker as other scene objects.
+   Touch keeps the explicitly named PDF control below the sheet. */
+@media(hover:hover) and (pointer:fine){
+ .object-action.document-action{width:44px;height:44px;min-height:44px;padding:0;border:0;background:transparent;box-shadow:none;border-radius:12px}
+ .object-action.document-action:hover,.object-action.document-action:focus-visible{background:#e9d6ad12}
+ .object-action.document-action .document-label{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+}
+@media(hover:none){#object-drawer-resume>span[aria-hidden]{display:none}}

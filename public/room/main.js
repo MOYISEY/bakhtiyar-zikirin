@@ -1,5 +1,5 @@
 import * as T from 'three';
-import {layoutDocumentActions,layoutCollectionActions,layoutCertificateAction,hideDocumentLeaders} from './document-actions.js';
+import {layoutDocumentActions,hideDocumentLeaders} from './document-actions.js';
 import {createWorld} from './world.js';
 import {RoomAudio} from './audio.js';
 import {$,L,attachApp,openPanel,weatherText} from './ui.js';
@@ -7,6 +7,7 @@ const canvas=$('#scene'),renderer=new T.WebGLRenderer({canvas,antialias:true,pow
 renderer.setPixelRatio(Math.min(devicePixelRatio,1.75));renderer.shadowMap.enabled=true;renderer.shadowMap.type=T.PCFShadowMap;renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.05;
 const camera=new T.PerspectiveCamera(52,innerWidth/innerHeight,.05,6000),world=await createWorld(renderer,camera),scene=world.scene;
 let storage;try{storage=localStorage}catch{}const audio=new RoomAudio(storage);audio.setRain(!!world.exterior?.weather);
+let touchHotspot=null,touchTimer=null,hoverSurface=null;
 const captureMode=new URLSearchParams(location.search).has('capture');let captureFrozen=false,captureReferenceFraming=false;let closeCabinetFocus=false;
 let rainPaused=false;try{rainPaused=storage?.getItem('room-weather-motion-v1')==='paused'}catch{}
 const reduced=captureMode?{matches:true}:matchMedia('(prefers-reduced-motion: reduce)');const ray=new T.Raycaster(),mouse=new T.Vector2(),look=new T.Vector3();
@@ -39,30 +40,42 @@ world.onChange(()=>{dirty=true;streamStatus()});window.sliceRetry=()=>world.retr
 world.prepare(true);
 let cordGuideShown=false;try{cordGuideShown=sessionStorage.getItem('office-cord-guide')==='seen'}catch{}
 // Raycast surfaces and semantic buttons feed a single tooltip renderer.
+const needsTouchContext=id=>['cube','robot','orbit','drawer-resume'].includes(id)||id.startsWith('wall-');
+const surfaceRecord=hit=>hit?{kind:hit.action,object:hit.object,local:hit.object.worldToLocal(hit.point.clone())}:null;
+function surfaceProjection(record){
+ if(!record||api.hold)return null;
+ const p=record.object.localToWorld(record.local.clone()).project(camera);if(p.z< -1||p.z>1||Math.abs(p.x)>=1||Math.abs(p.y)>=1)return null;
+ const hit=hitAt((p.x+1)*innerWidth/2,(1-p.y)*innerHeight/2);return hit?.action===record.kind?{p,hit}:null;
+}
+function confirmTouch(record){
+ if(touchHotspot?.kind===record.kind){touchHotspot=null;clearTimeout(touchTimer);return true}
+ touchHotspot=record;clearTimeout(touchTimer);touchTimer=setTimeout(()=>{touchHotspot=null;renderHotspot()},5000);renderHotspot();return false;
+}
 function renderHotspot(){
  const el=$('#object-hint'),guide=$('#object-lamp');
- const id=pointerHotspot||focusHotspot||(!guide.hidden&&guide.classList.contains('cord-guide-visible')?'lamp':null);
+ const id=touchHotspot?.kind||pointerHotspot||focusHotspot||(!guide.hidden&&guide.classList.contains('cord-guide-visible')?'lamp':null),surface=touchHotspot||(pointerHotspot?hoverSurface:null),surfacePoint=surfaceProjection(surface);
  const button=id&&$('#object-'+id),blocked=!window.sliceUsable||window.sliceFatal||api.hold||pointer||!$('#controls').hidden;
- const visible=!!id&&!blocked&&!id.startsWith('drawer-')&&(!button||!button.hidden&&!button.classList.contains('persistent-action'))&&canActivateObject(id);
+ const visible=!!id&&!blocked&&(touchHotspot||!id.startsWith('drawer-')||matchMedia('(hover:hover) and (pointer:fine)').matches)&&(surface?!!surfacePoint:(!button||!button.hidden)&&canActivateObject(id));
  const next=visible?id:null;if(next!==activeHotspot){activeHotspot=next;world.highlight(next);dirty=true}
  el.hidden=!visible;el.setAttribute('aria-hidden',String(!visible));el.dataset.hotspot=next||'';if(!visible)return;
- el.textContent=button?(!pointerHotspot&&!focusHotspot?guide.querySelector('.cord-guide').textContent:button.ariaLabel):L('Открыть дверь','Есікті ашу','Open door');
- let x,y;if(button){const r=button.getBoundingClientRect();x=r.x+r.width/2;y=r.y+r.height/2}else{const v=new T.Box3().setFromObject(world.door).getCenter(new T.Vector3()).project(camera);x=(v.x+1)*innerWidth/2;y=(1-v.y)*innerHeight/2}
+ el.textContent=button?(!touchHotspot&&!pointerHotspot&&!focusHotspot?guide.querySelector('.cord-guide').textContent:button.ariaLabel):L('Открыть дверь','Есікті ашу','Open door');
+ if(touchHotspot)el.textContent+=' · '+L('ещё раз — открыть','қайта түрту — ашу','tap again to open');
+ let x,y;if(surfacePoint){x=(surfacePoint.p.x+1)*innerWidth/2;y=(1-surfacePoint.p.y)*innerHeight/2}else if(button){const r=button.getBoundingClientRect();x=r.x+r.width/2;y=r.y+r.height/2}else{const v=new T.Box3().setFromObject(world.door).getCenter(new T.Vector3()).project(camera);x=(v.x+1)*innerWidth/2;y=(1-v.y)*innerHeight/2}
  const width=el.offsetWidth,height=el.offsetHeight;
  el.style.left=clamp(x+32+width>innerWidth-12?x-32-width:x+32,12,Math.max(12,innerWidth-width-12))+'px';
  el.style.top=clamp(y-height/2,80,Math.max(80,innerHeight-height-32))+'px';
 }
-function pointHotspot(id){if(!window.sliceUsable||window.sliceFatal){clearHotspots();return}clearTimeout(leaveTimer);if(id){pointerHotspot=id;focusHotspot=null;keyboardMode=false;renderHotspot()}else leaveTimer=setTimeout(()=>{pointerHotspot=null;renderHotspot()},90)}
-function clearHotspots(){clearTimeout(leaveTimer);pointerHotspot=focusHotspot=null;renderHotspot()}
-document.addEventListener('keydown',()=>{keyboardMode=true;clearTimeout(leaveTimer);pointerHotspot=null;const el=document.activeElement;focusHotspot=el?.classList.contains('object-action')?el.id.slice(7):null;renderHotspot()},true);
-document.addEventListener('pointerdown',()=>{keyboardMode=false;clearHotspots()},true);
+function pointHotspot(id,surface=null){hoverSurface=surface;if(!window.sliceUsable||window.sliceFatal){clearHotspots();return}clearTimeout(leaveTimer);if(id){pointerHotspot=id;focusHotspot=null;keyboardMode=false;renderHotspot()}else leaveTimer=setTimeout(()=>{pointerHotspot=null;renderHotspot()},90)}
+function clearHotspots(keepTouch=false){clearTimeout(leaveTimer);pointerHotspot=focusHotspot=hoverSurface=null;if(keepTouch!==true){touchHotspot=null;clearTimeout(touchTimer)}renderHotspot()}
+document.addEventListener('keydown',()=>{keyboardMode=true;touchHotspot=null;clearTimeout(touchTimer);clearTimeout(leaveTimer);pointerHotspot=null;const el=document.activeElement;focusHotspot=el?.classList.contains('object-action')?el.id.slice(7):null;renderHotspot()},true);
+document.addEventListener('pointerdown',()=>{keyboardMode=false;clearHotspots(true)},true);
 window.addEventListener('room-scene-disabled',()=>{audio.setInside(false);audio.pauseForPage();if(pointer)release({pointerId:pointer.id},true);hideDocumentLeaders();keyboardMode=false;$('#object-lamp').classList.remove('cord-guide-visible','pulling');clearHotspots();canvas.style.cursor='default'});
 window.addEventListener('room-scene-ready',()=>{dirty=true;updateActions();weatherText()});
 window.addEventListener('room-panel-open',clearHotspots);
 window.addEventListener('room-actions',()=>{if(!$('#controls').hidden)clearHotspots();else renderHotspot()});
 $('#panel').addEventListener('close',renderHotspot);
 canvas.addEventListener('pointerleave',()=>pointHotspot(null));
-for(const id of ['case','profile','lamp','keyform','poslesvet','certificates','drawer','drawer-resume','drawer-education','cabinet','cube','robot','orbit']){
+for(const id of ['case','profile','lamp','wall-diploma','wall-hackalem','wall-certificate','drawer','drawer-resume','drawer-education','cabinet','cube','robot','orbit']){
  const el=$('#object-'+id);
  el.addEventListener('pointerenter',e=>{if(e.pointerType!=='touch')pointHotspot(id)});
  el.addEventListener('pointerleave',()=>pointHotspot(null));
@@ -99,7 +112,7 @@ function updateCamera(){
 // Four metres covers object inspection; the wall cord keeps its accepted 4.29 m
 // workspace reach (4.5 m). The room-side
 // threshold prevents a visible object through the doorway being a remote target.
-function actionTargets(){return{case:world.objects.find(o=>o.userData.action==='case'),profile:world.objects.find(o=>o.userData.action==='profile'),lamp:world.cordGrip,certificates:world.certificates,keyform:world.gallery[0],poslesvet:world.gallery[1],drawer:world.drawerPull,...world.drawerDocuments,...world.collectionTargets}}
+function actionTargets(){return{case:world.objects.find(o=>o.userData.action==='case'),profile:world.objects.find(o=>o.userData.action==='profile'),lamp:world.cordGrip,...world.documentTargets,drawer:world.drawerPull,...world.drawerDocuments,...world.collectionTargets}}
 function actionEligible(action,distance=0){
  if(!window.sliceUsable||window.sliceFatal||!world.studioReady)return false;
  if(action==='door')return true;
@@ -113,7 +126,10 @@ function projectedAction(id,o=actionTargets()[id]){
  const anchor=o.userData.hotspotAnchor&&o.getObjectByName(o.userData.hotspotAnchor),points=[anchor?anchor.getWorldPosition(new T.Vector3()):new T.Box3().setFromObject(o).getCenter(new T.Vector3())];
  if(id==='cabinet')for(const handle of world.cabinetHandles)if(handle!==o)points.push(new T.Box3().setFromObject(handle).getCenter(new T.Vector3()));
  if(id.startsWith('drawer-'))o.traverse(page=>{if(page.isMesh&&page.name.endsWith(' preview')&&page!==anchor)points.push(page.getWorldPosition(new T.Vector3()))});
- for(const point of points){const p=point.project(camera);if(p.z< -1||p.z>1||Math.abs(p.x)>.96||Math.abs(p.y)>.92)continue;const hit=hitAt((p.x+1)*innerWidth/2,(1-p.y)*innerHeight/2);if(hit?.action===id)return{p,hit}}
+ const visible=points=>{for(const point of points){const p=point.project(camera);if(p.z< -1||p.z>1||Math.abs(p.x)>.96||Math.abs(p.y)>.92)continue;const hit=hitAt((p.x+1)*innerWidth/2,(1-p.y)*innerHeight/2);if(hit?.action===id)return{p,hit}}return null};
+ const primary=visible(points);if(primary)return primary;
+ // Extra bounds are needed only when the primary anchor is actually hidden.
+ if(['cube','robot','orbit'].includes(id)){const fallback=[];let count=0;o.traverse(mesh=>{if(mesh.isMesh&&count++<18)fallback.push(new T.Box3().setFromObject(mesh).getCenter(new T.Vector3()))});return visible(fallback)}
  return null;
 }
 function canActivateObject(id){return !api.hold&&(id==='door'?actionEligible(id):!!projectedAction(id))}
@@ -133,14 +149,13 @@ function updateCabinetCommand(collectionItems){
  if(closeCabinetFocus&&cabinet===0){closeCabinetFocus=false;if(!api.hold&&(document.activeElement===el||document.activeElement===document.body))($('#object-cabinet').hidden?$('#actions-toggle'):$('#object-cabinet')).focus({preventScroll:true})}
 }
 function updateActions(){
- const documentItems=[],collectionItems=[];let certificateItem=null;
+ const documentItems=[],collectionItems=[];
  for(const [id,o]of Object.entries(actionTargets())){
   const el=$('#object-'+id),projection=projectedAction(id,o);el.hidden=el.disabled=!projection;if(!projection)continue;
   const {p}=projection,screenX=(p.x+1)*innerWidth/2,screenY=(1-p.y)*innerHeight/2;
   if(id.startsWith('drawer-')&&drawer<.55)el.hidden=true;el.disabled=el.hidden;if(el.hidden)continue;
   if(id.startsWith('drawer-')){documentItems.push({id,el,object:o});continue}
-  if(['cube','robot','orbit'].includes(id)){collectionItems.push({id,el,object:o});continue}
-  if(id==='certificates'){certificateItem={id,el,object:o};continue}
+  if(['cube','robot','orbit'].includes(id))collectionItems.push({id,el,object:o});
   if(id==='lamp'&&!cordGuideShown){cordGuideShown=true;el.classList.add('cord-guide-visible');try{sessionStorage.setItem('office-cord-guide','seen')}catch{}setTimeout(()=>{el.classList.remove('cord-guide-visible');renderHotspot()},8000);}
   let x=screenX,y=screenY;
   if(id==='lamp'){
@@ -150,25 +165,26 @@ function updateActions(){
   const inset=el.offsetWidth/2+12;el.style.left=clamp(x,inset,innerWidth-inset)+'px';el.style.top=clamp(y,90,innerHeight-45)+'px';
  }
  layoutDocumentActions(documentItems,camera,$('#object-drawer'));
- layoutCollectionActions(collectionItems,camera,$('#object-cabinet'));updateCabinetCommand(collectionItems);layoutCertificateAction(certificateItem,camera,collectionItems);
+ updateCabinetCommand(collectionItems);
  $('#cabinet-button').setAttribute('aria-pressed',String(cabinetTarget>.5));
  $('#drawer-button').hidden=!world.drawerPull;for(const id of ['#drawer-button','#object-drawer'])$(id).setAttribute('aria-pressed',String(drawer>.5));
  renderHotspot();
 }
 function hitAt(x,y){mouse.set(x/innerWidth*2-1,-y/innerHeight*2+1);ray.setFromCamera(mouse,camera);const hits=ray.intersectObjects(scene.children,true);for(const hit of hits){const material=hit.object.material,m=Array.isArray(material)?material[hit.face?.materialIndex||0]:material;if(!m)continue;let shown=true;for(let parent=hit.object;parent;parent=parent.parent)if(!parent.visible){shown=false;break}if(!shown||(m.transparent&&m.opacity<.45)||hit.object.isLine)continue;let o=hit.object;while(o&&!o.userData.action)o=o.parent;if(o?.userData.action){const action=o.userData.action;if(!actionEligible(action,hit.distance))return null;return{...hit,action}};if(m.visible!==false)return null}return null}
 world.monitor.userData.action='case';
-function hint(hit){pointHotspot(hit?.action||null);canvas.style.cursor=hit?.action==='lamp'||hit?.action==='profile'||hit?.action==='drawer'||hit?.action==='cabinet'?'grab':hit?'pointer':'grab'}
+function hint(hit){pointHotspot(hit?.action||null,surfaceRecord(hit));canvas.style.cursor=hit?.action==='lamp'||hit?.action==='profile'||hit?.action==='drawer'||hit?.action==='cabinet'?'grab':hit?'pointer':'grab'}
 // Canvas and the transparent, cord-aligned semantic button share one gesture.
 // The button supplies a minimum 44px touch target; the visible cord remains the affordance.
 function beginPointer(e){
  if(!window.sliceUsable||api.hold||pointer||e.button!==0)return;
  const direct=e.currentTarget.id.startsWith('object-'),hit=direct?projectedAction(e.currentTarget.id.slice(7))?.hit:hitAt(e.clientX,e.clientY);
  if(direct&&!hit)return;
- if(hit?.action&&!canActivateObject(hit.action))return;
+ if(hit?.action&&(api.hold||!actionEligible(hit.action,hit.distance)))return;
  const grip=world.cordGrip.getWorldPosition(new T.Vector3()),a=grip.clone().project(camera),b=grip.clone().add(new T.Vector3(0,-.1,0)).project(camera);
  const drawerPoint=world.drawerPull?new T.Box3().setFromObject(world.drawerPull).getCenter(new T.Vector3()):null,drawerTravel=world.inspectFurniture().drawerTravel||.29,drawerClosed=drawerPoint?.clone().add(new T.Vector3(0,0,-drawerTravel*drawer)),drawerOpen=drawerPoint?.clone().add(new T.Vector3(0,0,drawerTravel*(1-drawer))),drawerA=drawerClosed?.clone().project(camera),drawerB=drawerOpen?.clone().project(camera),drawerVector=drawerA?new T.Vector2((drawerB.x-drawerA.x)*innerWidth/2,(drawerA.y-drawerB.y)*innerHeight/2):new T.Vector2(0,40),drawerW0=drawerClosed?Math.max(.05,-drawerClosed.clone().applyMatrix4(camera.matrixWorldInverse).z):1,drawerW1=drawerOpen?Math.max(.05,-drawerOpen.clone().applyMatrix4(camera.matrixWorldInverse).z):1;
  const cabinetGrip=hit?.action==='cabinet'?world.cabinetGrip(hit):null,screen=p=>{const v=new T.Vector3().fromArray(p).project(camera);return{x:(v.x+1)*innerWidth/2,y:(1-v.y)*innerHeight/2}},cabinetCurrent=cabinetGrip&&screen(cabinetGrip.current),cabinetPath=cabinetGrip?.samples.map(s=>({...s,...screen(s.position)}));
- pointer={cabinetStart:cabinet,cabinetOriginalTarget:cabinetTarget,cabinetPath,cabinetOffset:cabinetCurrent?{x:e.clientX-cabinetCurrent.x,y:e.clientY-cabinetCurrent.y}:null,drawerStart:drawer,drawerScreenStart:drawer*drawerW1/(drawerW0+drawer*(drawerW1-drawerW0)),drawerW0,drawerW1,drawerAxis:drawerVector.clone().normalize(),drawerPixels:Math.max(16,drawerVector.length()),id:e.pointerId,target:e.currentTarget,x:e.clientX,y:e.clientY,lastX:e.clientX,lastY:e.clientY,kind:hit?.action||'look',type:e.pointerType,folderStart:folder,pixelsPerMetre:Math.max(80,Math.abs(b.y-a.y)*innerHeight/2/.1)};
+ if(touchHotspot&&touchHotspot.kind!==hit?.action)clearHotspots();
+ pointer={direct,surface:surfaceRecord(hit),cabinetStart:cabinet,cabinetOriginalTarget:cabinetTarget,cabinetPath,cabinetOffset:cabinetCurrent?{x:e.clientX-cabinetCurrent.x,y:e.clientY-cabinetCurrent.y}:null,drawerStart:drawer,drawerScreenStart:drawer*drawerW1/(drawerW0+drawer*(drawerW1-drawerW0)),drawerW0,drawerW1,drawerAxis:drawerVector.clone().normalize(),drawerPixels:Math.max(16,drawerVector.length()),id:e.pointerId,target:e.currentTarget,x:e.clientX,y:e.clientY,lastX:e.clientX,lastY:e.clientY,kind:hit?.action||'look',type:e.pointerType,folderStart:folder,pixelsPerMetre:Math.max(80,Math.abs(b.y-a.y)*innerHeight/2/.1)};
  if(pointer.kind==='cabinet'){cabinetTarget=cabinet;cabinetVelocity=0}
  dragging=false;pullTriggered=false;pointer.target.setPointerCapture(e.pointerId);pointer.target.focus({preventScroll:true});
  if(pointer.kind==='cabinet')e.preventDefault();
@@ -180,7 +196,7 @@ function movePointer(e){
  if(!pointer){if(e.currentTarget===canvas&&e.pointerType!=='touch')hint(hitAt(e.clientX,e.clientY),e.clientX,e.clientY);return}
  if(e.pointerId!==pointer.id)return;
  const dx=e.clientX-pointer.lastX,dy=e.clientY-pointer.lastY;pointer.lastX=e.clientX;pointer.lastY=e.clientY;
- if(!['look','navigate','door'].includes(pointer.kind)&&!canActivateObject(pointer.kind)){release(e,true);return}
+ if(!pointerAccessible(pointer)){release(e,true);return}
  if(progress<.96&&pointer.kind==='look'&&pointer.type==='touch'&&Math.abs(e.clientY-pointer.y)>8&&Math.abs(e.clientY-pointer.y)>Math.abs(e.clientX-pointer.x)*1.3)pointer.kind='navigate';
  if(Math.hypot(e.clientX-pointer.x,e.clientY-pointer.y)>5)dragging=true;
  if(pointer.kind==='lamp'){
@@ -192,25 +208,31 @@ function movePointer(e){
   if(dragging&&pointer.cabinetPath){const q={x:e.clientX-pointer.cabinetOffset.x,y:e.clientY-pointer.cabinetOffset.y};let best=Infinity,amount=cabinet;for(let i=1;i<pointer.cabinetPath.length;i++){const a=pointer.cabinetPath[i-1],b=pointer.cabinetPath[i],dx=b.x-a.x,dy=b.y-a.y,t=clamp(((q.x-a.x)*dx+(q.y-a.y)*dy)/(dx*dx+dy*dy||1),0,1),distance=(q.x-a.x-dx*t)**2+(q.y-a.y-dy*t)**2;if(distance<best){best=distance;amount=T.MathUtils.lerp(a.amount,b.amount,t)}}cabinet=cabinetTarget=clamp(amount,0,1);cabinetVelocity=0;world.setCabinet(cabinet)}
  }
  else if(pointer.kind==='navigate'){target=clamp(target-dy*.003,0,1);audio.setInside(target>.4);}
- else{lookX=clamp(lookX-dx*.004,-1.2,1.2);lookY=clamp(lookY+dy*.003,-.45,.5);}
+ else if(pointer.kind==='look'&&dragging){lookX=clamp(lookX-dx*.004,-1.2,1.2);lookY=clamp(lookY+dy*.003,-.45,.5);}
  dirty=true;renderHotspot();
+}
+function pointerAccessible(p){
+ if(api.hold)return false;
+ if(['look','navigate'].includes(p.kind))return true;
+ // Canvas gestures retain their pressed surface; HTML controls retain their anchor.
+ return p.direct?canActivateObject(p.kind):!!surfaceProjection(p.surface);
 }
 function release(e,cancel=false){
  if(!pointer||e.pointerId!==pointer.id)return;
  const old=pointer;pointer=null;if(old.target.hasPointerCapture(e.pointerId))old.target.releasePointerCapture(e.pointerId);
- if(!['look','navigate'].includes(old.kind)&&!canActivateObject(old.kind))cancel=true;
+ if(!pointerAccessible(old))cancel=true;
  if(cancel&&old.kind==='cabinet'){cabinetTarget=old.cabinetOriginalTarget;cabinetVelocity=0}
  if(cancel&&old.kind==='drawer'){drawerTarget=old.drawerStart>.5?1:0;if(!drawerTarget&&viewName==='drawer')viewName='desk'}
  if(!cancel){
   if(old.kind==='drawer'){if(!dragging)api.drawer();else{drawerTarget=drawer>.5?1:0;if(drawerTarget)api.view('drawer');else if(viewName==='drawer')viewName='desk';}}
   else if(old.kind==='cabinet'){cabinetTarget=dragging?(cabinet>.5?1:0):(old.cabinetOriginalTarget>.5?0:1);cabinetVelocity=0}
   else if(old.kind==='profile'){if(!dragging)folderTarget=1;else folderTarget=folder>.5?1:0;if(folderTarget>0)openPanel('profile',old.target);}
-  else if(!dragging){if(['case','keyform','poslesvet','certificates','education','cube','robot','orbit'].includes(old.kind))openPanel(old.kind,old.target);if(old.kind==='drawer-resume')$('#object-drawer-resume').click();if(old.kind==='drawer-education')openPanel('education',old.target);if(old.kind==='cabinet')api.cabinet();if(old.kind==='door')api.go(progress>.7?0:1,true);if(old.kind==='lamp'&&!pullTriggered)api.pull();}
+  else if(!dragging&&(old.type!=='touch'||!needsTouchContext(old.kind)||confirmTouch(old.surface))){if(['case','wall-diploma','wall-hackalem','wall-certificate','education','cube','robot','orbit'].includes(old.kind))openPanel(old.kind,old.target);if(old.kind==='drawer-resume')$('#object-drawer-resume').click();if(old.kind==='drawer-education')openPanel('education',old.target);if(old.kind==='cabinet')api.cabinet();if(old.kind==='door')api.go(progress>.7?0:1,true);if(old.kind==='lamp'&&!pullTriggered)api.pull();}
  }
  if(reduced.matches&&old.kind==='lamp'){pull=pullVelocity=0;}
- pullTriggered=false;$('#object-lamp').classList.remove('pulling');dirty=true;canvas.style.cursor='grab';clearHotspots();
+ pullTriggered=false;$('#object-lamp').classList.remove('pulling');dirty=true;canvas.style.cursor='grab';clearHotspots(!cancel);
 }
-for(const el of [canvas,$('#object-lamp'),$('#object-profile'),$('#object-drawer'),$('#object-cabinet')]){
+for(const el of [canvas,...['lamp','profile','drawer','cabinet','cube','robot','orbit','wall-diploma','wall-hackalem','wall-certificate'].map(id=>$('#object-'+id))]){
  el.addEventListener('pointerdown',beginPointer);el.addEventListener('pointermove',movePointer);
  el.addEventListener('pointerup',e=>release(e));el.addEventListener('pointercancel',e=>release(e,true));
  el.addEventListener('lostpointercapture',e=>{if(pointer)release(e,true)});
@@ -221,9 +243,9 @@ canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();window.sliceFa
 function frame(time){const dt=Math.min((time-last)/1000,.04);last=time;cameraDelta=dt;requestAnimationFrame(frame);frameCount++;if(document.hidden||captureFrozen||window.sliceFatal)return;
  if(world.preparingGPU)return;
  if(lastReduced!==reduced.matches){lastReduced=reduced.matches;weatherText();dirty=true}
- const manipulating=!!pointer&&['drawer','lamp','profile','cabinet'].includes(pointer.kind);
+ const manipulating=!!pointer&&['drawer','lamp','profile','cabinet','cube','robot','orbit','wall-diploma','wall-hackalem','wall-certificate'].includes(pointer.kind);
  const allowedTarget=!world.studioReady?0:target>progress&&world.door.rotation.y<doorPassAngle?Math.min(target,doorStopProgress):target;
- let moving=Math.abs(progress-allowedTarget)>.0001||Math.abs(brightness-(light?1:0))>.0001||Math.abs(folder-folderTarget)>.0001||Math.abs(drawer-drawerTarget)>.0001||Math.abs(cabinet-cabinetTarget)>.0001||Math.abs(cabinetVelocity)>.0001||pull>.0001||Math.abs(pullVelocity)>.0001||Math.abs(world.door.rotation.y-(doorNear?doorOpenAngle:.04))>.0001;
+ let moving=(!api.hold&&Math.abs(progress-allowedTarget)>.0001)||Math.abs(brightness-(light?1:0))>.0001||Math.abs(folder-folderTarget)>.0001||Math.abs(drawer-drawerTarget)>.0001||Math.abs(cabinet-cabinetTarget)>.0001||Math.abs(cabinetVelocity)>.0001||pull>.0001||Math.abs(pullVelocity)>.0001||(!api.hold&&Math.abs(world.door.rotation.y-(doorNear?doorOpenAngle:.04))>.0001);
  if(!api.hold&&!preExit&&!manipulating){const allowed=allowedTarget,next=T.MathUtils.damp(progress,allowed,6.5,dt);progress=reduced.matches?allowed:progress+clamp(next-progress,-.02,.02);if(Math.abs(progress-allowed)<.0001)progress=allowed}
  brightness=T.MathUtils.damp(brightness,light?1:0,10,dt);folder=T.MathUtils.damp(folder,folderTarget,reduced.matches?30:10,dt);
  if(pointer?.kind!=='lamp'){pullVelocity+=(-pull*180-pullVelocity*22)*dt;pull=clamp(pull+pullVelocity*dt,0,.12);if(pull<.0001&&Math.abs(pullVelocity)<.002){pull=pullVelocity=0}}
@@ -232,9 +254,9 @@ function frame(time){const dt=Math.min((time-last)/1000,.04);last=time;cameraDel
  const weatherMoving=world.exterior?.weather?.animate(dt,camera,reduced.matches||rainPaused||api.hold);
  // Rain changes shader time only. Retain the last settled camera, billboard
  // transforms and shadow maps until input, motion, resize or asset changes.
- const sceneChanged=dirty||moving||cameraSettling>0;
+ const sceneChanged=dirty||moving||(!api.hold&&cameraSettling>0);
  if(sceneChanged||weatherMoving){
-  if(sceneChanged){if(dirty)cameraSettling=90;else if(cameraSettling>0)cameraSettling--;if(manipulating)updateActions();else updateCamera();world.daylight.update();world.exterior?.update?.(camera)}
+  if(sceneChanged){if(dirty)cameraSettling=90;else if(!api.hold&&cameraSettling>0)cameraSettling--;if(manipulating||(api.hold&&cameraStarted))updateActions();else updateCamera();world.daylight.update();world.exterior?.update?.(camera)}
   // GPU preparation still renders its own camera variants with automatic shadows.
   renderer.shadowMap.autoUpdate=!world.studioReady;renderer.shadowMap.needsUpdate=sceneChanged;
   if(sceneChanged)shadowUpdates++;else cachedShadowFrames++;

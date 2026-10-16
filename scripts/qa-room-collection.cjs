@@ -1,6 +1,7 @@
+const {activateRoomAction}=require('./qa-room-native-action.cjs');
 const{chromium}=require('playwright'),fs=require('fs'),path=require('path'),assert=require('assert/strict');
 const base=process.argv[2]||'http://127.0.0.1:4331/',label=process.argv[3]||'local',out=path.resolve('qa-private/collection/'+label);fs.mkdirSync(out,{recursive:true});
-const report={at:new Date().toISOString(),base,checks:[],scenarios:[],passed:false},ok=(n,v)=>{assert(v,n);report.checks.push(n)},click=(p,s,mobile)=>mobile?p.locator(s).tap():p.locator(s).click();
+const report={at:new Date().toISOString(),base,checks:[],scenarios:[],passed:false},ok=(n,v)=>{assert(v,n);report.checks.push(n)},click=activateRoomAction;
 async function menu(p,id,mobile){if(await p.locator('#controls').isHidden())await click(p,'#actions-toggle',mobile);await click(p,id,mobile)}
 async function drag(p,c,mobile){const r=await p.locator('#item-canvas').boundingBox(),a={x:r.x+r.width*.4,y:r.y+r.height*.5},b={x:a.x+60,y:a.y+25};if(mobile){const s=await c.newCDPSession(p);await s.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[a]});for(let i=1;i<=10;i++){await s.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:a.x+(b.x-a.x)*i/10,y:a.y+(b.y-a.y)*i/10}]});await p.waitForTimeout(20)}await s.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await s.detach();await p.waitForTimeout(350)}else{await p.mouse.move(a.x,a.y);await p.mouse.down();await p.mouse.move(b.x,b.y,{steps:10});await p.mouse.up()}}
 const view=p=>p.evaluate(()=>__COLLECTION_VIEWER__.inspect());const idle=p=>p.waitForFunction(()=>!__COLLECTION_VIEWER__.inspect().busy);

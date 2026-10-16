@@ -1,0 +1,86 @@
+{
+  "at": "2026-10-16T15:17:32.183Z",
+  "method": "Every listed actual full PNG viewed through view_image; no image editing.",
+  "frames": [
+    {
+      "path": "comparison/desktop-desk-before.png",
+      "sha256": "80f8564de0e999e3a166e955d0ed02c1a1f6e7c8f1eed27d791435ea6e724bfa"
+    },
+    {
+      "path": "comparison/desktop-overview-before.png",
+      "sha256": "4aed846b80b6d1cbd77505ae619679f0add5fa6f27958195ec33a6d908b7aeab"
+    },
+    {
+      "path": "comparison/desktop-cabinet-before.png",
+      "sha256": "ffe452988be0cfc3e13f661519b74604780aa13752fe7e93516bcc5e51691d89"
+    },
+    {
+      "path": "comparison/desktop-drawer-before.png",
+      "sha256": "58d3eba6c0ad54eab0a04d90bb1afd67e4c3292eb4764f452aea1d26b198f032"
+    },
+    {
+      "path": "comparison/desktop-window-before.png",
+      "sha256": "c2a8a45cc3827554c59a22a8694264ca40b4246fd287f7baadfb482ea9b31936"
+    },
+    {
+      "path": "comparison/desktop-desk-after.png",
+      "sha256": "8098714f64280064f98d5eb714bc30b4e7d2c3e4d12e6d1a119f86b4d92b9043"
+    },
+    {
+      "path": "comparison/desktop-overview-after.png",
+      "sha256": "1e5622dfad88f048cf11f10d67ef48468f20fde616d38e44d5187a2f346c02dc"
+    },
+    {
+      "path": "comparison/desktop-cabinet-after.png",
+      "sha256": "83d5b839f7aeea7a98adf1bff278c4f54d696d0b6c7d6a1f3da7eb3361484bff"
+    },
+    {
+      "path": "comparison/desktop-drawer-after.png",
+      "sha256": "d7fbe5e8caa15a5d4dde46aeaa626337db6312983e3e0ebaad022fa92415791a"
+    },
+    {
+      "path": "comparison/desktop-window-after.png",
+      "sha256": "ae5f970abc7b5a42c10591020c059470182fdeb08262224487895d976def5535"
+    },
+    {
+      "path": "comparison/touch-desk-before.png",
+      "sha256": "9d90562ce4a44645decad29a57876cdb645790c6ff868f1f23d76e9e5e92952f"
+    },
+    {
+      "path": "comparison/touch-overview-before.png",
+      "sha256": "a3b435bc8506dfa64dc7519093c5b84faa809048b9480cdbb544f04018d81498"
+    },
+    {
+      "path": "comparison/touch-cabinet-before.png",
+      "sha256": "9d7476fa70937b8df4dfb0b894f9c910339dabbba689bd84e1fe97ba05bedbef"
+    },
+    {
+      "path": "comparison/touch-drawer-before.png",
+      "sha256": "88e35155d8c8c84a02f9c77a8b357bc698ddd6a9d3fce19ef148fb13e992576f"
+    },
+    {
+      "path": "comparison/touch-window-before.png",
+      "sha256": "3ad908553f4ca29ab3578839b20a104f3f7d004ca9c356214269b4eccbc23d40"
+    },
+    {
+      "path": "comparison/touch-desk-after.png",
+      "sha256": "42b3f76dd24f6bc9fd4240d3f2598561293fffc1085070efb68ffee4ba7526ca"
+    },
+    {
+      "path": "comparison/touch-overview-after.png",
+      "sha256": "48e09e77d7a5e65932ca4a4249fd780cd9acd62c9826b33cb5e2e192af026212"
+    },
+    {
+      "path": "comparison/touch-cabinet-after.png",
+      "sha256": "9837234b2539ad5bbb876ab4d7aa8c35e1dc60c29f052b082fa6d6f7b8266349"
+    },
+    {
+      "path": "comparison/touch-drawer-after.png",
+      "sha256": "c3e4886629f1a6bcf213adc34b06ac69114d77c8490d44ac08872698d9705e04"
+    },
+    {
+      "path": "comparison/touch-window-after.png",
+      "sha256": "3ad908553f4ca29ab3578839b20a104f3f7d004ca9c356214269b4eccbc23d40"
+    }
+  ]
+}

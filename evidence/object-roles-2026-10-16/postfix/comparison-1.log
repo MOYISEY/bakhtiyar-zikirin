@@ -1,0 +1,37 @@
+COLD before desktop ordinary 255056 bytes 11 requests
+COLD before desktop room 7996347 bytes 98 requests
+COLD before touch ordinary 244321 bytes 10 requests
+COLD before touch room 7996347 bytes 98 requests
+COLD after desktop ordinary 255056 bytes 11 requests
+COLD after desktop room 7919903 bytes 96 requests
+COLD after touch ordinary 244321 bytes 10 requests
+COLD after touch room 7919903 bytes 96 requests
+COLD after desktop ordinary 255056 bytes 11 requests
+COLD after desktop room 7919903 bytes 96 requests
+COLD after touch ordinary 244321 bytes 10 requests
+COLD after touch room 7919903 bytes 96 requests
+COLD before desktop ordinary 255056 bytes 11 requests
+COLD before desktop room 7996347 bytes 98 requests
+COLD before touch ordinary 244321 bytes 10 requests
+COLD before touch room 7996347 bytes 98 requests
+FRAME before desktop desk 836/1192749
+FRAME before desktop overview 896/1223793
+FRAME before desktop cabinet 779/1054442
+FRAME before desktop drawer 770/1141637
+FRAME before desktop window 793/1165488
+FRAME after desktop desk 833/1192627
+FRAME after desktop overview 889/1223067
+FRAME after desktop cabinet 777/1054310
+FRAME after desktop drawer 767/1141515
+FRAME after desktop window 792/1165380
+FRAME before touch desk 773/1100385
+FRAME before touch overview 772/1068422
+FRAME before touch cabinet 787/1075780
+FRAME before touch drawer 719/1069653
+FRAME before touch window 786/1148322
+FRAME after touch desk 770/1100263
+FRAME after touch overview 772/1068294
+FRAME after touch cabinet 787/1075652
+FRAME after touch drawer 716/1069531
+FRAME after touch window 785/1148214
+{"passed":true,"cold":16,"frames":20}

@@ -1,0 +1,9 @@
+PASS desktop-no-preference
+PASS desktop-reduce
+{"passed":false,"checks":553,"scenarios":2,"failure":{"name":"touch-no-preference","message":"page.waitForFunction: Timeout 30000ms exceeded.","errors":[]}}
+page.waitForFunction: Timeout 30000ms exceeded.
+    at cabinetOpen (C:\Users\aldia\Documents\Codex\2026-10-13\task\portfolio\scripts\qa-room-object-roles.cjs:7:251)
+    at async C:\Users\aldia\Documents\Codex\2026-10-13\task\portfolio\scripts\qa-room-object-roles.cjs:21:548 {
+  log: [],
+  name: 'TimeoutError'
+}
