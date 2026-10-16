@@ -60,4 +60,10 @@ Touch/desk в этой статичной выборке не рендерилс
 
 Два reference Library-вложения найдены по метаданным/OCR, но их PNG-пиксели недоступны из-за недоступного механизма передачи. Они не выдаются за просмотренные: использован явно разрешённый fallback — воспроизведение текущего сайта. Физический Android, iOS/Safari и screen reader не тестировались. Headless Edge и touch emulation не заменяют эти проверки.
 
-Публикация проверяется отдельно после push: точный Pages head SHA и байты live файлов, затем реальные сценарии обеих версий.
+## Live после публикации
+
+Функциональный коммит [d868e309](https://github.com/MOYISEY/bakhtiyar-zikirin/commit/d868e309b94ae334e9f969a57d3df767bc9b1b8c) опубликован: [успешный Pages](https://github.com/MOYISEY/bakhtiyar-zikirin/actions/runs/38942335647), точный head SHA подтверждён. [Квитанция](live/deployment-functional.json): 96 bare/cache-busted ответов, все SHA-256 совпали, origin/main совпал с проверенным коммитом; проверены current и previous assets.
+
+[Нативные live-сценарии](live/verification/verification.json): 438 компонентных и 28 edge-проверок, 2 аудита по 14 точных моделей, 4 холодных загрузки ordinary/room × desktop/touch. В [холодном live](live/cold/smoke.json) JS errors, requestfailed и HTTP errors равны нулю; window использует shadow cache. Отдельный [model-аудит](live/models.json) сохраняет собственные сетевые наблюдения. Все фазы готовы. Новые live-кадры реально просмотрены: [список](live/visual-reviewed.json).
+
+Следующий коммит содержит только эти QA-артефакты. Published docs tree остаётся c177bb5d924e0a4f81292bad363e817166a32b9b; приложение побайтно то же. Его отдельная проверка точного Pages head SHA и live файлов выполняется перед финальным сообщением; квитанция сохраняется в локальном workspace, чтобы не создавать самоссылочный коммит с собственным SHA.

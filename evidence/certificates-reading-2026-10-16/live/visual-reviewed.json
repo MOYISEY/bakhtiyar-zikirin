@@ -1,0 +1,25 @@
+{
+  "method": "Original live PNG pixels viewed with view_image before this evidence commit.",
+  "frames": [
+    {
+      "path": "live/screenshots/desktop-ru-dark-documents.png",
+      "sha256": "23a07320c2a0b01caea0097d5402465d8b07f4ff37b5541a42e95b27be3ee74e"
+    },
+    {
+      "path": "live/screenshots/touch-ru-light-documents.png",
+      "sha256": "59206bf9222a340c6f40347e094a7904ac326d0fb473bc0d0d58194663d7bf56"
+    },
+    {
+      "path": "live/screenshots/room-touch-ru-notes.png",
+      "sha256": "6d66b636b58b8d19294f4e3c5d04eb025d8a0e35e8b2f04950ae4f015dee9ad5"
+    },
+    {
+      "path": "live/cold/desktop-window.png",
+      "sha256": "cd65afee15728572af739648a52d290fc8f88984082cb56e216b8629c53b832c"
+    },
+    {
+      "path": "live/cold/mobile-window.png",
+      "sha256": "9e73302b7f8871d9c543e44c184ecc0831fca7a0ce331928722c5bce8c8f9ed3"
+    }
+  ]
+}

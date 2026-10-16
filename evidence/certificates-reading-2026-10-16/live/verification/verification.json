@@ -1,0 +1,39 @@
+{
+  "sha": "d868e309b94ae334e9f969a57d3df767bc9b1b8c",
+  "base": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "jobs": [
+    {
+      "name": "components",
+      "script": "scripts/qa-certificates-reading.cjs",
+      "scriptSha": "4c752a8eca207d9583a38841d100f0b40505c78a08640a3cf52f31107e8493bd",
+      "exit": 0,
+      "durationMs": 290568,
+      "log": "components-1.log"
+    },
+    {
+      "name": "edges",
+      "script": "scripts/qa-document-strip-edges.cjs",
+      "scriptSha": "678ef3bb3b5224adbecd71df908dc1f061cbb2b6b7cca20464263789049d718a",
+      "exit": 0,
+      "durationMs": 24892,
+      "log": "edges-1.log"
+    },
+    {
+      "name": "models",
+      "script": "C:\\Users\\aldia\\Documents\\Codex\\2026-10-15\\task-2/cert-reading-gzip-audit.cjs",
+      "scriptSha": "482f918cbf07615fc3a5893bcac214350d6ef813bdafc6dc964d363c1c502cff",
+      "exit": 0,
+      "durationMs": 35551,
+      "log": "models-1.log"
+    },
+    {
+      "name": "cold",
+      "script": "C:\\Users\\aldia\\Documents\\Codex\\2026-10-15\\task-2/cert-reading-live-smoke.cjs",
+      "scriptSha": "0efe94d764b0551be41a7f3824533eb0d7ac14226f970b4fefb2e9578661e5b9",
+      "exit": 0,
+      "durationMs": 87637,
+      "log": "cold-1.log"
+    }
+  ],
+  "passed": true
+}

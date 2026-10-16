@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-16T17:45:56.811Z",
+  "at": "2026-10-16T17:57:01.919Z",
   "method": "Original bytes, preserved in Git with -text for this evidence folder. Manifest excludes itself.",
   "files": [
     {
@@ -453,6 +453,116 @@
       "sha256": "62b59052b02ff214ced826586243c28beda13c9d666a5efb3947cb8444e59926"
     },
     {
+      "path": "live/cold/desktop-corridor.png",
+      "bytes": 771974,
+      "sha256": "c8e724f14720eb813d85b6d705897726a2cdf8b4df1f5e17c29bbceca1f8c14c"
+    },
+    {
+      "path": "live/cold/desktop-ordinary.png",
+      "bytes": 378180,
+      "sha256": "53f965eac5b552528bb22f3dec114507ab4a623e82f3ccd3fac2217caefb9c67"
+    },
+    {
+      "path": "live/cold/desktop-window.png",
+      "bytes": 848551,
+      "sha256": "cd65afee15728572af739648a52d290fc8f88984082cb56e216b8629c53b832c"
+    },
+    {
+      "path": "live/cold/mobile-corridor.png",
+      "bytes": 446376,
+      "sha256": "cc51630b5ec53a97760da3878a356f83fbbe12475666eac92ec17e42af9a677f"
+    },
+    {
+      "path": "live/cold/mobile-ordinary.png",
+      "bytes": 100597,
+      "sha256": "e1556a0e5388d83bd1991bf2dff7f71580083bf509b434fa0b5e0aec617e6883"
+    },
+    {
+      "path": "live/cold/mobile-window.png",
+      "bytes": 727147,
+      "sha256": "9e73302b7f8871d9c543e44c184ecc0831fca7a0ce331928722c5bce8c8f9ed3"
+    },
+    {
+      "path": "live/cold/smoke.json",
+      "bytes": 69222,
+      "sha256": "51599b06f61b03688ac0a023d1460c38c9859c3dc400039408d721461951fc30"
+    },
+    {
+      "path": "live/components.json",
+      "bytes": 109296,
+      "sha256": "a7bdf6650ad4856d569d8b65f8cfedbd7e97926f8477def2922fe73ae39fbb99"
+    },
+    {
+      "path": "live/deployment-functional.json",
+      "bytes": 37248,
+      "sha256": "67a19bc8611f3cd52f4df37ce8874234153071e930644b0d0abb50eadb795e9c"
+    },
+    {
+      "path": "live/edges.json",
+      "bytes": 2628,
+      "sha256": "86856334e47a5c1c952e31820556b969dbee53f40b268cf7aae31a70b7cc7480"
+    },
+    {
+      "path": "live/models.json",
+      "bytes": 44900,
+      "sha256": "0124261f5174bbdfab993f97eadb905f60954aab152cb995b8962b3e572c5a67"
+    },
+    {
+      "path": "live/screenshots/desktop-ru-dark-documents.png",
+      "bytes": 133719,
+      "sha256": "23a07320c2a0b01caea0097d5402465d8b07f4ff37b5541a42e95b27be3ee74e"
+    },
+    {
+      "path": "live/screenshots/room-desktop-en-notes.png",
+      "bytes": 359249,
+      "sha256": "1c0096939cf7ec5985367f0dc620f0733302f0d6e11818f8237fcd57021592f8"
+    },
+    {
+      "path": "live/screenshots/room-touch-ru-notes.png",
+      "bytes": 75719,
+      "sha256": "6d66b636b58b8d19294f4e3c5d04eb025d8a0e35e8b2f04950ae4f015dee9ad5"
+    },
+    {
+      "path": "live/screenshots/touch-kk-light-notes.png",
+      "bytes": 60792,
+      "sha256": "37f19945b5708149f272555b7998f85673f6fa8a0992d4a9430ba0425fd8b084"
+    },
+    {
+      "path": "live/screenshots/touch-ru-light-documents.png",
+      "bytes": 52085,
+      "sha256": "59206bf9222a340c6f40347e094a7904ac326d0fb473bc0d0d58194663d7bf56"
+    },
+    {
+      "path": "live/verification/cold-1.log",
+      "bytes": 423,
+      "sha256": "0c6f0e7a0262d3881db057af7d02230baa2a005c3d6a4e2f9b2eee026d275657"
+    },
+    {
+      "path": "live/verification/components-1.log",
+      "bytes": 418,
+      "sha256": "d0407631cb0c60630dfddf3db2ca535a958d3b39cbcdfda0f1422892691d7ba6"
+    },
+    {
+      "path": "live/verification/edges-1.log",
+      "bytes": 202,
+      "sha256": "4ec124db94201a4333207040665045cc8a4c20f74df4d25584176010f8116dbb"
+    },
+    {
+      "path": "live/verification/models-1.log",
+      "bytes": 183,
+      "sha256": "0f7b0d0c41c332a6847dd24e0afe8550ff8e3a935ec8461a29f1efd6420c0e6d"
+    },
+    {
+      "path": "live/verification/verification.json",
+      "bytes": 1248,
+      "sha256": "aaa14206fe7f3d595b9200df7960de8316ad80080cd9cbbde7904a594eeb46fe"
+    },
+    {
+      "path": "live/visual-reviewed.json",
+      "bytes": 868,
+      "sha256": "538353ea45544a691bcce77ba370f8494115ac5d06c9b22efb3e77c9ea61bdfd"
+    },
+    {
       "path": "modal/checks.json",
       "bytes": 2565,
       "sha256": "8262963dca08ae52dfe2ac5797489507e1260afd073e1c6739071c9209b36198"
@@ -506,6 +616,16 @@
       "path": "qa-source/cert-reading-gzip-audit.cjs",
       "bytes": 3092,
       "sha256": "482f918cbf07615fc3a5893bcac214350d6ef813bdafc6dc964d363c1c502cff"
+    },
+    {
+      "path": "qa-source/cert-reading-live-smoke.cjs",
+      "bytes": 3242,
+      "sha256": "0efe94d764b0551be41a7f3824533eb0d7ac14226f970b4fefb2e9578661e5b9"
+    },
+    {
+      "path": "qa-source/cert-reading-live-validation.cjs",
+      "bytes": 1629,
+      "sha256": "1d7d60f7b204c0b68ee1aae9acec8e2f5d2baa51d0dae5795596b689b3d5a797"
     },
     {
       "path": "qa-source/cert-reading-performance.cjs",
@@ -608,6 +728,11 @@
       "sha256": "fcf4131864b1427d2f4b99284bda84875086bfe1ec012a6c443fdeb07ca50961"
     },
     {
+      "path": "qa-source/verify-cert-reading-deployment.cjs",
+      "bytes": 3280,
+      "sha256": "638a76ee2b4463097dfb819233b771bc4698d709c28571569f9e84e7c10daffb"
+    },
+    {
       "path": "qa-source/with-cert-exact-server.cjs",
       "bytes": 664,
       "sha256": "3f51c85be2d0c1dd23729477a02b090f9ba75ca736561117ca0a0b65f67623fe"
@@ -624,8 +749,8 @@
     },
     {
       "path": "QA.md",
-      "bytes": 13064,
-      "sha256": "79a0d681a96198eaac68dd78e56f88b608f40236e3a79ad5ff89bd422f0e611b"
+      "bytes": 14704,
+      "sha256": "67bdcdfcf488ba05e52fadcf9d32b6c562a8c5312a86c45fe5cf290cb57fe128"
     },
     {
       "path": "regressions/asset-history-1.log",
