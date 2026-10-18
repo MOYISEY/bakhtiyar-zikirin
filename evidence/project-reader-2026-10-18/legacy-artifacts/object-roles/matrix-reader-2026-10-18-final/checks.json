@@ -1,0 +1,668 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "checks": [
+    "desktop-ru ordinary light: language and content fit",
+    "desktop-ru ordinary dark: language and content fit",
+    "desktop-ru: ordinary native education has2schools and3documents",
+    "desktop-ru: ordinary native contacts and one CV source",
+    "desktop-ru: ordinary genuine document exact bytes education/diploma-public.webp",
+    "desktop-ru: ordinary genuine document exact bytes education/hackalem-2026-public.png",
+    "desktop-ru: ordinary genuine document exact bytes education/iqadam-2025-public.webp",
+    "desktop-ru: ordinary9case catalog remains",
+    "desktop-ru: actual room entry preserves chosen language",
+    "desktop-ru: ordinary independently retains about.iqadamPeriod",
+    "desktop-ru: ordinary independently retains about.iqadam2025Period",
+    "desktop-ru: ordinary independently retains about.iqadam2025Body",
+    "desktop-ru: ordinary independently retains about.adoPeriod",
+    "desktop-ru: ordinary independently retains about.adoBody",
+    "desktop-ru: ordinary independently retains education.collegeName",
+    "desktop-ru: ordinary independently retains education.aiuName",
+    "desktop-ru: ordinary independently retains education.collegePeriod",
+    "desktop-ru: ordinary independently retains education.aiuPeriod",
+    "desktop-ru: room independently retains about.intro",
+    "desktop-ru: room independently retains about.iqadamPeriod",
+    "desktop-ru: room independently retains about.iqadam2025Period",
+    "desktop-ru: room independently retains about.iqadam2025Body",
+    "desktop-ru: room independently retains about.adoPeriod",
+    "desktop-ru: room independently retains about.adoBody",
+    "desktop-ru: book three roles and native education navigation",
+    "desktop-ru: room has native schools and all three readable documents",
+    "desktop-ru: room shares the same real diploma",
+    "desktop-ru: room shares the same real hackalem",
+    "desktop-ru: room shares the same real certificate",
+    "desktop-ru: versions share one approved resume and exact LinkedIn",
+    "desktop-ru: shared CV bytes unchanged",
+    "desktop-ru: room curated6projects have their own content",
+    "desktop-ru: native project helio includes stack/context/result/limits",
+    "desktop-ru: native project keyform includes stack/context/result/limits",
+    "desktop-ru: native project poslesvet includes stack/context/result/limits",
+    "desktop-ru: native project framepack includes stack/context/result/limits",
+    "desktop-ru: native project shapecheck includes stack/context/result/limits",
+    "desktop-ru: native project rowline includes stack/context/result/limits",
+    "desktop-ru: optional return preserves language and theme",
+    "desktop-ru: no runtime errors",
+    "desktop-kk ordinary light: language and content fit",
+    "desktop-kk ordinary dark: language and content fit",
+    "desktop-kk: ordinary native education has2schools and3documents",
+    "desktop-kk: ordinary native contacts and one CV source",
+    "desktop-kk: ordinary genuine document exact bytes education/diploma-public.webp",
+    "desktop-kk: ordinary genuine document exact bytes education/hackalem-2026-public.png",
+    "desktop-kk: ordinary genuine document exact bytes education/iqadam-2025-public.webp",
+    "desktop-kk: ordinary9case catalog remains",
+    "desktop-kk: actual room entry preserves chosen language",
+    "desktop-kk: ordinary independently retains about.iqadamPeriod",
+    "desktop-kk: ordinary independently retains about.iqadam2025Period",
+    "desktop-kk: ordinary independently retains about.iqadam2025Body",
+    "desktop-kk: ordinary independently retains about.adoPeriod",
+    "desktop-kk: ordinary independently retains about.adoBody",
+    "desktop-kk: ordinary independently retains education.collegeName",
+    "desktop-kk: ordinary independently retains education.aiuName",
+    "desktop-kk: ordinary independently retains education.collegePeriod",
+    "desktop-kk: ordinary independently retains education.aiuPeriod",
+    "desktop-kk: room independently retains about.intro",
+    "desktop-kk: room independently retains about.iqadamPeriod",
+    "desktop-kk: room independently retains about.iqadam2025Period",
+    "desktop-kk: room independently retains about.iqadam2025Body",
+    "desktop-kk: room independently retains about.adoPeriod",
+    "desktop-kk: room independently retains about.adoBody",
+    "desktop-kk: book three roles and native education navigation",
+    "desktop-kk: room has native schools and all three readable documents",
+    "desktop-kk: room shares the same real diploma",
+    "desktop-kk: room shares the same real hackalem",
+    "desktop-kk: room shares the same real certificate",
+    "desktop-kk: versions share one approved resume and exact LinkedIn",
+    "desktop-kk: shared CV bytes unchanged",
+    "desktop-kk: room curated6projects have their own content",
+    "desktop-kk: native project helio includes stack/context/result/limits",
+    "desktop-kk: native project keyform includes stack/context/result/limits",
+    "desktop-kk: native project poslesvet includes stack/context/result/limits",
+    "desktop-kk: native project framepack includes stack/context/result/limits",
+    "desktop-kk: native project shapecheck includes stack/context/result/limits",
+    "desktop-kk: native project rowline includes stack/context/result/limits",
+    "desktop-kk: optional return preserves language and theme",
+    "desktop-kk: no runtime errors",
+    "desktop-en ordinary light: language and content fit",
+    "desktop-en ordinary dark: language and content fit",
+    "desktop-en: ordinary native education has2schools and3documents",
+    "desktop-en: ordinary native contacts and one CV source",
+    "desktop-en: ordinary genuine document exact bytes education/diploma-public.webp",
+    "desktop-en: ordinary genuine document exact bytes education/hackalem-2026-public.png",
+    "desktop-en: ordinary genuine document exact bytes education/iqadam-2025-public.webp",
+    "desktop-en: ordinary9case catalog remains",
+    "desktop-en: actual room entry preserves chosen language",
+    "desktop-en: ordinary independently retains about.iqadamPeriod",
+    "desktop-en: ordinary independently retains about.iqadam2025Period",
+    "desktop-en: ordinary independently retains about.iqadam2025Body",
+    "desktop-en: ordinary independently retains about.adoPeriod",
+    "desktop-en: ordinary independently retains about.adoBody",
+    "desktop-en: ordinary independently retains education.collegeName",
+    "desktop-en: ordinary independently retains education.aiuName",
+    "desktop-en: ordinary independently retains education.collegePeriod",
+    "desktop-en: ordinary independently retains education.aiuPeriod",
+    "desktop-en: room independently retains about.intro",
+    "desktop-en: room independently retains about.iqadamPeriod",
+    "desktop-en: room independently retains about.iqadam2025Period",
+    "desktop-en: room independently retains about.iqadam2025Body",
+    "desktop-en: room independently retains about.adoPeriod",
+    "desktop-en: room independently retains about.adoBody",
+    "desktop-en: book three roles and native education navigation",
+    "desktop-en: room has native schools and all three readable documents",
+    "desktop-en: room shares the same real diploma",
+    "desktop-en: room shares the same real hackalem",
+    "desktop-en: room shares the same real certificate",
+    "desktop-en: versions share one approved resume and exact LinkedIn",
+    "desktop-en: shared CV bytes unchanged",
+    "desktop-en: room curated6projects have their own content",
+    "desktop-en: native project helio includes stack/context/result/limits",
+    "desktop-en: native project keyform includes stack/context/result/limits",
+    "desktop-en: native project poslesvet includes stack/context/result/limits",
+    "desktop-en: native project framepack includes stack/context/result/limits",
+    "desktop-en: native project shapecheck includes stack/context/result/limits",
+    "desktop-en: native project rowline includes stack/context/result/limits",
+    "desktop-en: optional return preserves language and theme",
+    "desktop-en: no runtime errors",
+    "touch-ru ordinary light: language and content fit",
+    "touch-ru ordinary dark: language and content fit",
+    "touch-ru: ordinary native education has2schools and3documents",
+    "touch-ru: ordinary native contacts and one CV source",
+    "touch-ru: ordinary genuine document exact bytes education/diploma-public.webp",
+    "touch-ru: ordinary genuine document exact bytes education/hackalem-2026-public.png",
+    "touch-ru: ordinary genuine document exact bytes education/iqadam-2025-public.webp",
+    "touch-ru: ordinary9case catalog remains",
+    "touch-ru: actual room entry preserves chosen language",
+    "touch-ru: ordinary independently retains about.iqadamPeriod",
+    "touch-ru: ordinary independently retains about.iqadam2025Period",
+    "touch-ru: ordinary independently retains about.iqadam2025Body",
+    "touch-ru: ordinary independently retains about.adoPeriod",
+    "touch-ru: ordinary independently retains about.adoBody",
+    "touch-ru: ordinary independently retains education.collegeName",
+    "touch-ru: ordinary independently retains education.aiuName",
+    "touch-ru: ordinary independently retains education.collegePeriod",
+    "touch-ru: ordinary independently retains education.aiuPeriod",
+    "touch-ru: room independently retains about.intro",
+    "touch-ru: room independently retains about.iqadamPeriod",
+    "touch-ru: room independently retains about.iqadam2025Period",
+    "touch-ru: room independently retains about.iqadam2025Body",
+    "touch-ru: room independently retains about.adoPeriod",
+    "touch-ru: room independently retains about.adoBody",
+    "touch-ru: book three roles and native education navigation",
+    "touch-ru: room has native schools and all three readable documents",
+    "touch-ru: room shares the same real diploma",
+    "touch-ru: room shares the same real hackalem",
+    "touch-ru: room shares the same real certificate",
+    "touch-ru: versions share one approved resume and exact LinkedIn",
+    "touch-ru: shared CV bytes unchanged",
+    "touch-ru: room curated6projects have their own content",
+    "touch-ru: native project helio includes stack/context/result/limits",
+    "touch-ru: native project keyform includes stack/context/result/limits",
+    "touch-ru: native project poslesvet includes stack/context/result/limits",
+    "touch-ru: native project framepack includes stack/context/result/limits",
+    "touch-ru: native project shapecheck includes stack/context/result/limits",
+    "touch-ru: native project rowline includes stack/context/result/limits",
+    "touch-ru: optional return preserves language and theme",
+    "touch-ru: no runtime errors",
+    "touch-kk ordinary light: language and content fit",
+    "touch-kk ordinary dark: language and content fit",
+    "touch-kk: ordinary native education has2schools and3documents",
+    "touch-kk: ordinary native contacts and one CV source",
+    "touch-kk: ordinary genuine document exact bytes education/diploma-public.webp",
+    "touch-kk: ordinary genuine document exact bytes education/hackalem-2026-public.png",
+    "touch-kk: ordinary genuine document exact bytes education/iqadam-2025-public.webp",
+    "touch-kk: ordinary9case catalog remains",
+    "touch-kk: actual room entry preserves chosen language",
+    "touch-kk: ordinary independently retains about.iqadamPeriod",
+    "touch-kk: ordinary independently retains about.iqadam2025Period",
+    "touch-kk: ordinary independently retains about.iqadam2025Body",
+    "touch-kk: ordinary independently retains about.adoPeriod",
+    "touch-kk: ordinary independently retains about.adoBody",
+    "touch-kk: ordinary independently retains education.collegeName",
+    "touch-kk: ordinary independently retains education.aiuName",
+    "touch-kk: ordinary independently retains education.collegePeriod",
+    "touch-kk: ordinary independently retains education.aiuPeriod",
+    "touch-kk: room independently retains about.intro",
+    "touch-kk: room independently retains about.iqadamPeriod",
+    "touch-kk: room independently retains about.iqadam2025Period",
+    "touch-kk: room independently retains about.iqadam2025Body",
+    "touch-kk: room independently retains about.adoPeriod",
+    "touch-kk: room independently retains about.adoBody",
+    "touch-kk: book three roles and native education navigation",
+    "touch-kk: room has native schools and all three readable documents",
+    "touch-kk: room shares the same real diploma",
+    "touch-kk: room shares the same real hackalem",
+    "touch-kk: room shares the same real certificate",
+    "touch-kk: versions share one approved resume and exact LinkedIn",
+    "touch-kk: shared CV bytes unchanged",
+    "touch-kk: room curated6projects have their own content",
+    "touch-kk: native project helio includes stack/context/result/limits",
+    "touch-kk: native project keyform includes stack/context/result/limits",
+    "touch-kk: native project poslesvet includes stack/context/result/limits",
+    "touch-kk: native project framepack includes stack/context/result/limits",
+    "touch-kk: native project shapecheck includes stack/context/result/limits",
+    "touch-kk: native project rowline includes stack/context/result/limits",
+    "touch-kk: optional return preserves language and theme",
+    "touch-kk: no runtime errors",
+    "touch-en ordinary light: language and content fit",
+    "touch-en ordinary dark: language and content fit",
+    "touch-en: ordinary native education has2schools and3documents",
+    "touch-en: ordinary native contacts and one CV source",
+    "touch-en: ordinary genuine document exact bytes education/diploma-public.webp",
+    "touch-en: ordinary genuine document exact bytes education/hackalem-2026-public.png",
+    "touch-en: ordinary genuine document exact bytes education/iqadam-2025-public.webp",
+    "touch-en: ordinary9case catalog remains",
+    "touch-en: actual room entry preserves chosen language",
+    "touch-en: ordinary independently retains about.iqadamPeriod",
+    "touch-en: ordinary independently retains about.iqadam2025Period",
+    "touch-en: ordinary independently retains about.iqadam2025Body",
+    "touch-en: ordinary independently retains about.adoPeriod",
+    "touch-en: ordinary independently retains about.adoBody",
+    "touch-en: ordinary independently retains education.collegeName",
+    "touch-en: ordinary independently retains education.aiuName",
+    "touch-en: ordinary independently retains education.collegePeriod",
+    "touch-en: ordinary independently retains education.aiuPeriod",
+    "touch-en: room independently retains about.intro",
+    "touch-en: room independently retains about.iqadamPeriod",
+    "touch-en: room independently retains about.iqadam2025Period",
+    "touch-en: room independently retains about.iqadam2025Body",
+    "touch-en: room independently retains about.adoPeriod",
+    "touch-en: room independently retains about.adoBody",
+    "touch-en: book three roles and native education navigation",
+    "touch-en: room has native schools and all three readable documents",
+    "touch-en: room shares the same real diploma",
+    "touch-en: room shares the same real hackalem",
+    "touch-en: room shares the same real certificate",
+    "touch-en: versions share one approved resume and exact LinkedIn",
+    "touch-en: shared CV bytes unchanged",
+    "touch-en: room curated6projects have their own content",
+    "touch-en: native project helio includes stack/context/result/limits",
+    "touch-en: native project keyform includes stack/context/result/limits",
+    "touch-en: native project poslesvet includes stack/context/result/limits",
+    "touch-en: native project framepack includes stack/context/result/limits",
+    "touch-en: native project shapecheck includes stack/context/result/limits",
+    "touch-en: native project rowline includes stack/context/result/limits",
+    "touch-en: optional return preserves language and theme",
+    "touch-en: no runtime errors"
+  ],
+  "cases": [
+    {
+      "name": "desktop-ru",
+      "ordinary": {
+        "experience": "02 / ОпытОпытFrontend-разработчик из Астаны. Разрабатываю интерфейсы на React и TypeScript, подключаю API. Проверяю пользовательские сценарии и сохранение данных.Март 2026 — апрель 2026iQADAM SystemsFrontend-разработчик с функциями тестированияFrontend-модули, интеграция API и проверка приложения.10 ноября — 5 декабря 2025iQADAM SystemsПрактика frontend-разработкиОтдельная практика в iQADAM Systems. Сертификат о её завершении выдан 5 декабря 2025 года.Открыть сертификат ↘Май 2025 — июнь 2025Astana Digital OutsourceFrontend Developer TraineeРазрабатывал переиспользуемые UI-компоненты на React, Material UI и Tailwind CSS. Проверял REST API в Postman и исправлял ошибки интерфейса.",
+        "education": "Образование2023 — 2026Колледж Astana IT UniversityВычислительная техника и информационные сети. Квалификация — техник по администрированию баз данных.2026 — настоящее времяAstana International UniversityИнформационные технологии. Первый курс, очная сокращённая программа после колледжа.Диплом и сертификатыДиплом колледжа · 26 июня 2026Открыть диплом ↗Публичная копия: номера и подписи скрыты.HackAlem AI — сертификат участникаОткрыть сертификат участия ↗Астана · 14 октября 2026Участие в хакатоне по агентному ИИПубличная копия: QR-код скрыт.Сертификат практики iQADAM SystemsОткрыть сертификат ↗Ноябрь — декабрь 2025Публичная копия: подпись и данные подписанта скрыты.ДипломHackAlemiQADAM",
+        "documents": [
+          {
+            "href": "http://127.0.0.1:4331/after/files/education/diploma-public.webp",
+            "title": "Диплом колледжа · 26 июня 2026Открыть диплом ↗"
+          },
+          {
+            "href": "http://127.0.0.1:4331/after/files/education/hackalem-2026-public.png",
+            "title": "HackAlem AI — сертификат участникаОткрыть сертификат участия ↗"
+          },
+          {
+            "href": "http://127.0.0.1:4331/after/files/education/iqadam-2025-public.webp",
+            "title": "Сертификат практики iQADAM SystemsОткрыть сертификат ↗"
+          }
+        ],
+        "resume": [
+          "http://127.0.0.1:4331/after/files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf"
+        ],
+        "linkedin": [
+          "https://www.linkedin.com/in/%D0%B1%D0%B0%D1%85%D1%82%D0%B8%D1%8F%D1%80-%D0%B7%D0%B8%D0%BA%D0%B8%D1%80%D0%B8%D0%BD-41a997314/"
+        ],
+        "email": 2,
+        "themes": [
+          {
+            "theme": "light",
+            "foreground": "rgb(47, 64, 57)"
+          },
+          {
+            "theme": "dark",
+            "foreground": "rgb(210, 220, 210)"
+          }
+        ],
+        "catalog": 9
+      },
+      "room": {
+        "experience": "\n Разработчик / опытБахтияр Зикирин\n Frontend-разработчик из Астаны. Разрабатываю интерфейсы на React и TypeScript, подключаю API. Проверяю пользовательские сценарии и сохранение данных.\n React · Next.js · TypeScript · Python · Django · SQL\n Март 2026 — апрель 2026iQADAM SystemsFrontend-разработчик с функциями тестирования: frontend-модули, интеграция API и проверка приложения.\n 10 ноября — 5 декабря 2025iQADAM SystemsПрактика frontend-разработкиОтдельная практика в iQADAM Systems. Сертификат о её завершении выдан 5 декабря 2025 года.\n Май 2025 — июнь 2025Astana Digital OutsourceFrontend Developer TraineeРазрабатывал переиспользуемые UI-компоненты на React, Material UI и Tailwind CSS. Проверял REST API в Postman и исправлял ошибки интерфейса.\n Образование →Резюме и контакты →\n ",
+        "documents": [
+          {
+            "id": "diploma",
+            "url": "http://127.0.0.1:4331/after/files/education/diploma-public.webp",
+            "width": 2400
+          },
+          {
+            "id": "hackalem",
+            "url": "http://127.0.0.1:4331/after/files/education/hackalem-2026-public.png",
+            "width": 1600
+          },
+          {
+            "id": "certificate",
+            "url": "http://127.0.0.1:4331/after/files/education/iqadam-2025-public.webp",
+            "width": 1254
+          }
+        ],
+        "resume": "http://127.0.0.1:4331/after/files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf",
+        "linkedin": "https://www.linkedin.com/in/%D0%B1%D0%B0%D1%85%D1%82%D0%B8%D1%8F%D1%80-%D0%B7%D0%B8%D0%BA%D0%B8%D1%80%D0%B8%D0%BD-41a997314/",
+        "projects": [
+          "helio",
+          "keyform",
+          "poslesvet",
+          "framepack",
+          "shapecheck",
+          "rowline"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "name": "desktop-kk",
+      "ordinary": {
+        "experience": "02 / ТәжірибеТәжірибеАстанадағы frontend әзірлеуші. React және TypeScript арқылы интерфейстер әзірлеп, API қосамын. Пайдаланушы сценарийлері мен деректердің сақталуын тексеремін.Наурыз 2026 — сәуір 2026iQADAM SystemsТестілеу міндеттері бар frontend әзірлеушіFrontend модульдері, API интеграциясы және қолданбаны тексеру.10 қараша — 5 желтоқсан 2025iQADAM SystemsFrontend әзірлеу практикасыiQADAM Systems компаниясындағы бөлек практика. Аяқтау сертификаты 2025 жылғы 5 желтоқсанда берілген.Сертификатты ашу ↘Мамыр 2025 — маусым 2025Astana Digital OutsourceFrontend әзірлеуші-тағылымгерReact, Material UI және Tailwind CSS арқылы қайта қолданылатын UI компоненттерін әзірледім. REST API-ды Postman арқылы тексеріп, интерфейс қателерін түзеттім.",
+        "education": "Білім2023 — 2026Astana IT University колледжіЕсептеу техникасы және ақпараттық желілер. Біліктілік — деректер базасын әкімшілендіру жөніндегі техник.2026 — қазіргі уақытқа дейінAstana International UniversityАқпараттық технологиялар. Бірінші курс, колледжден кейінгі қысқартылған күндізгі оқу бағдарламасы.Диплом және сертификаттарКолледж дипломы · 26 маусым 2026Дипломды ашу ↗Жария көшірме: нөмірлер мен қолтаңбалар жасырылған.HackAlem AI — қатысушы сертификатыҚатысу сертификатын ашу ↗Астана · 2026 жылғы 14 қазанАгенттік ЖИ хакатонына қатысуЖария көшірме: QR-код жасырылған.iQADAM Systems практика сертификатыСертификатты ашу ↗Қараша — желтоқсан 2025Жария көшірме: қолтаңба мен қол қоюшы деректері жасырылған.ДипломHackAlemiQADAM",
+        "documents": [
+          {
+            "href": "http://127.0.0.1:4331/after/files/education/diploma-public.webp",
+            "title": "Колледж дипломы · 26 маусым 2026Дипломды ашу ↗"
+          },
+          {
+            "href": "http://127.0.0.1:4331/after/files/education/hackalem-2026-public.png",
+            "title": "HackAlem AI — қатысушы сертификатыҚатысу сертификатын ашу ↗"
+          },
+          {
+            "href": "http://127.0.0.1:4331/after/files/education/iqadam-2025-public.webp",
+            "title": "iQADAM Systems практика сертификатыСертификатты ашу ↗"
+          }
+        ],
+        "resume": [
+          "http://127.0.0.1:4331/after/files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf"
+        ],
+        "linkedin": [
+          "https://www.linkedin.com/in/%D0%B1%D0%B0%D1%85%D1%82%D0%B8%D1%8F%D1%80-%D0%B7%D0%B8%D0%BA%D0%B8%D1%80%D0%B8%D0%BD-41a997314/"
+        ],
+        "email": 2,
+        "themes": [
+          {
+            "theme": "light",
+            "foreground": "rgb(47, 64, 57)"
+          },
+          {
+            "theme": "dark",
+            "foreground": "rgb(210, 220, 210)"
+          }
+        ],
+        "catalog": 9
+      },
+      "room": {
+        "experience": "\n Әзірлеуші / тәжірибеБақтияр Зикирин\n Астанадағы frontend әзірлеуші. React және TypeScript арқылы интерфейстер әзірлеп, API қосамын. Пайдаланушы сценарийлері мен деректердің сақталуын тексеремін.\n React · Next.js · TypeScript · Python · Django · SQL\n Наурыз 2026 — сәуір 2026iQADAM SystemsFrontend әзірлеу және тестілеу: frontend модульдері, API интеграциясы және қолданбаны тексеру.\n 10 қараша — 5 желтоқсан 2025iQADAM SystemsFrontend әзірлеу практикасыiQADAM Systems компаниясындағы бөлек практика. Аяқтау сертификаты 2025 жылғы 5 желтоқсанда берілген.\n Мамыр 2025 — маусым 2025Astana Digital OutsourceFrontend әзірлеуші-тағылымгерReact, Material UI және Tailwind CSS арқылы қайта қолданылатын UI компоненттерін әзірледім. REST API-ды Postman арқылы тексеріп, интерфейс қателерін түзеттім.\n Білім →Түйіндеме және байланыс →\n ",
+        "documents": [
+          {
+            "id": "diploma",
+            "url": "http://127.0.0.1:4331/after/files/education/diploma-public.webp",
+            "width": 2400
+          },
+          {
+            "id": "hackalem",
+            "url": "http://127.0.0.1:4331/after/files/education/hackalem-2026-public.png",
+            "width": 1600
+          },
+          {
+            "id": "certificate",
+            "url": "http://127.0.0.1:4331/after/files/education/iqadam-2025-public.webp",
+            "width": 1254
+          }
+        ],
+        "resume": "http://127.0.0.1:4331/after/files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf",
+        "linkedin": "https://www.linkedin.com/in/%D0%B1%D0%B0%D1%85%D1%82%D0%B8%D1%8F%D1%80-%D0%B7%D0%B8%D0%BA%D0%B8%D1%80%D0%B8%D0%BD-41a997314/",
+        "projects": [
+          "helio",
+          "keyform",
+          "poslesvet",
+          "framepack",
+          "shapecheck",
+          "rowline"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "name": "desktop-en",
+      "ordinary": {
+        "experience": "02 / ExperienceExperienceFrontend developer in Astana. I build interfaces with React and TypeScript and integrate APIs. I test user flows and verify that data is saved correctly.March 2026 — April 2026iQADAM SystemsFrontend developer with testing responsibilitiesFrontend modules, API integration and application testing.10 November — 5 December 2025iQADAM SystemsFrontend development internshipA separate internship at iQADAM Systems. Its completion certificate was issued on 5 December 2025.Open certificate ↘May 2025 — June 2025Astana Digital OutsourceFrontend Developer TraineeBuilt reusable UI components with React, Material UI and Tailwind CSS. Tested REST APIs in Postman and fixed interface bugs.",
+        "education": "Education2023 — 2026Astana IT University CollegeComputing and information networks. Qualification: database administration technician.2026 — presentAstana International UniversityInformation technology. First year of a shortened full-time program after college.Diploma and certificatesCollege diploma · 26 June 2026Open diploma ↗Public copy: document numbers and signatures are hidden.HackAlem AI — certificate of participationOpen participation certificate ↗Astana · 14 October 2026Participation in an agentic AI hackathonPublic copy: QR code hidden.iQADAM Systems internship certificateOpen certificate ↗November — December 2025Public copy: the signature and signatory details are hidden.DiplomaHackAlemiQADAM",
+        "documents": [
+          {
+            "href": "http://127.0.0.1:4331/after/files/education/diploma-public.webp",
+            "title": "College diploma · 26 June 2026Open diploma ↗"
+          },
+          {
+            "href": "http://127.0.0.1:4331/after/files/education/hackalem-2026-public.png",
+            "title": "HackAlem AI — certificate of participationOpen participation certificate ↗"
+          },
+          {
+            "href": "http://127.0.0.1:4331/after/files/education/iqadam-2025-public.webp",
+            "title": "iQADAM Systems internship certificateOpen certificate ↗"
+          }
+        ],
+        "resume": [
+          "http://127.0.0.1:4331/after/files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf"
+        ],
+        "linkedin": [
+          "https://www.linkedin.com/in/%D0%B1%D0%B0%D1%85%D1%82%D0%B8%D1%8F%D1%80-%D0%B7%D0%B8%D0%BA%D0%B8%D1%80%D0%B8%D0%BD-41a997314/"
+        ],
+        "email": 2,
+        "themes": [
+          {
+            "theme": "light",
+            "foreground": "rgb(47, 64, 57)"
+          },
+          {
+            "theme": "dark",
+            "foreground": "rgb(210, 220, 210)"
+          }
+        ],
+        "catalog": 9
+      },
+      "room": {
+        "experience": "\n Developer / experienceBakhtiyar Zikirin\n Frontend developer in Astana. I build interfaces with React and TypeScript and integrate APIs. I test user flows and verify that data is saved correctly.\n React · Next.js · TypeScript · Python · Django · SQL\n March 2026 — April 2026iQADAM SystemsFrontend development with testing responsibilities: frontend modules, API integration and application testing.\n 10 November — 5 December 2025iQADAM SystemsFrontend development internshipA separate internship at iQADAM Systems. Its completion certificate was issued on 5 December 2025.\n May 2025 — June 2025Astana Digital OutsourceFrontend Developer TraineeBuilt reusable UI components with React, Material UI and Tailwind CSS. Tested REST APIs in Postman and fixed interface bugs.\n Education →Resume and contact →\n ",
+        "documents": [
+          {
+            "id": "diploma",
+            "url": "http://127.0.0.1:4331/after/files/education/diploma-public.webp",
+            "width": 2400
+          },
+          {
+            "id": "hackalem",
+            "url": "http://127.0.0.1:4331/after/files/education/hackalem-2026-public.png",
+            "width": 1600
+          },
+          {
+            "id": "certificate",
+            "url": "http://127.0.0.1:4331/after/files/education/iqadam-2025-public.webp",
+            "width": 1254
+          }
+        ],
+        "resume": "http://127.0.0.1:4331/after/files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf",
+        "linkedin": "https://www.linkedin.com/in/%D0%B1%D0%B0%D1%85%D1%82%D0%B8%D1%8F%D1%80-%D0%B7%D0%B8%D0%BA%D0%B8%D1%80%D0%B8%D0%BD-41a997314/",
+        "projects": [
+          "helio",
+          "keyform",
+          "poslesvet",
+          "framepack",
+          "shapecheck",
+          "rowline"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "name": "touch-ru",
+      "ordinary": {
+        "experience": "02 / ОпытОпытFrontend-разработчик из Астаны. Разрабатываю интерфейсы на React и TypeScript, подключаю API. Проверяю пользовательские сценарии и сохранение данных.Март 2026 — апрель 2026iQADAM SystemsFrontend-разработчик с функциями тестированияFrontend-модули, интеграция API и проверка приложения.10 ноября — 5 декабря 2025iQADAM SystemsПрактика frontend-разработкиОтдельная практика в iQADAM Systems. Сертификат о её завершении выдан 5 декабря 2025 года.Открыть сертификат ↘Май 2025 — июнь 2025Astana Digital OutsourceFrontend Developer TraineeРазрабатывал переиспользуемые UI-компоненты на React, Material UI и Tailwind CSS. Проверял REST API в Postman и исправлял ошибки интерфейса.",
+        "education": "Образование2023 — 2026Колледж Astana IT UniversityВычислительная техника и информационные сети. Квалификация — техник по администрированию баз данных.2026 — настоящее времяAstana International UniversityИнформационные технологии. Первый курс, очная сокращённая программа после колледжа.Диплом и сертификатыДиплом колледжа · 26 июня 2026Открыть диплом ↗Публичная копия: номера и подписи скрыты.HackAlem AI — сертификат участникаОткрыть сертификат участия ↗Астана · 14 октября 2026Участие в хакатоне по агентному ИИПубличная копия: QR-код скрыт.Сертификат практики iQADAM SystemsОткрыть сертификат ↗Ноябрь — декабрь 2025Публичная копия: подпись и данные подписанта скрыты.ДипломHackAlemiQADAM",
+        "documents": [
+          {
+            "href": "http://127.0.0.1:4331/after/files/education/diploma-public.webp",
+            "title": "Диплом колледжа · 26 июня 2026Открыть диплом ↗"
+          },
+          {
+            "href": "http://127.0.0.1:4331/after/files/education/hackalem-2026-public.png",
+            "title": "HackAlem AI — сертификат участникаОткрыть сертификат участия ↗"
+          },
+          {
+            "href": "http://127.0.0.1:4331/after/files/education/iqadam-2025-public.webp",
+            "title": "Сертификат практики iQADAM SystemsОткрыть сертификат ↗"
+          }
+        ],
+        "resume": [
+          "http://127.0.0.1:4331/after/files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf"
+        ],
+        "linkedin": [
+          "https://www.linkedin.com/in/%D0%B1%D0%B0%D1%85%D1%82%D0%B8%D1%8F%D1%80-%D0%B7%D0%B8%D0%BA%D0%B8%D1%80%D0%B8%D0%BD-41a997314/"
+        ],
+        "email": 2,
+        "themes": [
+          {
+            "theme": "light",
+            "foreground": "rgb(47, 64, 57)"
+          },
+          {
+            "theme": "dark",
+            "foreground": "rgb(210, 220, 210)"
+          }
+        ],
+        "catalog": 9
+      },
+      "room": {
+        "experience": "\n Разработчик / опытБахтияр Зикирин\n Frontend-разработчик из Астаны. Разрабатываю интерфейсы на React и TypeScript, подключаю API. Проверяю пользовательские сценарии и сохранение данных.\n React · Next.js · TypeScript · Python · Django · SQL\n Март 2026 — апрель 2026iQADAM SystemsFrontend-разработчик с функциями тестирования: frontend-модули, интеграция API и проверка приложения.\n 10 ноября — 5 декабря 2025iQADAM SystemsПрактика frontend-разработкиОтдельная практика в iQADAM Systems. Сертификат о её завершении выдан 5 декабря 2025 года.\n Май 2025 — июнь 2025Astana Digital OutsourceFrontend Developer TraineeРазрабатывал переиспользуемые UI-компоненты на React, Material UI и Tailwind CSS. Проверял REST API в Postman и исправлял ошибки интерфейса.\n Образование →Резюме и контакты →\n ",
+        "documents": [
+          {
+            "id": "diploma",
+            "url": "http://127.0.0.1:4331/after/files/education/diploma-public.webp",
+            "width": 2400
+          },
+          {
+            "id": "hackalem",
+            "url": "http://127.0.0.1:4331/after/files/education/hackalem-2026-public.png",
+            "width": 1600
+          },
+          {
+            "id": "certificate",
+            "url": "http://127.0.0.1:4331/after/files/education/iqadam-2025-public.webp",
+            "width": 1254
+          }
+        ],
+        "resume": "http://127.0.0.1:4331/after/files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf",
+        "linkedin": "https://www.linkedin.com/in/%D0%B1%D0%B0%D1%85%D1%82%D0%B8%D1%8F%D1%80-%D0%B7%D0%B8%D0%BA%D0%B8%D1%80%D0%B8%D0%BD-41a997314/",
+        "projects": [
+          "helio",
+          "keyform",
+          "poslesvet",
+          "framepack",
+          "shapecheck",
+          "rowline"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "name": "touch-kk",
+      "ordinary": {
+        "experience": "02 / ТәжірибеТәжірибеАстанадағы frontend әзірлеуші. React және TypeScript арқылы интерфейстер әзірлеп, API қосамын. Пайдаланушы сценарийлері мен деректердің сақталуын тексеремін.Наурыз 2026 — сәуір 2026iQADAM SystemsТестілеу міндеттері бар frontend әзірлеушіFrontend модульдері, API интеграциясы және қолданбаны тексеру.10 қараша — 5 желтоқсан 2025iQADAM SystemsFrontend әзірлеу практикасыiQADAM Systems компаниясындағы бөлек практика. Аяқтау сертификаты 2025 жылғы 5 желтоқсанда берілген.Сертификатты ашу ↘Мамыр 2025 — маусым 2025Astana Digital OutsourceFrontend әзірлеуші-тағылымгерReact, Material UI және Tailwind CSS арқылы қайта қолданылатын UI компоненттерін әзірледім. REST API-ды Postman арқылы тексеріп, интерфейс қателерін түзеттім.",
+        "education": "Білім2023 — 2026Astana IT University колледжіЕсептеу техникасы және ақпараттық желілер. Біліктілік — деректер базасын әкімшілендіру жөніндегі техник.2026 — қазіргі уақытқа дейінAstana International UniversityАқпараттық технологиялар. Бірінші курс, колледжден кейінгі қысқартылған күндізгі оқу бағдарламасы.Диплом және сертификаттарКолледж дипломы · 26 маусым 2026Дипломды ашу ↗Жария көшірме: нөмірлер мен қолтаңбалар жасырылған.HackAlem AI — қатысушы сертификатыҚатысу сертификатын ашу ↗Астана · 2026 жылғы 14 қазанАгенттік ЖИ хакатонына қатысуЖария көшірме: QR-код жасырылған.iQADAM Systems практика сертификатыСертификатты ашу ↗Қараша — желтоқсан 2025Жария көшірме: қолтаңба мен қол қоюшы деректері жасырылған.ДипломHackAlemiQADAM",
+        "documents": [
+          {
+            "href": "http://127.0.0.1:4331/after/files/education/diploma-public.webp",
+            "title": "Колледж дипломы · 26 маусым 2026Дипломды ашу ↗"
+          },
+          {
+            "href": "http://127.0.0.1:4331/after/files/education/hackalem-2026-public.png",
+            "title": "HackAlem AI — қатысушы сертификатыҚатысу сертификатын ашу ↗"
+          },
+          {
+            "href": "http://127.0.0.1:4331/after/files/education/iqadam-2025-public.webp",
+            "title": "iQADAM Systems практика сертификатыСертификатты ашу ↗"
+          }
+        ],
+        "resume": [
+          "http://127.0.0.1:4331/after/files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf"
+        ],
+        "linkedin": [
+          "https://www.linkedin.com/in/%D0%B1%D0%B0%D1%85%D1%82%D0%B8%D1%8F%D1%80-%D0%B7%D0%B8%D0%BA%D0%B8%D1%80%D0%B8%D0%BD-41a997314/"
+        ],
+        "email": 2,
+        "themes": [
+          {
+            "theme": "light",
+            "foreground": "rgb(47, 64, 57)"
+          },
+          {
+            "theme": "dark",
+            "foreground": "rgb(210, 220, 210)"
+          }
+        ],
+        "catalog": 9
+      },
+      "room": {
+        "experience": "\n Әзірлеуші / тәжірибеБақтияр Зикирин\n Астанадағы frontend әзірлеуші. React және TypeScript арқылы интерфейстер әзірлеп, API қосамын. Пайдаланушы сценарийлері мен деректердің сақталуын тексеремін.\n React · Next.js · TypeScript · Python · Django · SQL\n Наурыз 2026 — сәуір 2026iQADAM SystemsFrontend әзірлеу және тестілеу: frontend модульдері, API интеграциясы және қолданбаны тексеру.\n 10 қараша — 5 желтоқсан 2025iQADAM SystemsFrontend әзірлеу практикасыiQADAM Systems компаниясындағы бөлек практика. Аяқтау сертификаты 2025 жылғы 5 желтоқсанда берілген.\n Мамыр 2025 — маусым 2025Astana Digital OutsourceFrontend әзірлеуші-тағылымгерReact, Material UI және Tailwind CSS арқылы қайта қолданылатын UI компоненттерін әзірледім. REST API-ды Postman арқылы тексеріп, интерфейс қателерін түзеттім.\n Білім →Түйіндеме және байланыс →\n ",
+        "documents": [
+          {
+            "id": "diploma",
+            "url": "http://127.0.0.1:4331/after/files/education/diploma-public.webp",
+            "width": 2400
+          },
+          {
+            "id": "hackalem",
+            "url": "http://127.0.0.1:4331/after/files/education/hackalem-2026-public.png",
+            "width": 1600
+          },
+          {
+            "id": "certificate",
+            "url": "http://127.0.0.1:4331/after/files/education/iqadam-2025-public.webp",
+            "width": 1254
+          }
+        ],
+        "resume": "http://127.0.0.1:4331/after/files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf",
+        "linkedin": "https://www.linkedin.com/in/%D0%B1%D0%B0%D1%85%D1%82%D0%B8%D1%8F%D1%80-%D0%B7%D0%B8%D0%BA%D0%B8%D1%80%D0%B8%D0%BD-41a997314/",
+        "projects": [
+          "helio",
+          "keyform",
+          "poslesvet",
+          "framepack",
+          "shapecheck",
+          "rowline"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "name": "touch-en",
+      "ordinary": {
+        "experience": "02 / ExperienceExperienceFrontend developer in Astana. I build interfaces with React and TypeScript and integrate APIs. I test user flows and verify that data is saved correctly.March 2026 — April 2026iQADAM SystemsFrontend developer with testing responsibilitiesFrontend modules, API integration and application testing.10 November — 5 December 2025iQADAM SystemsFrontend development internshipA separate internship at iQADAM Systems. Its completion certificate was issued on 5 December 2025.Open certificate ↘May 2025 — June 2025Astana Digital OutsourceFrontend Developer TraineeBuilt reusable UI components with React, Material UI and Tailwind CSS. Tested REST APIs in Postman and fixed interface bugs.",
+        "education": "Education2023 — 2026Astana IT University CollegeComputing and information networks. Qualification: database administration technician.2026 — presentAstana International UniversityInformation technology. First year of a shortened full-time program after college.Diploma and certificatesCollege diploma · 26 June 2026Open diploma ↗Public copy: document numbers and signatures are hidden.HackAlem AI — certificate of participationOpen participation certificate ↗Astana · 14 October 2026Participation in an agentic AI hackathonPublic copy: QR code hidden.iQADAM Systems internship certificateOpen certificate ↗November — December 2025Public copy: the signature and signatory details are hidden.DiplomaHackAlemiQADAM",
+        "documents": [
+          {
+            "href": "http://127.0.0.1:4331/after/files/education/diploma-public.webp",
+            "title": "College diploma · 26 June 2026Open diploma ↗"
+          },
+          {
+            "href": "http://127.0.0.1:4331/after/files/education/hackalem-2026-public.png",
+            "title": "HackAlem AI — certificate of participationOpen participation certificate ↗"
+          },
+          {
+            "href": "http://127.0.0.1:4331/after/files/education/iqadam-2025-public.webp",
+            "title": "iQADAM Systems internship certificateOpen certificate ↗"
+          }
+        ],
+        "resume": [
+          "http://127.0.0.1:4331/after/files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf"
+        ],
+        "linkedin": [
+          "https://www.linkedin.com/in/%D0%B1%D0%B0%D1%85%D1%82%D0%B8%D1%8F%D1%80-%D0%B7%D0%B8%D0%BA%D0%B8%D1%80%D0%B8%D0%BD-41a997314/"
+        ],
+        "email": 2,
+        "themes": [
+          {
+            "theme": "light",
+            "foreground": "rgb(47, 64, 57)"
+          },
+          {
+            "theme": "dark",
+            "foreground": "rgb(210, 220, 210)"
+          }
+        ],
+        "catalog": 9
+      },
+      "room": {
+        "experience": "\n Developer / experienceBakhtiyar Zikirin\n Frontend developer in Astana. I build interfaces with React and TypeScript and integrate APIs. I test user flows and verify that data is saved correctly.\n React · Next.js · TypeScript · Python · Django · SQL\n March 2026 — April 2026iQADAM SystemsFrontend development with testing responsibilities: frontend modules, API integration and application testing.\n 10 November — 5 December 2025iQADAM SystemsFrontend development internshipA separate internship at iQADAM Systems. Its completion certificate was issued on 5 December 2025.\n May 2025 — June 2025Astana Digital OutsourceFrontend Developer TraineeBuilt reusable UI components with React, Material UI and Tailwind CSS. Tested REST APIs in Postman and fixed interface bugs.\n Education →Resume and contact →\n ",
+        "documents": [
+          {
+            "id": "diploma",
+            "url": "http://127.0.0.1:4331/after/files/education/diploma-public.webp",
+            "width": 2400
+          },
+          {
+            "id": "hackalem",
+            "url": "http://127.0.0.1:4331/after/files/education/hackalem-2026-public.png",
+            "width": 1600
+          },
+          {
+            "id": "certificate",
+            "url": "http://127.0.0.1:4331/after/files/education/iqadam-2025-public.webp",
+            "width": 1254
+          }
+        ],
+        "resume": "http://127.0.0.1:4331/after/files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf",
+        "linkedin": "https://www.linkedin.com/in/%D0%B1%D0%B0%D1%85%D1%82%D0%B8%D1%8F%D1%80-%D0%B7%D0%B8%D0%BA%D0%B8%D1%80%D0%B8%D0%BD-41a997314/",
+        "projects": [
+          "helio",
+          "keyform",
+          "poslesvet",
+          "framepack",
+          "shapecheck",
+          "rowline"
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "passed": true
+}

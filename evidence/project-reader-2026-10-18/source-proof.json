@@ -1,0 +1,239 @@
+{
+  "baseline": "d3527d9818d849027f9607643d9115994ce48e46",
+  "unchanged": [
+    {
+      "path": "src/content/projects.json",
+      "sha256": "fb7cc1e0332d5727bc82d8ce53ae11e3c9122c7f80ecbd669882a913ad66f55b",
+      "gitSha256": "3cefb99bc1c6749b737f5229ecf364029ab96f3e07490286dcde15e6f5ecf1b1",
+      "byteExact": false,
+      "comparison": "CRLF/LF only; content identical"
+    },
+    {
+      "path": "src/content/documents.json",
+      "sha256": "d3c6d070c34b84fbe0abbe718eb35729a4cd411ed8c033c53ff0159d7921e384",
+      "gitSha256": "4d44df2778e234fbe2a7712a6234fd1affd7d9dd83cfbd4bf47e1d565d8feb25",
+      "byteExact": false,
+      "comparison": "CRLF/LF only; content identical"
+    },
+    {
+      "path": "src/content/fragments.json",
+      "sha256": "8e2652af33185ddd2c9b04378598f4bb35064731597779e0b075507a4bdd2f78",
+      "gitSha256": "c028a9de0847091b93c532264df94d3e63c3acc0bb4e4e115a2d37853094c0cf",
+      "byteExact": false,
+      "comparison": "CRLF/LF only; content identical"
+    },
+    {
+      "path": "package.json",
+      "sha256": "b1dc347dea07e77319652515a2033330c90b0d1dbb17e3000086c3fc3867a2c0",
+      "gitSha256": "da63b397c23d858f1037b643354afbf90f98c98e65407427250848bc5a36d879",
+      "byteExact": false,
+      "comparison": "CRLF/LF only; content identical"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "5f8b21e0708bdf1772276b74a3d71eac5a8b0a3c08ce84b4da2abb10a6138f94",
+      "gitSha256": "55dbe90ce2eae7ead68bb078a034d895fa05777d27eb7f2bd2bb56319a43afd1",
+      "byteExact": false,
+      "comparison": "CRLF/LF only; content identical"
+    },
+    {
+      "path": "public/room/world.js",
+      "sha256": "4df199f5c7704ce2282cd9a999943ccc8a1f6f0cca024dc1675f0ba303c415f8",
+      "gitSha256": "4df199f5c7704ce2282cd9a999943ccc8a1f6f0cca024dc1675f0ba303c415f8",
+      "byteExact": true,
+      "comparison": "exact bytes"
+    },
+    {
+      "path": "public/room/streaming.js",
+      "sha256": "363b8200e35e7700a0710fcc0b4ef6cd2e968dcd92e7648bdfc7895e50c9dde0",
+      "gitSha256": "363b8200e35e7700a0710fcc0b4ef6cd2e968dcd92e7648bdfc7895e50c9dde0",
+      "byteExact": true,
+      "comparison": "exact bytes"
+    },
+    {
+      "path": "public/room/stream-manifest.js",
+      "sha256": "45d3b3d77fcaea8d4ba0fb05b66d0143ba6f8fdac39b752fdbc03e13c5ca8a37",
+      "gitSha256": "45d3b3d77fcaea8d4ba0fb05b66d0143ba6f8fdac39b752fdbc03e13c5ca8a37",
+      "byteExact": true,
+      "comparison": "exact bytes"
+    },
+    {
+      "path": "public/room/joinery-details.js",
+      "sha256": "49cd7244a3922d01a773bf7076940d90c938b5aa196c77982ab568ef87529f98",
+      "gitSha256": "49cd7244a3922d01a773bf7076940d90c938b5aa196c77982ab568ef87529f98",
+      "byteExact": true,
+      "comparison": "exact bytes"
+    },
+    {
+      "path": "public/room/furniture.js",
+      "sha256": "479f529ce12feb3c41685432694ec751ca0b40d322c460628f12e86f6bd10c3a",
+      "gitSha256": "479f529ce12feb3c41685432694ec751ca0b40d322c460628f12e86f6bd10c3a",
+      "byteExact": true,
+      "comparison": "exact bytes"
+    },
+    {
+      "path": "public/room/cabinet-doors.js",
+      "sha256": "338ee6f47d40777e978aab9aae6a6dc38ba0aca24bbe72921abc89b3580eefb6",
+      "gitSha256": "338ee6f47d40777e978aab9aae6a6dc38ba0aca24bbe72921abc89b3580eefb6",
+      "byteExact": true,
+      "comparison": "exact bytes"
+    },
+    {
+      "path": "public/room/cube-state.js",
+      "sha256": "444aa7795838492cfd2a6539c1d2815f91da42f5598550b8d4c5a11dffe74aa3",
+      "gitSha256": "444aa7795838492cfd2a6539c1d2815f91da42f5598550b8d4c5a11dffe74aa3",
+      "byteExact": true,
+      "comparison": "exact bytes"
+    },
+    {
+      "path": "public/room/compressed-models.js",
+      "sha256": "79110c624660661badd9dc2656d88e5a28488209a6b0df0728031e0b34a471e7",
+      "gitSha256": "79110c624660661badd9dc2656d88e5a28488209a6b0df0728031e0b34a471e7",
+      "byteExact": true,
+      "comparison": "exact bytes"
+    },
+    {
+      "path": "public/room/document-actions.js",
+      "sha256": "5438d1db0111f6c36fb102ef4f53f23b9576f206f7ce5d0bdaed7a322090bde9",
+      "gitSha256": "5438d1db0111f6c36fb102ef4f53f23b9576f206f7ce5d0bdaed7a322090bde9",
+      "byteExact": true,
+      "comparison": "exact bytes"
+    },
+    {
+      "path": "public/files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf",
+      "sha256": "dee574b43b52d0ff4fa891d889826038117c8275f255e2f5efd597944b502d75",
+      "gitSha256": "dee574b43b52d0ff4fa891d889826038117c8275f255e2f5efd597944b502d75",
+      "byteExact": true,
+      "comparison": "exact bytes"
+    },
+    {
+      "path": "public/files/education/diploma-public.webp",
+      "sha256": "aeb82b2bc35591a8d6c095ff95adeaf6f6d9bf65da4aa8da62566ccdb811eae6",
+      "gitSha256": "aeb82b2bc35591a8d6c095ff95adeaf6f6d9bf65da4aa8da62566ccdb811eae6",
+      "byteExact": true,
+      "comparison": "exact bytes"
+    },
+    {
+      "path": "public/files/education/hackalem-2026-public.png",
+      "sha256": "f0152ea62277efed03af52d85a72bcffc3f21d85c7d2a9ccbf9594d223e0a9aa",
+      "gitSha256": "f0152ea62277efed03af52d85a72bcffc3f21d85c7d2a9ccbf9594d223e0a9aa",
+      "byteExact": true,
+      "comparison": "exact bytes"
+    },
+    {
+      "path": "public/files/education/iqadam-2025-public.webp",
+      "sha256": "da3eeced274d0202518c5d25e2316854c621d967ef0165a0e66aaf09a0454a1e",
+      "gitSha256": "da3eeced274d0202518c5d25e2316854c621d967ef0165a0e66aaf09a0454a1e",
+      "byteExact": true,
+      "comparison": "exact bytes"
+    }
+  ],
+  "localeAdditions": {
+    "ru": [
+      "brief.taskLabel",
+      "brief.workLabel",
+      "brief.resultLabel",
+      "brief.details",
+      "brief.helio.task",
+      "brief.helio.work",
+      "brief.helio.result",
+      "brief.keyform.task",
+      "brief.keyform.work",
+      "brief.keyform.result",
+      "brief.rowline.task",
+      "brief.rowline.work",
+      "brief.rowline.result",
+      "brief.helio.frame",
+      "brief.keyform.frame",
+      "brief.rowline.frame"
+    ],
+    "kk": [
+      "brief.taskLabel",
+      "brief.workLabel",
+      "brief.resultLabel",
+      "brief.details",
+      "brief.helio.task",
+      "brief.helio.work",
+      "brief.helio.result",
+      "brief.keyform.task",
+      "brief.keyform.work",
+      "brief.keyform.result",
+      "brief.rowline.task",
+      "brief.rowline.work",
+      "brief.rowline.result",
+      "brief.helio.frame",
+      "brief.keyform.frame",
+      "brief.rowline.frame"
+    ],
+    "en": [
+      "brief.taskLabel",
+      "brief.workLabel",
+      "brief.resultLabel",
+      "brief.details",
+      "brief.helio.task",
+      "brief.helio.work",
+      "brief.helio.result",
+      "brief.keyform.task",
+      "brief.keyform.work",
+      "brief.keyform.result",
+      "brief.rowline.task",
+      "brief.rowline.work",
+      "brief.rowline.result",
+      "brief.helio.frame",
+      "brief.keyform.frame",
+      "brief.rowline.frame"
+    ]
+  },
+  "briefSources": {
+    "helio": {
+      "task": [
+        "helio.summary",
+        "helio.text"
+      ],
+      "work": [
+        "helio.text",
+        "helio.check"
+      ],
+      "result": [
+        "helio.input",
+        "helio.check",
+        "helio.output"
+      ]
+    },
+    "keyform": {
+      "task": [
+        "v12.keyform.context"
+      ],
+      "work": [
+        "v12.keyform.context",
+        "v12.keyform.result"
+      ],
+      "result": [
+        "v12.keyform.result",
+        "v12.keyform.shot1",
+        "v12.keyform.shot2"
+      ]
+    },
+    "rowline": {
+      "task": [
+        "rowline.constraint"
+      ],
+      "work": [
+        "rowline.solution"
+      ],
+      "result": [
+        "rowline.verify"
+      ]
+    }
+  },
+  "passed": true,
+  "engine": {
+    "additions": [
+      "api.documentBounds: reads existing print corners and uses existing physical eligibility/raycast",
+      "Camera completion: retain 90 frames, continue toward existing position target within 0.1mm and 1.5 simulation seconds budget; freeze during modal"
+    ],
+    "baselineSha256": "f2a9d46c3ce7e8aede591ff28a094d893fcf33cd5be323a6ae2637bcad6d56ae",
+    "candidateSha256": "f46cd175d886ebd910d51cf1b777e7ad7acf06e9f44cce522c438a8647f36f42",
+    "spatialEquationsAndConstraintsOtherwiseIdentical": true
+  }
+}

@@ -1,0 +1,5 @@
+PASS negative-pending-close
+PASS negative-image-failure
+PASS negative-resize
+PASS negative-context-loss
+{"passed":true,"checks":14,"ordinary":0,"room":0,"negative":4}

@@ -12,3 +12,8 @@ evidence/object-roles-2026-10-16/source/** -text whitespace=blank-at-eol,blank-a
 
 # Preserve original screenshots, reports and executed QA source bytes.
 evidence/certificates-reading-2026-10-16/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve original measured reports, screenshots and executed QA source bytes.
+evidence/project-reader-2026-10-18/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Embedded upstream shader formatting in the exact built-source snapshot.
+evidence/project-reader-2026-10-18/source/docs/assets/** -whitespace

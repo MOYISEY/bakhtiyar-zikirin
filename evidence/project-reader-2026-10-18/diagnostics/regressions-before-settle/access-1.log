@@ -1,0 +1,9 @@
+{"passed":false,"checks":105,"samples":12,"failure":{"name":"mobile-no-preference","message":"locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#panel[open]') to be visible\u001b[22m\n","errors":[]}}
+locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('#panel[open]') to be visible[22m
+
+    at C:\Users\aldia\Documents\Codex\2026-10-13\task\portfolio\scripts\qa-room-interaction-access.cjs:16:1601 {
+  log: [ "  - waiting for locator('#panel[open]') to be visible" ],
+  name: 'TimeoutError'
+}

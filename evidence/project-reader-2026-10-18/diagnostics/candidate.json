@@ -1,0 +1,41 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "browser": "155.0.4283.62",
+  "checks": [
+    "desktop-ru-light: identity, role and skills present on first impression",
+    "desktop-ru-light: project and contact navigation available",
+    "desktop-ru-light: first-screen type remains calm",
+    "desktop-ru-light: exactly three primary projects",
+    "desktop-ru-light helio: concise task implementation result",
+    "desktop-ru-light helio: approved task",
+    "desktop-ru-light helio: approved work",
+    "desktop-ru-light helio: approved result",
+    "desktop-ru-light helio: clear genuine frame caption",
+    "desktop-ru-light helio: summary at most60words",
+    "desktop-ru-light helio: no whole-page horizontal overflow",
+    "desktop-ru-light keyform: concise task implementation result",
+    "desktop-ru-light keyform: approved task",
+    "desktop-ru-light keyform: approved work",
+    "desktop-ru-light keyform: approved result",
+    "desktop-ru-light keyform: clear genuine frame caption",
+    "desktop-ru-light keyform: summary at most60words",
+    "desktop-ru-light keyform: no whole-page horizontal overflow",
+    "desktop-ru-light rowline: concise task implementation result",
+    "desktop-ru-light rowline: approved task",
+    "desktop-ru-light rowline: approved work",
+    "desktop-ru-light rowline: approved result",
+    "desktop-ru-light rowline: clear genuine frame caption",
+    "desktop-ru-light rowline: summary at most60words",
+    "desktop-ru-light rowline: no whole-page horizontal overflow",
+    "desktop-ru-light: compact certificate row preserved"
+  ],
+  "ordinary": [],
+  "room": [],
+  "negative": [],
+  "passed": false,
+  "failure": {
+    "name": "desktop-ru-light",
+    "message": "locator.getAttribute: Error: strict mode violation: locator('.resume-link') resolved to 2 elements:\n    1) <a class=\"text-link resume-link\" download=\"Zikirin_Bakhtiyar_Developer_Resume_Public.pdf\" href=\"./files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf\">…</a> aka getByRole('link', { name: 'Скачать резюме PDF' }).first()\n    2) <a class=\"primary-link resume-link\" download=\"Zikirin_Bakhtiyar_Developer_Resume_Public.pdf\" href=\"./files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf\">…</a> aka locator('#contact').getByRole('link', { name: 'Скачать резюме PDF' })\n\nCall log:\n\u001b[2m  - waiting for locator('.resume-link')\u001b[22m\n",
+    "errors": []
+  }
+}

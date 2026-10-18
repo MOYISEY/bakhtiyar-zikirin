@@ -1,0 +1,80 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "checks": [
+    "320 inside: explicit cabinet view command visibility follows actual camera",
+    "320 inside: stale DOM click and keyboard obey actual camera gate",
+    "320 corridor: explicit cabinet view command visibility follows actual camera",
+    "320 corridor: stale DOM click and keyboard obey actual camera gate",
+    "320 far: explicit cabinet view command visibility follows actual camera",
+    "320 far: stale DOM click and keyboard obey actual camera gate",
+    "390 inside: explicit cabinet view command visibility follows actual camera",
+    "390 inside: stale DOM click and keyboard obey actual camera gate",
+    "390 corridor: explicit cabinet view command visibility follows actual camera",
+    "390 corridor: stale DOM click and keyboard obey actual camera gate",
+    "390 far: explicit cabinet view command visibility follows actual camera",
+    "390 far: stale DOM click and keyboard obey actual camera gate"
+  ],
+  "cases": [
+    {
+      "width": 320,
+      "name": "inside",
+      "position": [
+        -0.55,
+        1.05,
+        -0.34
+      ],
+      "allowed": true
+    },
+    {
+      "width": 320,
+      "name": "corridor",
+      "position": [
+        0,
+        1.6,
+        2.2
+      ],
+      "allowed": false
+    },
+    {
+      "width": 320,
+      "name": "far",
+      "position": [
+        -1.7,
+        1.2,
+        1.4
+      ],
+      "allowed": false
+    },
+    {
+      "width": 390,
+      "name": "inside",
+      "position": [
+        -0.55,
+        1.05,
+        -0.34
+      ],
+      "allowed": true
+    },
+    {
+      "width": 390,
+      "name": "corridor",
+      "position": [
+        0,
+        1.6,
+        2.2
+      ],
+      "allowed": false
+    },
+    {
+      "width": 390,
+      "name": "far",
+      "position": [
+        -1.7,
+        1.2,
+        1.4
+      ],
+      "allowed": false
+    }
+  ],
+  "passed": true
+}

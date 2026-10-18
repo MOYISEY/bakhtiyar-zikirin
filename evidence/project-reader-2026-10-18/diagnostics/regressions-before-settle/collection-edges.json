@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "Cube dialog has no axe violations",
+    "Closing during a turn preserves a legal cube",
+    "Room rendering settles while object is held",
+    "Room context loss releases item renderer",
+    "Projects remain accessible after item and room context loss"
+  ],
+  "passed": true,
+  "axe": []
+}

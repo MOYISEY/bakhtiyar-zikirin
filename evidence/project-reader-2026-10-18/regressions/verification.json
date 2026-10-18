@@ -1,0 +1,530 @@
+{
+  "at": "2026-10-18T21:51:30.285Z",
+  "runtime": {
+    "docs/index.html": "29c96cc5d682fac47254c614090d5a4a747a91d91f7c9303942292de226eb668",
+    "docs/asset-history.json": "547bea497264954e6e1607887e0c1fa7541bc64362ede77d2ab1015821702f59",
+    "docs/assets/main-BigPCy7T.css": "2820f852251736465a8c8cc4f560cc97036b4eea62f39a5d87869ad0da84f4dc",
+    "docs/assets/main-CVIEnzjX.js": "7623952bce5e7f3d1a02371780d7263f3908a4c845ae374bd2b027386775509d",
+    "docs/assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2": "268f03691b3d06e57abcf20f9277e314ea8784298983aab5b40c1b91965027e1",
+    "docs/assets/onest-cyrillic-wght-normal-DayYxulF.woff2": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27",
+    "docs/assets/onest-latin-ext-wght-normal-QAhDxQuo.woff2": "14e7d3079b75860e2ab50efc6c318c398fdb46ede9b56e625f12ae70a3c5d9a4",
+    "docs/assets/onest-latin-wght-normal-Dun_Rd-l.woff2": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828",
+    "docs/assets/onest-math-wght-normal-Bl4ZGkZl.woff2": "c74952a8c0c8c558c4f879f83773cf529d11350609f7073f5b2c5999dec46041",
+    "docs/assets/onest-symbols-wght-normal-DxQzqQfC.woff2": "2ec2d45d2ec0770e2c18cba2dba5126cf2dcff181d23ad192e9fffeb4af4b0b6",
+    "docs/assets/onest-vietnamese-wght-normal-BBxOatbv.woff2": "d852d4d094a3a46d701d16245deb7ca83b16b5bd69e20aa0aba089392ad69474",
+    "docs/assets/preferences-B0BSF3Yj.js": "31f918bb52977de3fcd7292bb46278808792055d788ba7ab794b5dde9e02dd9c",
+    "docs/assets/rowline-sample-BI7SVVNe.js": "ae49b9b558b6fcd134b1f403a5bee93c43674a3f97e487cfe7a2f4c9fe45e528",
+    "docs/assets/scene-controls-BW5paW9X.js": "a3d3db2b4b55185bbeb0bbb2023a9a5729cda87aec54eae78ba12398fbbdd6de",
+    "docs/assets/scene-o7NQ45Qf.js": "caea428260230ac2e21f4cd9534d1bcae4d9df1a0b91d681323c941ea852600d",
+    "docs/room/main.js": "f46cd175d886ebd910d51cf1b777e7ad7acf06e9f44cce522c438a8647f36f42",
+    "docs/room/world.js": "4df199f5c7704ce2282cd9a999943ccc8a1f6f0cca024dc1675f0ba303c415f8",
+    "docs/room/ui.js": "9893c10ac55ed67f22fd556120faafface8b739dc9899399ab2a7fa7418f7ac9",
+    "docs/room/style.css": "525989a222ebbcd8dcec07844b0c70afb22fc862cbd104d7b6eb40e6f651a925",
+    "docs/room/profile-data.js": "b54de4cd2be62b08ffef13fb906125b8ba1f871865f19e8456f5139955c8225e"
+  },
+  "jobs": [
+    {
+      "name": "pages",
+      "script": "qa-pages.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18"
+      ],
+      "scriptSha": "34e3a7ade1e6fc019aba721f349153315388722afd0e79b02e443a2a55803489",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 162505,
+      "log": "pages-1.log",
+      "transferredFrom": "regressions/verification.json",
+      "reason": "Room-only main.js change; ordinary build and script SHA unchanged; test does not execute native room main.js"
+    },
+    {
+      "name": "pages-edges",
+      "script": "qa-pages-edges.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18"
+      ],
+      "scriptSha": "dde01fc63c7af0d72d0e602472c0f5dedaa92c667a90d401bea659df2751b86c",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 9907,
+      "log": "pages-edges-1.log",
+      "transferredFrom": "regressions/verification.json",
+      "reason": "Room-only main.js change; ordinary build and script SHA unchanged; test does not execute native room main.js"
+    },
+    {
+      "name": "pages-nojs",
+      "script": "qa-pages.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-nojs",
+        "--edges-only"
+      ],
+      "scriptSha": "34e3a7ade1e6fc019aba721f349153315388722afd0e79b02e443a2a55803489",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 4133,
+      "log": "pages-nojs-1.log",
+      "transferredFrom": "regressions/verification.json",
+      "reason": "Room-only main.js change; ordinary build and script SHA unchanged; test does not execute native room main.js"
+    },
+    {
+      "name": "showcase-current",
+      "script": "qa-project-rail-focus.mjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18"
+      ],
+      "scriptSha": "6d39b206ed8199272cd96886895504860b37c52f11cea3162bb10f0dfc063e67",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 63054,
+      "log": "showcase-current-1.log",
+      "transferredFrom": "regressions/verification.json",
+      "reason": "Room-only main.js change; ordinary build and script SHA unchanged; test does not execute native room main.js"
+    },
+    {
+      "name": "cube",
+      "script": "test-cube-state.mjs",
+      "args": [],
+      "scriptSha": "054a2caeebb4bf6213edfb8c979da7228478dcb84ae239da0fdb70fe3819cfb2",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 105,
+      "log": "cube-1.log",
+      "transferredFrom": "regressions/verification.json",
+      "reason": "Room-only main.js change; ordinary build and script SHA unchanged; test does not execute native room main.js"
+    },
+    {
+      "name": "asset-history",
+      "script": "qa-asset-history.mjs",
+      "args": [],
+      "scriptSha": "9accebb033da8106b8926ba28bb0e1a0ab56fa8ec6ea226b6ef89946d44cad90",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 4117,
+      "log": "asset-history-1.log",
+      "transferredFrom": "regressions/verification.json",
+      "reason": "Room-only main.js change; ordinary build and script SHA unchanged; test does not execute native room main.js"
+    },
+    {
+      "name": "modal",
+      "script": "qa-room-modal-camera.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "99115e59476ecbd127098f111c222f8de2dbc223a38bd182271df5e1e787b04d",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 62485,
+      "log": "modal-1.log"
+    },
+    {
+      "name": "reader",
+      "script": "qa-project-reader.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "release-final",
+        "--room-only"
+      ],
+      "scriptSha": "8be3f078aab6e22fb89dde6ecf52026503c961f77f3b341abcbe60f608e25a16",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 116383,
+      "log": "reader-1.log"
+    },
+    {
+      "name": "cv",
+      "script": "qa-room-cv-actions.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "f8ef3820d94b7ce193602d8dae8fa9c2b65fb5309d21e3483465512ddedb7122",
+      "attempt": 1,
+      "exit": 1,
+      "durationMs": 74486,
+      "log": "cv-1.log"
+    },
+    {
+      "name": "cv",
+      "script": "qa-room-cv-actions.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "652cd9e23829afc03ea73b83a1dc1490d6462849bf144f22aca0710a6030b526",
+      "attempt": 2,
+      "exit": 0,
+      "durationMs": 45867,
+      "log": "cv-2.log"
+    },
+    {
+      "name": "object-native",
+      "script": "qa-room-object-roles.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "7c33bc85273f42ee7774197db14877fda9250e293f66218a678f6b0086146268",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 113646,
+      "log": "object-native-1.log"
+    },
+    {
+      "name": "collection-edges",
+      "script": "qa-room-collection-edges.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "a078b9fa6c62024f6a40ec163dccb329805e8a5726060bca51a2d4fcf377d965",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 10615,
+      "log": "collection-edges-1.log"
+    },
+    {
+      "name": "completion",
+      "script": "qa-room-completion.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "75632511fa1811b2800bfbf2701d0a755a65455abb9aec4b5e4cb95c6ecaf38f",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 31323,
+      "log": "completion-1.log"
+    },
+    {
+      "name": "sweep",
+      "script": "qa-joinery-sweep.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "85a89a67e2d6e63f431f2cd3d4ddec5f63a51fe7de03830d13820dbc4261882d",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 6959,
+      "log": "sweep-1.log"
+    },
+    {
+      "name": "refinement",
+      "script": "qa-room-refinement.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "47a701beeab80497016496e2742394d9685d689cfa1ef8a63b13d3098b1722ab",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 39115,
+      "log": "refinement-1.log"
+    },
+    {
+      "name": "furniture",
+      "script": "qa-room-furniture.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "5b38e25bc510c5dc29c5749cc17c49dd43b6ddb4f3ae7260527e12dd03219dc9",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 67536,
+      "log": "furniture-1.log"
+    },
+    {
+      "name": "showcase-room",
+      "script": "qa-room-showcase.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "ec83623b95b3fa29ac87f6b4c9ab20434dfdadd6089cd33656fd697b47a64a5c",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 12909,
+      "log": "showcase-room-1.log"
+    },
+    {
+      "name": "hotspots",
+      "script": "qa-room-hotspots.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "f8ac4ffc610e7136066d184fac95c89818376235497e72fb1b320599a5f58db4",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 27123,
+      "log": "hotspots-1.log"
+    },
+    {
+      "name": "collection",
+      "script": "qa-room-collection.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "746a9d890cf69a9b3ec32bd831ddc1651e24b307e20be3bfd5ac9849a27210b6",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 53718,
+      "log": "collection-1.log"
+    },
+    {
+      "name": "context-loss",
+      "script": "qa-room-context-loss.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "581dd6a1e0fb12f07e90fcbbea7fb6860ddcb7519cfcefaf2e7955e5814f8a5b",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 6844,
+      "log": "context-loss-1.log"
+    },
+    {
+      "name": "case-rain",
+      "script": "qa-room-case-rain.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "46da0745576ab859abcc841271c685403e19107dfd788fe082b07ce9d728f20c",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 23209,
+      "log": "case-rain-1.log"
+    },
+    {
+      "name": "menu",
+      "script": "qa-room-menu.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/"
+      ],
+      "scriptSha": "1bca1855469472b41cfab51596d556442a82101125456e9cafb33257de5e590a",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 5581,
+      "log": "menu-1.log"
+    },
+    {
+      "name": "documents",
+      "script": "qa-room-document-details.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "92daa9dd9f146bc0e40e22e595f3ad5843d01f4c5b3e420b46dceeb8baa7c730",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 48903,
+      "log": "documents-1.log"
+    },
+    {
+      "name": "ux",
+      "script": "qa-room-ux.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "039006291be5932dae8fbf732f85e4105ced3db1ad6303a180ed847f00e9340e",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 74091,
+      "log": "ux-1.log"
+    },
+    {
+      "name": "partial-mobile",
+      "script": "qa-room-document-partial-mobile.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "0935cc0f050e21d858d132d90b192543d41ea110992ad92484684b10fab84d88",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 8938,
+      "log": "partial-mobile-1.log"
+    },
+    {
+      "name": "fallback",
+      "script": "qa-room-document-fallback.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "cacca2c5c6a1dd1d7486521054246a643b145483ce7d2874ead8c26765707fa6",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 4275,
+      "log": "fallback-1.log"
+    },
+    {
+      "name": "shadow",
+      "script": "qa-room-shadow-cache.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/"
+      ],
+      "scriptSha": "cc80d89d6280d7316c9f31dceba0ab6b7371616dc1d6a2d46f3c8c7494edc48e",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 144240,
+      "log": "shadow-1.log"
+    },
+    {
+      "name": "access",
+      "script": "qa-room-interaction-access.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "e10de0088aef76a0b431a0d70a3f6cf217fddd8ccc34a69e838bd4ac6ef8c173",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 54055,
+      "log": "access-1.log"
+    },
+    {
+      "name": "handles",
+      "script": "qa-room-handles.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "83ecbfec0c065e63c1aec46521024ee95990c33fcee8d97df1ee8a54cc4832ae",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 57174,
+      "log": "handles-1.log"
+    },
+    {
+      "name": "cabinet-close",
+      "script": "qa-room-cabinet-close.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "71edb65951cca748e8bdfe1abf19b03b7b748e1565176cff90fc792d048fc1d7",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 154647,
+      "log": "cabinet-close-1.log"
+    },
+    {
+      "name": "cabinet-gates",
+      "script": "qa-room-cabinet-close.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final",
+        "--pose-gates"
+      ],
+      "scriptSha": "71edb65951cca748e8bdfe1abf19b03b7b748e1565176cff90fc792d048fc1d7",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 7726,
+      "log": "cabinet-gates-1.log"
+    },
+    {
+      "name": "content",
+      "script": "qa-room-content-interactions.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "ab559baa1701cc938ac6d967c48ecd6739a512f8410024ec998127f8d963c922",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 44377,
+      "log": "content-1.log"
+    },
+    {
+      "name": "content-small",
+      "script": "qa-room-content-interactions.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final-small",
+        "--small"
+      ],
+      "scriptSha": "ab559baa1701cc938ac6d967c48ecd6739a512f8410024ec998127f8d963c922",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 12202,
+      "log": "content-small-1.log"
+    },
+    {
+      "name": "matrix",
+      "script": "qa-portfolio-content-matrix.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "4b11798ab0b0a6b760ea2824bf0a67b4d2780a77d8893bd77c4f00b98d19253d",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 28029,
+      "log": "matrix-1.log"
+    },
+    {
+      "name": "entry",
+      "script": "qa-room-entry-modal.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "91a6328c50572c4849ee9245deafca33ceeee0efe2f46bf862d8921d3578fc4f",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 14364,
+      "log": "entry-1.log"
+    },
+    {
+      "name": "touch-names",
+      "script": "qa-room-touch-context.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "8dad9078f2fd306bef4a23849cb4b889bdb8abdf3f0884186646b967d8a3ec43",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 22423,
+      "log": "touch-names-1.log"
+    },
+    {
+      "name": "certificates",
+      "script": "qa-certificates-reading.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "4c752a8eca207d9583a38841d100f0b40505c78a08640a3cf52f31107e8493bd",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 45341,
+      "log": "certificates-1.log"
+    },
+    {
+      "name": "document-strip",
+      "script": "qa-document-strip-edges.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "reader-2026-10-18-final"
+      ],
+      "scriptSha": "678ef3bb3b5224adbecd71df908dc1f061cbb2b6b7cca20464263789049d718a",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 15890,
+      "log": "document-strip-1.log"
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,17 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "checks": [
+    "320x844: actual touch pans the original horizontally",
+    "320x844: actual touch pans the original vertically",
+    "320x844: touch remains inside reader and scene stays held",
+    "320x844: camera unaffected by touch reading"
+  ],
+  "cases": [],
+  "motion": [],
+  "passed": false,
+  "failure": {
+    "name": "320x844",
+    "message": "page.waitForFunction: Timeout 30000ms exceeded.",
+    "errors": []
+  }
+}

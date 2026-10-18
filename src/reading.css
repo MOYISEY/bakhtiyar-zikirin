@@ -40,3 +40,6 @@
 
 .document-tabs{display:none}
 @media(max-width:760px){.document-tabs{display:flex;gap:.5rem;justify-content:space-between;border-top:1px solid var(--line);margin-top:.25rem}.document-tabs a{flex:1;min-width:0;min-height:44px;display:flex;justify-content:center;align-items:center;font-size:14px;line-height:1.4;color:var(--muted);border-bottom:2px solid transparent}.document-tabs a[aria-current=true]{color:var(--teal);border-color:var(--teal)}}
+
+/* Three concise, source-backed case summaries keep the main selection scannable. */
+.showcase-choice small{font-size:14px;line-height:1.5}.showcase-frame{font-size:14px;line-height:1.55;color:var(--muted);margin:.6rem 0 0}.project-brief{margin:1rem 0;display:grid;gap:.8rem}.project-brief>div{display:grid;grid-template-columns:7.5rem minmax(0,1fr);gap:.8rem}.project-brief dt{font-size:14px;font-weight:500;color:var(--muted)}.project-brief dd{margin:0;font-size:15px;line-height:1.65;color:var(--ink)}.project-detail-notes{margin:1.5rem 0}.project-detail-notes>summary{font-size:14px;min-height:44px;color:var(--teal)}.project-page>.project-brief{max-width:65rem;margin:1.5rem 0}.project-detail-notes .case-context{margin-top:1rem}@media(max-width:760px){.project-brief>div{grid-template-columns:1fr;gap:.2rem}.project-brief{gap:.9rem}.project-brief dd{font-size:14px}}

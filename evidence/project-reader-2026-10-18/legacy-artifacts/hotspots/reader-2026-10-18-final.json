@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-18T22:03:15.977Z",
+  "base": "http://127.0.0.1:4331/after/",
+  "label": "reader-2026-10-18-final",
+  "checks": [
+    "desktop: no markers behind the closed entrance",
+    "desktop: distant closed door blocks room actions",
+    "desktop: open entrance still blocks actions while camera remains in corridor",
+    "desktop: useful actions appear before the old .96 cutoff",
+    "desktop: entry remains physically clear",
+    "desktop: early keyboard marker opens projects",
+    "desktop: panel suppresses object tooltip",
+    "desktop: early close restores object focus",
+    "desktop: early pointer marker opens projects",
+    "desktop: pointer uses a single tooltip",
+    "desktop: turning away removes monitor marker",
+    "desktop: hidden monitor has no stale tooltip",
+    "desktop: monitor behind the window view is unavailable",
+    "desktop: exit removes room markers and hints",
+    "desktop: no runtime errors",
+    "mobile: no markers behind the closed entrance",
+    "mobile: distant closed door blocks room actions",
+    "mobile: open entrance still blocks actions while camera remains in corridor",
+    "mobile: useful actions appear before the old .96 cutoff",
+    "mobile: entry remains physically clear",
+    "mobile: early keyboard marker opens projects",
+    "mobile: panel suppresses object tooltip",
+    "mobile: early close restores object focus",
+    "mobile: early pointer marker opens projects",
+    "mobile: turning away removes monitor marker",
+    "mobile: hidden monitor has no stale tooltip",
+    "mobile: monitor behind the window view is unavailable",
+    "mobile: exit removes room markers and hints",
+    "mobile: no runtime errors"
+  ],
+  "scenarios": [
+    {
+      "name": "desktop",
+      "earlyProgress": 0.693,
+      "doorAngle": 1.5399999999998597,
+      "markers": [
+        "object-case",
+        "object-profile",
+        "object-lamp",
+        "object-drawer"
+      ]
+    },
+    {
+      "name": "mobile",
+      "earlyProgress": 0.693,
+      "doorAngle": 1.5399999999998477,
+      "markers": [
+        "object-case",
+        "object-profile",
+        "object-lamp",
+        "object-drawer"
+      ]
+    }
+  ],
+  "pass": true
+}

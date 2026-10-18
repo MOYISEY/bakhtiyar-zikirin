@@ -1,0 +1,93 @@
+{
+  "runtime": {
+    "docs/index.html": "29c96cc5d682fac47254c614090d5a4a747a91d91f7c9303942292de226eb668",
+    "docs/asset-history.json": "547bea497264954e6e1607887e0c1fa7541bc64362ede77d2ab1015821702f59",
+    "docs/assets/main-BigPCy7T.css": "2820f852251736465a8c8cc4f560cc97036b4eea62f39a5d87869ad0da84f4dc",
+    "docs/assets/main-CVIEnzjX.js": "7623952bce5e7f3d1a02371780d7263f3908a4c845ae374bd2b027386775509d",
+    "docs/assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2": "268f03691b3d06e57abcf20f9277e314ea8784298983aab5b40c1b91965027e1",
+    "docs/assets/onest-cyrillic-wght-normal-DayYxulF.woff2": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27",
+    "docs/assets/onest-latin-ext-wght-normal-QAhDxQuo.woff2": "14e7d3079b75860e2ab50efc6c318c398fdb46ede9b56e625f12ae70a3c5d9a4",
+    "docs/assets/onest-latin-wght-normal-Dun_Rd-l.woff2": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828",
+    "docs/assets/onest-math-wght-normal-Bl4ZGkZl.woff2": "c74952a8c0c8c558c4f879f83773cf529d11350609f7073f5b2c5999dec46041",
+    "docs/assets/onest-symbols-wght-normal-DxQzqQfC.woff2": "2ec2d45d2ec0770e2c18cba2dba5126cf2dcff181d23ad192e9fffeb4af4b0b6",
+    "docs/assets/onest-vietnamese-wght-normal-BBxOatbv.woff2": "d852d4d094a3a46d701d16245deb7ca83b16b5bd69e20aa0aba089392ad69474",
+    "docs/assets/preferences-B0BSF3Yj.js": "31f918bb52977de3fcd7292bb46278808792055d788ba7ab794b5dde9e02dd9c",
+    "docs/assets/rowline-sample-BI7SVVNe.js": "ae49b9b558b6fcd134b1f403a5bee93c43674a3f97e487cfe7a2f4c9fe45e528",
+    "docs/assets/scene-controls-BW5paW9X.js": "a3d3db2b4b55185bbeb0bbb2023a9a5729cda87aec54eae78ba12398fbbdd6de",
+    "docs/assets/scene-o7NQ45Qf.js": "caea428260230ac2e21f4cd9534d1bcae4d9df1a0b91d681323c941ea852600d",
+    "docs/room/main.js": "f46cd175d886ebd910d51cf1b777e7ad7acf06e9f44cce522c438a8647f36f42",
+    "docs/room/world.js": "4df199f5c7704ce2282cd9a999943ccc8a1f6f0cca024dc1675f0ba303c415f8",
+    "docs/room/ui.js": "9893c10ac55ed67f22fd556120faafface8b739dc9899399ab2a7fa7418f7ac9",
+    "docs/room/style.css": "525989a222ebbcd8dcec07844b0c70afb22fc862cbd104d7b6eb40e6f651a925",
+    "docs/room/profile-data.js": "b54de4cd2be62b08ffef13fb906125b8ba1f871865f19e8456f5139955c8225e"
+  },
+  "jobs": [
+    {
+      "name": "build",
+      "script": "C:\\Users\\aldia\\Documents\\Codex\\2026-10-15\\task-2\\project-reader-2026-10-18/build-proof.cjs",
+      "args": [],
+      "scriptSha": "46e767f8254cf0624ccfbfe7733a430f0757a014bce6aa5889ff8b7eefc23b37",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 6723,
+      "log": "build-1.log"
+    },
+    {
+      "name": "touch",
+      "script": "scripts/qa-reader-touch.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "release"
+      ],
+      "scriptSha": "92fce6d73d36913e8fc3e10fe4db7d6ef4ce150952b7b86b0267dcc48d495f1f",
+      "attempt": 1,
+      "exit": 1,
+      "durationMs": 37907,
+      "log": "touch-1.log"
+    },
+    {
+      "name": "touch",
+      "script": "scripts/qa-reader-touch.cjs",
+      "args": [
+        "http://127.0.0.1:4331/after/",
+        "release"
+      ],
+      "scriptSha": "ad16455ba7cd35479b7aa5a85bb350f02bd45d75f341279650e096ab3ab29ee1",
+      "attempt": 2,
+      "exit": 0,
+      "durationMs": 26615,
+      "log": "touch-2.log"
+    },
+    {
+      "name": "case-top",
+      "script": "C:\\Users\\aldia\\Documents\\Codex\\2026-10-15\\task-2\\project-reader-2026-10-18/capture-case-top.cjs",
+      "args": [],
+      "scriptSha": "5d8558e351825948ac4f3b12746930eeff83f3319e732e508391745bc487092e",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 6100,
+      "log": "case-top-1.log"
+    },
+    {
+      "name": "cold",
+      "script": "C:\\Users\\aldia\\Documents\\Codex\\2026-10-15\\task-2\\project-reader-2026-10-18/cold.cjs",
+      "args": [],
+      "scriptSha": "f978822ca9e124371beac7aed30ee867a4231b46326b47ed5058d30673955a95",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 114161,
+      "log": "cold-1.log"
+    },
+    {
+      "name": "models",
+      "script": "C:\\Users\\aldia\\Documents\\Codex\\2026-10-15\\task-2\\project-reader-2026-10-18/model-audit.cjs",
+      "args": [],
+      "scriptSha": "434cf44d52318d94a9af8177beb0d3dcd5f72e9186dc9bdfaf4ffb0b0f8618cb",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 13141,
+      "log": "models-1.log"
+    }
+  ],
+  "passed": true
+}

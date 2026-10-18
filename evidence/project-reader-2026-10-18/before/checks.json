@@ -1,0 +1,37 @@
+{
+  "cases": [
+    {
+      "name": "desktop-light",
+      "height": 392.921875,
+      "bodyWidth": 1425,
+      "viewport": 1440
+    },
+    {
+      "name": "desktop-dark",
+      "height": 392.921875,
+      "bodyWidth": 1425,
+      "viewport": 1440
+    },
+    {
+      "name": "touch-light",
+      "height": 441.515625,
+      "bodyWidth": 390,
+      "viewport": 390
+    },
+    {
+      "name": "touch-dark",
+      "height": 441.515625,
+      "bodyWidth": 390,
+      "viewport": 390
+    },
+    {
+      "name": "desktop",
+      "wall": "object-wall-diploma"
+    },
+    {
+      "name": "touch",
+      "wall": "object-wall-diploma"
+    }
+  ],
+  "passed": true
+}

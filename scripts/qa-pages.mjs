@@ -31,7 +31,7 @@ for(const width of edgesOnly?[]:[1366,390])for(const lang of ['ru','kk','en'])fo
     e.overflow=await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth);assert(e.overflow<=1);
     assert.deepEqual(errors,[]);
     if(route.page==='home') {
-     assert.equal(await page.locator('[data-showcase-select]').count(),5);assert.equal(await page.locator('#project-rail,.hero-project').count(),0);assert.equal(await page.locator('.hero .sample').count(),0);
+     assert.equal(await page.locator('[data-showcase-select]').count(),3);assert.equal(await page.locator('#project-rail,.hero-project').count(),0);assert.equal(await page.locator('.hero .sample').count(),0);
      await page.locator('#work').evaluate(el=>el.scrollIntoView({block:'start'}));await shot(page,prefix+'-cards',lang==='ru'&&width===1366||lang==='kk'&&width===390&&theme==='dark');
     } else if(route.page==='catalog') {
      assert.equal(await page.locator('.visual-card').count(),9);assert.equal(await page.locator('.project-preview img').count(),9);await shot(page,prefix+'-catalog',lang==='ru'&&width===1366||lang==='en'&&width===390&&theme==='light');

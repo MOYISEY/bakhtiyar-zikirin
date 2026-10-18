@@ -1,0 +1,2039 @@
+{
+  "cases": [
+    {
+      "version": "before",
+      "mobile": false,
+      "expected": [
+        {
+          "path": "assets/window/window.glb.gz",
+          "bytes": 501648,
+          "sha256": "57b8d49eefed3b565f85109806b2a6ec97622670f8b44a81ab919fd910483601"
+        },
+        {
+          "path": "assets/corridor/profiles.glb.gz",
+          "bytes": 994124,
+          "sha256": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "path": "assets/exterior/tree-trunk.glb.gz",
+          "bytes": 240324,
+          "sha256": "a7b748fab52bb1fc46772aaae697e3f3f3a43b8e72b9b1c5947485e7a7e78a85"
+        },
+        {
+          "path": "assets/exterior/skyline.glb.gz",
+          "bytes": 52724,
+          "sha256": "32e6a922e715e2f75717981ada986733734566d15b486c1b8482f01cd6d62eaf"
+        },
+        {
+          "path": "assets/studio-furniture/chair.glb.gz",
+          "bytes": 282196,
+          "sha256": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "path": "assets/studio-furniture/lamp.glb.gz",
+          "bytes": 327732,
+          "sha256": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd"
+        },
+        {
+          "path": "assets/studio-furniture/door.glb.gz",
+          "bytes": 272364,
+          "sha256": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "path": "assets/studio-furniture/drawer.glb.gz",
+          "bytes": 209788,
+          "sha256": "cbd18d8f6d45cf28379742c78c401f266b26262dea9fdbc58cda1292bcd40f97"
+        },
+        {
+          "path": "assets/studio-furniture/cabinet.glb.gz",
+          "bytes": 486044,
+          "sha256": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031"
+        },
+        {
+          "path": "assets/studio-furniture/side-table.glb.gz",
+          "bytes": 190204,
+          "sha256": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06"
+        },
+        {
+          "path": "assets/studio-furniture/workbench.glb.gz",
+          "bytes": 553800,
+          "sha256": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "path": "assets/room-accents/robot.glb.gz",
+          "bytes": 252712,
+          "sha256": "a94781e01ab3a2d263f8ed87d81b2b40c21591e740bc4a0ef7f2f425145c8b2e"
+        },
+        {
+          "path": "assets/room-accents/orbit.glb.gz",
+          "bytes": 100668,
+          "sha256": "7a011facd879ca516cce2bfe183c867bd3b398434162886ae65237f913cb0121"
+        },
+        {
+          "path": "assets/room-accents/ceiling-panel.glb.gz",
+          "bytes": 83060,
+          "sha256": "6dd936a72644c3a88698216b9af3ab1966d96fb2ec825952755870304a9e48e3"
+        }
+      ],
+      "observed": [
+        {
+          "bytes": 83060,
+          "sha256": "6dd936a72644c3a88698216b9af3ab1966d96fb2ec825952755870304a9e48e3"
+        },
+        {
+          "bytes": 272364,
+          "sha256": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "bytes": 994124,
+          "sha256": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "bytes": 327732,
+          "sha256": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd"
+        },
+        {
+          "bytes": 282196,
+          "sha256": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "bytes": 190204,
+          "sha256": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06"
+        },
+        {
+          "bytes": 240324,
+          "sha256": "a7b748fab52bb1fc46772aaae697e3f3f3a43b8e72b9b1c5947485e7a7e78a85"
+        },
+        {
+          "bytes": 501648,
+          "sha256": "57b8d49eefed3b565f85109806b2a6ec97622670f8b44a81ab919fd910483601"
+        },
+        {
+          "bytes": 209788,
+          "sha256": "cbd18d8f6d45cf28379742c78c401f266b26262dea9fdbc58cda1292bcd40f97"
+        },
+        {
+          "bytes": 100668,
+          "sha256": "7a011facd879ca516cce2bfe183c867bd3b398434162886ae65237f913cb0121"
+        },
+        {
+          "bytes": 52724,
+          "sha256": "32e6a922e715e2f75717981ada986733734566d15b486c1b8482f01cd6d62eaf"
+        },
+        {
+          "bytes": 252712,
+          "sha256": "a94781e01ab3a2d263f8ed87d81b2b40c21591e740bc4a0ef7f2f425145c8b2e"
+        },
+        {
+          "bytes": 486044,
+          "sha256": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031"
+        },
+        {
+          "bytes": 553800,
+          "sha256": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        }
+      ],
+      "state": {
+        "firstFrameAt": 1114.1000000000931,
+        "fullSceneAt": 4361,
+        "shadowUpdates": 2,
+        "cachedShadowFrames": 0,
+        "cabinetVelocity": 0,
+        "doorNear": false,
+        "doorStopProgress": 0.4383676052093506,
+        "doorOpenAngle": 1.54,
+        "doorPassAngle": 1.48,
+        "window": {
+          "loaded": true,
+          "meshes": [
+            {
+              "uv2": true,
+              "material": "Powder_coat_warm_ivory",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "EPDM_seal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Brushed_handle",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Honed_limestone_sill",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Painted_wall_fern",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Warm_lime_reveal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            }
+          ],
+          "liveLamp": 14
+        },
+        "lighting": {
+          "closedCorridorEnd": true,
+          "ceilingPanels": 4,
+          "corridorLights": [
+            {
+              "position": [
+                0,
+                2.94,
+                4.5
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                7.9
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                10.5
+              ],
+              "intensity": 20
+            }
+          ],
+          "taskLight": {
+            "position": [
+              1.075,
+              1.4961344953536986,
+              -1.7688409498631954
+            ],
+            "intensity": 14,
+            "shadowBias": -0.0003,
+            "normalBias": 0.01
+          },
+          "environmentIntensity": 0.24,
+          "fill": 0.55,
+          "daylight": {
+            "cascades": 3,
+            "splitsM": [
+              16,
+              135,
+              720
+            ],
+            "mapSize": 2048,
+            "oneSun": true,
+            "filterRadius": 4
+          },
+          "plaques": [
+            {
+              "number": "01",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "02",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "03",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            }
+          ]
+        },
+        "showcase": {
+          "id": "helio",
+          "source": "assets/helio.webp",
+          "updates": 0,
+          "dynamicTextures": 0,
+          "width": 0,
+          "height": 0
+        },
+        "weather": {
+          "fogNear": 115,
+          "fogFar": 620,
+          "rainCount": 760,
+          "glassBeads": 95,
+          "animatedFrames": 0,
+          "time": 0,
+          "windowVisible": true,
+          "maxRainFPS": 24,
+          "extraDrawCalls": 3,
+          "audioChanged": false,
+          "paused": false,
+          "reduced": false
+        },
+        "stream": {
+          "ready": true,
+          "warming": false,
+          "warmError": null,
+          "skyFallback": false,
+          "phases": {
+            "room": {
+              "status": "ready",
+              "completed": 20,
+              "total": 20,
+              "failed": [],
+              "error": null
+            },
+            "decor": {
+              "status": "ready",
+              "completed": 13,
+              "total": 13,
+              "failed": [],
+              "error": null
+            },
+            "expo": {
+              "status": "ready",
+              "completed": 4,
+              "total": 4,
+              "failed": [],
+              "error": null
+            }
+          }
+        },
+        "cameraClear": true,
+        "viewName": "desk",
+        "progress": 0,
+        "target": 0,
+        "doorAngle": 0.006104595181729937,
+        "camera": [
+          0,
+          1.6,
+          9.55
+        ],
+        "look": [
+          0,
+          0
+        ],
+        "move": [
+          0,
+          0
+        ],
+        "lamp": true,
+        "brightness": 1,
+        "pull": 0,
+        "folder": 0,
+        "drawer": 0,
+        "collection": {
+          "variant": "authored-bifold-sliding",
+          "opening": 0,
+          "itemsAccessible": false,
+          "leftAngle": 0,
+          "rightAngle": 0,
+          "limit": 1.5707963267948966
+        },
+        "furniture": {
+          "variant": "authored",
+          "drawerTravel": 0.29,
+          "drawerOffset": 0,
+          "doorHinge": [
+            -0.515,
+            0.025,
+            1.9
+          ]
+        },
+        "held": false,
+        "pointerKind": null,
+        "pullThreshold": 0.065,
+        "pullLimit": 0.12,
+        "office": {
+          "doorWidth": 1.03,
+          "doorHeight": 2.35,
+          "corridorWidth": 2.65,
+          "sideDoors": [
+            "01",
+            "02",
+            "03"
+          ],
+          "corridorLength": 9.47,
+          "corridorHeight": 3,
+          "routeLength": 8
+        },
+        "assets": [
+          {
+            "id": "chair",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              1.0704697634276144,
+              0.826019287109375,
+              1.053371867630922
+            ],
+            "floorGap": 0,
+            "source": "studio-furniture/chair"
+          },
+          {
+            "id": "lamp",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              0.20000000298023224,
+              0.8564311042428016,
+              0.387474462389946
+            ],
+            "source": "studio-furniture/lamp"
+          },
+          {
+            "id": "cabinet",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6179999905154117,
+              0.6800000071525574,
+              2.440000057220459
+            ]
+          },
+          {
+            "id": "side_table",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6819042689954671,
+              0.550000011920929,
+              0.6122396309200582
+            ]
+          }
+        ],
+        "drawCalls": 962,
+        "textureCount": 84,
+        "triangles": 1257665,
+        "frames": 204,
+        "renders": 2,
+        "audio": {
+          "armed": false,
+          "inside": false,
+          "state": "suspended",
+          "needsGesture": false,
+          "resumePending": false,
+          "resumeAttempts": 0,
+          "musicReady": true,
+          "preparationMode": "worker",
+          "musicDuration": 64,
+          "sourceStarts": {
+            "music": 0,
+            "rain": 0,
+            "effects": 0
+          },
+          "desiredMaster": 0,
+          "levels": {
+            "master": {
+              "rms": 0,
+              "peak": 0
+            },
+            "music": {
+              "rms": 0,
+              "peak": 0
+            },
+            "rain": {
+              "rms": 0,
+              "peak": 0
+            }
+          },
+          "preferences": {
+            "muted": false,
+            "music": {
+              "muted": false,
+              "volume": 0.45
+            },
+            "rain": {
+              "muted": false,
+              "volume": 0.18
+            },
+            "effects": {
+              "muted": false,
+              "volume": 0.25
+            }
+          },
+          "savedPreferences": false,
+          "raining": true,
+          "error": null,
+          "score": "Window Notes"
+        }
+      },
+      "errors": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/room-accents/ceiling-panel.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/lamp.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/window/window.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4331/before/room/assets/studio-furniture/drawer.glb.gz",
+          "error": {
+            "errorText": "net::ERR_ABORTED"
+          }
+        }
+      ],
+      "exact": true,
+      "assetsComplete": true
+    },
+    {
+      "version": "before",
+      "mobile": true,
+      "expected": [
+        {
+          "path": "assets/window/window.glb.gz",
+          "bytes": 501648,
+          "sha256": "57b8d49eefed3b565f85109806b2a6ec97622670f8b44a81ab919fd910483601"
+        },
+        {
+          "path": "assets/corridor/profiles.glb.gz",
+          "bytes": 994124,
+          "sha256": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "path": "assets/exterior/tree-trunk.glb.gz",
+          "bytes": 240324,
+          "sha256": "a7b748fab52bb1fc46772aaae697e3f3f3a43b8e72b9b1c5947485e7a7e78a85"
+        },
+        {
+          "path": "assets/exterior/skyline.glb.gz",
+          "bytes": 52724,
+          "sha256": "32e6a922e715e2f75717981ada986733734566d15b486c1b8482f01cd6d62eaf"
+        },
+        {
+          "path": "assets/studio-furniture/chair.glb.gz",
+          "bytes": 282196,
+          "sha256": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "path": "assets/studio-furniture/lamp.glb.gz",
+          "bytes": 327732,
+          "sha256": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd"
+        },
+        {
+          "path": "assets/studio-furniture/door.glb.gz",
+          "bytes": 272364,
+          "sha256": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "path": "assets/studio-furniture/drawer.glb.gz",
+          "bytes": 209788,
+          "sha256": "cbd18d8f6d45cf28379742c78c401f266b26262dea9fdbc58cda1292bcd40f97"
+        },
+        {
+          "path": "assets/studio-furniture/cabinet.glb.gz",
+          "bytes": 486044,
+          "sha256": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031"
+        },
+        {
+          "path": "assets/studio-furniture/side-table.glb.gz",
+          "bytes": 190204,
+          "sha256": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06"
+        },
+        {
+          "path": "assets/studio-furniture/workbench.glb.gz",
+          "bytes": 553800,
+          "sha256": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "path": "assets/room-accents/robot.glb.gz",
+          "bytes": 252712,
+          "sha256": "a94781e01ab3a2d263f8ed87d81b2b40c21591e740bc4a0ef7f2f425145c8b2e"
+        },
+        {
+          "path": "assets/room-accents/orbit.glb.gz",
+          "bytes": 100668,
+          "sha256": "7a011facd879ca516cce2bfe183c867bd3b398434162886ae65237f913cb0121"
+        },
+        {
+          "path": "assets/room-accents/ceiling-panel.glb.gz",
+          "bytes": 83060,
+          "sha256": "6dd936a72644c3a88698216b9af3ab1966d96fb2ec825952755870304a9e48e3"
+        }
+      ],
+      "observed": [
+        {
+          "bytes": 327732,
+          "sha256": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd"
+        },
+        {
+          "bytes": 52724,
+          "sha256": "32e6a922e715e2f75717981ada986733734566d15b486c1b8482f01cd6d62eaf"
+        },
+        {
+          "bytes": 501648,
+          "sha256": "57b8d49eefed3b565f85109806b2a6ec97622670f8b44a81ab919fd910483601"
+        },
+        {
+          "bytes": 994124,
+          "sha256": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "bytes": 272364,
+          "sha256": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "bytes": 209788,
+          "sha256": "cbd18d8f6d45cf28379742c78c401f266b26262dea9fdbc58cda1292bcd40f97"
+        },
+        {
+          "bytes": 240324,
+          "sha256": "a7b748fab52bb1fc46772aaae697e3f3f3a43b8e72b9b1c5947485e7a7e78a85"
+        },
+        {
+          "bytes": 553800,
+          "sha256": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "bytes": 282196,
+          "sha256": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "bytes": 83060,
+          "sha256": "6dd936a72644c3a88698216b9af3ab1966d96fb2ec825952755870304a9e48e3"
+        },
+        {
+          "bytes": 486044,
+          "sha256": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031"
+        },
+        {
+          "bytes": 252712,
+          "sha256": "a94781e01ab3a2d263f8ed87d81b2b40c21591e740bc4a0ef7f2f425145c8b2e"
+        },
+        {
+          "bytes": 100668,
+          "sha256": "7a011facd879ca516cce2bfe183c867bd3b398434162886ae65237f913cb0121"
+        },
+        {
+          "bytes": 190204,
+          "sha256": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06"
+        }
+      ],
+      "state": {
+        "firstFrameAt": 536.4000000003725,
+        "fullSceneAt": 2157.5,
+        "shadowUpdates": 10,
+        "cachedShadowFrames": 0,
+        "cabinetVelocity": 0,
+        "doorNear": false,
+        "doorStopProgress": 0.4383676052093506,
+        "doorOpenAngle": 1.54,
+        "doorPassAngle": 1.48,
+        "window": {
+          "loaded": true,
+          "meshes": [
+            {
+              "uv2": true,
+              "material": "Powder_coat_warm_ivory",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "EPDM_seal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Brushed_handle",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Honed_limestone_sill",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Painted_wall_fern",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Warm_lime_reveal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            }
+          ],
+          "liveLamp": 14
+        },
+        "lighting": {
+          "closedCorridorEnd": true,
+          "ceilingPanels": 4,
+          "corridorLights": [
+            {
+              "position": [
+                0,
+                2.94,
+                4.5
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                7.9
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                10.5
+              ],
+              "intensity": 20
+            }
+          ],
+          "taskLight": {
+            "position": [
+              1.075,
+              1.4961344953536986,
+              -1.7688409498631954
+            ],
+            "intensity": 14,
+            "shadowBias": -0.0003,
+            "normalBias": 0.01
+          },
+          "environmentIntensity": 0.24,
+          "fill": 0.55,
+          "daylight": {
+            "cascades": 3,
+            "splitsM": [
+              16,
+              135,
+              720
+            ],
+            "mapSize": 2048,
+            "oneSun": true,
+            "filterRadius": 4
+          },
+          "plaques": [
+            {
+              "number": "01",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "02",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "03",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            }
+          ]
+        },
+        "showcase": {
+          "id": "helio",
+          "source": "assets/helio.webp",
+          "updates": 0,
+          "dynamicTextures": 0,
+          "width": 0,
+          "height": 0
+        },
+        "weather": {
+          "fogNear": 115,
+          "fogFar": 620,
+          "rainCount": 760,
+          "glassBeads": 95,
+          "animatedFrames": 0,
+          "time": 0,
+          "windowVisible": true,
+          "maxRainFPS": 24,
+          "extraDrawCalls": 3,
+          "audioChanged": false,
+          "paused": false,
+          "reduced": false
+        },
+        "stream": {
+          "ready": true,
+          "warming": false,
+          "warmError": null,
+          "skyFallback": false,
+          "phases": {
+            "room": {
+              "status": "ready",
+              "completed": 20,
+              "total": 20,
+              "failed": [],
+              "error": null
+            },
+            "decor": {
+              "status": "ready",
+              "completed": 13,
+              "total": 13,
+              "failed": [],
+              "error": null
+            },
+            "expo": {
+              "status": "ready",
+              "completed": 4,
+              "total": 4,
+              "failed": [],
+              "error": null
+            }
+          }
+        },
+        "cameraClear": true,
+        "viewName": "desk",
+        "progress": 0,
+        "target": 0,
+        "doorAngle": 0.03422649438983749,
+        "camera": [
+          0,
+          1.6,
+          9.55
+        ],
+        "look": [
+          0,
+          0
+        ],
+        "move": [
+          0,
+          0
+        ],
+        "lamp": true,
+        "brightness": 1,
+        "pull": 0,
+        "folder": 0,
+        "drawer": 0,
+        "collection": {
+          "variant": "authored-bifold-sliding",
+          "opening": 0,
+          "itemsAccessible": false,
+          "leftAngle": 0,
+          "rightAngle": 0,
+          "limit": 1.5707963267948966
+        },
+        "furniture": {
+          "variant": "authored",
+          "drawerTravel": 0.29,
+          "drawerOffset": 0,
+          "doorHinge": [
+            -0.515,
+            0.025,
+            1.9
+          ]
+        },
+        "held": false,
+        "pointerKind": null,
+        "pullThreshold": 0.065,
+        "pullLimit": 0.12,
+        "office": {
+          "doorWidth": 1.03,
+          "doorHeight": 2.35,
+          "corridorWidth": 2.65,
+          "sideDoors": [
+            "01",
+            "02",
+            "03"
+          ],
+          "corridorLength": 9.47,
+          "corridorHeight": 3,
+          "routeLength": 8
+        },
+        "assets": [
+          {
+            "id": "chair",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              1.0704697634276144,
+              0.826019287109375,
+              1.053371867630922
+            ],
+            "floorGap": 0,
+            "source": "studio-furniture/chair"
+          },
+          {
+            "id": "lamp",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              0.20000000298023224,
+              0.8564311042428016,
+              0.387474462389946
+            ],
+            "source": "studio-furniture/lamp"
+          },
+          {
+            "id": "cabinet",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6179999905154117,
+              0.6800000071525574,
+              2.440000057220459
+            ]
+          },
+          {
+            "id": "side_table",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6819042689954671,
+              0.550000011920929,
+              0.6122396309200582
+            ]
+          }
+        ],
+        "drawCalls": 952,
+        "textureCount": 84,
+        "triangles": 1238795,
+        "frames": 73,
+        "renders": 10,
+        "audio": {
+          "armed": false,
+          "inside": false,
+          "state": "suspended",
+          "needsGesture": false,
+          "resumePending": false,
+          "resumeAttempts": 0,
+          "musicReady": true,
+          "preparationMode": "worker",
+          "musicDuration": 64,
+          "sourceStarts": {
+            "music": 0,
+            "rain": 0,
+            "effects": 0
+          },
+          "desiredMaster": 0,
+          "levels": {
+            "master": {
+              "rms": 0,
+              "peak": 0
+            },
+            "music": {
+              "rms": 0,
+              "peak": 0
+            },
+            "rain": {
+              "rms": 0,
+              "peak": 0
+            }
+          },
+          "preferences": {
+            "muted": false,
+            "music": {
+              "muted": false,
+              "volume": 0.45
+            },
+            "rain": {
+              "muted": false,
+              "volume": 0.18
+            },
+            "effects": {
+              "muted": false,
+              "volume": 0.25
+            }
+          },
+          "savedPreferences": false,
+          "raining": true,
+          "error": null,
+          "score": "Window Notes"
+        }
+      },
+      "errors": [],
+      "failed": [],
+      "exact": true,
+      "assetsComplete": true
+    },
+    {
+      "version": "after",
+      "mobile": false,
+      "expected": [
+        {
+          "path": "assets/window/window.glb.gz",
+          "bytes": 501648,
+          "sha256": "57b8d49eefed3b565f85109806b2a6ec97622670f8b44a81ab919fd910483601"
+        },
+        {
+          "path": "assets/corridor/profiles.glb.gz",
+          "bytes": 994124,
+          "sha256": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "path": "assets/exterior/tree-trunk.glb.gz",
+          "bytes": 240324,
+          "sha256": "a7b748fab52bb1fc46772aaae697e3f3f3a43b8e72b9b1c5947485e7a7e78a85"
+        },
+        {
+          "path": "assets/exterior/skyline.glb.gz",
+          "bytes": 52724,
+          "sha256": "32e6a922e715e2f75717981ada986733734566d15b486c1b8482f01cd6d62eaf"
+        },
+        {
+          "path": "assets/studio-furniture/chair.glb.gz",
+          "bytes": 282196,
+          "sha256": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "path": "assets/studio-furniture/lamp.glb.gz",
+          "bytes": 327732,
+          "sha256": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd"
+        },
+        {
+          "path": "assets/studio-furniture/door.glb.gz",
+          "bytes": 272364,
+          "sha256": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "path": "assets/studio-furniture/drawer.glb.gz",
+          "bytes": 209788,
+          "sha256": "cbd18d8f6d45cf28379742c78c401f266b26262dea9fdbc58cda1292bcd40f97"
+        },
+        {
+          "path": "assets/studio-furniture/cabinet.glb.gz",
+          "bytes": 486044,
+          "sha256": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031"
+        },
+        {
+          "path": "assets/studio-furniture/side-table.glb.gz",
+          "bytes": 190204,
+          "sha256": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06"
+        },
+        {
+          "path": "assets/studio-furniture/workbench.glb.gz",
+          "bytes": 553800,
+          "sha256": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "path": "assets/room-accents/robot.glb.gz",
+          "bytes": 252712,
+          "sha256": "a94781e01ab3a2d263f8ed87d81b2b40c21591e740bc4a0ef7f2f425145c8b2e"
+        },
+        {
+          "path": "assets/room-accents/orbit.glb.gz",
+          "bytes": 100668,
+          "sha256": "7a011facd879ca516cce2bfe183c867bd3b398434162886ae65237f913cb0121"
+        },
+        {
+          "path": "assets/room-accents/ceiling-panel.glb.gz",
+          "bytes": 83060,
+          "sha256": "6dd936a72644c3a88698216b9af3ab1966d96fb2ec825952755870304a9e48e3"
+        }
+      ],
+      "observed": [
+        {
+          "bytes": 52724,
+          "sha256": "32e6a922e715e2f75717981ada986733734566d15b486c1b8482f01cd6d62eaf"
+        },
+        {
+          "bytes": 252712,
+          "sha256": "a94781e01ab3a2d263f8ed87d81b2b40c21591e740bc4a0ef7f2f425145c8b2e"
+        },
+        {
+          "bytes": 553800,
+          "sha256": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "bytes": 83060,
+          "sha256": "6dd936a72644c3a88698216b9af3ab1966d96fb2ec825952755870304a9e48e3"
+        },
+        {
+          "bytes": 282196,
+          "sha256": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "bytes": 501648,
+          "sha256": "57b8d49eefed3b565f85109806b2a6ec97622670f8b44a81ab919fd910483601"
+        },
+        {
+          "bytes": 209788,
+          "sha256": "cbd18d8f6d45cf28379742c78c401f266b26262dea9fdbc58cda1292bcd40f97"
+        },
+        {
+          "bytes": 994124,
+          "sha256": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "bytes": 272364,
+          "sha256": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "bytes": 100668,
+          "sha256": "7a011facd879ca516cce2bfe183c867bd3b398434162886ae65237f913cb0121"
+        },
+        {
+          "bytes": 327732,
+          "sha256": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd"
+        },
+        {
+          "bytes": 240324,
+          "sha256": "a7b748fab52bb1fc46772aaae697e3f3f3a43b8e72b9b1c5947485e7a7e78a85"
+        },
+        {
+          "bytes": 486044,
+          "sha256": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031"
+        },
+        {
+          "bytes": 190204,
+          "sha256": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06"
+        }
+      ],
+      "state": {
+        "firstFrameAt": 800.8000000002794,
+        "fullSceneAt": 2433.899999999907,
+        "shadowUpdates": 12,
+        "cachedShadowFrames": 0,
+        "cabinetVelocity": 0,
+        "doorNear": false,
+        "doorStopProgress": 0.4383676052093506,
+        "doorOpenAngle": 1.54,
+        "doorPassAngle": 1.48,
+        "window": {
+          "loaded": true,
+          "meshes": [
+            {
+              "uv2": true,
+              "material": "Powder_coat_warm_ivory",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "EPDM_seal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Brushed_handle",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Honed_limestone_sill",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Painted_wall_fern",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Warm_lime_reveal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            }
+          ],
+          "liveLamp": 14
+        },
+        "lighting": {
+          "closedCorridorEnd": true,
+          "ceilingPanels": 4,
+          "corridorLights": [
+            {
+              "position": [
+                0,
+                2.94,
+                4.5
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                7.9
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                10.5
+              ],
+              "intensity": 20
+            }
+          ],
+          "taskLight": {
+            "position": [
+              1.075,
+              1.4961344953536986,
+              -1.7688409498631954
+            ],
+            "intensity": 14,
+            "shadowBias": -0.0003,
+            "normalBias": 0.01
+          },
+          "environmentIntensity": 0.24,
+          "fill": 0.55,
+          "daylight": {
+            "cascades": 3,
+            "splitsM": [
+              16,
+              135,
+              720
+            ],
+            "mapSize": 2048,
+            "oneSun": true,
+            "filterRadius": 4
+          },
+          "plaques": [
+            {
+              "number": "01",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "02",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "03",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            }
+          ]
+        },
+        "showcase": {
+          "id": "helio",
+          "source": "assets/helio.webp",
+          "updates": 0,
+          "dynamicTextures": 0,
+          "width": 0,
+          "height": 0
+        },
+        "weather": {
+          "fogNear": 115,
+          "fogFar": 620,
+          "rainCount": 760,
+          "glassBeads": 95,
+          "animatedFrames": 0,
+          "time": 0,
+          "windowVisible": true,
+          "maxRainFPS": 24,
+          "extraDrawCalls": 3,
+          "audioChanged": false,
+          "paused": false,
+          "reduced": false
+        },
+        "stream": {
+          "ready": true,
+          "warming": false,
+          "warmError": null,
+          "skyFallback": false,
+          "phases": {
+            "room": {
+              "status": "ready",
+              "completed": 20,
+              "total": 20,
+              "failed": [],
+              "error": null
+            },
+            "decor": {
+              "status": "ready",
+              "completed": 13,
+              "total": 13,
+              "failed": [],
+              "error": null
+            },
+            "expo": {
+              "status": "ready",
+              "completed": 4,
+              "total": 4,
+              "failed": [],
+              "error": null
+            }
+          }
+        },
+        "cameraClear": true,
+        "viewName": "desk",
+        "progress": 0,
+        "target": 0,
+        "doorAngle": 0.035353661667044775,
+        "camera": [
+          0,
+          1.6,
+          9.55
+        ],
+        "look": [
+          0,
+          0
+        ],
+        "move": [
+          0,
+          0
+        ],
+        "lamp": true,
+        "brightness": 1,
+        "pull": 0,
+        "folder": 0,
+        "drawer": 0,
+        "collection": {
+          "variant": "authored-bifold-sliding",
+          "opening": 0,
+          "itemsAccessible": false,
+          "leftAngle": 0,
+          "rightAngle": 0,
+          "limit": 1.5707963267948966
+        },
+        "furniture": {
+          "variant": "authored",
+          "drawerTravel": 0.29,
+          "drawerOffset": 0,
+          "doorHinge": [
+            -0.515,
+            0.025,
+            1.9
+          ]
+        },
+        "held": false,
+        "pointerKind": null,
+        "pullThreshold": 0.065,
+        "pullLimit": 0.12,
+        "office": {
+          "doorWidth": 1.03,
+          "doorHeight": 2.35,
+          "corridorWidth": 2.65,
+          "sideDoors": [
+            "01",
+            "02",
+            "03"
+          ],
+          "corridorLength": 9.47,
+          "corridorHeight": 3,
+          "routeLength": 8
+        },
+        "assets": [
+          {
+            "id": "chair",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              1.0704697634276144,
+              0.826019287109375,
+              1.053371867630922
+            ],
+            "floorGap": 0,
+            "source": "studio-furniture/chair"
+          },
+          {
+            "id": "lamp",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              0.20000000298023224,
+              0.8564311042428016,
+              0.387474462389946
+            ],
+            "source": "studio-furniture/lamp"
+          },
+          {
+            "id": "cabinet",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6179999905154117,
+              0.6800000071525574,
+              2.440000057220459
+            ]
+          },
+          {
+            "id": "side_table",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6819042689954671,
+              0.550000011920929,
+              0.6122396309200582
+            ]
+          }
+        ],
+        "drawCalls": 962,
+        "textureCount": 84,
+        "triangles": 1257665,
+        "frames": 70,
+        "renders": 12,
+        "audio": {
+          "armed": false,
+          "inside": false,
+          "state": "suspended",
+          "needsGesture": false,
+          "resumePending": false,
+          "resumeAttempts": 0,
+          "musicReady": true,
+          "preparationMode": "worker",
+          "musicDuration": 64,
+          "sourceStarts": {
+            "music": 0,
+            "rain": 0,
+            "effects": 0
+          },
+          "desiredMaster": 0,
+          "levels": {
+            "master": {
+              "rms": 0,
+              "peak": 0
+            },
+            "music": {
+              "rms": 0,
+              "peak": 0
+            },
+            "rain": {
+              "rms": 0,
+              "peak": 0
+            }
+          },
+          "preferences": {
+            "muted": false,
+            "music": {
+              "muted": false,
+              "volume": 0.45
+            },
+            "rain": {
+              "muted": false,
+              "volume": 0.18
+            },
+            "effects": {
+              "muted": false,
+              "volume": 0.25
+            }
+          },
+          "savedPreferences": false,
+          "raining": true,
+          "error": null,
+          "score": "Window Notes"
+        }
+      },
+      "errors": [],
+      "failed": [],
+      "exact": true,
+      "assetsComplete": true
+    },
+    {
+      "version": "after",
+      "mobile": true,
+      "expected": [
+        {
+          "path": "assets/window/window.glb.gz",
+          "bytes": 501648,
+          "sha256": "57b8d49eefed3b565f85109806b2a6ec97622670f8b44a81ab919fd910483601"
+        },
+        {
+          "path": "assets/corridor/profiles.glb.gz",
+          "bytes": 994124,
+          "sha256": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "path": "assets/exterior/tree-trunk.glb.gz",
+          "bytes": 240324,
+          "sha256": "a7b748fab52bb1fc46772aaae697e3f3f3a43b8e72b9b1c5947485e7a7e78a85"
+        },
+        {
+          "path": "assets/exterior/skyline.glb.gz",
+          "bytes": 52724,
+          "sha256": "32e6a922e715e2f75717981ada986733734566d15b486c1b8482f01cd6d62eaf"
+        },
+        {
+          "path": "assets/studio-furniture/chair.glb.gz",
+          "bytes": 282196,
+          "sha256": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "path": "assets/studio-furniture/lamp.glb.gz",
+          "bytes": 327732,
+          "sha256": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd"
+        },
+        {
+          "path": "assets/studio-furniture/door.glb.gz",
+          "bytes": 272364,
+          "sha256": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "path": "assets/studio-furniture/drawer.glb.gz",
+          "bytes": 209788,
+          "sha256": "cbd18d8f6d45cf28379742c78c401f266b26262dea9fdbc58cda1292bcd40f97"
+        },
+        {
+          "path": "assets/studio-furniture/cabinet.glb.gz",
+          "bytes": 486044,
+          "sha256": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031"
+        },
+        {
+          "path": "assets/studio-furniture/side-table.glb.gz",
+          "bytes": 190204,
+          "sha256": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06"
+        },
+        {
+          "path": "assets/studio-furniture/workbench.glb.gz",
+          "bytes": 553800,
+          "sha256": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "path": "assets/room-accents/robot.glb.gz",
+          "bytes": 252712,
+          "sha256": "a94781e01ab3a2d263f8ed87d81b2b40c21591e740bc4a0ef7f2f425145c8b2e"
+        },
+        {
+          "path": "assets/room-accents/orbit.glb.gz",
+          "bytes": 100668,
+          "sha256": "7a011facd879ca516cce2bfe183c867bd3b398434162886ae65237f913cb0121"
+        },
+        {
+          "path": "assets/room-accents/ceiling-panel.glb.gz",
+          "bytes": 83060,
+          "sha256": "6dd936a72644c3a88698216b9af3ab1966d96fb2ec825952755870304a9e48e3"
+        }
+      ],
+      "observed": [
+        {
+          "bytes": 252712,
+          "sha256": "a94781e01ab3a2d263f8ed87d81b2b40c21591e740bc4a0ef7f2f425145c8b2e"
+        },
+        {
+          "bytes": 501648,
+          "sha256": "57b8d49eefed3b565f85109806b2a6ec97622670f8b44a81ab919fd910483601"
+        },
+        {
+          "bytes": 486044,
+          "sha256": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031"
+        },
+        {
+          "bytes": 994124,
+          "sha256": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd"
+        },
+        {
+          "bytes": 52724,
+          "sha256": "32e6a922e715e2f75717981ada986733734566d15b486c1b8482f01cd6d62eaf"
+        },
+        {
+          "bytes": 100668,
+          "sha256": "7a011facd879ca516cce2bfe183c867bd3b398434162886ae65237f913cb0121"
+        },
+        {
+          "bytes": 190204,
+          "sha256": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06"
+        },
+        {
+          "bytes": 209788,
+          "sha256": "cbd18d8f6d45cf28379742c78c401f266b26262dea9fdbc58cda1292bcd40f97"
+        },
+        {
+          "bytes": 553800,
+          "sha256": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4"
+        },
+        {
+          "bytes": 240324,
+          "sha256": "a7b748fab52bb1fc46772aaae697e3f3f3a43b8e72b9b1c5947485e7a7e78a85"
+        },
+        {
+          "bytes": 272364,
+          "sha256": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e"
+        },
+        {
+          "bytes": 282196,
+          "sha256": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f"
+        },
+        {
+          "bytes": 327732,
+          "sha256": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd"
+        },
+        {
+          "bytes": 83060,
+          "sha256": "6dd936a72644c3a88698216b9af3ab1966d96fb2ec825952755870304a9e48e3"
+        }
+      ],
+      "state": {
+        "firstFrameAt": 735.3999999999069,
+        "fullSceneAt": 2297,
+        "shadowUpdates": 9,
+        "cachedShadowFrames": 0,
+        "cabinetVelocity": 0,
+        "doorNear": false,
+        "doorStopProgress": 0.4383676052093506,
+        "doorOpenAngle": 1.54,
+        "doorPassAngle": 1.48,
+        "window": {
+          "loaded": true,
+          "meshes": [
+            {
+              "uv2": true,
+              "material": "Powder_coat_warm_ivory",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "EPDM_seal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Brushed_handle",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Honed_limestone_sill",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Painted_wall_fern",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Warm_lime_reveal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            }
+          ],
+          "liveLamp": 14
+        },
+        "lighting": {
+          "closedCorridorEnd": true,
+          "ceilingPanels": 4,
+          "corridorLights": [
+            {
+              "position": [
+                0,
+                2.94,
+                4.5
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                7.9
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                10.5
+              ],
+              "intensity": 20
+            }
+          ],
+          "taskLight": {
+            "position": [
+              1.075,
+              1.4961344953536986,
+              -1.7688409498631954
+            ],
+            "intensity": 14,
+            "shadowBias": -0.0003,
+            "normalBias": 0.01
+          },
+          "environmentIntensity": 0.24,
+          "fill": 0.55,
+          "daylight": {
+            "cascades": 3,
+            "splitsM": [
+              16,
+              135,
+              720
+            ],
+            "mapSize": 2048,
+            "oneSun": true,
+            "filterRadius": 4
+          },
+          "plaques": [
+            {
+              "number": "01",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "02",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "03",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            }
+          ]
+        },
+        "showcase": {
+          "id": "helio",
+          "source": "assets/helio.webp",
+          "updates": 0,
+          "dynamicTextures": 0,
+          "width": 0,
+          "height": 0
+        },
+        "weather": {
+          "fogNear": 115,
+          "fogFar": 620,
+          "rainCount": 760,
+          "glassBeads": 95,
+          "animatedFrames": 0,
+          "time": 0,
+          "windowVisible": true,
+          "maxRainFPS": 24,
+          "extraDrawCalls": 3,
+          "audioChanged": false,
+          "paused": false,
+          "reduced": false
+        },
+        "stream": {
+          "ready": true,
+          "warming": false,
+          "warmError": null,
+          "skyFallback": false,
+          "phases": {
+            "room": {
+              "status": "ready",
+              "completed": 20,
+              "total": 20,
+              "failed": [],
+              "error": null
+            },
+            "decor": {
+              "status": "ready",
+              "completed": 13,
+              "total": 13,
+              "failed": [],
+              "error": null
+            },
+            "expo": {
+              "status": "ready",
+              "completed": 4,
+              "total": 4,
+              "failed": [],
+              "error": null
+            }
+          }
+        },
+        "cameraClear": true,
+        "viewName": "desk",
+        "progress": 0,
+        "target": 0,
+        "doorAngle": 0.033971613150635516,
+        "camera": [
+          0,
+          1.6,
+          9.55
+        ],
+        "look": [
+          0,
+          0
+        ],
+        "move": [
+          0,
+          0
+        ],
+        "lamp": true,
+        "brightness": 1,
+        "pull": 0,
+        "folder": 0,
+        "drawer": 0,
+        "collection": {
+          "variant": "authored-bifold-sliding",
+          "opening": 0,
+          "itemsAccessible": false,
+          "leftAngle": 0,
+          "rightAngle": 0,
+          "limit": 1.5707963267948966
+        },
+        "furniture": {
+          "variant": "authored",
+          "drawerTravel": 0.29,
+          "drawerOffset": 0,
+          "doorHinge": [
+            -0.515,
+            0.025,
+            1.9
+          ]
+        },
+        "held": false,
+        "pointerKind": null,
+        "pullThreshold": 0.065,
+        "pullLimit": 0.12,
+        "office": {
+          "doorWidth": 1.03,
+          "doorHeight": 2.35,
+          "corridorWidth": 2.65,
+          "sideDoors": [
+            "01",
+            "02",
+            "03"
+          ],
+          "corridorLength": 9.47,
+          "corridorHeight": 3,
+          "routeLength": 8
+        },
+        "assets": [
+          {
+            "id": "chair",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              1.0704697634276144,
+              0.826019287109375,
+              1.053371867630922
+            ],
+            "floorGap": 0,
+            "source": "studio-furniture/chair"
+          },
+          {
+            "id": "lamp",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              0.20000000298023224,
+              0.8564311042428016,
+              0.387474462389946
+            ],
+            "source": "studio-furniture/lamp"
+          },
+          {
+            "id": "cabinet",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6179999905154117,
+              0.6800000071525574,
+              2.440000057220459
+            ]
+          },
+          {
+            "id": "side_table",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6819042689954671,
+              0.550000011920929,
+              0.6122396309200582
+            ]
+          }
+        ],
+        "drawCalls": 952,
+        "textureCount": 84,
+        "triangles": 1238795,
+        "frames": 71,
+        "renders": 9,
+        "audio": {
+          "armed": false,
+          "inside": false,
+          "state": "suspended",
+          "needsGesture": false,
+          "resumePending": false,
+          "resumeAttempts": 0,
+          "musicReady": true,
+          "preparationMode": "worker",
+          "musicDuration": 64,
+          "sourceStarts": {
+            "music": 0,
+            "rain": 0,
+            "effects": 0
+          },
+          "desiredMaster": 0,
+          "levels": {
+            "master": {
+              "rms": 0,
+              "peak": 0
+            },
+            "music": {
+              "rms": 0,
+              "peak": 0
+            },
+            "rain": {
+              "rms": 0,
+              "peak": 0
+            }
+          },
+          "preferences": {
+            "muted": false,
+            "music": {
+              "muted": false,
+              "volume": 0.45
+            },
+            "rain": {
+              "muted": false,
+              "volume": 0.18
+            },
+            "effects": {
+              "muted": false,
+              "volume": 0.25
+            }
+          },
+          "savedPreferences": false,
+          "raining": true,
+          "error": null,
+          "score": "Window Notes"
+        }
+      },
+      "errors": [],
+      "failed": [],
+      "exact": true,
+      "assetsComplete": true
+    }
+  ],
+  "passed": true,
+  "method": "Read-only observer of decompressed Response.arrayBuffer GLB bytes in actual native room startup; original promise result returned unchanged. All fetched packed model hashes checked against committed manifest."
+}

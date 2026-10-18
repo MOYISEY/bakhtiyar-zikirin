@@ -1,0 +1,92 @@
+{
+  "base": "http://127.0.0.1:4331/before/",
+  "checks": [
+    "desktop: static modal pauses room camera",
+    "desktop: static contact modal renders no extra background frames",
+    "desktop: unfinished native view transition resumes after closing",
+    "desktop: resize under modal preserves the held camera",
+    "desktop: resized modal background stops after its visual update",
+    "desktop: responsive cabinet view resumes after modal close",
+    "desktop: no runtime errors",
+    "touch: static modal pauses room camera",
+    "touch: static contact modal renders no extra background frames",
+    "touch: unfinished native view transition resumes after closing",
+    "touch: resize under modal preserves the held camera",
+    "touch: resized modal background stops after its visual update",
+    "touch: responsive cabinet view resumes after modal close",
+    "touch: no runtime errors"
+  ],
+  "cases": [
+    {
+      "name": "desktop",
+      "reference": [
+        -0.1799996934723524,
+        1.5999999999999954,
+        0.8000002585172868
+      ],
+      "held": [
+        0.1129425108346635,
+        1.5999999999999996,
+        1.0470599488967043
+      ],
+      "resumed": [
+        -0.17860488565311083,
+        1.5999999999999996,
+        0.8011766024612319
+      ],
+      "remainingDistance": 0.0018246298054875715,
+      "heldRenders": 0,
+      "errors": [],
+      "resize": {
+        "reference": [
+          -0.5479512547850008,
+          1.0499853661057181,
+          -0.3399999999997706
+        ],
+        "resumed": [
+          -0.5472974786747977,
+          1.0499806962762486,
+          -0.3399999999999997
+        ],
+        "remainingDistance": 0.0006537927879531832,
+        "heldRenders": 0
+      }
+    },
+    {
+      "name": "touch",
+      "reference": [
+        -0.17999972756476554,
+        1.599999955821333,
+        0.8000001656701033
+      ],
+      "held": [
+        0.1641872103579208,
+        1.5441858577797967,
+        1.0093030333257629
+      ],
+      "resumed": [
+        -0.17866999097822747,
+        1.5997843228613342,
+        0.8008087892699969
+      ],
+      "remainingDistance": 0.0015711680652687953,
+      "heldRenders": 0,
+      "errors": [],
+      "resize": {
+        "reference": [
+          0.8490466493354779,
+          1.0400068096476554,
+          -0.3399999999998934
+        ],
+        "resumed": [
+          0.8472995263645584,
+          1.0400192890973963,
+          -0.33999999999999975
+        ],
+        "remainingDistance": 0.0017471675398142048,
+        "heldRenders": 0
+      }
+    }
+  ],
+  "passed": true
+}

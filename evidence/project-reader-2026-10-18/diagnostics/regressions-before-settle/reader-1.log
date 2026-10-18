@@ -1,0 +1,33 @@
+PASS desktop-ru-light
+PASS desktop-ru-dark
+PASS desktop-kk-light
+PASS desktop-kk-dark
+PASS desktop-en-light
+PASS desktop-en-dark
+PASS touch-ru-light
+PASS touch-ru-dark
+PASS touch-kk-light
+PASS touch-kk-dark
+PASS touch-en-light
+PASS touch-en-dark
+PASS room-desktop-ru-reduce
+PASS room-touch-ru-reduce
+PASS room-desktop-kk-reduce
+PASS room-touch-kk-reduce
+PASS room-desktop-en-reduce
+PASS room-touch-en-reduce
+PASS room-desktop-ru-no-preference
+PASS room-touch-ru-no-preference
+PASS negative-pending-close
+PASS negative-image-failure
+{"passed":false,"checks":1106,"ordinary":12,"room":8,"negative":2,"failure":{"name":"negative-resize","message":"negative-resize: resize keeps same camera position","errors":[]}}
+AssertionError [ERR_ASSERTION]: negative-resize: resize keeps same camera position
+    at ok (C:\Users\aldia\Documents\Codex\2026-10-13\task\portfolio\scripts\qa-project-reader.cjs:2:464)
+    at C:\Users\aldia\Documents\Codex\2026-10-13\task\portfolio\scripts\qa-project-reader.cjs:14:2025 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}

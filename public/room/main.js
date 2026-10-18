@@ -19,7 +19,7 @@ const path=new T.CatmullRomCurve3([new T.Vector3(0,1.60,9.55),new T.Vector3(.02,
 // Stop outside the door's sweep until the physical opening is clear.
 const doorStopProgress=(()=>{let lo=0,hi=.8;for(let i=0;i<24;i++){const mid=(lo+hi)/2;if(path.getPoint(smooth(mid)).z>2.65)lo=mid;else hi=mid}return lo})();
 let activeHotspot=null,pointerHotspot=null,focusHotspot=null,leaveTimer=null,keyboardMode=false;
-const api={hold:false,audio,canInspect(id){return world.collectionReady(id)},cabinet(){cabinetTarget=cabinetTarget>.5?0:1;dirty=true},closeCabinet(){if(api.hold||!cabinetCommandProjection()||cabinetTarget<=.5)return;closeCabinetFocus=document.activeElement===$('#cabinet-close');cabinetTarget=0;cabinetVelocity=0;dirty=true},previewProject(project,image){if(!window.sliceUsable||window.sliceFatal)return;world.previewProject(project,image);dirty=true},get rainPaused(){return rainPaused},get rainMotionBlocked(){return reduced.matches},toggleRainMotion(){rainPaused=!rainPaused;try{storage?.setItem('room-weather-motion-v1',rainPaused?'paused':'playing')}catch{}weatherText();dirty=true},localize(){world.localize();streamStatus();renderHotspot();dirty=true},go(value,gesture=false){if(!window.sliceUsable)return;preExit=value<.5&&progress>.96&&!reduced.matches;viewName='desk';target=clamp(value,0,1);lookX=lookY=moveX=moveZ=0;if(target>.4){if(gesture)audio.enter(true);else audio.setInside(true)}else audio.setInside(false);dirty=true},documents(){if(world.drawerPull){drawerTarget=1;api.view('drawer')}},view(name){if(name==='education'){api.documents();return}api.go(1,true);viewName=name;lookX=0;dirty=true},pull(){toggleLight();pull=.09;pullVelocity=0;dirty=true},folder(){folderTarget=folderTarget>.5?0:1;dirty=true},drawer(){if(!world.drawerPull)return;drawerTarget=drawerTarget>.5?0:1;if(drawerTarget){api.view('drawer')}else if(viewName==='drawer'){viewName='desk'}dirty=true}};
+const api={hold:false,audio,canInspect(id){return world.collectionReady(id)},cabinet(){cabinetTarget=cabinetTarget>.5?0:1;dirty=true},closeCabinet(){if(api.hold||!cabinetCommandProjection()||cabinetTarget<=.5)return;closeCabinetFocus=document.activeElement===$('#cabinet-close');cabinetTarget=0;cabinetVelocity=0;dirty=true},previewProject(project,image){if(!window.sliceUsable||window.sliceFatal)return;world.previewProject(project,image);dirty=true},documentBounds(id){const g=world.documentTargets[id];if(!g||!projectedAction(id))return null;const pic=g.children.find(o=>o.isMesh&&o.name.endsWith(' print'));if(!pic)return null;const {width:w,height:h}=pic.geometry.parameters,points=[[-w/2,-h/2],[w/2,-h/2],[-w/2,h/2],[w/2,h/2]].map(([x,y])=>pic.localToWorld(new T.Vector3(x,y,0)).project(camera));if(points.some(p=>p.z< -1||p.z>1))return null;const x=Math.min(...points.map(p=>(p.x+1)*innerWidth/2)),y=Math.min(...points.map(p=>(1-p.y)*innerHeight/2)),right=Math.max(...points.map(p=>(p.x+1)*innerWidth/2)),bottom=Math.max(...points.map(p=>(1-p.y)*innerHeight/2));return{x,y,width:right-x,height:bottom-y}},get rainPaused(){return rainPaused},get rainMotionBlocked(){return reduced.matches},toggleRainMotion(){rainPaused=!rainPaused;try{storage?.setItem('room-weather-motion-v1',rainPaused?'paused':'playing')}catch{}weatherText();dirty=true},localize(){world.localize();streamStatus();renderHotspot();dirty=true},go(value,gesture=false){if(!window.sliceUsable)return;preExit=value<.5&&progress>.96&&!reduced.matches;viewName='desk';target=clamp(value,0,1);lookX=lookY=moveX=moveZ=0;if(target>.4){if(gesture)audio.enter(true);else audio.setInside(true)}else audio.setInside(false);dirty=true},documents(){if(world.drawerPull){drawerTarget=1;api.view('drawer')}},view(name){if(name==='education'){api.documents();return}api.go(1,true);viewName=name;lookX=0;dirty=true},pull(){toggleLight();pull=.09;pullVelocity=0;dirty=true},folder(){folderTarget=folderTarget>.5?0:1;dirty=true},drawer(){if(!world.drawerPull)return;drawerTarget=drawerTarget>.5?0:1;if(drawerTarget){api.view('drawer')}else if(viewName==='drawer'){viewName='desk'}dirty=true}};
 function toggleLight(){$('#object-lamp').classList.remove('cord-guide-visible');light=!light;audio.effect();for(const id of ['#lamp-button','#object-lamp'])$(id).setAttribute('aria-pressed',String(light));dirty=true}
 attachApp(api);reduced.addEventListener?.('change',()=>{weatherText();dirty=true});
 function streamStatus(){
@@ -84,7 +84,7 @@ for(const id of ['case','profile','lamp','wall-diploma','wall-hackalem','wall-ce
 }
 
 function resize(){camera.aspect=innerWidth/innerHeight;camera.fov=mobile()?70:52;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight,false);dirty=true}window.addEventListener('resize',resize);resize();
-let cameraSettling=0,cameraStarted=false,aim=new T.Vector3(),cameraDelta=.016;
+let cameraSettling=0,cameraSettleBudget=0,cameraStarted=false,aim=new T.Vector3(),cameraDelta=.016;
 function updateCamera(){
  const t=smooth(progress),inside=smooth(clamp((progress-.72)/.28,0,1)),p=path.getPoint(t);if(mobile()){p.x=T.MathUtils.lerp(p.x,.56,inside);p.z=T.MathUtils.lerp(p.z,1.25,inside);p.y=T.MathUtils.lerp(p.y,1.48,inside)}
  // Physical approach plus hysteresis: scroll intent alone never opens the door.
@@ -103,7 +103,10 @@ function updateCamera(){
  if(viewName==='cabinet')look.lerp(new T.Vector3(2.66,.38,-.34),inside);
  if(viewName==='drawer')look.lerp(new T.Vector3(.38,.69,-1.48),inside);
  if(viewName==='window')look.lerp((captureReferenceFraming?new T.Vector3(-12,1.9,-7):new T.Vector3(-12,1.95,-5.0)),t);
- look.sub(camera.position).applyAxisAngle(new T.Vector3(0,1,0),-lookX).add(camera.position);look.y+=lookY;if(cameraStarted&&!reduced.matches)aim.lerp(look,1-Math.exp(-10*cameraDelta));else aim.copy(look);cameraStarted=true;camera.lookAt(aim);camera.updateMatrixWorld();updateActions();
+ look.sub(camera.position).applyAxisAngle(new T.Vector3(0,1,0),-lookX).add(camera.position);look.y+=lookY;if(cameraStarted&&!reduced.matches)aim.lerp(look,1-Math.exp(-10*cameraDelta));else aim.copy(look);cameraStarted=true;camera.lookAt(aim);camera.updateMatrixWorld();
+ // Finish the requested position at high refresh rates, within a bounded simulation-time budget.
+ if(cameraSettling===0&&cameraSettleBudget>0&&camera.position.distanceTo(p)>.0001)cameraSettling=1;
+ updateActions();
 
  $('#intro').classList.toggle('away',progress>.10);$('#room-note').hidden=progress<.75;
  $('#entrance-button').setAttribute('aria-pressed',String(progress<.5));$('#desk-button').setAttribute('aria-pressed',String(progress>=.5));
@@ -256,7 +259,7 @@ function frame(time){const dt=Math.min((time-last)/1000,.04);last=time;cameraDel
  // transforms and shadow maps until input, motion, resize or asset changes.
  const sceneChanged=dirty||moving||(!api.hold&&cameraSettling>0);
  if(sceneChanged||weatherMoving){
-  if(sceneChanged){if(dirty)cameraSettling=90;else if(!api.hold&&cameraSettling>0)cameraSettling--;if(manipulating||(api.hold&&cameraStarted))updateActions();else updateCamera();world.daylight.update();world.exterior?.update?.(camera)}
+  if(sceneChanged){if(dirty){cameraSettling=90;cameraSettleBudget=1.5}else if(!api.hold&&cameraSettling>0){cameraSettling--;cameraSettleBudget=Math.max(0,cameraSettleBudget-dt)}if(manipulating||(api.hold&&cameraStarted))updateActions();else updateCamera();world.daylight.update();world.exterior?.update?.(camera)}
   // GPU preparation still renders its own camera variants with automatic shadows.
   renderer.shadowMap.autoUpdate=!world.studioReady;renderer.shadowMap.needsUpdate=sceneChanged;
   if(sceneChanged)shadowUpdates++;else cachedShadowFrames++;

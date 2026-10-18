@@ -1,0 +1,105 @@
+{
+  "method": "Original PNG pixels viewed by implementing agent with view_image; no edits. Independent external review not claimed.",
+  "frames": [
+    {
+      "path": "before/desktop-light-hero.png",
+      "sha256": "61b55c9162ee93f170fe0e22b735c61573a2e425dc4ad223e1a91d45d5938c1b"
+    },
+    {
+      "path": "before/touch-light-helio.png",
+      "sha256": "dc1f2ac95299314365a28b1d5e103c5701d62b29aa2ecfef2e9ca5e95636f7a5"
+    },
+    {
+      "path": "before/desktop-document.png",
+      "sha256": "9cb87a4e429802811042e5d4f5a73c9a0852ee9b68f83462ac59310e32c23497"
+    },
+    {
+      "path": "before/touch-wall.png",
+      "sha256": "d7e6bffe4037ecb4fad824454df41bbbae5df3641297334297d9559aa69b8cdd"
+    },
+    {
+      "path": "after/desktop-ru-light-helio-case.png",
+      "sha256": "f08f276c4148414b3fd925934d10f7cf287b63ced8841c29772c70a6d284fc1c"
+    },
+    {
+      "path": "after/touch-kk-dark-rowline.png",
+      "sha256": "a2c3f7da5f990d12100bc12f9aca6d2943a54818afca527d51d61512bdbe9d17"
+    },
+    {
+      "path": "after/desktop-en-dark-keyform.png",
+      "sha256": "ff93fe8d6e69302340656d3c810a32b0fec4d6d86eb49760357866a25e57815e"
+    },
+    {
+      "path": "after/room-touch-en-reduce-hackalem-fit.png",
+      "sha256": "3fa61f4c666a367f7ea21e6d8f615f590e114f8cff701b12c9f5be5db4dd2eb6"
+    },
+    {
+      "path": "after/room-desktop-ru-no-preference-diploma-fit.png",
+      "sha256": "c3e7f71e641d797ca667708a9507b86b4436f54218843f47e3f95ade8ce91f7c"
+    },
+    {
+      "path": "after/room-touch-ru-no-preference-read100.png",
+      "sha256": "6e57c55cda9e690b27b8081a5359789ad2bc098069364ae297cd4b957378f6e5"
+    },
+    {
+      "path": "native/room-desktop-ru-no-preference-diploma-fit.png",
+      "sha256": "1a772b81bf172bd2335aecba79f9b243855f3b4612992c9bdd2e66efe002f404"
+    },
+    {
+      "path": "native/room-touch-ru-no-preference-read100.png",
+      "sha256": "6558b64bb67b3edfb5c5b0dbacc212d15a4f919e5eb4a64a37f7d78a8600f2a0"
+    },
+    {
+      "path": "after/desktop-ru-light-hero.png",
+      "sha256": "1234a63f52952412e8520727c3558806d63939e77d759994e9c17e8474d6c8da"
+    },
+    {
+      "path": "after/touch-ru-light-helio.png",
+      "sha256": "8ba84688c064ab46757ea95d5a3af34aa472ab71caa81dece8cd97053e3f7108"
+    },
+    {
+      "path": "native/room-touch-en-reduce-hackalem-fit.png",
+      "sha256": "3fa61f4c666a367f7ea21e6d8f615f590e114f8cff701b12c9f5be5db4dd2eb6"
+    },
+    {
+      "path": "case-top/before-desktop-helio.png",
+      "sha256": "497c10624d008db2c9c8e3dc35542b8c80b6be1cb971ac6f394ddc034e0bb8a2"
+    },
+    {
+      "path": "case-top/after-desktop-helio.png",
+      "sha256": "b22750565ecf84f5cfa4be388fb56bf36669e117689ec2becec1a61fb1025c1b"
+    },
+    {
+      "path": "case-top/before-touch-keyform.png",
+      "sha256": "a1aee487095a1de52a8b92769d78ef37607175b26966329b0124ffcc2c9bc916"
+    },
+    {
+      "path": "case-top/after-touch-keyform.png",
+      "sha256": "8c276ace3776ec9fb2464a0cbc1c390cba9d1d3c0dba94cce7b33721f910bd34"
+    },
+    {
+      "path": "case-top/before-desktop-rowline.png",
+      "sha256": "10186bda682f4dab8399a508ec687dea2f542b1fb044263ed92a84676e503802"
+    },
+    {
+      "path": "case-top/after-desktop-rowline.png",
+      "sha256": "2e74dd591ee4d2434f54d9fa03feeb514dd8a9cd6de803fb9480452ca6e4e709"
+    },
+    {
+      "path": "touch/motion-wall.png",
+      "sha256": "b3d82d9f4aaf9b84cfc0cfb156e8e269320d7fd61265f54031425c0a0a20fc59"
+    },
+    {
+      "path": "touch/motion-open-observation.png",
+      "sha256": "b2121b9b249699a6955770d8e9b7f6ad43b0c647e79165083aee9e53e95f5e22"
+    },
+    {
+      "path": "touch/motion-close-observation.png",
+      "sha256": "f6f7c712fb2958ebebe8ec799faa6701947958e7e131fe97904e34346824f904"
+    },
+    {
+      "path": "touch/motion-return.png",
+      "sha256": "9fc3d84040e3b218aa040b703e6fc57763560dd766e511f0b3aa01a995332f47"
+    }
+  ]
+}

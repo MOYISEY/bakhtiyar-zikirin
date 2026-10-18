@@ -508,5 +508,21 @@
   "contribution.title": "My contribution",
   "contribution.geometry": "Building outlines → 3D. Heights are estimates.",
   "contribution.solar": "Solar calculations run locally.",
-  "documents.diplomaShort": "Diploma"
+  "documents.diplomaShort": "Diploma",
+  "brief.taskLabel": "Task",
+  "brief.workLabel": "Implementation",
+  "brief.resultLabel": "Result",
+  "brief.details": "Details and limitations",
+  "brief.helio.task": "Show sunlight and shadows on a chosen city block at different times.",
+  "brief.helio.work": "A map, 3D buildings and a timeline; heights are explicitly labelled as estimates.",
+  "brief.helio.result": "Choose a place and time, check a ray, and export JSON or ICS.",
+  "brief.keyform.task": "Show how configuration choices change a 3D keyboard.",
+  "brief.keyform.work": "Layouts, cases and switches are linked to the model and key testing.",
+  "brief.keyform.result": "65% and 75% layouts, an exploded view and in-browser key testing.",
+  "brief.rowline.task": "Prepare CSV for import while preserving the original data.",
+  "brief.rowline.work": "Originals separated from edits; undo/redo, duplicate decisions and checks in a Web Worker.",
+  "brief.rowline.result": "Ready and rejected records export separately.",
+  "brief.helio.frame": "A London neighborhood: morning light and estimated heights.",
+  "brief.keyform.frame": "The 75% layout with its layers separated.",
+  "brief.rowline.frame": "The loaded synthetic CSV sample."
 }

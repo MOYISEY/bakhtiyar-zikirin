@@ -1,0 +1,43 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "scope": "negative-only",
+  "browser": "155.0.4283.62",
+  "poseToleranceMeters": 0.000001,
+  "checks": [
+    "negative-pending-close: closing while loading never reopens or holds",
+    "negative-pending-close reopen: wall sheet opens without the general panel",
+    "negative-pending-close reopen: close returns focus to the actual wall marker",
+    "negative-pending-close: no JavaScript exception",
+    "negative-image-failure: failed image keeps clear fallback and close",
+    "negative-image-failure: close returns focus to the actual wall marker",
+    "negative-image-failure: no JavaScript exception",
+    "negative-resize: whole original fits the reading viewport",
+    "negative-resize: camera stays held during viewport resize",
+    "negative-resize: close resumes existing wide cabinet framing",
+    "negative-resize: no JavaScript exception",
+    "negative-context-loss: HTML original remains readable after context loss",
+    "negative-context-loss: context loss returns focus to ordinary fallback",
+    "negative-context-loss: no JavaScript exception"
+  ],
+  "ordinary": [],
+  "room": [],
+  "negative": [
+    {
+      "kind": "pending-close",
+      "errors": []
+    },
+    {
+      "kind": "image-failure",
+      "errors": []
+    },
+    {
+      "kind": "resize",
+      "errors": []
+    },
+    {
+      "kind": "context-loss",
+      "errors": []
+    }
+  ],
+  "passed": true
+}

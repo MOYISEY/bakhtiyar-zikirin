@@ -1,0 +1,6 @@
+{"passed":false,"checks":4,"cases":0,"failure":{"name":"320x844","message":"page.waitForFunction: Timeout 30000ms exceeded.","errors":[]}}
+page.waitForFunction: Timeout 30000ms exceeded.
+    at C:\Users\aldia\Documents\Codex\2026-10-13\task\portfolio\scripts\qa-reader-touch.cjs:2:1580 {
+  log: [],
+  name: 'TimeoutError'
+}

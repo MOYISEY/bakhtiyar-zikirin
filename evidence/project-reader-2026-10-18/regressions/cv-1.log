@@ -1,0 +1,12 @@
+PASS CV 1440-no-preference
+PASS CV 1440-reduce
+PASS CV 320-no-preference
+PASS CV 320-reduce
+PASS CV 390-no-preference
+PASS CV 390-reduce
+{"passed":false,"checks":71,"profiles":6}
+page.waitForFunction: Timeout 30000ms exceeded.
+    at C:\Users\aldia\Documents\Codex\2026-10-13\task\portfolio\scripts\qa-room-cv-actions.cjs:8:798 {
+  log: [],
+  name: 'TimeoutError'
+}

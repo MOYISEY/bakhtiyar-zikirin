@@ -1,0 +1,149 @@
+{
+  "cases": [
+    {
+      "name": "before-desktop-helio",
+      "lang": "ru",
+      "theme": "light",
+      "brief": 0,
+      "viewport": [
+        1440,
+        900
+      ],
+      "imageTop": 429.890625,
+      "briefBottom": null
+    },
+    {
+      "name": "before-desktop-keyform",
+      "lang": "ru",
+      "theme": "light",
+      "brief": 0,
+      "viewport": [
+        1440,
+        900
+      ],
+      "imageTop": 429.890625,
+      "briefBottom": null
+    },
+    {
+      "name": "before-desktop-rowline",
+      "lang": "ru",
+      "theme": "light",
+      "brief": 0,
+      "viewport": [
+        1440,
+        900
+      ],
+      "imageTop": 429.890625,
+      "briefBottom": null
+    },
+    {
+      "name": "before-touch-helio",
+      "lang": "en",
+      "theme": "dark",
+      "brief": 0,
+      "viewport": [
+        390,
+        844
+      ],
+      "imageTop": 587.28125,
+      "briefBottom": null
+    },
+    {
+      "name": "before-touch-keyform",
+      "lang": "en",
+      "theme": "dark",
+      "brief": 0,
+      "viewport": [
+        390,
+        844
+      ],
+      "imageTop": 614.15625,
+      "briefBottom": null
+    },
+    {
+      "name": "before-touch-rowline",
+      "lang": "en",
+      "theme": "dark",
+      "brief": 0,
+      "viewport": [
+        390,
+        844
+      ],
+      "imageTop": 587.28125,
+      "briefBottom": null
+    },
+    {
+      "name": "after-desktop-helio",
+      "lang": "ru",
+      "theme": "light",
+      "brief": 3,
+      "viewport": [
+        1440,
+        900
+      ],
+      "imageTop": 558.546875,
+      "briefBottom": 534.546875
+    },
+    {
+      "name": "after-desktop-keyform",
+      "lang": "ru",
+      "theme": "light",
+      "brief": 3,
+      "viewport": [
+        1440,
+        900
+      ],
+      "imageTop": 558.546875,
+      "briefBottom": 534.546875
+    },
+    {
+      "name": "after-desktop-rowline",
+      "lang": "ru",
+      "theme": "light",
+      "brief": 3,
+      "viewport": [
+        1440,
+        900
+      ],
+      "imageTop": 558.546875,
+      "briefBottom": 534.546875
+    },
+    {
+      "name": "after-touch-helio",
+      "lang": "en",
+      "theme": "dark",
+      "brief": 3,
+      "viewport": [
+        390,
+        844
+      ],
+      "imageTop": 847,
+      "briefBottom": 823
+    },
+    {
+      "name": "after-touch-keyform",
+      "lang": "en",
+      "theme": "dark",
+      "brief": 3,
+      "viewport": [
+        390,
+        844
+      ],
+      "imageTop": 873.875,
+      "briefBottom": 849.875
+    },
+    {
+      "name": "after-touch-rowline",
+      "lang": "en",
+      "theme": "dark",
+      "brief": 3,
+      "viewport": [
+        390,
+        844
+      ],
+      "imageTop": 823.90625,
+      "briefBottom": 799.90625
+    }
+  ],
+  "passed": true
+}

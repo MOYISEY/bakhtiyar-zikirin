@@ -1,0 +1,5 @@
+{
+  "passed": false,
+  "failedAt": "src/content/projects.json",
+  "reason": "Initial exact-byte assertion encountered the existing Windows checkout CRLF conversion; no product failure. The next proof records both hashes and permits only CRLF/LF equivalence for unchanged JSON inputs."
+}

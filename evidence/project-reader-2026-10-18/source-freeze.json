@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-18T21:53:28.036Z",
+  "files": {
+    "scripts/build-pages.mjs": "35cab6f5c8bfbf168883cd540135e6bde18bd544ddb1eb4738a9b0e86ac3c11c",
+    "src/reading.css": "588aabf9caccf97a8c6da354272b06eea8f60e4bf4561d002a475af9bc7acee4",
+    "src/content/featured.json": "8c2f10c39a4f574ac8d69ad429622266dee2bd0ee2eba676966fb97cd8dee30f",
+    "src/locales/ru.json": "5edaaf3e0f855b452a17d55bc85fc0e01354600328cca86e27d06ebd6e700667",
+    "src/locales/kk.json": "c0e68eca51f70f540c1f3770a0a9ae3d0ddb3f126bd5682492ef888e7e5d9f35",
+    "src/locales/en.json": "678ae86a94b1aa22559fb6867bc0a201b86de09fcf03d4907891e48042320b6d",
+    "public/room/main.js": "f46cd175d886ebd910d51cf1b777e7ad7acf06e9f44cce522c438a8647f36f42",
+    "public/room/style.css": "525989a222ebbcd8dcec07844b0c70afb22fc862cbd104d7b6eb40e6f651a925",
+    "public/room/ui.js": "9893c10ac55ed67f22fd556120faafface8b739dc9899399ab2a7fa7418f7ac9",
+    "public/room/profile-data.js": "b54de4cd2be62b08ffef13fb906125b8ba1f871865f19e8456f5139955c8225e",
+    "scripts/qa-project-reader.cjs": "8be3f078aab6e22fb89dde6ecf52026503c961f77f3b341abcbe60f608e25a16",
+    "scripts/qa-reader-touch.cjs": "ad16455ba7cd35479b7aa5a85bb350f02bd45d75f341279650e096ab3ab29ee1",
+    "scripts/qa-pages.mjs": "34e3a7ade1e6fc019aba721f349153315388722afd0e79b02e443a2a55803489",
+    "scripts/qa-project-showcase.mjs": "6872e987002bda41fad99ea6dafad3710baf5a6de4b01c8c7897b74a43783d39",
+    "scripts/qa-portfolio-content-matrix.cjs": "4b11798ab0b0a6b760ea2824bf0a67b4d2780a77d8893bd77c4f00b98d19253d",
+    "scripts/qa-room-object-roles.cjs": "7c33bc85273f42ee7774197db14877fda9250e293f66218a678f6b0086146268",
+    "scripts/qa-room-menu.cjs": "1bca1855469472b41cfab51596d556442a82101125456e9cafb33257de5e590a",
+    "scripts/qa-room-context-loss.cjs": "581dd6a1e0fb12f07e90fcbbea7fb6860ddcb7519cfcefaf2e7955e5814f8a5b",
+    "scripts/qa-room-collection-edges.cjs": "a078b9fa6c62024f6a40ec163dccb329805e8a5726060bca51a2d4fcf377d965",
+    "scripts/qa-room-interaction-access.cjs": "e10de0088aef76a0b431a0d70a3f6cf217fddd8ccc34a69e838bd4ac6ef8c173",
+    "scripts/qa-room-cv-actions.cjs": "652cd9e23829afc03ea73b83a1dc1490d6462849bf144f22aca0710a6030b526"
+  },
+  "qaContractAddition": {
+    "path": "scripts/qa-room-interaction-access.cjs",
+    "reason": "wall-only expected reader; stale corridor negatives explicitly include reader; no physical gates or thresholds changed"
+  },
+  "settleAddition": {
+    "reason": "Unchanged 2mm modal/resize test exposed fixed90-frame residual; bounded completion toward existing position target",
+    "paths": [
+      "public/room/main.js",
+      "scripts/qa-project-reader.cjs"
+    ]
+  },
+  "cvQaSynchronization": "Await actual dialog close and held=false before sending next keyboard navigation; preserve all72 assertions",
+  "touchQaSynchronization": "Wait for200ms actual scroll-coordinate quiescence after native inertial touch pan before tapping a toolbar control; no assertion removed"
+}

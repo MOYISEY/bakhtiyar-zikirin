@@ -1,0 +1,1458 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "checks": [
+    "desktop-no-preference window: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-no-preference: rain keeps rendering cached shadows",
+    "desktop-no-preference: unchanged scene does not redraw shadows",
+    "desktop-no-preference camera-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-no-preference camera: scene changes refresh shadow maps",
+    "desktop-no-preference camera: physical camera remains clear",
+    "desktop-no-preference camera-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-no-preference lamp-off-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-no-preference lamp-off: scene changes refresh shadow maps",
+    "desktop-no-preference lamp-off: physical camera remains clear",
+    "desktop-no-preference lamp-off-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-no-preference lamp-on-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-no-preference lamp-on: scene changes refresh shadow maps",
+    "desktop-no-preference lamp-on: physical camera remains clear",
+    "desktop-no-preference lamp-on-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-no-preference drawer-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-no-preference drawer: scene changes refresh shadow maps",
+    "desktop-no-preference drawer: physical camera remains clear",
+    "desktop-no-preference drawer-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-no-preference cabinet-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-no-preference cabinet: scene changes refresh shadow maps",
+    "desktop-no-preference cabinet: physical camera remains clear",
+    "desktop-no-preference cabinet-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-no-preference language-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-no-preference language: scene changes refresh shadow maps",
+    "desktop-no-preference language: physical camera remains clear",
+    "desktop-no-preference language-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-no-preference resize-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-no-preference resize: scene changes refresh shadow maps",
+    "desktop-no-preference resize: physical camera remains clear",
+    "desktop-no-preference resize-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-no-preference exit-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-no-preference exit: scene changes refresh shadow maps",
+    "desktop-no-preference exit: physical camera remains clear",
+    "desktop-no-preference exit-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-no-preference reentry-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-no-preference reentry: scene changes refresh shadow maps",
+    "desktop-no-preference reentry: physical camera remains clear",
+    "desktop-no-preference reentry-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-no-preference: all asset phases ready",
+    "desktop-reduce window: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-reduce: reduced motion settles without draws",
+    "desktop-reduce camera-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-reduce camera: scene changes refresh shadow maps",
+    "desktop-reduce camera: physical camera remains clear",
+    "desktop-reduce camera-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-reduce lamp-off-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-reduce lamp-off: scene changes refresh shadow maps",
+    "desktop-reduce lamp-off: physical camera remains clear",
+    "desktop-reduce lamp-off-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-reduce lamp-on-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-reduce lamp-on: scene changes refresh shadow maps",
+    "desktop-reduce lamp-on: physical camera remains clear",
+    "desktop-reduce lamp-on-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-reduce drawer-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-reduce drawer: scene changes refresh shadow maps",
+    "desktop-reduce drawer: physical camera remains clear",
+    "desktop-reduce drawer-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-reduce cabinet-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-reduce cabinet: scene changes refresh shadow maps",
+    "desktop-reduce cabinet: physical camera remains clear",
+    "desktop-reduce cabinet-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-reduce language-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-reduce language: scene changes refresh shadow maps",
+    "desktop-reduce language: physical camera remains clear",
+    "desktop-reduce language-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-reduce resize-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-reduce resize: scene changes refresh shadow maps",
+    "desktop-reduce resize: physical camera remains clear",
+    "desktop-reduce resize-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-reduce exit-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-reduce exit: scene changes refresh shadow maps",
+    "desktop-reduce exit: physical camera remains clear",
+    "desktop-reduce exit-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-reduce reentry-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-reduce reentry: scene changes refresh shadow maps",
+    "desktop-reduce reentry: physical camera remains clear",
+    "desktop-reduce reentry-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "desktop-reduce: all asset phases ready",
+    "mobile-no-preference window: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-no-preference: rain keeps rendering cached shadows",
+    "mobile-no-preference: unchanged scene does not redraw shadows",
+    "mobile-no-preference camera-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-no-preference camera: scene changes refresh shadow maps",
+    "mobile-no-preference camera: physical camera remains clear",
+    "mobile-no-preference camera-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-no-preference lamp-off-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-no-preference lamp-off: scene changes refresh shadow maps",
+    "mobile-no-preference lamp-off: physical camera remains clear",
+    "mobile-no-preference lamp-off-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-no-preference lamp-on-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-no-preference lamp-on: scene changes refresh shadow maps",
+    "mobile-no-preference lamp-on: physical camera remains clear",
+    "mobile-no-preference lamp-on-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-no-preference drawer-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-no-preference drawer: scene changes refresh shadow maps",
+    "mobile-no-preference drawer: physical camera remains clear",
+    "mobile-no-preference drawer-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-no-preference cabinet-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-no-preference cabinet: scene changes refresh shadow maps",
+    "mobile-no-preference cabinet: physical camera remains clear",
+    "mobile-no-preference cabinet-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-no-preference language-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-no-preference language: scene changes refresh shadow maps",
+    "mobile-no-preference language: physical camera remains clear",
+    "mobile-no-preference language-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-no-preference resize-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-no-preference resize: scene changes refresh shadow maps",
+    "mobile-no-preference resize: physical camera remains clear",
+    "mobile-no-preference resize-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-no-preference exit-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-no-preference exit: scene changes refresh shadow maps",
+    "mobile-no-preference exit: physical camera remains clear",
+    "mobile-no-preference exit-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-no-preference reentry-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-no-preference reentry: scene changes refresh shadow maps",
+    "mobile-no-preference reentry: physical camera remains clear",
+    "mobile-no-preference reentry-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-no-preference: all asset phases ready",
+    "mobile-reduce window: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-reduce: reduced motion settles without draws",
+    "mobile-reduce camera-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-reduce camera: scene changes refresh shadow maps",
+    "mobile-reduce camera: physical camera remains clear",
+    "mobile-reduce camera-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-reduce lamp-off-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-reduce lamp-off: scene changes refresh shadow maps",
+    "mobile-reduce lamp-off: physical camera remains clear",
+    "mobile-reduce lamp-off-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-reduce lamp-on-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-reduce lamp-on: scene changes refresh shadow maps",
+    "mobile-reduce lamp-on: physical camera remains clear",
+    "mobile-reduce lamp-on-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-reduce drawer-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-reduce drawer: scene changes refresh shadow maps",
+    "mobile-reduce drawer: physical camera remains clear",
+    "mobile-reduce drawer-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-reduce cabinet-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-reduce cabinet: scene changes refresh shadow maps",
+    "mobile-reduce cabinet: physical camera remains clear",
+    "mobile-reduce cabinet-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-reduce language-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-reduce language: scene changes refresh shadow maps",
+    "mobile-reduce language: physical camera remains clear",
+    "mobile-reduce language-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-reduce resize-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-reduce resize: scene changes refresh shadow maps",
+    "mobile-reduce resize: physical camera remains clear",
+    "mobile-reduce resize-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-reduce exit-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-reduce exit: scene changes refresh shadow maps",
+    "mobile-reduce exit: physical camera remains clear",
+    "mobile-reduce exit-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-reduce reentry-motion: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-reduce reentry: scene changes refresh shadow maps",
+    "mobile-reduce reentry: physical camera remains clear",
+    "mobile-reduce reentry-settled: cached/fresh pixels: RMSE <=0.05/255, max <=32, changed <0.1% channels",
+    "mobile-reduce: all asset phases ready"
+  ],
+  "samples": [
+    {
+      "name": "desktop-no-preference",
+      "label": "window",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 10,
+      "controlMax": 1,
+      "controlRmse": 0.001388888888888889,
+      "channels": 5184000,
+      "camera": [
+        -0.17999969409241778,
+        1.5999999999999954,
+        0.80000025799434
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-no-preference",
+      "label": "camera-motion",
+      "changed": 450,
+      "max": 2,
+      "rmse": 0.009347954816924355,
+      "controlChanged": 439,
+      "controlMax": 2,
+      "controlRmse": 0.009233761188108145,
+      "channels": 5184000,
+      "camera": [
+        -0.17999985736583898,
+        1.5999999999999979,
+        0.8000001202938677
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-no-preference",
+      "label": "camera-settled",
+      "changed": 38,
+      "max": 1,
+      "rmse": 0.002707442873558046,
+      "controlChanged": 30,
+      "controlMax": 1,
+      "controlRmse": 0.0024056261216234406,
+      "channels": 5184000,
+      "camera": [
+        -0.1799999996045444,
+        1.5999999999999988,
+        0.8000000003335167
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-no-preference",
+      "label": "lamp-off-motion",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 145,
+      "controlMax": 1,
+      "controlRmse": 0.005288731323516603,
+      "channels": 5184000,
+      "camera": [
+        -0.17999999980244072,
+        1.5999999999999988,
+        0.8000000001666162
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-no-preference",
+      "label": "lamp-off-settled",
+      "changed": 34,
+      "max": 1,
+      "rmse": 0.0025609845714702466,
+      "controlChanged": 26,
+      "controlMax": 1,
+      "controlRmse": 0.0022395160411940417,
+      "channels": 5184000,
+      "camera": [
+        -0.17999999999996075,
+        1.5999999999999992,
+        0.8000000000000332
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-no-preference",
+      "label": "lamp-on-motion",
+      "changed": 8,
+      "max": 1,
+      "rmse": 0.0012422599874998832,
+      "controlChanged": 171,
+      "controlMax": 1,
+      "controlRmse": 0.005743353646704258,
+      "channels": 5184000,
+      "camera": [
+        -0.17999999999998167,
+        1.5999999999999992,
+        0.8000000000000156
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-no-preference",
+      "label": "lamp-on-settled",
+      "changed": 189,
+      "max": 1,
+      "rmse": 0.006038073644245599,
+      "controlChanged": 156,
+      "controlMax": 1,
+      "controlRmse": 0.0054856715717031945,
+      "channels": 5184000,
+      "camera": [
+        -0.17999999999999974,
+        1.5999999999999994,
+        0.8000000000000007
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-no-preference",
+      "label": "drawer-motion",
+      "changed": 56,
+      "max": 1,
+      "rmse": 0.0032867109906108975,
+      "controlChanged": 48,
+      "controlMax": 1,
+      "controlRmse": 0.003042903097250923,
+      "channels": 5184000,
+      "camera": [
+        0.11941299865438454,
+        1.5999999999999994,
+        -0.13566562079495104
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-no-preference",
+      "label": "drawer-settled",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 5184000,
+      "camera": [
+        0.3792753476209391,
+        1.5999999999999994,
+        -0.9477354613154348
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-no-preference",
+      "label": "cabinet-motion",
+      "changed": 6,
+      "max": 1,
+      "rmse": 0.001075828707279838,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 5184000,
+      "camera": [
+        0.6153081631827824,
+        1.319202348875085,
+        -0.6430020862392019
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-no-preference",
+      "label": "cabinet-settled",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 5184000,
+      "camera": [
+        0.849999999935379,
+        1.0400000000768765,
+        -0.3400000000834299
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-no-preference",
+      "label": "language-motion",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 5184000,
+      "camera": [
+        0.8499999999719063,
+        1.0400000000334215,
+        -0.3400000000362706
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-no-preference",
+      "label": "language-settled",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 5184000,
+      "camera": [
+        0.8499999999999818,
+        1.0400000000000216,
+        -0.34000000000002356
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-no-preference",
+      "label": "resize-motion",
+      "changed": 2,
+      "max": 1,
+      "rmse": 0.0006987712429686843,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 4096000,
+      "camera": [
+        0.8499999999999908,
+        1.0400000000000107,
+        -0.3400000000000118
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-no-preference",
+      "label": "resize-settled",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 4096000,
+      "camera": [
+        0.8499999999999993,
+        1.0400000000000014,
+        -0.3400000000000004
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-no-preference",
+      "label": "exit-motion",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 4096000,
+      "camera": [
+        0.7498148895970271,
+        1.3205183091283237,
+        0.5817030157073494
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-no-preference",
+      "label": "exit-settled",
+      "changed": 135,
+      "max": 1,
+      "rmse": 0.005740991584648074,
+      "controlChanged": 57,
+      "controlMax": 1,
+      "controlRmse": 0.0037304176207229134,
+      "channels": 4096000,
+      "camera": [
+        2.4150478684698355e-9,
+        1.5999999963774283,
+        9.549999474727082
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-no-preference",
+      "label": "reentry-motion",
+      "changed": 179,
+      "max": 13,
+      "rmse": 0.011971238318361221,
+      "controlChanged": 111,
+      "controlMax": 1,
+      "controlRmse": 0.005205728515299275,
+      "channels": 4096000,
+      "camera": [
+        0.006187328265044898,
+        1.5903318620046745,
+        8.175220182520897
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-no-preference",
+      "label": "reentry-settled",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 4096000,
+      "camera": [
+        0.6499999720114038,
+        1.599999988804561,
+        1.4999999608159604
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-reduce",
+      "label": "window",
+      "changed": 127,
+      "max": 1,
+      "rmse": 0.004949591578112628,
+      "controlChanged": 12,
+      "controlMax": 1,
+      "controlRmse": 0.0015214515486254615,
+      "channels": 5184000,
+      "camera": [
+        -0.17999999999999994,
+        1.6,
+        0.8
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-reduce",
+      "label": "camera-motion",
+      "changed": 17,
+      "max": 1,
+      "rmse": 0.0018108895570007359,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 5184000,
+      "camera": [
+        -0.17999999999999994,
+        1.6,
+        0.8
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-reduce",
+      "label": "camera-settled",
+      "changed": 173,
+      "max": 1,
+      "rmse": 0.005776842873079283,
+      "controlChanged": 33,
+      "controlMax": 1,
+      "controlRmse": 0.0025230419617479098,
+      "channels": 5184000,
+      "camera": [
+        -0.17999999999999994,
+        1.6,
+        0.8
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-reduce",
+      "label": "lamp-off-motion",
+      "changed": 412,
+      "max": 1,
+      "rmse": 0.008914892519934006,
+      "controlChanged": 169,
+      "controlMax": 1,
+      "controlRmse": 0.00570966799752624,
+      "channels": 5184000,
+      "camera": [
+        -0.17999999999999994,
+        1.6,
+        0.8
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-reduce",
+      "label": "lamp-off-settled",
+      "changed": 3,
+      "max": 1,
+      "rmse": 0.0007607257743127308,
+      "controlChanged": 190,
+      "controlMax": 1,
+      "controlRmse": 0.006054026310473157,
+      "channels": 5184000,
+      "camera": [
+        -0.17999999999999994,
+        1.6,
+        0.8
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-reduce",
+      "label": "lamp-on-motion",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 88,
+      "controlMax": 1,
+      "controlRmse": 0.004120110270608702,
+      "channels": 5184000,
+      "camera": [
+        -0.17999999999999994,
+        1.6,
+        0.8
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-reduce",
+      "label": "lamp-on-settled",
+      "changed": 191,
+      "max": 1,
+      "rmse": 0.0060699370509478216,
+      "controlChanged": 191,
+      "controlMax": 1,
+      "controlRmse": 0.0060699370509478216,
+      "channels": 5184000,
+      "camera": [
+        -0.17999999999999994,
+        1.6,
+        0.8
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-reduce",
+      "label": "drawer-motion",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 5184000,
+      "camera": [
+        0.38,
+        1.6,
+        -0.9500000000000002
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-reduce",
+      "label": "drawer-settled",
+      "changed": 8,
+      "max": 1,
+      "rmse": 0.0012422599874998832,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 5184000,
+      "camera": [
+        0.38,
+        1.6,
+        -0.9500000000000002
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-reduce",
+      "label": "cabinet-motion",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 5184000,
+      "camera": [
+        0.85,
+        1.04,
+        -0.3400000000000001
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-reduce",
+      "label": "cabinet-settled",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 5184000,
+      "camera": [
+        0.85,
+        1.04,
+        -0.3400000000000001
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-reduce",
+      "label": "language-motion",
+      "changed": 6,
+      "max": 1,
+      "rmse": 0.001075828707279838,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 5184000,
+      "camera": [
+        0.85,
+        1.04,
+        -0.3400000000000001
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-reduce",
+      "label": "language-settled",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 5184000,
+      "camera": [
+        0.85,
+        1.04,
+        -0.3400000000000001
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-reduce",
+      "label": "resize-motion",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 4096000,
+      "camera": [
+        0.85,
+        1.04,
+        -0.3400000000000001
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-reduce",
+      "label": "resize-settled",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 4096000,
+      "camera": [
+        0.85,
+        1.04,
+        -0.3400000000000001
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-reduce",
+      "label": "exit-motion",
+      "changed": 208,
+      "max": 13,
+      "rmse": 0.02258339579480907,
+      "controlChanged": 258,
+      "controlMax": 1,
+      "controlRmse": 0.007936515687000184,
+      "channels": 4096000,
+      "camera": [
+        0,
+        1.6,
+        9.55
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-reduce",
+      "label": "exit-settled",
+      "changed": 282,
+      "max": 13,
+      "rmse": 0.022979908004058674,
+      "controlChanged": 111,
+      "controlMax": 13,
+      "controlRmse": 0.02078183739771342,
+      "channels": 4096000,
+      "camera": [
+        0,
+        1.6,
+        9.55
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-reduce",
+      "label": "reentry-motion",
+      "changed": 40,
+      "max": 1,
+      "rmse": 0.003125,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 4096000,
+      "camera": [
+        0.6500000000000001,
+        1.6000000000000003,
+        1.5
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "desktop-reduce",
+      "label": "reentry-settled",
+      "changed": 81,
+      "max": 1,
+      "rmse": 0.004446952959611784,
+      "controlChanged": 40,
+      "controlMax": 1,
+      "controlRmse": 0.003125,
+      "channels": 4096000,
+      "camera": [
+        0.6500000000000001,
+        1.6000000000000003,
+        1.5
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-no-preference",
+      "label": "window",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1316640,
+      "camera": [
+        -0.17999972718130564,
+        1.5999999557591504,
+        0.8000001659032886
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-no-preference",
+      "label": "camera-motion",
+      "changed": 2,
+      "max": 1,
+      "rmse": 0.0012324845259457954,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1316640,
+      "camera": [
+        -0.17999986370693574,
+        1.5999999778984317,
+        0.8000000828809316
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-no-preference",
+      "label": "camera-settled",
+      "changed": 12,
+      "max": 1,
+      "rmse": 0.003018958204443213,
+      "controlChanged": 42,
+      "controlMax": 1,
+      "controlRmse": 0.005647953633008372,
+      "channels": 1316640,
+      "camera": [
+        -0.1799999995416822,
+        1.5999999999256784,
+        0.8000000002787069
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-no-preference",
+      "label": "lamp-off-motion",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1316640,
+      "camera": [
+        -0.17999999978672912,
+        1.5999999999654155,
+        0.8000000001296919
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-no-preference",
+      "label": "lamp-off-settled",
+      "changed": 9,
+      "max": 1,
+      "rmse": 0.002614494498011278,
+      "controlChanged": 56,
+      "controlMax": 1,
+      "controlRmse": 0.006521695100775817,
+      "channels": 1316640,
+      "camera": [
+        -0.17999999999995525,
+        1.5999999999999928,
+        0.8000000000000272
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-no-preference",
+      "label": "lamp-on-motion",
+      "changed": 43,
+      "max": 1,
+      "rmse": 0.005714795647611591,
+      "controlChanged": 52,
+      "controlMax": 1,
+      "controlRmse": 0.006284462647998763,
+      "channels": 1316640,
+      "camera": [
+        -0.1799999999999791,
+        1.5999999999999965,
+        0.8000000000000127
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-no-preference",
+      "label": "lamp-on-settled",
+      "changed": 9,
+      "max": 1,
+      "rmse": 0.002614494498011278,
+      "controlChanged": 47,
+      "controlMax": 1,
+      "controlRmse": 0.005974690411004745,
+      "channels": 1316640,
+      "camera": [
+        -0.17999999999999974,
+        1.5999999999999988,
+        0.8000000000000007
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-no-preference",
+      "label": "drawer-motion",
+      "changed": 42,
+      "max": 5,
+      "rmse": 0.013834604491768992,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1316640,
+      "camera": [
+        0.13630028681084216,
+        1.5999999999999988,
+        -0.18843839628388126
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-no-preference",
+      "label": "drawer-settled",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1316640,
+      "camera": [
+        0.3792359050491119,
+        1.5999999999999988,
+        -0.947612203278475
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-no-preference",
+      "label": "cabinet-motion",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1316640,
+      "camera": [
+        -0.11716238222994635,
+        1.3061897237074016,
+        -0.6230254590530149
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-no-preference",
+      "label": "cabinet-settled",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1316640,
+      "camera": [
+        -0.5499999998723072,
+        1.0500000000755798,
+        -0.34000000008349635
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-no-preference",
+      "label": "language-motion",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1316640,
+      "camera": [
+        -0.5499999999405206,
+        1.0500000000352052,
+        -0.34000000003889264
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-no-preference",
+      "label": "language-settled",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1316640,
+      "camera": [
+        -0.5499999999998376,
+        1.0500000000000957,
+        -0.34000000000010633
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-no-preference",
+      "label": "resize-motion",
+      "changed": 3,
+      "max": 1,
+      "rmse": 0.0014104947585689008,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1507920,
+      "camera": [
+        -0.5499999999999293,
+        1.0500000000000418,
+        -0.3400000000000463
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-no-preference",
+      "label": "resize-settled",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1507920,
+      "camera": [
+        -0.5499999999999993,
+        1.0500000000000016,
+        -0.34000000000000047
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-no-preference",
+      "label": "exit-motion",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1507920,
+      "camera": [
+        0.04192744795928034,
+        1.2793052275878303,
+        0.5078960741038333
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-no-preference",
+      "label": "exit-settled",
+      "changed": 180,
+      "max": 13,
+      "rmse": 0.03979495431966812,
+      "controlChanged": 127,
+      "controlMax": 13,
+      "controlRmse": 0.039350865760590534,
+      "channels": 1507920,
+      "camera": [
+        2.4181893633707837e-9,
+        1.599999996372716,
+        9.549999474043808
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-no-preference",
+      "label": "reentry-motion",
+      "changed": 90,
+      "max": 13,
+      "rmse": 0.036952091326805644,
+      "controlChanged": 214,
+      "controlMax": 1,
+      "controlRmse": 0.011912906576277865,
+      "channels": 1507920,
+      "camera": [
+        0.00700451474557066,
+        1.589026409403309,
+        7.991506656963233
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-no-preference",
+      "label": "reentry-settled",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1507920,
+      "camera": [
+        0.5600000347369559,
+        1.4800000463159528,
+        1.2500000964915612
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-reduce",
+      "label": "window",
+      "changed": 106,
+      "max": 1,
+      "rmse": 0.008972622785723196,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1316640,
+      "camera": [
+        -0.17999999999999994,
+        1.6,
+        0.8
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-reduce",
+      "label": "camera-motion",
+      "changed": 43,
+      "max": 1,
+      "rmse": 0.005714795647611591,
+      "controlChanged": 43,
+      "controlMax": 1,
+      "controlRmse": 0.005714795647611591,
+      "channels": 1316640,
+      "camera": [
+        -0.17999999999999994,
+        1.6,
+        0.8
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-reduce",
+      "label": "camera-settled",
+      "changed": 43,
+      "max": 1,
+      "rmse": 0.005714795647611591,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1316640,
+      "camera": [
+        -0.17999999999999994,
+        1.6,
+        0.8
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-reduce",
+      "label": "lamp-off-motion",
+      "changed": 71,
+      "max": 1,
+      "rmse": 0.0073433740737961885,
+      "controlChanged": 3,
+      "controlMax": 1,
+      "controlRmse": 0.0015094791022216066,
+      "channels": 1316640,
+      "camera": [
+        -0.17999999999999994,
+        1.6,
+        0.8
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-reduce",
+      "label": "lamp-off-settled",
+      "changed": 47,
+      "max": 1,
+      "rmse": 0.005974690411004745,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1316640,
+      "camera": [
+        -0.17999999999999994,
+        1.6,
+        0.8
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-reduce",
+      "label": "lamp-on-motion",
+      "changed": 47,
+      "max": 1,
+      "rmse": 0.005974690411004745,
+      "controlChanged": 47,
+      "controlMax": 1,
+      "controlRmse": 0.005974690411004745,
+      "channels": 1316640,
+      "camera": [
+        -0.17999999999999994,
+        1.6,
+        0.8
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-reduce",
+      "label": "lamp-on-settled",
+      "changed": 26,
+      "max": 1,
+      "rmse": 0.004443786154513492,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1316640,
+      "camera": [
+        -0.17999999999999994,
+        1.6,
+        0.8
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-reduce",
+      "label": "drawer-motion",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 2,
+      "controlMax": 1,
+      "controlRmse": 0.0012324845259457954,
+      "channels": 1316640,
+      "camera": [
+        0.38,
+        1.6,
+        -0.9500000000000002
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-reduce",
+      "label": "drawer-settled",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1316640,
+      "camera": [
+        0.38,
+        1.6,
+        -0.9500000000000002
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-reduce",
+      "label": "cabinet-motion",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1316640,
+      "camera": [
+        -0.55,
+        1.05,
+        -0.3400000000000001
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-reduce",
+      "label": "cabinet-settled",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1316640,
+      "camera": [
+        -0.55,
+        1.05,
+        -0.3400000000000001
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-reduce",
+      "label": "language-motion",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1316640,
+      "camera": [
+        -0.55,
+        1.05,
+        -0.3400000000000001
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-reduce",
+      "label": "language-settled",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1316640,
+      "camera": [
+        -0.55,
+        1.05,
+        -0.3400000000000001
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-reduce",
+      "label": "resize-motion",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1507920,
+      "camera": [
+        -0.55,
+        1.05,
+        -0.3400000000000001
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-reduce",
+      "label": "resize-settled",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1507920,
+      "camera": [
+        -0.55,
+        1.05,
+        -0.3400000000000001
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-reduce",
+      "label": "exit-motion",
+      "changed": 798,
+      "max": 12,
+      "rmse": 0.039114217514579185,
+      "controlChanged": 175,
+      "controlMax": 13,
+      "controlRmse": 0.05080392486706361,
+      "channels": 1507920,
+      "camera": [
+        0,
+        1.6,
+        9.55
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-reduce",
+      "label": "exit-settled",
+      "changed": 212,
+      "max": 13,
+      "rmse": 0.04006069987223483,
+      "controlChanged": 125,
+      "controlMax": 13,
+      "controlRmse": 0.03933400953117691,
+      "channels": 1507920,
+      "camera": [
+        0,
+        1.6,
+        9.55
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-reduce",
+      "label": "reentry-motion",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1507920,
+      "camera": [
+        0.56,
+        1.48,
+        1.25
+      ],
+      "strictRmsePass": true
+    },
+    {
+      "name": "mobile-reduce",
+      "label": "reentry-settled",
+      "changed": 0,
+      "max": 0,
+      "rmse": 0,
+      "controlChanged": 0,
+      "controlMax": 0,
+      "controlRmse": 0,
+      "channels": 1507920,
+      "camera": [
+        0.56,
+        1.48,
+        1.25
+      ],
+      "strictRmsePass": true
+    }
+  ],
+  "passed": true
+}

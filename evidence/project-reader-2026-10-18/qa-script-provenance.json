@@ -1,0 +1,722 @@
+[
+  {
+    "version": "final",
+    "name": "pages",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "transferredFrom": "regressions/verification.json",
+    "path": "qa-source/attempts/final-pages-1.mjs",
+    "scriptSha": "34e3a7ade1e6fc019aba721f349153315388722afd0e79b02e443a2a55803489"
+  },
+  {
+    "version": "final",
+    "name": "pages-edges",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "transferredFrom": "regressions/verification.json",
+    "path": "qa-source/attempts/final-pages-edges-1.mjs",
+    "scriptSha": "dde01fc63c7af0d72d0e602472c0f5dedaa92c667a90d401bea659df2751b86c"
+  },
+  {
+    "version": "final",
+    "name": "pages-nojs",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "transferredFrom": "regressions/verification.json",
+    "path": "qa-source/attempts/final-pages-nojs-1.mjs",
+    "scriptSha": "34e3a7ade1e6fc019aba721f349153315388722afd0e79b02e443a2a55803489"
+  },
+  {
+    "version": "final",
+    "name": "showcase-current",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "transferredFrom": "regressions/verification.json",
+    "path": "qa-source/attempts/final-showcase-current-1.mjs",
+    "scriptSha": "6d39b206ed8199272cd96886895504860b37c52f11cea3162bb10f0dfc063e67"
+  },
+  {
+    "version": "final",
+    "name": "cube",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "transferredFrom": "regressions/verification.json",
+    "path": "qa-source/attempts/final-cube-1.mjs",
+    "scriptSha": "054a2caeebb4bf6213edfb8c979da7228478dcb84ae239da0fdb70fe3819cfb2"
+  },
+  {
+    "version": "final",
+    "name": "asset-history",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "transferredFrom": "regressions/verification.json",
+    "path": "qa-source/attempts/final-asset-history-1.mjs",
+    "scriptSha": "9accebb033da8106b8926ba28bb0e1a0ab56fa8ec6ea226b6ef89946d44cad90"
+  },
+  {
+    "version": "final",
+    "name": "modal",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-modal-1.cjs",
+    "scriptSha": "99115e59476ecbd127098f111c222f8de2dbc223a38bd182271df5e1e787b04d"
+  },
+  {
+    "version": "final",
+    "name": "reader",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-reader-1.cjs",
+    "scriptSha": "8be3f078aab6e22fb89dde6ecf52026503c961f77f3b341abcbe60f608e25a16"
+  },
+  {
+    "version": "final",
+    "name": "cv",
+    "attempt": 1,
+    "exit": 1,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-cv-1.cjs",
+    "scriptSha": "f8ef3820d94b7ce193602d8dae8fa9c2b65fb5309d21e3483465512ddedb7122"
+  },
+  {
+    "version": "final",
+    "name": "cv",
+    "attempt": 2,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-cv-2.cjs",
+    "scriptSha": "652cd9e23829afc03ea73b83a1dc1490d6462849bf144f22aca0710a6030b526"
+  },
+  {
+    "version": "final",
+    "name": "object-native",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-object-native-1.cjs",
+    "scriptSha": "7c33bc85273f42ee7774197db14877fda9250e293f66218a678f6b0086146268"
+  },
+  {
+    "version": "final",
+    "name": "collection-edges",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-collection-edges-1.cjs",
+    "scriptSha": "a078b9fa6c62024f6a40ec163dccb329805e8a5726060bca51a2d4fcf377d965"
+  },
+  {
+    "version": "final",
+    "name": "completion",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-completion-1.cjs",
+    "scriptSha": "75632511fa1811b2800bfbf2701d0a755a65455abb9aec4b5e4cb95c6ecaf38f"
+  },
+  {
+    "version": "final",
+    "name": "sweep",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-sweep-1.cjs",
+    "scriptSha": "85a89a67e2d6e63f431f2cd3d4ddec5f63a51fe7de03830d13820dbc4261882d"
+  },
+  {
+    "version": "final",
+    "name": "refinement",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-refinement-1.cjs",
+    "scriptSha": "47a701beeab80497016496e2742394d9685d689cfa1ef8a63b13d3098b1722ab"
+  },
+  {
+    "version": "final",
+    "name": "furniture",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-furniture-1.cjs",
+    "scriptSha": "5b38e25bc510c5dc29c5749cc17c49dd43b6ddb4f3ae7260527e12dd03219dc9"
+  },
+  {
+    "version": "final",
+    "name": "showcase-room",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-showcase-room-1.cjs",
+    "scriptSha": "ec83623b95b3fa29ac87f6b4c9ab20434dfdadd6089cd33656fd697b47a64a5c"
+  },
+  {
+    "version": "final",
+    "name": "hotspots",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-hotspots-1.cjs",
+    "scriptSha": "f8ac4ffc610e7136066d184fac95c89818376235497e72fb1b320599a5f58db4"
+  },
+  {
+    "version": "final",
+    "name": "collection",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-collection-1.cjs",
+    "scriptSha": "746a9d890cf69a9b3ec32bd831ddc1651e24b307e20be3bfd5ac9849a27210b6"
+  },
+  {
+    "version": "final",
+    "name": "context-loss",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-context-loss-1.cjs",
+    "scriptSha": "581dd6a1e0fb12f07e90fcbbea7fb6860ddcb7519cfcefaf2e7955e5814f8a5b"
+  },
+  {
+    "version": "final",
+    "name": "case-rain",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-case-rain-1.cjs",
+    "scriptSha": "46da0745576ab859abcc841271c685403e19107dfd788fe082b07ce9d728f20c"
+  },
+  {
+    "version": "final",
+    "name": "menu",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-menu-1.cjs",
+    "scriptSha": "1bca1855469472b41cfab51596d556442a82101125456e9cafb33257de5e590a"
+  },
+  {
+    "version": "final",
+    "name": "documents",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-documents-1.cjs",
+    "scriptSha": "92daa9dd9f146bc0e40e22e595f3ad5843d01f4c5b3e420b46dceeb8baa7c730"
+  },
+  {
+    "version": "final",
+    "name": "ux",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-ux-1.cjs",
+    "scriptSha": "039006291be5932dae8fbf732f85e4105ced3db1ad6303a180ed847f00e9340e"
+  },
+  {
+    "version": "final",
+    "name": "partial-mobile",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-partial-mobile-1.cjs",
+    "scriptSha": "0935cc0f050e21d858d132d90b192543d41ea110992ad92484684b10fab84d88"
+  },
+  {
+    "version": "final",
+    "name": "fallback",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-fallback-1.cjs",
+    "scriptSha": "cacca2c5c6a1dd1d7486521054246a643b145483ce7d2874ead8c26765707fa6"
+  },
+  {
+    "version": "final",
+    "name": "shadow",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-shadow-1.cjs",
+    "scriptSha": "cc80d89d6280d7316c9f31dceba0ab6b7371616dc1d6a2d46f3c8c7494edc48e"
+  },
+  {
+    "version": "final",
+    "name": "access",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-access-1.cjs",
+    "scriptSha": "e10de0088aef76a0b431a0d70a3f6cf217fddd8ccc34a69e838bd4ac6ef8c173"
+  },
+  {
+    "version": "final",
+    "name": "handles",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-handles-1.cjs",
+    "scriptSha": "83ecbfec0c065e63c1aec46521024ee95990c33fcee8d97df1ee8a54cc4832ae"
+  },
+  {
+    "version": "final",
+    "name": "cabinet-close",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-cabinet-close-1.cjs",
+    "scriptSha": "71edb65951cca748e8bdfe1abf19b03b7b748e1565176cff90fc792d048fc1d7"
+  },
+  {
+    "version": "final",
+    "name": "cabinet-gates",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-cabinet-gates-1.cjs",
+    "scriptSha": "71edb65951cca748e8bdfe1abf19b03b7b748e1565176cff90fc792d048fc1d7"
+  },
+  {
+    "version": "final",
+    "name": "content",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-content-1.cjs",
+    "scriptSha": "ab559baa1701cc938ac6d967c48ecd6739a512f8410024ec998127f8d963c922"
+  },
+  {
+    "version": "final",
+    "name": "content-small",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-content-small-1.cjs",
+    "scriptSha": "ab559baa1701cc938ac6d967c48ecd6739a512f8410024ec998127f8d963c922"
+  },
+  {
+    "version": "final",
+    "name": "matrix",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-matrix-1.cjs",
+    "scriptSha": "4b11798ab0b0a6b760ea2824bf0a67b4d2780a77d8893bd77c4f00b98d19253d"
+  },
+  {
+    "version": "final",
+    "name": "entry",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-entry-1.cjs",
+    "scriptSha": "91a6328c50572c4849ee9245deafca33ceeee0efe2f46bf862d8921d3578fc4f"
+  },
+  {
+    "version": "final",
+    "name": "touch-names",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-touch-names-1.cjs",
+    "scriptSha": "8dad9078f2fd306bef4a23849cb4b889bdb8abdf3f0884186646b967d8a3ec43"
+  },
+  {
+    "version": "final",
+    "name": "certificates",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-certificates-1.cjs",
+    "scriptSha": "4c752a8eca207d9583a38841d100f0b40505c78a08640a3cf52f31107e8493bd"
+  },
+  {
+    "version": "final",
+    "name": "document-strip",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/final-document-strip-1.cjs",
+    "scriptSha": "678ef3bb3b5224adbecd71df908dc1f061cbb2b6b7cca20464263789049d718a"
+  },
+  {
+    "version": "before-settle",
+    "name": "reader",
+    "attempt": 1,
+    "exit": 1,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-reader-1.cjs",
+    "scriptSha": "bd91d207c31f480ed3b41f8ec103c4f0fbeb0adaed496bea42b7f1bd4b356f32"
+  },
+  {
+    "version": "before-settle",
+    "name": "reader",
+    "attempt": 2,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-reader-2.cjs",
+    "scriptSha": "122f9f5e7a0e18279d149a116d9aa9d447b9eb7d53a8e56d50e10e56bb86db8b"
+  },
+  {
+    "version": "before-settle",
+    "name": "pages",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-pages-1.mjs",
+    "scriptSha": "34e3a7ade1e6fc019aba721f349153315388722afd0e79b02e443a2a55803489"
+  },
+  {
+    "version": "before-settle",
+    "name": "pages-edges",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-pages-edges-1.mjs",
+    "scriptSha": "dde01fc63c7af0d72d0e602472c0f5dedaa92c667a90d401bea659df2751b86c"
+  },
+  {
+    "version": "before-settle",
+    "name": "pages-nojs",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-pages-nojs-1.mjs",
+    "scriptSha": "34e3a7ade1e6fc019aba721f349153315388722afd0e79b02e443a2a55803489"
+  },
+  {
+    "version": "before-settle",
+    "name": "showcase-current",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-showcase-current-1.mjs",
+    "scriptSha": "6d39b206ed8199272cd96886895504860b37c52f11cea3162bb10f0dfc063e67"
+  },
+  {
+    "version": "before-settle",
+    "name": "cv",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-cv-1.cjs",
+    "scriptSha": "f8ef3820d94b7ce193602d8dae8fa9c2b65fb5309d21e3483465512ddedb7122"
+  },
+  {
+    "version": "before-settle",
+    "name": "object-native",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-object-native-1.cjs",
+    "scriptSha": "7c33bc85273f42ee7774197db14877fda9250e293f66218a678f6b0086146268"
+  },
+  {
+    "version": "before-settle",
+    "name": "collection-edges",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-collection-edges-1.cjs",
+    "scriptSha": "a078b9fa6c62024f6a40ec163dccb329805e8a5726060bca51a2d4fcf377d965"
+  },
+  {
+    "version": "before-settle",
+    "name": "cube",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-cube-1.mjs",
+    "scriptSha": "054a2caeebb4bf6213edfb8c979da7228478dcb84ae239da0fdb70fe3819cfb2"
+  },
+  {
+    "version": "before-settle",
+    "name": "asset-history",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-asset-history-1.mjs",
+    "scriptSha": "9accebb033da8106b8926ba28bb0e1a0ab56fa8ec6ea226b6ef89946d44cad90"
+  },
+  {
+    "version": "before-settle",
+    "name": "completion",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-completion-1.cjs",
+    "scriptSha": "75632511fa1811b2800bfbf2701d0a755a65455abb9aec4b5e4cb95c6ecaf38f"
+  },
+  {
+    "version": "before-settle",
+    "name": "sweep",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-sweep-1.cjs",
+    "scriptSha": "85a89a67e2d6e63f431f2cd3d4ddec5f63a51fe7de03830d13820dbc4261882d"
+  },
+  {
+    "version": "before-settle",
+    "name": "refinement",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-refinement-1.cjs",
+    "scriptSha": "47a701beeab80497016496e2742394d9685d689cfa1ef8a63b13d3098b1722ab"
+  },
+  {
+    "version": "before-settle",
+    "name": "furniture",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-furniture-1.cjs",
+    "scriptSha": "5b38e25bc510c5dc29c5749cc17c49dd43b6ddb4f3ae7260527e12dd03219dc9"
+  },
+  {
+    "version": "before-settle",
+    "name": "showcase-room",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-showcase-room-1.cjs",
+    "scriptSha": "ec83623b95b3fa29ac87f6b4c9ab20434dfdadd6089cd33656fd697b47a64a5c"
+  },
+  {
+    "version": "before-settle",
+    "name": "hotspots",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-hotspots-1.cjs",
+    "scriptSha": "f8ac4ffc610e7136066d184fac95c89818376235497e72fb1b320599a5f58db4"
+  },
+  {
+    "version": "before-settle",
+    "name": "collection",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-collection-1.cjs",
+    "scriptSha": "746a9d890cf69a9b3ec32bd831ddc1651e24b307e20be3bfd5ac9849a27210b6"
+  },
+  {
+    "version": "before-settle",
+    "name": "context-loss",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-context-loss-1.cjs",
+    "scriptSha": "581dd6a1e0fb12f07e90fcbbea7fb6860ddcb7519cfcefaf2e7955e5814f8a5b"
+  },
+  {
+    "version": "before-settle",
+    "name": "case-rain",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-case-rain-1.cjs",
+    "scriptSha": "46da0745576ab859abcc841271c685403e19107dfd788fe082b07ce9d728f20c"
+  },
+  {
+    "version": "before-settle",
+    "name": "menu",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-menu-1.cjs",
+    "scriptSha": "1bca1855469472b41cfab51596d556442a82101125456e9cafb33257de5e590a"
+  },
+  {
+    "version": "before-settle",
+    "name": "documents",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-documents-1.cjs",
+    "scriptSha": "92daa9dd9f146bc0e40e22e595f3ad5843d01f4c5b3e420b46dceeb8baa7c730"
+  },
+  {
+    "version": "before-settle",
+    "name": "ux",
+    "attempt": 1,
+    "exit": null,
+    "interrupted": true,
+    "path": "qa-source/attempts/before-settle-ux-1.cjs",
+    "scriptSha": "039006291be5932dae8fbf732f85e4105ced3db1ad6303a180ed847f00e9340e"
+  },
+  {
+    "version": "before-settle",
+    "name": "ux",
+    "attempt": 2,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-ux-2.cjs",
+    "scriptSha": "039006291be5932dae8fbf732f85e4105ced3db1ad6303a180ed847f00e9340e"
+  },
+  {
+    "version": "before-settle",
+    "name": "partial-mobile",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-partial-mobile-1.cjs",
+    "scriptSha": "0935cc0f050e21d858d132d90b192543d41ea110992ad92484684b10fab84d88"
+  },
+  {
+    "version": "before-settle",
+    "name": "fallback",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-fallback-1.cjs",
+    "scriptSha": "cacca2c5c6a1dd1d7486521054246a643b145483ce7d2874ead8c26765707fa6"
+  },
+  {
+    "version": "before-settle",
+    "name": "shadow",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-shadow-1.cjs",
+    "scriptSha": "cc80d89d6280d7316c9f31dceba0ab6b7371616dc1d6a2d46f3c8c7494edc48e"
+  },
+  {
+    "version": "before-settle",
+    "name": "access",
+    "attempt": 1,
+    "exit": 1,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-access-1.cjs",
+    "scriptSha": "a799b981551028e9163818fb77f1489ca287f84b9ecb5158d62692c9656646b3"
+  },
+  {
+    "version": "before-settle",
+    "name": "access",
+    "attempt": 2,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-access-2.cjs",
+    "scriptSha": "e10de0088aef76a0b431a0d70a3f6cf217fddd8ccc34a69e838bd4ac6ef8c173"
+  },
+  {
+    "version": "before-settle",
+    "name": "handles",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-handles-1.cjs",
+    "scriptSha": "83ecbfec0c065e63c1aec46521024ee95990c33fcee8d97df1ee8a54cc4832ae"
+  },
+  {
+    "version": "before-settle",
+    "name": "cabinet-close",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-cabinet-close-1.cjs",
+    "scriptSha": "71edb65951cca748e8bdfe1abf19b03b7b748e1565176cff90fc792d048fc1d7"
+  },
+  {
+    "version": "before-settle",
+    "name": "cabinet-gates",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-cabinet-gates-1.cjs",
+    "scriptSha": "71edb65951cca748e8bdfe1abf19b03b7b748e1565176cff90fc792d048fc1d7"
+  },
+  {
+    "version": "before-settle",
+    "name": "content",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-content-1.cjs",
+    "scriptSha": "ab559baa1701cc938ac6d967c48ecd6739a512f8410024ec998127f8d963c922"
+  },
+  {
+    "version": "before-settle",
+    "name": "content-small",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-content-small-1.cjs",
+    "scriptSha": "ab559baa1701cc938ac6d967c48ecd6739a512f8410024ec998127f8d963c922"
+  },
+  {
+    "version": "before-settle",
+    "name": "matrix",
+    "attempt": 1,
+    "exit": 0,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-matrix-1.cjs",
+    "scriptSha": "4b11798ab0b0a6b760ea2824bf0a67b4d2780a77d8893bd77c4f00b98d19253d"
+  },
+  {
+    "version": "before-settle",
+    "name": "modal",
+    "attempt": 1,
+    "exit": 1,
+    "interrupted": false,
+    "path": "qa-source/attempts/before-settle-modal-1.cjs",
+    "scriptSha": "99115e59476ecbd127098f111c222f8de2dbc223a38bd182271df5e1e787b04d"
+  },
+  {
+    "version": "post",
+    "name": "build",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/post-build-1.cjs",
+    "scriptSha": "46e767f8254cf0624ccfbfe7733a430f0757a014bce6aa5889ff8b7eefc23b37"
+  },
+  {
+    "version": "post",
+    "name": "touch",
+    "attempt": 1,
+    "exit": 1,
+    "path": "qa-source/attempts/post-touch-1.cjs",
+    "scriptSha": "92fce6d73d36913e8fc3e10fe4db7d6ef4ce150952b7b86b0267dcc48d495f1f"
+  },
+  {
+    "version": "post",
+    "name": "touch",
+    "attempt": 2,
+    "exit": 0,
+    "path": "qa-source/attempts/post-touch-2.cjs",
+    "scriptSha": "ad16455ba7cd35479b7aa5a85bb350f02bd45d75f341279650e096ab3ab29ee1"
+  },
+  {
+    "version": "post",
+    "name": "case-top",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/post-case-top-1.cjs",
+    "scriptSha": "5d8558e351825948ac4f3b12746930eeff83f3319e732e508391745bc487092e"
+  },
+  {
+    "version": "post",
+    "name": "cold",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/post-cold-1.cjs",
+    "scriptSha": "f978822ca9e124371beac7aed30ee867a4231b46326b47ed5058d30673955a95"
+  },
+  {
+    "version": "post",
+    "name": "models",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/post-models-1.cjs",
+    "scriptSha": "434cf44d52318d94a9af8177beb0d3dcd5f72e9186dc9bdfaf4ffb0b0f8618cb"
+  }
+]

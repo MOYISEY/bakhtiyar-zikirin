@@ -1,0 +1,1244 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "scope": "room-only",
+  "browser": "155.0.4283.62",
+  "poseToleranceMeters": 0.000001,
+  "checks": [
+    "room-desktop-ru-reduce: full documents remain deferred during entry",
+    "room-desktop-ru-reduce: corridor cannot remotely activate wall sheet",
+    "room-desktop-ru-reduce diploma: wall sheet opens without the general panel",
+    "room-desktop-ru-reduce diploma: reduced motion is respected",
+    "room-desktop-ru-reduce diploma: whole original fits the reading viewport",
+    "room-desktop-ru-reduce diploma: keyboard reaches reader language",
+    "room-desktop-ru-reduce diploma: keyboard reaches scrollable image region",
+    "room-desktop-ru-reduce diploma: image uses verified full file",
+    "room-desktop-ru-reduce diploma: title and copy note localized",
+    "room-desktop-ru-reduce diploma: original source bytes exact",
+    "room-desktop-ru-reduce diploma: sheet adds no idle renders or shadow passes",
+    "room-desktop-ru-reduce diploma: camera within1micrometre and route unchanged",
+    "room-desktop-ru-reduce diploma: original-size reading with native scroll",
+    "room-desktop-ru-reduce diploma: keyboard pans inside reader",
+    "room-desktop-ru-reduce diploma: language preserves reading mode",
+    "room-desktop-ru-reduce diploma restored fit: whole original fits the reading viewport",
+    "room-desktop-ru-reduce diploma: close returns focus to the actual wall marker",
+    "room-desktop-ru-reduce diploma: pose within1micrometre restored",
+    "room-desktop-ru-reduce hackalem: wall sheet opens without the general panel",
+    "room-desktop-ru-reduce hackalem: reduced motion is respected",
+    "room-desktop-ru-reduce hackalem: whole original fits the reading viewport",
+    "room-desktop-ru-reduce hackalem: keyboard reaches reader language",
+    "room-desktop-ru-reduce hackalem: keyboard reaches scrollable image region",
+    "room-desktop-ru-reduce hackalem: image uses verified full file",
+    "room-desktop-ru-reduce hackalem: title and copy note localized",
+    "room-desktop-ru-reduce hackalem: original source bytes exact",
+    "room-desktop-ru-reduce hackalem: sheet adds no idle renders or shadow passes",
+    "room-desktop-ru-reduce hackalem: camera within1micrometre and route unchanged",
+    "room-desktop-ru-reduce hackalem: original-size reading with native scroll",
+    "room-desktop-ru-reduce hackalem: keyboard pans inside reader",
+    "room-desktop-ru-reduce hackalem: language preserves reading mode",
+    "room-desktop-ru-reduce hackalem restored fit: whole original fits the reading viewport",
+    "room-desktop-ru-reduce hackalem: close returns focus to the actual wall marker",
+    "room-desktop-ru-reduce hackalem: pose within1micrometre restored",
+    "room-desktop-ru-reduce certificate: wall sheet opens without the general panel",
+    "room-desktop-ru-reduce certificate: reduced motion is respected",
+    "room-desktop-ru-reduce certificate: whole original fits the reading viewport",
+    "room-desktop-ru-reduce certificate: keyboard reaches reader language",
+    "room-desktop-ru-reduce certificate: keyboard reaches scrollable image region",
+    "room-desktop-ru-reduce certificate: image uses verified full file",
+    "room-desktop-ru-reduce certificate: title and copy note localized",
+    "room-desktop-ru-reduce certificate: original source bytes exact",
+    "room-desktop-ru-reduce certificate: sheet adds no idle renders or shadow passes",
+    "room-desktop-ru-reduce certificate: camera within1micrometre and route unchanged",
+    "room-desktop-ru-reduce certificate: original-size reading with native scroll",
+    "room-desktop-ru-reduce certificate: keyboard pans inside reader",
+    "room-desktop-ru-reduce certificate: language preserves reading mode",
+    "room-desktop-ru-reduce certificate restored fit: whole original fits the reading viewport",
+    "room-desktop-ru-reduce certificate: close returns focus to the actual wall marker",
+    "room-desktop-ru-reduce certificate: pose within1micrometre restored",
+    "room-desktop-ru-reduce repeat: wall sheet opens without the general panel",
+    "room-desktop-ru-reduce repeat: close returns focus to the actual wall marker",
+    "room-desktop-ru-reduce: repeat opening leaves no modal or hold",
+    "room-desktop-ru-reduce helio: self-contained same brief task",
+    "room-desktop-ru-reduce helio: self-contained same brief work",
+    "room-desktop-ru-reduce helio: self-contained same brief result",
+    "room-desktop-ru-reduce helio: detailed facts remain available",
+    "room-desktop-ru-reduce keyform: self-contained same brief task",
+    "room-desktop-ru-reduce keyform: self-contained same brief work",
+    "room-desktop-ru-reduce keyform: self-contained same brief result",
+    "room-desktop-ru-reduce keyform: detailed facts remain available",
+    "room-desktop-ru-reduce rowline: self-contained same brief task",
+    "room-desktop-ru-reduce rowline: self-contained same brief work",
+    "room-desktop-ru-reduce rowline: self-contained same brief result",
+    "room-desktop-ru-reduce rowline: detailed facts remain available",
+    "room-desktop-ru-reduce: no runtime errors",
+    "room-touch-ru-reduce: full documents remain deferred during entry",
+    "room-touch-ru-reduce: corridor cannot remotely activate wall sheet",
+    "room-touch-ru-reduce diploma: first touch is context only",
+    "room-touch-ru-reduce diploma: wall sheet opens without the general panel",
+    "room-touch-ru-reduce diploma: reduced motion is respected",
+    "room-touch-ru-reduce diploma: whole original fits the reading viewport",
+    "room-touch-ru-reduce diploma: keyboard reaches reader language",
+    "room-touch-ru-reduce diploma: keyboard reaches scrollable image region",
+    "room-touch-ru-reduce diploma: image uses verified full file",
+    "room-touch-ru-reduce diploma: title and copy note localized",
+    "room-touch-ru-reduce diploma: original source bytes exact",
+    "room-touch-ru-reduce diploma: sheet adds no idle renders or shadow passes",
+    "room-touch-ru-reduce diploma: camera within1micrometre and route unchanged",
+    "room-touch-ru-reduce diploma: original-size reading with native scroll",
+    "room-touch-ru-reduce diploma: keyboard pans inside reader",
+    "room-touch-ru-reduce diploma: language preserves reading mode",
+    "room-touch-ru-reduce diploma restored fit: whole original fits the reading viewport",
+    "room-touch-ru-reduce diploma: close returns focus to the actual wall marker",
+    "room-touch-ru-reduce diploma: pose within1micrometre restored",
+    "room-touch-ru-reduce hackalem: first touch is context only",
+    "room-touch-ru-reduce hackalem: wall sheet opens without the general panel",
+    "room-touch-ru-reduce hackalem: reduced motion is respected",
+    "room-touch-ru-reduce hackalem: whole original fits the reading viewport",
+    "room-touch-ru-reduce hackalem: keyboard reaches reader language",
+    "room-touch-ru-reduce hackalem: keyboard reaches scrollable image region",
+    "room-touch-ru-reduce hackalem: image uses verified full file",
+    "room-touch-ru-reduce hackalem: title and copy note localized",
+    "room-touch-ru-reduce hackalem: original source bytes exact",
+    "room-touch-ru-reduce hackalem: sheet adds no idle renders or shadow passes",
+    "room-touch-ru-reduce hackalem: camera within1micrometre and route unchanged",
+    "room-touch-ru-reduce hackalem: original-size reading with native scroll",
+    "room-touch-ru-reduce hackalem: keyboard pans inside reader",
+    "room-touch-ru-reduce hackalem: language preserves reading mode",
+    "room-touch-ru-reduce hackalem restored fit: whole original fits the reading viewport",
+    "room-touch-ru-reduce hackalem: close returns focus to the actual wall marker",
+    "room-touch-ru-reduce hackalem: pose within1micrometre restored",
+    "room-touch-ru-reduce certificate: first touch is context only",
+    "room-touch-ru-reduce certificate: wall sheet opens without the general panel",
+    "room-touch-ru-reduce certificate: reduced motion is respected",
+    "room-touch-ru-reduce certificate: whole original fits the reading viewport",
+    "room-touch-ru-reduce certificate: keyboard reaches reader language",
+    "room-touch-ru-reduce certificate: keyboard reaches scrollable image region",
+    "room-touch-ru-reduce certificate: image uses verified full file",
+    "room-touch-ru-reduce certificate: title and copy note localized",
+    "room-touch-ru-reduce certificate: original source bytes exact",
+    "room-touch-ru-reduce certificate: sheet adds no idle renders or shadow passes",
+    "room-touch-ru-reduce certificate: camera within1micrometre and route unchanged",
+    "room-touch-ru-reduce certificate: original-size reading with native scroll",
+    "room-touch-ru-reduce certificate: keyboard pans inside reader",
+    "room-touch-ru-reduce certificate: language preserves reading mode",
+    "room-touch-ru-reduce certificate restored fit: whole original fits the reading viewport",
+    "room-touch-ru-reduce certificate: close returns focus to the actual wall marker",
+    "room-touch-ru-reduce certificate: pose within1micrometre restored",
+    "room-touch-ru-reduce repeat: wall sheet opens without the general panel",
+    "room-touch-ru-reduce repeat: close returns focus to the actual wall marker",
+    "room-touch-ru-reduce: repeat opening leaves no modal or hold",
+    "room-touch-ru-reduce helio: self-contained same brief task",
+    "room-touch-ru-reduce helio: self-contained same brief work",
+    "room-touch-ru-reduce helio: self-contained same brief result",
+    "room-touch-ru-reduce helio: detailed facts remain available",
+    "room-touch-ru-reduce keyform: self-contained same brief task",
+    "room-touch-ru-reduce keyform: self-contained same brief work",
+    "room-touch-ru-reduce keyform: self-contained same brief result",
+    "room-touch-ru-reduce keyform: detailed facts remain available",
+    "room-touch-ru-reduce rowline: self-contained same brief task",
+    "room-touch-ru-reduce rowline: self-contained same brief work",
+    "room-touch-ru-reduce rowline: self-contained same brief result",
+    "room-touch-ru-reduce rowline: detailed facts remain available",
+    "room-touch-ru-reduce: no runtime errors",
+    "room-desktop-kk-reduce: full documents remain deferred during entry",
+    "room-desktop-kk-reduce: corridor cannot remotely activate wall sheet",
+    "room-desktop-kk-reduce diploma: wall sheet opens without the general panel",
+    "room-desktop-kk-reduce diploma: reduced motion is respected",
+    "room-desktop-kk-reduce diploma: whole original fits the reading viewport",
+    "room-desktop-kk-reduce diploma: keyboard reaches reader language",
+    "room-desktop-kk-reduce diploma: keyboard reaches scrollable image region",
+    "room-desktop-kk-reduce diploma: image uses verified full file",
+    "room-desktop-kk-reduce diploma: title and copy note localized",
+    "room-desktop-kk-reduce diploma: original source bytes exact",
+    "room-desktop-kk-reduce diploma: sheet adds no idle renders or shadow passes",
+    "room-desktop-kk-reduce diploma: camera within1micrometre and route unchanged",
+    "room-desktop-kk-reduce diploma: original-size reading with native scroll",
+    "room-desktop-kk-reduce diploma: keyboard pans inside reader",
+    "room-desktop-kk-reduce diploma: language preserves reading mode",
+    "room-desktop-kk-reduce diploma restored fit: whole original fits the reading viewport",
+    "room-desktop-kk-reduce diploma: close returns focus to the actual wall marker",
+    "room-desktop-kk-reduce diploma: pose within1micrometre restored",
+    "room-desktop-kk-reduce hackalem: wall sheet opens without the general panel",
+    "room-desktop-kk-reduce hackalem: reduced motion is respected",
+    "room-desktop-kk-reduce hackalem: whole original fits the reading viewport",
+    "room-desktop-kk-reduce hackalem: keyboard reaches reader language",
+    "room-desktop-kk-reduce hackalem: keyboard reaches scrollable image region",
+    "room-desktop-kk-reduce hackalem: image uses verified full file",
+    "room-desktop-kk-reduce hackalem: title and copy note localized",
+    "room-desktop-kk-reduce hackalem: original source bytes exact",
+    "room-desktop-kk-reduce hackalem: sheet adds no idle renders or shadow passes",
+    "room-desktop-kk-reduce hackalem: camera within1micrometre and route unchanged",
+    "room-desktop-kk-reduce hackalem: original-size reading with native scroll",
+    "room-desktop-kk-reduce hackalem: keyboard pans inside reader",
+    "room-desktop-kk-reduce hackalem: language preserves reading mode",
+    "room-desktop-kk-reduce hackalem restored fit: whole original fits the reading viewport",
+    "room-desktop-kk-reduce hackalem: close returns focus to the actual wall marker",
+    "room-desktop-kk-reduce hackalem: pose within1micrometre restored",
+    "room-desktop-kk-reduce certificate: wall sheet opens without the general panel",
+    "room-desktop-kk-reduce certificate: reduced motion is respected",
+    "room-desktop-kk-reduce certificate: whole original fits the reading viewport",
+    "room-desktop-kk-reduce certificate: keyboard reaches reader language",
+    "room-desktop-kk-reduce certificate: keyboard reaches scrollable image region",
+    "room-desktop-kk-reduce certificate: image uses verified full file",
+    "room-desktop-kk-reduce certificate: title and copy note localized",
+    "room-desktop-kk-reduce certificate: original source bytes exact",
+    "room-desktop-kk-reduce certificate: sheet adds no idle renders or shadow passes",
+    "room-desktop-kk-reduce certificate: camera within1micrometre and route unchanged",
+    "room-desktop-kk-reduce certificate: original-size reading with native scroll",
+    "room-desktop-kk-reduce certificate: keyboard pans inside reader",
+    "room-desktop-kk-reduce certificate: language preserves reading mode",
+    "room-desktop-kk-reduce certificate restored fit: whole original fits the reading viewport",
+    "room-desktop-kk-reduce certificate: close returns focus to the actual wall marker",
+    "room-desktop-kk-reduce certificate: pose within1micrometre restored",
+    "room-desktop-kk-reduce repeat: wall sheet opens without the general panel",
+    "room-desktop-kk-reduce repeat: close returns focus to the actual wall marker",
+    "room-desktop-kk-reduce: repeat opening leaves no modal or hold",
+    "room-desktop-kk-reduce helio: self-contained same brief task",
+    "room-desktop-kk-reduce helio: self-contained same brief work",
+    "room-desktop-kk-reduce helio: self-contained same brief result",
+    "room-desktop-kk-reduce helio: detailed facts remain available",
+    "room-desktop-kk-reduce keyform: self-contained same brief task",
+    "room-desktop-kk-reduce keyform: self-contained same brief work",
+    "room-desktop-kk-reduce keyform: self-contained same brief result",
+    "room-desktop-kk-reduce keyform: detailed facts remain available",
+    "room-desktop-kk-reduce rowline: self-contained same brief task",
+    "room-desktop-kk-reduce rowline: self-contained same brief work",
+    "room-desktop-kk-reduce rowline: self-contained same brief result",
+    "room-desktop-kk-reduce rowline: detailed facts remain available",
+    "room-desktop-kk-reduce: no runtime errors",
+    "room-touch-kk-reduce: full documents remain deferred during entry",
+    "room-touch-kk-reduce: corridor cannot remotely activate wall sheet",
+    "room-touch-kk-reduce diploma: first touch is context only",
+    "room-touch-kk-reduce diploma: wall sheet opens without the general panel",
+    "room-touch-kk-reduce diploma: reduced motion is respected",
+    "room-touch-kk-reduce diploma: whole original fits the reading viewport",
+    "room-touch-kk-reduce diploma: keyboard reaches reader language",
+    "room-touch-kk-reduce diploma: keyboard reaches scrollable image region",
+    "room-touch-kk-reduce diploma: image uses verified full file",
+    "room-touch-kk-reduce diploma: title and copy note localized",
+    "room-touch-kk-reduce diploma: original source bytes exact",
+    "room-touch-kk-reduce diploma: sheet adds no idle renders or shadow passes",
+    "room-touch-kk-reduce diploma: camera within1micrometre and route unchanged",
+    "room-touch-kk-reduce diploma: original-size reading with native scroll",
+    "room-touch-kk-reduce diploma: keyboard pans inside reader",
+    "room-touch-kk-reduce diploma: language preserves reading mode",
+    "room-touch-kk-reduce diploma restored fit: whole original fits the reading viewport",
+    "room-touch-kk-reduce diploma: close returns focus to the actual wall marker",
+    "room-touch-kk-reduce diploma: pose within1micrometre restored",
+    "room-touch-kk-reduce hackalem: first touch is context only",
+    "room-touch-kk-reduce hackalem: wall sheet opens without the general panel",
+    "room-touch-kk-reduce hackalem: reduced motion is respected",
+    "room-touch-kk-reduce hackalem: whole original fits the reading viewport",
+    "room-touch-kk-reduce hackalem: keyboard reaches reader language",
+    "room-touch-kk-reduce hackalem: keyboard reaches scrollable image region",
+    "room-touch-kk-reduce hackalem: image uses verified full file",
+    "room-touch-kk-reduce hackalem: title and copy note localized",
+    "room-touch-kk-reduce hackalem: original source bytes exact",
+    "room-touch-kk-reduce hackalem: sheet adds no idle renders or shadow passes",
+    "room-touch-kk-reduce hackalem: camera within1micrometre and route unchanged",
+    "room-touch-kk-reduce hackalem: original-size reading with native scroll",
+    "room-touch-kk-reduce hackalem: keyboard pans inside reader",
+    "room-touch-kk-reduce hackalem: language preserves reading mode",
+    "room-touch-kk-reduce hackalem restored fit: whole original fits the reading viewport",
+    "room-touch-kk-reduce hackalem: close returns focus to the actual wall marker",
+    "room-touch-kk-reduce hackalem: pose within1micrometre restored",
+    "room-touch-kk-reduce certificate: first touch is context only",
+    "room-touch-kk-reduce certificate: wall sheet opens without the general panel",
+    "room-touch-kk-reduce certificate: reduced motion is respected",
+    "room-touch-kk-reduce certificate: whole original fits the reading viewport",
+    "room-touch-kk-reduce certificate: keyboard reaches reader language",
+    "room-touch-kk-reduce certificate: keyboard reaches scrollable image region",
+    "room-touch-kk-reduce certificate: image uses verified full file",
+    "room-touch-kk-reduce certificate: title and copy note localized",
+    "room-touch-kk-reduce certificate: original source bytes exact",
+    "room-touch-kk-reduce certificate: sheet adds no idle renders or shadow passes",
+    "room-touch-kk-reduce certificate: camera within1micrometre and route unchanged",
+    "room-touch-kk-reduce certificate: original-size reading with native scroll",
+    "room-touch-kk-reduce certificate: keyboard pans inside reader",
+    "room-touch-kk-reduce certificate: language preserves reading mode",
+    "room-touch-kk-reduce certificate restored fit: whole original fits the reading viewport",
+    "room-touch-kk-reduce certificate: close returns focus to the actual wall marker",
+    "room-touch-kk-reduce certificate: pose within1micrometre restored",
+    "room-touch-kk-reduce repeat: wall sheet opens without the general panel",
+    "room-touch-kk-reduce repeat: close returns focus to the actual wall marker",
+    "room-touch-kk-reduce: repeat opening leaves no modal or hold",
+    "room-touch-kk-reduce helio: self-contained same brief task",
+    "room-touch-kk-reduce helio: self-contained same brief work",
+    "room-touch-kk-reduce helio: self-contained same brief result",
+    "room-touch-kk-reduce helio: detailed facts remain available",
+    "room-touch-kk-reduce keyform: self-contained same brief task",
+    "room-touch-kk-reduce keyform: self-contained same brief work",
+    "room-touch-kk-reduce keyform: self-contained same brief result",
+    "room-touch-kk-reduce keyform: detailed facts remain available",
+    "room-touch-kk-reduce rowline: self-contained same brief task",
+    "room-touch-kk-reduce rowline: self-contained same brief work",
+    "room-touch-kk-reduce rowline: self-contained same brief result",
+    "room-touch-kk-reduce rowline: detailed facts remain available",
+    "room-touch-kk-reduce: no runtime errors",
+    "room-desktop-en-reduce: full documents remain deferred during entry",
+    "room-desktop-en-reduce: corridor cannot remotely activate wall sheet",
+    "room-desktop-en-reduce diploma: wall sheet opens without the general panel",
+    "room-desktop-en-reduce diploma: reduced motion is respected",
+    "room-desktop-en-reduce diploma: whole original fits the reading viewport",
+    "room-desktop-en-reduce diploma: keyboard reaches reader language",
+    "room-desktop-en-reduce diploma: keyboard reaches scrollable image region",
+    "room-desktop-en-reduce diploma: image uses verified full file",
+    "room-desktop-en-reduce diploma: title and copy note localized",
+    "room-desktop-en-reduce diploma: original source bytes exact",
+    "room-desktop-en-reduce diploma: sheet adds no idle renders or shadow passes",
+    "room-desktop-en-reduce diploma: camera within1micrometre and route unchanged",
+    "room-desktop-en-reduce diploma: original-size reading with native scroll",
+    "room-desktop-en-reduce diploma: keyboard pans inside reader",
+    "room-desktop-en-reduce diploma: language preserves reading mode",
+    "room-desktop-en-reduce diploma restored fit: whole original fits the reading viewport",
+    "room-desktop-en-reduce diploma: close returns focus to the actual wall marker",
+    "room-desktop-en-reduce diploma: pose within1micrometre restored",
+    "room-desktop-en-reduce hackalem: wall sheet opens without the general panel",
+    "room-desktop-en-reduce hackalem: reduced motion is respected",
+    "room-desktop-en-reduce hackalem: whole original fits the reading viewport",
+    "room-desktop-en-reduce hackalem: keyboard reaches reader language",
+    "room-desktop-en-reduce hackalem: keyboard reaches scrollable image region",
+    "room-desktop-en-reduce hackalem: image uses verified full file",
+    "room-desktop-en-reduce hackalem: title and copy note localized",
+    "room-desktop-en-reduce hackalem: original source bytes exact",
+    "room-desktop-en-reduce hackalem: sheet adds no idle renders or shadow passes",
+    "room-desktop-en-reduce hackalem: camera within1micrometre and route unchanged",
+    "room-desktop-en-reduce hackalem: original-size reading with native scroll",
+    "room-desktop-en-reduce hackalem: keyboard pans inside reader",
+    "room-desktop-en-reduce hackalem: language preserves reading mode",
+    "room-desktop-en-reduce hackalem restored fit: whole original fits the reading viewport",
+    "room-desktop-en-reduce hackalem: close returns focus to the actual wall marker",
+    "room-desktop-en-reduce hackalem: pose within1micrometre restored",
+    "room-desktop-en-reduce certificate: wall sheet opens without the general panel",
+    "room-desktop-en-reduce certificate: reduced motion is respected",
+    "room-desktop-en-reduce certificate: whole original fits the reading viewport",
+    "room-desktop-en-reduce certificate: keyboard reaches reader language",
+    "room-desktop-en-reduce certificate: keyboard reaches scrollable image region",
+    "room-desktop-en-reduce certificate: image uses verified full file",
+    "room-desktop-en-reduce certificate: title and copy note localized",
+    "room-desktop-en-reduce certificate: original source bytes exact",
+    "room-desktop-en-reduce certificate: sheet adds no idle renders or shadow passes",
+    "room-desktop-en-reduce certificate: camera within1micrometre and route unchanged",
+    "room-desktop-en-reduce certificate: original-size reading with native scroll",
+    "room-desktop-en-reduce certificate: keyboard pans inside reader",
+    "room-desktop-en-reduce certificate: language preserves reading mode",
+    "room-desktop-en-reduce certificate restored fit: whole original fits the reading viewport",
+    "room-desktop-en-reduce certificate: close returns focus to the actual wall marker",
+    "room-desktop-en-reduce certificate: pose within1micrometre restored",
+    "room-desktop-en-reduce repeat: wall sheet opens without the general panel",
+    "room-desktop-en-reduce repeat: close returns focus to the actual wall marker",
+    "room-desktop-en-reduce: repeat opening leaves no modal or hold",
+    "room-desktop-en-reduce helio: self-contained same brief task",
+    "room-desktop-en-reduce helio: self-contained same brief work",
+    "room-desktop-en-reduce helio: self-contained same brief result",
+    "room-desktop-en-reduce helio: detailed facts remain available",
+    "room-desktop-en-reduce keyform: self-contained same brief task",
+    "room-desktop-en-reduce keyform: self-contained same brief work",
+    "room-desktop-en-reduce keyform: self-contained same brief result",
+    "room-desktop-en-reduce keyform: detailed facts remain available",
+    "room-desktop-en-reduce rowline: self-contained same brief task",
+    "room-desktop-en-reduce rowline: self-contained same brief work",
+    "room-desktop-en-reduce rowline: self-contained same brief result",
+    "room-desktop-en-reduce rowline: detailed facts remain available",
+    "room-desktop-en-reduce: no runtime errors",
+    "room-touch-en-reduce: full documents remain deferred during entry",
+    "room-touch-en-reduce: corridor cannot remotely activate wall sheet",
+    "room-touch-en-reduce diploma: first touch is context only",
+    "room-touch-en-reduce diploma: wall sheet opens without the general panel",
+    "room-touch-en-reduce diploma: reduced motion is respected",
+    "room-touch-en-reduce diploma: whole original fits the reading viewport",
+    "room-touch-en-reduce diploma: keyboard reaches reader language",
+    "room-touch-en-reduce diploma: keyboard reaches scrollable image region",
+    "room-touch-en-reduce diploma: image uses verified full file",
+    "room-touch-en-reduce diploma: title and copy note localized",
+    "room-touch-en-reduce diploma: original source bytes exact",
+    "room-touch-en-reduce diploma: sheet adds no idle renders or shadow passes",
+    "room-touch-en-reduce diploma: camera within1micrometre and route unchanged",
+    "room-touch-en-reduce diploma: original-size reading with native scroll",
+    "room-touch-en-reduce diploma: keyboard pans inside reader",
+    "room-touch-en-reduce diploma: language preserves reading mode",
+    "room-touch-en-reduce diploma restored fit: whole original fits the reading viewport",
+    "room-touch-en-reduce diploma: close returns focus to the actual wall marker",
+    "room-touch-en-reduce diploma: pose within1micrometre restored",
+    "room-touch-en-reduce hackalem: first touch is context only",
+    "room-touch-en-reduce hackalem: wall sheet opens without the general panel",
+    "room-touch-en-reduce hackalem: reduced motion is respected",
+    "room-touch-en-reduce hackalem: whole original fits the reading viewport",
+    "room-touch-en-reduce hackalem: keyboard reaches reader language",
+    "room-touch-en-reduce hackalem: keyboard reaches scrollable image region",
+    "room-touch-en-reduce hackalem: image uses verified full file",
+    "room-touch-en-reduce hackalem: title and copy note localized",
+    "room-touch-en-reduce hackalem: original source bytes exact",
+    "room-touch-en-reduce hackalem: sheet adds no idle renders or shadow passes",
+    "room-touch-en-reduce hackalem: camera within1micrometre and route unchanged",
+    "room-touch-en-reduce hackalem: original-size reading with native scroll",
+    "room-touch-en-reduce hackalem: keyboard pans inside reader",
+    "room-touch-en-reduce hackalem: language preserves reading mode",
+    "room-touch-en-reduce hackalem restored fit: whole original fits the reading viewport",
+    "room-touch-en-reduce hackalem: close returns focus to the actual wall marker",
+    "room-touch-en-reduce hackalem: pose within1micrometre restored",
+    "room-touch-en-reduce certificate: first touch is context only",
+    "room-touch-en-reduce certificate: wall sheet opens without the general panel",
+    "room-touch-en-reduce certificate: reduced motion is respected",
+    "room-touch-en-reduce certificate: whole original fits the reading viewport",
+    "room-touch-en-reduce certificate: keyboard reaches reader language",
+    "room-touch-en-reduce certificate: keyboard reaches scrollable image region",
+    "room-touch-en-reduce certificate: image uses verified full file",
+    "room-touch-en-reduce certificate: title and copy note localized",
+    "room-touch-en-reduce certificate: original source bytes exact",
+    "room-touch-en-reduce certificate: sheet adds no idle renders or shadow passes",
+    "room-touch-en-reduce certificate: camera within1micrometre and route unchanged",
+    "room-touch-en-reduce certificate: original-size reading with native scroll",
+    "room-touch-en-reduce certificate: keyboard pans inside reader",
+    "room-touch-en-reduce certificate: language preserves reading mode",
+    "room-touch-en-reduce certificate restored fit: whole original fits the reading viewport",
+    "room-touch-en-reduce certificate: close returns focus to the actual wall marker",
+    "room-touch-en-reduce certificate: pose within1micrometre restored",
+    "room-touch-en-reduce repeat: wall sheet opens without the general panel",
+    "room-touch-en-reduce repeat: close returns focus to the actual wall marker",
+    "room-touch-en-reduce: repeat opening leaves no modal or hold",
+    "room-touch-en-reduce helio: self-contained same brief task",
+    "room-touch-en-reduce helio: self-contained same brief work",
+    "room-touch-en-reduce helio: self-contained same brief result",
+    "room-touch-en-reduce helio: detailed facts remain available",
+    "room-touch-en-reduce keyform: self-contained same brief task",
+    "room-touch-en-reduce keyform: self-contained same brief work",
+    "room-touch-en-reduce keyform: self-contained same brief result",
+    "room-touch-en-reduce keyform: detailed facts remain available",
+    "room-touch-en-reduce rowline: self-contained same brief task",
+    "room-touch-en-reduce rowline: self-contained same brief work",
+    "room-touch-en-reduce rowline: self-contained same brief result",
+    "room-touch-en-reduce rowline: detailed facts remain available",
+    "room-touch-en-reduce: no runtime errors",
+    "room-desktop-ru-no-preference: full documents remain deferred during entry",
+    "room-desktop-ru-no-preference: corridor cannot remotely activate wall sheet",
+    "room-desktop-ru-no-preference diploma: wall sheet opens without the general panel",
+    "room-desktop-ru-no-preference diploma: reduced motion is respected",
+    "room-desktop-ru-no-preference diploma: whole original fits the reading viewport",
+    "room-desktop-ru-no-preference diploma: keyboard reaches reader language",
+    "room-desktop-ru-no-preference diploma: keyboard reaches scrollable image region",
+    "room-desktop-ru-no-preference diploma: image uses verified full file",
+    "room-desktop-ru-no-preference diploma: title and copy note localized",
+    "room-desktop-ru-no-preference diploma: original source bytes exact",
+    "room-desktop-ru-no-preference diploma: sheet adds no idle renders or shadow passes",
+    "room-desktop-ru-no-preference diploma: camera within1micrometre and route unchanged",
+    "room-desktop-ru-no-preference diploma: original-size reading with native scroll",
+    "room-desktop-ru-no-preference diploma: keyboard pans inside reader",
+    "room-desktop-ru-no-preference diploma: language preserves reading mode",
+    "room-desktop-ru-no-preference diploma restored fit: whole original fits the reading viewport",
+    "room-desktop-ru-no-preference diploma: close returns focus to the actual wall marker",
+    "room-desktop-ru-no-preference diploma: pose within1micrometre restored",
+    "room-desktop-ru-no-preference hackalem: wall sheet opens without the general panel",
+    "room-desktop-ru-no-preference hackalem: reduced motion is respected",
+    "room-desktop-ru-no-preference hackalem: whole original fits the reading viewport",
+    "room-desktop-ru-no-preference hackalem: keyboard reaches reader language",
+    "room-desktop-ru-no-preference hackalem: keyboard reaches scrollable image region",
+    "room-desktop-ru-no-preference hackalem: image uses verified full file",
+    "room-desktop-ru-no-preference hackalem: title and copy note localized",
+    "room-desktop-ru-no-preference hackalem: original source bytes exact",
+    "room-desktop-ru-no-preference hackalem: sheet adds no idle renders or shadow passes",
+    "room-desktop-ru-no-preference hackalem: camera within1micrometre and route unchanged",
+    "room-desktop-ru-no-preference hackalem: original-size reading with native scroll",
+    "room-desktop-ru-no-preference hackalem: keyboard pans inside reader",
+    "room-desktop-ru-no-preference hackalem: language preserves reading mode",
+    "room-desktop-ru-no-preference hackalem restored fit: whole original fits the reading viewport",
+    "room-desktop-ru-no-preference hackalem: close returns focus to the actual wall marker",
+    "room-desktop-ru-no-preference hackalem: pose within1micrometre restored",
+    "room-desktop-ru-no-preference certificate: wall sheet opens without the general panel",
+    "room-desktop-ru-no-preference certificate: reduced motion is respected",
+    "room-desktop-ru-no-preference certificate: whole original fits the reading viewport",
+    "room-desktop-ru-no-preference certificate: keyboard reaches reader language",
+    "room-desktop-ru-no-preference certificate: keyboard reaches scrollable image region",
+    "room-desktop-ru-no-preference certificate: image uses verified full file",
+    "room-desktop-ru-no-preference certificate: title and copy note localized",
+    "room-desktop-ru-no-preference certificate: original source bytes exact",
+    "room-desktop-ru-no-preference certificate: sheet adds no idle renders or shadow passes",
+    "room-desktop-ru-no-preference certificate: camera within1micrometre and route unchanged",
+    "room-desktop-ru-no-preference certificate: original-size reading with native scroll",
+    "room-desktop-ru-no-preference certificate: keyboard pans inside reader",
+    "room-desktop-ru-no-preference certificate: language preserves reading mode",
+    "room-desktop-ru-no-preference certificate restored fit: whole original fits the reading viewport",
+    "room-desktop-ru-no-preference certificate: close returns focus to the actual wall marker",
+    "room-desktop-ru-no-preference certificate: pose within1micrometre restored",
+    "room-desktop-ru-no-preference repeat: wall sheet opens without the general panel",
+    "room-desktop-ru-no-preference repeat: close returns focus to the actual wall marker",
+    "room-desktop-ru-no-preference: repeat opening leaves no modal or hold",
+    "room-desktop-ru-no-preference helio: self-contained same brief task",
+    "room-desktop-ru-no-preference helio: self-contained same brief work",
+    "room-desktop-ru-no-preference helio: self-contained same brief result",
+    "room-desktop-ru-no-preference helio: detailed facts remain available",
+    "room-desktop-ru-no-preference keyform: self-contained same brief task",
+    "room-desktop-ru-no-preference keyform: self-contained same brief work",
+    "room-desktop-ru-no-preference keyform: self-contained same brief result",
+    "room-desktop-ru-no-preference keyform: detailed facts remain available",
+    "room-desktop-ru-no-preference rowline: self-contained same brief task",
+    "room-desktop-ru-no-preference rowline: self-contained same brief work",
+    "room-desktop-ru-no-preference rowline: self-contained same brief result",
+    "room-desktop-ru-no-preference rowline: detailed facts remain available",
+    "room-desktop-ru-no-preference: no runtime errors",
+    "room-touch-ru-no-preference: full documents remain deferred during entry",
+    "room-touch-ru-no-preference: corridor cannot remotely activate wall sheet",
+    "room-touch-ru-no-preference diploma: first touch is context only",
+    "room-touch-ru-no-preference diploma: wall sheet opens without the general panel",
+    "room-touch-ru-no-preference diploma: reduced motion is respected",
+    "room-touch-ru-no-preference diploma: whole original fits the reading viewport",
+    "room-touch-ru-no-preference diploma: keyboard reaches reader language",
+    "room-touch-ru-no-preference diploma: keyboard reaches scrollable image region",
+    "room-touch-ru-no-preference diploma: image uses verified full file",
+    "room-touch-ru-no-preference diploma: title and copy note localized",
+    "room-touch-ru-no-preference diploma: original source bytes exact",
+    "room-touch-ru-no-preference diploma: sheet adds no idle renders or shadow passes",
+    "room-touch-ru-no-preference diploma: camera within1micrometre and route unchanged",
+    "room-touch-ru-no-preference diploma: original-size reading with native scroll",
+    "room-touch-ru-no-preference diploma: keyboard pans inside reader",
+    "room-touch-ru-no-preference diploma: language preserves reading mode",
+    "room-touch-ru-no-preference diploma restored fit: whole original fits the reading viewport",
+    "room-touch-ru-no-preference diploma: close returns focus to the actual wall marker",
+    "room-touch-ru-no-preference diploma: pose within1micrometre restored",
+    "room-touch-ru-no-preference hackalem: first touch is context only",
+    "room-touch-ru-no-preference hackalem: wall sheet opens without the general panel",
+    "room-touch-ru-no-preference hackalem: reduced motion is respected",
+    "room-touch-ru-no-preference hackalem: whole original fits the reading viewport",
+    "room-touch-ru-no-preference hackalem: keyboard reaches reader language",
+    "room-touch-ru-no-preference hackalem: keyboard reaches scrollable image region",
+    "room-touch-ru-no-preference hackalem: image uses verified full file",
+    "room-touch-ru-no-preference hackalem: title and copy note localized",
+    "room-touch-ru-no-preference hackalem: original source bytes exact",
+    "room-touch-ru-no-preference hackalem: sheet adds no idle renders or shadow passes",
+    "room-touch-ru-no-preference hackalem: camera within1micrometre and route unchanged",
+    "room-touch-ru-no-preference hackalem: original-size reading with native scroll",
+    "room-touch-ru-no-preference hackalem: keyboard pans inside reader",
+    "room-touch-ru-no-preference hackalem: language preserves reading mode",
+    "room-touch-ru-no-preference hackalem restored fit: whole original fits the reading viewport",
+    "room-touch-ru-no-preference hackalem: close returns focus to the actual wall marker",
+    "room-touch-ru-no-preference hackalem: pose within1micrometre restored",
+    "room-touch-ru-no-preference certificate: first touch is context only",
+    "room-touch-ru-no-preference certificate: wall sheet opens without the general panel",
+    "room-touch-ru-no-preference certificate: reduced motion is respected",
+    "room-touch-ru-no-preference certificate: whole original fits the reading viewport",
+    "room-touch-ru-no-preference certificate: keyboard reaches reader language",
+    "room-touch-ru-no-preference certificate: keyboard reaches scrollable image region",
+    "room-touch-ru-no-preference certificate: image uses verified full file",
+    "room-touch-ru-no-preference certificate: title and copy note localized",
+    "room-touch-ru-no-preference certificate: original source bytes exact",
+    "room-touch-ru-no-preference certificate: sheet adds no idle renders or shadow passes",
+    "room-touch-ru-no-preference certificate: camera within1micrometre and route unchanged",
+    "room-touch-ru-no-preference certificate: original-size reading with native scroll",
+    "room-touch-ru-no-preference certificate: keyboard pans inside reader",
+    "room-touch-ru-no-preference certificate: language preserves reading mode",
+    "room-touch-ru-no-preference certificate restored fit: whole original fits the reading viewport",
+    "room-touch-ru-no-preference certificate: close returns focus to the actual wall marker",
+    "room-touch-ru-no-preference certificate: pose within1micrometre restored",
+    "room-touch-ru-no-preference repeat: wall sheet opens without the general panel",
+    "room-touch-ru-no-preference repeat: close returns focus to the actual wall marker",
+    "room-touch-ru-no-preference: repeat opening leaves no modal or hold",
+    "room-touch-ru-no-preference helio: self-contained same brief task",
+    "room-touch-ru-no-preference helio: self-contained same brief work",
+    "room-touch-ru-no-preference helio: self-contained same brief result",
+    "room-touch-ru-no-preference helio: detailed facts remain available",
+    "room-touch-ru-no-preference keyform: self-contained same brief task",
+    "room-touch-ru-no-preference keyform: self-contained same brief work",
+    "room-touch-ru-no-preference keyform: self-contained same brief result",
+    "room-touch-ru-no-preference keyform: detailed facts remain available",
+    "room-touch-ru-no-preference rowline: self-contained same brief task",
+    "room-touch-ru-no-preference rowline: self-contained same brief work",
+    "room-touch-ru-no-preference rowline: self-contained same brief result",
+    "room-touch-ru-no-preference rowline: detailed facts remain available",
+    "room-touch-ru-no-preference: no runtime errors",
+    "negative-pending-close: closing while loading never reopens or holds",
+    "negative-pending-close reopen: wall sheet opens without the general panel",
+    "negative-pending-close reopen: close returns focus to the actual wall marker",
+    "negative-pending-close: no JavaScript exception",
+    "negative-image-failure: failed image keeps clear fallback and close",
+    "negative-image-failure: close returns focus to the actual wall marker",
+    "negative-image-failure: no JavaScript exception",
+    "negative-resize: whole original fits the reading viewport",
+    "negative-resize: camera stays held during viewport resize",
+    "negative-resize: close resumes existing wide cabinet framing",
+    "negative-resize: no JavaScript exception",
+    "negative-context-loss: HTML original remains readable after context loss",
+    "negative-context-loss: context loss returns focus to ordinary fallback",
+    "negative-context-loss: no JavaScript exception"
+  ],
+  "ordinary": [],
+  "room": [
+    {
+      "name": "room-desktop-ru-reduce",
+      "initial": {
+        "camera": [
+          0.85,
+          1.04,
+          -0.3400000000000001
+        ],
+        "look": [
+          0,
+          0.5
+        ],
+        "move": [
+          0,
+          0
+        ],
+        "progress": 1,
+        "target": 1,
+        "lamp": true
+      },
+      "documents": [
+        {
+          "id": "diploma",
+          "fit": {
+            "i": {
+              "x": 236.8125,
+              "y": 88,
+              "width": 966.359375,
+              "height": 668
+            },
+            "v": {
+              "x": 120,
+              "y": 88,
+              "width": 1200,
+              "height": 668
+            }
+          },
+          "animationDurations": [],
+          "heldRenderDelta": 0
+        },
+        {
+          "id": "hackalem",
+          "fit": {
+            "i": {
+              "x": 287.640625,
+              "y": 88,
+              "width": 864.71875,
+              "height": 668
+            },
+            "v": {
+              "x": 120,
+              "y": 88,
+              "width": 1200,
+              "height": 668
+            }
+          },
+          "animationDurations": [],
+          "heldRenderDelta": 0
+        },
+        {
+          "id": "certificate",
+          "fit": {
+            "i": {
+              "x": 273.484375,
+              "y": 88,
+              "width": 893.03125,
+              "height": 668
+            },
+            "v": {
+              "x": 120,
+              "y": 88,
+              "width": 1200,
+              "height": 668
+            }
+          },
+          "animationDurations": [],
+          "heldRenderDelta": 0
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "room-touch-ru-reduce",
+      "initial": {
+        "camera": [
+          -0.55,
+          1.05,
+          -0.3400000000000001
+        ],
+        "look": [
+          0,
+          0.5
+        ],
+        "move": [
+          0,
+          0
+        ],
+        "progress": 1,
+        "target": 1,
+        "lamp": true
+      },
+      "documents": [
+        {
+          "id": "diploma",
+          "fit": {
+            "i": {
+              "x": 8.015625,
+              "y": 254.234375,
+              "width": 373.96875,
+              "height": 258.515625
+            },
+            "v": {
+              "x": 8,
+              "y": 80,
+              "width": 374,
+              "height": 607
+            }
+          },
+          "animationDurations": [],
+          "heldRenderDelta": 0
+        },
+        {
+          "id": "hackalem",
+          "fit": {
+            "i": {
+              "x": 8,
+              "y": 228.546875,
+              "width": 373.984375,
+              "height": 288.90625
+            },
+            "v": {
+              "x": 8,
+              "y": 80,
+              "width": 374,
+              "height": 586
+            }
+          },
+          "animationDurations": [],
+          "heldRenderDelta": 0
+        },
+        {
+          "id": "certificate",
+          "fit": {
+            "i": {
+              "x": 8,
+              "y": 233.125,
+              "width": 373.984375,
+              "height": 279.75
+            },
+            "v": {
+              "x": 8,
+              "y": 80,
+              "width": 374,
+              "height": 586
+            }
+          },
+          "animationDurations": [],
+          "heldRenderDelta": 0
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "room-desktop-kk-reduce",
+      "initial": {
+        "camera": [
+          0.85,
+          1.04,
+          -0.3400000000000001
+        ],
+        "look": [
+          0,
+          0.5
+        ],
+        "move": [
+          0,
+          0
+        ],
+        "progress": 1,
+        "target": 1,
+        "lamp": false
+      },
+      "documents": [
+        {
+          "id": "diploma",
+          "fit": {
+            "i": {
+              "x": 236.8125,
+              "y": 88,
+              "width": 966.359375,
+              "height": 668
+            },
+            "v": {
+              "x": 120,
+              "y": 88,
+              "width": 1200,
+              "height": 668
+            }
+          },
+          "animationDurations": [],
+          "heldRenderDelta": 0
+        },
+        {
+          "id": "hackalem",
+          "fit": {
+            "i": {
+              "x": 287.640625,
+              "y": 88,
+              "width": 864.71875,
+              "height": 668
+            },
+            "v": {
+              "x": 120,
+              "y": 88,
+              "width": 1200,
+              "height": 668
+            }
+          },
+          "animationDurations": [],
+          "heldRenderDelta": 0
+        },
+        {
+          "id": "certificate",
+          "fit": {
+            "i": {
+              "x": 273.484375,
+              "y": 88,
+              "width": 893.03125,
+              "height": 668
+            },
+            "v": {
+              "x": 120,
+              "y": 88,
+              "width": 1200,
+              "height": 668
+            }
+          },
+          "animationDurations": [],
+          "heldRenderDelta": 0
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "room-touch-kk-reduce",
+      "initial": {
+        "camera": [
+          -0.55,
+          1.05,
+          -0.3400000000000001
+        ],
+        "look": [
+          0,
+          0.5
+        ],
+        "move": [
+          0,
+          0
+        ],
+        "progress": 1,
+        "target": 1,
+        "lamp": false
+      },
+      "documents": [
+        {
+          "id": "diploma",
+          "fit": {
+            "i": {
+              "x": 8.015625,
+              "y": 243.734375,
+              "width": 373.96875,
+              "height": 258.515625
+            },
+            "v": {
+              "x": 8,
+              "y": 80,
+              "width": 374,
+              "height": 586
+            }
+          },
+          "animationDurations": [],
+          "heldRenderDelta": 0
+        },
+        {
+          "id": "hackalem",
+          "fit": {
+            "i": {
+              "x": 8,
+              "y": 228.546875,
+              "width": 373.984375,
+              "height": 288.90625
+            },
+            "v": {
+              "x": 8,
+              "y": 80,
+              "width": 374,
+              "height": 586
+            }
+          },
+          "animationDurations": [],
+          "heldRenderDelta": 0
+        },
+        {
+          "id": "certificate",
+          "fit": {
+            "i": {
+              "x": 8,
+              "y": 233.125,
+              "width": 373.984375,
+              "height": 279.75
+            },
+            "v": {
+              "x": 8,
+              "y": 80,
+              "width": 374,
+              "height": 586
+            }
+          },
+          "animationDurations": [],
+          "heldRenderDelta": 0
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "room-desktop-en-reduce",
+      "initial": {
+        "camera": [
+          0.85,
+          1.04,
+          -0.3400000000000001
+        ],
+        "look": [
+          0,
+          0.5
+        ],
+        "move": [
+          0,
+          0
+        ],
+        "progress": 1,
+        "target": 1,
+        "lamp": true
+      },
+      "documents": [
+        {
+          "id": "diploma",
+          "fit": {
+            "i": {
+              "x": 236.8125,
+              "y": 88,
+              "width": 966.359375,
+              "height": 668
+            },
+            "v": {
+              "x": 120,
+              "y": 88,
+              "width": 1200,
+              "height": 668
+            }
+          },
+          "animationDurations": [],
+          "heldRenderDelta": 0
+        },
+        {
+          "id": "hackalem",
+          "fit": {
+            "i": {
+              "x": 287.640625,
+              "y": 88,
+              "width": 864.71875,
+              "height": 668
+            },
+            "v": {
+              "x": 120,
+              "y": 88,
+              "width": 1200,
+              "height": 668
+            }
+          },
+          "animationDurations": [],
+          "heldRenderDelta": 0
+        },
+        {
+          "id": "certificate",
+          "fit": {
+            "i": {
+              "x": 273.484375,
+              "y": 88,
+              "width": 893.03125,
+              "height": 668
+            },
+            "v": {
+              "x": 120,
+              "y": 88,
+              "width": 1200,
+              "height": 668
+            }
+          },
+          "animationDurations": [],
+          "heldRenderDelta": 0
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "room-touch-en-reduce",
+      "initial": {
+        "camera": [
+          -0.55,
+          1.05,
+          -0.3400000000000001
+        ],
+        "look": [
+          0,
+          0.5
+        ],
+        "move": [
+          0,
+          0
+        ],
+        "progress": 1,
+        "target": 1,
+        "lamp": true
+      },
+      "documents": [
+        {
+          "id": "diploma",
+          "fit": {
+            "i": {
+              "x": 8.015625,
+              "y": 243.734375,
+              "width": 373.96875,
+              "height": 258.515625
+            },
+            "v": {
+              "x": 8,
+              "y": 80,
+              "width": 374,
+              "height": 586
+            }
+          },
+          "animationDurations": [],
+          "heldRenderDelta": 0
+        },
+        {
+          "id": "hackalem",
+          "fit": {
+            "i": {
+              "x": 8,
+              "y": 228.546875,
+              "width": 373.984375,
+              "height": 288.90625
+            },
+            "v": {
+              "x": 8,
+              "y": 80,
+              "width": 374,
+              "height": 586
+            }
+          },
+          "animationDurations": [],
+          "heldRenderDelta": 0
+        },
+        {
+          "id": "certificate",
+          "fit": {
+            "i": {
+              "x": 8,
+              "y": 233.125,
+              "width": 373.984375,
+              "height": 279.75
+            },
+            "v": {
+              "x": 8,
+              "y": 80,
+              "width": 374,
+              "height": 586
+            }
+          },
+          "animationDurations": [],
+          "heldRenderDelta": 0
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "room-desktop-ru-no-preference",
+      "initial": {
+        "camera": [
+          0.8499999999999831,
+          1.040000000000047,
+          -0.3399999999998454
+        ],
+        "look": [
+          0,
+          0.5
+        ],
+        "move": [
+          0,
+          0
+        ],
+        "progress": 1,
+        "target": 1,
+        "lamp": false
+      },
+      "documents": [
+        {
+          "id": "diploma",
+          "fit": {
+            "i": {
+              "x": 236.8125,
+              "y": 88,
+              "width": 966.359375,
+              "height": 668
+            },
+            "v": {
+              "x": 120,
+              "y": 88,
+              "width": 1200,
+              "height": 668
+            }
+          },
+          "animationDurations": [
+            240
+          ],
+          "heldRenderDelta": 0
+        },
+        {
+          "id": "hackalem",
+          "fit": {
+            "i": {
+              "x": 287.640625,
+              "y": 88,
+              "width": 864.71875,
+              "height": 668
+            },
+            "v": {
+              "x": 120,
+              "y": 88,
+              "width": 1200,
+              "height": 668
+            }
+          },
+          "animationDurations": [
+            240
+          ],
+          "heldRenderDelta": 0
+        },
+        {
+          "id": "certificate",
+          "fit": {
+            "i": {
+              "x": 273.484375,
+              "y": 88,
+              "width": 893.03125,
+              "height": 668
+            },
+            "v": {
+              "x": 120,
+              "y": 88,
+              "width": 1200,
+              "height": 668
+            }
+          },
+          "animationDurations": [
+            240
+          ],
+          "heldRenderDelta": 0
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "room-touch-ru-no-preference",
+      "initial": {
+        "camera": [
+          -0.5499999999999662,
+          1.0500000000000131,
+          -0.3399999999999515
+        ],
+        "look": [
+          0,
+          0.5
+        ],
+        "move": [
+          0,
+          0
+        ],
+        "progress": 1,
+        "target": 1,
+        "lamp": false
+      },
+      "documents": [
+        {
+          "id": "diploma",
+          "fit": {
+            "i": {
+              "x": 8.015625,
+              "y": 254.234375,
+              "width": 373.96875,
+              "height": 258.515625
+            },
+            "v": {
+              "x": 8,
+              "y": 80,
+              "width": 374,
+              "height": 607
+            }
+          },
+          "animationDurations": [
+            240
+          ],
+          "heldRenderDelta": 0
+        },
+        {
+          "id": "hackalem",
+          "fit": {
+            "i": {
+              "x": 8,
+              "y": 228.546875,
+              "width": 373.984375,
+              "height": 288.90625
+            },
+            "v": {
+              "x": 8,
+              "y": 80,
+              "width": 374,
+              "height": 586
+            }
+          },
+          "animationDurations": [
+            240
+          ],
+          "heldRenderDelta": 0
+        },
+        {
+          "id": "certificate",
+          "fit": {
+            "i": {
+              "x": 8,
+              "y": 233.125,
+              "width": 373.984375,
+              "height": 279.75
+            },
+            "v": {
+              "x": 8,
+              "y": 80,
+              "width": 374,
+              "height": 586
+            }
+          },
+          "animationDurations": [
+            240
+          ],
+          "heldRenderDelta": 0
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "negative": [
+    {
+      "kind": "pending-close",
+      "errors": []
+    },
+    {
+      "kind": "image-failure",
+      "errors": []
+    },
+    {
+      "kind": "resize",
+      "errors": []
+    },
+    {
+      "kind": "context-loss",
+      "errors": []
+    }
+  ],
+  "passed": true
+}
