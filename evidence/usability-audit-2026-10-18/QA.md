@@ -68,4 +68,10 @@ Initial navigation captures can precede asynchronous content: one Keyform landin
 
 Edge touch emulation is not physical Android or Safari. Those and screen-reader testing remain deferred. No performance speedup is claimed for this input fix; render/camera/resolution code is unchanged. The existing native Edge kinetic-scroll behavior can consume a tap to stop a fling; toolbar closure is checked after actual scroll quiescence. The controlled task driver is not evidence of human search time or comprehension.
 
-LIVE_VERIFICATION_PENDING
+## Verified live publication
+
+Functional commit [c311b9103c1516d7b953bf6f914fe84f2ddd8d9f](https://github.com/MOYISEY/bakhtiyar-zikirin/commit/c311b9103c1516d7b953bf6f914fe84f2ddd8d9f) deployed with [successful exact-head Pages run](https://github.com/MOYISEY/bakhtiyar-zikirin/actions/runs/39177865624). All78 bare/cache-busted file responses match Git. [Receipt](live/deployment-functional.json).
+
+[Post-deployment suites](live/verification/verification.json) passed: allfour edge profiles (156 assertions), two directed HR/developer profiles (92 recorded assertions), four cold navigations and two audits of14 decoded models. The full12-profile real-site matrix is the baseline audit; this live task subset is explicitly two profiles. Cold live has zero JS/HTTP/requestfailed errors and all startup phases ready. [Cold receipt](live/cold/smoke.json); [viewed live originals](live/visual-reviewed.json).
+
+The following QA-only commit preserves docs tree ce8905fe094f6681f9b480fd01299a9e74045b91; its exact Pages head and live-file receipt are verified after publication and kept outside the self-referential commit.

@@ -1,0 +1,56 @@
+{
+  "sha": "c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+  "base": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "jobs": [
+    {
+      "name": "edges",
+      "script": "scripts/qa-room-wall-document-edges.cjs",
+      "args": [
+        "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "live"
+      ],
+      "scriptSha": "23d6cbc4951416cf138b432ed2f7f598c287d657b4d6c67a83f1a6f6d6a32991",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 238111,
+      "log": "edges-1.log"
+    },
+    {
+      "name": "journeys",
+      "script": "scripts/qa-portfolio-usability.cjs",
+      "args": [
+        "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "live",
+        "--pilot"
+      ],
+      "scriptSha": "eb106d9466206b2cc262967dd07f46ac7a86c0f295f685f14f224a7d45104f90",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 48681,
+      "log": "journeys-1.log"
+    },
+    {
+      "name": "cold",
+      "script": "C:\\Users\\aldia\\Documents\\Codex\\2026-10-15\\task-2\\usability-audit-2026-10-18/live-cold.cjs",
+      "args": [],
+      "scriptSha": "7089d2924481afca078eccf6cadd22b0c6a59955e2954842665aa1346a02eb7c",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 27992,
+      "log": "cold-1.log"
+    },
+    {
+      "name": "models",
+      "script": "C:\\Users\\aldia\\Documents\\Codex\\2026-10-15\\task-2\\usability-audit-2026-10-18/model-audit.cjs",
+      "args": [
+        "https://moyisey.github.io/bakhtiyar-zikirin/"
+      ],
+      "scriptSha": "03d605265c413ae6e444e1ab41c6cf6931154885ba7bdf42f252583a60128fb6",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 11907,
+      "log": "models-1.log"
+    }
+  ],
+  "passed": true
+}

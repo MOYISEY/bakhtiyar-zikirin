@@ -1,0 +1,719 @@
+{
+  "sha": "c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+  "root": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "at": "2026-10-18T23:46:27.306Z",
+  "expected": {
+    "index.html": "29c96cc5d682fac47254c614090d5a4a747a91d91f7c9303942292de226eb668",
+    "projects/index.html": "d6c85cd42fd6855ce70edce0914d2ccfa49d990ed79308b104b028b9c74b145f",
+    "room/index.html": "e89fd29119cfb9f30124b52cfc61adba4806d522e4bb7ada0e2f132857992e45",
+    "room/main.js": "28e0a47645c633a1856572276de323b9835a8ef224243cf7c64c74d448678698",
+    "room/world.js": "4df199f5c7704ce2282cd9a999943ccc8a1f6f0cca024dc1675f0ba303c415f8",
+    "room/ui.js": "c5015bd767636850592cee1ab204f8c096cd615ce2c72aec066c3195b60d281e",
+    "room/boot.js": "41d4ff057d3185d88e7016349cbc4a72b44e33d67a22237375b77f2497ce17f5",
+    "room/style.css": "525989a222ebbcd8dcec07844b0c70afb22fc862cbd104d7b6eb40e6f651a925",
+    "room/document-actions.js": "5438d1db0111f6c36fb102ef4f53f23b9576f206f7ce5d0bdaed7a322090bde9",
+    "room/documents-data.js": "88788ad6dffd000b68e81978ce51fab8cb1e9a667ec6680c0d30c90715fee73e",
+    "room/profile-data.js": "b54de4cd2be62b08ffef13fb906125b8ba1f871865f19e8456f5139955c8225e",
+    "room/collection-viewer.js": "13ae69e049a58bac022b323b6fa4e9702d7d620b08f58620d422ffc24c00deec",
+    "room/cabinet-scene.js": "faba0347aa4e622fd6b682802dfc1425ce829bcf01501856ec7b272918e2d991",
+    "room/cabinet-doors.js": "338ee6f47d40777e978aab9aae6a6dc38ba0aca24bbe72921abc89b3580eefb6",
+    "room/stream-manifest.js": "45d3b3d77fcaea8d4ba0fb05b66d0143ba6f8fdac39b752fdbc03e13c5ca8a37",
+    "files/education/hackalem-2026-public.png": "f0152ea62277efed03af52d85a72bcffc3f21d85c7d2a9ccbf9594d223e0a9aa",
+    "files/education/hackalem-2026-preview.png": "fe324b5c8155e18f83503814317d32a5657b3113069f7fdb71864233549f0a4c",
+    "files/education/hackalem-2026-provenance.json": "c37d8c8dfbb9393782baa5f2e1f613f15ad81c139a3de6f8d88fbe0b04cccc9c",
+    "files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf": "dee574b43b52d0ff4fa891d889826038117c8275f255e2f5efd597944b502d75",
+    "asset-history.json": "547bea497264954e6e1607887e0c1fa7541bc64362ede77d2ab1015821702f59",
+    "assets/main-BigPCy7T.css": "2820f852251736465a8c8cc4f560cc97036b4eea62f39a5d87869ad0da84f4dc",
+    "assets/main-CVIEnzjX.js": "7623952bce5e7f3d1a02371780d7263f3908a4c845ae374bd2b027386775509d",
+    "assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2": "268f03691b3d06e57abcf20f9277e314ea8784298983aab5b40c1b91965027e1",
+    "assets/onest-cyrillic-wght-normal-DayYxulF.woff2": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27",
+    "assets/onest-latin-ext-wght-normal-QAhDxQuo.woff2": "14e7d3079b75860e2ab50efc6c318c398fdb46ede9b56e625f12ae70a3c5d9a4",
+    "assets/onest-latin-wght-normal-Dun_Rd-l.woff2": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828",
+    "assets/onest-math-wght-normal-Bl4ZGkZl.woff2": "c74952a8c0c8c558c4f879f83773cf529d11350609f7073f5b2c5999dec46041",
+    "assets/onest-symbols-wght-normal-DxQzqQfC.woff2": "2ec2d45d2ec0770e2c18cba2dba5126cf2dcff181d23ad192e9fffeb4af4b0b6",
+    "assets/onest-vietnamese-wght-normal-BBxOatbv.woff2": "d852d4d094a3a46d701d16245deb7ca83b16b5bd69e20aa0aba089392ad69474",
+    "assets/preferences-B0BSF3Yj.js": "31f918bb52977de3fcd7292bb46278808792055d788ba7ab794b5dde9e02dd9c",
+    "assets/rowline-sample-BI7SVVNe.js": "ae49b9b558b6fcd134b1f403a5bee93c43674a3f97e487cfe7a2f4c9fe45e528",
+    "assets/scene-controls-BW5paW9X.js": "a3d3db2b4b55185bbeb0bbb2023a9a5729cda87aec54eae78ba12398fbbdd6de",
+    "assets/scene-o7NQ45Qf.js": "caea428260230ac2e21f4cd9534d1bcae4d9df1a0b91d681323c941ea852600d",
+    "assets/main-3tdpkXWC.css": "14e4db939b5cedaead605d6b44322cb6afe8d826d3b804dde44c8473202343a5",
+    "assets/main-unXHqBXH.js": "1a19ec6069e8b46ccb068e91e5629cc55fe56187393df238eb7f442009353d07",
+    "assets/preferences-CHq1VbOY.js": "3a2436e7d6293da91c41c9d578b78432bc03ff496f8b86530279c90104d2c166",
+    "assets/rowline-sample-DEtWqDir.js": "8a1d015e2ef25637edd5317aa4aaaa113deb857e39d084ce160468232912271e",
+    "assets/scene-B37fPkwm.js": "89451698aa1b2948dc421faaa7ac424aa67db4622431d6f5242b8ea1a9087035",
+    "assets/scene-controls-CcVcg95J.js": "cd08b3074c58db152c856c735dcf5574148f96deb515c2a5f0e83b3584c0289a"
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "at": "2026-10-18T23:46:29.762Z",
+      "apiStatus": 200,
+      "run": {
+        "id": 39177865624,
+        "sha": "c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+        "status": "in_progress",
+        "conclusion": null,
+        "url": "https://github.com/MOYISEY/bakhtiyar-zikirin/actions/runs/39177865624"
+      }
+    },
+    {
+      "attempt": 2,
+      "at": "2026-10-18T23:47:00.069Z",
+      "apiStatus": 200,
+      "run": {
+        "id": 39177865624,
+        "sha": "c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+        "status": "in_progress",
+        "conclusion": null,
+        "url": "https://github.com/MOYISEY/bakhtiyar-zikirin/actions/runs/39177865624"
+      }
+    },
+    {
+      "attempt": 3,
+      "at": "2026-10-18T23:47:30.393Z",
+      "apiStatus": 200,
+      "run": {
+        "id": 39177865624,
+        "sha": "c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/MOYISEY/bakhtiyar-zikirin/actions/runs/39177865624"
+      }
+    }
+  ],
+  "passed": true,
+  "run": {
+    "id": 39177865624,
+    "sha": "c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/MOYISEY/bakhtiyar-zikirin/actions/runs/39177865624"
+  },
+  "files": [
+    {
+      "name": "index.html",
+      "suffix": "",
+      "status": 200,
+      "expected": "29c96cc5d682fac47254c614090d5a4a747a91d91f7c9303942292de226eb668",
+      "actual": "29c96cc5d682fac47254c614090d5a4a747a91d91f7c9303942292de226eb668",
+      "matches": true
+    },
+    {
+      "name": "index.html",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "29c96cc5d682fac47254c614090d5a4a747a91d91f7c9303942292de226eb668",
+      "actual": "29c96cc5d682fac47254c614090d5a4a747a91d91f7c9303942292de226eb668",
+      "matches": true
+    },
+    {
+      "name": "projects/index.html",
+      "suffix": "",
+      "status": 200,
+      "expected": "d6c85cd42fd6855ce70edce0914d2ccfa49d990ed79308b104b028b9c74b145f",
+      "actual": "d6c85cd42fd6855ce70edce0914d2ccfa49d990ed79308b104b028b9c74b145f",
+      "matches": true
+    },
+    {
+      "name": "projects/index.html",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "d6c85cd42fd6855ce70edce0914d2ccfa49d990ed79308b104b028b9c74b145f",
+      "actual": "d6c85cd42fd6855ce70edce0914d2ccfa49d990ed79308b104b028b9c74b145f",
+      "matches": true
+    },
+    {
+      "name": "room/index.html",
+      "suffix": "",
+      "status": 200,
+      "expected": "e89fd29119cfb9f30124b52cfc61adba4806d522e4bb7ada0e2f132857992e45",
+      "actual": "e89fd29119cfb9f30124b52cfc61adba4806d522e4bb7ada0e2f132857992e45",
+      "matches": true
+    },
+    {
+      "name": "room/index.html",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "e89fd29119cfb9f30124b52cfc61adba4806d522e4bb7ada0e2f132857992e45",
+      "actual": "e89fd29119cfb9f30124b52cfc61adba4806d522e4bb7ada0e2f132857992e45",
+      "matches": true
+    },
+    {
+      "name": "room/main.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "28e0a47645c633a1856572276de323b9835a8ef224243cf7c64c74d448678698",
+      "actual": "28e0a47645c633a1856572276de323b9835a8ef224243cf7c64c74d448678698",
+      "matches": true
+    },
+    {
+      "name": "room/main.js",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "28e0a47645c633a1856572276de323b9835a8ef224243cf7c64c74d448678698",
+      "actual": "28e0a47645c633a1856572276de323b9835a8ef224243cf7c64c74d448678698",
+      "matches": true
+    },
+    {
+      "name": "room/world.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "4df199f5c7704ce2282cd9a999943ccc8a1f6f0cca024dc1675f0ba303c415f8",
+      "actual": "4df199f5c7704ce2282cd9a999943ccc8a1f6f0cca024dc1675f0ba303c415f8",
+      "matches": true
+    },
+    {
+      "name": "room/world.js",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "4df199f5c7704ce2282cd9a999943ccc8a1f6f0cca024dc1675f0ba303c415f8",
+      "actual": "4df199f5c7704ce2282cd9a999943ccc8a1f6f0cca024dc1675f0ba303c415f8",
+      "matches": true
+    },
+    {
+      "name": "room/ui.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "c5015bd767636850592cee1ab204f8c096cd615ce2c72aec066c3195b60d281e",
+      "actual": "c5015bd767636850592cee1ab204f8c096cd615ce2c72aec066c3195b60d281e",
+      "matches": true
+    },
+    {
+      "name": "room/ui.js",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "c5015bd767636850592cee1ab204f8c096cd615ce2c72aec066c3195b60d281e",
+      "actual": "c5015bd767636850592cee1ab204f8c096cd615ce2c72aec066c3195b60d281e",
+      "matches": true
+    },
+    {
+      "name": "room/boot.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "41d4ff057d3185d88e7016349cbc4a72b44e33d67a22237375b77f2497ce17f5",
+      "actual": "41d4ff057d3185d88e7016349cbc4a72b44e33d67a22237375b77f2497ce17f5",
+      "matches": true
+    },
+    {
+      "name": "room/boot.js",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "41d4ff057d3185d88e7016349cbc4a72b44e33d67a22237375b77f2497ce17f5",
+      "actual": "41d4ff057d3185d88e7016349cbc4a72b44e33d67a22237375b77f2497ce17f5",
+      "matches": true
+    },
+    {
+      "name": "room/style.css",
+      "suffix": "",
+      "status": 200,
+      "expected": "525989a222ebbcd8dcec07844b0c70afb22fc862cbd104d7b6eb40e6f651a925",
+      "actual": "525989a222ebbcd8dcec07844b0c70afb22fc862cbd104d7b6eb40e6f651a925",
+      "matches": true
+    },
+    {
+      "name": "room/style.css",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "525989a222ebbcd8dcec07844b0c70afb22fc862cbd104d7b6eb40e6f651a925",
+      "actual": "525989a222ebbcd8dcec07844b0c70afb22fc862cbd104d7b6eb40e6f651a925",
+      "matches": true
+    },
+    {
+      "name": "room/document-actions.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "5438d1db0111f6c36fb102ef4f53f23b9576f206f7ce5d0bdaed7a322090bde9",
+      "actual": "5438d1db0111f6c36fb102ef4f53f23b9576f206f7ce5d0bdaed7a322090bde9",
+      "matches": true
+    },
+    {
+      "name": "room/document-actions.js",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "5438d1db0111f6c36fb102ef4f53f23b9576f206f7ce5d0bdaed7a322090bde9",
+      "actual": "5438d1db0111f6c36fb102ef4f53f23b9576f206f7ce5d0bdaed7a322090bde9",
+      "matches": true
+    },
+    {
+      "name": "room/documents-data.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "88788ad6dffd000b68e81978ce51fab8cb1e9a667ec6680c0d30c90715fee73e",
+      "actual": "88788ad6dffd000b68e81978ce51fab8cb1e9a667ec6680c0d30c90715fee73e",
+      "matches": true
+    },
+    {
+      "name": "room/documents-data.js",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "88788ad6dffd000b68e81978ce51fab8cb1e9a667ec6680c0d30c90715fee73e",
+      "actual": "88788ad6dffd000b68e81978ce51fab8cb1e9a667ec6680c0d30c90715fee73e",
+      "matches": true
+    },
+    {
+      "name": "room/profile-data.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "b54de4cd2be62b08ffef13fb906125b8ba1f871865f19e8456f5139955c8225e",
+      "actual": "b54de4cd2be62b08ffef13fb906125b8ba1f871865f19e8456f5139955c8225e",
+      "matches": true
+    },
+    {
+      "name": "room/profile-data.js",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "b54de4cd2be62b08ffef13fb906125b8ba1f871865f19e8456f5139955c8225e",
+      "actual": "b54de4cd2be62b08ffef13fb906125b8ba1f871865f19e8456f5139955c8225e",
+      "matches": true
+    },
+    {
+      "name": "room/collection-viewer.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "13ae69e049a58bac022b323b6fa4e9702d7d620b08f58620d422ffc24c00deec",
+      "actual": "13ae69e049a58bac022b323b6fa4e9702d7d620b08f58620d422ffc24c00deec",
+      "matches": true
+    },
+    {
+      "name": "room/collection-viewer.js",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "13ae69e049a58bac022b323b6fa4e9702d7d620b08f58620d422ffc24c00deec",
+      "actual": "13ae69e049a58bac022b323b6fa4e9702d7d620b08f58620d422ffc24c00deec",
+      "matches": true
+    },
+    {
+      "name": "room/cabinet-scene.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "faba0347aa4e622fd6b682802dfc1425ce829bcf01501856ec7b272918e2d991",
+      "actual": "faba0347aa4e622fd6b682802dfc1425ce829bcf01501856ec7b272918e2d991",
+      "matches": true
+    },
+    {
+      "name": "room/cabinet-scene.js",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "faba0347aa4e622fd6b682802dfc1425ce829bcf01501856ec7b272918e2d991",
+      "actual": "faba0347aa4e622fd6b682802dfc1425ce829bcf01501856ec7b272918e2d991",
+      "matches": true
+    },
+    {
+      "name": "room/cabinet-doors.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "338ee6f47d40777e978aab9aae6a6dc38ba0aca24bbe72921abc89b3580eefb6",
+      "actual": "338ee6f47d40777e978aab9aae6a6dc38ba0aca24bbe72921abc89b3580eefb6",
+      "matches": true
+    },
+    {
+      "name": "room/cabinet-doors.js",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "338ee6f47d40777e978aab9aae6a6dc38ba0aca24bbe72921abc89b3580eefb6",
+      "actual": "338ee6f47d40777e978aab9aae6a6dc38ba0aca24bbe72921abc89b3580eefb6",
+      "matches": true
+    },
+    {
+      "name": "room/stream-manifest.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "45d3b3d77fcaea8d4ba0fb05b66d0143ba6f8fdac39b752fdbc03e13c5ca8a37",
+      "actual": "45d3b3d77fcaea8d4ba0fb05b66d0143ba6f8fdac39b752fdbc03e13c5ca8a37",
+      "matches": true
+    },
+    {
+      "name": "room/stream-manifest.js",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "45d3b3d77fcaea8d4ba0fb05b66d0143ba6f8fdac39b752fdbc03e13c5ca8a37",
+      "actual": "45d3b3d77fcaea8d4ba0fb05b66d0143ba6f8fdac39b752fdbc03e13c5ca8a37",
+      "matches": true
+    },
+    {
+      "name": "files/education/hackalem-2026-public.png",
+      "suffix": "",
+      "status": 200,
+      "expected": "f0152ea62277efed03af52d85a72bcffc3f21d85c7d2a9ccbf9594d223e0a9aa",
+      "actual": "f0152ea62277efed03af52d85a72bcffc3f21d85c7d2a9ccbf9594d223e0a9aa",
+      "matches": true
+    },
+    {
+      "name": "files/education/hackalem-2026-public.png",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "f0152ea62277efed03af52d85a72bcffc3f21d85c7d2a9ccbf9594d223e0a9aa",
+      "actual": "f0152ea62277efed03af52d85a72bcffc3f21d85c7d2a9ccbf9594d223e0a9aa",
+      "matches": true
+    },
+    {
+      "name": "files/education/hackalem-2026-preview.png",
+      "suffix": "",
+      "status": 200,
+      "expected": "fe324b5c8155e18f83503814317d32a5657b3113069f7fdb71864233549f0a4c",
+      "actual": "fe324b5c8155e18f83503814317d32a5657b3113069f7fdb71864233549f0a4c",
+      "matches": true
+    },
+    {
+      "name": "files/education/hackalem-2026-preview.png",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "fe324b5c8155e18f83503814317d32a5657b3113069f7fdb71864233549f0a4c",
+      "actual": "fe324b5c8155e18f83503814317d32a5657b3113069f7fdb71864233549f0a4c",
+      "matches": true
+    },
+    {
+      "name": "files/education/hackalem-2026-provenance.json",
+      "suffix": "",
+      "status": 200,
+      "expected": "c37d8c8dfbb9393782baa5f2e1f613f15ad81c139a3de6f8d88fbe0b04cccc9c",
+      "actual": "c37d8c8dfbb9393782baa5f2e1f613f15ad81c139a3de6f8d88fbe0b04cccc9c",
+      "matches": true
+    },
+    {
+      "name": "files/education/hackalem-2026-provenance.json",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "c37d8c8dfbb9393782baa5f2e1f613f15ad81c139a3de6f8d88fbe0b04cccc9c",
+      "actual": "c37d8c8dfbb9393782baa5f2e1f613f15ad81c139a3de6f8d88fbe0b04cccc9c",
+      "matches": true
+    },
+    {
+      "name": "files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf",
+      "suffix": "",
+      "status": 200,
+      "expected": "dee574b43b52d0ff4fa891d889826038117c8275f255e2f5efd597944b502d75",
+      "actual": "dee574b43b52d0ff4fa891d889826038117c8275f255e2f5efd597944b502d75",
+      "matches": true
+    },
+    {
+      "name": "files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "dee574b43b52d0ff4fa891d889826038117c8275f255e2f5efd597944b502d75",
+      "actual": "dee574b43b52d0ff4fa891d889826038117c8275f255e2f5efd597944b502d75",
+      "matches": true
+    },
+    {
+      "name": "asset-history.json",
+      "suffix": "",
+      "status": 200,
+      "expected": "547bea497264954e6e1607887e0c1fa7541bc64362ede77d2ab1015821702f59",
+      "actual": "547bea497264954e6e1607887e0c1fa7541bc64362ede77d2ab1015821702f59",
+      "matches": true
+    },
+    {
+      "name": "asset-history.json",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "547bea497264954e6e1607887e0c1fa7541bc64362ede77d2ab1015821702f59",
+      "actual": "547bea497264954e6e1607887e0c1fa7541bc64362ede77d2ab1015821702f59",
+      "matches": true
+    },
+    {
+      "name": "assets/main-BigPCy7T.css",
+      "suffix": "",
+      "status": 200,
+      "expected": "2820f852251736465a8c8cc4f560cc97036b4eea62f39a5d87869ad0da84f4dc",
+      "actual": "2820f852251736465a8c8cc4f560cc97036b4eea62f39a5d87869ad0da84f4dc",
+      "matches": true
+    },
+    {
+      "name": "assets/main-BigPCy7T.css",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "2820f852251736465a8c8cc4f560cc97036b4eea62f39a5d87869ad0da84f4dc",
+      "actual": "2820f852251736465a8c8cc4f560cc97036b4eea62f39a5d87869ad0da84f4dc",
+      "matches": true
+    },
+    {
+      "name": "assets/main-CVIEnzjX.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "7623952bce5e7f3d1a02371780d7263f3908a4c845ae374bd2b027386775509d",
+      "actual": "7623952bce5e7f3d1a02371780d7263f3908a4c845ae374bd2b027386775509d",
+      "matches": true
+    },
+    {
+      "name": "assets/main-CVIEnzjX.js",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "7623952bce5e7f3d1a02371780d7263f3908a4c845ae374bd2b027386775509d",
+      "actual": "7623952bce5e7f3d1a02371780d7263f3908a4c845ae374bd2b027386775509d",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2",
+      "suffix": "",
+      "status": 200,
+      "expected": "268f03691b3d06e57abcf20f9277e314ea8784298983aab5b40c1b91965027e1",
+      "actual": "268f03691b3d06e57abcf20f9277e314ea8784298983aab5b40c1b91965027e1",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "268f03691b3d06e57abcf20f9277e314ea8784298983aab5b40c1b91965027e1",
+      "actual": "268f03691b3d06e57abcf20f9277e314ea8784298983aab5b40c1b91965027e1",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+      "suffix": "",
+      "status": 200,
+      "expected": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27",
+      "actual": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27",
+      "actual": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-latin-ext-wght-normal-QAhDxQuo.woff2",
+      "suffix": "",
+      "status": 200,
+      "expected": "14e7d3079b75860e2ab50efc6c318c398fdb46ede9b56e625f12ae70a3c5d9a4",
+      "actual": "14e7d3079b75860e2ab50efc6c318c398fdb46ede9b56e625f12ae70a3c5d9a4",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-latin-ext-wght-normal-QAhDxQuo.woff2",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "14e7d3079b75860e2ab50efc6c318c398fdb46ede9b56e625f12ae70a3c5d9a4",
+      "actual": "14e7d3079b75860e2ab50efc6c318c398fdb46ede9b56e625f12ae70a3c5d9a4",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+      "suffix": "",
+      "status": 200,
+      "expected": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828",
+      "actual": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828",
+      "actual": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-math-wght-normal-Bl4ZGkZl.woff2",
+      "suffix": "",
+      "status": 200,
+      "expected": "c74952a8c0c8c558c4f879f83773cf529d11350609f7073f5b2c5999dec46041",
+      "actual": "c74952a8c0c8c558c4f879f83773cf529d11350609f7073f5b2c5999dec46041",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-math-wght-normal-Bl4ZGkZl.woff2",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "c74952a8c0c8c558c4f879f83773cf529d11350609f7073f5b2c5999dec46041",
+      "actual": "c74952a8c0c8c558c4f879f83773cf529d11350609f7073f5b2c5999dec46041",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+      "suffix": "",
+      "status": 200,
+      "expected": "2ec2d45d2ec0770e2c18cba2dba5126cf2dcff181d23ad192e9fffeb4af4b0b6",
+      "actual": "2ec2d45d2ec0770e2c18cba2dba5126cf2dcff181d23ad192e9fffeb4af4b0b6",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "2ec2d45d2ec0770e2c18cba2dba5126cf2dcff181d23ad192e9fffeb4af4b0b6",
+      "actual": "2ec2d45d2ec0770e2c18cba2dba5126cf2dcff181d23ad192e9fffeb4af4b0b6",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-vietnamese-wght-normal-BBxOatbv.woff2",
+      "suffix": "",
+      "status": 200,
+      "expected": "d852d4d094a3a46d701d16245deb7ca83b16b5bd69e20aa0aba089392ad69474",
+      "actual": "d852d4d094a3a46d701d16245deb7ca83b16b5bd69e20aa0aba089392ad69474",
+      "matches": true
+    },
+    {
+      "name": "assets/onest-vietnamese-wght-normal-BBxOatbv.woff2",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "d852d4d094a3a46d701d16245deb7ca83b16b5bd69e20aa0aba089392ad69474",
+      "actual": "d852d4d094a3a46d701d16245deb7ca83b16b5bd69e20aa0aba089392ad69474",
+      "matches": true
+    },
+    {
+      "name": "assets/preferences-B0BSF3Yj.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "31f918bb52977de3fcd7292bb46278808792055d788ba7ab794b5dde9e02dd9c",
+      "actual": "31f918bb52977de3fcd7292bb46278808792055d788ba7ab794b5dde9e02dd9c",
+      "matches": true
+    },
+    {
+      "name": "assets/preferences-B0BSF3Yj.js",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "31f918bb52977de3fcd7292bb46278808792055d788ba7ab794b5dde9e02dd9c",
+      "actual": "31f918bb52977de3fcd7292bb46278808792055d788ba7ab794b5dde9e02dd9c",
+      "matches": true
+    },
+    {
+      "name": "assets/rowline-sample-BI7SVVNe.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "ae49b9b558b6fcd134b1f403a5bee93c43674a3f97e487cfe7a2f4c9fe45e528",
+      "actual": "ae49b9b558b6fcd134b1f403a5bee93c43674a3f97e487cfe7a2f4c9fe45e528",
+      "matches": true
+    },
+    {
+      "name": "assets/rowline-sample-BI7SVVNe.js",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "ae49b9b558b6fcd134b1f403a5bee93c43674a3f97e487cfe7a2f4c9fe45e528",
+      "actual": "ae49b9b558b6fcd134b1f403a5bee93c43674a3f97e487cfe7a2f4c9fe45e528",
+      "matches": true
+    },
+    {
+      "name": "assets/scene-controls-BW5paW9X.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "a3d3db2b4b55185bbeb0bbb2023a9a5729cda87aec54eae78ba12398fbbdd6de",
+      "actual": "a3d3db2b4b55185bbeb0bbb2023a9a5729cda87aec54eae78ba12398fbbdd6de",
+      "matches": true
+    },
+    {
+      "name": "assets/scene-controls-BW5paW9X.js",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "a3d3db2b4b55185bbeb0bbb2023a9a5729cda87aec54eae78ba12398fbbdd6de",
+      "actual": "a3d3db2b4b55185bbeb0bbb2023a9a5729cda87aec54eae78ba12398fbbdd6de",
+      "matches": true
+    },
+    {
+      "name": "assets/scene-o7NQ45Qf.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "caea428260230ac2e21f4cd9534d1bcae4d9df1a0b91d681323c941ea852600d",
+      "actual": "caea428260230ac2e21f4cd9534d1bcae4d9df1a0b91d681323c941ea852600d",
+      "matches": true
+    },
+    {
+      "name": "assets/scene-o7NQ45Qf.js",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "caea428260230ac2e21f4cd9534d1bcae4d9df1a0b91d681323c941ea852600d",
+      "actual": "caea428260230ac2e21f4cd9534d1bcae4d9df1a0b91d681323c941ea852600d",
+      "matches": true
+    },
+    {
+      "name": "assets/main-3tdpkXWC.css",
+      "suffix": "",
+      "status": 200,
+      "expected": "14e4db939b5cedaead605d6b44322cb6afe8d826d3b804dde44c8473202343a5",
+      "actual": "14e4db939b5cedaead605d6b44322cb6afe8d826d3b804dde44c8473202343a5",
+      "matches": true
+    },
+    {
+      "name": "assets/main-3tdpkXWC.css",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "14e4db939b5cedaead605d6b44322cb6afe8d826d3b804dde44c8473202343a5",
+      "actual": "14e4db939b5cedaead605d6b44322cb6afe8d826d3b804dde44c8473202343a5",
+      "matches": true
+    },
+    {
+      "name": "assets/main-unXHqBXH.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "1a19ec6069e8b46ccb068e91e5629cc55fe56187393df238eb7f442009353d07",
+      "actual": "1a19ec6069e8b46ccb068e91e5629cc55fe56187393df238eb7f442009353d07",
+      "matches": true
+    },
+    {
+      "name": "assets/main-unXHqBXH.js",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "1a19ec6069e8b46ccb068e91e5629cc55fe56187393df238eb7f442009353d07",
+      "actual": "1a19ec6069e8b46ccb068e91e5629cc55fe56187393df238eb7f442009353d07",
+      "matches": true
+    },
+    {
+      "name": "assets/preferences-CHq1VbOY.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "3a2436e7d6293da91c41c9d578b78432bc03ff496f8b86530279c90104d2c166",
+      "actual": "3a2436e7d6293da91c41c9d578b78432bc03ff496f8b86530279c90104d2c166",
+      "matches": true
+    },
+    {
+      "name": "assets/preferences-CHq1VbOY.js",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "3a2436e7d6293da91c41c9d578b78432bc03ff496f8b86530279c90104d2c166",
+      "actual": "3a2436e7d6293da91c41c9d578b78432bc03ff496f8b86530279c90104d2c166",
+      "matches": true
+    },
+    {
+      "name": "assets/rowline-sample-DEtWqDir.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "8a1d015e2ef25637edd5317aa4aaaa113deb857e39d084ce160468232912271e",
+      "actual": "8a1d015e2ef25637edd5317aa4aaaa113deb857e39d084ce160468232912271e",
+      "matches": true
+    },
+    {
+      "name": "assets/rowline-sample-DEtWqDir.js",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "8a1d015e2ef25637edd5317aa4aaaa113deb857e39d084ce160468232912271e",
+      "actual": "8a1d015e2ef25637edd5317aa4aaaa113deb857e39d084ce160468232912271e",
+      "matches": true
+    },
+    {
+      "name": "assets/scene-B37fPkwm.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "89451698aa1b2948dc421faaa7ac424aa67db4622431d6f5242b8ea1a9087035",
+      "actual": "89451698aa1b2948dc421faaa7ac424aa67db4622431d6f5242b8ea1a9087035",
+      "matches": true
+    },
+    {
+      "name": "assets/scene-B37fPkwm.js",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "89451698aa1b2948dc421faaa7ac424aa67db4622431d6f5242b8ea1a9087035",
+      "actual": "89451698aa1b2948dc421faaa7ac424aa67db4622431d6f5242b8ea1a9087035",
+      "matches": true
+    },
+    {
+      "name": "assets/scene-controls-CcVcg95J.js",
+      "suffix": "",
+      "status": 200,
+      "expected": "cd08b3074c58db152c856c735dcf5574148f96deb515c2a5f0e83b3584c0289a",
+      "actual": "cd08b3074c58db152c856c735dcf5574148f96deb515c2a5f0e83b3584c0289a",
+      "matches": true
+    },
+    {
+      "name": "assets/scene-controls-CcVcg95J.js",
+      "suffix": "?release=c311b9103c1516d7b953bf6f914fe84f2ddd8d9f",
+      "status": 200,
+      "expected": "cd08b3074c58db152c856c735dcf5574148f96deb515c2a5f0e83b3584c0289a",
+      "actual": "cd08b3074c58db152c856c735dcf5574148f96deb515c2a5f0e83b3584c0289a",
+      "matches": true
+    }
+  ],
+  "remote": "c311b9103c1516d7b953bf6f914fe84f2ddd8d9f"
+}

@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-18T23:43:11.245Z",
+  "at": "2026-10-18T23:55:23.880Z",
   "method": "Original bytes, -text evidence attributes; excludes this self-manifest.",
   "files": [
     {
@@ -523,6 +523,131 @@
       "sha256": "7be02088839fd8cacdd73d7eaff865914f6bf8e3d952fb0671268ac55d275e9c"
     },
     {
+      "path": "live/cold/desktop-corridor.png",
+      "bytes": 771979,
+      "sha256": "c37126848a2884c01897520ade3a5cb4a698b81dca04be892303c816f051ffe5"
+    },
+    {
+      "path": "live/cold/desktop-ordinary.png",
+      "bytes": 383718,
+      "sha256": "ed52773e16784150e5b12e517697b5460c3ba0240fd6d6217d93d3d427808b98"
+    },
+    {
+      "path": "live/cold/desktop-window.png",
+      "bytes": 849420,
+      "sha256": "782e6b861493269a0b38fa5d9bcf620a2dddf7aa5b1adb30817b3739502ec754"
+    },
+    {
+      "path": "live/cold/mobile-corridor.png",
+      "bytes": 446377,
+      "sha256": "b42745ed84c2b8dc71ff907715a168e653e4431a4678dba532099d27869f6320"
+    },
+    {
+      "path": "live/cold/mobile-ordinary.png",
+      "bytes": 100597,
+      "sha256": "e1556a0e5388d83bd1991bf2dff7f71580083bf509b434fa0b5e0aec617e6883"
+    },
+    {
+      "path": "live/cold/mobile-window.png",
+      "bytes": 727378,
+      "sha256": "0a81a4dd3226d9cfb3baf5a880bf142b1f528238c2d18a01cb30468ba03dd579"
+    },
+    {
+      "path": "live/cold/smoke.json",
+      "bytes": 69179,
+      "sha256": "980d469d7356ad124d9eb4da1ce1f104b5b1fb2e18c2c101dfab1e0580c7cc2e"
+    },
+    {
+      "path": "live/deployment-functional.json",
+      "bytes": 30420,
+      "sha256": "46f8f3367e321de93e73a4b4ae24b71b3b9fb18473b7cbd582e966c0622362e7"
+    },
+    {
+      "path": "live/edges.json",
+      "bytes": 50886,
+      "sha256": "b6439449ccc21f3f5c641d01dd1dee01ad40bc45ba031c877371b744e04c6adc"
+    },
+    {
+      "path": "live/journeys.json",
+      "bytes": 27582,
+      "sha256": "76c53f75b54d052214c99959acdf568561b821c8b53d8fb9c16523e99ec84fd0"
+    },
+    {
+      "path": "live/models.json",
+      "bytes": 27920,
+      "sha256": "959789231cd815c0cb22dd5dd0ad1ac82ed1560d2369303e1eb7c66aea412d51"
+    },
+    {
+      "path": "live/screenshots/desktop-reduce-diploma-before.png",
+      "bytes": 804906,
+      "sha256": "53c60817d9c284a429b9cf5f1d0b85a3da232207eef3cd5e36d63c1c8ef8683b"
+    },
+    {
+      "path": "live/screenshots/desktop-reduce-diploma-reader.png",
+      "bytes": 893362,
+      "sha256": "678d2a037dc64e47f5f77c7fd9534514c3852b269461bc50e268802302e3e6ff"
+    },
+    {
+      "path": "live/screenshots/keyboard-desktop-ru-light-hero.png",
+      "bytes": 379844,
+      "sha256": "1234a63f52952412e8520727c3558806d63939e77d759994e9c17e8474d6c8da"
+    },
+    {
+      "path": "live/screenshots/touch-kk-dark-education.png",
+      "bytes": 58436,
+      "sha256": "dcbd664dd5a05f4f10802518d731a91aafdb4499ab629c5c95d66428d7841edb"
+    },
+    {
+      "path": "live/screenshots/touch-kk-dark-room-case.png",
+      "bytes": 83607,
+      "sha256": "73f343478ea78ec60d306215a4bcbd6244c907efcafd0af27ff2885acb6b2173"
+    },
+    {
+      "path": "live/screenshots/touch-no-preference-certificate-before.png",
+      "bytes": 294789,
+      "sha256": "e3cc921bb89411f69d7cecc34acd6695bc2f9291d9169ff7e09d77efa34b9eb4"
+    },
+    {
+      "path": "live/screenshots/touch-no-preference-certificate-reader.png",
+      "bytes": 154957,
+      "sha256": "b10d7c2bf4139e604f5d37d06342b525e1cb53fbc5cf97c7e9096c7002f7f36f"
+    },
+    {
+      "path": "live/screenshots/touch-no-preference-projection-fallback.png",
+      "bytes": 161414,
+      "sha256": "310ef86dcf4e9465868682578c19df01bd703f0c05268ad32da432c8bd506c11"
+    },
+    {
+      "path": "live/verification/cold-1.log",
+      "bytes": 422,
+      "sha256": "62a13b6c1d7061fd7132c09996467f30517f92109ad49df39f25fccf2be6a272"
+    },
+    {
+      "path": "live/verification/edges-1.log",
+      "bytes": 129,
+      "sha256": "483ca23f4e69993989e527329c75c3e01602f1c47ec242d5c32cd5e096fde4ca"
+    },
+    {
+      "path": "live/verification/journeys-1.log",
+      "bytes": 91,
+      "sha256": "0d1389f45e88b6fe74d13dc594135c7f3cd96b81225229a48c48ecbde63d08fc"
+    },
+    {
+      "path": "live/verification/models-1.log",
+      "bytes": 183,
+      "sha256": "0f7b0d0c41c332a6847dd24e0afe8550ff8e3a935ec8461a29f1efd6420c0e6d"
+    },
+    {
+      "path": "live/verification/verification.json",
+      "bytes": 1666,
+      "sha256": "6912daf35571ec441682136fc0303d419ab973dd582fa15c3d9c72a57d6ac7db"
+    },
+    {
+      "path": "live/visual-reviewed.json",
+      "bytes": 1384,
+      "sha256": "27d7ec49e7306300a33dd9d5da11e1b791f1f529e403f0a1c5b973e77248bdf1"
+    },
+    {
       "path": "qa-script-provenance.json",
       "bytes": 10898,
       "sha256": "3adacd32ac6e80ec48c2a9b3a082319e85e2429189b7e51e61906d853b1bab7b"
@@ -773,6 +898,21 @@
       "sha256": "ce2cdb339e340e26d4c786ddbd04c50118eccb0bb8d7b9f63786727737a788b9"
     },
     {
+      "path": "qa-source/live-cold.cjs",
+      "bytes": 3244,
+      "sha256": "7089d2924481afca078eccf6cadd22b0c6a59955e2954842665aa1346a02eb7c"
+    },
+    {
+      "path": "qa-source/live-validation.cjs",
+      "bytes": 1668,
+      "sha256": "c64e6f1229ed9fb7350495f5f6b0ed0afed93c9397aa281b4ea7c5b5c70677c4"
+    },
+    {
+      "path": "qa-source/model-audit.cjs",
+      "bytes": 3016,
+      "sha256": "03d605265c413ae6e444e1ab41c6cf6931154885ba7bdf42f252583a60128fb6"
+    },
+    {
       "path": "qa-source/probe.cjs",
       "bytes": 2641,
       "sha256": "554718699877d1f23c1808246448b46a0f2fa6d8be36baf4bedf7e38f5be79bb"
@@ -1018,14 +1158,19 @@
       "sha256": "054a2caeebb4bf6213edfb8c979da7228478dcb84ae239da0fdb70fe3819cfb2"
     },
     {
+      "path": "qa-source/verify-deployment.cjs",
+      "bytes": 3267,
+      "sha256": "9b93234991d480285e74cbc1cfd64b4abff9e3f674c3e1615706287717fa91a5"
+    },
+    {
       "path": "qa-source/with-server.cjs",
       "bytes": 498,
       "sha256": "3e1e22da67a95124fae70975497e6bfc52f0d34b1f6b76c6665033318a31c4de"
     },
     {
       "path": "QA.md",
-      "bytes": 9252,
-      "sha256": "727e0718972164954e77910a5e1ac6c85f7db72e60624fec393ae6745fc39d99"
+      "bytes": 10344,
+      "sha256": "6ca9bf7d473d21428948e3b867f627151a16998b3db1d6ad2657caf546366d33"
     },
     {
       "path": "reader/checks.json",

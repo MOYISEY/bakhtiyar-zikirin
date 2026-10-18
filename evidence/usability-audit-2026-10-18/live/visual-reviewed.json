@@ -1,0 +1,37 @@
+{
+  "method": "Original live PNG pixels actually viewed; no edits or compositing.",
+  "frames": [
+    {
+      "path": "live/screenshots/desktop-reduce-diploma-before.png",
+      "sha256": "53c60817d9c284a429b9cf5f1d0b85a3da232207eef3cd5e36d63c1c8ef8683b"
+    },
+    {
+      "path": "live/screenshots/desktop-reduce-diploma-reader.png",
+      "sha256": "678d2a037dc64e47f5f77c7fd9534514c3852b269461bc50e268802302e3e6ff"
+    },
+    {
+      "path": "live/screenshots/touch-no-preference-certificate-before.png",
+      "sha256": "e3cc921bb89411f69d7cecc34acd6695bc2f9291d9169ff7e09d77efa34b9eb4"
+    },
+    {
+      "path": "live/screenshots/touch-no-preference-certificate-reader.png",
+      "sha256": "b10d7c2bf4139e604f5d37d06342b525e1cb53fbc5cf97c7e9096c7002f7f36f"
+    },
+    {
+      "path": "live/screenshots/keyboard-desktop-ru-light-hero.png",
+      "sha256": "1234a63f52952412e8520727c3558806d63939e77d759994e9c17e8474d6c8da"
+    },
+    {
+      "path": "live/screenshots/touch-kk-dark-education.png",
+      "sha256": "dcbd664dd5a05f4f10802518d731a91aafdb4499ab629c5c95d66428d7841edb"
+    },
+    {
+      "path": "live/cold/desktop-window.png",
+      "sha256": "782e6b861493269a0b38fa5d9bcf620a2dddf7aa5b1adb30817b3739502ec754"
+    },
+    {
+      "path": "live/cold/mobile-corridor.png",
+      "sha256": "b42745ed84c2b8dc71ff907715a168e653e4431a4678dba532099d27869f6320"
+    }
+  ]
+}
