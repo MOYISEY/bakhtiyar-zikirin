@@ -1,0 +1,37 @@
+{
+  "method": "Original live PNGs actually viewed with view_image; no edits.",
+  "frames": [
+    {
+      "path": "live/screenshots/desktop-ru-light-helio.png",
+      "sha256": "d1b5f17d6dcbd1fb343999120d96a720c9fe9c6409c2c5dfb5a11998ffdfd043"
+    },
+    {
+      "path": "live/screenshots/touch-kk-dark-rowline.png",
+      "sha256": "a2c3f7da5f990d12100bc12f9aca6d2943a54818afca527d51d61512bdbe9d17"
+    },
+    {
+      "path": "live/screenshots/room-touch-kk-reduce-diploma-fit.png",
+      "sha256": "ac1ca3a5a167ad50065cc9a86f20d1b7831192c98e500587bf96e79fa590a8a4"
+    },
+    {
+      "path": "live/screenshots/room-desktop-ru-no-preference-hackalem-fit.png",
+      "sha256": "2989ea8b6315f0443f84e1e5aead2c5013ab194fbc1beff89d07c05287b10741"
+    },
+    {
+      "path": "live/screenshots/desktop-ru-light-helio-case.png",
+      "sha256": "b22750565ecf84f5cfa4be388fb56bf36669e117689ec2becec1a61fb1025c1b"
+    },
+    {
+      "path": "live/touch/320x844-panned.png",
+      "sha256": "e7dc9ab913b7547a4829f127f051e0d2c62d734f34f538253be240179adae743"
+    },
+    {
+      "path": "live/cold/desktop-window.png",
+      "sha256": "e9996c7362e9bca54a8e49e3b2e50cbf86d85d589f20652eac979948f3a72bfa"
+    },
+    {
+      "path": "live/cold/mobile-corridor.png",
+      "sha256": "ab3e7e580574a650c0e676de077870d29d82ee2108d74915998bdb320f936468"
+    }
+  ]
+}

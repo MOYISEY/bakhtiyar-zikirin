@@ -1,0 +1,2594 @@
+{
+  "base": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "at": "2026-10-18T22:35:05.331Z",
+  "browser": "155.0.4283.62",
+  "runs": [
+    {
+      "mobile": false,
+      "room": false,
+      "errors": [],
+      "failed": [],
+      "http": [],
+      "lang": "ru",
+      "gpu": null,
+      "resources": [
+        {
+          "path": "/bakhtiyar-zikirin/assets/preferences-B0BSF3Yj.js",
+          "bytes": 36556,
+          "encoded": 36256,
+          "decoded": 118981
+        },
+        {
+          "path": "/bakhtiyar-zikirin/assets/main-CVIEnzjX.js",
+          "bytes": 4769,
+          "encoded": 4469,
+          "decoded": 12403
+        },
+        {
+          "path": "/bakhtiyar-zikirin/assets/main-BigPCy7T.css",
+          "bytes": 15885,
+          "encoded": 15585,
+          "decoded": 74798
+        },
+        {
+          "path": "/bakhtiyar-zikirin/projects/media/helio-detail-1-960.webp",
+          "bytes": 111848,
+          "encoded": 111548,
+          "decoded": 111548
+        },
+        {
+          "path": "/bakhtiyar-zikirin/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+          "bytes": 34060,
+          "encoded": 33760,
+          "decoded": 33760
+        },
+        {
+          "path": "/bakhtiyar-zikirin/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+          "bytes": 18468,
+          "encoded": 18168,
+          "decoded": 18168
+        },
+        {
+          "path": "/bakhtiyar-zikirin/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+          "bytes": 16160,
+          "encoded": 15860,
+          "decoded": 15860
+        },
+        {
+          "path": "/bakhtiyar-zikirin/assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2",
+          "bytes": 10840,
+          "encoded": 10540,
+          "decoded": 10540
+        },
+        {
+          "path": "/bakhtiyar-zikirin/assets/scene-controls-BW5paW9X.js",
+          "bytes": 1395,
+          "encoded": 1095,
+          "decoded": 2687
+        },
+        {
+          "path": "/bakhtiyar-zikirin/favicon.svg",
+          "bytes": 572,
+          "encoded": 272,
+          "decoded": 387
+        }
+      ]
+    },
+    {
+      "mobile": false,
+      "room": true,
+      "errors": [],
+      "failed": [],
+      "http": [],
+      "lang": "ru",
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "state": {
+        "firstFrameAt": 3666.2999999998137,
+        "fullSceneAt": 7521,
+        "shadowUpdates": 236,
+        "cachedShadowFrames": 8,
+        "cabinetVelocity": 0,
+        "doorNear": false,
+        "doorStopProgress": 0.4383676052093506,
+        "doorOpenAngle": 1.54,
+        "doorPassAngle": 1.48,
+        "window": {
+          "loaded": true,
+          "meshes": [
+            {
+              "uv2": true,
+              "material": "Powder_coat_warm_ivory",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "EPDM_seal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Brushed_handle",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Honed_limestone_sill",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Painted_wall_fern",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Warm_lime_reveal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            }
+          ],
+          "liveLamp": 14
+        },
+        "lighting": {
+          "closedCorridorEnd": true,
+          "ceilingPanels": 4,
+          "corridorLights": [
+            {
+              "position": [
+                0,
+                2.94,
+                4.5
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                7.9
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                10.5
+              ],
+              "intensity": 20
+            }
+          ],
+          "taskLight": {
+            "position": [
+              1.075,
+              1.4961344953536986,
+              -1.7688409498631954
+            ],
+            "intensity": 14,
+            "shadowBias": -0.0003,
+            "normalBias": 0.01
+          },
+          "environmentIntensity": 0.24,
+          "fill": 0.55,
+          "daylight": {
+            "cascades": 3,
+            "splitsM": [
+              16,
+              135,
+              720
+            ],
+            "mapSize": 2048,
+            "oneSun": true,
+            "filterRadius": 4
+          },
+          "plaques": [
+            {
+              "number": "01",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "02",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "03",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            }
+          ]
+        },
+        "showcase": {
+          "id": "helio",
+          "source": "assets/helio.webp",
+          "updates": 0,
+          "dynamicTextures": 0,
+          "width": 0,
+          "height": 0
+        },
+        "weather": {
+          "fogNear": 115,
+          "fogFar": 620,
+          "rainCount": 760,
+          "glassBeads": 95,
+          "animatedFrames": 22,
+          "time": 1.0001000000000004,
+          "windowVisible": true,
+          "maxRainFPS": 24,
+          "extraDrawCalls": 3,
+          "audioChanged": false,
+          "paused": false,
+          "reduced": false
+        },
+        "stream": {
+          "ready": true,
+          "warming": false,
+          "warmError": null,
+          "skyFallback": false,
+          "phases": {
+            "room": {
+              "status": "ready",
+              "completed": 20,
+              "total": 20,
+              "failed": [],
+              "error": null
+            },
+            "decor": {
+              "status": "ready",
+              "completed": 13,
+              "total": 13,
+              "failed": [],
+              "error": null
+            },
+            "expo": {
+              "status": "ready",
+              "completed": 4,
+              "total": 4,
+              "failed": [],
+              "error": null
+            }
+          }
+        },
+        "cameraClear": true,
+        "viewName": "desk",
+        "progress": 0,
+        "target": 0,
+        "doorAngle": 0.03999999996621065,
+        "camera": [
+          0,
+          1.6,
+          9.55
+        ],
+        "look": [
+          0,
+          0
+        ],
+        "move": [
+          0,
+          0
+        ],
+        "lamp": true,
+        "brightness": 1,
+        "pull": 0,
+        "folder": 0,
+        "drawer": 0,
+        "collection": {
+          "variant": "authored-bifold-sliding",
+          "opening": 0,
+          "itemsAccessible": false,
+          "leftAngle": 0,
+          "rightAngle": 0,
+          "limit": 1.5707963267948966
+        },
+        "furniture": {
+          "variant": "authored",
+          "drawerTravel": 0.29,
+          "drawerOffset": 0,
+          "doorHinge": [
+            -0.515,
+            0.025,
+            1.9
+          ]
+        },
+        "held": false,
+        "pointerKind": null,
+        "pullThreshold": 0.065,
+        "pullLimit": 0.12,
+        "office": {
+          "doorWidth": 1.03,
+          "doorHeight": 2.35,
+          "corridorWidth": 2.65,
+          "sideDoors": [
+            "01",
+            "02",
+            "03"
+          ],
+          "corridorLength": 9.47,
+          "corridorHeight": 3,
+          "routeLength": 8
+        },
+        "assets": [
+          {
+            "id": "chair",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              1.0704697634276144,
+              0.826019287109375,
+              1.053371867630922
+            ],
+            "floorGap": 0,
+            "source": "studio-furniture/chair"
+          },
+          {
+            "id": "lamp",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              0.20000000298023224,
+              0.8564311042428016,
+              0.387474462389946
+            ],
+            "source": "studio-furniture/lamp"
+          },
+          {
+            "id": "cabinet",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6179999905154117,
+              0.6800000071525574,
+              2.440000057220459
+            ]
+          },
+          {
+            "id": "side_table",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6819042689954671,
+              0.550000011920929,
+              0.6122396309200582
+            ]
+          }
+        ],
+        "drawCalls": 246,
+        "textureCount": 84,
+        "triangles": 266309,
+        "frames": 475,
+        "renders": 244,
+        "audio": {
+          "armed": false,
+          "inside": false,
+          "state": "suspended",
+          "needsGesture": false,
+          "resumePending": false,
+          "resumeAttempts": 0,
+          "musicReady": true,
+          "preparationMode": "worker",
+          "musicDuration": 64,
+          "sourceStarts": {
+            "music": 0,
+            "rain": 0,
+            "effects": 0
+          },
+          "desiredMaster": 0,
+          "levels": {
+            "master": {
+              "rms": 0,
+              "peak": 0
+            },
+            "music": {
+              "rms": 0,
+              "peak": 0
+            },
+            "rain": {
+              "rms": 0,
+              "peak": 0
+            }
+          },
+          "preferences": {
+            "muted": true,
+            "music": {
+              "muted": false,
+              "volume": 0.45
+            },
+            "rain": {
+              "muted": false,
+              "volume": 0.18
+            },
+            "effects": {
+              "muted": false,
+              "volume": 0.25
+            }
+          },
+          "savedPreferences": true,
+          "raining": true,
+          "error": null,
+          "score": "Window Notes"
+        }
+      },
+      "resources": [
+        {
+          "path": "/bakhtiyar-zikirin/room/style.css",
+          "bytes": 8747,
+          "encoded": 8447,
+          "decoded": 30720
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/main.js",
+          "bytes": 12864,
+          "encoded": 12564,
+          "decoded": 39701
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/vendor/addons/loaders/GLTFLoader.js",
+          "bytes": 26702,
+          "encoded": 26402,
+          "decoded": 117570
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/boot.js",
+          "bytes": 3184,
+          "encoded": 2884,
+          "decoded": 6944
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/ui.js",
+          "bytes": 9944,
+          "encoded": 9644,
+          "decoded": 30219
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/collection-viewer.js",
+          "bytes": 5364,
+          "encoded": 5064,
+          "decoded": 12651
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/profile-data.js",
+          "bytes": 4575,
+          "encoded": 4275,
+          "decoded": 12645
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/documents-data.js",
+          "bytes": 641,
+          "encoded": 341,
+          "decoded": 872
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/projects-data.js",
+          "bytes": 5244,
+          "encoded": 4944,
+          "decoded": 12684
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/cube-state.js",
+          "bytes": 1201,
+          "encoded": 901,
+          "decoded": 1806
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/vendor/three.module.js",
+          "bytes": 90111,
+          "encoded": 89811,
+          "decoded": 376660
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/collection-models.js",
+          "bytes": 1896,
+          "encoded": 1596,
+          "decoded": 3743
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/vendor/addons/geometries/RoundedBoxGeometry.js",
+          "bytes": 2278,
+          "encoded": 1978,
+          "decoded": 6470
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/vendor/addons/utils/BufferGeometryUtils.js",
+          "bytes": 9107,
+          "encoded": 8807,
+          "decoded": 37712
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/vendor/three.core.js",
+          "bytes": 104142,
+          "encoded": 103842,
+          "decoded": 402617
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/document-actions.js",
+          "bytes": 2253,
+          "encoded": 1953,
+          "decoded": 6260
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/world.js",
+          "bytes": 14816,
+          "encoded": 14516,
+          "decoded": 42157
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/audio.js",
+          "bytes": 3428,
+          "encoded": 3128,
+          "decoded": 9564
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/room-accents.js",
+          "bytes": 495,
+          "encoded": 195,
+          "decoded": 195
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/joinery-details.js",
+          "bytes": 2373,
+          "encoded": 2073,
+          "decoded": 4700
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/cabinet-scene.js",
+          "bytes": 1968,
+          "encoded": 1668,
+          "decoded": 3913
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/daylight.js",
+          "bytes": 1226,
+          "encoded": 926,
+          "decoded": 1729
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/architecture-materials.js",
+          "bytes": 1231,
+          "encoded": 931,
+          "decoded": 1811
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/window-fragment.js",
+          "bytes": 1164,
+          "encoded": 864,
+          "decoded": 1622
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/streaming.js",
+          "bytes": 1933,
+          "encoded": 1633,
+          "decoded": 3707
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/furniture.js",
+          "bytes": 1381,
+          "encoded": 1081,
+          "decoded": 2175
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/audio-score.js",
+          "bytes": 1993,
+          "encoded": 1693,
+          "decoded": 3745
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/cabinet-doors.js",
+          "bytes": 2413,
+          "encoded": 2113,
+          "decoded": 5014
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/vendor/addons/csm/CSM.js",
+          "bytes": 4120,
+          "encoded": 3820,
+          "decoded": 13863
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/stream-manifest.js",
+          "bytes": 1228,
+          "encoded": 928,
+          "decoded": 3221
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/compressed-models.js",
+          "bytes": 1346,
+          "encoded": 1046,
+          "decoded": 2749
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/vendor/addons/csm/CSMFrustum.js",
+          "bytes": 1931,
+          "encoded": 1631,
+          "decoded": 5281
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/vendor/addons/csm/CSMShader.js",
+          "bytes": 2691,
+          "encoded": 2391,
+          "decoded": 11034
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/entry/plaster.webp",
+          "bytes": 3036,
+          "encoded": 2736,
+          "decoded": 2736
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/entry/floor.webp",
+          "bytes": 48646,
+          "encoded": 48346,
+          "decoded": 48346
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/entry/oak.webp",
+          "bytes": 40488,
+          "encoded": 40188,
+          "decoded": 40188
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/vendor/addons/environments/RoomEnvironment.js",
+          "bytes": 1976,
+          "encoded": 1676,
+          "decoded": 4960
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/expo.js",
+          "bytes": 5127,
+          "encoded": 4827,
+          "decoded": 12200
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/white_plaster_02/painted.webp",
+          "bytes": 49260,
+          "encoded": 48960,
+          "decoded": 48960
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/laminate_floor_02/diff.webp",
+          "bytes": 991142,
+          "encoded": 990842,
+          "decoded": 990842
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/white_plaster_02/rough.webp",
+          "bytes": 187988,
+          "encoded": 187688,
+          "decoded": 187688
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/white_plaster_02/nor_gl.webp",
+          "bytes": 304550,
+          "encoded": 304250,
+          "decoded": 304250
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/laminate_floor_02/nor_gl.webp",
+          "bytes": 192174,
+          "encoded": 191874,
+          "decoded": 191874
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/laminate_floor_02/rough.webp",
+          "bytes": 177904,
+          "encoded": 177604,
+          "decoded": 177604
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/helio.webp",
+          "bytes": 257878,
+          "encoded": 257578,
+          "decoded": 257578
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/window/indirect.webp",
+          "bytes": 499552,
+          "encoded": 499252,
+          "decoded": 499252
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/corridor/indirect.webp",
+          "bytes": 485076,
+          "encoded": 484776,
+          "decoded": 484776
+        },
+        {
+          "path": "/bakhtiyar-zikirin/files/education/diploma-preview.webp",
+          "bytes": 64118,
+          "encoded": 63818,
+          "decoded": 63818
+        },
+        {
+          "path": "/bakhtiyar-zikirin/files/education/iqadam-2025-preview.webp",
+          "bytes": 37232,
+          "encoded": 36932,
+          "decoded": 36932
+        },
+        {
+          "path": "/bakhtiyar-zikirin/files/resume-preview.webp",
+          "bytes": 55176,
+          "encoded": 54876,
+          "decoded": 54876
+        },
+        {
+          "path": "/bakhtiyar-zikirin/files/education/hackalem-2026-preview.png",
+          "bytes": 61785,
+          "encoded": 61485,
+          "decoded": 61485
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/urban_facade/sky.webp",
+          "bytes": 146402,
+          "encoded": 146102,
+          "decoded": 146102
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/exterior/tree-atlas.webp",
+          "bytes": 1211556,
+          "encoded": 1211256,
+          "decoded": 1211256
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/vendor/addons/utils/SkeletonUtils.js",
+          "bytes": 3512,
+          "encoded": 3212,
+          "decoded": 11535
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/audio-worker.js",
+          "bytes": 538,
+          "encoded": 238,
+          "decoded": 341
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/audio-score.js",
+          "bytes": 0,
+          "encoded": 1693,
+          "decoded": 3745
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/weather.js",
+          "bytes": 2556,
+          "encoded": 2256,
+          "decoded": 4893
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/vegetation.js",
+          "bytes": 1665,
+          "encoded": 1365,
+          "decoded": 2790
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/exterior-surfaces.js",
+          "bytes": 2182,
+          "encoded": 1882,
+          "decoded": 4128
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/exterior/skyline.glb.gz",
+          "bytes": 13907,
+          "encoded": 13607,
+          "decoded": 13607
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/studio-furniture/chair.glb.gz",
+          "bytes": 124072,
+          "encoded": 123772,
+          "decoded": 123772
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/exterior/tree-trunk.glb.gz",
+          "bytes": 216472,
+          "encoded": 216172,
+          "decoded": 216172
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/window/window.glb.gz",
+          "bytes": 98684,
+          "encoded": 98384,
+          "decoded": 98384
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/studio-furniture/drawer.glb.gz",
+          "bytes": 97881,
+          "encoded": 97581,
+          "decoded": 97581
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/room-accents/orbit.glb.gz",
+          "bytes": 41336,
+          "encoded": 41036,
+          "decoded": 41036
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/studio-furniture/door.glb.gz",
+          "bytes": 86454,
+          "encoded": 86154,
+          "decoded": 86154
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/room-accents/robot.glb.gz",
+          "bytes": 54095,
+          "encoded": 53795,
+          "decoded": 53795
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/studio-furniture/side-table.glb.gz",
+          "bytes": 91604,
+          "encoded": 91304,
+          "decoded": 91304
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/room-accents/ceiling-panel.glb.gz",
+          "bytes": 14283,
+          "encoded": 13983,
+          "decoded": 13983
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/corridor/profiles.glb.gz",
+          "bytes": 191651,
+          "encoded": 191351,
+          "decoded": 191351
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/studio-furniture/cabinet.glb.gz",
+          "bytes": 157821,
+          "encoded": 157521,
+          "decoded": 157521
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/selected.gltf",
+          "bytes": 1303,
+          "encoded": 1003,
+          "decoded": 3468
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/studio-furniture/lamp.glb.gz",
+          "bytes": 125140,
+          "encoded": 124840,
+          "decoded": 124840
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/studio-furniture/workbench.glb.gz",
+          "bytes": 166444,
+          "encoded": 166144,
+          "decoded": 166144
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/selected.bin",
+          "bytes": 256982,
+          "encoded": 256682,
+          "decoded": 421272
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_pot_diff_1k.webp",
+          "bytes": 134728,
+          "encoded": 134428,
+          "decoded": 134428
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "bytes": 134696,
+          "encoded": 134396,
+          "decoded": 134396
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "bytes": 153786,
+          "encoded": 153486,
+          "decoded": 153486
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "bytes": 131624,
+          "encoded": 131324,
+          "decoded": 131324
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "bytes": 147106,
+          "encoded": 146806,
+          "decoded": 146806
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "bytes": 161898,
+          "encoded": 161598,
+          "decoded": 161598
+        }
+      ],
+      "window": {
+        "firstFrameAt": 3666.2999999998137,
+        "fullSceneAt": 7521,
+        "shadowUpdates": 639,
+        "cachedShadowFrames": 60,
+        "cabinetVelocity": 0,
+        "doorNear": true,
+        "doorStopProgress": 0.4383676052093506,
+        "doorOpenAngle": 1.54,
+        "doorPassAngle": 1.48,
+        "window": {
+          "loaded": true,
+          "meshes": [
+            {
+              "uv2": true,
+              "material": "Powder_coat_warm_ivory",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "EPDM_seal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Brushed_handle",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Honed_limestone_sill",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Painted_wall_fern",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Warm_lime_reveal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            }
+          ],
+          "liveLamp": 14
+        },
+        "lighting": {
+          "closedCorridorEnd": true,
+          "ceilingPanels": 4,
+          "corridorLights": [
+            {
+              "position": [
+                0,
+                2.94,
+                4.5
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                7.9
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                10.5
+              ],
+              "intensity": 20
+            }
+          ],
+          "taskLight": {
+            "position": [
+              1.075,
+              1.4961344953536986,
+              -1.7688409498631954
+            ],
+            "intensity": 14,
+            "shadowBias": -0.0003,
+            "normalBias": 0.01
+          },
+          "environmentIntensity": 0.24,
+          "fill": 0.55,
+          "daylight": {
+            "cascades": 3,
+            "splitsM": [
+              16,
+              135,
+              720
+            ],
+            "mapSize": 2048,
+            "oneSun": true,
+            "filterRadius": 4
+          },
+          "plaques": [
+            {
+              "number": "01",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "02",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "03",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            }
+          ]
+        },
+        "showcase": {
+          "id": "helio",
+          "source": "assets/helio.webp",
+          "updates": 0,
+          "dynamicTextures": 0,
+          "width": 0,
+          "height": 0
+        },
+        "weather": {
+          "fogNear": 115,
+          "fogFar": 620,
+          "rainCount": 760,
+          "glassBeads": 95,
+          "animatedFrames": 138,
+          "time": 6.264,
+          "windowVisible": true,
+          "maxRainFPS": 24,
+          "extraDrawCalls": 3,
+          "audioChanged": false,
+          "paused": false,
+          "reduced": false
+        },
+        "stream": {
+          "ready": true,
+          "warming": false,
+          "warmError": null,
+          "skyFallback": false,
+          "phases": {
+            "room": {
+              "status": "ready",
+              "completed": 20,
+              "total": 20,
+              "failed": [],
+              "error": null
+            },
+            "decor": {
+              "status": "ready",
+              "completed": 13,
+              "total": 13,
+              "failed": [],
+              "error": null
+            },
+            "expo": {
+              "status": "ready",
+              "completed": 4,
+              "total": 4,
+              "failed": [],
+              "error": null
+            }
+          }
+        },
+        "cameraClear": true,
+        "viewName": "window",
+        "progress": 1,
+        "target": 1,
+        "doorAngle": 1.5399999999999339,
+        "camera": [
+          -0.179924647210606,
+          1.5999999999989083,
+          0.8000635505437528
+        ],
+        "look": [
+          0,
+          0
+        ],
+        "move": [
+          0,
+          0
+        ],
+        "lamp": true,
+        "brightness": 1,
+        "pull": 0,
+        "folder": 0,
+        "drawer": 0,
+        "collection": {
+          "variant": "authored-bifold-sliding",
+          "opening": 0,
+          "itemsAccessible": false,
+          "leftAngle": 0,
+          "rightAngle": 0,
+          "limit": 1.5707963267948966
+        },
+        "furniture": {
+          "variant": "authored",
+          "drawerTravel": 0.29,
+          "drawerOffset": 0,
+          "doorHinge": [
+            -0.515,
+            0.025,
+            1.9
+          ]
+        },
+        "held": false,
+        "pointerKind": null,
+        "pullThreshold": 0.065,
+        "pullLimit": 0.12,
+        "office": {
+          "doorWidth": 1.03,
+          "doorHeight": 2.35,
+          "corridorWidth": 2.65,
+          "sideDoors": [
+            "01",
+            "02",
+            "03"
+          ],
+          "corridorLength": 9.47,
+          "corridorHeight": 3,
+          "routeLength": 8
+        },
+        "assets": [
+          {
+            "id": "chair",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              1.0704697634276144,
+              0.826019287109375,
+              1.053371867630922
+            ],
+            "floorGap": 0,
+            "source": "studio-furniture/chair"
+          },
+          {
+            "id": "lamp",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              0.20000000298023224,
+              0.8564311042428016,
+              0.387474462389946
+            ],
+            "source": "studio-furniture/lamp"
+          },
+          {
+            "id": "cabinet",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6179999905154117,
+              0.6800000071525574,
+              2.440000057220459
+            ]
+          },
+          {
+            "id": "side_table",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6819042689954671,
+              0.550000011920929,
+              0.6122396309200582
+            ]
+          }
+        ],
+        "drawCalls": 74,
+        "textureCount": 84,
+        "triangles": 165840,
+        "frames": 1221,
+        "renders": 699,
+        "audio": {
+          "armed": false,
+          "inside": true,
+          "state": "suspended",
+          "needsGesture": false,
+          "resumePending": false,
+          "resumeAttempts": 0,
+          "musicReady": true,
+          "preparationMode": "worker",
+          "musicDuration": 64,
+          "sourceStarts": {
+            "music": 0,
+            "rain": 0,
+            "effects": 0
+          },
+          "desiredMaster": 0,
+          "levels": {
+            "master": {
+              "rms": 0,
+              "peak": 0
+            },
+            "music": {
+              "rms": 0,
+              "peak": 0
+            },
+            "rain": {
+              "rms": 0,
+              "peak": 0
+            }
+          },
+          "preferences": {
+            "muted": true,
+            "music": {
+              "muted": false,
+              "volume": 0.45
+            },
+            "rain": {
+              "muted": false,
+              "volume": 0.18
+            },
+            "effects": {
+              "muted": false,
+              "volume": 0.25
+            }
+          },
+          "savedPreferences": true,
+          "raining": true,
+          "error": null,
+          "score": "Window Notes"
+        }
+      }
+    },
+    {
+      "mobile": true,
+      "room": false,
+      "errors": [],
+      "failed": [],
+      "http": [],
+      "lang": "ru",
+      "gpu": null,
+      "resources": [
+        {
+          "path": "/bakhtiyar-zikirin/assets/preferences-B0BSF3Yj.js",
+          "bytes": 36556,
+          "encoded": 36256,
+          "decoded": 118981
+        },
+        {
+          "path": "/bakhtiyar-zikirin/assets/main-BigPCy7T.css",
+          "bytes": 15885,
+          "encoded": 15585,
+          "decoded": 74798
+        },
+        {
+          "path": "/bakhtiyar-zikirin/assets/main-CVIEnzjX.js",
+          "bytes": 4769,
+          "encoded": 4469,
+          "decoded": 12403
+        },
+        {
+          "path": "/bakhtiyar-zikirin/projects/media/helio-detail-1-960.webp",
+          "bytes": 111848,
+          "encoded": 111548,
+          "decoded": 111548
+        },
+        {
+          "path": "/bakhtiyar-zikirin/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+          "bytes": 16160,
+          "encoded": 15860,
+          "decoded": 15860
+        },
+        {
+          "path": "/bakhtiyar-zikirin/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+          "bytes": 34060,
+          "encoded": 33760,
+          "decoded": 33760
+        },
+        {
+          "path": "/bakhtiyar-zikirin/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+          "bytes": 18468,
+          "encoded": 18168,
+          "decoded": 18168
+        },
+        {
+          "path": "/bakhtiyar-zikirin/assets/scene-controls-BW5paW9X.js",
+          "bytes": 1395,
+          "encoded": 1095,
+          "decoded": 2687
+        },
+        {
+          "path": "/bakhtiyar-zikirin/favicon.svg",
+          "bytes": 572,
+          "encoded": 272,
+          "decoded": 387
+        }
+      ]
+    },
+    {
+      "mobile": true,
+      "room": true,
+      "errors": [],
+      "failed": [],
+      "http": [],
+      "lang": "ru",
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "state": {
+        "firstFrameAt": 2095.2000000001863,
+        "fullSceneAt": 3746.9000000003725,
+        "shadowUpdates": 183,
+        "cachedShadowFrames": 8,
+        "cabinetVelocity": 0,
+        "doorNear": false,
+        "doorStopProgress": 0.4383676052093506,
+        "doorOpenAngle": 1.54,
+        "doorPassAngle": 1.48,
+        "window": {
+          "loaded": true,
+          "meshes": [
+            {
+              "uv2": true,
+              "material": "Powder_coat_warm_ivory",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "EPDM_seal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Brushed_handle",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Honed_limestone_sill",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Painted_wall_fern",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Warm_lime_reveal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            }
+          ],
+          "liveLamp": 14
+        },
+        "lighting": {
+          "closedCorridorEnd": true,
+          "ceilingPanels": 4,
+          "corridorLights": [
+            {
+              "position": [
+                0,
+                2.94,
+                4.5
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                7.9
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                10.5
+              ],
+              "intensity": 20
+            }
+          ],
+          "taskLight": {
+            "position": [
+              1.075,
+              1.4961344953536986,
+              -1.7688409498631954
+            ],
+            "intensity": 14,
+            "shadowBias": -0.0003,
+            "normalBias": 0.01
+          },
+          "environmentIntensity": 0.24,
+          "fill": 0.55,
+          "daylight": {
+            "cascades": 3,
+            "splitsM": [
+              16,
+              135,
+              720
+            ],
+            "mapSize": 2048,
+            "oneSun": true,
+            "filterRadius": 4
+          },
+          "plaques": [
+            {
+              "number": "01",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "02",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "03",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            }
+          ]
+        },
+        "showcase": {
+          "id": "helio",
+          "source": "assets/helio.webp",
+          "updates": 0,
+          "dynamicTextures": 0,
+          "width": 0,
+          "height": 0
+        },
+        "weather": {
+          "fogNear": 115,
+          "fogFar": 620,
+          "rainCount": 760,
+          "glassBeads": 95,
+          "animatedFrames": 22,
+          "time": 0.9861,
+          "windowVisible": true,
+          "maxRainFPS": 24,
+          "extraDrawCalls": 3,
+          "audioChanged": false,
+          "paused": false,
+          "reduced": false
+        },
+        "stream": {
+          "ready": true,
+          "warming": false,
+          "warmError": null,
+          "skyFallback": false,
+          "phases": {
+            "room": {
+              "status": "ready",
+              "completed": 20,
+              "total": 20,
+              "failed": [],
+              "error": null
+            },
+            "decor": {
+              "status": "ready",
+              "completed": 13,
+              "total": 13,
+              "failed": [],
+              "error": null
+            },
+            "expo": {
+              "status": "ready",
+              "completed": 4,
+              "total": 4,
+              "failed": [],
+              "error": null
+            }
+          }
+        },
+        "cameraClear": true,
+        "viewName": "desk",
+        "progress": 0,
+        "target": 0,
+        "doorAngle": 0.039999996679916223,
+        "camera": [
+          0,
+          1.6,
+          9.55
+        ],
+        "look": [
+          0,
+          0
+        ],
+        "move": [
+          0,
+          0
+        ],
+        "lamp": true,
+        "brightness": 1,
+        "pull": 0,
+        "folder": 0,
+        "drawer": 0,
+        "collection": {
+          "variant": "authored-bifold-sliding",
+          "opening": 0,
+          "itemsAccessible": false,
+          "leftAngle": 0,
+          "rightAngle": 0,
+          "limit": 1.5707963267948966
+        },
+        "furniture": {
+          "variant": "authored",
+          "drawerTravel": 0.29,
+          "drawerOffset": 0,
+          "doorHinge": [
+            -0.515,
+            0.025,
+            1.9
+          ]
+        },
+        "held": false,
+        "pointerKind": null,
+        "pullThreshold": 0.065,
+        "pullLimit": 0.12,
+        "office": {
+          "doorWidth": 1.03,
+          "doorHeight": 2.35,
+          "corridorWidth": 2.65,
+          "sideDoors": [
+            "01",
+            "02",
+            "03"
+          ],
+          "corridorLength": 9.47,
+          "corridorHeight": 3,
+          "routeLength": 8
+        },
+        "assets": [
+          {
+            "id": "chair",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              1.0704697634276144,
+              0.826019287109375,
+              1.053371867630922
+            ],
+            "floorGap": 0,
+            "source": "studio-furniture/chair"
+          },
+          {
+            "id": "lamp",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              0.20000000298023224,
+              0.8564311042428016,
+              0.387474462389946
+            ],
+            "source": "studio-furniture/lamp"
+          },
+          {
+            "id": "cabinet",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6179999905154117,
+              0.6800000071525574,
+              2.440000057220459
+            ]
+          },
+          {
+            "id": "side_table",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6819042689954671,
+              0.550000011920929,
+              0.6122396309200582
+            ]
+          }
+        ],
+        "drawCalls": 236,
+        "textureCount": 84,
+        "triangles": 247439,
+        "frames": 283,
+        "renders": 191,
+        "audio": {
+          "armed": false,
+          "inside": false,
+          "state": "suspended",
+          "needsGesture": false,
+          "resumePending": false,
+          "resumeAttempts": 0,
+          "musicReady": true,
+          "preparationMode": "worker",
+          "musicDuration": 64,
+          "sourceStarts": {
+            "music": 0,
+            "rain": 0,
+            "effects": 0
+          },
+          "desiredMaster": 0,
+          "levels": {
+            "master": {
+              "rms": 0,
+              "peak": 0
+            },
+            "music": {
+              "rms": 0,
+              "peak": 0
+            },
+            "rain": {
+              "rms": 0,
+              "peak": 0
+            }
+          },
+          "preferences": {
+            "muted": true,
+            "music": {
+              "muted": false,
+              "volume": 0.45
+            },
+            "rain": {
+              "muted": false,
+              "volume": 0.18
+            },
+            "effects": {
+              "muted": false,
+              "volume": 0.25
+            }
+          },
+          "savedPreferences": true,
+          "raining": true,
+          "error": null,
+          "score": "Window Notes"
+        }
+      },
+      "resources": [
+        {
+          "path": "/bakhtiyar-zikirin/room/style.css",
+          "bytes": 8747,
+          "encoded": 8447,
+          "decoded": 30720
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/main.js",
+          "bytes": 12864,
+          "encoded": 12564,
+          "decoded": 39701
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/vendor/addons/loaders/GLTFLoader.js",
+          "bytes": 26702,
+          "encoded": 26402,
+          "decoded": 117570
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/boot.js",
+          "bytes": 3184,
+          "encoded": 2884,
+          "decoded": 6944
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/ui.js",
+          "bytes": 9944,
+          "encoded": 9644,
+          "decoded": 30219
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/collection-viewer.js",
+          "bytes": 5364,
+          "encoded": 5064,
+          "decoded": 12651
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/profile-data.js",
+          "bytes": 4575,
+          "encoded": 4275,
+          "decoded": 12645
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/documents-data.js",
+          "bytes": 641,
+          "encoded": 341,
+          "decoded": 872
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/projects-data.js",
+          "bytes": 5244,
+          "encoded": 4944,
+          "decoded": 12684
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/vendor/three.module.js",
+          "bytes": 90111,
+          "encoded": 89811,
+          "decoded": 376660
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/collection-models.js",
+          "bytes": 1896,
+          "encoded": 1596,
+          "decoded": 3743
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/cube-state.js",
+          "bytes": 1201,
+          "encoded": 901,
+          "decoded": 1806
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/vendor/addons/geometries/RoundedBoxGeometry.js",
+          "bytes": 2278,
+          "encoded": 1978,
+          "decoded": 6470
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/vendor/addons/utils/BufferGeometryUtils.js",
+          "bytes": 9107,
+          "encoded": 8807,
+          "decoded": 37712
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/vendor/three.core.js",
+          "bytes": 104142,
+          "encoded": 103842,
+          "decoded": 402617
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/document-actions.js",
+          "bytes": 2253,
+          "encoded": 1953,
+          "decoded": 6260
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/audio.js",
+          "bytes": 3428,
+          "encoded": 3128,
+          "decoded": 9564
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/world.js",
+          "bytes": 14816,
+          "encoded": 14516,
+          "decoded": 42157
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/audio-score.js",
+          "bytes": 1993,
+          "encoded": 1693,
+          "decoded": 3745
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/room-accents.js",
+          "bytes": 495,
+          "encoded": 195,
+          "decoded": 195
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/cabinet-scene.js",
+          "bytes": 1968,
+          "encoded": 1668,
+          "decoded": 3913
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/architecture-materials.js",
+          "bytes": 1231,
+          "encoded": 931,
+          "decoded": 1811
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/joinery-details.js",
+          "bytes": 2373,
+          "encoded": 2073,
+          "decoded": 4700
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/daylight.js",
+          "bytes": 1226,
+          "encoded": 926,
+          "decoded": 1729
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/window-fragment.js",
+          "bytes": 1164,
+          "encoded": 864,
+          "decoded": 1622
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/streaming.js",
+          "bytes": 1933,
+          "encoded": 1633,
+          "decoded": 3707
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/furniture.js",
+          "bytes": 1381,
+          "encoded": 1081,
+          "decoded": 2175
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/cabinet-doors.js",
+          "bytes": 2413,
+          "encoded": 2113,
+          "decoded": 5014
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/vendor/addons/csm/CSM.js",
+          "bytes": 4120,
+          "encoded": 3820,
+          "decoded": 13863
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/stream-manifest.js",
+          "bytes": 1228,
+          "encoded": 928,
+          "decoded": 3221
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/compressed-models.js",
+          "bytes": 1346,
+          "encoded": 1046,
+          "decoded": 2749
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/vendor/addons/csm/CSMShader.js",
+          "bytes": 2691,
+          "encoded": 2391,
+          "decoded": 11034
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/vendor/addons/csm/CSMFrustum.js",
+          "bytes": 1931,
+          "encoded": 1631,
+          "decoded": 5281
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/entry/plaster.webp",
+          "bytes": 3036,
+          "encoded": 2736,
+          "decoded": 2736
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/entry/floor.webp",
+          "bytes": 48646,
+          "encoded": 48346,
+          "decoded": 48346
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/entry/oak.webp",
+          "bytes": 40488,
+          "encoded": 40188,
+          "decoded": 40188
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/vendor/addons/environments/RoomEnvironment.js",
+          "bytes": 1976,
+          "encoded": 1676,
+          "decoded": 4960
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/expo.js",
+          "bytes": 5127,
+          "encoded": 4827,
+          "decoded": 12200
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/white_plaster_02/painted.webp",
+          "bytes": 49260,
+          "encoded": 48960,
+          "decoded": 48960
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/white_plaster_02/rough.webp",
+          "bytes": 187988,
+          "encoded": 187688,
+          "decoded": 187688
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/white_plaster_02/nor_gl.webp",
+          "bytes": 304550,
+          "encoded": 304250,
+          "decoded": 304250
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/laminate_floor_02/diff.webp",
+          "bytes": 991142,
+          "encoded": 990842,
+          "decoded": 990842
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/laminate_floor_02/nor_gl.webp",
+          "bytes": 192174,
+          "encoded": 191874,
+          "decoded": 191874
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/laminate_floor_02/rough.webp",
+          "bytes": 177904,
+          "encoded": 177604,
+          "decoded": 177604
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/helio.webp",
+          "bytes": 257878,
+          "encoded": 257578,
+          "decoded": 257578
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/window/indirect.webp",
+          "bytes": 499552,
+          "encoded": 499252,
+          "decoded": 499252
+        },
+        {
+          "path": "/bakhtiyar-zikirin/files/resume-preview.webp",
+          "bytes": 55176,
+          "encoded": 54876,
+          "decoded": 54876
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/corridor/indirect.webp",
+          "bytes": 485076,
+          "encoded": 484776,
+          "decoded": 484776
+        },
+        {
+          "path": "/bakhtiyar-zikirin/files/education/diploma-preview.webp",
+          "bytes": 64118,
+          "encoded": 63818,
+          "decoded": 63818
+        },
+        {
+          "path": "/bakhtiyar-zikirin/files/education/hackalem-2026-preview.png",
+          "bytes": 61785,
+          "encoded": 61485,
+          "decoded": 61485
+        },
+        {
+          "path": "/bakhtiyar-zikirin/files/education/iqadam-2025-preview.webp",
+          "bytes": 37232,
+          "encoded": 36932,
+          "decoded": 36932
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/urban_facade/sky.webp",
+          "bytes": 146402,
+          "encoded": 146102,
+          "decoded": 146102
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/exterior/tree-atlas.webp",
+          "bytes": 1211556,
+          "encoded": 1211256,
+          "decoded": 1211256
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/vendor/addons/utils/SkeletonUtils.js",
+          "bytes": 3512,
+          "encoded": 3212,
+          "decoded": 11535
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/audio-worker.js",
+          "bytes": 538,
+          "encoded": 238,
+          "decoded": 341
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/audio-score.js",
+          "bytes": 0,
+          "encoded": 1693,
+          "decoded": 3745
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/weather.js",
+          "bytes": 2556,
+          "encoded": 2256,
+          "decoded": 4893
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/vegetation.js",
+          "bytes": 1665,
+          "encoded": 1365,
+          "decoded": 2790
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/exterior-surfaces.js",
+          "bytes": 2182,
+          "encoded": 1882,
+          "decoded": 4128
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/exterior/tree-trunk.glb.gz",
+          "bytes": 216472,
+          "encoded": 216172,
+          "decoded": 216172
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/studio-furniture/door.glb.gz",
+          "bytes": 86454,
+          "encoded": 86154,
+          "decoded": 86154
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/room-accents/ceiling-panel.glb.gz",
+          "bytes": 14283,
+          "encoded": 13983,
+          "decoded": 13983
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/corridor/profiles.glb.gz",
+          "bytes": 191651,
+          "encoded": 191351,
+          "decoded": 191351
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/studio-furniture/cabinet.glb.gz",
+          "bytes": 157821,
+          "encoded": 157521,
+          "decoded": 157521
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/room-accents/orbit.glb.gz",
+          "bytes": 41336,
+          "encoded": 41036,
+          "decoded": 41036
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/studio-furniture/side-table.glb.gz",
+          "bytes": 91604,
+          "encoded": 91304,
+          "decoded": 91304
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/exterior/skyline.glb.gz",
+          "bytes": 13907,
+          "encoded": 13607,
+          "decoded": 13607
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/window/window.glb.gz",
+          "bytes": 98684,
+          "encoded": 98384,
+          "decoded": 98384
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/studio-furniture/workbench.glb.gz",
+          "bytes": 166444,
+          "encoded": 166144,
+          "decoded": 166144
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/studio-furniture/lamp.glb.gz",
+          "bytes": 125140,
+          "encoded": 124840,
+          "decoded": 124840
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/studio-furniture/chair.glb.gz",
+          "bytes": 124072,
+          "encoded": 123772,
+          "decoded": 123772
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/room-accents/robot.glb.gz",
+          "bytes": 54095,
+          "encoded": 53795,
+          "decoded": 53795
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/studio-furniture/drawer.glb.gz",
+          "bytes": 97881,
+          "encoded": 97581,
+          "decoded": 97581
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/selected.gltf",
+          "bytes": 1303,
+          "encoded": 1003,
+          "decoded": 3468
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/selected.bin",
+          "bytes": 256982,
+          "encoded": 256682,
+          "decoded": 421272
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_pot_diff_1k.webp",
+          "bytes": 134728,
+          "encoded": 134428,
+          "decoded": 134428
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+          "bytes": 134696,
+          "encoded": 134396,
+          "decoded": 134396
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+          "bytes": 153786,
+          "encoded": 153486,
+          "decoded": 153486
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+          "bytes": 131624,
+          "encoded": 131324,
+          "decoded": 131324
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+          "bytes": 147106,
+          "encoded": 146806,
+          "decoded": 146806
+        },
+        {
+          "path": "/bakhtiyar-zikirin/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+          "bytes": 161898,
+          "encoded": 161598,
+          "decoded": 161598
+        }
+      ],
+      "window": {
+        "firstFrameAt": 2095.2000000001863,
+        "fullSceneAt": 3746.9000000003725,
+        "shadowUpdates": 592,
+        "cachedShadowFrames": 58,
+        "cabinetVelocity": 0,
+        "doorNear": true,
+        "doorStopProgress": 0.4383676052093506,
+        "doorOpenAngle": 1.54,
+        "doorPassAngle": 1.48,
+        "window": {
+          "loaded": true,
+          "meshes": [
+            {
+              "uv2": true,
+              "material": "Powder_coat_warm_ivory",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "EPDM_seal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Brushed_handle",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Honed_limestone_sill",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Painted_wall_fern",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            },
+            {
+              "uv2": true,
+              "material": "Warm_lime_reveal",
+              "lightmap": "srgb",
+              "channel": 1,
+              "flipY": false,
+              "intensity": 3.141592653589793,
+              "indirectOnly": true
+            }
+          ],
+          "liveLamp": 14
+        },
+        "lighting": {
+          "closedCorridorEnd": true,
+          "ceilingPanels": 4,
+          "corridorLights": [
+            {
+              "position": [
+                0,
+                2.94,
+                4.5
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                7.9
+              ],
+              "intensity": 20
+            },
+            {
+              "position": [
+                0,
+                2.94,
+                10.5
+              ],
+              "intensity": 20
+            }
+          ],
+          "taskLight": {
+            "position": [
+              1.075,
+              1.4961344953536986,
+              -1.7688409498631954
+            ],
+            "intensity": 14,
+            "shadowBias": -0.0003,
+            "normalBias": 0.01
+          },
+          "environmentIntensity": 0.24,
+          "fill": 0.55,
+          "daylight": {
+            "cascades": 3,
+            "splitsM": [
+              16,
+              135,
+              720
+            ],
+            "mapSize": 2048,
+            "oneSun": true,
+            "filterRadius": 4
+          },
+          "plaques": [
+            {
+              "number": "01",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "02",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            },
+            {
+              "number": "03",
+              "offsetY": 0,
+              "frontGap": 0.0005000000000000004
+            }
+          ]
+        },
+        "showcase": {
+          "id": "helio",
+          "source": "assets/helio.webp",
+          "updates": 0,
+          "dynamicTextures": 0,
+          "width": 0,
+          "height": 0
+        },
+        "weather": {
+          "fogNear": 115,
+          "fogFar": 620,
+          "rainCount": 760,
+          "glassBeads": 95,
+          "animatedFrames": 94,
+          "time": 4.2846,
+          "windowVisible": true,
+          "maxRainFPS": 24,
+          "extraDrawCalls": 3,
+          "audioChanged": false,
+          "paused": false,
+          "reduced": false
+        },
+        "stream": {
+          "ready": true,
+          "warming": false,
+          "warmError": null,
+          "skyFallback": false,
+          "phases": {
+            "room": {
+              "status": "ready",
+              "completed": 20,
+              "total": 20,
+              "failed": [],
+              "error": null
+            },
+            "decor": {
+              "status": "ready",
+              "completed": 13,
+              "total": 13,
+              "failed": [],
+              "error": null
+            },
+            "expo": {
+              "status": "ready",
+              "completed": 4,
+              "total": 4,
+              "failed": [],
+              "error": null
+            }
+          }
+        },
+        "cameraClear": true,
+        "viewName": "window",
+        "progress": 1,
+        "target": 1,
+        "doorAngle": 1.5399999999999072,
+        "camera": [
+          -0.17991711902768392,
+          1.599986559847889,
+          0.800050400599343
+        ],
+        "look": [
+          0,
+          0
+        ],
+        "move": [
+          0,
+          0
+        ],
+        "lamp": true,
+        "brightness": 1,
+        "pull": 0,
+        "folder": 0,
+        "drawer": 0,
+        "collection": {
+          "variant": "authored-bifold-sliding",
+          "opening": 0,
+          "itemsAccessible": false,
+          "leftAngle": 0,
+          "rightAngle": 0,
+          "limit": 1.5707963267948966
+        },
+        "furniture": {
+          "variant": "authored",
+          "drawerTravel": 0.29,
+          "drawerOffset": 0,
+          "doorHinge": [
+            -0.515,
+            0.025,
+            1.9
+          ]
+        },
+        "held": false,
+        "pointerKind": null,
+        "pullThreshold": 0.065,
+        "pullLimit": 0.12,
+        "office": {
+          "doorWidth": 1.03,
+          "doorHeight": 2.35,
+          "corridorWidth": 2.65,
+          "sideDoors": [
+            "01",
+            "02",
+            "03"
+          ],
+          "corridorLength": 9.47,
+          "corridorHeight": 3,
+          "routeLength": 8
+        },
+        "assets": [
+          {
+            "id": "chair",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              1.0704697634276144,
+              0.826019287109375,
+              1.053371867630922
+            ],
+            "floorGap": 0,
+            "source": "studio-furniture/chair"
+          },
+          {
+            "id": "lamp",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "bounds": [
+              0.20000000298023224,
+              0.8564311042428016,
+              0.387474462389946
+            ],
+            "source": "studio-furniture/lamp"
+          },
+          {
+            "id": "cabinet",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6179999905154117,
+              0.6800000071525574,
+              2.440000057220459
+            ]
+          },
+          {
+            "id": "side_table",
+            "nativeScale": [
+              1,
+              1,
+              1
+            ],
+            "floorGap": 0,
+            "bounds": [
+              0.6819042689954671,
+              0.550000011920929,
+              0.6122396309200582
+            ]
+          }
+        ],
+        "drawCalls": 71,
+        "textureCount": 84,
+        "triangles": 150282,
+        "frames": 1026,
+        "renders": 650,
+        "audio": {
+          "armed": false,
+          "inside": true,
+          "state": "suspended",
+          "needsGesture": false,
+          "resumePending": false,
+          "resumeAttempts": 0,
+          "musicReady": true,
+          "preparationMode": "worker",
+          "musicDuration": 64,
+          "sourceStarts": {
+            "music": 0,
+            "rain": 0,
+            "effects": 0
+          },
+          "desiredMaster": 0,
+          "levels": {
+            "master": {
+              "rms": 0,
+              "peak": 0
+            },
+            "music": {
+              "rms": 0,
+              "peak": 0
+            },
+            "rain": {
+              "rms": 0,
+              "peak": 0
+            }
+          },
+          "preferences": {
+            "muted": true,
+            "music": {
+              "muted": false,
+              "volume": 0.45
+            },
+            "rain": {
+              "muted": false,
+              "volume": 0.18
+            },
+            "effects": {
+              "muted": false,
+              "volume": 0.25
+            }
+          },
+          "savedPreferences": true,
+          "raining": true,
+          "error": null,
+          "score": "Window Notes"
+        }
+      }
+    }
+  ],
+  "passed": true
+}

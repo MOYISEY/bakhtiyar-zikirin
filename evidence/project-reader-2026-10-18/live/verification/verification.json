@@ -1,0 +1,55 @@
+{
+  "sha": "024acc9831db61c7ddfdb21e8496a5b82314ca6f",
+  "base": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "jobs": [
+    {
+      "name": "directed",
+      "script": "C:\\Users\\aldia\\Documents\\Codex\\2026-10-15\\task-2\\project-reader-2026-10-18/live-directed.cjs",
+      "args": [
+        "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "live"
+      ],
+      "scriptSha": "c24b6d56bc8e2146e73981bdc76cf35bdae58da644fa3465ecede8c21ae1baa2",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 75326,
+      "log": "directed-1.log"
+    },
+    {
+      "name": "touch",
+      "script": "scripts/qa-reader-touch.cjs",
+      "args": [
+        "https://moyisey.github.io/bakhtiyar-zikirin/",
+        "live"
+      ],
+      "scriptSha": "ad16455ba7cd35479b7aa5a85bb350f02bd45d75f341279650e096ab3ab29ee1",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 52382,
+      "log": "touch-1.log"
+    },
+    {
+      "name": "models",
+      "script": "C:\\Users\\aldia\\Documents\\Codex\\2026-10-15\\task-2\\project-reader-2026-10-18/model-audit.cjs",
+      "args": [
+        "https://moyisey.github.io/bakhtiyar-zikirin/"
+      ],
+      "scriptSha": "434cf44d52318d94a9af8177beb0d3dcd5f72e9186dc9bdfaf4ffb0b0f8618cb",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 20785,
+      "log": "models-1.log"
+    },
+    {
+      "name": "cold",
+      "script": "C:\\Users\\aldia\\Documents\\Codex\\2026-10-15\\task-2\\project-reader-2026-10-18/live-cold.cjs",
+      "args": [],
+      "scriptSha": "bf74d8fdec387122011deaa57d506b058550bee4a88d1f91c4cf5d02c4368d81",
+      "attempt": 1,
+      "exit": 0,
+      "durationMs": 30014,
+      "log": "cold-1.log"
+    }
+  ],
+  "passed": true
+}

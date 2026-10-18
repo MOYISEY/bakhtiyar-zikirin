@@ -46,4 +46,10 @@ Each settled desk/window sample spans4seconds. RAF callback duration is not GPU 
 
 [Comparable frames](VISUAL-REVIEW.md); [actually viewed original PNG hashes](visual-reviewed.json). Case-top starts at scrollY=0; older captures after details toggles may show lower page sections. Preview frames are existing real app images. No independent external review claimed. Installed Edge/touch emulation only; physical Android, Safari and screen-reader checks remain deferred. Demo QA verifies genuine actions and safe URL opening, not a full regression of external applications.
 
-LIVE_VERIFICATION_PENDING
+## Live publication
+
+Functional commit [024acc9831db61c7ddfdb21e8496a5b82314ca6f](https://github.com/MOYISEY/bakhtiyar-zikirin/commit/024acc9831db61c7ddfdb21e8496a5b82314ca6f) deployed with [Pages success](https://github.com/MOYISEY/bakhtiyar-zikirin/actions/runs/39172531953). Exact head and96 bare/cache-busted responses match Git, including current/previous assets. [Receipt](live/deployment-functional.json).
+
+[Live verification](live/verification/verification.json) passed:4 directed ordinary profiles,3 native profiles (391 assertions),20 touch/motion checks,2 audits of14 decoded models and4 cold navigations. This is a live subset; the full12+8 matrix ran locally. Cold live has zero JS errors, HTTP errors and requestfailed, with all phases ready; [receipt](live/cold/smoke.json). [Actually viewed live PNGs](live/visual-reviewed.json).
+
+The following QA-only commit preserves docs tree f3c562e68c3a35f4919cda828684d4f8ae0ad37c. Its exact Pages head/live-file receipt is checked after publication and stored outside the self-referential commit.
