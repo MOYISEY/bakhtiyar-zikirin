@@ -1,0 +1,71 @@
+{
+  "checks": [
+    "320-ru-dark-no-preference: full card via native document link 0",
+    "320-ru-dark-no-preference: full card via native document link 1",
+    "320-ru-dark-no-preference: full card via native document link 2",
+    "320-ru-dark-no-preference: actual touch swipe scrolls only document strip",
+    "320-ru-dark-no-preference: resizing restores complete desktop row",
+    "390-kk-light-no-preference: full card via native document link 0",
+    "390-kk-light-no-preference: full card via native document link 1",
+    "390-kk-light-no-preference: full card via native document link 2",
+    "390-kk-light-no-preference: actual touch swipe scrolls only document strip",
+    "390-kk-light-no-preference: resizing restores complete desktop row",
+    "760-en-dark-no-preference: full card via native document link 0",
+    "760-en-dark-no-preference: full card via native document link 1",
+    "760-en-dark-no-preference: full card via native document link 2",
+    "760-en-dark-no-preference: actual touch swipe scrolls only document strip",
+    "760-en-dark-no-preference: resizing restores complete desktop row",
+    "320-en-light-reduce: full card via native document link 0",
+    "320-en-light-reduce: full card via native document link 1",
+    "320-en-light-reduce: full card via native document link 2",
+    "320-en-light-reduce: actual touch swipe scrolls only document strip",
+    "320-en-light-reduce: resizing restores complete desktop row",
+    "390-ru-light-nojs: full card via native document link 0",
+    "390-ru-light-nojs: full card via native document link 1",
+    "390-ru-light-nojs: full card via native document link 2",
+    "390-ru-light-nojs: native anchors work without application JS",
+    "390-ru-dark-nojs: full card via native document link 0",
+    "390-ru-dark-nojs: full card via native document link 1",
+    "390-ru-dark-nojs: full card via native document link 2",
+    "390-ru-dark-nojs: native anchors work without application JS"
+  ],
+  "cases": [
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "dark",
+      "motion": "no-preference"
+    },
+    {
+      "width": 390,
+      "lang": "kk",
+      "theme": "light",
+      "motion": "no-preference"
+    },
+    {
+      "width": 760,
+      "lang": "en",
+      "theme": "dark",
+      "motion": "no-preference"
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "light",
+      "motion": "reduce"
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "light",
+      "nojs": true
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "nojs": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,940 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "browser": "155.0.4283.62",
+  "method": "Actual Edge canvas and semantic controls. Read-only geometry/raycast observer; camera moved only by native menu/keys. One explicit optional-projection failure injection tests fallback; authorization is never replaced.",
+  "checks": [
+    "desktop-reduce diploma: marker centre is unavailable",
+    "desktop-reduce diploma: visible print edge retains original4m ray limit",
+    "desktop-reduce diploma: actual surface is authorized",
+    "desktop-reduce diploma: actual pointer identifies the document",
+    "desktop-reduce diploma: correct document opens",
+    "scene: focus returns to its initiator",
+    "desktop-reduce diploma: normal keyboard marker remains available",
+    "desktop-reduce diploma: keyboard opens its document",
+    "object-wall-diploma: focus returns to its initiator",
+    "desktop-reduce hackalem: marker centre is unavailable",
+    "desktop-reduce hackalem: visible print edge retains original4m ray limit",
+    "desktop-reduce hackalem: actual surface is authorized",
+    "desktop-reduce hackalem: actual pointer identifies the document",
+    "desktop-reduce hackalem: correct document opens",
+    "scene: focus returns to its initiator",
+    "desktop-reduce hackalem: normal keyboard marker remains available",
+    "desktop-reduce hackalem: keyboard opens its document",
+    "object-wall-hackalem: focus returns to its initiator",
+    "desktop-reduce certificate: marker centre is unavailable",
+    "desktop-reduce certificate: visible print edge retains original4m ray limit",
+    "desktop-reduce certificate: actual surface is authorized",
+    "desktop-reduce certificate: actual pointer identifies the document",
+    "desktop-reduce certificate: correct document opens",
+    "scene: focus returns to its initiator",
+    "desktop-reduce certificate: normal keyboard marker remains available",
+    "desktop-reduce certificate: keyboard opens its document",
+    "object-wall-certificate: focus returns to its initiator",
+    "desktop-reduce: valid action opens without optional animation projection",
+    "object-wall-diploma: focus returns to its initiator",
+    "desktop-reduce: old actual surface is rejected from corridor",
+    "desktop-reduce diploma: forced stale keyboard marker cannot open through corridor",
+    "desktop-reduce hackalem: forced stale keyboard marker cannot open through corridor",
+    "desktop-reduce certificate: forced stale keyboard marker cannot open through corridor",
+    "desktop-reduce: no runtime errors",
+    "desktop-no-preference diploma: marker centre is unavailable",
+    "desktop-no-preference diploma: visible print edge retains original4m ray limit",
+    "desktop-no-preference diploma: actual surface is authorized",
+    "desktop-no-preference diploma: actual pointer identifies the document",
+    "desktop-no-preference diploma: correct document opens",
+    "scene: focus returns to its initiator",
+    "desktop-no-preference diploma: normal keyboard marker remains available",
+    "desktop-no-preference diploma: keyboard opens its document",
+    "object-wall-diploma: focus returns to its initiator",
+    "desktop-no-preference hackalem: marker centre is unavailable",
+    "desktop-no-preference hackalem: visible print edge retains original4m ray limit",
+    "desktop-no-preference hackalem: actual surface is authorized",
+    "desktop-no-preference hackalem: actual pointer identifies the document",
+    "desktop-no-preference hackalem: correct document opens",
+    "scene: focus returns to its initiator",
+    "desktop-no-preference hackalem: normal keyboard marker remains available",
+    "desktop-no-preference hackalem: keyboard opens its document",
+    "object-wall-hackalem: focus returns to its initiator",
+    "desktop-no-preference certificate: marker centre is unavailable",
+    "desktop-no-preference certificate: visible print edge retains original4m ray limit",
+    "desktop-no-preference certificate: actual surface is authorized",
+    "desktop-no-preference certificate: actual pointer identifies the document",
+    "desktop-no-preference certificate: correct document opens",
+    "scene: focus returns to its initiator",
+    "desktop-no-preference certificate: normal keyboard marker remains available",
+    "desktop-no-preference certificate: keyboard opens its document",
+    "object-wall-certificate: focus returns to its initiator",
+    "desktop-no-preference: valid action opens without optional animation projection",
+    "object-wall-diploma: focus returns to its initiator",
+    "desktop-no-preference: old actual surface is rejected from corridor",
+    "desktop-no-preference diploma: forced stale keyboard marker cannot open through corridor",
+    "desktop-no-preference hackalem: forced stale keyboard marker cannot open through corridor",
+    "desktop-no-preference certificate: forced stale keyboard marker cannot open through corridor",
+    "desktop-no-preference: no runtime errors",
+    "touch-reduce diploma: marker centre is unavailable",
+    "touch-reduce diploma: visible print edge retains original4m ray limit",
+    "touch-reduce diploma: actual surface is authorized"
+  ],
+  "cases": [
+    {
+      "name": "desktop-reduce",
+      "cases": [
+        {
+          "id": "diploma",
+          "lang": "ru",
+          "edge": {
+            "up": 5,
+            "doc": {
+              "id": "diploma",
+              "center": {
+                "x": 204.46925076081678,
+                "y": 26.55673994505604,
+                "z": 0.9496776793837197
+              },
+              "marker": false,
+              "bounds": {
+                "x": 20.744063250488853,
+                "y": -118.87499208627503,
+                "width": 356.2448981499836,
+                "height": 246.9460452346956
+              },
+              "points": [
+                {
+                  "x": 54.682667088201356,
+                  "y": 120.91674899039704,
+                  "z": 0.9502836793513334,
+                  "action": "wall-diploma",
+                  "distance": 2.5806763471711616,
+                  "element": "scene"
+                },
+                {
+                  "x": 111.10557298845737,
+                  "y": 120.91674899039704,
+                  "z": 0.9502836793513334,
+                  "action": "wall-diploma",
+                  "distance": 2.5136466519235747,
+                  "element": "scene"
+                },
+                {
+                  "x": 210.67540693008561,
+                  "y": 120.91674899039704,
+                  "z": 0.9502836793513334,
+                  "action": "wall-diploma",
+                  "distance": 2.4061577857655143,
+                  "element": "scene"
+                },
+                {
+                  "x": 310.245240871714,
+                  "y": 120.91674899039704,
+                  "z": 0.9502836793513334,
+                  "action": "wall-diploma",
+                  "distance": 2.3140759537361104,
+                  "element": "scene"
+                },
+                {
+                  "x": 366.66814677197,
+                  "y": 120.91674899039704,
+                  "z": 0.9502836793513334,
+                  "action": "wall-diploma",
+                  "distance": 2.269460505827439,
+                  "element": "scene"
+                }
+              ]
+            },
+            "point": {
+              "x": 54.682667088201356,
+              "y": 120.91674899039704,
+              "z": 0.9502836793513334,
+              "action": "wall-diploma",
+              "distance": 2.5806763471711616,
+              "element": "scene"
+            }
+          },
+          "saved": {
+            "action": "wall-diploma",
+            "distance": 2.5806763471711616,
+            "allowed": true
+          }
+        },
+        {
+          "id": "hackalem",
+          "lang": "kk",
+          "edge": {
+            "up": 5,
+            "doc": {
+              "id": "hackalem",
+              "center": {
+                "x": 706.0667365070491,
+                "y": 26.55673994505609,
+                "z": 0.9496776793837197
+              },
+              "marker": false,
+              "bounds": {
+                "x": 551.9764864127959,
+                "y": -118.87499208627491,
+                "width": 307.5382329774027,
+                "height": 246.94604523469556
+              },
+              "points": [
+                {
+                  "x": 566.6487339971134,
+                  "y": 120.91674899039708,
+                  "z": 0.9502836793513334,
+                  "action": "wall-hackalem",
+                  "distance": 2.1608307867312604,
+                  "element": "scene"
+                },
+                {
+                  "x": 617.1371918657891,
+                  "y": 120.91674899039708,
+                  "z": 0.9502836793513334,
+                  "action": "wall-hackalem",
+                  "distance": 2.1465669362501227,
+                  "element": "scene"
+                },
+                {
+                  "x": 706.2344704575697,
+                  "y": 120.91674899039708,
+                  "z": 0.9502836793513334,
+                  "action": "wall-hackalem",
+                  "distance": 2.1350398801895945,
+                  "element": "scene"
+                },
+                {
+                  "x": 795.3317490493505,
+                  "y": 120.91674899039708,
+                  "z": 0.9502836793513334,
+                  "action": "wall-hackalem",
+                  "distance": 2.1411325603354068,
+                  "element": "scene"
+                },
+                {
+                  "x": 845.8202069180261,
+                  "y": 120.91674899039708,
+                  "z": 0.9502836793513334,
+                  "action": "wall-hackalem",
+                  "distance": 2.152367262926266,
+                  "element": "scene"
+                }
+              ]
+            },
+            "point": {
+              "x": 566.6487339971134,
+              "y": 120.91674899039708,
+              "z": 0.9502836793513334,
+              "action": "wall-hackalem",
+              "distance": 2.1608307867312604,
+              "element": "scene"
+            }
+          },
+          "saved": {
+            "action": "wall-hackalem",
+            "distance": 2.1608307867312604,
+            "allowed": true
+          }
+        },
+        {
+          "id": "certificate",
+          "lang": "en",
+          "edge": {
+            "up": 5,
+            "doc": {
+              "id": "certificate",
+              "center": {
+                "x": 1207.664222253281,
+                "y": 26.55673994505609,
+                "z": 0.9496776793837197
+              },
+              "marker": false,
+              "bounds": {
+                "x": 1048.0875536883536,
+                "y": -118.87499208627491,
+                "width": 329.6206621146239,
+                "height": 246.94604523469562
+              },
+              "points": [
+                {
+                  "x": 1057.6370343099034,
+                  "y": 120.91674899039708,
+                  "z": 0.9502836793513334,
+                  "action": "wall-certificate",
+                  "distance": 2.258084004094161,
+                  "element": "scene"
+                },
+                {
+                  "x": 1109.778746958362,
+                  "y": 120.91674899039708,
+                  "z": 0.9502836793513334,
+                  "action": "wall-certificate",
+                  "distance": 2.297626904171434,
+                  "element": "scene"
+                },
+                {
+                  "x": 1201.7935339850537,
+                  "y": 120.91674899039708,
+                  "z": 0.9502836793513334,
+                  "action": "wall-certificate",
+                  "distance": 2.3790744607935235,
+                  "element": "scene"
+                },
+                {
+                  "x": 1293.8083210117454,
+                  "y": 120.91674899039708,
+                  "z": 0.9502836793513334,
+                  "action": "wall-certificate",
+                  "distance": 2.47413180666321,
+                  "element": "scene"
+                },
+                {
+                  "x": 1345.9500336602039,
+                  "y": 120.91674899039718,
+                  "z": 0.9502836793513334,
+                  "action": "wall-certificate",
+                  "distance": 2.5334661695456853,
+                  "element": "scene"
+                }
+              ]
+            },
+            "point": {
+              "x": 1057.6370343099034,
+              "y": 120.91674899039708,
+              "z": 0.9502836793513334,
+              "action": "wall-certificate",
+              "distance": 2.258084004094161,
+              "element": "scene"
+            }
+          },
+          "saved": {
+            "action": "wall-certificate",
+            "distance": 2.258084004094161,
+            "allowed": true
+          }
+        }
+      ],
+      "stale": {
+        "kind": "wall-certificate",
+        "distance": 9.616362367439814,
+        "zone": false,
+        "frustum": true,
+        "frontAction": null,
+        "allowed": false
+      },
+      "errors": []
+    },
+    {
+      "name": "desktop-no-preference",
+      "cases": [
+        {
+          "id": "diploma",
+          "lang": "ru",
+          "edge": {
+            "up": 5,
+            "doc": {
+              "id": "diploma",
+              "center": {
+                "x": 203.6142004090939,
+                "y": 22.535877079580263,
+                "z": 0.9495941880125146
+              },
+              "marker": false,
+              "bounds": {
+                "x": 19.18663455061185,
+                "y": -123.46151783660426,
+                "width": 357.36944258220785,
+                "height": 247.80840283177523
+              },
+              "points": [
+                {
+                  "x": 53.82444035756059,
+                  "y": 117.17431166642646,
+                  "z": 0.950219526236178,
+                  "action": "wall-diploma",
+                  "distance": 2.5806763471712304,
+                  "element": "scene"
+                },
+                {
+                  "x": 110.32012903953516,
+                  "y": 117.17431166636452,
+                  "z": 0.9502195262361623,
+                  "action": "wall-diploma",
+                  "distance": 2.5136466519236405,
+                  "element": "scene"
+                },
+                {
+                  "x": 210.01840318428302,
+                  "y": 117.17431166625529,
+                  "z": 0.9502195262361347,
+                  "action": "wall-diploma",
+                  "distance": 2.4061577857655716,
+                  "element": "scene"
+                },
+                {
+                  "x": 309.7166773291416,
+                  "y": 117.17431166614618,
+                  "z": 0.9502195262361071,
+                  "action": "wall-diploma",
+                  "distance": 2.31407595373616,
+                  "element": "scene"
+                },
+                {
+                  "x": 366.21236601127697,
+                  "y": 117.17431166608434,
+                  "z": 0.9502195262360914,
+                  "action": "wall-diploma",
+                  "distance": 2.269460505827484,
+                  "element": "scene"
+                }
+              ]
+            },
+            "point": {
+              "x": 53.82444035756059,
+              "y": 117.17431166642646,
+              "z": 0.950219526236178,
+              "action": "wall-diploma",
+              "distance": 2.5806763471712304,
+              "element": "scene"
+            }
+          },
+          "saved": {
+            "action": "wall-diploma",
+            "distance": 2.5807999190513566,
+            "allowed": true
+          }
+        },
+        {
+          "id": "hackalem",
+          "lang": "kk",
+          "edge": {
+            "up": 5,
+            "doc": {
+              "id": "hackalem",
+              "center": {
+                "x": 706.0403052456517,
+                "y": 21.96047215305728,
+                "z": 0.9495821868283895
+              },
+              "marker": false,
+              "bounds": {
+                "x": 551.5484865355967,
+                "y": -124.11829785857468,
+                "width": 308.3216133694581,
+                "height": 247.9324775580048
+              },
+              "points": [
+                {
+                  "x": 566.4224600282258,
+                  "y": 116.63897607339459,
+                  "z": 0.9502102969740682,
+                  "action": "wall-hackalem",
+                  "distance": 2.1608307867312613,
+                  "element": "scene"
+                },
+                {
+                  "x": 616.9854149913353,
+                  "y": 116.63897607339459,
+                  "z": 0.9502102969740682,
+                  "action": "wall-hackalem",
+                  "distance": 2.1465669362501236,
+                  "element": "scene"
+                },
+                {
+                  "x": 706.2141590438816,
+                  "y": 116.63897607339459,
+                  "z": 0.9502102969740682,
+                  "action": "wall-hackalem",
+                  "distance": 2.135039880189595,
+                  "element": "scene"
+                },
+                {
+                  "x": 795.4429030964279,
+                  "y": 116.63897607339459,
+                  "z": 0.9502102969740682,
+                  "action": "wall-hackalem",
+                  "distance": 2.1411325603354068,
+                  "element": "scene"
+                },
+                {
+                  "x": 846.0058580595374,
+                  "y": 116.63897607339459,
+                  "z": 0.9502102969740682,
+                  "action": "wall-hackalem",
+                  "distance": 2.1523672629262665,
+                  "element": "scene"
+                }
+              ]
+            },
+            "point": {
+              "x": 566.4224600282258,
+              "y": 116.63897607339459,
+              "z": 0.9502102969740682,
+              "action": "wall-hackalem",
+              "distance": 2.1608307867312613,
+              "element": "scene"
+            }
+          },
+          "saved": {
+            "action": "wall-hackalem",
+            "distance": 2.160954073808082,
+            "allowed": true
+          }
+        },
+        {
+          "id": "certificate",
+          "lang": "en",
+          "edge": {
+            "up": 5,
+            "doc": {
+              "id": "certificate",
+              "center": {
+                "x": 1208.4758180703702,
+                "y": 22.522188186768933,
+                "z": 0.9495939026583343
+              },
+              "marker": false,
+              "bounds": {
+                "x": 1048.5030206309116,
+                "y": -123.47714140494462,
+                "width": 330.67509059934355,
+                "height": 247.81135263135758
+              },
+              "points": [
+                {
+                  "x": 1058.0740591923022,
+                  "y": 117.16157536900305,
+                  "z": 0.9502193068128234,
+                  "action": "wall-certificate",
+                  "distance": 2.2580840040941617,
+                  "element": "scene"
+                },
+                {
+                  "x": 1110.2832621440234,
+                  "y": 117.16157536900305,
+                  "z": 0.9502193068128234,
+                  "action": "wall-certificate",
+                  "distance": 2.297626904171435,
+                  "element": "scene"
+                },
+                {
+                  "x": 1202.4171497058844,
+                  "y": 117.16157536900305,
+                  "z": 0.9502193068128234,
+                  "action": "wall-certificate",
+                  "distance": 2.3790744607935244,
+                  "element": "scene"
+                },
+                {
+                  "x": 1294.5510372677454,
+                  "y": 117.16157536900305,
+                  "z": 0.9502193068128234,
+                  "action": "wall-certificate",
+                  "distance": 2.47413180666321,
+                  "element": "scene"
+                },
+                {
+                  "x": 1346.7602402194666,
+                  "y": 117.16157536900305,
+                  "z": 0.9502193068128234,
+                  "action": "wall-certificate",
+                  "distance": 2.533466169545685,
+                  "element": "scene"
+                }
+              ]
+            },
+            "point": {
+              "x": 1058.0740591923022,
+              "y": 117.16157536900305,
+              "z": 0.9502193068128234,
+              "action": "wall-certificate",
+              "distance": 2.2580840040941617,
+              "element": "scene"
+            }
+          },
+          "saved": {
+            "action": "wall-certificate",
+            "distance": 2.2581955793874338,
+            "allowed": true
+          }
+        }
+      ],
+      "stale": {
+        "kind": "wall-certificate",
+        "distance": 9.616319762113292,
+        "zone": false,
+        "frustum": true,
+        "frontAction": null,
+        "allowed": false
+      },
+      "errors": []
+    }
+  ],
+  "passed": false,
+  "failure": {
+    "name": "touch-reduce",
+    "message": "touch-reduce diploma: first actual touch explains the document",
+    "state": {
+      "firstFrameAt": 521.7000000001863,
+      "fullSceneAt": 1631.1000000005588,
+      "shadowUpdates": 324,
+      "cachedShadowFrames": 0,
+      "cabinetVelocity": 0,
+      "doorNear": true,
+      "doorStopProgress": 0.4383676052093506,
+      "doorOpenAngle": 1.54,
+      "doorPassAngle": 1.48,
+      "window": {
+        "loaded": true,
+        "meshes": [
+          {
+            "uv2": true,
+            "material": "Powder_coat_warm_ivory",
+            "lightmap": "srgb",
+            "channel": 1,
+            "flipY": false,
+            "intensity": 3.141592653589793,
+            "indirectOnly": true
+          },
+          {
+            "uv2": true,
+            "material": "EPDM_seal",
+            "lightmap": "srgb",
+            "channel": 1,
+            "flipY": false,
+            "intensity": 3.141592653589793,
+            "indirectOnly": true
+          },
+          {
+            "uv2": true,
+            "material": "Brushed_handle",
+            "lightmap": "srgb",
+            "channel": 1,
+            "flipY": false,
+            "intensity": 3.141592653589793,
+            "indirectOnly": true
+          },
+          {
+            "uv2": true,
+            "material": "Honed_limestone_sill",
+            "lightmap": "srgb",
+            "channel": 1,
+            "flipY": false,
+            "intensity": 3.141592653589793,
+            "indirectOnly": true
+          },
+          {
+            "uv2": true,
+            "material": "Painted_wall_fern",
+            "lightmap": "srgb",
+            "channel": 1,
+            "flipY": false,
+            "intensity": 3.141592653589793,
+            "indirectOnly": true
+          },
+          {
+            "uv2": true,
+            "material": "Warm_lime_reveal",
+            "lightmap": "srgb",
+            "channel": 1,
+            "flipY": false,
+            "intensity": 3.141592653589793,
+            "indirectOnly": true
+          }
+        ],
+        "liveLamp": 14
+      },
+      "lighting": {
+        "closedCorridorEnd": true,
+        "ceilingPanels": 4,
+        "corridorLights": [
+          {
+            "position": [
+              0,
+              2.94,
+              4.5
+            ],
+            "intensity": 20
+          },
+          {
+            "position": [
+              0,
+              2.94,
+              7.9
+            ],
+            "intensity": 20
+          },
+          {
+            "position": [
+              0,
+              2.94,
+              10.5
+            ],
+            "intensity": 20
+          }
+        ],
+        "taskLight": {
+          "position": [
+            1.075,
+            1.4961344953536986,
+            -1.7688409498631954
+          ],
+          "intensity": 14,
+          "shadowBias": -0.0003,
+          "normalBias": 0.01
+        },
+        "environmentIntensity": 0.24,
+        "fill": 0.55,
+        "daylight": {
+          "cascades": 3,
+          "splitsM": [
+            16,
+            135,
+            720
+          ],
+          "mapSize": 2048,
+          "oneSun": true,
+          "filterRadius": 4
+        },
+        "plaques": [
+          {
+            "number": "01",
+            "offsetY": 0,
+            "frontGap": 0.0005000000000000004
+          },
+          {
+            "number": "02",
+            "offsetY": 0,
+            "frontGap": 0.0005000000000000004
+          },
+          {
+            "number": "03",
+            "offsetY": 0,
+            "frontGap": 0.0005000000000000004
+          }
+        ]
+      },
+      "showcase": {
+        "id": "helio",
+        "source": "assets/helio.webp",
+        "updates": 0,
+        "dynamicTextures": 0,
+        "width": 0,
+        "height": 0
+      },
+      "weather": {
+        "fogNear": 115,
+        "fogFar": 620,
+        "rainCount": 760,
+        "glassBeads": 95,
+        "animatedFrames": 0,
+        "time": 0,
+        "windowVisible": false,
+        "maxRainFPS": 24,
+        "extraDrawCalls": 3,
+        "audioChanged": false,
+        "paused": false,
+        "reduced": true
+      },
+      "stream": {
+        "ready": true,
+        "warming": false,
+        "warmError": null,
+        "skyFallback": false,
+        "phases": {
+          "room": {
+            "status": "ready",
+            "completed": 20,
+            "total": 20,
+            "failed": [],
+            "error": null
+          },
+          "decor": {
+            "status": "ready",
+            "completed": 13,
+            "total": 13,
+            "failed": [],
+            "error": null
+          },
+          "expo": {
+            "status": "ready",
+            "completed": 4,
+            "total": 4,
+            "failed": [],
+            "error": null
+          }
+        }
+      },
+      "cameraClear": true,
+      "viewName": "cabinet",
+      "progress": 1,
+      "target": 1,
+      "doorAngle": 1.54,
+      "camera": [
+        -0.55,
+        1.05,
+        -0.3400000000000001
+      ],
+      "look": [
+        0.12,
+        0.5
+      ],
+      "move": [
+        0,
+        0
+      ],
+      "lamp": true,
+      "brightness": 1,
+      "pull": 0,
+      "folder": 0,
+      "drawer": 0,
+      "collection": {
+        "variant": "authored-bifold-sliding",
+        "opening": 1,
+        "itemsAccessible": true,
+        "leftAngle": -1.5707963267948966,
+        "rightAngle": 1.5707963267948966,
+        "limit": 1.5707963267948966
+      },
+      "furniture": {
+        "variant": "authored",
+        "drawerTravel": 0.29,
+        "drawerOffset": 0,
+        "doorHinge": [
+          -0.515,
+          0.025,
+          1.9
+        ]
+      },
+      "held": false,
+      "pointerKind": null,
+      "pullThreshold": 0.065,
+      "pullLimit": 0.12,
+      "office": {
+        "doorWidth": 1.03,
+        "doorHeight": 2.35,
+        "corridorWidth": 2.65,
+        "sideDoors": [
+          "01",
+          "02",
+          "03"
+        ],
+        "corridorLength": 9.47,
+        "corridorHeight": 3,
+        "routeLength": 8
+      },
+      "assets": [
+        {
+          "id": "chair",
+          "nativeScale": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            1.0704697634276144,
+            0.826019287109375,
+            1.053371867630922
+          ],
+          "floorGap": 0,
+          "source": "studio-furniture/chair"
+        },
+        {
+          "id": "lamp",
+          "nativeScale": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            0.20000000298023224,
+            0.8564311042428016,
+            0.387474462389946
+          ],
+          "source": "studio-furniture/lamp"
+        },
+        {
+          "id": "cabinet",
+          "nativeScale": [
+            1,
+            1,
+            1
+          ],
+          "floorGap": 0,
+          "bounds": [
+            0.6179999905154117,
+            0.6800000071525574,
+            2.440000057220459
+          ]
+        },
+        {
+          "id": "side_table",
+          "nativeScale": [
+            1,
+            1,
+            1
+          ],
+          "floorGap": 0,
+          "bounds": [
+            0.6819042689954671,
+            0.550000011920929,
+            0.6122396309200582
+          ]
+        }
+      ],
+      "drawCalls": 773,
+      "textureCount": 84,
+      "triangles": 1066868,
+      "frames": 4412,
+      "renders": 324,
+      "audio": {
+        "armed": true,
+        "inside": true,
+        "state": "running",
+        "needsGesture": false,
+        "resumePending": false,
+        "resumeAttempts": 1,
+        "musicReady": true,
+        "preparationMode": "worker",
+        "musicDuration": 64,
+        "sourceStarts": {
+          "music": 1,
+          "rain": 1,
+          "effects": 0
+        },
+        "desiredMaster": 0.65,
+        "levels": {
+          "master": {
+            "rms": 0.05429900606517069,
+            "peak": 0.18032222986221313
+          },
+          "music": {
+            "rms": 0.08100159551011707,
+            "peak": 0.2261645793914795
+          },
+          "rain": {
+            "rms": 0.02344790562524377,
+            "peak": 0.07406774163246155
+          }
+        },
+        "preferences": {
+          "muted": false,
+          "music": {
+            "muted": false,
+            "volume": 0.45
+          },
+          "rain": {
+            "muted": false,
+            "volume": 0.18
+          },
+          "effects": {
+            "muted": false,
+            "volume": 0.25
+          }
+        },
+        "savedPreferences": false,
+        "raining": true,
+        "error": null,
+        "score": "Window Notes"
+      }
+    },
+    "errors": []
+  }
+}

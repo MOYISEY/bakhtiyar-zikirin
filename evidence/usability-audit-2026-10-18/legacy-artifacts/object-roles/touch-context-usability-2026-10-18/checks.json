@@ -1,0 +1,190 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "checks": [
+    "no-preference ru cube: first touch names its actual object",
+    "no-preference ru cube: deliberate second tap opens once",
+    "no-preference ru robot: first touch names its actual object",
+    "no-preference ru robot: deliberate second tap opens once",
+    "no-preference ru orbit: first touch names its actual object",
+    "no-preference ru orbit: deliberate second tap opens once",
+    "no-preference kk cube: first touch names its actual object",
+    "no-preference kk cube: deliberate second tap opens once",
+    "no-preference kk robot: first touch names its actual object",
+    "no-preference kk robot: deliberate second tap opens once",
+    "no-preference kk orbit: first touch names its actual object",
+    "no-preference kk orbit: deliberate second tap opens once",
+    "no-preference en cube: first touch names its actual object",
+    "no-preference en cube: deliberate second tap opens once",
+    "no-preference en robot: first touch names its actual object",
+    "no-preference en robot: deliberate second tap opens once",
+    "no-preference en orbit: first touch names its actual object",
+    "no-preference en orbit: deliberate second tap opens once",
+    "no-preference: no runtime errors",
+    "reduce ru cube: first touch names its actual object",
+    "reduce ru cube: deliberate second tap opens once",
+    "reduce ru robot: first touch names its actual object",
+    "reduce ru robot: deliberate second tap opens once",
+    "reduce ru orbit: first touch names its actual object",
+    "reduce ru orbit: deliberate second tap opens once",
+    "reduce kk cube: first touch names its actual object",
+    "reduce kk cube: deliberate second tap opens once",
+    "reduce kk robot: first touch names its actual object",
+    "reduce kk robot: deliberate second tap opens once",
+    "reduce kk orbit: first touch names its actual object",
+    "reduce kk orbit: deliberate second tap opens once",
+    "reduce en cube: first touch names its actual object",
+    "reduce en cube: deliberate second tap opens once",
+    "reduce en robot: first touch names its actual object",
+    "reduce en robot: deliberate second tap opens once",
+    "reduce en orbit: first touch names its actual object",
+    "reduce en orbit: deliberate second tap opens once",
+    "reduce: no runtime errors"
+  ],
+  "cases": [
+    {
+      "motion": "no-preference",
+      "lang": "ru",
+      "id": "cube",
+      "expected": "Собрать кубик",
+      "text": "Собрать кубик · ещё раз — открыть",
+      "open": false
+    },
+    {
+      "motion": "no-preference",
+      "lang": "ru",
+      "id": "robot",
+      "expected": "Рассмотреть робота",
+      "text": "Рассмотреть робота · ещё раз — открыть",
+      "open": false
+    },
+    {
+      "motion": "no-preference",
+      "lang": "ru",
+      "id": "orbit",
+      "expected": "Рассмотреть орбиту",
+      "text": "Рассмотреть орбиту · ещё раз — открыть",
+      "open": false
+    },
+    {
+      "motion": "no-preference",
+      "lang": "kk",
+      "id": "cube",
+      "expected": "Текшені құрау",
+      "text": "Текшені құрау · қайта түрту — ашу",
+      "open": false
+    },
+    {
+      "motion": "no-preference",
+      "lang": "kk",
+      "id": "robot",
+      "expected": "Роботты қарау",
+      "text": "Роботты қарау · қайта түрту — ашу",
+      "open": false
+    },
+    {
+      "motion": "no-preference",
+      "lang": "kk",
+      "id": "orbit",
+      "expected": "Орбитаны қарау",
+      "text": "Орбитаны қарау · қайта түрту — ашу",
+      "open": false
+    },
+    {
+      "motion": "no-preference",
+      "lang": "en",
+      "id": "cube",
+      "expected": "Solve the cube",
+      "text": "Solve the cube · tap again to open",
+      "open": false
+    },
+    {
+      "motion": "no-preference",
+      "lang": "en",
+      "id": "robot",
+      "expected": "Inspect robot",
+      "text": "Inspect robot · tap again to open",
+      "open": false
+    },
+    {
+      "motion": "no-preference",
+      "lang": "en",
+      "id": "orbit",
+      "expected": "Inspect orbit",
+      "text": "Inspect orbit · tap again to open",
+      "open": false
+    },
+    {
+      "motion": "reduce",
+      "lang": "ru",
+      "id": "cube",
+      "expected": "Собрать кубик",
+      "text": "Собрать кубик · ещё раз — открыть",
+      "open": false
+    },
+    {
+      "motion": "reduce",
+      "lang": "ru",
+      "id": "robot",
+      "expected": "Рассмотреть робота",
+      "text": "Рассмотреть робота · ещё раз — открыть",
+      "open": false
+    },
+    {
+      "motion": "reduce",
+      "lang": "ru",
+      "id": "orbit",
+      "expected": "Рассмотреть орбиту",
+      "text": "Рассмотреть орбиту · ещё раз — открыть",
+      "open": false
+    },
+    {
+      "motion": "reduce",
+      "lang": "kk",
+      "id": "cube",
+      "expected": "Текшені құрау",
+      "text": "Текшені құрау · қайта түрту — ашу",
+      "open": false
+    },
+    {
+      "motion": "reduce",
+      "lang": "kk",
+      "id": "robot",
+      "expected": "Роботты қарау",
+      "text": "Роботты қарау · қайта түрту — ашу",
+      "open": false
+    },
+    {
+      "motion": "reduce",
+      "lang": "kk",
+      "id": "orbit",
+      "expected": "Орбитаны қарау",
+      "text": "Орбитаны қарау · қайта түрту — ашу",
+      "open": false
+    },
+    {
+      "motion": "reduce",
+      "lang": "en",
+      "id": "cube",
+      "expected": "Solve the cube",
+      "text": "Solve the cube · tap again to open",
+      "open": false
+    },
+    {
+      "motion": "reduce",
+      "lang": "en",
+      "id": "robot",
+      "expected": "Inspect robot",
+      "text": "Inspect robot · tap again to open",
+      "open": false
+    },
+    {
+      "motion": "reduce",
+      "lang": "en",
+      "id": "orbit",
+      "expected": "Inspect orbit",
+      "text": "Inspect orbit · tap again to open",
+      "open": false
+    }
+  ],
+  "passed": true
+}

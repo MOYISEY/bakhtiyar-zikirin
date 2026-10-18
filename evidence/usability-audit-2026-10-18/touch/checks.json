@@ -1,0 +1,137 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "checks": [
+    "320x844: actual touch pans the original horizontally",
+    "320x844: actual touch pans the original vertically",
+    "320x844: touch remains inside reader and scene stays held",
+    "320x844: camera unaffected by touch reading",
+    "320x844: touch close returns actual marker focus",
+    "320x844: no runtime errors",
+    "390x844: actual touch pans the original horizontally",
+    "390x844: actual touch pans the original vertically",
+    "390x844: touch remains inside reader and scene stays held",
+    "390x844: camera unaffected by touch reading",
+    "390x844: touch close returns actual marker focus",
+    "390x844: no runtime errors",
+    "844x390: actual touch pans the original horizontally",
+    "844x390: actual touch pans the original vertically",
+    "844x390: touch remains inside reader and scene stays held",
+    "844x390: camera unaffected by touch reading",
+    "844x390: touch close returns actual marker focus",
+    "844x390: no runtime errors",
+    "explicit open animates the sheet for240ms",
+    "explicit close animates the sheet for180ms"
+  ],
+  "cases": [
+    {
+      "viewport": {
+        "width": 320,
+        "height": 844
+      },
+      "before": {
+        "x": 648,
+        "y": 226
+      },
+      "horizontal": {
+        "x": 855,
+        "y": 226
+      },
+      "vertical": {
+        "x": 855,
+        "y": 699
+      },
+      "errors": []
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "before": {
+        "x": 413,
+        "y": 360
+      },
+      "horizontal": {
+        "x": 694,
+        "y": 360
+      },
+      "vertical": {
+        "x": 694,
+        "y": 937
+      },
+      "errors": []
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "before": {
+        "x": 194,
+        "y": 585
+      },
+      "horizontal": {
+        "x": 1087,
+        "y": 585
+      },
+      "vertical": {
+        "x": 1087,
+        "y": 668
+      },
+      "errors": []
+    }
+  ],
+  "motion": [
+    {
+      "kind": "open",
+      "observed": [
+        {
+          "duration": 240,
+          "time": 0,
+          "frames": [
+            {
+              "offset": null,
+              "easing": "linear",
+              "composite": "auto",
+              "transform": "translate(-507.38px, -356.485px) scale(0.352352, 0.352118)",
+              "computedOffset": 0
+            },
+            {
+              "offset": null,
+              "easing": "linear",
+              "composite": "auto",
+              "transform": "translate(0px, 0px) scale(1, 1)",
+              "computedOffset": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "close",
+      "observed": [
+        {
+          "duration": 180,
+          "time": 0,
+          "frames": [
+            {
+              "offset": null,
+              "easing": "linear",
+              "composite": "auto",
+              "transform": "translate(0px, 0px) scale(1, 1)",
+              "computedOffset": 0
+            },
+            {
+              "offset": null,
+              "easing": "linear",
+              "composite": "auto",
+              "transform": "translate(-507.38px, -356.485px) scale(0.352352, 0.352118)",
+              "computedOffset": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,13 @@
+PASS room-desktop-ru-reduce
+PASS room-touch-ru-reduce
+PASS room-desktop-kk-reduce
+PASS room-touch-kk-reduce
+PASS room-desktop-en-reduce
+PASS room-touch-en-reduce
+PASS room-desktop-ru-no-preference
+PASS room-touch-ru-no-preference
+PASS negative-pending-close
+PASS negative-image-failure
+PASS negative-resize
+PASS negative-context-loss
+{"passed":true,"checks":554,"ordinary":0,"room":8,"negative":4}

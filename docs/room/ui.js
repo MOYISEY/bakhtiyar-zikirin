@@ -84,22 +84,22 @@ function ensureReader(){
  readerMotion.addEventListener('change',e=>{if(e.matches)cancelReaderAnimation()});window.addEventListener('resize',cancelReaderAnimation);
  window.addEventListener('pagehide',()=>{if(reader?.open){cancelReaderAnimation();reader.close()}});
 }
-function openWallDocument(type,from){
- if(app?.hold||!window.sliceUsable||window.sliceFatal)return;const d=DOCUMENTS.find(d=>'wall-'+d.id===type),source=app?.documentBounds?.(type);if(!d||!source)return;
+function openWallDocument(type,from,surface){
+ if(app?.hold||!window.sliceUsable||window.sliceFatal)return;const d=DOCUMENTS.find(d=>'wall-'+d.id===type);if(!d||!app?.canReadDocument?.(type,surface))return;const source=app.documentBounds(type);
  ensureReader();readerDocument=d;readerOrigin=from||$('#scene');readerClosing=false;const token=++readerSerial;cancelReaderAnimation();
- reader.dataset.documentId=d.id;reader.dataset.loading='true';reader.dataset.failed='false';reader.dataset.ready='false';reader.dataset.motion=readerMotion.matches?'reduced':'normal';readerZoom(false);translateReader();
+ reader.dataset.documentId=d.id;reader.dataset.loading='true';reader.dataset.failed='false';reader.dataset.ready='false';reader.dataset.motion=readerMotion.matches?'reduced':source?'normal':'unprojectable';readerZoom(false);translateReader();
  const image=$('#reader-image');image.width=d.fullWidth;image.height=d.fullHeight;image.hidden=false;image.src='../files/education/'+d.file+'-public.'+d.extension;$('#reader-original').href=image.src;
  $('#reader-fit').disabled=$('#reader-read').disabled=true;setActions(false);app.hold=true;reader.showModal();$('#reader-close').focus({preventScroll:true});window.dispatchEvent(new Event('room-panel-open'));
  image.decode().then(()=>{if(token!==readerSerial||!reader.open)return;reader.dataset.loading='false';reader.dataset.ready='true';$('#reader-status').textContent='';$('#reader-fit').disabled=$('#reader-read').disabled=false;
-  if(!readerMotion.matches){const target=image.getBoundingClientRect();readerAnimation=animateReader(source,target,240);readerAnimation?.finished.catch(()=>{})}
+  if(source&&!readerMotion.matches){const target=image.getBoundingClientRect();readerAnimation=animateReader(source,target,240);readerAnimation?.finished.catch(()=>{})}
  },()=>{if(token!==readerSerial||!reader.open)return;reader.dataset.loading='false';reader.dataset.failed='true';image.hidden=true;translateReader()});
 }
 
 function projectBrief(id){if(!profile('brief.'+id+'.task'))return '';return `<dl class="project-brief" data-brief="${id}">${['task','work','result'].map(k=>`<div><dt>${esc(profile('brief.'+k+'Label'))}</dt><dd>${esc(profile('brief.'+id+'.'+k))}</dd></div>`).join('')}</dl>`}
 function contributionNotes(){return `<details class="contribution-notes"><summary><span>${esc(profile('contribution.title'))}</span></summary><div class="contribution-points"><p class="geometry-note">${esc(profile('contribution.geometry'))}</p><p class="solar-note">${esc(profile('contribution.solar'))}</p></div></details>`}
-export function openPanel(type,from,preserve=false){
+export function openPanel(type,from,preserve=false,surface=null){
  if(reader?.open)return;
- if(type.startsWith('wall-'))return openWallDocument(type,from);
+ if(type.startsWith('wall-'))return openWallDocument(type,from,surface);
  if(type==='education'&&!preserve)selectedDocument='diploma';
  if(type==='certificates'){selectedDocument=DOCUMENTS.find(d=>d.kind==='certificate')?.id||'diploma';type='education'}
  const isItem=['cube','robot','orbit'].includes(type);if(isItem&&!app?.canInspect(type))return;disposeItem?.();disposeItem=null;

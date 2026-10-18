@@ -1,0 +1,81 @@
+{
+  "method": "Original PNG pixels actually viewed by the implementing agent; no edits or compositing. External independent visual review is not claimed.",
+  "frames": [
+    {
+      "path": "before/desktop-edge-before.png",
+      "sha256": "b0b9bacd241349169cfb4225a0a6c8a9b95f66abc6e103167f6cb53c0590180e"
+    },
+    {
+      "path": "before/touch-edge-after.png",
+      "sha256": "958e15d5b906fff2df996cc485b8994dbb39b106415fc7b69e0d6dd7cdc122d0"
+    },
+    {
+      "path": "same-pose-after/desktop-edge-after.png",
+      "sha256": "678d2a037dc64e47f5f77c7fd9534514c3852b269461bc50e268802302e3e6ff"
+    },
+    {
+      "path": "same-pose-after/touch-edge-after.png",
+      "sha256": "cff4ad3f0381a719c070ccbea6c1955b216bdd34cdda29d956b09d073d346a74"
+    },
+    {
+      "path": "audit/keyboard-desktop-ru-light-experience.png",
+      "sha256": "6eeb9223eacef67670e9c961923a9be4abace76e5dda7461cbde3c207bd0b679"
+    },
+    {
+      "path": "audit/keyboard-desktop-en-dark-education.png",
+      "sha256": "0667babb24e97f1998b5f8b27aff94feab2f8946c59fa831cbec66d150b41f2c"
+    },
+    {
+      "path": "diagnostics/touch-scroll.png",
+      "sha256": "9235096e9e8c93d72b6de92d52a36f259f4dca1ae2c2ca6a0a168122c1dae373"
+    },
+    {
+      "path": "audit/touch-kk-dark-education.png",
+      "sha256": "dcbd664dd5a05f4f10802518d731a91aafdb4499ab629c5c95d66428d7841edb"
+    },
+    {
+      "path": "audit/touch-en-light-contacts.png",
+      "sha256": "6342ea0e536df4634084bf62b28f163f765c7a9d43c89d2f14a6cfa014110472"
+    },
+    {
+      "path": "audit/keyboard-desktop-ru-light-demo.png",
+      "sha256": "e4868619d06f817ae770c9b7d77496644bf11563bb9d84642608d846149e7389"
+    },
+    {
+      "path": "audit/touch-ru-dark-demo.png",
+      "sha256": "3da6a52ef75f48e253db93625b04b411bd9a17e6d1dee43ad57def9d71c1d2af"
+    },
+    {
+      "path": "audit/touch-kk-light-demo.png",
+      "sha256": "9713a8c06a8b065022893d09c27207063ab1fc4ebe2c2e3b81f4f5a0e47ac141"
+    },
+    {
+      "path": "audit/keyboard-desktop-ru-light-repository.png",
+      "sha256": "0b098c211ae8620fbd1fa8f4adc1f8099f60946b1d5c534a5924480282cd9955"
+    },
+    {
+      "path": "edges/touch-no-preference-certificate-before.png",
+      "sha256": "24fc36a1ac41751223b40548706e7227c8b76ad7d835039ce44f28d7a0e8042a"
+    },
+    {
+      "path": "edges/touch-no-preference-certificate-reader.png",
+      "sha256": "f4c4c594a0231d63af55c167847cf3b213084aaa4ed6a088591f48a809bc6821"
+    },
+    {
+      "path": "audit/keyboard-desktop-ru-light-room-profile.png",
+      "sha256": "a102f734d29f32a2cf3bbfa7836c4d5d2af2bb425b397eb61e7b94c33e18ee6c"
+    },
+    {
+      "path": "diagnostics/initial-education-loading.png",
+      "sha256": "a356e4ccf30aa6a9e1ba7f558ca42aa09925997b6084d823d889fae14bc52c61"
+    },
+    {
+      "path": "demo-ready/touch-keyform-ready.png",
+      "sha256": "129cec9a9a6c908830f66f83cce77a624231ee9d8f39dad491a9d81a1d920f84"
+    },
+    {
+      "path": "demo-ready/touch-education-ready.png",
+      "sha256": "8e6ff375cd39ce31b413647b335a4386d749a8be973e5270103948f6e6766d96"
+    }
+  ]
+}

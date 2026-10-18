@@ -1,0 +1,116 @@
+{
+  "baseline": "b87fbb63a6a289ecc530369f714b8730d32a10ce",
+  "unchanged": [
+    {
+      "path": "public/room/world.js",
+      "sha256": "4df199f5c7704ce2282cd9a999943ccc8a1f6f0cca024dc1675f0ba303c415f8"
+    },
+    {
+      "path": "public/room/streaming.js",
+      "sha256": "363b8200e35e7700a0710fcc0b4ef6cd2e968dcd92e7648bdfc7895e50c9dde0"
+    },
+    {
+      "path": "public/room/stream-manifest.js",
+      "sha256": "45d3b3d77fcaea8d4ba0fb05b66d0143ba6f8fdac39b752fdbc03e13c5ca8a37"
+    },
+    {
+      "path": "public/room/joinery-details.js",
+      "sha256": "49cd7244a3922d01a773bf7076940d90c938b5aa196c77982ab568ef87529f98"
+    },
+    {
+      "path": "public/room/furniture.js",
+      "sha256": "479f529ce12feb3c41685432694ec751ca0b40d322c460628f12e86f6bd10c3a"
+    },
+    {
+      "path": "public/room/cabinet-doors.js",
+      "sha256": "338ee6f47d40777e978aab9aae6a6dc38ba0aca24bbe72921abc89b3580eefb6"
+    },
+    {
+      "path": "public/room/cube-state.js",
+      "sha256": "444aa7795838492cfd2a6539c1d2815f91da42f5598550b8d4c5a11dffe74aa3"
+    },
+    {
+      "path": "public/room/compressed-models.js",
+      "sha256": "79110c624660661badd9dc2656d88e5a28488209a6b0df0728031e0b34a471e7"
+    },
+    {
+      "path": "public/room/document-actions.js",
+      "sha256": "5438d1db0111f6c36fb102ef4f53f23b9576f206f7ce5d0bdaed7a322090bde9"
+    },
+    {
+      "path": "public/room/style.css",
+      "sha256": "525989a222ebbcd8dcec07844b0c70afb22fc862cbd104d7b6eb40e6f651a925"
+    },
+    {
+      "path": "public/room/profile-data.js",
+      "sha256": "b54de4cd2be62b08ffef13fb906125b8ba1f871865f19e8456f5139955c8225e"
+    },
+    {
+      "path": "src/content/projects.json",
+      "sha256": "fb7cc1e0332d5727bc82d8ce53ae11e3c9122c7f80ecbd669882a913ad66f55b",
+      "comparison": "JSON data exact; checkout line endings may differ"
+    },
+    {
+      "path": "src/content/documents.json",
+      "sha256": "d3c6d070c34b84fbe0abbe718eb35729a4cd411ed8c033c53ff0159d7921e384",
+      "comparison": "JSON data exact; checkout line endings may differ"
+    },
+    {
+      "path": "src/content/featured.json",
+      "sha256": "8c2f10c39a4f574ac8d69ad429622266dee2bd0ee2eba676966fb97cd8dee30f",
+      "comparison": "JSON data exact; checkout line endings may differ"
+    },
+    {
+      "path": "package.json",
+      "sha256": "b1dc347dea07e77319652515a2033330c90b0d1dbb17e3000086c3fc3867a2c0",
+      "comparison": "JSON data exact; checkout line endings may differ"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "5f8b21e0708bdf1772276b74a3d71eac5a8b0a3c08ce84b4da2abb10a6138f94",
+      "comparison": "JSON data exact; checkout line endings may differ"
+    },
+    {
+      "path": "public/files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf",
+      "sha256": "dee574b43b52d0ff4fa891d889826038117c8275f255e2f5efd597944b502d75"
+    },
+    {
+      "path": "public/files/education/diploma-public.webp",
+      "sha256": "aeb82b2bc35591a8d6c095ff95adeaf6f6d9bf65da4aa8da62566ccdb811eae6"
+    },
+    {
+      "path": "public/files/education/hackalem-2026-public.png",
+      "sha256": "f0152ea62277efed03af52d85a72bcffc3f21d85c7d2a9ccbf9594d223e0a9aa"
+    },
+    {
+      "path": "public/files/education/iqadam-2025-public.webp",
+      "sha256": "da3eeced274d0202518c5d25e2316854c621d967ef0165a0e66aaf09a0454a1e"
+    }
+  ],
+  "locales": {
+    "ru": {
+      "keys": 526,
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "kk": {
+      "keys": 526,
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "en": {
+      "keys": 526,
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    }
+  },
+  "passed": true,
+  "exactReversal": {
+    "main": true,
+    "ui": true,
+    "explanation": "Camera/physics/render loop, raycast hitAt, zone/distance checks, surfaceProjection occlusion, marker eligibility, every other panel and interaction are byte-identical after reversing the listed reader-only changes."
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "base": "http://127.0.0.1:4331/after/",
+  "label": "usability-2026-10-18",
+  "checks": [
+    "desktop: exterior rain assembled",
+    "desktop: no autoplay",
+    "desktop: ru helio local case URL",
+    "desktop: ru helio case and gallery exist",
+    "desktop: ru keyform local case URL",
+    "desktop: ru keyform case and gallery exist",
+    "desktop: ru poslesvet local case URL",
+    "desktop: ru poslesvet case and gallery exist",
+    "desktop: ru framepack local case URL",
+    "desktop: ru framepack case and gallery exist",
+    "desktop: ru shapecheck local case URL",
+    "desktop: ru shapecheck case and gallery exist",
+    "desktop: ru rowline local case URL",
+    "desktop: ru rowline case and gallery exist",
+    "desktop: kk helio local case URL",
+    "desktop: kk helio case and gallery exist",
+    "desktop: kk keyform local case URL",
+    "desktop: kk keyform case and gallery exist",
+    "desktop: kk poslesvet local case URL",
+    "desktop: kk poslesvet case and gallery exist",
+    "desktop: kk framepack local case URL",
+    "desktop: kk framepack case and gallery exist",
+    "desktop: kk shapecheck local case URL",
+    "desktop: kk shapecheck case and gallery exist",
+    "desktop: kk rowline local case URL",
+    "desktop: kk rowline case and gallery exist",
+    "desktop: en helio local case URL",
+    "desktop: en helio case and gallery exist",
+    "desktop: en keyform local case URL",
+    "desktop: en keyform case and gallery exist",
+    "desktop: en poslesvet local case URL",
+    "desktop: en poslesvet case and gallery exist",
+    "desktop: en framepack local case URL",
+    "desktop: en framepack case and gallery exist",
+    "desktop: en shapecheck local case URL",
+    "desktop: en shapecheck case and gallery exist",
+    "desktop: en rowline local case URL",
+    "desktop: en rowline case and gallery exist",
+    "desktop: translated case label",
+    "desktop: direct navigation preserves language",
+    "desktop: existing gallery opens",
+    "desktop: explicit sound enables existing rain channel",
+    "desktop: animation pause keeps rainy ambience",
+    "desktop: reduced motion preserves rain and audio choices",
+    "desktop: saved mute and rain pause survive reload",
+    "desktop: no horizontal overflow",
+    "desktop: no runtime errors",
+    "mobile: exterior rain assembled",
+    "mobile: no autoplay",
+    "mobile: ru helio local case URL",
+    "mobile: ru helio case and gallery exist",
+    "mobile: ru keyform local case URL",
+    "mobile: ru keyform case and gallery exist",
+    "mobile: ru poslesvet local case URL",
+    "mobile: ru poslesvet case and gallery exist",
+    "mobile: ru framepack local case URL",
+    "mobile: ru framepack case and gallery exist",
+    "mobile: ru shapecheck local case URL",
+    "mobile: ru shapecheck case and gallery exist",
+    "mobile: ru rowline local case URL",
+    "mobile: ru rowline case and gallery exist",
+    "mobile: kk helio local case URL",
+    "mobile: kk helio case and gallery exist",
+    "mobile: kk keyform local case URL",
+    "mobile: kk keyform case and gallery exist",
+    "mobile: kk poslesvet local case URL",
+    "mobile: kk poslesvet case and gallery exist",
+    "mobile: kk framepack local case URL",
+    "mobile: kk framepack case and gallery exist",
+    "mobile: kk shapecheck local case URL",
+    "mobile: kk shapecheck case and gallery exist",
+    "mobile: kk rowline local case URL",
+    "mobile: kk rowline case and gallery exist",
+    "mobile: en helio local case URL",
+    "mobile: en helio case and gallery exist",
+    "mobile: en keyform local case URL",
+    "mobile: en keyform case and gallery exist",
+    "mobile: en poslesvet local case URL",
+    "mobile: en poslesvet case and gallery exist",
+    "mobile: en framepack local case URL",
+    "mobile: en framepack case and gallery exist",
+    "mobile: en shapecheck local case URL",
+    "mobile: en shapecheck case and gallery exist",
+    "mobile: en rowline local case URL",
+    "mobile: en rowline case and gallery exist",
+    "mobile: translated case label",
+    "mobile: direct navigation preserves language",
+    "mobile: existing gallery opens",
+    "mobile: explicit sound enables existing rain channel",
+    "mobile: animation pause keeps rainy ambience",
+    "mobile: reduced motion preserves rain and audio choices",
+    "mobile: saved mute and rain pause survive reload",
+    "mobile: no horizontal overflow",
+    "mobile: no runtime errors"
+  ],
+  "scenarios": [
+    {
+      "name": "desktop",
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "initial": {
+        "armed": false,
+        "inside": false,
+        "state": "suspended",
+        "needsGesture": false,
+        "resumePending": false,
+        "resumeAttempts": 0,
+        "musicReady": true,
+        "preparationMode": "worker",
+        "musicDuration": 64,
+        "sourceStarts": {
+          "music": 0,
+          "rain": 0,
+          "effects": 0
+        },
+        "desiredMaster": 0,
+        "levels": {
+          "master": {
+            "rms": 0,
+            "peak": 0
+          },
+          "music": {
+            "rms": 0,
+            "peak": 0
+          },
+          "rain": {
+            "rms": 0,
+            "peak": 0
+          }
+        },
+        "preferences": {
+          "muted": true,
+          "music": {
+            "muted": false,
+            "volume": 0.45
+          },
+          "rain": {
+            "muted": false,
+            "volume": 0.18
+          },
+          "effects": {
+            "muted": false,
+            "volume": 0.25
+          }
+        },
+        "savedPreferences": true,
+        "raining": true,
+        "error": null,
+        "score": "Window Notes"
+      }
+    },
+    {
+      "name": "mobile",
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "initial": {
+        "armed": false,
+        "inside": false,
+        "state": "suspended",
+        "needsGesture": false,
+        "resumePending": false,
+        "resumeAttempts": 0,
+        "musicReady": false,
+        "preparationMode": "pending",
+        "musicDuration": 0,
+        "sourceStarts": {
+          "music": 0,
+          "rain": 0,
+          "effects": 0
+        },
+        "desiredMaster": 0,
+        "levels": {
+          "master": {
+            "rms": 0,
+            "peak": 0
+          },
+          "music": {
+            "rms": 0,
+            "peak": 0
+          },
+          "rain": {
+            "rms": 0,
+            "peak": 0
+          }
+        },
+        "preferences": {
+          "muted": true,
+          "music": {
+            "muted": false,
+            "volume": 0.45
+          },
+          "rain": {
+            "muted": false,
+            "volume": 0.18
+          },
+          "effects": {
+            "muted": false,
+            "volume": 0.25
+          }
+        },
+        "savedPreferences": true,
+        "raining": true,
+        "error": null,
+        "score": "Window Notes"
+      }
+    }
+  ],
+  "pass": true
+}

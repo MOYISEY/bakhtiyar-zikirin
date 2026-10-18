@@ -1,0 +1,161 @@
+{
+  "base": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "browser": "155.0.4283.62",
+  "method": "Directed tasks performed by the implementing agent in installed Edge, not a study with live HR/recruiters/developers. Desktop tasks use native Tab/ShiftTab/Enter; touch tasks use actual taps and CDP scroll gestures. No mailto or messaging send is activated. Demo/repository checks verify landing/navigation, not the external app implementation.",
+  "checks": [
+    "keyboard-desktop-ru-light: role and primary stack immediately stated",
+    "keyboard-desktop-ru-light: correct language/theme and no overflow",
+    "keyboard-desktop-ru-light: all static localized copy matches approved source",
+    "keyboard-desktop-ru-light hero CV: exact approved public PDF",
+    "keyboard-desktop-ru-light: distinct approved practice about.iqadamPeriod",
+    "keyboard-desktop-ru-light: distinct approved practice about.iqadam2025Period",
+    "keyboard-desktop-ru-light: distinct approved practice about.adoPeriod",
+    "keyboard-desktop-ru-light: education education.collegeName",
+    "keyboard-desktop-ru-light: education education.collegePeriod",
+    "keyboard-desktop-ru-light: education education.collegeBody",
+    "keyboard-desktop-ru-light: education education.aiuName",
+    "keyboard-desktop-ru-light: education education.aiuPeriod",
+    "keyboard-desktop-ru-light: education education.aiuBody",
+    "keyboard-desktop-ru-light: compact complete document row",
+    "keyboard-desktop-ru-light: usable public contact routes",
+    "keyboard-desktop-ru-light: all nine catalog projects retained",
+    "keyboard-desktop-ru-light: case names purpose and concise implementation",
+    "keyboard-desktop-ru-light: original case detail helio.text",
+    "keyboard-desktop-ru-light: original case detail helio.output",
+    "keyboard-desktop-ru-light: original case detail v10.helioInfo",
+    "ordinary demo: explicit safe new-tab action",
+    "ordinary demo: correct reachable landing without opener",
+    "ordinary repository: explicit safe new-tab action",
+    "ordinary repository: correct reachable landing without opener",
+    "ordinary repository: real repository title",
+    "keyboard-desktop-ru-light: room keeps requested language",
+    "keyboard-desktop-ru-light: full native developer profile about.intro",
+    "keyboard-desktop-ru-light: full native developer profile about.iqadamPeriod",
+    "keyboard-desktop-ru-light: full native developer profile about.iqadam2025Period",
+    "keyboard-desktop-ru-light: full native developer profile about.adoPeriod",
+    "keyboard-desktop-ru-light: three native practices retained",
+    "keyboard-desktop-ru-light: native education education.collegeName",
+    "keyboard-desktop-ru-light: native education education.collegeBody",
+    "keyboard-desktop-ru-light: native education education.aiuName",
+    "keyboard-desktop-ru-light: native education education.aiuBody",
+    "keyboard-desktop-ru-light: native physical CV is visible and named",
+    "keyboard-desktop-ru-light native CV: exact approved public PDF",
+    "keyboard-desktop-ru-light: native contacts are self-contained",
+    "keyboard-desktop-ru-light: all six native cases retained",
+    "keyboard-desktop-ru-light: native case includes same brief"
+  ],
+  "cases": [],
+  "passed": false,
+  "failure": {
+    "name": "keyboard-desktop-ru-light",
+    "message": "locator.getAttribute: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.project-story a[href=\"https://moyisey.github.io/helio/\"]')\u001b[22m\n",
+    "steps": [
+      {
+        "name": "keyboard-desktop-ru-light hero CV",
+        "input": "Tab/Enter",
+        "tabs": 12
+      },
+      {
+        "name": "about/experience",
+        "input": "ShiftTab/Enter",
+        "tabs": 7
+      },
+      {
+        "name": "project catalog",
+        "input": "ShiftTab/Enter",
+        "tabs": 17
+      },
+      {
+        "name": "selected project case",
+        "input": "Tab/Enter",
+        "tabs": 16
+      },
+      {
+        "name": "case details/limits",
+        "input": "Tab/Enter",
+        "tabs": 15
+      },
+      {
+        "name": "ordinary demo",
+        "input": "Tab/Enter",
+        "tabs": 18
+      },
+      {
+        "name": "ordinary repository",
+        "input": "Tab/Enter",
+        "tabs": 1
+      },
+      {
+        "name": "home",
+        "input": "ShiftTab/Enter",
+        "tabs": 9
+      },
+      {
+        "name": "enter3D",
+        "input": "Tab/Enter",
+        "tabs": 11
+      },
+      {
+        "name": "room menu",
+        "input": "Tab/Enter",
+        "tabs": 2
+      },
+      {
+        "name": "#profile-button",
+        "input": "Tab/Enter",
+        "tabs": 6
+      },
+      {
+        "name": "native education",
+        "input": "Tab/Enter",
+        "tabs": 1
+      },
+      {
+        "name": "room menu",
+        "input": "Tab/Enter",
+        "tabs": 0
+      },
+      {
+        "name": "#drawer-button",
+        "input": "Tab/Enter",
+        "tabs": 8
+      },
+      {
+        "name": "keyboard-desktop-ru-light native CV",
+        "input": "Tab/Enter",
+        "tabs": 7
+      },
+      {
+        "name": "room menu",
+        "input": "Tab/Enter",
+        "tabs": 3
+      },
+      {
+        "name": "#contacts-button",
+        "input": "Tab/Enter",
+        "tabs": 3
+      },
+      {
+        "name": "room menu",
+        "input": "Tab/Enter",
+        "tabs": 0
+      },
+      {
+        "name": "#case-button",
+        "input": "Tab/Enter",
+        "tabs": 5
+      },
+      {
+        "name": "native case",
+        "input": "Tab/Enter",
+        "tabs": 1
+      }
+    ],
+    "errors": [],
+    "active": {
+      "id": "panel-title",
+      "text": "Helio",
+      "url": "https://moyisey.github.io/bakhtiyar-zikirin/room/?lang=ru"
+    }
+  }
+}

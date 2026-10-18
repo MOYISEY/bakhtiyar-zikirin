@@ -1,0 +1,1451 @@
+{
+  "base": "b87fbb63a6a289ecc530369f714b8730d32a10ce",
+  "files": [
+    {
+      "path": "docs/.nojekyll",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "matches": true
+    },
+    {
+      "path": "docs/asset-history.json",
+      "sha256": "547bea497264954e6e1607887e0c1fa7541bc64362ede77d2ab1015821702f59",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/main-3tdpkXWC.css",
+      "sha256": "14e4db939b5cedaead605d6b44322cb6afe8d826d3b804dde44c8473202343a5",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/main-BigPCy7T.css",
+      "sha256": "2820f852251736465a8c8cc4f560cc97036b4eea62f39a5d87869ad0da84f4dc",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/main-CVIEnzjX.js",
+      "sha256": "7623952bce5e7f3d1a02371780d7263f3908a4c845ae374bd2b027386775509d",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/main-unXHqBXH.js",
+      "sha256": "1a19ec6069e8b46ccb068e91e5629cc55fe56187393df238eb7f442009353d07",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/onest-cyrillic-ext-wght-normal-DOFToQv1.woff2",
+      "sha256": "268f03691b3d06e57abcf20f9277e314ea8784298983aab5b40c1b91965027e1",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/onest-cyrillic-wght-normal-DayYxulF.woff2",
+      "sha256": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/onest-latin-ext-wght-normal-QAhDxQuo.woff2",
+      "sha256": "14e7d3079b75860e2ab50efc6c318c398fdb46ede9b56e625f12ae70a3c5d9a4",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/onest-latin-wght-normal-Dun_Rd-l.woff2",
+      "sha256": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/onest-math-wght-normal-Bl4ZGkZl.woff2",
+      "sha256": "c74952a8c0c8c558c4f879f83773cf529d11350609f7073f5b2c5999dec46041",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/onest-symbols-wght-normal-DxQzqQfC.woff2",
+      "sha256": "2ec2d45d2ec0770e2c18cba2dba5126cf2dcff181d23ad192e9fffeb4af4b0b6",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/onest-vietnamese-wght-normal-BBxOatbv.woff2",
+      "sha256": "d852d4d094a3a46d701d16245deb7ca83b16b5bd69e20aa0aba089392ad69474",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/preferences-B0BSF3Yj.js",
+      "sha256": "31f918bb52977de3fcd7292bb46278808792055d788ba7ab794b5dde9e02dd9c",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/preferences-CHq1VbOY.js",
+      "sha256": "3a2436e7d6293da91c41c9d578b78432bc03ff496f8b86530279c90104d2c166",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/rowline-sample-BI7SVVNe.js",
+      "sha256": "ae49b9b558b6fcd134b1f403a5bee93c43674a3f97e487cfe7a2f4c9fe45e528",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/rowline-sample-DEtWqDir.js",
+      "sha256": "8a1d015e2ef25637edd5317aa4aaaa113deb857e39d084ce160468232912271e",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/scene-B37fPkwm.js",
+      "sha256": "89451698aa1b2948dc421faaa7ac424aa67db4622431d6f5242b8ea1a9087035",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/scene-controls-BW5paW9X.js",
+      "sha256": "a3d3db2b4b55185bbeb0bbb2023a9a5729cda87aec54eae78ba12398fbbdd6de",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/scene-controls-CcVcg95J.js",
+      "sha256": "cd08b3074c58db152c856c735dcf5574148f96deb515c2a5f0e83b3584c0289a",
+      "matches": true
+    },
+    {
+      "path": "docs/assets/scene-o7NQ45Qf.js",
+      "sha256": "caea428260230ac2e21f4cd9534d1bcae4d9df1a0b91d681323c941ea852600d",
+      "matches": true
+    },
+    {
+      "path": "docs/favicon.svg",
+      "sha256": "597b0d82b4c680bacdfc829de873a5041d712a60041fe7e707fc691b3c139843",
+      "matches": true
+    },
+    {
+      "path": "docs/files/Zikirin_Bakhtiyar_Developer_Resume_Public.pdf",
+      "sha256": "dee574b43b52d0ff4fa891d889826038117c8275f255e2f5efd597944b502d75",
+      "matches": true
+    },
+    {
+      "path": "docs/files/education/diploma-preview.webp",
+      "sha256": "2aef39616ccdcee55c16b7d2a3cf31905e931dc2ad97ba0d0344d242711dd854",
+      "matches": true
+    },
+    {
+      "path": "docs/files/education/diploma-public.webp",
+      "sha256": "aeb82b2bc35591a8d6c095ff95adeaf6f6d9bf65da4aa8da62566ccdb811eae6",
+      "matches": true
+    },
+    {
+      "path": "docs/files/education/hackalem-2026-preview.png",
+      "sha256": "fe324b5c8155e18f83503814317d32a5657b3113069f7fdb71864233549f0a4c",
+      "matches": true
+    },
+    {
+      "path": "docs/files/education/hackalem-2026-provenance.json",
+      "sha256": "c37d8c8dfbb9393782baa5f2e1f613f15ad81c139a3de6f8d88fbe0b04cccc9c",
+      "matches": true
+    },
+    {
+      "path": "docs/files/education/hackalem-2026-public.png",
+      "sha256": "f0152ea62277efed03af52d85a72bcffc3f21d85c7d2a9ccbf9594d223e0a9aa",
+      "matches": true
+    },
+    {
+      "path": "docs/files/education/iqadam-2025-preview.webp",
+      "sha256": "bc4089f8f192381a8b16d9a41aedf5426507017c4f5bfcd72002d9aefdfa4f85",
+      "matches": true
+    },
+    {
+      "path": "docs/files/education/iqadam-2025-public.webp",
+      "sha256": "da3eeced274d0202518c5d25e2316854c621d967ef0165a0e66aaf09a0454a1e",
+      "matches": true
+    },
+    {
+      "path": "docs/files/resume-preview.webp",
+      "sha256": "f06a7e0d5ff54d00dacf5183fb1783f612d070689f8f4b3d6eb7018580ea9b91",
+      "matches": true
+    },
+    {
+      "path": "docs/images/helio-evening-map.png",
+      "sha256": "4816f564bfcacd4ab421aba40f9c4c923dc957db4477bc7cbcbb4597e8e839f4",
+      "matches": true
+    },
+    {
+      "path": "docs/images/keyform-exploded.png",
+      "sha256": "5ad3f52a8de0325df2848ce5870a685a4effa632686c6c729b73ea23bc92e729",
+      "matches": true
+    },
+    {
+      "path": "docs/images/poslesvet-tide.png",
+      "sha256": "e510217e62baa97b6025a15543e39d0b3e3009d46748240a50376963ecea281b",
+      "matches": true
+    },
+    {
+      "path": "docs/index.html",
+      "sha256": "29c96cc5d682fac47254c614090d5a4a747a91d91f7c9303942292de226eb668",
+      "matches": true
+    },
+    {
+      "path": "docs/licenses/Onest-OFL.txt",
+      "sha256": "071195d8806e226faeee60259c28ca67b458227af5195a73f5cfcab06e3003bc",
+      "matches": true
+    },
+    {
+      "path": "docs/licenses/Three-MIT.txt",
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/artportal.html",
+      "sha256": "c80971d887fb7eb3648f6f021b4f1b002dfca5adb74b17fb86023fed350b8213",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/atyrau.html",
+      "sha256": "9edd6cf0be9721d87f4ee2f53f7ebbb42679f9314afa12638666e87d7a11f53b",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/framepack.html",
+      "sha256": "1956aa0e69fc019ae013ab76fa29580e8a5172df8063b622b553fa0e17fcd4be",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/helio.html",
+      "sha256": "72b500263cd40aa7d3d3cac689cfc34700b91357452d97b524bcd1fb4fc5480f",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/index.html",
+      "sha256": "d6c85cd42fd6855ce70edce0914d2ccfa49d990ed79308b104b028b9c74b145f",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/keyform.html",
+      "sha256": "8e3c2b259297d24067ced6e87242faa662c92446e6ea64130d84ed03309f9ca0",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/artportal-diagram.svg",
+      "sha256": "78f92730ba4dc2a528329f58e1d85dd83a6bb778685d4566dd2cc2ab6a9e194a",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/atyrau-1.jpg",
+      "sha256": "d5a2ab89bf1f2db642b311d568f3ad88ce0a9f5f94566cb0a673d9ccb7de8620",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/atyrau-2.jpg",
+      "sha256": "afd984505172ad828d822cc473732de64ebb6700aa46c448befad0964fc601e4",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/atyrau-card-1200.webp",
+      "sha256": "e873496a78abad41edafc27a901b4b3db1e55b12d9b192068cbeb2b0c2deaabd",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/atyrau-card-1600.webp",
+      "sha256": "d5032c2c26defd0613bad59759af894fd08f7d02645c8e0d7c6a36c7c00da313",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/atyrau-card-480.webp",
+      "sha256": "6efd489e269a8d5fd47a162cbb54cc6460e7b4e1f5c5a1e7871de2704b54f202",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/atyrau-card-800.webp",
+      "sha256": "7a32d9129b4862ac8371473a5674a6ab4eec6be00df30ba4ea0066ffa05acfc9",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/atyrau-detail-1-1600.webp",
+      "sha256": "89a1c246d79437e6b46221c748fceb3e7b851d028490b97d3f050fea69150a9d",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/atyrau-detail-1-2400.webp",
+      "sha256": "ae32e87faa30691b2cd0d44f609ffd96250c3c90cbe1cb7b0b9336f291a975d1",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/atyrau-detail-1-3200.webp",
+      "sha256": "26046618491f6ee8ede8e7c6404908239716e6987ea9c01627f6e8d6666adabd",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/atyrau-detail-1-960.webp",
+      "sha256": "c085de6e577f8f091b74960624345345314d0c79a8fb310519a2e0bba555d993",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/atyrau-detail-2-1600.webp",
+      "sha256": "a746083c5b5e558ffa17293946baf0369a5cd53b7c25e2ff8d028e0f4131e37e",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/atyrau-detail-2-2400.webp",
+      "sha256": "3e3a31e2dc7958fc903a84009fc12b25815da6734c9850c1fd5cd497d254d95c",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/atyrau-detail-2-3200.webp",
+      "sha256": "c497daed9a43681aea4c27858b035e3bb504db8f01d21e4592a9b72839e80d43",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/atyrau-detail-2-960.webp",
+      "sha256": "18a9904fdadef1d218587be891f432e84e7acf80d6843ee67d3a9d92611e7101",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/atyrau-preview.jpg",
+      "sha256": "e436ceabe5397f73f2e1cbbeccd37a9177b0db4e9030f97364f6d5034ec30860",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/framepack-1.jpg",
+      "sha256": "aad127d98ceb454070f90166ca7cd8da923a512abfa573a0484f944f84c17955",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/framepack-2.jpg",
+      "sha256": "a98b0a67b7b9d6125331c665b0e8059c259ecccbfcff2c3ebc66409a49485bcb",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/framepack-card-1200.webp",
+      "sha256": "73189d0bafa1a214cb1c9070b7aa9fc24fb8eac562a721b20d10b871871e8e72",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/framepack-card-1600.webp",
+      "sha256": "ea13153827c3547a89f76ce68ad5585ef8c9161d9b3e64dd46f251d23cc27aaf",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/framepack-card-480.webp",
+      "sha256": "d0ddf48205e73ce3cb0f1277de50e531e5f2cef6b01754c333b5603869944f62",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/framepack-card-800.webp",
+      "sha256": "b3be10a603710998d6004fd0c04b0864ebfeacbde0e258436453426f336acd4f",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/framepack-detail-1-1600.webp",
+      "sha256": "1eadbac4073a941e67d8aafc94ab06f5de0c0018bb344e7753415f585649a19e",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/framepack-detail-1-2400.webp",
+      "sha256": "0b2fc36dd64a6e82aecb2b38a3c6572a40f9ae1218439758cea109d071257053",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/framepack-detail-1-3200.webp",
+      "sha256": "df20e8462a8bfe2c969014679987e2da9531cb57e476f692209bda99d95409fc",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/framepack-detail-1-960.webp",
+      "sha256": "e7dbbbb8b653906f91be84b90e077b9cdf4e38282d1e54b263f81395e7853dee",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/framepack-detail-2-1600.webp",
+      "sha256": "f054372100b8517ac1c0c60d694f90e2461cb0cd88770adb44dbaf8c7500f2d5",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/framepack-detail-2-2400.webp",
+      "sha256": "7566547888a8ef131e0e617c83688b1079dec84f6713c55b4d07a5b00d0e419e",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/framepack-detail-2-3200.webp",
+      "sha256": "c261638832031bd47b1256805d5ba717b378a8d2423f5bdc8c928131d5111665",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/framepack-detail-2-960.webp",
+      "sha256": "25643761b4de5ef0bbb74d659acfdaadffd80de4c666cf2b3e9c7e67b6d953f7",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/framepack-preview.jpg",
+      "sha256": "0a0f21e894a615ebd2824057056e15256999a63263c86873d89aa68678881781",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/helio-1.jpg",
+      "sha256": "fe792466d551c72fca13f42dd5f658113301e4edb690aba3b18f19c9be3224f4",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/helio-2.jpg",
+      "sha256": "227baf153c7d1bba2241f401ecb8b83a4819d1c550451e398ec46e06b59174cc",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/helio-card-1200.webp",
+      "sha256": "15665eb4d24862e5e1b2b37c469702c971e3f27a845ea17aede1fdc0f2659980",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/helio-card-1600.webp",
+      "sha256": "7a4c01f36bc542a704974056806e6d5f2deb4d1fdf0382339ea2db6a4892c708",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/helio-card-480.webp",
+      "sha256": "a3b145b1e642ef0a80dfccc87851b1327911817698d99f6e82412144fabcc7c7",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/helio-card-800.webp",
+      "sha256": "78c3d916987ac26c81eadb33b71b379f00d08dc4e05a35f78cdc68e8957d6a1a",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/helio-detail-1-1600.webp",
+      "sha256": "10135b04b23f412c32d0c4962befdc618ef84b53fb3424c460b646c9e210358b",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/helio-detail-1-2400.webp",
+      "sha256": "00a8fe0ab17326b8331ce2d2642b25136c3262d272dea7d504e6872001051433",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/helio-detail-1-3200.webp",
+      "sha256": "b2517cf05014780f13773eff8d53d9f03008b552700eecbad98a89cb687ea8b7",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/helio-detail-1-960.webp",
+      "sha256": "9e6a021b9590ae69dd698589da32ad8f64d89c266b300f55886d31cb1b794e9c",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/helio-detail-2-1600.webp",
+      "sha256": "58ee0981eeac800cd8c6d5534cb8e1e739d88b0ce741870e2dfaf7f69909ce97",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/helio-detail-2-2400.webp",
+      "sha256": "bf9b44fc50fad48187becfe279675330abf791f4d51639f44161fd195328b073",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/helio-detail-2-3200.webp",
+      "sha256": "19bd956e8802f1bca507bbc77b1e6d9c82989995185b3977a0d7cf612bb0e5d2",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/helio-detail-2-960.webp",
+      "sha256": "d630066b63ad1a4bf3eb9065d5d2e679d8e16934be4001c83141459d4fb2389a",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/helio-hero-1600.webp",
+      "sha256": "7a4c01f36bc542a704974056806e6d5f2deb4d1fdf0382339ea2db6a4892c708",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/helio-hero-2400.webp",
+      "sha256": "b225baf180076d16dc56df78edc9ba1970c67769a21fc7394f3556c1869dbaa9",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/helio-hero-3000.webp",
+      "sha256": "5d75a530d6dbbd222214bc327976335f6342061a3f768a0ca93aa8ed18436a63",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/helio-hero-800.webp",
+      "sha256": "78c3d916987ac26c81eadb33b71b379f00d08dc4e05a35f78cdc68e8957d6a1a",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/helio-preview.jpg",
+      "sha256": "cd0bf769adfe49b2f1f80f394c6efe06308eb3c5fbaeb8b9b7c8b7edc93e82ea",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/keyform-1.jpg",
+      "sha256": "a3da216d3fc5047ac58742e5edeeb26c232620f567943abc1b5578c03f30ab1d",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/keyform-2.jpg",
+      "sha256": "34bd3391770636eced72bd92f5532fac1ce3f7f836d6a155a913b0ba0797ad9b",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/keyform-card-1200.webp",
+      "sha256": "801629b8784217aff47298658ea9d1446f5a1a910c2edf12e02616bf7fe00da0",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/keyform-card-1600.webp",
+      "sha256": "b6efcb3d2980402dec22ce61cfa5c1433daf9e4be2b0d94a93fe126dbc974cb9",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/keyform-card-480.webp",
+      "sha256": "772f605e9c78b21f7c48621b1e8cd7535c8d6cd362ce69d6c6fe13af23276eea",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/keyform-card-800.webp",
+      "sha256": "d9ca62cb1ff24a747f0efd396172cf44477d00bae74a4f2727aeb46428d8ecbd",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/keyform-detail-1-1600.webp",
+      "sha256": "f9b02a618940e66f1d1220da35d175455e42d49e25f93cf8dd7fd92166bb8f61",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/keyform-detail-1-2400.webp",
+      "sha256": "aaa0e93c8933a886ff62d89bba5f1516ffbfddd93dd37b873140411348e2f059",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/keyform-detail-1-2880.webp",
+      "sha256": "fe5cadbef615f8764e989d96e246dd896047f77105a6fd79a3e49d3e4806f2a7",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/keyform-detail-1-960.webp",
+      "sha256": "cedf5c6fab58df4dbbe10989ad4230ba47000ee662b15f86b06d340dcf050e48",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/keyform-detail-2-1600.webp",
+      "sha256": "a9c4e3cae9ff30149bff0d8378cee7ddfd8a21bbbe5441c2496143898885834c",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/keyform-detail-2-2400.webp",
+      "sha256": "ee1ad1f9d5ed7d69d299f0e2fc2583e31d303a79cd9becc05537c57b3866ea80",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/keyform-detail-2-2880.webp",
+      "sha256": "ec98efc941c139e5d49c782ef74143f221a1fa9ea86c02cac87720a2680e179c",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/keyform-detail-2-960.webp",
+      "sha256": "c6cb07bfcc9c0d7569d58b8ab6602052f4288dae4cee47d1814d13995df8a63d",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/keyform-preview.jpg",
+      "sha256": "c0c47be95341be42826420be364e30c8d655f79e28e6b0ce5316b0130d99acf8",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/neuralbrief-diagram.svg",
+      "sha256": "6a91e29fd98323a7423ef41e2075dc2df9aad3ae9ebff6fc310388bbda31cda0",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/poslesvet-1.jpg",
+      "sha256": "edf3ad3af73630143f8919bb2e7cbeb063c2117ed64b6a2b12287df1a5fe9a56",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/poslesvet-2.jpg",
+      "sha256": "17d01486d195218cc715ed5f29614a37bf29f9187005261d3bde48ad83a19518",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/poslesvet-card-1200.webp",
+      "sha256": "95457271840931f2de81dc9dce9161f4305be45c21b5122fb0e72533caad5c6f",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/poslesvet-card-1600.webp",
+      "sha256": "7754ecddef8acdb6ddbcd534c19e513fc55099e327973567a74ed89a83281645",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/poslesvet-card-480.webp",
+      "sha256": "bea97688bb68622e62db9f5f0caa3557564352cb29514e3aec4d12c032fb8337",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/poslesvet-card-800.webp",
+      "sha256": "bd83752709eb41b6544031197a5647d309725772eea30af732dddd73cffb8f44",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/poslesvet-detail-1-1600.webp",
+      "sha256": "7754ecddef8acdb6ddbcd534c19e513fc55099e327973567a74ed89a83281645",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/poslesvet-detail-1-2400.webp",
+      "sha256": "b20f60f0a367f9e4b79f5314b9329d9ae5f27e66d4c2599ee6c75ac91d595574",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/poslesvet-detail-1-3200.webp",
+      "sha256": "8d5f725f497ac4a6bda9bce2b10a34596d848557302dee6a23a500044da24938",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/poslesvet-detail-1-960.webp",
+      "sha256": "8a89faea467a918a4acfe104173acd17ef967a3e248061b69adfff71fa433093",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/poslesvet-detail-2-1600.webp",
+      "sha256": "5eb31185efe652db59ac410a20fc97436a43aa1a37be13fb2917f71421b42434",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/poslesvet-detail-2-2400.webp",
+      "sha256": "a360b5af5646968b914e80a15098097c8319fcecd8baca74e142eaecdc04ce19",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/poslesvet-detail-2-3200.webp",
+      "sha256": "800c2c9dd4d21dc61f9444c8a21dd7d023be84f0ab5804bb6882e8376b9f04a0",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/poslesvet-detail-2-960.webp",
+      "sha256": "8cedcbbe0e8e4489712767a651a11518d84693d921cf2084508cb4a4e7f00cf8",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/poslesvet-preview.jpg",
+      "sha256": "ad02ffe89f71333120be5575adac514f550dffe360eb6b432879178576ce81cb",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/rowline-1.jpg",
+      "sha256": "c12de8e49a13174b0c9daad8ffb7d44b3eea23f4a1541625ba421d7b19464b44",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/rowline-2.jpg",
+      "sha256": "5b8f765f7b01800b7d474883ff3755378d7510bc341ac4af3a4c104508afb598",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/rowline-card-1200.webp",
+      "sha256": "0588f88c26125fb98c7fc2f590cee7e44462311ab94fdc710ef631fa4492dbc7",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/rowline-card-1600.webp",
+      "sha256": "904fc126c7ce377acdbe65f910b0cb6a9b34586a72741bfb01bdb1fac6d5697c",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/rowline-card-480.webp",
+      "sha256": "6466d8be660c3401a7912176d75566da3dc862233ad5b3f02a2cea84c9af1cb2",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/rowline-card-800.webp",
+      "sha256": "a8264131587ce352a00201d2aa81a5037b610dcc71f883dee84d48b9e57d361e",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/rowline-detail-1-1600.webp",
+      "sha256": "df81e5103654fa77afb00f9363a44383b8c72cf7cb6d19e096672876d2cd5bf9",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/rowline-detail-1-2400.webp",
+      "sha256": "ec6fa66a06680155f51b1224836bb3c2aab78d215ccdb7071b872b00dbaf225e",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/rowline-detail-1-3200.webp",
+      "sha256": "1f89f6b37460547fb251fbfd370cbb8baf5458587b5f77ccbc751ae3b201f262",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/rowline-detail-1-960.webp",
+      "sha256": "c046dc1f42c4516baf1c7b3c392c1503d7a304e3ef958388c33ae8359c79b933",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/rowline-detail-2-1600.webp",
+      "sha256": "57c0453c14d56be729c7086bce10295830f9ef6d65fc02040bd2179dec20056e",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/rowline-detail-2-2400.webp",
+      "sha256": "8d5804dfe81592b24c9515d2a105835df38eb10ef1cab90efb7445611fac7e0c",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/rowline-detail-2-3200.webp",
+      "sha256": "3cf58aa694bc7bfa3356ef1b9f1e89dff8e0bd05bf52ccc599bcf8ac7a621a34",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/rowline-detail-2-960.webp",
+      "sha256": "3a010cd03e476d3d202d00580ad2d6b2a8aacb6f45c124cd57f04d75363990fc",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/rowline-preview.jpg",
+      "sha256": "9c66c0acaead135af3e4442e2a9555b24bf21c9e51c2994b22f980db501cc8a7",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/shapecheck-1.jpg",
+      "sha256": "206e6e1b992320b5de2c5baa6f756a8ff0def23d8a82311aa7dd7504240ec2b3",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/shapecheck-2.jpg",
+      "sha256": "c0db5f94cd1a1799cbc74d55bab9d77f4a0ce879cef73e06809636e5f3e6d233",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/shapecheck-card-1200.webp",
+      "sha256": "30442e30aa9a1654866efe130a1578e636ab9f0229f8319b3e06c0563fe5c6c5",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/shapecheck-card-1600.webp",
+      "sha256": "d7131013f89d54e6b90de0ffff6c796c972ec64d7ac14fe818b6b798394b2fc4",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/shapecheck-card-480.webp",
+      "sha256": "c69044d8fa8b4e237960547f7a862e0d0ed916babc663a5db11313078181e649",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/shapecheck-card-800.webp",
+      "sha256": "6d7cf02a5c74b7fcb147f63a1d1e1817d79d0a97f3f52ea8df6cb4048c84e389",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/shapecheck-detail-1-1600.webp",
+      "sha256": "a7394d989d9af89d61a2b37bacf7084b3382f042dd887c7bd4d863f2a7a06981",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/shapecheck-detail-1-2400.webp",
+      "sha256": "d2a2cd6dac7c50e79ddf421183e550f0f4aa7fc5543bc411ec5dcf4aa189333d",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/shapecheck-detail-1-3200.webp",
+      "sha256": "d5de8469652e6a8fc06026529eef464baa164fadd69e5eaa526ffa28e08bcf79",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/shapecheck-detail-1-960.webp",
+      "sha256": "2c2264cc8db8748e55b52e6e70bb7f935d282b2ee1cbe10735405a5cc7ada055",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/shapecheck-detail-2-1600.webp",
+      "sha256": "bda47c43c8fd0c8c1178b4ad27144877eb46c6f36d67faddab7cf8b2c039e52e",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/shapecheck-detail-2-2400.webp",
+      "sha256": "9fff942a0a581d092eacdc68bbead44f4be3436e51eea5942fb3630054c78fca",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/shapecheck-detail-2-3200.webp",
+      "sha256": "ea53bd959884f9419a29566229a2e44b62dfa9caf541e4e26180ede6c7e0edd7",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/shapecheck-detail-2-960.webp",
+      "sha256": "0dcfe43ee305c1d207f079efa875fa11f8cd4a2f692d590ec9e327a641645ed8",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/shapecheck-preview.jpg",
+      "sha256": "746591fa1735ee9db81963d7ea3f20ea286498f7b8260731dca4cdce82779aa8",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/studio/room-hero-1200.webp",
+      "sha256": "4b723be852a3f855cc7e9c05138dcb1ed3865fc9431d9349ae41e3beb0129a0e",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/studio/room-hero-1600.webp",
+      "sha256": "098c43fae2a69afe384429fd600b6183ad97241830ba981f560af955cd203962",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/studio/room-hero-2400.webp",
+      "sha256": "d20b134554fc28b4eea66d655690b55cd1634f8fa4fb599e04cc4bfead2e9c07",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/studio/room-hero-480.webp",
+      "sha256": "288bff1c0f34c8a2b71c1e7887304e229de5d83df8b987e3e4e06b8a997704a9",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/media/studio/room-hero-800.webp",
+      "sha256": "37d8d8f228a83309eadf8665cd3bca80e80263b7b801c73214898fd60758f57e",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/neuralbrief.html",
+      "sha256": "162ba1e5bdba9b8ca8ab738508eb86ea1f1a109a1bfcc94c14b17f7b557789c1",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/poslesvet.html",
+      "sha256": "28fc4d38bdc626ca082f5a6ce82217e2fddd7ee1867c0eac1299df8fdc0c1edc",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/rowline.html",
+      "sha256": "a35be390299300a66bd0636b558dec7daf3461b3cc3efc2d90bb74bc96c51c90",
+      "matches": true
+    },
+    {
+      "path": "docs/projects/shapecheck.html",
+      "sha256": "ad16a439cd081c5d8126f5dbea3793dde7e4e18c8d627f1216d1bbd7152b5d20",
+      "matches": true
+    },
+    {
+      "path": "docs/room/CREDITS.txt",
+      "sha256": "f0414de1460902956b4e051a79e643d7369573582e014a8aae90bc299cdf59ac",
+      "matches": true
+    },
+    {
+      "path": "docs/room/architecture-materials.js",
+      "sha256": "f3edf1d0c44d92e32e80ba793153c7359a5f3a8c90547d266dceff0b4a278702",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/corridor/indirect.webp",
+      "sha256": "f8535abd60228aaded5d77a0f7706e2b4d3748ee17014713f5f4bda6b9309555",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/corridor/profiles.glb",
+      "sha256": "dcca245685acf3a2eb6e0056f1c7eea21c45e827c44d5cd2c571c1a264737ddd",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/corridor/profiles.glb.gz",
+      "sha256": "108e360e67d8ae592099e699ab24c4afd2d1c9e93db2d0768725da17e86a44c7",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/desk_lamp_arm_01/desk_lamp_arm_01.bin",
+      "sha256": "07f34e32abecbaa63d28b9d12d6a0eb82b775a0f50c92327655909d72ff8489b",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/desk_lamp_arm_01/model.gltf",
+      "sha256": "601e1c3ba9daac8229b25439eef8598e563c04dd73bc1b58fc59427d20487226",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/desk_lamp_arm_01/textures/desk_lamp_arm_01_arm_1k.webp",
+      "sha256": "9934948f89d43df7edd9c57ef9dfc8fb33dffa764172dad07637d0fb11470faa",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/desk_lamp_arm_01/textures/desk_lamp_arm_01_diff_1k.webp",
+      "sha256": "dc90c7be5c6f22de51311a7ec5283b6abbfedc28d8c453a3dc2a0a73b8f86255",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/desk_lamp_arm_01/textures/desk_lamp_arm_01_nor_gl_1k.webp",
+      "sha256": "db215c2360f98671b45cb085bd51001f4730b555ebad1e342c495b790f1c1b85",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/entry/floor.webp",
+      "sha256": "4a8d37eb39efa504887092068a54feb35cfdb5b81ed18accc41d4c14d436cbe2",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/entry/oak.webp",
+      "sha256": "709a8cdca53faadb937b5e2eddcabf7be48a14a2119bd6ca49c8b31e18904b93",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/entry/plaster.webp",
+      "sha256": "914b8b8779e9762e0a0cf2cfebcca27736547f9f69679348b20336209679e6e5",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/exterior/skyline.glb",
+      "sha256": "32e6a922e715e2f75717981ada986733734566d15b486c1b8482f01cd6d62eaf",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/exterior/skyline.glb.gz",
+      "sha256": "71cbaf16c511393e70aba2083f943262f7f7acdc2059f4cde4049bc465a353de",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/exterior/tree-atlas.webp",
+      "sha256": "ecf1cb73af22b91d78ab61695bd4a6dc939ed92f3f46036d4b605c02789f1818",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/exterior/tree-trunk.glb",
+      "sha256": "a7b748fab52bb1fc46772aaae697e3f3f3a43b8e72b9b1c5947485e7a7e78a85",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/exterior/tree-trunk.glb.gz",
+      "sha256": "3a7f5544f9bcd4ec13c685ced98566717ea765f673ee15aaff31ba0ac680d9d3",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/framepack.webp",
+      "sha256": "b3be10a603710998d6004fd0c04b0864ebfeacbde0e258436453426f336acd4f",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/helio-detail.webp",
+      "sha256": "10135b04b23f412c32d0c4962befdc618ef84b53fb3424c460b646c9e210358b",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/helio.webp",
+      "sha256": "7a4c01f36bc542a704974056806e6d5f2deb4d1fdf0382339ea2db6a4892c708",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/keyform.webp",
+      "sha256": "d9ca62cb1ff24a747f0efd396172cf44477d00bae74a4f2727aeb46428d8ecbd",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/laminate_floor_02/diff.webp",
+      "sha256": "ba79dbe46e2f8731fc8f60af58df261b73ebaf43ad56997759a97d4b6fbe0d9f",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/laminate_floor_02/nor_gl.webp",
+      "sha256": "0c98c4f3a3e4db9a6be60d6b1689e48a1c49ade3d4b8ead46f265b1714761fe1",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/laminate_floor_02/rough.webp",
+      "sha256": "4f52e15c6489ae9e95b567bdb8426d551de113e76970d61a2e14c2591570efdd",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/modern_wooden_cabinet/model.gltf",
+      "sha256": "34936a8826c9de546c51b1e8bdd857ad44bc76453edfb74b73c2c998b1edf6f6",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/modern_wooden_cabinet/modern_wooden_cabinet.bin",
+      "sha256": "04e664a95f52c48d0caa8c3148ab7e4ad4a0554b37a2a5c0e39dc6ed6c46cafe",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/modern_wooden_cabinet/modern_wooden_cabinet_arm_1k.webp",
+      "sha256": "c7f09a5b68867b3de03ea69ce9af06c66354e7dfd14be5989ef207896c5a9aef",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/modern_wooden_cabinet/modern_wooden_cabinet_diff_1k.webp",
+      "sha256": "01c29ee6fc3f2a6841f2d18aa2a4570004673893b97c0688e107fb85b6ae1a83",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/modern_wooden_cabinet/modern_wooden_cabinet_nor_gl_1k.webp",
+      "sha256": "0737b58cc764e442a93a3f759d2b0f9409a6a1b18145b1cdcb7fa6b7b93f634b",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/oak/diff.webp",
+      "sha256": "f083cf22b6d883ceb13488f8fe3de035b7b5d5d7a8c8efe880e05d326368f659",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/oak/nor_gl.webp",
+      "sha256": "2bff12a4cee74f697d8b0b87abfbe443d3b50e9ba180b3bf2c54fbc24cd4cf94",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/oak/rough.webp",
+      "sha256": "a4d8b28c674db9f6d7662ceef2870603a8ec43662b1152e7099c617d17f72e8b",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/poslesvet.webp",
+      "sha256": "bd83752709eb41b6544031197a5647d309725772eea30af732dddd73cffb8f44",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/potted_plant_02/selected.bin",
+      "sha256": "26ba8b774e4fb0f0aac9c2bd6c0de385d997b371cb8377a9e050370a8fc981cc",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/potted_plant_02/selected.gltf",
+      "sha256": "3258f9b9193820e16f2d67e8db8df0ff1dd8901a524d526f7ad9789ed610d3d2",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/potted_plant_02/textures/potted_plant_02_leaves_diff_1k.webp",
+      "sha256": "35e6f8b33b5e8ce9b952fac3d9b7ce4bb4665fde947565ff2409aab01980f5d4",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.webp",
+      "sha256": "14adcd17e041fa6dd4816a42e601d703a9eda2eda38949e0d78d50710aba756c",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/potted_plant_02/textures/potted_plant_02_leaves_rough_1k.webp",
+      "sha256": "37460e8c6f087347d059b49bbfd92447fc04c4f75c1f675ef3cfa3c515163c15",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/potted_plant_02/textures/potted_plant_02_pot_diff_1k.webp",
+      "sha256": "a0119441b973c6ae16c1a38f8c38682ba1367141d29fd4eb0cbbd4dfadbcb065",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.webp",
+      "sha256": "c84b88948228d626f02fc145a87cf152ee825fdeb1e340abb370f0f6bdea3992",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/potted_plant_02/textures/potted_plant_02_pot_rough_1k.webp",
+      "sha256": "fd264c446bda85a2e06f5a2b8028e33a7833cafeb852842682ed96c90e66f5c4",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/room-accents/ceiling-panel.glb",
+      "sha256": "6dd936a72644c3a88698216b9af3ab1966d96fb2ec825952755870304a9e48e3",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/room-accents/ceiling-panel.glb.gz",
+      "sha256": "d2c169aba252ca1ac47882ffaafdc41761f2397597cc10657783218c02c90482",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/room-accents/orbit.glb",
+      "sha256": "7a011facd879ca516cce2bfe183c867bd3b398434162886ae65237f913cb0121",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/room-accents/orbit.glb.gz",
+      "sha256": "9a465a361581d374d0ed56c1a794e4722f68dd0d5b9cd26bbd4f039d241a5b65",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/room-accents/robot.glb",
+      "sha256": "a94781e01ab3a2d263f8ed87d81b2b40c21591e740bc4a0ef7f2f425145c8b2e",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/room-accents/robot.glb.gz",
+      "sha256": "2e390f4429065070ee4a555e054da5481d4d5b446262089ae100cf3309df7454",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/rowline.webp",
+      "sha256": "a8264131587ce352a00201d2aa81a5037b610dcc71f883dee84d48b9e57d361e",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/shapecheck.webp",
+      "sha256": "6d7cf02a5c74b7fcb147f63a1d1e1817d79d0a97f3f52ea8df6cb4048c84e389",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/sheen_chair/geometry.bin",
+      "sha256": "bb80869cbb73e6dbacbbcdee8c430cdaa92a7447cce22abbf818b6c673cee427",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/sheen_chair/model.gltf",
+      "sha256": "e9c665df8d5838b87d77107eb0807e6b67e71c764d87967b6616c76b6de8d5b5",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/sheen_chair/texture-0.webp",
+      "sha256": "5d21c771ee76cdbadad400e28514e9b576eed6bf7c89efd33c46125726689f04",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/sheen_chair/texture-1.webp",
+      "sha256": "037bea49c13c87967ce7a693233a2f5531c8863dbcec5c1dfcf43e617001bcd4",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/sheen_chair/texture-2.webp",
+      "sha256": "34906473b0e2c9b13ecbae0b798606aa9b07ad0a6a71e5c22039ec759fc22205",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/sheen_chair/texture-3.webp",
+      "sha256": "7909bb0b09e1414687ce99ffe87c471c93bc5c34637f78970ea83a99f55b3fa7",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/sheen_chair/texture-4.webp",
+      "sha256": "1df7c40ca9f5b20782bdce25baddf99caebf4e55b569293b34ddf5a1a7dbfa75",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/sheen_chair/texture-5.webp",
+      "sha256": "6d4b3f33d27ea57672deeb7f5d8f1040ebbbe6767347b28ccb6f06d63a49035c",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/side_table_01/model.gltf",
+      "sha256": "4ac3fdd04b3e48f8151b5598f0d18738ab6f9bfd2e8b7c2be7e7d02e2888e299",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/side_table_01/side_table_01.bin",
+      "sha256": "b1f2a0519fc61cded1fdeac8169ac5b077836052671cd39a35cb56576c9aa11e",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/side_table_01/side_table_01_arm_1k.webp",
+      "sha256": "4ae56bac8d31d7369b9d5130667ea3860495fbd6c1cad340bfcccde37b9fdb04",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/side_table_01/side_table_01_diff_1k.webp",
+      "sha256": "2155f31bd7a152e9cb66913563a4a8a3b729ea7dfe4c565aeb8687e1801e36bf",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/side_table_01/side_table_01_nor_gl_1k.webp",
+      "sha256": "0bf36303b1f9831f17d04499971a0cf954237484993b961b2fcde0091b4e033b",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/studio-furniture/cabinet.glb",
+      "sha256": "7d63ea5bc7c3e952e60bc4977b55547cf2ecc0d8174c0c7b3baf665f28ca0031",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/studio-furniture/cabinet.glb.gz",
+      "sha256": "d09a88387a934905ecffc002cd83e0e6d8f964a61e1b16e85c8389e96c4fe54b",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/studio-furniture/chair.glb",
+      "sha256": "b3686deedf2916618446619229181845a2cf1b759356b04ee34e676062a18f1f",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/studio-furniture/chair.glb.gz",
+      "sha256": "b460d38947d9ae81a279ffae41865da1a64911c64ec817b8db5f2c32b5e853f3",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/studio-furniture/door.glb",
+      "sha256": "91c833a8574072019f0f4f023745cc646db4afaa8847dcab86446635631a0e7e",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/studio-furniture/door.glb.gz",
+      "sha256": "dfaa18e8f5071eb92c6e52556acf102aa3e81a308b077a3cf672fa1f85e9d250",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/studio-furniture/drawer.glb",
+      "sha256": "cbd18d8f6d45cf28379742c78c401f266b26262dea9fdbc58cda1292bcd40f97",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/studio-furniture/drawer.glb.gz",
+      "sha256": "8a949b52af7f079a50085558447f8b15dbc318e74431a09cf85a033be2f3e032",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/studio-furniture/lamp.glb",
+      "sha256": "9a2e3fa48d7a1bacae7a5e2c5bb1e87d79117843167a3989fdf699ea57082efd",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/studio-furniture/lamp.glb.gz",
+      "sha256": "2f17093c4ba0d33a432a0b6e27f9696f55fc45324ee9d2c1e6d45e9e2d9e01d0",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/studio-furniture/side-table.glb",
+      "sha256": "c12396e81b743fe2bcc9c5b8f8c728ec54a3dbd1d6933f06c8bec06a40e17c06",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/studio-furniture/side-table.glb.gz",
+      "sha256": "986f7d410512898b86541abcde6bf2d33fd51fbb7bd5996abf39f70185402491",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/studio-furniture/workbench.glb",
+      "sha256": "3c8d369c69d4f19b718c26dcf5b9185452126c3d82eb6ebb4c3644744ab982a4",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/studio-furniture/workbench.glb.gz",
+      "sha256": "205ca2d3ae2eaee55792a3039c8e4fdd632c1efa940a1551bca12a5351526949",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/urban_facade/sky.webp",
+      "sha256": "e8091185c4e2dcec622c4d047503f50849b2f3f07e9f791f389db930ae45c8e3",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/white_plaster_02/diff.webp",
+      "sha256": "6b570ebd6b8d8793b2f5b19a50750a44bed6af0e8d6731ad21e46d72c5090d60",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/white_plaster_02/nor_gl.webp",
+      "sha256": "80bf29b3f7c7063765ac504a4e627241d35c32af333fc3f520c5ecf96e675f7b",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/white_plaster_02/painted.webp",
+      "sha256": "0532ee3a137a399332a6f212ec8a43bed7decec546159b3403913d1e05531ccb",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/white_plaster_02/rough.webp",
+      "sha256": "bc7c76f7217cc6e8c380fb5e5d13d1ee5c153816bf3ecbeb6ac6398a59f1b941",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/window/indirect.webp",
+      "sha256": "533fc6472aedfb27917113f95b8bcff9c54912a3004a0b4a9fe9a5b074b11b35",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/window/window.glb",
+      "sha256": "57b8d49eefed3b565f85109806b2a6ec97622670f8b44a81ab919fd910483601",
+      "matches": true
+    },
+    {
+      "path": "docs/room/assets/window/window.glb.gz",
+      "sha256": "d9cb0602389c721f79368dc9f9ec4d3809093914dc94d23ee6c7bf19d95ceac4",
+      "matches": true
+    },
+    {
+      "path": "docs/room/audio-score.js",
+      "sha256": "b142f7f1015bd25234c515ce4e3fd45124587a873f6572862205bc320139abfe",
+      "matches": true
+    },
+    {
+      "path": "docs/room/audio-worker.js",
+      "sha256": "325d37b5147530dec66ef1c8a7222bf75be8622ef3adcc320d07201afe9ced2e",
+      "matches": true
+    },
+    {
+      "path": "docs/room/audio.js",
+      "sha256": "cc3f851d434bb46cf137b8de037f71d5d47a972f75a4f8f6419d66dd775390dd",
+      "matches": true
+    },
+    {
+      "path": "docs/room/boot.js",
+      "sha256": "41d4ff057d3185d88e7016349cbc4a72b44e33d67a22237375b77f2497ce17f5",
+      "matches": true
+    },
+    {
+      "path": "docs/room/cabinet-doors.js",
+      "sha256": "338ee6f47d40777e978aab9aae6a6dc38ba0aca24bbe72921abc89b3580eefb6",
+      "matches": true
+    },
+    {
+      "path": "docs/room/cabinet-scene.js",
+      "sha256": "faba0347aa4e622fd6b682802dfc1425ce829bcf01501856ec7b272918e2d991",
+      "matches": true
+    },
+    {
+      "path": "docs/room/collection-models.js",
+      "sha256": "04c28b39d51412cd4d41a813faccdca78658f6245bace3c0c2691c2534479726",
+      "matches": true
+    },
+    {
+      "path": "docs/room/collection-viewer.js",
+      "sha256": "13ae69e049a58bac022b323b6fa4e9702d7d620b08f58620d422ffc24c00deec",
+      "matches": true
+    },
+    {
+      "path": "docs/room/compressed-models.js",
+      "sha256": "79110c624660661badd9dc2656d88e5a28488209a6b0df0728031e0b34a471e7",
+      "matches": true
+    },
+    {
+      "path": "docs/room/cube-state.js",
+      "sha256": "444aa7795838492cfd2a6539c1d2815f91da42f5598550b8d4c5a11dffe74aa3",
+      "matches": true
+    },
+    {
+      "path": "docs/room/daylight.js",
+      "sha256": "33041c679daab94b276482bd2ef68ab1b80e42cc44db1dd40dc94f031bd797ba",
+      "matches": true
+    },
+    {
+      "path": "docs/room/document-actions.js",
+      "sha256": "5438d1db0111f6c36fb102ef4f53f23b9576f206f7ce5d0bdaed7a322090bde9",
+      "matches": true
+    },
+    {
+      "path": "docs/room/documents-data.js",
+      "sha256": "88788ad6dffd000b68e81978ce51fab8cb1e9a667ec6680c0d30c90715fee73e",
+      "matches": true
+    },
+    {
+      "path": "docs/room/expo.js",
+      "sha256": "00c88d8c68aa864b09157438033dac9969ce51a291d6d420951f081a7b3ca2f6",
+      "matches": true
+    },
+    {
+      "path": "docs/room/exterior-surfaces.js",
+      "sha256": "ba272c6436633497e42fa7097a473960c86d828bdaf8641eae29d3eea43657a2",
+      "matches": true
+    },
+    {
+      "path": "docs/room/furniture.js",
+      "sha256": "479f529ce12feb3c41685432694ec751ca0b40d322c460628f12e86f6bd10c3a",
+      "matches": true
+    },
+    {
+      "path": "docs/room/index.html",
+      "sha256": "e89fd29119cfb9f30124b52cfc61adba4806d522e4bb7ada0e2f132857992e45",
+      "matches": true
+    },
+    {
+      "path": "docs/room/joinery-details.js",
+      "sha256": "49cd7244a3922d01a773bf7076940d90c938b5aa196c77982ab568ef87529f98",
+      "matches": true
+    },
+    {
+      "path": "docs/room/main.js",
+      "sha256": "f46cd175d886ebd910d51cf1b777e7ad7acf06e9f44cce522c438a8647f36f42",
+      "matches": true
+    },
+    {
+      "path": "docs/room/profile-data.js",
+      "sha256": "b54de4cd2be62b08ffef13fb906125b8ba1f871865f19e8456f5139955c8225e",
+      "matches": true
+    },
+    {
+      "path": "docs/room/projects-data.js",
+      "sha256": "ad46614ca06ab5f23319392170959ba12d1bffa65b44783c214a28429d1022ec",
+      "matches": true
+    },
+    {
+      "path": "docs/room/room-accents.js",
+      "sha256": "1b15c1c306be8c45257db133288cd899cd9310f7731977aaa5429481d3728791",
+      "matches": true
+    },
+    {
+      "path": "docs/room/stream-manifest.js",
+      "sha256": "45d3b3d77fcaea8d4ba0fb05b66d0143ba6f8fdac39b752fdbc03e13c5ca8a37",
+      "matches": true
+    },
+    {
+      "path": "docs/room/streaming.js",
+      "sha256": "363b8200e35e7700a0710fcc0b4ef6cd2e968dcd92e7648bdfc7895e50c9dde0",
+      "matches": true
+    },
+    {
+      "path": "docs/room/style.css",
+      "sha256": "525989a222ebbcd8dcec07844b0c70afb22fc862cbd104d7b6eb40e6f651a925",
+      "matches": true
+    },
+    {
+      "path": "docs/room/ui.js",
+      "sha256": "9893c10ac55ed67f22fd556120faafface8b739dc9899399ab2a7fa7418f7ac9",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vegetation.js",
+      "sha256": "6f18a5c67e7abbe76e5edca7e1a6f0ee5c6fea7c28bef5fe6370c57d0dbbaa56",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vendor/THREE-LICENSE.txt",
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vendor/addons/csm/CSM.js",
+      "sha256": "ad3364f5e9201083d303872ddb7bcbc56096283be6d46a222da83a1629338d22",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vendor/addons/csm/CSMFrustum.js",
+      "sha256": "3a86e523921a69159c2a5b6aa0269527d7b99875ceea9a2a6b71ac8e0fbdd408",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vendor/addons/csm/CSMShader.js",
+      "sha256": "9dfe9b052f75607919afb05f0109cdb1cba54138552cbec574052be26105bae2",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vendor/addons/environments/RoomEnvironment.js",
+      "sha256": "55f466192cc84298755a424c5e040345006b2ee1455589b3b54126c2ea4123f4",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vendor/addons/geometries/RoundedBoxGeometry.js",
+      "sha256": "c5feab96123858ed8823c889b238dc8734adab7e760e3cfd21e7f3f2f3e348e3",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vendor/addons/loaders/GLTFLoader.js",
+      "sha256": "131c0f78c01d19368ae495caa65b3adaa10487810a36a05bb5901b769a35ac16",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vendor/addons/utils/BufferGeometryUtils.js",
+      "sha256": "9fb63427ce6641fa14fd0baff9cc4d1b5f9c3d85fd084bf2e90e803c44ec1797",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vendor/addons/utils/SkeletonUtils.js",
+      "sha256": "b1632a703206c3d830de9fcbe515696770d04b71a15ee6b50afa6d2c3298c86f",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vendor/three.core.js",
+      "sha256": "0814550d776d724e97d42efa2fa456cb08b12a95adcffff7bfafaf778ca57ff7",
+      "matches": true
+    },
+    {
+      "path": "docs/room/vendor/three.module.js",
+      "sha256": "ce36afc4c426fceb714c415df8192ceb98c432b0d02e4a97532f3730ecefb161",
+      "matches": true
+    },
+    {
+      "path": "docs/room/weather.js",
+      "sha256": "2ed6ceeae76a29fd2c09bb05154ececd376b4b9e9436adb2eeb467ec2d21907c",
+      "matches": true
+    },
+    {
+      "path": "docs/room/window-fragment.js",
+      "sha256": "10d07af549db828e0c68d1d6187d569cdf557fc6ebc24a6a5bb3240f4be4e4d3",
+      "matches": true
+    },
+    {
+      "path": "docs/room/world.js",
+      "sha256": "4df199f5c7704ce2282cd9a999943ccc8a1f6f0cca024dc1675f0ba303c415f8",
+      "matches": true
+    }
+  ],
+  "passed": true
+}

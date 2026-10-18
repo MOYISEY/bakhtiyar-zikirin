@@ -1,0 +1,1242 @@
+{
+  "base": "https://moyisey.github.io/bakhtiyar-zikirin/",
+  "browser": "155.0.4283.62",
+  "method": "Directed tasks performed by the implementing agent in installed Edge, not a study with live HR/recruiters/developers. Desktop tasks use native Tab/ShiftTab/Enter; touch tasks use actual taps and CDP scroll gestures. No mailto or messaging send is activated. Demo/repository checks verify landing/navigation, not the external app implementation.",
+  "checks": [
+    "keyboard-desktop-ru-light: role and primary stack immediately stated",
+    "keyboard-desktop-ru-light: correct language/theme and no overflow",
+    "keyboard-desktop-ru-light: all static localized copy matches approved source",
+    "keyboard-desktop-ru-light hero CV: exact approved public PDF",
+    "keyboard-desktop-ru-light: distinct approved practice about.iqadamPeriod",
+    "keyboard-desktop-ru-light: distinct approved practice about.iqadam2025Period",
+    "keyboard-desktop-ru-light: distinct approved practice about.adoPeriod",
+    "keyboard-desktop-ru-light: education education.collegeName",
+    "keyboard-desktop-ru-light: education education.collegePeriod",
+    "keyboard-desktop-ru-light: education education.collegeBody",
+    "keyboard-desktop-ru-light: education education.aiuName",
+    "keyboard-desktop-ru-light: education education.aiuPeriod",
+    "keyboard-desktop-ru-light: education education.aiuBody",
+    "keyboard-desktop-ru-light: compact complete document row",
+    "keyboard-desktop-ru-light: usable public contact routes",
+    "keyboard-desktop-ru-light: all nine catalog projects retained",
+    "keyboard-desktop-ru-light: case names purpose and concise implementation",
+    "keyboard-desktop-ru-light: original case detail helio.text",
+    "keyboard-desktop-ru-light: original case detail helio.output",
+    "keyboard-desktop-ru-light: original case detail v10.helioInfo",
+    "ordinary demo: explicit safe new-tab action",
+    "ordinary demo: correct reachable landing without opener",
+    "ordinary repository: explicit safe new-tab action",
+    "ordinary repository: correct reachable landing without opener",
+    "ordinary repository: real repository title",
+    "keyboard-desktop-ru-light: room keeps requested language",
+    "keyboard-desktop-ru-light: full native developer profile about.intro",
+    "keyboard-desktop-ru-light: full native developer profile about.iqadamPeriod",
+    "keyboard-desktop-ru-light: full native developer profile about.iqadam2025Period",
+    "keyboard-desktop-ru-light: full native developer profile about.adoPeriod",
+    "keyboard-desktop-ru-light: three native practices retained",
+    "keyboard-desktop-ru-light: native education education.collegeName",
+    "keyboard-desktop-ru-light: native education education.collegeBody",
+    "keyboard-desktop-ru-light: native education education.aiuName",
+    "keyboard-desktop-ru-light: native education education.aiuBody",
+    "keyboard-desktop-ru-light: native physical CV is visible and named",
+    "keyboard-desktop-ru-light native CV: exact approved public PDF",
+    "keyboard-desktop-ru-light: native contacts are self-contained",
+    "keyboard-desktop-ru-light: all six native cases retained",
+    "keyboard-desktop-ru-light: native case includes same brief",
+    "native demo: explicit safe new-tab action",
+    "native demo: correct reachable landing without opener",
+    "native repository: explicit safe new-tab action",
+    "native repository: correct reachable landing without opener",
+    "native repository: real repository title",
+    "keyboard-desktop-ru-light: no portfolio runtime errors",
+    "keyboard-desktop-ru-dark: role and primary stack immediately stated",
+    "keyboard-desktop-ru-dark: correct language/theme and no overflow",
+    "keyboard-desktop-ru-dark: all static localized copy matches approved source",
+    "keyboard-desktop-ru-dark hero CV: exact approved public PDF",
+    "keyboard-desktop-ru-dark: distinct approved practice about.iqadamPeriod",
+    "keyboard-desktop-ru-dark: distinct approved practice about.iqadam2025Period",
+    "keyboard-desktop-ru-dark: distinct approved practice about.adoPeriod",
+    "keyboard-desktop-ru-dark: education education.collegeName",
+    "keyboard-desktop-ru-dark: education education.collegePeriod",
+    "keyboard-desktop-ru-dark: education education.collegeBody",
+    "keyboard-desktop-ru-dark: education education.aiuName",
+    "keyboard-desktop-ru-dark: education education.aiuPeriod",
+    "keyboard-desktop-ru-dark: education education.aiuBody",
+    "keyboard-desktop-ru-dark: compact complete document row",
+    "keyboard-desktop-ru-dark: usable public contact routes",
+    "keyboard-desktop-ru-dark: all nine catalog projects retained",
+    "keyboard-desktop-ru-dark: case names purpose and concise implementation",
+    "keyboard-desktop-ru-dark: original case detail v12.keyform.context",
+    "keyboard-desktop-ru-dark: original case detail v12.keyform.result",
+    "keyboard-desktop-ru-dark: original case detail v10.keyformInfo",
+    "ordinary demo: explicit safe new-tab action",
+    "ordinary demo: correct reachable landing without opener",
+    "ordinary repository: explicit safe new-tab action",
+    "ordinary repository: correct reachable landing without opener",
+    "ordinary repository: real repository title",
+    "keyboard-desktop-ru-dark: room keeps requested language",
+    "keyboard-desktop-ru-dark: full native developer profile about.intro",
+    "keyboard-desktop-ru-dark: full native developer profile about.iqadamPeriod",
+    "keyboard-desktop-ru-dark: full native developer profile about.iqadam2025Period",
+    "keyboard-desktop-ru-dark: full native developer profile about.adoPeriod",
+    "keyboard-desktop-ru-dark: three native practices retained",
+    "keyboard-desktop-ru-dark: native education education.collegeName",
+    "keyboard-desktop-ru-dark: native education education.collegeBody",
+    "keyboard-desktop-ru-dark: native education education.aiuName",
+    "keyboard-desktop-ru-dark: native education education.aiuBody",
+    "keyboard-desktop-ru-dark: native physical CV is visible and named",
+    "keyboard-desktop-ru-dark native CV: exact approved public PDF",
+    "keyboard-desktop-ru-dark: native contacts are self-contained",
+    "keyboard-desktop-ru-dark: all six native cases retained",
+    "keyboard-desktop-ru-dark: native case includes same brief",
+    "native demo: explicit safe new-tab action",
+    "native demo: correct reachable landing without opener",
+    "native repository: explicit safe new-tab action",
+    "native repository: correct reachable landing without opener",
+    "native repository: real repository title",
+    "keyboard-desktop-ru-dark: no portfolio runtime errors",
+    "keyboard-desktop-kk-light: role and primary stack immediately stated",
+    "keyboard-desktop-kk-light: correct language/theme and no overflow",
+    "keyboard-desktop-kk-light: all static localized copy matches approved source",
+    "keyboard-desktop-kk-light hero CV: exact approved public PDF",
+    "keyboard-desktop-kk-light: distinct approved practice about.iqadamPeriod",
+    "keyboard-desktop-kk-light: distinct approved practice about.iqadam2025Period",
+    "keyboard-desktop-kk-light: distinct approved practice about.adoPeriod",
+    "keyboard-desktop-kk-light: education education.collegeName",
+    "keyboard-desktop-kk-light: education education.collegePeriod",
+    "keyboard-desktop-kk-light: education education.collegeBody",
+    "keyboard-desktop-kk-light: education education.aiuName",
+    "keyboard-desktop-kk-light: education education.aiuPeriod",
+    "keyboard-desktop-kk-light: education education.aiuBody",
+    "keyboard-desktop-kk-light: compact complete document row",
+    "keyboard-desktop-kk-light: usable public contact routes",
+    "keyboard-desktop-kk-light: all nine catalog projects retained",
+    "keyboard-desktop-kk-light: case names purpose and concise implementation",
+    "keyboard-desktop-kk-light: original case detail rowline.constraint",
+    "keyboard-desktop-kk-light: original case detail rowline.solution",
+    "keyboard-desktop-kk-light: original case detail v12.rowline.limit",
+    "ordinary demo: explicit safe new-tab action",
+    "ordinary demo: correct reachable landing without opener",
+    "ordinary repository: explicit safe new-tab action",
+    "ordinary repository: correct reachable landing without opener",
+    "ordinary repository: real repository title",
+    "keyboard-desktop-kk-light: room keeps requested language",
+    "keyboard-desktop-kk-light: full native developer profile about.intro",
+    "keyboard-desktop-kk-light: full native developer profile about.iqadamPeriod",
+    "keyboard-desktop-kk-light: full native developer profile about.iqadam2025Period",
+    "keyboard-desktop-kk-light: full native developer profile about.adoPeriod",
+    "keyboard-desktop-kk-light: three native practices retained",
+    "keyboard-desktop-kk-light: native education education.collegeName",
+    "keyboard-desktop-kk-light: native education education.collegeBody",
+    "keyboard-desktop-kk-light: native education education.aiuName",
+    "keyboard-desktop-kk-light: native education education.aiuBody",
+    "keyboard-desktop-kk-light: native physical CV is visible and named",
+    "keyboard-desktop-kk-light native CV: exact approved public PDF",
+    "keyboard-desktop-kk-light: native contacts are self-contained",
+    "keyboard-desktop-kk-light: all six native cases retained",
+    "keyboard-desktop-kk-light: native case includes same brief",
+    "native demo: explicit safe new-tab action",
+    "native demo: correct reachable landing without opener",
+    "native repository: explicit safe new-tab action",
+    "native repository: correct reachable landing without opener",
+    "native repository: real repository title",
+    "keyboard-desktop-kk-light: no portfolio runtime errors",
+    "keyboard-desktop-kk-dark: role and primary stack immediately stated",
+    "keyboard-desktop-kk-dark: correct language/theme and no overflow",
+    "keyboard-desktop-kk-dark: all static localized copy matches approved source",
+    "keyboard-desktop-kk-dark hero CV: exact approved public PDF",
+    "keyboard-desktop-kk-dark: distinct approved practice about.iqadamPeriod",
+    "keyboard-desktop-kk-dark: distinct approved practice about.iqadam2025Period",
+    "keyboard-desktop-kk-dark: distinct approved practice about.adoPeriod",
+    "keyboard-desktop-kk-dark: education education.collegeName",
+    "keyboard-desktop-kk-dark: education education.collegePeriod",
+    "keyboard-desktop-kk-dark: education education.collegeBody",
+    "keyboard-desktop-kk-dark: education education.aiuName",
+    "keyboard-desktop-kk-dark: education education.aiuPeriod",
+    "keyboard-desktop-kk-dark: education education.aiuBody",
+    "keyboard-desktop-kk-dark: compact complete document row",
+    "keyboard-desktop-kk-dark: usable public contact routes",
+    "keyboard-desktop-kk-dark: all nine catalog projects retained",
+    "keyboard-desktop-kk-dark: case names purpose and concise implementation",
+    "keyboard-desktop-kk-dark: original case detail helio.text",
+    "keyboard-desktop-kk-dark: original case detail helio.output",
+    "keyboard-desktop-kk-dark: original case detail v10.helioInfo",
+    "ordinary demo: explicit safe new-tab action",
+    "ordinary demo: correct reachable landing without opener",
+    "ordinary repository: explicit safe new-tab action",
+    "ordinary repository: correct reachable landing without opener",
+    "ordinary repository: real repository title",
+    "keyboard-desktop-kk-dark: room keeps requested language",
+    "keyboard-desktop-kk-dark: full native developer profile about.intro",
+    "keyboard-desktop-kk-dark: full native developer profile about.iqadamPeriod",
+    "keyboard-desktop-kk-dark: full native developer profile about.iqadam2025Period",
+    "keyboard-desktop-kk-dark: full native developer profile about.adoPeriod",
+    "keyboard-desktop-kk-dark: three native practices retained",
+    "keyboard-desktop-kk-dark: native education education.collegeName",
+    "keyboard-desktop-kk-dark: native education education.collegeBody",
+    "keyboard-desktop-kk-dark: native education education.aiuName",
+    "keyboard-desktop-kk-dark: native education education.aiuBody",
+    "keyboard-desktop-kk-dark: native physical CV is visible and named",
+    "keyboard-desktop-kk-dark native CV: exact approved public PDF",
+    "keyboard-desktop-kk-dark: native contacts are self-contained",
+    "keyboard-desktop-kk-dark: all six native cases retained",
+    "keyboard-desktop-kk-dark: native case includes same brief",
+    "native demo: explicit safe new-tab action",
+    "native demo: correct reachable landing without opener",
+    "native repository: explicit safe new-tab action",
+    "native repository: correct reachable landing without opener",
+    "native repository: real repository title",
+    "keyboard-desktop-kk-dark: no portfolio runtime errors",
+    "keyboard-desktop-en-light: role and primary stack immediately stated",
+    "keyboard-desktop-en-light: correct language/theme and no overflow",
+    "keyboard-desktop-en-light: all static localized copy matches approved source",
+    "keyboard-desktop-en-light hero CV: exact approved public PDF",
+    "keyboard-desktop-en-light: distinct approved practice about.iqadamPeriod",
+    "keyboard-desktop-en-light: distinct approved practice about.iqadam2025Period",
+    "keyboard-desktop-en-light: distinct approved practice about.adoPeriod",
+    "keyboard-desktop-en-light: education education.collegeName",
+    "keyboard-desktop-en-light: education education.collegePeriod",
+    "keyboard-desktop-en-light: education education.collegeBody",
+    "keyboard-desktop-en-light: education education.aiuName",
+    "keyboard-desktop-en-light: education education.aiuPeriod",
+    "keyboard-desktop-en-light: education education.aiuBody",
+    "keyboard-desktop-en-light: compact complete document row",
+    "keyboard-desktop-en-light: usable public contact routes",
+    "keyboard-desktop-en-light: all nine catalog projects retained",
+    "keyboard-desktop-en-light: case names purpose and concise implementation",
+    "keyboard-desktop-en-light: original case detail v12.keyform.context",
+    "keyboard-desktop-en-light: original case detail v12.keyform.result",
+    "keyboard-desktop-en-light: original case detail v10.keyformInfo",
+    "ordinary demo: explicit safe new-tab action",
+    "ordinary demo: correct reachable landing without opener",
+    "ordinary repository: explicit safe new-tab action",
+    "ordinary repository: correct reachable landing without opener",
+    "ordinary repository: real repository title",
+    "keyboard-desktop-en-light: room keeps requested language",
+    "keyboard-desktop-en-light: full native developer profile about.intro",
+    "keyboard-desktop-en-light: full native developer profile about.iqadamPeriod",
+    "keyboard-desktop-en-light: full native developer profile about.iqadam2025Period",
+    "keyboard-desktop-en-light: full native developer profile about.adoPeriod",
+    "keyboard-desktop-en-light: three native practices retained",
+    "keyboard-desktop-en-light: native education education.collegeName",
+    "keyboard-desktop-en-light: native education education.collegeBody",
+    "keyboard-desktop-en-light: native education education.aiuName",
+    "keyboard-desktop-en-light: native education education.aiuBody",
+    "keyboard-desktop-en-light: native physical CV is visible and named",
+    "keyboard-desktop-en-light native CV: exact approved public PDF",
+    "keyboard-desktop-en-light: native contacts are self-contained",
+    "keyboard-desktop-en-light: all six native cases retained",
+    "keyboard-desktop-en-light: native case includes same brief",
+    "native demo: explicit safe new-tab action",
+    "native demo: correct reachable landing without opener",
+    "native repository: explicit safe new-tab action",
+    "native repository: correct reachable landing without opener",
+    "native repository: real repository title",
+    "keyboard-desktop-en-light: no portfolio runtime errors",
+    "keyboard-desktop-en-dark: role and primary stack immediately stated",
+    "keyboard-desktop-en-dark: correct language/theme and no overflow",
+    "keyboard-desktop-en-dark: all static localized copy matches approved source",
+    "keyboard-desktop-en-dark hero CV: exact approved public PDF",
+    "keyboard-desktop-en-dark: distinct approved practice about.iqadamPeriod",
+    "keyboard-desktop-en-dark: distinct approved practice about.iqadam2025Period",
+    "keyboard-desktop-en-dark: distinct approved practice about.adoPeriod",
+    "keyboard-desktop-en-dark: education education.collegeName",
+    "keyboard-desktop-en-dark: education education.collegePeriod",
+    "keyboard-desktop-en-dark: education education.collegeBody",
+    "keyboard-desktop-en-dark: education education.aiuName",
+    "keyboard-desktop-en-dark: education education.aiuPeriod",
+    "keyboard-desktop-en-dark: education education.aiuBody",
+    "keyboard-desktop-en-dark: compact complete document row",
+    "keyboard-desktop-en-dark: usable public contact routes",
+    "keyboard-desktop-en-dark: all nine catalog projects retained",
+    "keyboard-desktop-en-dark: case names purpose and concise implementation",
+    "keyboard-desktop-en-dark: original case detail rowline.constraint",
+    "keyboard-desktop-en-dark: original case detail rowline.solution",
+    "keyboard-desktop-en-dark: original case detail v12.rowline.limit",
+    "ordinary demo: explicit safe new-tab action",
+    "ordinary demo: correct reachable landing without opener",
+    "ordinary repository: explicit safe new-tab action",
+    "ordinary repository: correct reachable landing without opener",
+    "ordinary repository: real repository title",
+    "keyboard-desktop-en-dark: room keeps requested language",
+    "keyboard-desktop-en-dark: full native developer profile about.intro",
+    "keyboard-desktop-en-dark: full native developer profile about.iqadamPeriod",
+    "keyboard-desktop-en-dark: full native developer profile about.iqadam2025Period",
+    "keyboard-desktop-en-dark: full native developer profile about.adoPeriod",
+    "keyboard-desktop-en-dark: three native practices retained",
+    "keyboard-desktop-en-dark: native education education.collegeName",
+    "keyboard-desktop-en-dark: native education education.collegeBody",
+    "keyboard-desktop-en-dark: native education education.aiuName",
+    "keyboard-desktop-en-dark: native education education.aiuBody",
+    "keyboard-desktop-en-dark: native physical CV is visible and named",
+    "keyboard-desktop-en-dark native CV: exact approved public PDF",
+    "keyboard-desktop-en-dark: native contacts are self-contained",
+    "keyboard-desktop-en-dark: all six native cases retained",
+    "keyboard-desktop-en-dark: native case includes same brief",
+    "native demo: explicit safe new-tab action",
+    "native demo: correct reachable landing without opener",
+    "native repository: explicit safe new-tab action",
+    "native repository: correct reachable landing without opener",
+    "native repository: real repository title",
+    "keyboard-desktop-en-dark: no portfolio runtime errors",
+    "touch-ru-light: role and primary stack immediately stated",
+    "touch-ru-light: correct language/theme and no overflow",
+    "touch-ru-light: all static localized copy matches approved source",
+    "touch-ru-light hero CV: exact approved public PDF",
+    "touch-ru-light: distinct approved practice about.iqadamPeriod",
+    "touch-ru-light: distinct approved practice about.iqadam2025Period",
+    "touch-ru-light: distinct approved practice about.adoPeriod"
+  ],
+  "cases": [
+    {
+      "name": "keyboard-desktop-ru-light",
+      "mobile": false,
+      "lang": "ru",
+      "theme": "light",
+      "mode": "keyboard",
+      "project": "helio",
+      "steps": [
+        {
+          "name": "keyboard-desktop-ru-light hero CV",
+          "input": "Tab/Enter",
+          "tabs": 12
+        },
+        {
+          "name": "about/experience",
+          "input": "ShiftTab/Enter",
+          "tabs": 7
+        },
+        {
+          "name": "project catalog",
+          "input": "ShiftTab/Enter",
+          "tabs": 17
+        },
+        {
+          "name": "selected project case",
+          "input": "Tab/Enter",
+          "tabs": 16
+        },
+        {
+          "name": "case details/limits",
+          "input": "Tab/Enter",
+          "tabs": 15
+        },
+        {
+          "name": "ordinary demo",
+          "input": "Tab/Enter",
+          "tabs": 18
+        },
+        {
+          "name": "ordinary repository",
+          "input": "Tab/Enter",
+          "tabs": 1
+        },
+        {
+          "name": "home",
+          "input": "ShiftTab/Enter",
+          "tabs": 9
+        },
+        {
+          "name": "enter3D",
+          "input": "Tab/Enter",
+          "tabs": 11
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 2
+        },
+        {
+          "name": "#profile-button",
+          "input": "Tab/Enter",
+          "tabs": 6
+        },
+        {
+          "name": "native education",
+          "input": "Tab/Enter",
+          "tabs": 1
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 0
+        },
+        {
+          "name": "#drawer-button",
+          "input": "Tab/Enter",
+          "tabs": 8
+        },
+        {
+          "name": "keyboard-desktop-ru-light native CV",
+          "input": "Tab/Enter",
+          "tabs": 7
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 3
+        },
+        {
+          "name": "#contacts-button",
+          "input": "Tab/Enter",
+          "tabs": 3
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 0
+        },
+        {
+          "name": "#case-button",
+          "input": "Tab/Enter",
+          "tabs": 5
+        },
+        {
+          "name": "native case",
+          "input": "Tab/Enter",
+          "tabs": 1
+        },
+        {
+          "name": "native demo",
+          "input": "Tab/Enter",
+          "tabs": 1
+        },
+        {
+          "name": "native repository",
+          "input": "Tab/Enter",
+          "tabs": 4
+        }
+      ],
+      "external": [
+        {
+          "url": "https://moyisey.github.io/helio/",
+          "title": "Helio — атлас дневного света",
+          "status": 200,
+          "body": "К планировщику\nhelio✦\nDAYLIGHT ATLAS\n01\nEN\n\nНЕМНОГО БЛИЖЕ К СОЛНЦУ\n\nЗастаньте\nсвой свет.\n\nРассвет, ради которого стоит встать. Прогулка, пока город не стал синим. Найдите момент — и запланируйте его.\n\nВыбрать точку на карте\n↓\nМягкий свет\n16:27\n\n6.1° над горизонтом ↗ 246°\n\nАстана · UTC+05:00\n\nГород и тени\nОткрытый горизонт\nПоиск города\n\nДевять городов в локальном списке. Улицу или двор выберите на карте. При перемещении точки часовая зона сохраняется — проверьте её при смене региона.\n\nГотовим карту…\n\nМесто\nАстана\nАлматы\nЛондон\nНью-Йорк\nТокио\nСидней\nТромсё\nКатманду\nКиритимати\nКалендарная дата\nЧасовая зона IANA\nПрименить\n←\nСейчас\n→\n\n51.1694°, 71.4491° · 24 ч в этих сутках\n\nПроведите день по шкале Реальное время; UTC-смещение различает повторный час.\n00:00\n06:00\n12:00\n18:00\n23:59\nМягкий свет\nГражданские сумерки\n\nСветовой день · 10 ч 30 мин\n\nОткрытый горизонт · ориентир\nУтренние сумерки\n06:10\n+05:00\nРассвет\n06:44\n+05:00\nМягкий свет до\n07:30\n+05:00\nСолнечный полдень\n11:59\n+05:00\nМягкий свет с\n16:27\n+05:00\nЗакат\n17:14\n+05:00\nВечерние сумерки до\n17:47\n+05:00\nСкачать план ↗ JSON\nВ календарь ICS\nСохранить на устройстве\nУказать координаты вручную\n\nTHE LIGHT, EXPLAINED\n\nСвет меняется.\nПлан остаётся вашим.\n\nМягким светом здесь называем промежуток от стандартного рассвета или заката (−0,833° геометрической высоты) до +6°. Гражданские сумерки — от −6° до рассвета и от заката до −6°. На севере такое окно может длиться намного дольше часа.\n\nВремя солнечных событий округлено до ближайшей минут",
+          "opener": false
+        },
+        {
+          "url": "https://github.com/MOYISEY/helio",
+          "title": "GitHub - MOYISEY/helio: Daylight Atlas — local sunlight planning with an original interactive 3D world. · GitHub",
+          "status": 200,
+          "body": "Skip to content\nNavigation Menu\nPlatform\nSolutions\nResources\nOpen Source\nEnterprise\nPricing\nSearch\n/\nSign in\nSign up\nMOYISEY\nhelio\nRepository navigation\nCode\nIssues\nPull requests\nActions\nSecurity and quality\nInsights\nhelio\nPublic\nNotifications\nFork0\n (0)\nStar0\n (0)\nmain\nBranches\nTags\nCode\nLatest commit\n \nHistory\n9 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\ndocs\n\t\n \n\t\n \n\n\nevidence\n\t\n \n\t\n \n\n\npublic\n\t\n \n\t\n \n\n\nscripts\n\t\n \n\t\n \n\n\nsrc\n\t\n \n\t\n \n\n\ntests\n\t\n \n\t\n \n\n\n.gitignore\n\t\n \n\t\n \n\n\nREADME.md\n\t\n \n\t\n \n\n\nTHIRD_PARTY_NOTICES.txt\n\t\n \n\t\n \n\n\nindex.html\n\t\n \n\t\n \n\n\npackage-lock.json\n\t\n \n\t\n \n\n\npackage.json\n\t\n \n\t\n \n\n\ntsconfig.json\n\t\n \n\t\n \n\n\nvite.config.ts\n\t\n \n\t\n \nRepository files navigation\nREADME\nHelio / Daylight Atlas\n\nOpen Helio · Source\n\nA daylight planner with an interactive city map and a bounded model of building shadows. React, TypeScript, MapLibre and Three.js. Search a local list of nine cities, then select a street or courtyard by clicking, dragging the marker, or using the keyboard and “Use map centre”. Moving the point preserves the explicitly selected IANA zone; check it when changing regions.\n\n“Build this neighborhood” reads contours from already loaded OpenFreeMap vector tiles and constructs a 300 × 300 m Three.js model. Directional light casts actual shadow maps. Moving the local-day timeline updates light and tests a ray from the point at 1.6 m height against the same meshes. It does not rebuild or request buildings again. The open-horizon world and it",
+          "opener": false
+        },
+        {
+          "url": "https://moyisey.github.io/helio/",
+          "title": "Helio — атлас дневного света",
+          "status": 200,
+          "body": "К планировщику\nhelio✦\nDAYLIGHT ATLAS\n01\nEN\n\nНЕМНОГО БЛИЖЕ К СОЛНЦУ\n\nЗастаньте\nсвой свет.\n\nРассвет, ради которого стоит встать. Прогулка, пока город не стал синим. Найдите момент — и запланируйте его.\n\nВыбрать точку на карте\n↓\nМягкий свет\n16:27\n\n6.1° над горизонтом ↗ 246°\n\nАстана · UTC+05:00\n\nГород и тени\nОткрытый горизонт\nПоиск города\n\nДевять городов в локальном списке. Улицу или двор выберите на карте. При перемещении точки часовая зона сохраняется — проверьте её при смене региона.\n\nГотовим карту…\n\nМесто\nАстана\nАлматы\nЛондон\nНью-Йорк\nТокио\nСидней\nТромсё\nКатманду\nКиритимати\nКалендарная дата\nЧасовая зона IANA\nПрименить\n←\nСейчас\n→\n\n51.1694°, 71.4491° · 24 ч в этих сутках\n\nПроведите день по шкале Реальное время; UTC-смещение различает повторный час.\n00:00\n06:00\n12:00\n18:00\n23:59\nМягкий свет\nГражданские сумерки\n\nСветовой день · 10 ч 30 мин\n\nОткрытый горизонт · ориентир\nУтренние сумерки\n06:10\n+05:00\nРассвет\n06:44\n+05:00\nМягкий свет до\n07:30\n+05:00\nСолнечный полдень\n11:59\n+05:00\nМягкий свет с\n16:27\n+05:00\nЗакат\n17:14\n+05:00\nВечерние сумерки до\n17:47\n+05:00\nСкачать план ↗ JSON\nВ календарь ICS\nСохранить на устройстве\nУказать координаты вручную\n\nTHE LIGHT, EXPLAINED\n\nСвет меняется.\nПлан остаётся вашим.\n\nМягким светом здесь называем промежуток от стандартного рассвета или заката (−0,833° геометрической высоты) до +6°. Гражданские сумерки — от −6° до рассвета и от заката до −6°. На севере такое окно может длиться намного дольше часа.\n\nВремя солнечных событий округлено до ближайшей минут",
+          "opener": false
+        },
+        {
+          "url": "https://github.com/MOYISEY/helio",
+          "title": "GitHub - MOYISEY/helio: Daylight Atlas — local sunlight planning with an original interactive 3D world. · GitHub",
+          "status": 200,
+          "body": "Skip to content\nNavigation Menu\nPlatform\nSolutions\nResources\nOpen Source\nEnterprise\nPricing\nSearch\n/\nSign in\nSign up\nMOYISEY\nhelio\nRepository navigation\nCode\nIssues\nPull requests\nActions\nSecurity and quality\nInsights\nhelio\nPublic\nNotifications\nFork0\n (0)\nStar0\n (0)\nmain\nBranches\nTags\nCode\nLatest commit\n \nHistory\n9 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\ndocs\n\t\n \n\t\n \n\n\nevidence\n\t\n \n\t\n \n\n\npublic\n\t\n \n\t\n \n\n\nscripts\n\t\n \n\t\n \n\n\nsrc\n\t\n \n\t\n \n\n\ntests\n\t\n \n\t\n \n\n\n.gitignore\n\t\n \n\t\n \n\n\nREADME.md\n\t\n \n\t\n \n\n\nTHIRD_PARTY_NOTICES.txt\n\t\n \n\t\n \n\n\nindex.html\n\t\n \n\t\n \n\n\npackage-lock.json\n\t\n \n\t\n \n\n\npackage.json\n\t\n \n\t\n \n\n\ntsconfig.json\n\t\n \n\t\n \n\n\nvite.config.ts\n\t\n \n\t\n \nRepository files navigation\nREADME\nHelio / Daylight Atlas\n\nOpen Helio · Source\n\nA daylight planner with an interactive city map and a bounded model of building shadows. React, TypeScript, MapLibre and Three.js. Search a local list of nine cities, then select a street or courtyard by clicking, dragging the marker, or using the keyboard and “Use map centre”. Moving the point preserves the explicitly selected IANA zone; check it when changing regions.\n\n“Build this neighborhood” reads contours from already loaded OpenFreeMap vector tiles and constructs a 300 × 300 m Three.js model. Directional light casts actual shadow maps. Moving the local-day timeline updates light and tests a ray from the point at 1.6 m height against the same meshes. It does not rebuild or request buildings again. The open-horizon world and it",
+          "opener": false
+        }
+      ],
+      "passed": true,
+      "educationScrolls": 1,
+      "errors": [],
+      "scriptSha": "c71cd6ed1b4ff3421ff338790654042cd78d007e4c2f6391e8aa43b727de8f12"
+    },
+    {
+      "name": "keyboard-desktop-ru-dark",
+      "mobile": false,
+      "lang": "ru",
+      "theme": "dark",
+      "mode": "keyboard",
+      "project": "keyform",
+      "scriptSha": "54e8bd8f9a771c2e108a69c7fc86dc4374075a631481de862f1f3f08749a3110",
+      "steps": [
+        {
+          "name": "keyboard-desktop-ru-dark hero CV",
+          "input": "Tab/Enter",
+          "tabs": 12
+        },
+        {
+          "name": "about/experience",
+          "input": "ShiftTab/Enter",
+          "tabs": 7
+        },
+        {
+          "name": "project catalog",
+          "input": "ShiftTab/Enter",
+          "tabs": 17
+        },
+        {
+          "name": "selected project case",
+          "input": "Tab/Enter",
+          "tabs": 20
+        },
+        {
+          "name": "case details/limits",
+          "input": "Tab/Enter",
+          "tabs": 15
+        },
+        {
+          "name": "ordinary demo",
+          "input": "Tab/Enter",
+          "tabs": 18
+        },
+        {
+          "name": "ordinary repository",
+          "input": "Tab/Enter",
+          "tabs": 1
+        },
+        {
+          "name": "home",
+          "input": "ShiftTab/Enter",
+          "tabs": 9
+        },
+        {
+          "name": "enter3D",
+          "input": "Tab/Enter",
+          "tabs": 11
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 2
+        },
+        {
+          "name": "#profile-button",
+          "input": "Tab/Enter",
+          "tabs": 6
+        },
+        {
+          "name": "native education",
+          "input": "Tab/Enter",
+          "tabs": 1
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 0
+        },
+        {
+          "name": "#drawer-button",
+          "input": "Tab/Enter",
+          "tabs": 8
+        },
+        {
+          "name": "keyboard-desktop-ru-dark native CV",
+          "input": "Tab/Enter",
+          "tabs": 7
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 3
+        },
+        {
+          "name": "#contacts-button",
+          "input": "Tab/Enter",
+          "tabs": 3
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 0
+        },
+        {
+          "name": "#case-button",
+          "input": "Tab/Enter",
+          "tabs": 5
+        },
+        {
+          "name": "native case",
+          "input": "Tab/Enter",
+          "tabs": 2
+        },
+        {
+          "name": "native demo",
+          "input": "Tab/Enter",
+          "tabs": 1
+        },
+        {
+          "name": "native repository",
+          "input": "Tab/Enter",
+          "tabs": 3
+        }
+      ],
+      "external": [
+        {
+          "url": "https://moyisey.github.io/keyform/",
+          "title": "Keyform — Keyboard studio",
+          "status": 200,
+          "body": "k\nkeyform\n°\nСТУДИЯ КЛАВИАТУРЫ / 001\nEN\nМоя сборка\n↗\nKEYFORM / 75%\nСоберите свою клавиатуру\n\nВыберите раскладку, разберите слои, проверьте клавиши.\n\n02\n75%\n81 клавиш\n326 × 138 mm\nЗагрузка 3D…\nВ сборе\nПо слоям\n↺\n↶\n↷\n+\n−\n⊞\n⤧   Вращайте · Приближайте · Исследуйте\n⌨   Тест клавиш\n↗\n01\nРаскладка\n65%\n75%\nTKL\nСравнить размеры ↗\n02\nКорпус\n✓\nСеребро\nАлюминий\nПоликарбонат\n03\nКейкапы\n✓\nМел\nPBT / профильные\n04\nПереключатели\nЛинейные\nТактильные\nКликающие\nРовный ход без тактильного бугорка. Звук зависит от всей сборки.\nРАЗОБРАТЬ\n01\nКейкапы\n02\nПереключатели\n03\nПластина\n04\nПлата\n05\nКорпус\nПроект Бахтияра\nОригинальная концепция · Внутренняя компоновка — схема\nЗагрузка 3D…",
+          "opener": false
+        },
+        {
+          "url": "https://github.com/MOYISEY/keyform",
+          "title": "GitHub - MOYISEY/keyform: An original interactive 3D mechanical keyboard studio. React, TypeScript and Three.js. · GitHub",
+          "status": 200,
+          "body": "Skip to content\nNavigation Menu\nPlatform\nSolutions\nResources\nOpen Source\nEnterprise\nPricing\nSearch\n/\nSign in\nSign up\nMOYISEY\nkeyform\nRepository navigation\nCode\nIssues\nPull requests\nActions\nProjects\nSecurity and quality\nInsights\nkeyform\nPublic\nNotifications\nFork0\n (0)\nStar0\n (0)\nmain\nBranches\nTags\nCode\nLatest commit\n \nHistory\n6 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\n.github/workflows\n\t\n \n\t\n \n\n\ndocs\n\t\n \n\t\n \n\n\npublic\n\t\n \n\t\n \n\n\nsrc\n\t\n \n\t\n \n\n\ntests\n\t\n \n\t\n \n\n\n.gitignore\n\t\n \n\t\n \n\n\nREADME.md\n\t\n \n\t\n \n\n\nTHIRD_PARTY.md\n\t\n \n\t\n \n\n\nindex.html\n\t\n \n\t\n \n\n\npackage-lock.json\n\t\n \n\t\n \n\n\npackage.json\n\t\n \n\t\n \n\n\nplaywright.config.ts\n\t\n \n\t\n \n\n\ntsconfig.json\n\t\n \n\t\n \n\n\nvite.config.ts\n\t\n \n\t\n \nRepository files navigation\nREADME\nKeyform\n\nAn original mechanical keyboard studio for Bakhtiyar's portfolio. A working configurator built with React, TypeScript and Three.js, with procedural geometry and no external model or texture downloads.\n\nTry it\n\nOpen the studio\n\nExploded view · Mobile view\n\nChoose a 65%, 75% or TKL layout, customise the case and keycaps, explore five mechanical layers, compare footprints and test the keys. Use Your build for JSON import/export, a text build sheet, a configuration link and explicit device-local save/restore.\n\nThe keyboard is a concept, not a purchasable product. Dimensions are design targets. PCB traces, switch housings and internal assembly are schematic. No real component compatibility, price, sound simulation or manufacturing suitability is c",
+          "opener": false
+        },
+        {
+          "url": "https://moyisey.github.io/keyform/",
+          "title": "Keyform — Keyboard studio",
+          "status": 200,
+          "body": "k\nkeyform\n°\nСТУДИЯ КЛАВИАТУРЫ / 001\nEN\nМоя сборка\n↗\nKEYFORM / 75%\nСоберите свою клавиатуру\n\nВыберите раскладку, разберите слои, проверьте клавиши.\n\n02\n75%\n81 клавиш\n326 × 138 mm\nЗагрузка 3D…\nВ сборе\nПо слоям\n↺\n↶\n↷\n+\n−\n⊞\n⤧   Вращайте · Приближайте · Исследуйте\n⌨   Тест клавиш\n↗\n01\nРаскладка\n65%\n75%\nTKL\nСравнить размеры ↗\n02\nКорпус\n✓\nСеребро\nАлюминий\nПоликарбонат\n03\nКейкапы\n✓\nМел\nPBT / профильные\n04\nПереключатели\nЛинейные\nТактильные\nКликающие\nРовный ход без тактильного бугорка. Звук зависит от всей сборки.\nРАЗОБРАТЬ\n01\nКейкапы\n02\nПереключатели\n03\nПластина\n04\nПлата\n05\nКорпус\nПроект Бахтияра\nОригинальная концепция · Внутренняя компоновка — схема\nЗагрузка 3D…",
+          "opener": false
+        },
+        {
+          "url": "https://github.com/MOYISEY/keyform",
+          "title": "GitHub - MOYISEY/keyform: An original interactive 3D mechanical keyboard studio. React, TypeScript and Three.js. · GitHub",
+          "status": 200,
+          "body": "Skip to content\nNavigation Menu\nPlatform\nSolutions\nResources\nOpen Source\nEnterprise\nPricing\nSearch\n/\nSign in\nSign up\nMOYISEY\nkeyform\nRepository navigation\nCode\nIssues\nPull requests\nActions\nProjects\nSecurity and quality\nInsights\nkeyform\nPublic\nNotifications\nFork0\n (0)\nStar0\n (0)\nmain\nBranches\nTags\nCode\nLatest commit\n \nHistory\n6 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\n.github/workflows\n\t\n \n\t\n \n\n\ndocs\n\t\n \n\t\n \n\n\npublic\n\t\n \n\t\n \n\n\nsrc\n\t\n \n\t\n \n\n\ntests\n\t\n \n\t\n \n\n\n.gitignore\n\t\n \n\t\n \n\n\nREADME.md\n\t\n \n\t\n \n\n\nTHIRD_PARTY.md\n\t\n \n\t\n \n\n\nindex.html\n\t\n \n\t\n \n\n\npackage-lock.json\n\t\n \n\t\n \n\n\npackage.json\n\t\n \n\t\n \n\n\nplaywright.config.ts\n\t\n \n\t\n \n\n\ntsconfig.json\n\t\n \n\t\n \n\n\nvite.config.ts\n\t\n \n\t\n \nRepository files navigation\nREADME\nKeyform\n\nAn original mechanical keyboard studio for Bakhtiyar's portfolio. A working configurator built with React, TypeScript and Three.js, with procedural geometry and no external model or texture downloads.\n\nTry it\n\nOpen the studio\n\nExploded view · Mobile view\n\nChoose a 65%, 75% or TKL layout, customise the case and keycaps, explore five mechanical layers, compare footprints and test the keys. Use Your build for JSON import/export, a text build sheet, a configuration link and explicit device-local save/restore.\n\nThe keyboard is a concept, not a purchasable product. Dimensions are design targets. PCB traces, switch housings and internal assembly are schematic. No real component compatibility, price, sound simulation or manufacturing suitability is c",
+          "opener": false
+        }
+      ],
+      "passed": true,
+      "educationScrolls": 2,
+      "errors": []
+    },
+    {
+      "name": "keyboard-desktop-kk-light",
+      "mobile": false,
+      "lang": "kk",
+      "theme": "light",
+      "mode": "keyboard",
+      "project": "rowline",
+      "scriptSha": "54e8bd8f9a771c2e108a69c7fc86dc4374075a631481de862f1f3f08749a3110",
+      "steps": [
+        {
+          "name": "keyboard-desktop-kk-light hero CV",
+          "input": "Tab/Enter",
+          "tabs": 12
+        },
+        {
+          "name": "about/experience",
+          "input": "ShiftTab/Enter",
+          "tabs": 7
+        },
+        {
+          "name": "project catalog",
+          "input": "ShiftTab/Enter",
+          "tabs": 17
+        },
+        {
+          "name": "selected project case",
+          "input": "Tab/Enter",
+          "tabs": 36
+        },
+        {
+          "name": "case details/limits",
+          "input": "Tab/Enter",
+          "tabs": 15
+        },
+        {
+          "name": "ordinary demo",
+          "input": "Tab/Enter",
+          "tabs": 23
+        },
+        {
+          "name": "ordinary repository",
+          "input": "Tab/Enter",
+          "tabs": 1
+        },
+        {
+          "name": "home",
+          "input": "ShiftTab/Enter",
+          "tabs": 9
+        },
+        {
+          "name": "enter3D",
+          "input": "Tab/Enter",
+          "tabs": 11
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 2
+        },
+        {
+          "name": "#profile-button",
+          "input": "Tab/Enter",
+          "tabs": 6
+        },
+        {
+          "name": "native education",
+          "input": "Tab/Enter",
+          "tabs": 1
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 0
+        },
+        {
+          "name": "#drawer-button",
+          "input": "Tab/Enter",
+          "tabs": 8
+        },
+        {
+          "name": "keyboard-desktop-kk-light native CV",
+          "input": "Tab/Enter",
+          "tabs": 7
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 3
+        },
+        {
+          "name": "#contacts-button",
+          "input": "Tab/Enter",
+          "tabs": 3
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 0
+        },
+        {
+          "name": "#case-button",
+          "input": "Tab/Enter",
+          "tabs": 5
+        },
+        {
+          "name": "native case",
+          "input": "Tab/Enter",
+          "tabs": 6
+        },
+        {
+          "name": "native demo",
+          "input": "Tab/Enter",
+          "tabs": 1
+        },
+        {
+          "name": "native repository",
+          "input": "Tab/Enter",
+          "tabs": 3
+        }
+      ],
+      "external": [
+        {
+          "url": "https://moyisey.github.io/rowline/",
+          "title": "Rowline — CSV, готовый к импорту",
+          "status": 200,
+          "body": "К рабочей таблице\nrowline\nCSV WORKSPACE\nДанные остаются в браузере\nКак это работает\nВАШ ПРОЦЕСС\n01 → 03\nРецепт очистки\n\nПравила идут сверху вниз.\nИсходные значения сохраняются.\n\nДобавить правило\n\nКаждое изменение\nпод вашим контролем\n\nДобавьте первое правило\nи посмотрите результат до применения.\nПРОВЕРКИ КОЛОНОК\n0\n\nНажмите имя колонки в таблице, чтобы настроить проверки.\n\nСкачать рецепт\nИмпортировать рецепт\nСохранить здесь\n·\nЗагрузить\nЛокально. Без регистрации.\n\nБез сервера, ключей и аналитики.\n\nПОДГОТОВКА К ИМПОРТУ\nПорядок в каждой строке.\n\nЗагрузите CSV. Проверьте данные. Экспортируйте уверенно.\n\nЭкспорт\n0\nВсего записей\n—\nЗагрузите CSV\nГотовы к импорту\n—\nПосле проверки\nТребуют решения\n—\nОшибки и исключения\nИзменено ячеек\n—\nОбратимая очистка\nВаш следующий импорт\nCSV · TSV · TXT\nЗагрузить CSV\nХорошие данные.\nС самого начала.\n\nПеретащите CSV сюда или выберите файл.\nНикакие данные не отправляются на сервер.\n\nВыбрать файл\nВставить CSV\nДо 2 МБ · 10 000 записей · UTF-8 / Windows-1251\nСначала попробуйте на примере\n\n12 товаров, 6 ошибок, понятный путь до экспорта.\nВсе данные искусственные.\n\nОткрыть пример\nВосстановить из резервной копии\nПроблемы 0\nКолонка\nЗапись\nПроверка качества\nОжидание\nПроверим важное\n\nПустые обязательные значения,\nдубликаты, типы и диапазоны.\n\n1\nЗагрузите данные\n\nВыберите файл или пример\n\n2\nЗадайте правила\n\nОчистка и проверки колонок\n\n3\nРазберите проблемы\n\nИсправьте или исключите записи\n\nЛокальная обработка · никаких загрузок на сервер\nRowline · инструмент Бахтия",
+          "opener": false
+        },
+        {
+          "url": "https://github.com/MOYISEY/rowline",
+          "title": "GitHub - MOYISEY/rowline: Local CSV import preparation. Reversible cleanup, validation, rejection reports and reusable recipes. Built by Bakhtiyar Zikirin. · GitHub",
+          "status": 200,
+          "body": "Skip to content\nNavigation Menu\nPlatform\nSolutions\nResources\nOpen Source\nEnterprise\nPricing\nSearch\n/\nSign in\nSign up\nMOYISEY\nrowline\nRepository navigation\nCode\nIssues\nPull requests\nActions\nSecurity and quality\nInsights\nrowline\nPublic\nNotifications\nFork0\n (0)\nStar0\n (0)\nmain\nBranches\nTags\nCode\nLatest commit\n \nHistory\n2 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\n.github/workflows\n\t\n \n\t\n \n\n\ndocs\n\t\n \n\t\n \n\n\nexamples\n\t\n \n\t\n \n\n\nmedia\n\t\n \n\t\n \n\n\npublic\n\t\n \n\t\n \n\n\nscripts\n\t\n \n\t\n \n\n\nsrc\n\t\n \n\t\n \n\n\ntests\n\t\n \n\t\n \n\n\n.gitignore\n\t\n \n\t\n \n\n\nLICENSE\n\t\n \n\t\n \n\n\nQA-SECURITY.md\n\t\n \n\t\n \n\n\nQA-UX.md\n\t\n \n\t\n \n\n\nQA.md\n\t\n \n\t\n \n\n\nREADME.md\n\t\n \n\t\n \n\n\nindex.html\n\t\n \n\t\n \n\n\npackage-lock.json\n\t\n \n\t\n \n\n\npackage.json\n\t\n \n\t\n \n\n\nplaywright.config.ts\n\t\n \n\t\n \n\n\ntsconfig.json\n\t\n \n\t\n \n\n\nvite.config.ts\n\t\n \n\t\n \nRepository files navigation\nREADME\nMIT license\nRowline\n\nCSV, готовый к импорту. Локальная рабочая среда для очистки и проверки данных, созданная Бахтияром Зикириным.\n\nОткрыть приложение · Исходный код\n\nRowline помогает разобрать экспорт перед загрузкой в каталог, CRM или другую систему: обнаружить неверные значения, осознанно решить конфликт дубликатов и получить проверяемый результат. Это работающий инструмент, без сервера, регистрации, платных API и аналитики.\n\nМобильный экран с реального live · Проверки и независимые аудиты\n\nРабочий процесс\nЗагрузите .csv, .tsv или .txt, перетащите файл или вставьте текст. Первая запись — уникальные непустые имена колонок. Можно открыть явно обозначенный",
+          "opener": false
+        },
+        {
+          "url": "https://moyisey.github.io/rowline/",
+          "title": "Rowline — CSV, готовый к импорту",
+          "status": 200,
+          "body": "К рабочей таблице\nrowline\nCSV WORKSPACE\nДанные остаются в браузере\nКак это работает\nВАШ ПРОЦЕСС\n01 → 03\nРецепт очистки\n\nПравила идут сверху вниз.\nИсходные значения сохраняются.\n\nДобавить правило\n\nКаждое изменение\nпод вашим контролем\n\nДобавьте первое правило\nи посмотрите результат до применения.\nПРОВЕРКИ КОЛОНОК\n0\n\nНажмите имя колонки в таблице, чтобы настроить проверки.\n\nСкачать рецепт\nИмпортировать рецепт\nСохранить здесь\n·\nЗагрузить\nЛокально. Без регистрации.\n\nБез сервера, ключей и аналитики.\n\nПОДГОТОВКА К ИМПОРТУ\nПорядок в каждой строке.\n\nЗагрузите CSV. Проверьте данные. Экспортируйте уверенно.\n\nЭкспорт\n0\nВсего записей\n—\nЗагрузите CSV\nГотовы к импорту\n—\nПосле проверки\nТребуют решения\n—\nОшибки и исключения\nИзменено ячеек\n—\nОбратимая очистка\nВаш следующий импорт\nCSV · TSV · TXT\nЗагрузить CSV\nХорошие данные.\nС самого начала.\n\nПеретащите CSV сюда или выберите файл.\nНикакие данные не отправляются на сервер.\n\nВыбрать файл\nВставить CSV\nДо 2 МБ · 10 000 записей · UTF-8 / Windows-1251\nСначала попробуйте на примере\n\n12 товаров, 6 ошибок, понятный путь до экспорта.\nВсе данные искусственные.\n\nОткрыть пример\nВосстановить из резервной копии\nПроблемы 0\nКолонка\nЗапись\nПроверка качества\nОжидание\nПроверим важное\n\nПустые обязательные значения,\nдубликаты, типы и диапазоны.\n\n1\nЗагрузите данные\n\nВыберите файл или пример\n\n2\nЗадайте правила\n\nОчистка и проверки колонок\n\n3\nРазберите проблемы\n\nИсправьте или исключите записи\n\nЛокальная обработка · никаких загрузок на сервер\nRowline · инструмент Бахтия",
+          "opener": false
+        },
+        {
+          "url": "https://github.com/MOYISEY/rowline",
+          "title": "GitHub - MOYISEY/rowline: Local CSV import preparation. Reversible cleanup, validation, rejection reports and reusable recipes. Built by Bakhtiyar Zikirin. · GitHub",
+          "status": 200,
+          "body": "Skip to content\nNavigation Menu\nPlatform\nSolutions\nResources\nOpen Source\nEnterprise\nPricing\nSearch\n/\nSign in\nSign up\nMOYISEY\nrowline\nRepository navigation\nCode\nIssues\nPull requests\nActions\nSecurity and quality\nInsights\nrowline\nPublic\nNotifications\nFork0\n (0)\nStar0\n (0)\nmain\nBranches\nTags\nCode\nLatest commit\n \nHistory\n2 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\n.github/workflows\n\t\n \n\t\n \n\n\ndocs\n\t\n \n\t\n \n\n\nexamples\n\t\n \n\t\n \n\n\nmedia\n\t\n \n\t\n \n\n\npublic\n\t\n \n\t\n \n\n\nscripts\n\t\n \n\t\n \n\n\nsrc\n\t\n \n\t\n \n\n\ntests\n\t\n \n\t\n \n\n\n.gitignore\n\t\n \n\t\n \n\n\nLICENSE\n\t\n \n\t\n \n\n\nQA-SECURITY.md\n\t\n \n\t\n \n\n\nQA-UX.md\n\t\n \n\t\n \n\n\nQA.md\n\t\n \n\t\n \n\n\nREADME.md\n\t\n \n\t\n \n\n\nindex.html\n\t\n \n\t\n \n\n\npackage-lock.json\n\t\n \n\t\n \n\n\npackage.json\n\t\n \n\t\n \n\n\nplaywright.config.ts\n\t\n \n\t\n \n\n\ntsconfig.json\n\t\n \n\t\n \n\n\nvite.config.ts\n\t\n \n\t\n \nRepository files navigation\nREADME\nMIT license\nRowline\n\nCSV, готовый к импорту. Локальная рабочая среда для очистки и проверки данных, созданная Бахтияром Зикириным.\n\nОткрыть приложение · Исходный код\n\nRowline помогает разобрать экспорт перед загрузкой в каталог, CRM или другую систему: обнаружить неверные значения, осознанно решить конфликт дубликатов и получить проверяемый результат. Это работающий инструмент, без сервера, регистрации, платных API и аналитики.\n\nМобильный экран с реального live · Проверки и независимые аудиты\n\nРабочий процесс\nЗагрузите .csv, .tsv или .txt, перетащите файл или вставьте текст. Первая запись — уникальные непустые имена колонок. Можно открыть явно обозначенный",
+          "opener": false
+        }
+      ],
+      "passed": true,
+      "educationScrolls": 2,
+      "errors": []
+    },
+    {
+      "name": "keyboard-desktop-kk-dark",
+      "mobile": false,
+      "lang": "kk",
+      "theme": "dark",
+      "mode": "keyboard",
+      "project": "helio",
+      "scriptSha": "54e8bd8f9a771c2e108a69c7fc86dc4374075a631481de862f1f3f08749a3110",
+      "steps": [
+        {
+          "name": "keyboard-desktop-kk-dark hero CV",
+          "input": "Tab/Enter",
+          "tabs": 12
+        },
+        {
+          "name": "about/experience",
+          "input": "ShiftTab/Enter",
+          "tabs": 7
+        },
+        {
+          "name": "project catalog",
+          "input": "ShiftTab/Enter",
+          "tabs": 17
+        },
+        {
+          "name": "selected project case",
+          "input": "Tab/Enter",
+          "tabs": 16
+        },
+        {
+          "name": "case details/limits",
+          "input": "Tab/Enter",
+          "tabs": 15
+        },
+        {
+          "name": "ordinary demo",
+          "input": "Tab/Enter",
+          "tabs": 18
+        },
+        {
+          "name": "ordinary repository",
+          "input": "Tab/Enter",
+          "tabs": 1
+        },
+        {
+          "name": "home",
+          "input": "ShiftTab/Enter",
+          "tabs": 9
+        },
+        {
+          "name": "enter3D",
+          "input": "Tab/Enter",
+          "tabs": 11
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 2
+        },
+        {
+          "name": "#profile-button",
+          "input": "Tab/Enter",
+          "tabs": 6
+        },
+        {
+          "name": "native education",
+          "input": "Tab/Enter",
+          "tabs": 1
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 0
+        },
+        {
+          "name": "#drawer-button",
+          "input": "Tab/Enter",
+          "tabs": 8
+        },
+        {
+          "name": "keyboard-desktop-kk-dark native CV",
+          "input": "Tab/Enter",
+          "tabs": 7
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 3
+        },
+        {
+          "name": "#contacts-button",
+          "input": "Tab/Enter",
+          "tabs": 3
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 0
+        },
+        {
+          "name": "#case-button",
+          "input": "Tab/Enter",
+          "tabs": 5
+        },
+        {
+          "name": "native case",
+          "input": "Tab/Enter",
+          "tabs": 1
+        },
+        {
+          "name": "native demo",
+          "input": "Tab/Enter",
+          "tabs": 1
+        },
+        {
+          "name": "native repository",
+          "input": "Tab/Enter",
+          "tabs": 4
+        }
+      ],
+      "external": [
+        {
+          "url": "https://moyisey.github.io/helio/",
+          "title": "Helio — атлас дневного света",
+          "status": 200,
+          "body": "К планировщику\nhelio✦\nDAYLIGHT ATLAS\n01\nEN\n\nНЕМНОГО БЛИЖЕ К СОЛНЦУ\n\nЗастаньте\nсвой свет.\n\nРассвет, ради которого стоит встать. Прогулка, пока город не стал синим. Найдите момент — и запланируйте его.\n\nВыбрать точку на карте\n↓\nМягкий свет\n16:27\n\n6.1° над горизонтом ↗ 246°\n\nАстана · UTC+05:00\n\nГород и тени\nОткрытый горизонт\nПоиск города\n\nДевять городов в локальном списке. Улицу или двор выберите на карте. При перемещении точки часовая зона сохраняется — проверьте её при смене региона.\n\nГотовим карту…\n\nМесто\nАстана\nАлматы\nЛондон\nНью-Йорк\nТокио\nСидней\nТромсё\nКатманду\nКиритимати\nКалендарная дата\nЧасовая зона IANA\nПрименить\n←\nСейчас\n→\n\n51.1694°, 71.4491° · 24 ч в этих сутках\n\nПроведите день по шкале Реальное время; UTC-смещение различает повторный час.\n00:00\n06:00\n12:00\n18:00\n23:59\nМягкий свет\nГражданские сумерки\n\nСветовой день · 10 ч 30 мин\n\nОткрытый горизонт · ориентир\nУтренние сумерки\n06:10\n+05:00\nРассвет\n06:44\n+05:00\nМягкий свет до\n07:30\n+05:00\nСолнечный полдень\n11:59\n+05:00\nМягкий свет с\n16:27\n+05:00\nЗакат\n17:14\n+05:00\nВечерние сумерки до\n17:47\n+05:00\nСкачать план ↗ JSON\nВ календарь ICS\nСохранить на устройстве\nУказать координаты вручную\n\nTHE LIGHT, EXPLAINED\n\nСвет меняется.\nПлан остаётся вашим.\n\nМягким светом здесь называем промежуток от стандартного рассвета или заката (−0,833° геометрической высоты) до +6°. Гражданские сумерки — от −6° до рассвета и от заката до −6°. На севере такое окно может длиться намного дольше часа.\n\nВремя солнечных событий округлено до ближайшей минут",
+          "opener": false
+        },
+        {
+          "url": "https://github.com/MOYISEY/helio",
+          "title": "GitHub - MOYISEY/helio: Daylight Atlas — local sunlight planning with an original interactive 3D world. · GitHub",
+          "status": 200,
+          "body": "Skip to content\nNavigation Menu\nPlatform\nSolutions\nResources\nOpen Source\nEnterprise\nPricing\nSearch\n/\nSign in\nSign up\nMOYISEY\nhelio\nRepository navigation\nCode\nIssues\nPull requests\nActions\nSecurity and quality\nInsights\nhelio\nPublic\nNotifications\nFork0\n (0)\nStar0\n (0)\nmain\nBranches\nTags\nCode\nLatest commit\n \nHistory\n9 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\ndocs\n\t\n \n\t\n \n\n\nevidence\n\t\n \n\t\n \n\n\npublic\n\t\n \n\t\n \n\n\nscripts\n\t\n \n\t\n \n\n\nsrc\n\t\n \n\t\n \n\n\ntests\n\t\n \n\t\n \n\n\n.gitignore\n\t\n \n\t\n \n\n\nREADME.md\n\t\n \n\t\n \n\n\nTHIRD_PARTY_NOTICES.txt\n\t\n \n\t\n \n\n\nindex.html\n\t\n \n\t\n \n\n\npackage-lock.json\n\t\n \n\t\n \n\n\npackage.json\n\t\n \n\t\n \n\n\ntsconfig.json\n\t\n \n\t\n \n\n\nvite.config.ts\n\t\n \n\t\n \nRepository files navigation\nREADME\nHelio / Daylight Atlas\n\nOpen Helio · Source\n\nA daylight planner with an interactive city map and a bounded model of building shadows. React, TypeScript, MapLibre and Three.js. Search a local list of nine cities, then select a street or courtyard by clicking, dragging the marker, or using the keyboard and “Use map centre”. Moving the point preserves the explicitly selected IANA zone; check it when changing regions.\n\n“Build this neighborhood” reads contours from already loaded OpenFreeMap vector tiles and constructs a 300 × 300 m Three.js model. Directional light casts actual shadow maps. Moving the local-day timeline updates light and tests a ray from the point at 1.6 m height against the same meshes. It does not rebuild or request buildings again. The open-horizon world and it",
+          "opener": false
+        },
+        {
+          "url": "https://moyisey.github.io/helio/",
+          "title": "Helio — атлас дневного света",
+          "status": 200,
+          "body": "К планировщику\nhelio✦\nDAYLIGHT ATLAS\n01\nEN\n\nНЕМНОГО БЛИЖЕ К СОЛНЦУ\n\nЗастаньте\nсвой свет.\n\nРассвет, ради которого стоит встать. Прогулка, пока город не стал синим. Найдите момент — и запланируйте его.\n\nВыбрать точку на карте\n↓\nМягкий свет\n16:27\n\n6.1° над горизонтом ↗ 246°\n\nАстана · UTC+05:00\n\nГород и тени\nОткрытый горизонт\nПоиск города\n\nДевять городов в локальном списке. Улицу или двор выберите на карте. При перемещении точки часовая зона сохраняется — проверьте её при смене региона.\n\nГотовим карту…\n\nМесто\nАстана\nАлматы\nЛондон\nНью-Йорк\nТокио\nСидней\nТромсё\nКатманду\nКиритимати\nКалендарная дата\nЧасовая зона IANA\nПрименить\n←\nСейчас\n→\n\n51.1694°, 71.4491° · 24 ч в этих сутках\n\nПроведите день по шкале Реальное время; UTC-смещение различает повторный час.\n00:00\n06:00\n12:00\n18:00\n23:59\nМягкий свет\nГражданские сумерки\n\nСветовой день · 10 ч 30 мин\n\nОткрытый горизонт · ориентир\nУтренние сумерки\n06:10\n+05:00\nРассвет\n06:44\n+05:00\nМягкий свет до\n07:30\n+05:00\nСолнечный полдень\n11:59\n+05:00\nМягкий свет с\n16:27\n+05:00\nЗакат\n17:14\n+05:00\nВечерние сумерки до\n17:47\n+05:00\nСкачать план ↗ JSON\nВ календарь ICS\nСохранить на устройстве\nУказать координаты вручную\n\nTHE LIGHT, EXPLAINED\n\nСвет меняется.\nПлан остаётся вашим.\n\nМягким светом здесь называем промежуток от стандартного рассвета или заката (−0,833° геометрической высоты) до +6°. Гражданские сумерки — от −6° до рассвета и от заката до −6°. На севере такое окно может длиться намного дольше часа.\n\nВремя солнечных событий округлено до ближайшей минут",
+          "opener": false
+        },
+        {
+          "url": "https://github.com/MOYISEY/helio",
+          "title": "GitHub - MOYISEY/helio: Daylight Atlas — local sunlight planning with an original interactive 3D world. · GitHub",
+          "status": 200,
+          "body": "Skip to content\nNavigation Menu\nPlatform\nSolutions\nResources\nOpen Source\nEnterprise\nPricing\nSearch\n/\nSign in\nSign up\nMOYISEY\nhelio\nRepository navigation\nCode\nIssues\nPull requests\nActions\nSecurity and quality\nInsights\nhelio\nPublic\nNotifications\nFork0\n (0)\nStar0\n (0)\nmain\nBranches\nTags\nCode\nLatest commit\n \nHistory\n9 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\ndocs\n\t\n \n\t\n \n\n\nevidence\n\t\n \n\t\n \n\n\npublic\n\t\n \n\t\n \n\n\nscripts\n\t\n \n\t\n \n\n\nsrc\n\t\n \n\t\n \n\n\ntests\n\t\n \n\t\n \n\n\n.gitignore\n\t\n \n\t\n \n\n\nREADME.md\n\t\n \n\t\n \n\n\nTHIRD_PARTY_NOTICES.txt\n\t\n \n\t\n \n\n\nindex.html\n\t\n \n\t\n \n\n\npackage-lock.json\n\t\n \n\t\n \n\n\npackage.json\n\t\n \n\t\n \n\n\ntsconfig.json\n\t\n \n\t\n \n\n\nvite.config.ts\n\t\n \n\t\n \nRepository files navigation\nREADME\nHelio / Daylight Atlas\n\nOpen Helio · Source\n\nA daylight planner with an interactive city map and a bounded model of building shadows. React, TypeScript, MapLibre and Three.js. Search a local list of nine cities, then select a street or courtyard by clicking, dragging the marker, or using the keyboard and “Use map centre”. Moving the point preserves the explicitly selected IANA zone; check it when changing regions.\n\n“Build this neighborhood” reads contours from already loaded OpenFreeMap vector tiles and constructs a 300 × 300 m Three.js model. Directional light casts actual shadow maps. Moving the local-day timeline updates light and tests a ray from the point at 1.6 m height against the same meshes. It does not rebuild or request buildings again. The open-horizon world and it",
+          "opener": false
+        }
+      ],
+      "passed": true,
+      "educationScrolls": 2,
+      "errors": []
+    },
+    {
+      "name": "keyboard-desktop-en-light",
+      "mobile": false,
+      "lang": "en",
+      "theme": "light",
+      "mode": "keyboard",
+      "project": "keyform",
+      "scriptSha": "54e8bd8f9a771c2e108a69c7fc86dc4374075a631481de862f1f3f08749a3110",
+      "steps": [
+        {
+          "name": "keyboard-desktop-en-light hero CV",
+          "input": "Tab/Enter",
+          "tabs": 12
+        },
+        {
+          "name": "about/experience",
+          "input": "ShiftTab/Enter",
+          "tabs": 7
+        },
+        {
+          "name": "project catalog",
+          "input": "ShiftTab/Enter",
+          "tabs": 17
+        },
+        {
+          "name": "selected project case",
+          "input": "Tab/Enter",
+          "tabs": 20
+        },
+        {
+          "name": "case details/limits",
+          "input": "Tab/Enter",
+          "tabs": 15
+        },
+        {
+          "name": "ordinary demo",
+          "input": "Tab/Enter",
+          "tabs": 18
+        },
+        {
+          "name": "ordinary repository",
+          "input": "Tab/Enter",
+          "tabs": 1
+        },
+        {
+          "name": "home",
+          "input": "ShiftTab/Enter",
+          "tabs": 9
+        },
+        {
+          "name": "enter3D",
+          "input": "Tab/Enter",
+          "tabs": 11
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 2
+        },
+        {
+          "name": "#profile-button",
+          "input": "Tab/Enter",
+          "tabs": 6
+        },
+        {
+          "name": "native education",
+          "input": "Tab/Enter",
+          "tabs": 1
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 0
+        },
+        {
+          "name": "#drawer-button",
+          "input": "Tab/Enter",
+          "tabs": 8
+        },
+        {
+          "name": "keyboard-desktop-en-light native CV",
+          "input": "Tab/Enter",
+          "tabs": 7
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 3
+        },
+        {
+          "name": "#contacts-button",
+          "input": "Tab/Enter",
+          "tabs": 3
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 0
+        },
+        {
+          "name": "#case-button",
+          "input": "Tab/Enter",
+          "tabs": 5
+        },
+        {
+          "name": "native case",
+          "input": "Tab/Enter",
+          "tabs": 2
+        },
+        {
+          "name": "native demo",
+          "input": "Tab/Enter",
+          "tabs": 1
+        },
+        {
+          "name": "native repository",
+          "input": "Tab/Enter",
+          "tabs": 3
+        }
+      ],
+      "external": [
+        {
+          "url": "https://moyisey.github.io/keyform/",
+          "title": "Keyform — Keyboard studio",
+          "status": 200,
+          "body": "k\nkeyform\n°\nСТУДИЯ КЛАВИАТУРЫ / 001\nEN\nМоя сборка\n↗\nKEYFORM / 75%\nСоберите свою клавиатуру\n\nВыберите раскладку, разберите слои, проверьте клавиши.\n\n02\n75%\n81 клавиш\n326 × 138 mm\nЗагрузка 3D…\nВ сборе\nПо слоям\n↺\n↶\n↷\n+\n−\n⊞\n⤧   Вращайте · Приближайте · Исследуйте\n⌨   Тест клавиш\n↗\n01\nРаскладка\n65%\n75%\nTKL\nСравнить размеры ↗\n02\nКорпус\n✓\nСеребро\nАлюминий\nПоликарбонат\n03\nКейкапы\n✓\nМел\nPBT / профильные\n04\nПереключатели\nЛинейные\nТактильные\nКликающие\nРовный ход без тактильного бугорка. Звук зависит от всей сборки.\nРАЗОБРАТЬ\n01\nКейкапы\n02\nПереключатели\n03\nПластина\n04\nПлата\n05\nКорпус\nПроект Бахтияра\nОригинальная концепция · Внутренняя компоновка — схема\nЗагрузка 3D…",
+          "opener": false
+        },
+        {
+          "url": "https://github.com/MOYISEY/keyform",
+          "title": "GitHub - MOYISEY/keyform: An original interactive 3D mechanical keyboard studio. React, TypeScript and Three.js. · GitHub",
+          "status": 200,
+          "body": "Skip to content\nNavigation Menu\nPlatform\nSolutions\nResources\nOpen Source\nEnterprise\nPricing\nSearch\n/\nSign in\nSign up\nMOYISEY\nkeyform\nRepository navigation\nCode\nIssues\nPull requests\nActions\nProjects\nSecurity and quality\nInsights\nkeyform\nPublic\nNotifications\nFork0\n (0)\nStar0\n (0)\nmain\nBranches\nTags\nCode\nLatest commit\n \nHistory\n6 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\n.github/workflows\n\t\n \n\t\n \n\n\ndocs\n\t\n \n\t\n \n\n\npublic\n\t\n \n\t\n \n\n\nsrc\n\t\n \n\t\n \n\n\ntests\n\t\n \n\t\n \n\n\n.gitignore\n\t\n \n\t\n \n\n\nREADME.md\n\t\n \n\t\n \n\n\nTHIRD_PARTY.md\n\t\n \n\t\n \n\n\nindex.html\n\t\n \n\t\n \n\n\npackage-lock.json\n\t\n \n\t\n \n\n\npackage.json\n\t\n \n\t\n \n\n\nplaywright.config.ts\n\t\n \n\t\n \n\n\ntsconfig.json\n\t\n \n\t\n \n\n\nvite.config.ts\n\t\n \n\t\n \nRepository files navigation\nREADME\nKeyform\n\nAn original mechanical keyboard studio for Bakhtiyar's portfolio. A working configurator built with React, TypeScript and Three.js, with procedural geometry and no external model or texture downloads.\n\nTry it\n\nOpen the studio\n\nExploded view · Mobile view\n\nChoose a 65%, 75% or TKL layout, customise the case and keycaps, explore five mechanical layers, compare footprints and test the keys. Use Your build for JSON import/export, a text build sheet, a configuration link and explicit device-local save/restore.\n\nThe keyboard is a concept, not a purchasable product. Dimensions are design targets. PCB traces, switch housings and internal assembly are schematic. No real component compatibility, price, sound simulation or manufacturing suitability is c",
+          "opener": false
+        },
+        {
+          "url": "https://moyisey.github.io/keyform/",
+          "title": "Keyform — Keyboard studio",
+          "status": 200,
+          "body": "k\nkeyform\n°\nСТУДИЯ КЛАВИАТУРЫ / 001\nEN\nМоя сборка\n↗\nKEYFORM / 75%\nСоберите свою клавиатуру\n\nВыберите раскладку, разберите слои, проверьте клавиши.\n\n02\n75%\n81 клавиш\n326 × 138 mm\nЗагрузка 3D…\nВ сборе\nПо слоям\n↺\n↶\n↷\n+\n−\n⊞\n⤧   Вращайте · Приближайте · Исследуйте\n⌨   Тест клавиш\n↗\n01\nРаскладка\n65%\n75%\nTKL\nСравнить размеры ↗\n02\nКорпус\n✓\nСеребро\nАлюминий\nПоликарбонат\n03\nКейкапы\n✓\nМел\nPBT / профильные\n04\nПереключатели\nЛинейные\nТактильные\nКликающие\nРовный ход без тактильного бугорка. Звук зависит от всей сборки.\nРАЗОБРАТЬ\n01\nКейкапы\n02\nПереключатели\n03\nПластина\n04\nПлата\n05\nКорпус\nПроект Бахтияра\nОригинальная концепция · Внутренняя компоновка — схема\nЗагрузка 3D…",
+          "opener": false
+        },
+        {
+          "url": "https://github.com/MOYISEY/keyform",
+          "title": "GitHub - MOYISEY/keyform: An original interactive 3D mechanical keyboard studio. React, TypeScript and Three.js. · GitHub",
+          "status": 200,
+          "body": "Skip to content\nNavigation Menu\nPlatform\nSolutions\nResources\nOpen Source\nEnterprise\nPricing\nSearch\n/\nSign in\nSign up\nMOYISEY\nkeyform\nRepository navigation\nCode\nIssues\nPull requests\nActions\nProjects\nSecurity and quality\nInsights\nkeyform\nPublic\nNotifications\nFork0\n (0)\nStar0\n (0)\nmain\nBranches\nTags\nCode\nLatest commit\n \nHistory\n6 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\n.github/workflows\n\t\n \n\t\n \n\n\ndocs\n\t\n \n\t\n \n\n\npublic\n\t\n \n\t\n \n\n\nsrc\n\t\n \n\t\n \n\n\ntests\n\t\n \n\t\n \n\n\n.gitignore\n\t\n \n\t\n \n\n\nREADME.md\n\t\n \n\t\n \n\n\nTHIRD_PARTY.md\n\t\n \n\t\n \n\n\nindex.html\n\t\n \n\t\n \n\n\npackage-lock.json\n\t\n \n\t\n \n\n\npackage.json\n\t\n \n\t\n \n\n\nplaywright.config.ts\n\t\n \n\t\n \n\n\ntsconfig.json\n\t\n \n\t\n \n\n\nvite.config.ts\n\t\n \n\t\n \nRepository files navigation\nREADME\nKeyform\n\nAn original mechanical keyboard studio for Bakhtiyar's portfolio. A working configurator built with React, TypeScript and Three.js, with procedural geometry and no external model or texture downloads.\n\nTry it\n\nOpen the studio\n\nExploded view · Mobile view\n\nChoose a 65%, 75% or TKL layout, customise the case and keycaps, explore five mechanical layers, compare footprints and test the keys. Use Your build for JSON import/export, a text build sheet, a configuration link and explicit device-local save/restore.\n\nThe keyboard is a concept, not a purchasable product. Dimensions are design targets. PCB traces, switch housings and internal assembly are schematic. No real component compatibility, price, sound simulation or manufacturing suitability is c",
+          "opener": false
+        }
+      ],
+      "passed": true,
+      "educationScrolls": 2,
+      "errors": []
+    },
+    {
+      "name": "keyboard-desktop-en-dark",
+      "mobile": false,
+      "lang": "en",
+      "theme": "dark",
+      "mode": "keyboard",
+      "project": "rowline",
+      "scriptSha": "54e8bd8f9a771c2e108a69c7fc86dc4374075a631481de862f1f3f08749a3110",
+      "steps": [
+        {
+          "name": "keyboard-desktop-en-dark hero CV",
+          "input": "Tab/Enter",
+          "tabs": 12
+        },
+        {
+          "name": "about/experience",
+          "input": "ShiftTab/Enter",
+          "tabs": 7
+        },
+        {
+          "name": "project catalog",
+          "input": "ShiftTab/Enter",
+          "tabs": 17
+        },
+        {
+          "name": "selected project case",
+          "input": "Tab/Enter",
+          "tabs": 36
+        },
+        {
+          "name": "case details/limits",
+          "input": "Tab/Enter",
+          "tabs": 15
+        },
+        {
+          "name": "ordinary demo",
+          "input": "Tab/Enter",
+          "tabs": 23
+        },
+        {
+          "name": "ordinary repository",
+          "input": "Tab/Enter",
+          "tabs": 1
+        },
+        {
+          "name": "home",
+          "input": "ShiftTab/Enter",
+          "tabs": 9
+        },
+        {
+          "name": "enter3D",
+          "input": "Tab/Enter",
+          "tabs": 11
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 2
+        },
+        {
+          "name": "#profile-button",
+          "input": "Tab/Enter",
+          "tabs": 6
+        },
+        {
+          "name": "native education",
+          "input": "Tab/Enter",
+          "tabs": 1
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 0
+        },
+        {
+          "name": "#drawer-button",
+          "input": "Tab/Enter",
+          "tabs": 8
+        },
+        {
+          "name": "keyboard-desktop-en-dark native CV",
+          "input": "Tab/Enter",
+          "tabs": 7
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 3
+        },
+        {
+          "name": "#contacts-button",
+          "input": "Tab/Enter",
+          "tabs": 3
+        },
+        {
+          "name": "room menu",
+          "input": "Tab/Enter",
+          "tabs": 0
+        },
+        {
+          "name": "#case-button",
+          "input": "Tab/Enter",
+          "tabs": 5
+        },
+        {
+          "name": "native case",
+          "input": "Tab/Enter",
+          "tabs": 6
+        },
+        {
+          "name": "native demo",
+          "input": "Tab/Enter",
+          "tabs": 1
+        },
+        {
+          "name": "native repository",
+          "input": "Tab/Enter",
+          "tabs": 3
+        }
+      ],
+      "external": [
+        {
+          "url": "https://moyisey.github.io/rowline/",
+          "title": "Rowline — CSV, готовый к импорту",
+          "status": 200,
+          "body": "К рабочей таблице\nrowline\nCSV WORKSPACE\nДанные остаются в браузере\nКак это работает\nВАШ ПРОЦЕСС\n01 → 03\nРецепт очистки\n\nПравила идут сверху вниз.\nИсходные значения сохраняются.\n\nДобавить правило\n\nКаждое изменение\nпод вашим контролем\n\nДобавьте первое правило\nи посмотрите результат до применения.\nПРОВЕРКИ КОЛОНОК\n0\n\nНажмите имя колонки в таблице, чтобы настроить проверки.\n\nСкачать рецепт\nИмпортировать рецепт\nСохранить здесь\n·\nЗагрузить\nЛокально. Без регистрации.\n\nБез сервера, ключей и аналитики.\n\nПОДГОТОВКА К ИМПОРТУ\nПорядок в каждой строке.\n\nЗагрузите CSV. Проверьте данные. Экспортируйте уверенно.\n\nЭкспорт\n0\nВсего записей\n—\nЗагрузите CSV\nГотовы к импорту\n—\nПосле проверки\nТребуют решения\n—\nОшибки и исключения\nИзменено ячеек\n—\nОбратимая очистка\nВаш следующий импорт\nCSV · TSV · TXT\nЗагрузить CSV\nХорошие данные.\nС самого начала.\n\nПеретащите CSV сюда или выберите файл.\nНикакие данные не отправляются на сервер.\n\nВыбрать файл\nВставить CSV\nДо 2 МБ · 10 000 записей · UTF-8 / Windows-1251\nСначала попробуйте на примере\n\n12 товаров, 6 ошибок, понятный путь до экспорта.\nВсе данные искусственные.\n\nОткрыть пример\nВосстановить из резервной копии\nПроблемы 0\nКолонка\nЗапись\nПроверка качества\nОжидание\nПроверим важное\n\nПустые обязательные значения,\nдубликаты, типы и диапазоны.\n\n1\nЗагрузите данные\n\nВыберите файл или пример\n\n2\nЗадайте правила\n\nОчистка и проверки колонок\n\n3\nРазберите проблемы\n\nИсправьте или исключите записи\n\nЛокальная обработка · никаких загрузок на сервер\nRowline · инструмент Бахтия",
+          "opener": false
+        },
+        {
+          "url": "https://github.com/MOYISEY/rowline",
+          "title": "GitHub - MOYISEY/rowline: Local CSV import preparation. Reversible cleanup, validation, rejection reports and reusable recipes. Built by Bakhtiyar Zikirin. · GitHub",
+          "status": 200,
+          "body": "Skip to content\nNavigation Menu\nPlatform\nSolutions\nResources\nOpen Source\nEnterprise\nPricing\nSearch\n/\nSign in\nSign up\nMOYISEY\nrowline\nRepository navigation\nCode\nIssues\nPull requests\nActions\nSecurity and quality\nInsights\nrowline\nPublic\nNotifications\nFork0\n (0)\nStar0\n (0)\nmain\nBranches\nTags\nCode\nLatest commit\n \nHistory\n2 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\n.github/workflows\n\t\n \n\t\n \n\n\ndocs\n\t\n \n\t\n \n\n\nexamples\n\t\n \n\t\n \n\n\nmedia\n\t\n \n\t\n \n\n\npublic\n\t\n \n\t\n \n\n\nscripts\n\t\n \n\t\n \n\n\nsrc\n\t\n \n\t\n \n\n\ntests\n\t\n \n\t\n \n\n\n.gitignore\n\t\n \n\t\n \n\n\nLICENSE\n\t\n \n\t\n \n\n\nQA-SECURITY.md\n\t\n \n\t\n \n\n\nQA-UX.md\n\t\n \n\t\n \n\n\nQA.md\n\t\n \n\t\n \n\n\nREADME.md\n\t\n \n\t\n \n\n\nindex.html\n\t\n \n\t\n \n\n\npackage-lock.json\n\t\n \n\t\n \n\n\npackage.json\n\t\n \n\t\n \n\n\nplaywright.config.ts\n\t\n \n\t\n \n\n\ntsconfig.json\n\t\n \n\t\n \n\n\nvite.config.ts\n\t\n \n\t\n \nRepository files navigation\nREADME\nMIT license\nRowline\n\nCSV, готовый к импорту. Локальная рабочая среда для очистки и проверки данных, созданная Бахтияром Зикириным.\n\nОткрыть приложение · Исходный код\n\nRowline помогает разобрать экспорт перед загрузкой в каталог, CRM или другую систему: обнаружить неверные значения, осознанно решить конфликт дубликатов и получить проверяемый результат. Это работающий инструмент, без сервера, регистрации, платных API и аналитики.\n\nМобильный экран с реального live · Проверки и независимые аудиты\n\nРабочий процесс\nЗагрузите .csv, .tsv или .txt, перетащите файл или вставьте текст. Первая запись — уникальные непустые имена колонок. Можно открыть явно обозначенный",
+          "opener": false
+        },
+        {
+          "url": "https://moyisey.github.io/rowline/",
+          "title": "Rowline — CSV, готовый к импорту",
+          "status": 200,
+          "body": "К рабочей таблице\nrowline\nCSV WORKSPACE\nДанные остаются в браузере\nКак это работает\nВАШ ПРОЦЕСС\n01 → 03\nРецепт очистки\n\nПравила идут сверху вниз.\nИсходные значения сохраняются.\n\nДобавить правило\n\nКаждое изменение\nпод вашим контролем\n\nДобавьте первое правило\nи посмотрите результат до применения.\nПРОВЕРКИ КОЛОНОК\n0\n\nНажмите имя колонки в таблице, чтобы настроить проверки.\n\nСкачать рецепт\nИмпортировать рецепт\nСохранить здесь\n·\nЗагрузить\nЛокально. Без регистрации.\n\nБез сервера, ключей и аналитики.\n\nПОДГОТОВКА К ИМПОРТУ\nПорядок в каждой строке.\n\nЗагрузите CSV. Проверьте данные. Экспортируйте уверенно.\n\nЭкспорт\n0\nВсего записей\n—\nЗагрузите CSV\nГотовы к импорту\n—\nПосле проверки\nТребуют решения\n—\nОшибки и исключения\nИзменено ячеек\n—\nОбратимая очистка\nВаш следующий импорт\nCSV · TSV · TXT\nЗагрузить CSV\nХорошие данные.\nС самого начала.\n\nПеретащите CSV сюда или выберите файл.\nНикакие данные не отправляются на сервер.\n\nВыбрать файл\nВставить CSV\nДо 2 МБ · 10 000 записей · UTF-8 / Windows-1251\nСначала попробуйте на примере\n\n12 товаров, 6 ошибок, понятный путь до экспорта.\nВсе данные искусственные.\n\nОткрыть пример\nВосстановить из резервной копии\nПроблемы 0\nКолонка\nЗапись\nПроверка качества\nОжидание\nПроверим важное\n\nПустые обязательные значения,\nдубликаты, типы и диапазоны.\n\n1\nЗагрузите данные\n\nВыберите файл или пример\n\n2\nЗадайте правила\n\nОчистка и проверки колонок\n\n3\nРазберите проблемы\n\nИсправьте или исключите записи\n\nЛокальная обработка · никаких загрузок на сервер\nRowline · инструмент Бахтия",
+          "opener": false
+        },
+        {
+          "url": "https://github.com/MOYISEY/rowline",
+          "title": "GitHub - MOYISEY/rowline: Local CSV import preparation. Reversible cleanup, validation, rejection reports and reusable recipes. Built by Bakhtiyar Zikirin. · GitHub",
+          "status": 200,
+          "body": "Skip to content\nNavigation Menu\nPlatform\nSolutions\nResources\nOpen Source\nEnterprise\nPricing\nSearch\n/\nSign in\nSign up\nMOYISEY\nrowline\nRepository navigation\nCode\nIssues\nPull requests\nActions\nSecurity and quality\nInsights\nrowline\nPublic\nNotifications\nFork0\n (0)\nStar0\n (0)\nmain\nBranches\nTags\nCode\nLatest commit\n \nHistory\n2 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\n.github/workflows\n\t\n \n\t\n \n\n\ndocs\n\t\n \n\t\n \n\n\nexamples\n\t\n \n\t\n \n\n\nmedia\n\t\n \n\t\n \n\n\npublic\n\t\n \n\t\n \n\n\nscripts\n\t\n \n\t\n \n\n\nsrc\n\t\n \n\t\n \n\n\ntests\n\t\n \n\t\n \n\n\n.gitignore\n\t\n \n\t\n \n\n\nLICENSE\n\t\n \n\t\n \n\n\nQA-SECURITY.md\n\t\n \n\t\n \n\n\nQA-UX.md\n\t\n \n\t\n \n\n\nQA.md\n\t\n \n\t\n \n\n\nREADME.md\n\t\n \n\t\n \n\n\nindex.html\n\t\n \n\t\n \n\n\npackage-lock.json\n\t\n \n\t\n \n\n\npackage.json\n\t\n \n\t\n \n\n\nplaywright.config.ts\n\t\n \n\t\n \n\n\ntsconfig.json\n\t\n \n\t\n \n\n\nvite.config.ts\n\t\n \n\t\n \nRepository files navigation\nREADME\nMIT license\nRowline\n\nCSV, готовый к импорту. Локальная рабочая среда для очистки и проверки данных, созданная Бахтияром Зикириным.\n\nОткрыть приложение · Исходный код\n\nRowline помогает разобрать экспорт перед загрузкой в каталог, CRM или другую систему: обнаружить неверные значения, осознанно решить конфликт дубликатов и получить проверяемый результат. Это работающий инструмент, без сервера, регистрации, платных API и аналитики.\n\nМобильный экран с реального live · Проверки и независимые аудиты\n\nРабочий процесс\nЗагрузите .csv, .tsv или .txt, перетащите файл или вставьте текст. Первая запись — уникальные непустые имена колонок. Можно открыть явно обозначенный",
+          "opener": false
+        }
+      ],
+      "passed": true,
+      "educationScrolls": 1,
+      "errors": []
+    }
+  ],
+  "passed": false,
+  "resumedFrom": {
+    "report": "journeys-baseline-initial/checks.json",
+    "reason": "Completed profile reused after correcting per-profile project rotation in QA; product unchanged",
+    "scriptSha": "c71cd6ed1b4ff3421ff338790654042cd78d007e4c2f6391e8aa43b727de8f12"
+  },
+  "failure": {
+    "name": "touch-ru-light",
+    "message": "Cannot reach section #education h2",
+    "steps": [
+      {
+        "name": "touch-ru-light hero CV",
+        "input": "touch"
+      },
+      {
+        "name": "about/experience",
+        "input": "touch"
+      }
+    ],
+    "errors": [],
+    "active": {
+      "id": "experience",
+      "text": "02 / ОпытОпытFrontend-разработчик из Астаны. Разрабатываю интерфейсы на React и TypeScript, подключаю API. Проверяю поль",
+      "url": "https://moyisey.github.io/bakhtiyar-zikirin/index.html?lang=ru#experience"
+    }
+  }
+}

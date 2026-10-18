@@ -1,0 +1,53 @@
+{
+  "browser": "155.0.4283.62",
+  "method": "Supplementary read-only Keyform landing readiness after initial journey captures showed the normal loading label. No project implementation or configuration edited.",
+  "cases": [
+    {
+      "mobile": false,
+      "observationMs": 2139,
+      "url": "https://moyisey.github.io/keyform/",
+      "title": "Keyform — Keyboard studio",
+      "errors": [],
+      "canvas": {
+        "width": 1440,
+        "height": 525
+      }
+    },
+    {
+      "mobile": true,
+      "observationMs": 1508,
+      "url": "https://moyisey.github.io/keyform/",
+      "title": "Keyform — Keyboard studio",
+      "errors": [],
+      "canvas": {
+        "width": 413,
+        "height": 365
+      }
+    }
+  ],
+  "education": [
+    {
+      "mobile": false,
+      "url": "https://moyisey.github.io/bakhtiyar-zikirin/room/?lang=ru",
+      "image": {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/files/education/diploma-public.webp",
+        "width": 2400,
+        "height": 1659
+      },
+      "institutions": 2,
+      "errors": []
+    },
+    {
+      "mobile": true,
+      "url": "https://moyisey.github.io/bakhtiyar-zikirin/room/?lang=kk",
+      "image": {
+        "src": "https://moyisey.github.io/bakhtiyar-zikirin/files/education/diploma-public.webp",
+        "width": 2400,
+        "height": 1659
+      },
+      "institutions": 2,
+      "errors": []
+    }
+  ],
+  "passed": true
+}

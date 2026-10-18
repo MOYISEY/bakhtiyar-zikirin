@@ -1,0 +1,4 @@
+PASS touch 320x844
+PASS touch 390x844
+PASS touch 844x390
+{"passed":true,"checks":20,"cases":3}

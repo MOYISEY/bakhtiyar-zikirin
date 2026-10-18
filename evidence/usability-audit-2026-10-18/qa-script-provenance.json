@@ -1,0 +1,360 @@
+[
+  {
+    "name": "pages",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/pages-1.mjs",
+    "scriptSha": "34e3a7ade1e6fc019aba721f349153315388722afd0e79b02e443a2a55803489",
+    "transferredFrom": "evidence/project-reader-2026-10-18/regressions/verification.json"
+  },
+  {
+    "name": "pages-edges",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/pages-edges-1.mjs",
+    "scriptSha": "dde01fc63c7af0d72d0e602472c0f5dedaa92c667a90d401bea659df2751b86c",
+    "transferredFrom": "evidence/project-reader-2026-10-18/regressions/verification.json"
+  },
+  {
+    "name": "pages-nojs",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/pages-nojs-1.mjs",
+    "scriptSha": "34e3a7ade1e6fc019aba721f349153315388722afd0e79b02e443a2a55803489",
+    "transferredFrom": "evidence/project-reader-2026-10-18/regressions/verification.json"
+  },
+  {
+    "name": "showcase-current",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/showcase-current-1.mjs",
+    "scriptSha": "6d39b206ed8199272cd96886895504860b37c52f11cea3162bb10f0dfc063e67",
+    "transferredFrom": "evidence/project-reader-2026-10-18/regressions/verification.json"
+  },
+  {
+    "name": "cube",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/cube-1.mjs",
+    "scriptSha": "054a2caeebb4bf6213edfb8c979da7228478dcb84ae239da0fdb70fe3819cfb2",
+    "transferredFrom": "evidence/project-reader-2026-10-18/regressions/verification.json"
+  },
+  {
+    "name": "asset-history",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/asset-history-1.mjs",
+    "scriptSha": "9accebb033da8106b8926ba28bb0e1a0ab56fa8ec6ea226b6ef89946d44cad90",
+    "transferredFrom": "evidence/project-reader-2026-10-18/regressions/verification.json"
+  },
+  {
+    "name": "wall-edges",
+    "attempt": 1,
+    "exit": 1,
+    "path": "qa-source/attempts/wall-edges-1.cjs",
+    "scriptSha": "f87293db3381ae95cdf70f37f934113804231b21a125d4c95804f3fb6b6a3c35"
+  },
+  {
+    "name": "wall-edges",
+    "attempt": 2,
+    "exit": 0,
+    "path": "qa-source/attempts/wall-edges-2.cjs",
+    "scriptSha": "23d6cbc4951416cf138b432ed2f7f598c287d657b4d6c67a83f1a6f6d6a32991"
+  },
+  {
+    "name": "reader",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/reader-1.cjs",
+    "scriptSha": "8be3f078aab6e22fb89dde6ecf52026503c961f77f3b341abcbe60f608e25a16"
+  },
+  {
+    "name": "reader-touch",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/reader-touch-1.cjs",
+    "scriptSha": "ad16455ba7cd35479b7aa5a85bb350f02bd45d75f341279650e096ab3ab29ee1"
+  },
+  {
+    "name": "modal",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/modal-1.cjs",
+    "scriptSha": "99115e59476ecbd127098f111c222f8de2dbc223a38bd182271df5e1e787b04d"
+  },
+  {
+    "name": "cv",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/cv-1.cjs",
+    "scriptSha": "652cd9e23829afc03ea73b83a1dc1490d6462849bf144f22aca0710a6030b526"
+  },
+  {
+    "name": "object-native",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/object-native-1.cjs",
+    "scriptSha": "7c33bc85273f42ee7774197db14877fda9250e293f66218a678f6b0086146268"
+  },
+  {
+    "name": "collection-edges",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/collection-edges-1.cjs",
+    "scriptSha": "a078b9fa6c62024f6a40ec163dccb329805e8a5726060bca51a2d4fcf377d965"
+  },
+  {
+    "name": "completion",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/completion-1.cjs",
+    "scriptSha": "75632511fa1811b2800bfbf2701d0a755a65455abb9aec4b5e4cb95c6ecaf38f"
+  },
+  {
+    "name": "sweep",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/sweep-1.cjs",
+    "scriptSha": "85a89a67e2d6e63f431f2cd3d4ddec5f63a51fe7de03830d13820dbc4261882d"
+  },
+  {
+    "name": "refinement",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/refinement-1.cjs",
+    "scriptSha": "47a701beeab80497016496e2742394d9685d689cfa1ef8a63b13d3098b1722ab"
+  },
+  {
+    "name": "furniture",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/furniture-1.cjs",
+    "scriptSha": "5b38e25bc510c5dc29c5749cc17c49dd43b6ddb4f3ae7260527e12dd03219dc9"
+  },
+  {
+    "name": "showcase-room",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/showcase-room-1.cjs",
+    "scriptSha": "ec83623b95b3fa29ac87f6b4c9ab20434dfdadd6089cd33656fd697b47a64a5c"
+  },
+  {
+    "name": "hotspots",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/hotspots-1.cjs",
+    "scriptSha": "f8ac4ffc610e7136066d184fac95c89818376235497e72fb1b320599a5f58db4"
+  },
+  {
+    "name": "collection",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/collection-1.cjs",
+    "scriptSha": "746a9d890cf69a9b3ec32bd831ddc1651e24b307e20be3bfd5ac9849a27210b6"
+  },
+  {
+    "name": "context-loss",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/context-loss-1.cjs",
+    "scriptSha": "581dd6a1e0fb12f07e90fcbbea7fb6860ddcb7519cfcefaf2e7955e5814f8a5b"
+  },
+  {
+    "name": "case-rain",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/case-rain-1.cjs",
+    "scriptSha": "46da0745576ab859abcc841271c685403e19107dfd788fe082b07ce9d728f20c"
+  },
+  {
+    "name": "menu",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/menu-1.cjs",
+    "scriptSha": "1bca1855469472b41cfab51596d556442a82101125456e9cafb33257de5e590a"
+  },
+  {
+    "name": "documents",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/documents-1.cjs",
+    "scriptSha": "92daa9dd9f146bc0e40e22e595f3ad5843d01f4c5b3e420b46dceeb8baa7c730"
+  },
+  {
+    "name": "ux",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/ux-1.cjs",
+    "scriptSha": "039006291be5932dae8fbf732f85e4105ced3db1ad6303a180ed847f00e9340e"
+  },
+  {
+    "name": "partial-mobile",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/partial-mobile-1.cjs",
+    "scriptSha": "0935cc0f050e21d858d132d90b192543d41ea110992ad92484684b10fab84d88"
+  },
+  {
+    "name": "fallback",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/fallback-1.cjs",
+    "scriptSha": "cacca2c5c6a1dd1d7486521054246a643b145483ce7d2874ead8c26765707fa6"
+  },
+  {
+    "name": "shadow",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/shadow-1.cjs",
+    "scriptSha": "cc80d89d6280d7316c9f31dceba0ab6b7371616dc1d6a2d46f3c8c7494edc48e"
+  },
+  {
+    "name": "access",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/access-1.cjs",
+    "scriptSha": "e10de0088aef76a0b431a0d70a3f6cf217fddd8ccc34a69e838bd4ac6ef8c173"
+  },
+  {
+    "name": "handles",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/handles-1.cjs",
+    "scriptSha": "83ecbfec0c065e63c1aec46521024ee95990c33fcee8d97df1ee8a54cc4832ae"
+  },
+  {
+    "name": "cabinet-close",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/cabinet-close-1.cjs",
+    "scriptSha": "71edb65951cca748e8bdfe1abf19b03b7b748e1565176cff90fc792d048fc1d7"
+  },
+  {
+    "name": "cabinet-gates",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/cabinet-gates-1.cjs",
+    "scriptSha": "71edb65951cca748e8bdfe1abf19b03b7b748e1565176cff90fc792d048fc1d7"
+  },
+  {
+    "name": "content",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/content-1.cjs",
+    "scriptSha": "ab559baa1701cc938ac6d967c48ecd6739a512f8410024ec998127f8d963c922"
+  },
+  {
+    "name": "content-small",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/content-small-1.cjs",
+    "scriptSha": "ab559baa1701cc938ac6d967c48ecd6739a512f8410024ec998127f8d963c922"
+  },
+  {
+    "name": "matrix",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/matrix-1.cjs",
+    "scriptSha": "4b11798ab0b0a6b760ea2824bf0a67b4d2780a77d8893bd77c4f00b98d19253d"
+  },
+  {
+    "name": "entry",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/entry-1.cjs",
+    "scriptSha": "91a6328c50572c4849ee9245deafca33ceeee0efe2f46bf862d8921d3578fc4f"
+  },
+  {
+    "name": "touch-names",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/touch-names-1.cjs",
+    "scriptSha": "8dad9078f2fd306bef4a23849cb4b889bdb8abdf3f0884186646b967d8a3ec43"
+  },
+  {
+    "name": "certificates",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/certificates-1.cjs",
+    "scriptSha": "4c752a8eca207d9583a38841d100f0b40505c78a08640a3cf52f31107e8493bd"
+  },
+  {
+    "name": "document-strip",
+    "attempt": 1,
+    "exit": 0,
+    "path": "qa-source/attempts/document-strip-1.cjs",
+    "scriptSha": "678ef3bb3b5224adbecd71df908dc1f061cbb2b6b7cca20464263789049d718a"
+  },
+  {
+    "name": "keyboard-desktop-ru-light",
+    "exit": 0,
+    "path": "qa-source/audit-c71cd6ed1b4f.cjs",
+    "scriptSha": "c71cd6ed1b4ff3421ff338790654042cd78d007e4c2f6391e8aa43b727de8f12"
+  },
+  {
+    "name": "keyboard-desktop-ru-dark",
+    "exit": 0,
+    "path": "qa-source/audit-54e8bd8f9a77.cjs",
+    "scriptSha": "54e8bd8f9a771c2e108a69c7fc86dc4374075a631481de862f1f3f08749a3110"
+  },
+  {
+    "name": "keyboard-desktop-kk-light",
+    "exit": 0,
+    "path": "qa-source/audit-54e8bd8f9a77.cjs",
+    "scriptSha": "54e8bd8f9a771c2e108a69c7fc86dc4374075a631481de862f1f3f08749a3110"
+  },
+  {
+    "name": "keyboard-desktop-kk-dark",
+    "exit": 0,
+    "path": "qa-source/audit-54e8bd8f9a77.cjs",
+    "scriptSha": "54e8bd8f9a771c2e108a69c7fc86dc4374075a631481de862f1f3f08749a3110"
+  },
+  {
+    "name": "keyboard-desktop-en-light",
+    "exit": 0,
+    "path": "qa-source/audit-54e8bd8f9a77.cjs",
+    "scriptSha": "54e8bd8f9a771c2e108a69c7fc86dc4374075a631481de862f1f3f08749a3110"
+  },
+  {
+    "name": "keyboard-desktop-en-dark",
+    "exit": 0,
+    "path": "qa-source/audit-54e8bd8f9a77.cjs",
+    "scriptSha": "54e8bd8f9a771c2e108a69c7fc86dc4374075a631481de862f1f3f08749a3110"
+  },
+  {
+    "name": "touch-ru-light",
+    "exit": 0,
+    "path": "qa-source/audit-eb106d946620.cjs",
+    "scriptSha": "eb106d9466206b2cc262967dd07f46ac7a86c0f295f685f14f224a7d45104f90"
+  },
+  {
+    "name": "touch-ru-dark",
+    "exit": 0,
+    "path": "qa-source/audit-eb106d946620.cjs",
+    "scriptSha": "eb106d9466206b2cc262967dd07f46ac7a86c0f295f685f14f224a7d45104f90"
+  },
+  {
+    "name": "touch-kk-light",
+    "exit": 0,
+    "path": "qa-source/audit-eb106d946620.cjs",
+    "scriptSha": "eb106d9466206b2cc262967dd07f46ac7a86c0f295f685f14f224a7d45104f90"
+  },
+  {
+    "name": "touch-kk-dark",
+    "exit": 0,
+    "path": "qa-source/audit-eb106d946620.cjs",
+    "scriptSha": "eb106d9466206b2cc262967dd07f46ac7a86c0f295f685f14f224a7d45104f90"
+  },
+  {
+    "name": "touch-en-light",
+    "exit": 0,
+    "path": "qa-source/audit-eb106d946620.cjs",
+    "scriptSha": "eb106d9466206b2cc262967dd07f46ac7a86c0f295f685f14f224a7d45104f90"
+  },
+  {
+    "name": "touch-en-dark",
+    "exit": 0,
+    "path": "qa-source/audit-eb106d946620.cjs",
+    "scriptSha": "eb106d9466206b2cc262967dd07f46ac7a86c0f295f685f14f224a7d45104f90"
+  }
+]

@@ -1,0 +1,19 @@
+PASS desktop-ru-light
+PASS desktop-ru-dark
+PASS desktop-kk-light
+PASS desktop-kk-dark
+PASS desktop-en-light
+PASS desktop-en-dark
+PASS touch-ru-light
+PASS touch-ru-dark
+PASS touch-kk-light
+PASS touch-kk-dark
+PASS touch-en-light
+PASS touch-en-dark
+PASS room-desktop-ru
+PASS room-desktop-kk
+PASS room-desktop-en
+PASS room-touch-ru
+PASS room-touch-kk
+PASS room-touch-en
+{"passed":true,"checks":438,"ordinary":12,"room":6}
