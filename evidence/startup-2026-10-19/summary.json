@@ -1,0 +1,631 @@
+{
+  "generated": "2026-10-19T06:25:25.631Z",
+  "baseline": "d9b8d5576196721359790ca29e4520c255bb2dde",
+  "candidate": "one room HTML image preload in otherwise byte-identical 289-file local build",
+  "browser": "155.0.4283.62",
+  "network": {
+    "latencyMs": 40,
+    "downloadBytesPerSecond": 1250000,
+    "uploadBytesPerSecond": 250000
+  },
+  "runs": {
+    "baseline": 24,
+    "candidate": 24,
+    "allPassed": true
+  },
+  "groups": [
+    {
+      "route": "ordinary",
+      "profile": "desktop",
+      "mode": "cold",
+      "n": 3,
+      "baseline": {
+        "readyMs": {
+          "median": 276.30000000074506,
+          "min": 262.19999999925494,
+          "max": 278.30000000074506
+        },
+        "lcpMs": {
+          "median": 308,
+          "min": 304,
+          "max": 312
+        },
+        "firstDoorTransitionMs": null,
+        "transferBytes": {
+          "median": 249126,
+          "min": 249126,
+          "max": 249126
+        },
+        "resourceCount": {
+          "median": 10,
+          "min": 10,
+          "max": 10
+        }
+      },
+      "candidate": {
+        "readyMs": {
+          "median": 277.5,
+          "min": 250.40000000223517,
+          "max": 278.80000000074506
+        },
+        "lcpMs": {
+          "median": 296,
+          "min": 292,
+          "max": 312
+        },
+        "firstDoorTransitionMs": null,
+        "transferBytes": {
+          "median": 249126,
+          "min": 249126,
+          "max": 249126
+        },
+        "resourceCount": {
+          "median": 10,
+          "min": 10,
+          "max": 10
+        }
+      },
+      "medianDeltaMs": {
+        "readyMs": 1.199999999254942,
+        "lcpMs": -12,
+        "transferBytes": 0,
+        "resourceCount": 0
+      }
+    },
+    {
+      "route": "ordinary",
+      "profile": "desktop",
+      "mode": "warm",
+      "n": 3,
+      "baseline": {
+        "readyMs": {
+          "median": 38,
+          "min": 37,
+          "max": 43
+        },
+        "lcpMs": {
+          "median": 68,
+          "min": 60,
+          "max": 72
+        },
+        "firstDoorTransitionMs": null,
+        "transferBytes": {
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "resourceCount": {
+          "median": 10,
+          "min": 10,
+          "max": 10
+        }
+      },
+      "candidate": {
+        "readyMs": {
+          "median": 42,
+          "min": 41.30000000074506,
+          "max": 43.19999999925494
+        },
+        "lcpMs": {
+          "median": 64,
+          "min": 60,
+          "max": 68
+        },
+        "firstDoorTransitionMs": null,
+        "transferBytes": {
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "resourceCount": {
+          "median": 10,
+          "min": 10,
+          "max": 10
+        }
+      },
+      "medianDeltaMs": {
+        "readyMs": 4,
+        "lcpMs": -4,
+        "transferBytes": 0,
+        "resourceCount": 0
+      }
+    },
+    {
+      "route": "ordinary",
+      "profile": "touch-emulation",
+      "mode": "cold",
+      "n": 3,
+      "baseline": {
+        "readyMs": {
+          "median": 279.5,
+          "min": 277.6000000014901,
+          "max": 282.80000000074506
+        },
+        "lcpMs": {
+          "median": 284,
+          "min": 280,
+          "max": 288
+        },
+        "firstDoorTransitionMs": null,
+        "transferBytes": {
+          "median": 238286,
+          "min": 238286,
+          "max": 238286
+        },
+        "resourceCount": {
+          "median": 9,
+          "min": 9,
+          "max": 9
+        }
+      },
+      "candidate": {
+        "readyMs": {
+          "median": 282.19999999925494,
+          "min": 280.1000000014901,
+          "max": 284.69999999925494
+        },
+        "lcpMs": {
+          "median": 288,
+          "min": 284,
+          "max": 296
+        },
+        "firstDoorTransitionMs": null,
+        "transferBytes": {
+          "median": 238286,
+          "min": 238286,
+          "max": 238286
+        },
+        "resourceCount": {
+          "median": 9,
+          "min": 9,
+          "max": 9
+        }
+      },
+      "medianDeltaMs": {
+        "readyMs": 2.699999999254942,
+        "lcpMs": 4,
+        "transferBytes": 0,
+        "resourceCount": 0
+      }
+    },
+    {
+      "route": "ordinary",
+      "profile": "touch-emulation",
+      "mode": "warm",
+      "n": 3,
+      "baseline": {
+        "readyMs": {
+          "median": 36.80000000074506,
+          "min": 36.29999999701977,
+          "max": 39
+        },
+        "lcpMs": {
+          "median": 64,
+          "min": 60,
+          "max": 64
+        },
+        "firstDoorTransitionMs": null,
+        "transferBytes": {
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "resourceCount": {
+          "median": 9,
+          "min": 9,
+          "max": 9
+        }
+      },
+      "candidate": {
+        "readyMs": {
+          "median": 37.399999998509884,
+          "min": 36.29999999701977,
+          "max": 40.400000002235174
+        },
+        "lcpMs": {
+          "median": 64,
+          "min": 64,
+          "max": 68
+        },
+        "firstDoorTransitionMs": null,
+        "transferBytes": {
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "resourceCount": {
+          "median": 9,
+          "min": 9,
+          "max": 9
+        }
+      },
+      "medianDeltaMs": {
+        "readyMs": 0.5999999977648258,
+        "lcpMs": 0,
+        "transferBytes": 0,
+        "resourceCount": 0
+      }
+    },
+    {
+      "route": "room",
+      "profile": "desktop",
+      "mode": "cold",
+      "n": 3,
+      "baseline": {
+        "readyMs": {
+          "median": 8959.39999999851,
+          "min": 8939.699999999255,
+          "max": 11514.89999999851
+        },
+        "lcpMs": {
+          "median": 192,
+          "min": 184,
+          "max": 208
+        },
+        "firstDoorTransitionMs": {
+          "median": 1538,
+          "min": 1510,
+          "max": 1541
+        },
+        "transferBytes": {
+          "median": 7930441,
+          "min": 7930441,
+          "max": 7930441
+        },
+        "resourceCount": {
+          "median": 81,
+          "min": 81,
+          "max": 81
+        }
+      },
+      "candidate": {
+        "readyMs": {
+          "median": 8273.199999999255,
+          "min": 8186.699999999255,
+          "max": 10771.29999999702
+        },
+        "lcpMs": {
+          "median": 200,
+          "min": 196,
+          "max": 244
+        },
+        "firstDoorTransitionMs": {
+          "median": 1535,
+          "min": 1529,
+          "max": 1543
+        },
+        "transferBytes": {
+          "median": 7930441,
+          "min": 7930441,
+          "max": 7930441
+        },
+        "resourceCount": {
+          "median": 81,
+          "min": 81,
+          "max": 81
+        }
+      },
+      "medianDeltaMs": {
+        "readyMs": -686.1999999992549,
+        "lcpMs": 8,
+        "firstDoorTransitionMs": -3,
+        "transferBytes": 0,
+        "resourceCount": 0
+      }
+    },
+    {
+      "route": "room",
+      "profile": "desktop",
+      "mode": "warm",
+      "n": 3,
+      "baseline": {
+        "readyMs": {
+          "median": 2266.5,
+          "min": 2237.2000000029802,
+          "max": 2295
+        },
+        "lcpMs": {
+          "median": 96,
+          "min": 92,
+          "max": 104
+        },
+        "firstDoorTransitionMs": {
+          "median": 1512,
+          "min": 1507,
+          "max": 1514
+        },
+        "transferBytes": {
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "resourceCount": {
+          "median": 81,
+          "min": 81,
+          "max": 81
+        }
+      },
+      "candidate": {
+        "readyMs": {
+          "median": 2248,
+          "min": 2244,
+          "max": 2307.800000000745
+        },
+        "lcpMs": {
+          "median": 96,
+          "min": 96,
+          "max": 104
+        },
+        "firstDoorTransitionMs": {
+          "median": 1511,
+          "min": 1491,
+          "max": 1521
+        },
+        "transferBytes": {
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "resourceCount": {
+          "median": 81,
+          "min": 81,
+          "max": 81
+        }
+      },
+      "medianDeltaMs": {
+        "readyMs": -18.5,
+        "lcpMs": 0,
+        "firstDoorTransitionMs": -1,
+        "transferBytes": 0,
+        "resourceCount": 0
+      }
+    },
+    {
+      "route": "room",
+      "profile": "touch-emulation",
+      "mode": "cold",
+      "n": 3,
+      "baseline": {
+        "readyMs": {
+          "median": 8929.5,
+          "min": 8877.300000000745,
+          "max": 8968.5
+        },
+        "lcpMs": {
+          "median": 200,
+          "min": 200,
+          "max": 204
+        },
+        "firstDoorTransitionMs": {
+          "median": 1514,
+          "min": 1510,
+          "max": 1531
+        },
+        "transferBytes": {
+          "median": 7930441,
+          "min": 7930441,
+          "max": 7930441
+        },
+        "resourceCount": {
+          "median": 81,
+          "min": 81,
+          "max": 81
+        }
+      },
+      "candidate": {
+        "readyMs": {
+          "median": 8192.800000000745,
+          "min": 8183,
+          "max": 8223.800000000745
+        },
+        "lcpMs": {
+          "median": 192,
+          "min": 184,
+          "max": 200
+        },
+        "firstDoorTransitionMs": {
+          "median": 1509,
+          "min": 1497,
+          "max": 1512
+        },
+        "transferBytes": {
+          "median": 7930441,
+          "min": 7930441,
+          "max": 7930441
+        },
+        "resourceCount": {
+          "median": 81,
+          "min": 81,
+          "max": 81
+        }
+      },
+      "medianDeltaMs": {
+        "readyMs": -736.6999999992549,
+        "lcpMs": -8,
+        "firstDoorTransitionMs": -5,
+        "transferBytes": 0,
+        "resourceCount": 0
+      }
+    },
+    {
+      "route": "room",
+      "profile": "touch-emulation",
+      "mode": "warm",
+      "n": 3,
+      "baseline": {
+        "readyMs": {
+          "median": 2254.599999997765,
+          "min": 2224.39999999851,
+          "max": 2286.60000000149
+        },
+        "lcpMs": {
+          "median": 96,
+          "min": 96,
+          "max": 104
+        },
+        "firstDoorTransitionMs": {
+          "median": 1497,
+          "min": 1475,
+          "max": 1500
+        },
+        "transferBytes": {
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "resourceCount": {
+          "median": 81,
+          "min": 81,
+          "max": 81
+        }
+      },
+      "candidate": {
+        "readyMs": {
+          "median": 2244.199999999255,
+          "min": 2231.199999999255,
+          "max": 2253.800000000745
+        },
+        "lcpMs": {
+          "median": 100,
+          "min": 96,
+          "max": 104
+        },
+        "firstDoorTransitionMs": {
+          "median": 1495,
+          "min": 1483,
+          "max": 1512
+        },
+        "transferBytes": {
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "resourceCount": {
+          "median": 81,
+          "min": 81,
+          "max": 81
+        }
+      },
+      "medianDeltaMs": {
+        "readyMs": -10.399999998509884,
+        "lcpMs": 4,
+        "firstDoorTransitionMs": -2,
+        "transferBytes": 0,
+        "resourceCount": 0
+      }
+    }
+  ],
+  "atlas": {
+    "baseline": [
+      {
+        "round": 0,
+        "profile": "desktop",
+        "endMs": 7367,
+        "requests": 1
+      },
+      {
+        "round": 0,
+        "profile": "touch-emulation",
+        "endMs": 7401.199999999255,
+        "requests": 1
+      },
+      {
+        "round": 1,
+        "profile": "desktop",
+        "endMs": 7405.400000002235,
+        "requests": 1
+      },
+      {
+        "round": 1,
+        "profile": "touch-emulation",
+        "endMs": 7388.599999997765,
+        "requests": 1
+      },
+      {
+        "round": 2,
+        "profile": "desktop",
+        "endMs": 7398.29999999702,
+        "requests": 1
+      },
+      {
+        "round": 2,
+        "profile": "touch-emulation",
+        "endMs": 7403.599999997765,
+        "requests": 1
+      }
+    ],
+    "candidate": [
+      {
+        "round": 0,
+        "profile": "desktop",
+        "endMs": 1537.199999999255,
+        "requests": 1
+      },
+      {
+        "round": 0,
+        "profile": "touch-emulation",
+        "endMs": 1638.199999999255,
+        "requests": 1
+      },
+      {
+        "round": 1,
+        "profile": "desktop",
+        "endMs": 1772.300000000745,
+        "requests": 1
+      },
+      {
+        "round": 1,
+        "profile": "touch-emulation",
+        "endMs": 1614.6000000014901,
+        "requests": 1
+      },
+      {
+        "round": 2,
+        "profile": "desktop",
+        "endMs": 1659.199999999255,
+        "requests": 1
+      },
+      {
+        "round": 2,
+        "profile": "touch-emulation",
+        "endMs": 1797.4000000022352,
+        "requests": 1
+      }
+    ]
+  },
+  "weakTouch": {
+    "network": {
+      "latency": 150,
+      "down": 200000,
+      "upload": 93750
+    },
+    "baseline": [
+      {
+        "mode": "cold",
+        "readyMs": 46115.39999999851,
+        "firstDoorTransitionMs": 1508,
+        "transferBytes": 7930441
+      },
+      {
+        "mode": "warm",
+        "readyMs": 2266.400000002235,
+        "firstDoorTransitionMs": 1482,
+        "transferBytes": 0
+      }
+    ],
+    "candidate": [
+      {
+        "mode": "cold",
+        "readyMs": 44365.39999999851,
+        "firstDoorTransitionMs": 1505,
+        "transferBytes": 7930441
+      },
+      {
+        "mode": "warm",
+        "readyMs": 2285.599999997765,
+        "firstDoorTransitionMs": 1535,
+        "transferBytes": 0
+      }
+    ]
+  }
+}

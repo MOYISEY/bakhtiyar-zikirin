@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-19T06:32:10.713Z",
+  "base": "http://127.0.0.1:5202/",
+  "scope": "startup-2026-10-19",
+  "checks": [
+    {
+      "type": "all fourteen fresh screenshots and seven previews match provenance and production build",
+      "passed": true,
+      "captures": 14,
+      "previewBytes": 258178
+    },
+    {
+      "type": "image-failure",
+      "passed": true
+    },
+    {
+      "type": "controls-chunk-failure",
+      "passed": true,
+      "disclosureOpen": true,
+      "failedScripts": [
+        "http://127.0.0.1:5202/assets/scene-controls-BW5paW9X.js"
+      ]
+    },
+    {
+      "type": "renderer-chunk-failure",
+      "passed": true,
+      "disclosureOpen": true,
+      "failedScripts": [
+        "http://127.0.0.1:5202/assets/scene-o7NQ45Qf.js"
+      ]
+    },
+    {
+      "type": "startup-and-webgl-fallback",
+      "passed": true,
+      "disclosureOpen": true,
+      "failedScripts": []
+    }
+  ],
+  "passed": true
+}

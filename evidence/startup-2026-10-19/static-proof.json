@@ -1,0 +1,11 @@
+{
+  "baseline": "d9b8d5576196721359790ca29e4520c255bb2dde",
+  "trackedBuildFiles": 289,
+  "changedFromBaseline": [
+    "docs/room/index.html"
+  ],
+  "originalRoomHtmlSha256": "e89fd29119cfb9f30124b52cfc61adba4806d522e4bb7ada0e2f132857992e45",
+  "candidateRoomHtmlSha256": "eb8a6517819edfa9fa5daa997d5c0b31df7c16f8c06655330f15009481339661",
+  "sourceEqualsBuild": true,
+  "isolatedCandidateEqualsBuild": true
+}

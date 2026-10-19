@@ -1,0 +1,187 @@
+{
+  "base": "http://127.0.0.1:5202/",
+  "at": "2026-10-19T06:23:39.436Z",
+  "jobs": [
+    {
+      "name": "cube",
+      "file": "test-cube-state.mjs",
+      "args": [],
+      "exit": 0,
+      "durationMs": 96,
+      "summary": "{\"passed\":true,\"checks\":3025,\"turns\":2076}\n"
+    },
+    {
+      "name": "asset-history",
+      "file": "qa-asset-history.mjs",
+      "args": [],
+      "exit": 0,
+      "durationMs": 5174,
+      "summary": "PASS asset history: published baseline, repeated builds and bounded retention\n"
+    },
+    {
+      "name": "completion",
+      "file": "qa-room-completion.cjs",
+      "args": [
+        "http://127.0.0.1:5202/",
+        "startup-2026-10-19"
+      ],
+      "exit": 0,
+      "durationMs": 43587,
+      "summary": "{\"passed\":true,\"checks\":148,\"scenarios\":6}\n"
+    },
+    {
+      "name": "sweep",
+      "file": "qa-joinery-sweep.cjs",
+      "args": [
+        "http://127.0.0.1:5202/",
+        "startup-2026-10-19"
+      ],
+      "exit": 0,
+      "durationMs": 7528,
+      "summary": "\":0.7819,\"apronGap\":0.008400005125999477,\"min\":[0.15699999511241913,0.6584999965131283,-1.75200000166893],\"max\":[0.6030000048875809,0.7734999948740006,-1.3104999935626984]},\"entrance\":{\"intersectingTriangles\":0,\"checkedTriangles\":6600},\"education\":null,\"documents\":[{\"id\":\"drawer-resume\",\"pages\":[{\"name\":\"Resume sheet\",\"min\":[-0.17749999791383742,0.036799999993480714,-0.09249999910593032],\"max\":[-0.03250000208616255,0.038370000000000015,0.11249999910593034]}]}],\"readingTable\":0.550000011920929}}\n"
+    },
+    {
+      "name": "refinement",
+      "file": "qa-room-refinement.cjs",
+      "args": [
+        "http://127.0.0.1:5202/",
+        "startup-2026-10-19"
+      ],
+      "exit": 0,
+      "durationMs": 50661,
+      "summary": "{\"passed\":true,\"checks\":88,\"scenarios\":4}\n"
+    },
+    {
+      "name": "furniture",
+      "file": "qa-room-furniture.cjs",
+      "args": [
+        "http://127.0.0.1:5202/",
+        "startup-2026-10-19"
+      ],
+      "exit": 0,
+      "durationMs": 76779,
+      "summary": "{\"passed\":true,\"checks\":121,\"scenarios\":4}\n"
+    },
+    {
+      "name": "showcase",
+      "file": "qa-room-showcase.cjs",
+      "args": [
+        "http://127.0.0.1:5202/",
+        "startup-2026-10-19"
+      ],
+      "exit": 0,
+      "durationMs": 15973,
+      "summary": ""
+    },
+    {
+      "name": "hotspots",
+      "file": "qa-room-hotspots.cjs",
+      "args": [
+        "http://127.0.0.1:5202/",
+        "startup-2026-10-19"
+      ],
+      "exit": 0,
+      "durationMs": 31107,
+      "summary": "{\"pass\":true,\"checks\":29,\"scenarios\":[{\"name\":\"desktop\",\"earlyProgress\":0.693,\"doorAngle\":1.5399999999999658,\"markers\":[\"object-case\",\"object-profile\",\"object-lamp\",\"object-drawer\"]},{\"name\":\"mobile\",\"earlyProgress\":0.693,\"doorAngle\":1.5399999999999658,\"markers\":[\"object-case\",\"object-profile\",\"object-lamp\",\"object-drawer\"]}]}\n"
+    },
+    {
+      "name": "collection",
+      "file": "qa-room-collection.cjs",
+      "args": [
+        "http://127.0.0.1:5202/",
+        "startup-2026-10-19"
+      ],
+      "exit": 0,
+      "durationMs": 69531,
+      "summary": "{\"passed\":true,\"checks\":102,\"scenarios\":4}\n"
+    },
+    {
+      "name": "collection-edges",
+      "file": "qa-room-collection-edges.cjs",
+      "args": [
+        "http://127.0.0.1:5202/",
+        "startup-2026-10-19"
+      ],
+      "exit": 0,
+      "durationMs": 12243,
+      "summary": "{\"checks\":[\"Cube dialog has no axe violations\",\"Closing during a turn preserves a legal cube\",\"Room rendering settles while object is held\",\"Room context loss releases item renderer\",\"Projects remain accessible after item and room context loss\"],\"passed\":true,\"axe\":[]}\n"
+    },
+    {
+      "name": "context-loss",
+      "file": "qa-room-context-loss.cjs",
+      "args": [
+        "http://127.0.0.1:5202/",
+        "startup-2026-10-19"
+      ],
+      "exit": 0,
+      "durationMs": 9037,
+      "summary": ""
+    },
+    {
+      "name": "case-rain",
+      "file": "qa-room-case-rain.cjs",
+      "args": [
+        "http://127.0.0.1:5202/",
+        "startup-2026-10-19"
+      ],
+      "exit": 0,
+      "durationMs": 31404,
+      "summary": ""
+    },
+    {
+      "name": "pages",
+      "file": "qa-pages.mjs",
+      "args": [
+        "http://127.0.0.1:5202/",
+        "startup-2026-10-19"
+      ],
+      "exit": 0,
+      "durationMs": 157865,
+      "summary": "ue}\n{\"width\":390,\"lang\":\"ru\",\"theme\":\"light\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"ru\",\"theme\":\"dark\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"kk\",\"theme\":\"light\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"kk\",\"theme\":\"dark\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"en\",\"theme\":\"light\",\"passed\":true,\"flow\":true}\n{\"width\":390,\"lang\":\"en\",\"theme\":\"dark\",\"passed\":true,\"flow\":true}\n{\"scope\":\"startup-2026-10-19\",\"passed\":true,\"routes\":132,\"flows\":12,\"edges\":0,\"failed\":[]}\n"
+    },
+    {
+      "name": "pages-edges",
+      "file": "qa-pages-edges.mjs",
+      "args": [
+        "http://127.0.0.1:5202/",
+        "startup-2026-10-19"
+      ],
+      "exit": 0,
+      "durationMs": 9873,
+      "summary": "ed\": true,\n      \"disclosureOpen\": true,\n      \"failedScripts\": [\n        \"http://127.0.0.1:5202/assets/scene-controls-BW5paW9X.js\"\n      ]\n    },\n    {\n      \"type\": \"renderer-chunk-failure\",\n      \"passed\": true,\n      \"disclosureOpen\": true,\n      \"failedScripts\": [\n        \"http://127.0.0.1:5202/assets/scene-o7NQ45Qf.js\"\n      ]\n    },\n    {\n      \"type\": \"startup-and-webgl-fallback\",\n      \"passed\": true,\n      \"disclosureOpen\": true,\n      \"failedScripts\": []\n    }\n  ],\n  \"passed\": true\n}\n"
+    },
+    {
+      "name": "pages-nojs",
+      "file": "qa-pages.mjs",
+      "args": [
+        "http://127.0.0.1:5202/",
+        "startup-2026-10-19-nojs",
+        "--edges-only"
+      ],
+      "exit": 0,
+      "durationMs": 3983,
+      "summary": "{\"scope\":\"startup-2026-10-19-nojs\",\"passed\":true,\"routes\":0,\"flows\":0,\"edges\":4,\"failed\":[]}\n"
+    },
+    {
+      "name": "rail-focus",
+      "file": "qa-project-rail-focus.mjs",
+      "args": [
+        "http://127.0.0.1:5202/",
+        "startup-2026-10-19"
+      ],
+      "exit": 0,
+      "durationMs": 62413,
+      "summary": "{\"passed\":true,\"checks\":220,\"cases\":12}\n"
+    },
+    {
+      "name": "menu",
+      "file": "qa-room-menu.cjs",
+      "args": [
+        "http://127.0.0.1:5202/"
+      ],
+      "exit": 0,
+      "durationMs": 6524,
+      "summary": ""
+    }
+  ]
+}

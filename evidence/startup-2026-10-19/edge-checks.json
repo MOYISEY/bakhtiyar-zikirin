@@ -1,0 +1,167 @@
+{
+  "base": "http://127.0.0.1:4333/",
+  "browser": "155.0.4283.62",
+  "rows": [
+    {
+      "mobile": false,
+      "initialLang": "ru",
+      "switchedLang": "kk",
+      "early": {
+        "usable": false,
+        "loader": false
+      },
+      "readyProgress": 0,
+      "before": [
+        1440,
+        900
+      ],
+      "after": [
+        1024,
+        768
+      ],
+      "phases": [
+        "room",
+        "decor",
+        "expo"
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "mobile": false,
+      "initialLang": "kk",
+      "switchedLang": "en",
+      "early": {
+        "usable": false,
+        "loader": false
+      },
+      "readyProgress": 0,
+      "before": [
+        1440,
+        900
+      ],
+      "after": [
+        1024,
+        768
+      ],
+      "phases": [
+        "room",
+        "decor",
+        "expo"
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "mobile": false,
+      "initialLang": "en",
+      "switchedLang": "ru",
+      "early": {
+        "usable": false,
+        "loader": false
+      },
+      "readyProgress": 0,
+      "before": [
+        1440,
+        900
+      ],
+      "after": [
+        1024,
+        768
+      ],
+      "phases": [
+        "room",
+        "decor",
+        "expo"
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "mobile": true,
+      "initialLang": "ru",
+      "switchedLang": "kk",
+      "early": {
+        "usable": false,
+        "loader": false
+      },
+      "readyProgress": 0,
+      "before": [
+        682,
+        1477
+      ],
+      "after": [
+        752,
+        1435
+      ],
+      "phases": [
+        "room",
+        "decor",
+        "expo"
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "mobile": true,
+      "initialLang": "kk",
+      "switchedLang": "en",
+      "early": {
+        "usable": false,
+        "loader": false
+      },
+      "readyProgress": 0,
+      "before": [
+        682,
+        1477
+      ],
+      "after": [
+        752,
+        1435
+      ],
+      "phases": [
+        "room",
+        "decor",
+        "expo"
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "mobile": true,
+      "initialLang": "en",
+      "switchedLang": "ru",
+      "early": {
+        "usable": false,
+        "loader": false
+      },
+      "readyProgress": 0,
+      "before": [
+        682,
+        1477
+      ],
+      "after": [
+        752,
+        1435
+      ],
+      "phases": [
+        "room",
+        "decor",
+        "expo"
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "case": "failed atlas + retry",
+      "failure": {
+        "loader": false,
+        "usable": false,
+        "retry": false,
+        "fallback": false,
+        "expo": "error"
+      },
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+# First entrance: room atlas request priority — 19 October 2026
+
+Baseline: `d9b8d5576196721359790ca29e4520c255bb2dde`. The checkout and `origin/main` matched and the worktree was clean. No repository or ancestor `AGENTS.md` / `.agents` instruction file was present. Previous room performance, loading, geometry and wall-reader evidence was read; no previous QA process was running. This release changes one resource hint in `public/room/index.html`, copied byte-for-byte by the production build to `docs/room/index.html`.
+
+The already required 1,211,256-byte tree atlas is now preloaded as a same-origin anonymous image with high fetch priority. The room still waits for all three asset phases and GPU preparation before enabling movement or hiding the loader; the atlas is neither duplicated nor removed. No model, texture, resolution, light, shader, render loop, interaction, ordinary-page source, document or copy changed. Of 289 files in the compared production builds, only `room/index.html` differed. The underlying texture is identical.
+
+## Matched startup measurement
+
+Installed Edge 155.0.4283.62 in headless mode on this Windows laptop; desktop 1440×900 DPR 1 and touch emulation 390×844 DPR 1.75. Three serial cold/warm pairs per route and profile for each build, using the same local gzip/ETag/max-age server code, 40 ms latency, 10 Mbps download, 2 Mbps upload and CPU 1×. Cold is a fresh browser context with the HTTP cache cleared; warm is a second navigation with that cache retained. Baseline and candidate series were sequential, so OS/GPU shader caches and run order remain limitations. **Numbers are medians of three navigations, not promised field performance.** The ordinary-page readiness column uses completed DOMContentLoaded with the site-ready flag checked; room readiness is the actual `room-scene-ready` event after the first scene has been rendered. Room LCP describes the HTML loader rather than interactive 3D.
+
+| Route/profile | Cold ready before → after | Warm ready before → after | Cold LCP before → after |
+|---|---:|---:|---:|
+| Ordinary desktop | 276 → 278 ms | 38 → 42 ms | 308 → 296 ms |
+| Ordinary touch emulation | 280 → 282 ms | 37 → 37 ms | 284 → 288 ms |
+| Room desktop | 8,959 → 8,273 ms | 2,267 → 2,248 ms | 192 → 200 ms |
+| Room touch emulation | 8,930 → 8,193 ms | 2,255 → 2,244 ms | 200 → 192 ms |
+
+The measured median cold improvement in the room is 686 ms (7.7%) desktop and 737 ms (8.2%) touch emulation. Three runs per group are too few to infer a stable population percentile. The ordinary page differences are a few milliseconds and do not establish any meaningful change. All 48 navigations passed. Cold room transfer was 7,930,441 bytes in both builds and the warm pass transferred zero bytes. The atlas appeared once in each cold waterfall; its response finished at about 7.4 s before and 1.5–1.8 s after. The critical resource then shifted to existing corridor/window indirect maps or sky. The first door transition remained about 1.5 s after the room became usable. No full PDF/diploma/certificate document was eagerly requested. Ordinary initial navigation did not request the 3D scene renderer; the small diagram-control module can load when its section is open.
+
+One additional touch-emulation control at 150 ms latency and 1.6 Mbps download reached actual room readiness in 46.1 s before and 44.4 s after, with the same 7,930,441 transferred bytes; warm readiness was 2.27 s and 2.29 s. This single weak-channel pair checks for a large regression but is not an expected speedup for all weak networks. The earlier live CDN cold timings were variable; this local result does not remove that risk.
+
+[Grouped data](summary.json) · [all baseline runs](baseline.json) · [all candidate runs](candidate.json) · [weak baseline](weak-baseline.json) · [weak candidate](weak-candidate.json).
+
+An additional unthrottled, read-only WebGL probe measured shader/program calls and texture uploads on two local servers. The baseline server was labelled `live` by the older driver and the candidate server `local`; **both were local**, not GitHub Pages. Every cold and warm run completed with 116 shader-compilation calls, 58 linked programs and 98 texture-upload calls in each build; no hidden partial scene was marked ready. In the first desktop cold baseline, the longest observed parallel program-completion interval was 1,376 ms versus about 360–375 ms in later cold runs, consistent with driver cache warming. The first run's apparent 4.24 → 2.04 s unthrottled change is therefore **not** attributed to the preload. Texture upload call durations totalled roughly 357–370 ms in the comparable cold runs. These are CPU/API observations with overlapping GPU work, not exclusive GPU execution time. [Summary](shader-summary.json) · [compressed raw trace](shader-raw.json.gz).
+
+## Visual and behavior protection
+
+Eight matched real Edge GPU frame pairs cover corridor, half-open door, desk and window on desktop and touch emulation. All paired camera/projection matrices, draw calls and triangle counts match. The largest pixel RMSE is 0.00861/255; no channel in any pair differs by more than 8/255 (observed maximum 3). The corridor and half-open door were also inspected visually. [Pixel comparison](visual-comparison.json) and [matched frames](frames/) are retained for independent review. This checks the rendered result at fixed poses without claiming a physical device test.
+
+Candidate edge QA passed RU/KK/EN × desktop/touch emulation: an early synthetic wheel event did not move through the corridor while the loader was present, resize updated the drawing buffer, changing language, repeated entry and browser Back restored usability. A forced atlas failure left the loader visible, reported an error, kept project fallback accessible and recovered through Retry. [Raw edge checks](edge-checks.json).
+
+The established production regression orchestrator passed **17/17 suites**, including **132/132 ordinary-page route/language/theme/viewport cases**, no-JS, links, native room/menu, furniture, collection, rain and WebGL context-loss checks. The current interaction-access script passed **144 checks** across 16 samples. The saved visible-edge document reader script passed **156 checks** across four desktop/touch and motion profiles. The shadow-cache pixel script passed **158 assertions / 76 cached-vs-fresh comparisons** (max RMSE 0.03819/255, max channel difference 13). [Regression runs](regressions.json) · [logs](regression-logs/) · [page matrix](startup-2026-10-19-pages.json) · [interaction access](interaction-access.json) · [reader edge](wall-edges.json) · [shadow pixels](shadow-qa.json). Older evidence remains intact.
+
+There is no standalone CI workflow in this repository. Local checks above are the release gate; GitHub Pages deployment is checked separately against the exact commit after push.
+
+## Reproduce
+
+`npm ci && npm run build` produces the committed Pages files; use `npm run preview -- --port 5202` for functional regressions. For comparable startup numbers, serve the exact baseline commit's `docs/` and candidate `docs/` with the same `scripts/serve-loading.cjs` policy on separate ports, then run `node scripts/qa-first-entrance.cjs` from the repo root with `STARTUP_BASE`, `STARTUP_LABEL`, `STARTUP_OUTPUT` and, if needed, `STARTUP_ROUNDS`, `STARTUP_LATENCY_MS`, `STARTUP_DOWN_BYTES`, `STARTUP_UP_BYTES`, `STARTUP_PROFILE`, `STARTUP_ROUTE`. The recorded full comparison used three rounds; the weak-channel control used one. `scripts/qa-room-loading.cjs` can reproduce the read-only shader diagnostic with `LOADING_LIVE` / `LOADING_LOCAL` set to those two local origins and `LOADING_OUTPUT` to a fresh directory. Environment labels must be read with the actual origins.
+
+No physical Android or installed Safari test was performed. Network throttling is synthetic and the OS/driver shader cache was not cleared. The loader LCP is not a time-to-interaction metric; the report uses the room's actual ready event for that. No field latency or GPU-frame-rate guarantee is inferred.
