@@ -122,8 +122,13 @@ export async function createWorld(renderer,camera){
  for(const [bottom,top]of [[0,.22],[.37,1.08],[1.23,2.03],[2.18,2.5]])box(.020,top-bottom,.32,joinery,-.530,(bottom+top)/2,2.06,.002);
  for(const y of [.295,1.155,2.105])box(.020,.150,.295,joinery,-.530,y,2.0725,.002);
  box(.14,2.5,.32,joinery,.59,1.25,2.06,.01);
- for(const x of [-.59,.59])box(.025,2.44,.02,brass,x+(x<0?.07:-.07),1.22,2.235,.003);
- box(1.32,.14,.32,joinery,0,2.46,2.06,.01);box(1.05,.016,.33,brass,0,.009,2.06,.003);
+ for(const x of [-.59,.59])box(.025,2.44,.02,joinery,x+(x<0?.07:-.07),1.22,2.235,.003);
+ box(1.32,.14,.32,joinery,0,2.46,2.06,.01);box(1.05,.016,.33,joinery,0,.009,2.06,.003);
+ // A rebated stop overlaps the closed leaf's clearance on all four edges.
+ // It sits corridor-side of the inward swing, leaving the hinge path clear.
+ for(const x of [-.525,.525])box(.07,2.42,.28,joinery,x,1.21,2.08,.003);
+ box(1.10,.07,.28,joinery,0,2.39,2.08,.003);
+ box(1.10,.032,.28,joinery,0,.016,2.08,.003);
  const door=new T.Group();door.position.set(-.515,.025,1.90);scene.add(door);
  const width=1.03,height=2.35;
  for(const x of [.07,width-.07])box(.14,height,.095,joinery,x,height/2,0,.01,door);
