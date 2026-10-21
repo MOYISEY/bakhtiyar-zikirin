@@ -1,0 +1,105 @@
+{
+  "base": "http://127.0.0.1:5202/",
+  "at": "2026-10-21T11:01:36.035Z",
+  "browser": "155.0.4283.62",
+  "method": "Installed Edge; real image requests are deliberately failed once, then restored; desktop/touch emulation and reduced/default motion, no physical device.",
+  "cases": [
+    {
+      "label": "desktop-reduce",
+      "passed": true,
+      "pageErrors": [],
+      "thumbnailInitialFailure": true,
+      "initial": {
+        "imageHidden": true,
+        "errorHidden": false,
+        "thumbnailFailed": true,
+        "fileHref": "http://127.0.0.1:5202/projects/media/helio-detail-1-3200.webp"
+      },
+      "galleryRecovered": {
+        "imageHidden": false,
+        "errorHidden": true,
+        "naturalWidth": 3200
+      },
+      "thumbnailRecovered": true,
+      "afterInterruptedNavigation": {
+        "counter": "2 / 2",
+        "fileHref": "http://127.0.0.1:5202/projects/media/helio-detail-2-3200.webp",
+        "alt": "Тот же участок вечером. Меняется время, а не модель.",
+        "caption": "Тот же участок вечером. Меняется время, а не модель."
+      }
+    },
+    {
+      "label": "desktop-no-preference",
+      "passed": true,
+      "pageErrors": [],
+      "thumbnailInitialFailure": true,
+      "initial": {
+        "imageHidden": true,
+        "errorHidden": false,
+        "thumbnailFailed": true,
+        "fileHref": "http://127.0.0.1:5202/projects/media/helio-detail-1-3200.webp"
+      },
+      "galleryRecovered": {
+        "imageHidden": false,
+        "errorHidden": true,
+        "naturalWidth": 3200
+      },
+      "thumbnailRecovered": true,
+      "afterInterruptedNavigation": {
+        "counter": "2 / 2",
+        "fileHref": "http://127.0.0.1:5202/projects/media/helio-detail-2-3200.webp",
+        "alt": "Тот же участок вечером. Меняется время, а не модель.",
+        "caption": "Тот же участок вечером. Меняется время, а не модель."
+      }
+    },
+    {
+      "label": "touch-reduce",
+      "passed": true,
+      "pageErrors": [],
+      "thumbnailInitialFailure": true,
+      "initial": {
+        "imageHidden": true,
+        "errorHidden": false,
+        "thumbnailFailed": true,
+        "fileHref": "http://127.0.0.1:5202/projects/media/helio-detail-1-3200.webp"
+      },
+      "galleryRecovered": {
+        "imageHidden": false,
+        "errorHidden": true,
+        "naturalWidth": 3200
+      },
+      "thumbnailRecovered": true,
+      "afterInterruptedNavigation": {
+        "counter": "2 / 2",
+        "fileHref": "http://127.0.0.1:5202/projects/media/helio-detail-2-3200.webp",
+        "alt": "Тот же участок вечером. Меняется время, а не модель.",
+        "caption": "Тот же участок вечером. Меняется время, а не модель."
+      }
+    },
+    {
+      "label": "touch-no-preference",
+      "passed": true,
+      "pageErrors": [],
+      "thumbnailInitialFailure": true,
+      "initial": {
+        "imageHidden": true,
+        "errorHidden": false,
+        "thumbnailFailed": true,
+        "fileHref": "http://127.0.0.1:5202/projects/media/helio-detail-1-3200.webp"
+      },
+      "galleryRecovered": {
+        "imageHidden": false,
+        "errorHidden": true,
+        "naturalWidth": 3200
+      },
+      "thumbnailRecovered": true,
+      "afterInterruptedNavigation": {
+        "counter": "2 / 2",
+        "fileHref": "http://127.0.0.1:5202/projects/media/helio-detail-2-3200.webp",
+        "alt": "Тот же участок вечером. Меняется время, а не модель.",
+        "caption": "Тот же участок вечером. Меняется время, а не модель."
+      }
+    }
+  ],
+  "passed": true
+}

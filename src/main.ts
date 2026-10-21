@@ -71,6 +71,10 @@ document.querySelectorAll<HTMLElement>('.project-preview, .gallery-open, .hero-p
     wrapper.querySelector<HTMLElement>('.media-error')!.hidden = false;
   };
   image.addEventListener('error', failed);
+  image.addEventListener('load', () => {
+    wrapper.classList.remove('image-failed');
+    wrapper.querySelector<HTMLElement>('.media-error')!.hidden = true;
+  });
   if (image.complete && !image.naturalWidth) failed();
 });
 const allowedFilters = ['all', 'spatial', 'tools', 'games', 'cases'];
@@ -150,9 +154,15 @@ function renderGallery() {
 }
 function stepGallery(delta: number) { galleryIndex = (galleryIndex + delta + gallery.length) % gallery.length; renderGallery(); }
 if (dialog) {
-  dialog.querySelector<HTMLImageElement>('#gallery-image')!.addEventListener('error', () => {
-    dialog.querySelector<HTMLImageElement>('#gallery-image')!.hidden = true;
-    dialog.querySelector<HTMLElement>('#gallery-error')!.hidden = false;
+  const galleryImage = dialog.querySelector<HTMLImageElement>('#gallery-image')!;
+  const galleryError = dialog.querySelector<HTMLElement>('#gallery-error')!;
+  galleryImage.addEventListener('error', () => {
+    galleryImage.hidden = true;
+    galleryError.hidden = false;
+  });
+  galleryImage.addEventListener('load', () => {
+    galleryImage.hidden = false;
+    galleryError.hidden = true;
   });
   gallery.forEach((link, index) => link.addEventListener('click', event => {
     event.preventDefault(); galleryIndex = index; galleryTrigger = link;
