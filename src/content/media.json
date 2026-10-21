@@ -686,5 +686,193 @@
         }
       ]
     ]
+  },
+  "scanproof": {
+    "card": [
+      {
+        "width": 480,
+        "height": 300,
+        "file": "projects/media/scanproof-card-480.webp",
+        "bytes": 14666,
+        "sha256": "cf91217cf99cd2eda3c687176d5151f008c06a8bc29937fffd3ef58d16e96c03"
+      },
+      {
+        "width": 800,
+        "height": 500,
+        "file": "projects/media/scanproof-card-800.webp",
+        "bytes": 31612,
+        "sha256": "1a1e5d5ce9d08bf4e3f231d3ab6299d308728c29f5e8883c073213e97b61d46a"
+      },
+      {
+        "width": 1200,
+        "height": 750,
+        "file": "projects/media/scanproof-card-1200.webp",
+        "bytes": 57834,
+        "sha256": "c88fe766f0615a1084fbda756c021803644ca36e0b9171a4a6c20ea0b8e241f3"
+      },
+      {
+        "width": 1600,
+        "height": 1000,
+        "file": "projects/media/scanproof-card-1600.webp",
+        "bytes": 92676,
+        "sha256": "e7e430f6f5af6eafc2f80575891df261ff462e695645a0c22021d176c5ee1e87"
+      }
+    ],
+    "shots": [
+      [
+        {
+          "width": 960,
+          "height": 600,
+          "file": "projects/media/scanproof-detail-1-960.webp",
+          "bytes": 41822,
+          "sha256": "6afcddc4411317cefe8c80b1107d6773a8de565fe531648771a34836ce218eae"
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "file": "projects/media/scanproof-detail-1-1600.webp",
+          "bytes": 92676,
+          "sha256": "e7e430f6f5af6eafc2f80575891df261ff462e695645a0c22021d176c5ee1e87"
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "file": "projects/media/scanproof-detail-1-2400.webp",
+          "bytes": 167304,
+          "sha256": "0bec604d3a65a29ecdaab802b6f346d3c4a20c39a828d565af277bf6d83c8aa8"
+        },
+        {
+          "width": 3200,
+          "height": 2000,
+          "file": "projects/media/scanproof-detail-1-3200.webp",
+          "bytes": 245628,
+          "sha256": "58e93af495dee2813d13cc23f6244411d021ad2c7b75fa27037716daa6d22d82"
+        }
+      ],
+      [
+        {
+          "width": 960,
+          "height": 600,
+          "file": "projects/media/scanproof-detail-2-960.webp",
+          "bytes": 37456,
+          "sha256": "5d9291e0a932d2c7ed6e8d82ea5965ae93ff4c9c3a1d672a50b7dbc25a78e1be"
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "file": "projects/media/scanproof-detail-2-1600.webp",
+          "bytes": 87160,
+          "sha256": "93d72b89df7aa24373e01a830e3a031bfb887b1d6c17f2ef84acd36bc7bd6a14"
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "file": "projects/media/scanproof-detail-2-2400.webp",
+          "bytes": 158062,
+          "sha256": "59da73dbd702780d3deca9488529096ca3df7f70786aea0bd8b82698d0d883a6"
+        },
+        {
+          "width": 3200,
+          "height": 2000,
+          "file": "projects/media/scanproof-detail-2-3200.webp",
+          "bytes": 239824,
+          "sha256": "1f6f682cfaac694abc5c078a61b5adb9e5cbe969bc98b424a3082f12a711575a"
+        }
+      ]
+    ]
+  },
+  "quotelens": {
+    "card": [
+      {
+        "width": 480,
+        "height": 300,
+        "file": "projects/media/quotelens-card-480.webp",
+        "bytes": 13670,
+        "sha256": "e0137cd0a987ca4b381af0920c94cbb35e11ff7f0e8ce8eaf427d8de7453dca9"
+      },
+      {
+        "width": 800,
+        "height": 500,
+        "file": "projects/media/quotelens-card-800.webp",
+        "bytes": 28270,
+        "sha256": "82310d9c9b177d78fa788ec5ae494a84266bae24ddf2e68c4a4bec712530a0be"
+      },
+      {
+        "width": 1200,
+        "height": 750,
+        "file": "projects/media/quotelens-card-1200.webp",
+        "bytes": 51882,
+        "sha256": "dd2e6774a4bdbcf50b1ec23164c6d0a1506278ba6a2e587f7982683a7c42b078"
+      },
+      {
+        "width": 1600,
+        "height": 1000,
+        "file": "projects/media/quotelens-card-1600.webp",
+        "bytes": 82698,
+        "sha256": "cc11836bf38324ed99526c74ce05e66b45cd5a59b269a3aa381fac19d01fdbb1"
+      }
+    ],
+    "shots": [
+      [
+        {
+          "width": 960,
+          "height": 600,
+          "file": "projects/media/quotelens-detail-1-960.webp",
+          "bytes": 38188,
+          "sha256": "7ea8999353f3b2534dbe5e3996beec1e6e1366a0c9728710f3146a4d6b511fea"
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "file": "projects/media/quotelens-detail-1-1600.webp",
+          "bytes": 82698,
+          "sha256": "cc11836bf38324ed99526c74ce05e66b45cd5a59b269a3aa381fac19d01fdbb1"
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "file": "projects/media/quotelens-detail-1-2400.webp",
+          "bytes": 149272,
+          "sha256": "d5e26b66adf8f7499c2b747ff28222d00df1108d8a13484c97ed17f8dccc7a93"
+        },
+        {
+          "width": 3200,
+          "height": 2000,
+          "file": "projects/media/quotelens-detail-1-3200.webp",
+          "bytes": 222912,
+          "sha256": "12ea6038000ec61fc88934f8c0c771a02bf6e2f0921e1a5172d13d70bbdfeeaa"
+        }
+      ],
+      [
+        {
+          "width": 960,
+          "height": 600,
+          "file": "projects/media/quotelens-detail-2-960.webp",
+          "bytes": 43020,
+          "sha256": "732bcd5fd26d8375fb4b0546121b09dc5e204985ff34db964be80d668f4f1da4"
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "file": "projects/media/quotelens-detail-2-1600.webp",
+          "bytes": 96338,
+          "sha256": "c398f487b1b0055ecf194c933ef929f6c3f86edea77ef194b4f0e2fe356fbf2e"
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "file": "projects/media/quotelens-detail-2-2400.webp",
+          "bytes": 174852,
+          "sha256": "6a65181ebf1e035b5812f739b4fac16e8bb5e7813620d15e630b0fbd1cf47551"
+        },
+        {
+          "width": 3200,
+          "height": 2000,
+          "file": "projects/media/quotelens-detail-2-3200.webp",
+          "bytes": 253498,
+          "sha256": "99f37c76fc7d3c91e558763c9954ebc125c8ee148b0bbb9f2e503a5d501ef090"
+        }
+      ]
+    ]
   }
 }

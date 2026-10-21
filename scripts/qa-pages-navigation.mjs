@@ -1,9 +1,9 @@
 import assert from 'node:assert/strict';
 import {readFileSync,writeFileSync} from 'node:fs';
 import {openBrowser} from './browser-config.mjs';
-const base=process.argv[2]??'http://127.0.0.1:5202/',scope=process.argv[3]??'local',projectData=JSON.parse(readFileSync('src/content/projects.json','utf8')),ids=projectData.map(p=>p.id);
+const base=process.argv[2]??'http://127.0.0.1:5202/',scope=process.argv[3]??'local',projectData=JSON.parse(readFileSync('src/content/projects.json','utf8')),ids=projectData.map(p=>p.id),featured=JSON.parse(readFileSync('src/content/featured.json','utf8'));
 const version=process.env.QA_EVIDENCE_VERSION??'v12';
-const report={at:new Date().toISOString(),base,scope,method:'Actual clicks on all twelve image cards, all nine catalog project titles, all four primary navigation links, home work anchor and return-to-top. Live image cards open their real demos in a new tab; case-only image cards stay internal. Both public mailto destinations checked without launching an OS client. Native Chromium desktop and touch emulation; no physical device claim.',checks:[],passed:false};
+const report={at:new Date().toISOString(),base,scope,method:'Actual clicks on featured showcase previews, all catalog image cards and all catalog project titles, all four primary navigation links, home work anchor and return-to-top. Live image cards open their real demos in a new tab; case-only image cards stay internal. Both public mailto destinations checked without launching an OS client. Native Chromium desktop and touch emulation; no physical device claim.',checks:[],passed:false};
 const browser=await openBrowser();
 try {
  for(const [width,lang,theme] of [[1366,'ru','light'],[390,'kk','dark']]) {
@@ -11,8 +11,8 @@ try {
   await context.addInitScript(p=>localStorage.setItem('portfolio.preferences.v1',JSON.stringify(p)),{language:lang,theme});
   const page=await context.newPage(),entry={width,lang,theme,clicked:[],passed:false};
   try {
-   for(const [path,projects] of [['',ids.slice(0,3)],['projects/',ids]])for(const id of projects) {
-    await page.goto(new URL(path,base).href);await page.waitForFunction(()=>document.body.dataset.siteReady==='true');const demo=projectData.find(p=>p.id===id).demo;if(demo){const [popup]=await Promise.all([page.waitForEvent('popup'),page.locator('#'+id+' .project-preview').click()]);await popup.waitForURL(u=>u.href.startsWith(demo),{waitUntil:'commit'});assert(popup.url().startsWith(demo));assert.equal(await popup.evaluate(()=>opener===null),true);await popup.close()}else{await page.locator('#'+id+' .project-preview').click();await page.waitForFunction(id=>document.body.dataset.project===id,id)}
+   for(const [path,projects] of [['',featured],['projects/',ids]])for(const id of projects) {
+    await page.goto(new URL(path,base).href);await page.waitForFunction(()=>document.body.dataset.siteReady==='true');if(!path)await page.locator('#choose-'+id).click();const preview=page.locator('#'+id+(path?' .project-preview':' .showcase-preview'));const demo=projectData.find(p=>p.id===id).demo;if(demo){const [popup]=await Promise.all([page.waitForEvent('popup'),preview.click()]);await popup.waitForURL(u=>u.href.startsWith(demo),{waitUntil:'commit'});assert(popup.url().startsWith(demo));assert.equal(await popup.evaluate(()=>opener===null),true);await popup.close()}else{await preview.click();await page.waitForFunction(id=>document.body.dataset.project===id,id)}
     assert.equal(await page.locator('html').getAttribute('lang'),lang);assert.equal(await page.locator('html').getAttribute('data-theme'),theme);entry.clicked.push((path||'home/')+id+' image');
    }
    for(const id of ids) {

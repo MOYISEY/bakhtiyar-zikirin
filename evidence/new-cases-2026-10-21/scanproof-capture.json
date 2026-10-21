@@ -1,0 +1,136 @@
+{
+  "sourceUrl": "https://moyisey.github.io/scanproof/",
+  "remoteSha": "9a68dbc723b3e19fe28d152cf46f9c0e468a9067",
+  "at": "2026-10-21T14:43:40.911Z",
+  "browser": "155.0.4283.62",
+  "method": "Installed Edge, DPR2 screenshots of the actual public app with its built-in synthetic pages; one canvas resize/encode to WebP, no generated interface or personal data.",
+  "captures": [
+    {
+      "state": "three built-in synthetic pages, unassigned tasks and explicit empty-page warning",
+      "file": "scanproof-detail-1-source.png",
+      "width": 3200,
+      "height": 2000,
+      "sha256": "7a1945e906b6ce9308eddf0b3184081d46265bc911b26b99c96b01666d98276a",
+      "bytes": 408717
+    },
+    {
+      "state": "three tasks manually assigned, second synthetic page selected, human review confirmed and PDF enabled; third page remains intentionally blank",
+      "file": "scanproof-detail-2-source.png",
+      "width": 3200,
+      "height": 2000,
+      "sha256": "fc740887486273cb32bd93e42062a0fa38853c11cb7ca462731572ae3f561770",
+      "bytes": 426782
+    }
+  ],
+  "assets": {
+    "card": [
+      {
+        "width": 480,
+        "height": 300,
+        "file": "projects/media/scanproof-card-480.webp",
+        "bytes": 14666,
+        "sha256": "cf91217cf99cd2eda3c687176d5151f008c06a8bc29937fffd3ef58d16e96c03"
+      },
+      {
+        "width": 800,
+        "height": 500,
+        "file": "projects/media/scanproof-card-800.webp",
+        "bytes": 31612,
+        "sha256": "1a1e5d5ce9d08bf4e3f231d3ab6299d308728c29f5e8883c073213e97b61d46a"
+      },
+      {
+        "width": 1200,
+        "height": 750,
+        "file": "projects/media/scanproof-card-1200.webp",
+        "bytes": 57834,
+        "sha256": "c88fe766f0615a1084fbda756c021803644ca36e0b9171a4a6c20ea0b8e241f3"
+      },
+      {
+        "width": 1600,
+        "height": 1000,
+        "file": "projects/media/scanproof-card-1600.webp",
+        "bytes": 92676,
+        "sha256": "e7e430f6f5af6eafc2f80575891df261ff462e695645a0c22021d176c5ee1e87"
+      }
+    ],
+    "shots": [
+      [
+        {
+          "width": 960,
+          "height": 600,
+          "file": "projects/media/scanproof-detail-1-960.webp",
+          "bytes": 41822,
+          "sha256": "6afcddc4411317cefe8c80b1107d6773a8de565fe531648771a34836ce218eae"
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "file": "projects/media/scanproof-detail-1-1600.webp",
+          "bytes": 92676,
+          "sha256": "e7e430f6f5af6eafc2f80575891df261ff462e695645a0c22021d176c5ee1e87"
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "file": "projects/media/scanproof-detail-1-2400.webp",
+          "bytes": 167304,
+          "sha256": "0bec604d3a65a29ecdaab802b6f346d3c4a20c39a828d565af277bf6d83c8aa8"
+        },
+        {
+          "width": 3200,
+          "height": 2000,
+          "file": "projects/media/scanproof-detail-1-3200.webp",
+          "bytes": 245628,
+          "sha256": "58e93af495dee2813d13cc23f6244411d021ad2c7b75fa27037716daa6d22d82"
+        }
+      ],
+      [
+        {
+          "width": 960,
+          "height": 600,
+          "file": "projects/media/scanproof-detail-2-960.webp",
+          "bytes": 37456,
+          "sha256": "5d9291e0a932d2c7ed6e8d82ea5965ae93ff4c9c3a1d672a50b7dbc25a78e1be"
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "file": "projects/media/scanproof-detail-2-1600.webp",
+          "bytes": 87160,
+          "sha256": "93d72b89df7aa24373e01a830e3a031bfb887b1d6c17f2ef84acd36bc7bd6a14"
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "file": "projects/media/scanproof-detail-2-2400.webp",
+          "bytes": 158062,
+          "sha256": "59da73dbd702780d3deca9488529096ca3df7f70786aea0bd8b82698d0d883a6"
+        },
+        {
+          "width": 3200,
+          "height": 2000,
+          "file": "projects/media/scanproof-detail-2-3200.webp",
+          "bytes": 239824,
+          "sha256": "1f6f682cfaac694abc5c078a61b5adb9e5cbe969bc98b424a3082f12a711575a"
+        }
+      ]
+    ]
+  },
+  "errors": [],
+  "passed": true,
+  "state": {
+    "pageCount": "Страницы 3",
+    "coverage": "3 / 3",
+    "pdfEnabled": true,
+    "syntheticFiles": [
+      "01 Страница 1\nsynthetic-1.jpg\n1 зад.",
+      "02 Страница 2\nsynthetic-2.png\n2 зад.",
+      "03 Страница 3\nsynthetic-3.webp\nПроверьте пустоту\n0 зад."
+    ]
+  },
+  "mobile": {
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "pages": "Страницы 3"
+  }
+}

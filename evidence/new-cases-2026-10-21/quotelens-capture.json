@@ -1,0 +1,134 @@
+{
+  "sourceUrl": "https://moyisey.github.io/quotelens/",
+  "remoteSha": "333fe2d78c10ff018fecc0b34b93ca56170be2e5",
+  "at": "2026-10-21T14:48:04.337Z",
+  "browser": "155.0.4283.62",
+  "method": "Installed Edge, DPR2 screenshots of the actual public app with its first-visit fictional basket; one canvas resize/encode to WebP, no generated interface or personal data.",
+  "captures": [
+    {
+      "state": "first-visit fictional basket: River Office lowest complete total, three eligible quotes and incomplete Quick Quote excluded",
+      "file": "quotelens-detail-1-source.png",
+      "width": 3200,
+      "height": 2000,
+      "sha256": "4b9b9050f198403d66e325d4dfce1b9836bb3fa1ab72bcd9053126fa45f87ca4",
+      "bytes": 242928
+    },
+    {
+      "state": "expanded River Office arithmetic and Quick Quote exclusion reasons in the same fictional basket",
+      "file": "quotelens-detail-2-source.png",
+      "width": 3200,
+      "height": 2000,
+      "sha256": "52839375c06bc6a11358529643788172338b8c91702eb3a791b683397b5c9775",
+      "bytes": 281100
+    }
+  ],
+  "assets": {
+    "card": [
+      {
+        "width": 480,
+        "height": 300,
+        "file": "projects/media/quotelens-card-480.webp",
+        "bytes": 13670,
+        "sha256": "e0137cd0a987ca4b381af0920c94cbb35e11ff7f0e8ce8eaf427d8de7453dca9"
+      },
+      {
+        "width": 800,
+        "height": 500,
+        "file": "projects/media/quotelens-card-800.webp",
+        "bytes": 28270,
+        "sha256": "82310d9c9b177d78fa788ec5ae494a84266bae24ddf2e68c4a4bec712530a0be"
+      },
+      {
+        "width": 1200,
+        "height": 750,
+        "file": "projects/media/quotelens-card-1200.webp",
+        "bytes": 51882,
+        "sha256": "dd2e6774a4bdbcf50b1ec23164c6d0a1506278ba6a2e587f7982683a7c42b078"
+      },
+      {
+        "width": 1600,
+        "height": 1000,
+        "file": "projects/media/quotelens-card-1600.webp",
+        "bytes": 82698,
+        "sha256": "cc11836bf38324ed99526c74ce05e66b45cd5a59b269a3aa381fac19d01fdbb1"
+      }
+    ],
+    "shots": [
+      [
+        {
+          "width": 960,
+          "height": 600,
+          "file": "projects/media/quotelens-detail-1-960.webp",
+          "bytes": 38188,
+          "sha256": "7ea8999353f3b2534dbe5e3996beec1e6e1366a0c9728710f3146a4d6b511fea"
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "file": "projects/media/quotelens-detail-1-1600.webp",
+          "bytes": 82698,
+          "sha256": "cc11836bf38324ed99526c74ce05e66b45cd5a59b269a3aa381fac19d01fdbb1"
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "file": "projects/media/quotelens-detail-1-2400.webp",
+          "bytes": 149272,
+          "sha256": "d5e26b66adf8f7499c2b747ff28222d00df1108d8a13484c97ed17f8dccc7a93"
+        },
+        {
+          "width": 3200,
+          "height": 2000,
+          "file": "projects/media/quotelens-detail-1-3200.webp",
+          "bytes": 222912,
+          "sha256": "12ea6038000ec61fc88934f8c0c771a02bf6e2f0921e1a5172d13d70bbdfeeaa"
+        }
+      ],
+      [
+        {
+          "width": 960,
+          "height": 600,
+          "file": "projects/media/quotelens-detail-2-960.webp",
+          "bytes": 43020,
+          "sha256": "732bcd5fd26d8375fb4b0546121b09dc5e204985ff34db964be80d668f4f1da4"
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "file": "projects/media/quotelens-detail-2-1600.webp",
+          "bytes": 96338,
+          "sha256": "c398f487b1b0055ecf194c933ef929f6c3f86edea77ef194b4f0e2fe356fbf2e"
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "file": "projects/media/quotelens-detail-2-2400.webp",
+          "bytes": 174852,
+          "sha256": "6a65181ebf1e035b5812f739b4fac16e8bb5e7813620d15e630b0fbd1cf47551"
+        },
+        {
+          "width": 3200,
+          "height": 2000,
+          "file": "projects/media/quotelens-detail-2-3200.webp",
+          "bytes": 253498,
+          "sha256": "99f37c76fc7d3c91e558763c9954ebc125c8ee148b0bbb9f2e503a5d501ef090"
+        }
+      ]
+    ]
+  },
+  "errors": [],
+  "passed": true,
+  "state": {
+    "eligible": "3 / 4",
+    "minimum": "1 658,00 RUB",
+    "expandedDisclosures": [
+      "Формулы и количество",
+      "4 причин исключения"
+    ]
+  },
+  "mobile": {
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "hasFictionalBasket": true
+  }
+}

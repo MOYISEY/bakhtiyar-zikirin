@@ -2,7 +2,7 @@ import {openBrowser} from './browser-config.mjs';
 import {readFileSync,writeFileSync} from 'node:fs';
 const base=process.argv[2]??'http://127.0.0.1:5202/',scope=process.argv[3]??'local';
 const version=process.env.QA_EVIDENCE_VERSION??'v12';
-const report={at:new Date().toISOString(),base,scope,method:'Actual native Chromium clicks on each distinct external action in the nine case pages and GitHub profile. The popup navigation HTTP response, page title and native ZIP signature; no claim of a new child-app audit or OS mail client test.',links:[],passed:false};
+const report={at:new Date().toISOString(),base,scope,method:'Actual native Chromium clicks on each distinct external action in the case pages and GitHub profile. The popup navigation HTTP response, page title and native ZIP signature; no claim of a new child-app audit or OS mail client test.',links:[],passed:false};
 const browser=await openBrowser(),context=await browser.newContext({viewport:{width:1366,height:768},acceptDownloads:true}),page=await context.newPage();
 const projects=JSON.parse(readFileSync('src/content/projects.json','utf8')),seen=new Set(),downloads=[];
 const responses=new Map();context.on('response',r=>{if(r.request().isNavigationRequest())responses.set(r.url(),r.status());});

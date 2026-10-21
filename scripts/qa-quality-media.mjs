@@ -32,7 +32,7 @@ try{
    try{
     const response=await page.goto(new URL(route,base).href,{waitUntil:'load'});assert.equal(response.status(),200);await page.waitForFunction(()=>document.body.dataset.siteReady==='true');await page.evaluate(()=>document.fonts.ready);
     entry.initialImages=requests.map(x=>new URL(x).pathname.split('/').at(-1));
-    if(route===''||route==='projects/')assert(!entry.initialImages.some(x=>x.includes('-detail-')),'Card page downloaded detailed case imagery');
+    if(route==='projects/')assert(!entry.initialImages.some(x=>x.includes('-detail-')),'Catalog downloaded detailed case imagery');
     const images=page.locator('.hero-preview img,.project-preview img,.case-media img');
     for(let i=0;i<await images.count();i++)await check(images.nth(i),entry,(route===''?'home':route==='projects/'?'catalog':route.split('/').at(-1).replace('.html',''))+'-'+i);
     assert(!entry.images.some(i=>i.file.endsWith('.jpg')));assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1),false);
