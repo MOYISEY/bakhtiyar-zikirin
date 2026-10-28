@@ -79,8 +79,12 @@ projects.forEach((project,i)=>{
  const prefix='../',next=projects[(i+1)%projects.length];
  const links=[project.demo&&ext(project.demo,'v12.demo','primary-link'),project.code&&ext(project.code,'v12.code'),project.windows&&ext(project.windows,'v12.windows'),project.qa&&ext(project.qa,'v12.qa')].filter(Boolean).join('');
  const info=`<div class="case-context"><div>${text('v12.context','h2')}${text(project.context,'p')}</div><div>${text('v12.stack','h2')}<ul class="project-stack">${project.stack.map(s=>`<li>${esc(s)}</li>`).join('')}</ul></div></div><div class="case-outcome"><div>${text('v12.result','h2')}${text(project.result,'p')}</div><div>${text('v12.limits','h2')}${text(project.limit,'p')}</div></div>`;
+ const note=project.diagram?text('v12.diagramNote','p','class="diagram-note"'):text(project.captureKey??'v12.captured','p','class="capture-note"');
+ const leading=featured.includes(project.id)
+  ? `${note}${projectBrief(project)}${figure(project,prefix,1)}<details class="project-detail-notes"><summary>${text('brief.details')}</summary>${info}</details>`
+  : `${info}${note}${figure(project,prefix,1)}`;
  const body=`<article class="project-page page-section" aria-labelledby="project-title"><div class="case-back">${internal('../projects/','v12.back')}</div><header class="case-intro"><div><p class="eyebrow">${text('v12.'+project.category)}</p><h1 id="project-title">${title(project)}</h1>${text(project.description,'p')}</div><div class="case-actions">${links}</div></header>
- ${project.diagram?text('v12.diagramNote','p','class="diagram-note"'):text(project.captureKey??'v12.captured','p','class="capture-note"')}${featured.includes(project.id)?projectBrief(project):''}${figure(project,prefix,1)}${featured.includes(project.id)?`<details class="project-detail-notes"><summary>${text('brief.details')}</summary>${info}</details>`:info}${project.diagram?'':figure(project,prefix,2)}
+ ${leading}${project.diagram?'':figure(project,prefix,2)}
  ${project.id==='rowline'?`<section class="case-sample">${text('v12.sampleTitle','h2')}${fragments.sample}</section>`:''}
  <nav class="case-pagination" aria-label="Проекты" data-i18n-attrs='[{"attr":"aria-label","key":"v12.projects"}]'>${internal('../projects/','v12.back')}<a class="site-internal next-case" href="${next.id}.html">${text('v12.nextProject')}<strong>${title(next)}</strong><span aria-hidden="true">→</span></a></nav></article>${lightbox}`;
  writeFileSync('projects/'+project.id+'.html',shell(body,{prefix,page:'project',projectId:project.id,titleKey:'v12.page.'+project.id}));

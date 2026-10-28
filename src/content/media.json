@@ -874,5 +874,99 @@
         }
       ]
     ]
+  },
+  "ash-coast": {
+    "card": [
+      {
+        "width": 480,
+        "height": 300,
+        "file": "projects/media/ash-coast-card-480.webp",
+        "bytes": 19036,
+        "sha256": "8af5f7d64db39597061c9f0c84318132b4f4a1fd19772c0946ca7b266a0c3b96"
+      },
+      {
+        "width": 800,
+        "height": 500,
+        "file": "projects/media/ash-coast-card-800.webp",
+        "bytes": 42906,
+        "sha256": "554faa552145ece67c2f6b0500b5f58c5fffdeaa0db6ad0ebd133ae44cd0453b"
+      },
+      {
+        "width": 1200,
+        "height": 750,
+        "file": "projects/media/ash-coast-card-1200.webp",
+        "bytes": 73830,
+        "sha256": "d4def65817adc4027c42bbdeff714f609247ed42a555f8d4313e4aa837a3ca59"
+      },
+      {
+        "width": 1600,
+        "height": 1000,
+        "file": "projects/media/ash-coast-card-1600.webp",
+        "bytes": 99914,
+        "sha256": "dff7ecf0d4a2eb2d04440321e86bf70cc564fe7c3e6e836e8ba672ba40977514"
+      }
+    ],
+    "shots": [
+      [
+        {
+          "width": 960,
+          "height": 600,
+          "file": "projects/media/ash-coast-detail-1-960.webp",
+          "bytes": 54562,
+          "sha256": "59d28a21b7483236a2cb0bf2ac98fe91085c4e306b1a28b709b0cf03c01ac17e"
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "file": "projects/media/ash-coast-detail-1-1600.webp",
+          "bytes": 99914,
+          "sha256": "dff7ecf0d4a2eb2d04440321e86bf70cc564fe7c3e6e836e8ba672ba40977514"
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "file": "projects/media/ash-coast-detail-1-2400.webp",
+          "bytes": 164986,
+          "sha256": "833463a62cb3927066ead2dac7bb31fd3f7646cdcd4342b36a50cef5dc25bffa"
+        },
+        {
+          "width": 3200,
+          "height": 2000,
+          "file": "projects/media/ash-coast-detail-1-3200.webp",
+          "bytes": 226198,
+          "sha256": "b9768eb9935dbc9bef6a69c69b40539e058351bf3949e2d0c2cf03f2d47f07db"
+        }
+      ],
+      [
+        {
+          "width": 960,
+          "height": 600,
+          "file": "projects/media/ash-coast-detail-2-960.webp",
+          "bytes": 23304,
+          "sha256": "7bdfcb4fbf1e690d267c692893b91101fd93f5d45baa658c855e2a2d71a2cc28"
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "file": "projects/media/ash-coast-detail-2-1600.webp",
+          "bytes": 43114,
+          "sha256": "38198c748dc820fe931cf14185963605077f9b5c4e2a41fa7ce9786436fbe5bb"
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "file": "projects/media/ash-coast-detail-2-2400.webp",
+          "bytes": 68914,
+          "sha256": "6e6a70cf2c70a89dd661cb32684fa1f1c74ee0e1d2dbf52fb04153654964da1b"
+        },
+        {
+          "width": 3200,
+          "height": 2000,
+          "file": "projects/media/ash-coast-detail-2-3200.webp",
+          "bytes": 93272,
+          "sha256": "0eb07d5d502f9a7202dab0936c9dbefae35a69fde2bf0c9b171c6c3c68d9cbf2"
+        }
+      ]
+    ]
   }
 }

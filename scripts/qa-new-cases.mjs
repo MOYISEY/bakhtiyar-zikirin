@@ -26,7 +26,7 @@ try{
     ok(label+' '+lang+' catalog HTTP',response.status()===200);
     await page.waitForFunction(()=>document.body.dataset.siteReady==='true');
     await page.evaluate(()=>document.fonts.ready);
-    ok(label+' '+lang+' catalog has 11 cards',await page.locator('.visual-card').count()===projects.length);
+    ok(label+' '+lang+' catalog has all project cards',await page.locator('.visual-card').count()===projects.length);
     ok(label+' '+lang+' catalog count',await page.locator('#filter-count').innerText()===String(projects.length));
     await page.locator('[data-filter="tools"]').click();
     ok(label+' '+lang+' tools filter has 5',await page.locator('.visual-card:visible').count()===5);
